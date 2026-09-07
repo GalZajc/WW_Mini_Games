@@ -1,0 +1,6 @@
+{
+    "name": "Number Memory",
+    "description": "Remember a growing sequence of digits, then type it back without a time limit.",
+    "icon": "🔢",
+    "type": "2d"
+}

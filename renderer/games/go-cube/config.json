@@ -1,0 +1,7 @@
+{
+    "name": "Go Cube",
+    "description": "Play Go on a continuous cuboid surface or on a configurable rectangle.",
+    "icon": "⚫",
+    "type": "2d",
+    "hidden": true
+}

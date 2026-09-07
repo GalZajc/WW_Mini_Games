@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+    <title>WW Mobile Controller</title>
+    <link rel="stylesheet" href="/controller.css">
+</head>
+<body>
+    <main class="app-shell">
+        <section class="hero">
+            <div class="badge">WW Mobile Controller</div>
+            <h1>Phone Sensor Test</h1>
+            <p class="subtitle">Tilt the phone, shake it, and tap the pad below. The desktop game will receive orientation, motion, and raw touch data in real time.</p>
+        </section>
+
+        <section class="status-grid">
+            <article class="status-card">
+                <span class="label">Socket</span>
+                <strong id="socket-status">Connecting...</strong>
+            </article>
+            <article class="status-card">
+                <span class="label">Sensors</span>
+                <strong id="sensor-status">Waiting</strong>
+            </article>
+            <article class="status-card">
+                <span class="label">Touches</span>
+                <strong id="touch-status">0 active</strong>
+            </article>
+        </section>
+
+        <section class="actions">
+            <button id="enable-button" type="button">Enable Motion Sensors</button>
+            <div class="action-row">
+                <button id="open-app-button" type="button" class="secondary-button">Open Android App</button>
+                <button id="copy-link-button" type="button" class="secondary-button">Copy Pairing Link</button>
+            </div>
+            <div id="app-link-status" class="hint-text"></div>
+            <div id="hint-text" class="hint-text">Open this page from the desktop pairing URL, then tap the button once to grant motion access.</div>
+        </section>
+
+        <section id="touchpad" class="touchpad">
+            <div class="touchpad-header">
+                <div>
+                    <div class="touchpad-title">Raw Touch Pad</div>
+                    <div class="touchpad-copy">Tap, drag, and use multiple fingers to stream raw touch positions.</div>
+                </div>
+                <button id="touchpad-toggle" type="button" class="touchpad-toggle">Open Fullscreen</button>
+            </div>
+            <div id="touch-overlay" class="touch-overlay"></div>
+        </section>
+
+        <section class="telemetry">
+            <div class="telemetry-row"><span>beta</span><strong id="beta-value">0.0</strong></div>
+            <div class="telemetry-row"><span>gamma</span><strong id="gamma-value">0.0</strong></div>
+            <div class="telemetry-row"><span>lin acc X</span><strong id="accx-value">0.0</strong></div>
+            <div class="telemetry-row"><span>lin acc Y</span><strong id="accy-value">0.0</strong></div>
+            <div class="telemetry-row"><span>Packets</span><strong id="packet-value">0</strong></div>
+            <div class="telemetry-row"><span>Context</span><strong id="context-value">Checking...</strong></div>
+        </section>
+    </main>
+
+    <script src="/controller.js"></script>
+</body>
+</html>

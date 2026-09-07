@@ -1,0 +1,11 @@
+repeat,durationMs,stable,solver,virtualWork,bodyCount,contactReactionCount
+1,16.886300000000006,true,coupled-equilibrium,0,30,504
+2,17.72660000000002,true,coupled-equilibrium,0,30,504
+3,18.930000000000007,true,coupled-equilibrium,0,30,504
+4,19.346499999999992,true,coupled-equilibrium,0,30,504
+5,18.882199999999955,true,coupled-equilibrium,0,30,504
+6,19.748800000000017,true,coupled-equilibrium,0,30,504
+7,24.456099999999992,true,coupled-equilibrium,0,30,504
+8,23.69530000000009,true,coupled-equilibrium,0,30,504
+9,21.70130000000006,true,coupled-equilibrium,0,30,504
+10,14.72849999999994,true,coupled-equilibrium,0,30,504

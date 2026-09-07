@@ -1,0 +1,51 @@
+{
+  "mode": "2d",
+  "threeD_ropeLength": 1.7,
+  "threeD_ropeStiffness": 42,
+  "threeD_ballRadius": 0.26,
+  "threeD_cupRadius": 0.34,
+  "twoD_gravity": 8.8,
+  "twoD_ropeLength": 5,
+  "twoD_ropeStiffness": 7000,
+  "twoD_ropeDamping": 10000,
+  "twoD_viewHeightFactor": 2.6,
+  "twoD_ballRadius": 0.19,
+  "twoD_cupRadius": 0.26,
+  "twoD_angularSpeedDegrees": 125,
+  "twoD_cupRestitution": 0.34,
+  "twoD_cupFriction": 0.32,
+  "cupProfileVersion": 2,
+  "ropeLength": 2.2,
+  "ropeStiffness": 206,
+  "ballRadius": 0.17,
+  "cupRadius": 0.27,
+  "pathWidth": 165,
+  "friction": 1.8,
+  "stickiness": 0.5,
+  "tiltStrength": 525,
+  "tiltCalibRightX": null,
+  "tiltCalibRightY": null,
+  "tiltCalibForwardX": null,
+  "tiltCalibForwardY": null,
+  "mobileCalibration": {
+    "neutral": {
+      "beta": 89.38165864872774,
+      "gamma": 113.31073463224718
+    },
+    "forward": {
+      "x": -113.67210123825362,
+      "y": -18.098840168374878
+    },
+    "right": {
+      "x": -24.821624613689195,
+      "y": -23.193792458989208
+    },
+    "updatedAt": 1776641595111,
+    "inverse": {
+      "m00": 0.00827472196320457,
+      "m01": -0.051970459099548415,
+      "m10": -0.010604115075051216,
+      "m11": 0.011348353841601752
+    }
+  }
+}

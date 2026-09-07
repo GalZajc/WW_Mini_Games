@@ -1,0 +1,36 @@
+{
+  "name": "ww-mini-games",
+  "version": "1.0.0",
+  "description": "WarioWare-style mini games collection",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "test:flappy-variants:smoke": "node tests/new-flappy-games-smoke.mjs",
+    "test:rod-balance:smoke": "node tests/rod-balance-smoke.mjs",
+    "test:rubiks-cuboid:smoke": "node tests/rubiks-cuboid-smoke.mjs",
+    "test:n-in-a-row": "node tests/n-in-a-row-logic.mjs",
+    "test:sudoku": "node tests/sudoku-logic.mjs",
+    "test:go-cube": "node tests/go-cube-logic.mjs",
+    "test:expanded-games:smoke": "node tests/expanded-games-smoke.mjs",
+    "test:launcher:smoke": "node tests/launcher-visual-smoke.mjs",
+    "test:tarzan-swing": "node tests/tarzan-swing-logic.mjs",
+    "test:physics-games": "node tests/physics-games-logic.mjs",
+    "test:tabletop": "node tests/tabletop-logic.mjs",
+    "test:memory-games": "node tests/memory-games-logic.mjs",
+    "test:memory-games:smoke": "node tests/memory-games-smoke.mjs",
+    "test:new-arcade-games": "node tests/new-arcade-games-logic.mjs",
+    "test:bowl-dino-cup:smoke": "node tests/bowl-dino-cup-smoke.mjs",
+    "test:pogo-cloud-jump": "node tests/pogo-cloud-jump-logic.mjs",
+    "test:game-order": "node tests/game-order-logic.mjs",
+    "test:tetris": "node --test renderer/games/reromo-tetris/tests/*.test.mjs tests/widget-layout.test.mjs tests/global-menus.test.mjs",
+    "test:tetris:smoke": "node renderer/games/reromo-tetris/tests/electron-smoke.mjs"
+  },
+  "dependencies": {
+    "three": "^0.170.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}

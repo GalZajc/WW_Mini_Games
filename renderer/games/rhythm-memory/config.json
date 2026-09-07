@@ -1,0 +1,6 @@
+{
+    "name": "Rhythm Memory",
+    "description": "Listen to a growing random drum rhythm and reproduce its intervals from memory.",
+    "icon": "🥁",
+    "type": "2d"
+}

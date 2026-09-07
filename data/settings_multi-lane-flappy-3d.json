@@ -1,0 +1,13 @@
+{
+  "laneCount": "2",
+  "sfxVolume": 0.5,
+  "gravity": 36,
+  "flapStrength": 15,
+  "speed": 18,
+  "birdRadius": 0.75,
+  "ringRadiusRatio": 4.5,
+  "rowSpacing": 36,
+  "laneSpacing": 10,
+  "minimumHoopHeight": 8,
+  "hoopHeightRange": 25
+}

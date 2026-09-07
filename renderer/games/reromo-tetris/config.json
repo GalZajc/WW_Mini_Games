@@ -1,0 +1,7 @@
+{
+  "name": "ReRoMo Tetris",
+  "description": "Survival and timed Sprint across six boards: Cartesian, structural, rocking, pressure, polar and Möbius",
+  "icon": "◫",
+  "iconImage": "icon.svg",
+  "type": "2d"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Sudoku",
+    "description": "Uniquely solvable m×n-block Sudokus with numbers, colors, and candidate notes.",
+    "icon": "🔢",
+    "type": "2d"
+}

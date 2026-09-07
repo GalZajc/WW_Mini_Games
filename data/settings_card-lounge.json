@@ -1,0 +1,38 @@
+{
+  "mode": "war",
+  "deckCount": 1,
+  "dealerHitsSoft17": false,
+  "eightHandSize": 7,
+  "memoryPairs": 8,
+  "aiDelay": 0.55,
+  "modeProfiles": {
+    "blackjack": {
+      "deckCount": 1,
+      "dealerHitsSoft17": false,
+      "eightHandSize": 7,
+      "memoryPairs": 8,
+      "aiDelay": 0.55
+    },
+    "eights": {
+      "deckCount": 1,
+      "dealerHitsSoft17": false,
+      "eightHandSize": 7,
+      "memoryPairs": 8,
+      "aiDelay": 0.55
+    },
+    "war": {
+      "deckCount": 1,
+      "dealerHitsSoft17": false,
+      "eightHandSize": 7,
+      "memoryPairs": 8,
+      "aiDelay": 0.55
+    },
+    "memory": {
+      "deckCount": 1,
+      "dealerHitsSoft17": false,
+      "eightHandSize": 7,
+      "memoryPairs": 8,
+      "aiDelay": 0.55
+    }
+  }
+}

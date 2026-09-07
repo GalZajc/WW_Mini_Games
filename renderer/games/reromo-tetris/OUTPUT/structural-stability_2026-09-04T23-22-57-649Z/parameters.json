@@ -1,0 +1,81 @@
+{
+  "experiment": "structural-stability",
+  "seed": null,
+  "physics": {
+    "cellSizeMeters": 0.3,
+    "blockMassKg": 1,
+    "gravity": 9.81,
+    "stabilityMarginCells": 0,
+    "toppleDampingPerSecond": 0.35,
+    "toppleInitialAngularSpeed": 0.08,
+    "toppleGameOverAngleDegrees": 72,
+    "toppleMaximumSeconds": 3
+  },
+  "warmup": 3,
+  "repeats": 20,
+  "maximumBoardRepeats": 3,
+  "sizes": [
+    [
+      20,
+      10
+    ],
+    [
+      64,
+      64
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "bridge": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      2,
+      3,
+      4,
+      4,
+      4
+    ],
+    [
+      0,
+      0,
+      2,
+      3,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      3,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      3,
+      4,
+      0,
+      0
+    ]
+  ],
+  "node": "v26.5.1",
+  "platform": "win32",
+  "arch": "x64"
+}

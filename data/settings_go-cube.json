@@ -1,0 +1,9 @@
+{
+  "mode": "cuboid",
+  "cuboid_nx": 7,
+  "cuboid_ny": 7,
+  "cuboid_nz": 7,
+  "rectangle_nx": 9,
+  "rectangle_ny": 9,
+  "goProfileVersion": 2
+}

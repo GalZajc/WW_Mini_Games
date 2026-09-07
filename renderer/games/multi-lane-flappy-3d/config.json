@@ -1,0 +1,7 @@
+{
+    "name": "Multi-Lane Flappy 3D",
+    "description": "Play up to eight side-by-side Flappy lanes at the same time.",
+    "icon": "🐦🐦",
+    "type": "3d",
+    "hidden": true
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Lava Path Tilt",
+    "description": "Minimal 2D tilt test with a simple ball, smooth path, and adjustable friction and stickiness.",
+    "icon": "🌋",
+    "type": "2d"
+}

@@ -1,0 +1,7 @@
+{
+  "mode": "2d",
+  "oneD_islandLength": 1.2,
+  "oneD_movementSpeed": 2,
+  "twoD_islandLength": 5,
+  "twoD_movementSpeed": 2
+}

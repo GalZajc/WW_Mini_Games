@@ -1,0 +1,7 @@
+{
+    "name": "Flappy Bird",
+    "description": "Tap to fly through the pipes",
+    "icon": "🐦",
+    "type": "2d",
+    "hidden": true
+}

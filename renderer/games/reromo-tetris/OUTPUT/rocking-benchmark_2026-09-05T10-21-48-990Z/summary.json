@@ -1,0 +1,44 @@
+{
+  "experiment": "rocking-benchmark",
+  "timestampUtc": "2026-09-05T10:21:48.990Z",
+  "medianMs": 0.481749999999991,
+  "meanMs": 0.6896599999999935,
+  "minimumMs": 0.38229999999998654,
+  "maximumMs": 1.4341000000000008,
+  "stableAll": true,
+  "solvers": [
+    "contact-certificate"
+  ],
+  "bodyCount": 30,
+  "contactReactionCount": 60,
+  "performanceBudgetMs": 16,
+  "withinPerformanceBudget": true,
+  "certificate": {
+    "medianMs": 0.481749999999991,
+    "meanMs": 0.6896599999999935,
+    "minimumMs": 0.38229999999998654,
+    "maximumMs": 1.4341000000000008,
+    "stableAll": true,
+    "solvers": [
+      "contact-certificate"
+    ],
+    "bodyCount": 30,
+    "contactReactionCount": 60
+  },
+  "forcedCoupled": {
+    "medianMs": 26.660950000000014,
+    "meanMs": 25.961599999999965,
+    "minimumMs": 18.935899999999947,
+    "maximumMs": 33.42399999999998,
+    "stableAll": true,
+    "solvers": [
+      "coupled-equilibrium"
+    ],
+    "bodyCount": 30,
+    "contactReactionCount": 504
+  },
+  "comparison": {
+    "medianSpeedup": 55.34187856772291,
+    "forcedCoupledMedianMs": 26.660950000000014
+  }
+}

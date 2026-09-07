@@ -1,0 +1,18 @@
+{
+  "representation": "colors",
+  "blockRows": 4,
+  "blockColumns": 3,
+  "clueRatio": 0.42,
+  "modeProfiles": {
+    "numbers": {
+      "blockRows": 3,
+      "blockColumns": 3,
+      "clueRatio": 0.42
+    },
+    "colors": {
+      "blockRows": 4,
+      "blockColumns": 3,
+      "clueRatio": 0.42
+    }
+  }
+}

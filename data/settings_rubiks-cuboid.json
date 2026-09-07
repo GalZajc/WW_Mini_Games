@@ -1,0 +1,73 @@
+{
+  "mode": "tetrahedron",
+  "nx": 3,
+  "ny": 3,
+  "nz": 4,
+  "torusU": 12,
+  "torusV": 6,
+  "polyhedronOrder": 3,
+  "dragPixelsPerQuarter": 58,
+  "turnAnimationSpeed": 720,
+  "modeProfiles": {
+    "cuboid": {
+      "nx": 3,
+      "ny": 3,
+      "nz": 4,
+      "torusU": 12,
+      "torusV": 6,
+      "polyhedronOrder": 2,
+      "dragPixelsPerQuarter": 58,
+      "turnAnimationSpeed": 720
+    },
+    "torus": {
+      "nx": 3,
+      "ny": 3,
+      "nz": 4,
+      "torusU": 12,
+      "torusV": 6,
+      "polyhedronOrder": 2,
+      "dragPixelsPerQuarter": 58,
+      "turnAnimationSpeed": 720
+    },
+    "tetrahedron": {
+      "nx": 3,
+      "ny": 3,
+      "nz": 4,
+      "torusU": 12,
+      "torusV": 6,
+      "polyhedronOrder": 3,
+      "dragPixelsPerQuarter": 58,
+      "turnAnimationSpeed": 720
+    },
+    "octahedron": {
+      "nx": 3,
+      "ny": 3,
+      "nz": 4,
+      "torusU": 12,
+      "torusV": 6,
+      "polyhedronOrder": 3,
+      "dragPixelsPerQuarter": 58,
+      "turnAnimationSpeed": 720
+    },
+    "dodecahedron": {
+      "nx": 3,
+      "ny": 3,
+      "nz": 4,
+      "torusU": 12,
+      "torusV": 6,
+      "polyhedronOrder": 4,
+      "dragPixelsPerQuarter": 58,
+      "turnAnimationSpeed": 720
+    },
+    "icosahedron": {
+      "nx": 3,
+      "ny": 3,
+      "nz": 4,
+      "torusU": 12,
+      "torusV": 6,
+      "polyhedronOrder": 3,
+      "dragPixelsPerQuarter": 58,
+      "turnAnimationSpeed": 720
+    }
+  }
+}

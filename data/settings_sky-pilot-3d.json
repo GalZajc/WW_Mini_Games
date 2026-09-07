@@ -1,0 +1,16 @@
+{
+  "sfxVolume": 0.5,
+  "mouseSens": 0.003,
+  "pitchSens": 0.0025,
+  "maxPitch": 80,
+  "turnResponse": 8,
+  "keyboardTurnSpeed": 75,
+  "speed": 44,
+  "ringRadiusRatio": 4,
+  "pillarDist": 40,
+  "maxSegmentTurn": 30,
+  "deltaPhiMax": 20,
+  "cameraDistance": 16,
+  "cameraHeight": 5,
+  "camStiffness": 30
+}

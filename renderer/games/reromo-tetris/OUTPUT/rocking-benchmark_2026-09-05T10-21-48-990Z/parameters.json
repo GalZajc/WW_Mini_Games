@@ -1,0 +1,75 @@
+{
+  "experiment": "rocking-benchmark",
+  "rows": 10,
+  "columns": 20,
+  "bottomFilledRows": 6,
+  "rigidPieceHeight": 2,
+  "rigidPieceWidth": 2,
+  "frame": {
+    "angle": 0.05,
+    "omega": 0.1,
+    "alpha": 0.1,
+    "originX": 5,
+    "originY": 20
+  },
+  "physics": {
+    "cellSizeMeters": 0.3,
+    "blockMassKg": 1,
+    "gravity": 9.81,
+    "pieceFriction": 1,
+    "wallFriction": 1,
+    "walls": true,
+    "frame": {
+      "angle": 0.05,
+      "omega": 0.1,
+      "alpha": 0.1,
+      "originX": 5,
+      "originY": 20
+    },
+    "floorMinColumn": 0,
+    "floorMaxColumn": null,
+    "stabilityMarginCells": 0,
+    "toppleDampingPerSecond": 0.35,
+    "toppleInitialAngularSpeed": 0.08,
+    "toppleGameOverAngleDegrees": 72,
+    "toppleMaximumSeconds": 3
+  },
+  "warmupRepeats": 10,
+  "measuredRepeats": 10,
+  "performanceBudgetMs": 16,
+  "randomSeed": null,
+  "forcedPhysics": {
+    "cellSizeMeters": 0.3,
+    "blockMassKg": 1,
+    "gravity": 9.81,
+    "pieceFriction": 1,
+    "wallFriction": 1,
+    "walls": true,
+    "frame": {
+      "angle": 0.05,
+      "omega": 0.1,
+      "alpha": 0.1,
+      "originX": 5,
+      "originY": 20
+    },
+    "floorMinColumn": 0,
+    "floorMaxColumn": null,
+    "stabilityMarginCells": 0,
+    "toppleDampingPerSecond": 0.35,
+    "toppleInitialAngularSpeed": 0.08,
+    "toppleGameOverAngleDegrees": 72,
+    "toppleMaximumSeconds": 3,
+    "forceCoupled": true
+  },
+  "runtime": {
+    "node": "v26.5.1",
+    "platform": "win32",
+    "arch": "x64"
+  },
+  "fixture": {
+    "description": "Deterministic 2×2 rigid pieces filling the bottom six rows of a 20×10 board.",
+    "rigidPieceCount": 30,
+    "occupiedCellCount": 120
+  },
+  "timestampUtc": "2026-09-05T10:21:48.990Z"
+}

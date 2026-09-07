@@ -1,0 +1,200 @@
+{
+  "reaction-time": {
+    "react": [
+      {
+        "type": "keyboard",
+        "code": "Space"
+      },
+      {
+        "type": "mouse",
+        "code": 0
+      },
+      {
+        "type": "gamepad",
+        "code": 0
+      }
+    ]
+  },
+  "cup-and-ball": {
+    "tiltLeft": [
+      {
+        "type": "keyboard",
+        "code": "ArrowLeft"
+      },
+      {
+        "type": "keyboard",
+        "code": "KeyA"
+      }
+    ],
+    "tiltRight": [
+      {
+        "type": "keyboard",
+        "code": "ArrowRight"
+      },
+      {
+        "type": "keyboard",
+        "code": "KeyD"
+      }
+    ],
+    "tiltUp": [
+      {
+        "type": "keyboard",
+        "code": "ArrowUp"
+      },
+      {
+        "type": "keyboard",
+        "code": "KeyW"
+      }
+    ],
+    "tiltDown": [
+      {
+        "type": "keyboard",
+        "code": "ArrowDown"
+      },
+      {
+        "type": "keyboard",
+        "code": "KeyS"
+      }
+    ],
+    "moveLeft": [
+      {
+        "type": "keyboard",
+        "code": "KeyJ"
+      }
+    ],
+    "moveRight": [
+      {
+        "type": "keyboard",
+        "code": "KeyL"
+      }
+    ],
+    "moveUp": [
+      {
+        "type": "keyboard",
+        "code": "KeyI"
+      }
+    ],
+    "moveDown": [
+      {
+        "type": "keyboard",
+        "code": "KeyK"
+      }
+    ],
+    "moveForward": [
+      {
+        "type": "keyboard",
+        "code": "KeyU"
+      }
+    ],
+    "moveBack": [
+      {
+        "type": "keyboard",
+        "code": "KeyO"
+      }
+    ],
+    "restart": [
+      {
+        "type": "keyboard",
+        "code": "Enter"
+      },
+      {
+        "type": "mouse",
+        "code": 0
+      },
+      {
+        "type": "gamepad",
+        "code": 1
+      }
+    ]
+  },
+  "reromo-tetris": {
+    "moveClockwise": [
+      {
+        "type": "keyboard",
+        "code": "ArrowLeft",
+        "key": "ArrowLeft",
+        "match": "key"
+      }
+    ],
+    "moveCounterClockwise": [
+      {
+        "type": "keyboard",
+        "code": "ArrowRight",
+        "key": "ArrowRight",
+        "match": "key"
+      }
+    ],
+    "rotateClockwise": [
+      {
+        "type": "keyboard",
+        "code": "KeyZ",
+        "key": "z",
+        "match": "key"
+      }
+    ],
+    "rotateCounterClockwise": [
+      {
+        "type": "keyboard",
+        "code": "KeyT",
+        "key": "t",
+        "match": "key"
+      }
+    ],
+    "rotate180": [
+      {
+        "type": "keyboard",
+        "code": "ArrowUp",
+        "key": "ArrowUp",
+        "match": "key"
+      }
+    ],
+    "softDrop": [
+      {
+        "type": "keyboard",
+        "code": "ArrowDown",
+        "key": "ArrowDown",
+        "match": "key"
+      }
+    ],
+    "hardDrop": [
+      {
+        "type": "keyboard",
+        "code": "Space",
+        "key": " ",
+        "match": "key"
+      }
+    ],
+    "holdPiece": [
+      {
+        "type": "keyboard",
+        "code": "KeyU",
+        "key": "u",
+        "match": "key"
+      }
+    ],
+    "pause": [
+      {
+        "type": "keyboard",
+        "code": "Backquote",
+        "key": "¸",
+        "match": "code"
+      }
+    ],
+    "restart": [
+      {
+        "type": "keyboard",
+        "code": "F5",
+        "key": "F5",
+        "match": "key"
+      }
+    ],
+    "quickMotion": [
+      {
+        "type": "keyboard",
+        "code": "KeyR",
+        "key": "R",
+        "match": "key"
+      }
+    ]
+  }
+}

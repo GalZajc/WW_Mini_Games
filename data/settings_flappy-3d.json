@@ -1,0 +1,19 @@
+{
+  "cameraMode": "rail",
+  "sfxVolume": 1,
+  "mouseSens": 0.002,
+  "camStiffness": 21,
+  "camDamping": 0.86,
+  "railHeightRings": 1,
+  "railLook": "bird",
+  "fixedCamHeight": 35,
+  "fixedCamPitch": -29,
+  "gravity": 74,
+  "flapStrength": 28,
+  "speed": 36,
+  "ringRadiusRatio": 5.5,
+  "pillarDist": 45,
+  "maxSegmentTurn": 45,
+  "deltaPhiMax": 30,
+  "railOffset": 28
+}

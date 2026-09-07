@@ -1,0 +1,14 @@
+Rubik cuboid turn sounds
+========================
+
+Source collection: Mechanical Sounds
+Author: Brian MacIntosh (BMacZero)
+Source page: https://opengameart.org/content/mechanical-sounds
+License: Creative Commons Zero (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+Local files:
+- turn-click.wav is the source file lightclunk1.wav
+- turn-release.wav is the source file lightclunk2.wav
+
+Attribution is optional under CC0. This file is retained to document provenance.

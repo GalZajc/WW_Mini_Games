@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WW Mini Games</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/pause-menu.css">
+    <link rel="stylesheet" href="games/reromo-tetris/game.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Main Menu -->
+        <div id="main-menu">
+            <header id="menu-header">
+                <div class="header-center">
+                    <div class="search-wrapper">
+                        <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                        <input type="text" id="search-input" placeholder="Search games..." spellcheck="false" autocomplete="off">
+                    </div>
+                </div>
+                <div class="header-right">
+                    <span id="game-count" class="dim">0 games</span>
+                </div>
+            </header>
+            <main id="game-grid"></main>
+        </div>
+
+        <!-- Game View (hidden by default) -->
+        <div id="game-view">
+            <canvas id="game-canvas"></canvas>
+            <canvas id="game-canvas-3d" style="display: none;"></canvas>
+            <div id="fps-display">60</div>
+        </div>
+
+        <!-- Pause Overlay (hidden by default) -->
+        <div id="pause-overlay">
+            <div id="pause-panel">
+                <!-- Populated dynamically by PauseMenu.js -->
+            </div>
+        </div>
+    </div>
+
+    <script type="importmap">
+        { "imports": { "three": "../node_modules/three/build/three.module.js" } }
+    </script>
+    <script type="module" src="core/App.js"></script>
+</body>
+</html>

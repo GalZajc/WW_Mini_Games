@@ -1,0 +1,9 @@
+<resources>
+    <color name="surface">#08111D</color>
+    <color name="card">#13243C</color>
+    <color name="accent">#80FFE0</color>
+    <color name="textPrimary">#EEF5FF</color>
+    <color name="textSecondary">#9FB2D8</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

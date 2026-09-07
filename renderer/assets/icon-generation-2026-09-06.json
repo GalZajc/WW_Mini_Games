@@ -1,0 +1,219 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-06",
+  "assets": [
+    {
+      "key": "cup-shuffle",
+      "prompt": "One game launcher icon, wide 16:9 landscape. Polished simplified stylized 3D miniature illustration with vivid colors and soft lighting, readable at 210px. Three glossy red cups on a tabletop, middle cup slightly lifted to reveal a golden ball. Suggest swapping with subtle curved motion trails. No UI, no scores, no title, no logos. Keep entire subject inside frame with generous margins. Use reference only for gameplay subject; simplify and improve composition.",
+      "file": "game-thumbnails/cup-shuffle-generated.png"
+    },
+    {
+      "key": "curve-memory",
+      "prompt": "One game launcher icon, wide 16:9 landscape. Polished simplified stylized 3D miniature illustration with vivid colors and soft lighting, readable at 210px. A clean light drawing panel with two closely matching smooth flowing curves, one red solid and the remembered trace green dashed. A small pencil at the trace endpoint. Make curves the main subject. No UI, no scores, no title, no logos. Keep entire subject inside frame with generous margins. Use reference only for gameplay subject; simplify and improve composition.",
+      "file": "game-thumbnails/curve-memory-generated.png"
+    },
+    {
+      "key": "robot-island",
+      "prompt": "One game launcher icon, wide 16:9 landscape. Polished simplified stylized 3D miniature illustration with vivid colors and soft lighting, readable at 210px. A cute white robot with blue face balancing near the edge of a floating square green grassy platform over blue sea, isometric view. Enlarge robot relative to screenshot so legible. No UI, no scores, no title, no logos. Keep entire subject inside frame with generous margins. Use reference only for gameplay subject; simplify and improve composition.",
+      "file": "game-thumbnails/robot-island-generated.png"
+    },
+    {
+      "key": "number-memory",
+      "prompt": "One game launcher icon, wide 16:9 landscape. Polished simplified stylized 3D miniature illustration with vivid colors and soft lighting, readable at 210px. Four clear glossy ivory number tiles showing exactly 3 8 1 7 in sequence, one fading into a subtle translucent silhouette, memory challenge. No UI, no scores, no title, no logos. Keep entire subject inside frame with generous margins. ",
+      "file": "game-thumbnails/number-memory-generated.png"
+    },
+    {
+      "key": "reaction-color",
+      "prompt": "One game mode icon. Landscape 16:9. A large luminous green round response button next to a small stopwatch, dark simple background. Polished simplified stylized 3D illustration, vivid saturated colors, legible at 210px, comfortably centered with safe margins. No title or labels or logos.",
+      "file": "mode-thumbnails/reaction-color-generated.png"
+    },
+    {
+      "key": "reaction-sound",
+      "prompt": "One game mode icon. Landscape 16:9. A compact speaker emitting three luminous curved sound waves, next to a small stopwatch, blue simple background. Polished simplified stylized 3D illustration, vivid saturated colors, legible at 210px, comfortably centered with safe margins. No title or labels or logos.",
+      "file": "mode-thumbnails/reaction-sound-generated.png"
+    },
+    {
+      "key": "twisty-cuboid",
+      "prompt": "One game mode icon. Landscape 16:9. One rectangular 3 by 3 by 4 Rubik puzzle cuboid. Correct recognizable cuboid silhouette, multicolored tiles separated by black seams, three-quarter view, floating against simple teal background. No additional shapes. Polished simplified stylized 3D illustration, vivid saturated colors, legible at 210px, comfortably centered with safe margins. No title or labels or logos.",
+      "file": "mode-thumbnails/twisty-cuboid-generated.png"
+    },
+    {
+      "key": "sudoku-numbers",
+      "prompt": "One game mode icon. Landscape 16:9. A clean ivory Sudoku board in perspective, clear black digits and thin grid with thicker 3 by 3 region boundaries, a blue pencil alongside. Polished simplified stylized 3D illustration, vivid saturated colors, legible at 210px, comfortably centered with safe margins. No title or labels or logos.",
+      "file": "mode-thumbnails/sudoku-numbers-generated.png"
+    },
+    {
+      "key": "reaction-pendulum",
+      "prompt": "One game mode icon. Landscape 16:9. A brass pendulum bob swinging on a thin rod past a small red target marker at the bottom of its arc, next to a small stopwatch. Polished simplified stylized 3D illustration, vivid saturated colors, legible at 210px, comfortably centered with safe margins. No title or labels or logos.",
+      "file": "mode-thumbnails/reaction-pendulum-generated.png"
+    },
+    {
+      "key": "twisty-torus",
+      "prompt": "One game mode icon. Landscape 16:9. One donut shaped Rubik twisty puzzle torus with a clear central hole. Correct recognizable torus silhouette, multicolored tiles separated by black seams, three-quarter view, floating against simple teal background. No additional shapes. Polished simplified stylized 3D illustration, vivid saturated colors, legible at 210px, comfortably centered with safe margins. No title or labels or logos.",
+      "file": "mode-thumbnails/twisty-torus-generated.png"
+    },
+    {
+      "key": "twisty-tetrahedron",
+      "prompt": "One game mode icon. Landscape 16:9. One regular tetrahedron shaped twisty puzzle. Correct recognizable tetrahedron silhouette, multicolored tiles separated by black seams, three-quarter view, floating against simple teal background. No additional shapes. Polished simplified stylized 3D illustration, vivid saturated colors, legible at 210px, comfortably centered with safe margins. No title or labels or logos.",
+      "file": "mode-thumbnails/twisty-tetrahedron-generated.png"
+    },
+    {
+      "key": "twisty-octahedron",
+      "prompt": "One game mode icon. Landscape 16:9. One regular octahedron shaped twisty puzzle. Correct recognizable octahedron silhouette, multicolored tiles separated by black seams, three-quarter view, floating against simple teal background. No additional shapes. Polished simplified stylized 3D illustration, vivid saturated colors, legible at 210px, comfortably centered with safe margins. No title or labels or logos.",
+      "file": "mode-thumbnails/twisty-octahedron-generated.png"
+    },
+    {
+      "key": "twisty-dodecahedron",
+      "prompt": "One game mode icon. Landscape 16:9. One regular dodecahedron shaped twisty puzzle. Correct recognizable dodecahedron silhouette, multicolored tiles separated by black seams, three-quarter view, floating against simple teal background. No additional shapes. Polished simplified stylized 3D illustration, vivid saturated colors, legible at 210px, comfortably centered with safe margins. No title or labels or logos.",
+      "file": "mode-thumbnails/twisty-dodecahedron-generated.png"
+    },
+    {
+      "key": "twisty-icosahedron",
+      "prompt": "One game mode icon. Landscape 16:9. One regular icosahedron shaped twisty puzzle. Correct recognizable icosahedron silhouette, multicolored tiles separated by black seams, three-quarter view, floating against simple teal background. No additional shapes. Polished simplified stylized 3D illustration, vivid saturated colors, legible at 210px, comfortably centered with safe margins. No title or labels or logos.",
+      "file": "mode-thumbnails/twisty-icosahedron-generated.png"
+    },
+    {
+      "key": "wheelie-balance",
+      "file": "game-thumbnails/wheelie-balance-generated.png",
+      "reference": "tests/artifacts/wheelie-balance-playing.png",
+      "prompt": "One game launcher icon, landscape 16:9. A red compact car performing a wheelie, rear wheel on road, front wheel high in air. Side view, blue sky, simple grass and asphalt. Use screenshot as gameplay reference but remove all UI and improve into polished simplified stylized 3D illustration, vivid colors, clean shapes, legible at small size. Full composition inside frame, no titles or words."
+    },
+    {
+      "key": "standing-swing-jump",
+      "file": "game-thumbnails/standing-swing-jump-generated.png",
+      "reference": "tests/artifacts/standing-swing-jump-playing.png",
+      "prompt": "One game launcher icon, landscape 16:9. A person standing on a wooden playground swing seat, pumping the swing outward, entire A-frame swing apparatus visible. Blue sky and grass, clear dynamic pose. Use screenshot as gameplay reference but remove all UI and improve into polished simplified stylized 3D illustration, vivid colors, clean shapes, legible at small size. Full composition inside frame, no titles or words."
+    },
+    {
+      "key": "dino-runner",
+      "file": "game-thumbnails/dino-runner-generated.png",
+      "reference": "tests/artifacts/dino-runner-gameover.png",
+      "prompt": "One game launcher icon, landscape 16:9. A cute green cartoon dinosaur jumping over a cactus in a sunny sandy desert. Side view, whole dinosaur visible. Use screenshot as gameplay reference but remove all UI and improve into polished simplified stylized 3D illustration, vivid colors, clean shapes, legible at small size. Full composition inside frame, no titles or words."
+    },
+    {
+      "key": "spherical-bowl-balance",
+      "file": "game-thumbnails/spherical-bowl-balance-generated.png",
+      "reference": "tests/artifacts/spherical-bowl-balance.png",
+      "prompt": "One game launcher icon, landscape 16:9. A transparent blue hemispherical bowl with a golden marble resting inside near its curved bottom, three-quarter view showing concave interior, on a simple green ground with blue sky. Use screenshot as gameplay reference but remove all UI and improve into polished simplified stylized 3D illustration, vivid colors, clean shapes, legible at small size. Full composition inside frame, no titles or words."
+    },
+    {
+      "key": "tetris-rectangular",
+      "file": "mode-thumbnails/tetris-rectangular-generated.png",
+      "reference": "renderer/games/reromo-tetris/tests/artifacts/rectangular.png",
+      "prompt": "Single game mode icon, wide 16:9 landscape. An upright rectangular black Tetris grid with colorful connected tetrominoes stacked in bottom half and one purple T piece falling above. The T consists exactly four squares: one centered upper square and three squares in row immediately below. No stopwatch. Show whole board. Polished simplified stylized 3D miniature, readable at 210px, blue neutral background, generous safe margins around entire subject. No words, UI, logos. Reference screenshot only for gameplay geometry, simplify number of cells and remove HUD."
+    },
+    {
+      "key": "tetris-rocking",
+      "file": "mode-thumbnails/tetris-rocking-generated.png",
+      "reference": "renderer/games/reromo-tetris/tests/artifacts/rocking-lines.png",
+      "prompt": "Single game mode icon, wide 16:9 landscape. Colorful connected tetromino blocks stacked on a broad wooden rocking platform: straight flat top, shallow convex circular-arc underside touching flat ground at a single point. Entire rectangular black grid tilts gently together with the platform. Highlight one full horizontal row. Polished simplified stylized 3D miniature, readable at 210px, blue neutral background, generous safe margins around entire subject. No words, UI, logos. Reference screenshot only for gameplay geometry, simplify number of cells and remove HUD."
+    },
+    {
+      "key": "tetris-rocking-pressure",
+      "file": "mode-thumbnails/tetris-rocking-pressure-generated.png",
+      "reference": "renderer/games/reromo-tetris/tests/artifacts/rocking-lines.png",
+      "prompt": "Single game mode icon, wide 16:9 landscape. Colorful chunky tetromino tower pressing down upon a glowing compressed bottom row, on a broad wooden rocker with straight flat top and shallow convex circular-arc underside touching stationary flat ground. Black grid tilts with platform. Clear sense of weight on bottom row. Polished simplified stylized 3D miniature, readable at 210px, blue neutral background, generous safe margins around entire subject. No words, UI, logos. Reference screenshot only for gameplay geometry, simplify number of cells and remove HUD."
+    },
+    {
+      "key": "flappy-classic",
+      "file": "mode-thumbnails/flappy-classic-generated.png",
+      "reference": null,
+      "prompt": "Single game mode icon, wide 16:9 landscape. A round bright yellow bird with orange beak flying through the gap between upper and lower green pipes, clean side-on game scene, blue sky. Polished simplified stylized 3D miniature, readable at 210px, blue neutral background, generous safe margins around entire subject. No words, UI, logos. "
+    },
+    {
+      "key": "tetris-sprint",
+      "file": "mode-thumbnails/tetris-sprint-generated.png",
+      "prompt": "Create one polished game launcher icon illustration for Tetris Sprint. Wide landscape 16:9 composition. Simplified recognizable upright rectangular Tetris playfield with colorful tetromino blocks filling the bottom, one completed horizontal row glowing, a prominent stopwatch beside it. Clean high quality stylized 3D miniature illustration, vivid colors, dark blue neutral background, readable at 210 pixels wide. All objects comfortably inside frame. No text, no logos, no collage."
+    },
+    {
+      "key": "bowl-balance-marble-3d",
+      "prompt": "One landscape 16:9 physics game mode icon. Three-quarter perspective view of a transparent blue hemispherical bowl with clearly visible concave interior. a small golden rolling marble (sphere) rests inside the curved bowl near its bottom, with a subtle balancing arc. Polished simplified colorful 3D illustration, blue sky, minimal ground, readable at 210px, full bowl comfortably inside frame. No titles or UI or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/bowl-balance-marble-3d-generated.png"
+    },
+    {
+      "key": "bowl-balance-puck-3d",
+      "prompt": "One landscape 16:9 physics game mode icon. Three-quarter perspective view of a transparent blue hemispherical bowl with clearly visible concave interior. a small flat red sliding puck (short cylindrical disk) rests inside the curved bowl near its bottom, with a subtle balancing arc. Polished simplified colorful 3D illustration, blue sky, minimal ground, readable at 210px, full bowl comfortably inside frame. No titles or UI or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/bowl-balance-puck-3d-generated.png"
+    },
+    {
+      "key": "bowl-distance-marble-2d",
+      "prompt": "One landscape 16:9 physics game mode icon. Strict side-on cross section of a thin blue semicircular U-shaped curved bowl, no perspective. a small golden rolling marble (sphere) is airborne just beyond the bowl lip, with a short dotted parabolic flight trail toward a horizontal distance ruler along the ground. Polished simplified colorful 3D illustration, blue sky, minimal ground, readable at 210px, full bowl comfortably inside frame. No titles or UI or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/bowl-distance-marble-2d-generated.png"
+    },
+    {
+      "key": "bowl-distance-marble-3d",
+      "prompt": "One landscape 16:9 physics game mode icon. Three-quarter perspective view of a transparent blue hemispherical bowl with clearly visible concave interior. a small golden rolling marble (sphere) is airborne just beyond the bowl lip, with a short dotted parabolic flight trail toward a horizontal distance ruler along the ground. Polished simplified colorful 3D illustration, blue sky, minimal ground, readable at 210px, full bowl comfortably inside frame. No titles or UI or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/bowl-distance-marble-3d-generated.png"
+    },
+    {
+      "key": "bowl-distance-puck-2d",
+      "prompt": "One landscape 16:9 physics game mode icon. Strict side-on cross section of a thin blue semicircular U-shaped curved bowl, no perspective. a small flat red sliding puck (short cylindrical disk) is airborne just beyond the bowl lip, with a short dotted parabolic flight trail toward a horizontal distance ruler along the ground. Polished simplified colorful 3D illustration, blue sky, minimal ground, readable at 210px, full bowl comfortably inside frame. No titles or UI or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/bowl-distance-puck-2d-generated.png"
+    },
+    {
+      "key": "bowl-distance-puck-3d",
+      "prompt": "One landscape 16:9 physics game mode icon. Three-quarter perspective view of a transparent blue hemispherical bowl with clearly visible concave interior. a small flat red sliding puck (short cylindrical disk) is airborne just beyond the bowl lip, with a short dotted parabolic flight trail toward a horizontal distance ruler along the ground. Polished simplified colorful 3D illustration, blue sky, minimal ground, readable at 210px, full bowl comfortably inside frame. No titles or UI or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/bowl-distance-puck-3d-generated.png"
+    },
+    {
+      "key": "bowl-target-marble-2d",
+      "prompt": "One landscape 16:9 physics game mode icon. Strict side-on cross section of a thin blue semicircular U-shaped curved bowl, no perspective. a small golden rolling marble (sphere) is airborne just beyond the bowl lip, with a short dotted parabolic flight trail toward a red and white bullseye target on the ground. Polished simplified colorful 3D illustration, blue sky, minimal ground, readable at 210px, full bowl comfortably inside frame. No titles or UI or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/bowl-target-marble-2d-generated.png"
+    },
+    {
+      "key": "bowl-target-marble-3d",
+      "prompt": "One landscape 16:9 physics game mode icon. Three-quarter perspective view of a transparent blue hemispherical bowl with clearly visible concave interior. a small golden rolling marble (sphere) is airborne just beyond the bowl lip, with a short dotted parabolic flight trail toward a red and white bullseye target on the ground. Polished simplified colorful 3D illustration, blue sky, minimal ground, readable at 210px, full bowl comfortably inside frame. No titles or UI or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/bowl-target-marble-3d-generated.png"
+    },
+    {
+      "key": "bowl-target-puck-2d",
+      "prompt": "One landscape 16:9 physics game mode icon. Strict side-on cross section of a thin blue semicircular U-shaped curved bowl, no perspective. a small flat red sliding puck (short cylindrical disk) is airborne just beyond the bowl lip, with a short dotted parabolic flight trail toward a red and white bullseye target on the ground. Polished simplified colorful 3D illustration, blue sky, minimal ground, readable at 210px, full bowl comfortably inside frame. No titles or UI or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/bowl-target-puck-2d-generated.png"
+    },
+    {
+      "key": "bowl-target-puck-3d",
+      "prompt": "One landscape 16:9 physics game mode icon. Three-quarter perspective view of a transparent blue hemispherical bowl with clearly visible concave interior. a small flat red sliding puck (short cylindrical disk) is airborne just beyond the bowl lip, with a short dotted parabolic flight trail toward a red and white bullseye target on the ground. Polished simplified colorful 3D illustration, blue sky, minimal ground, readable at 210px, full bowl comfortably inside frame. No titles or UI or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/bowl-target-puck-3d-generated.png"
+    },
+    {
+      "key": "nrow-push",
+      "prompt": "Single landscape 16:9 game mode icon. A square ivory grid with red and blue playing tokens, one horizontal row being pushed left by a new blue token at the right edge, clear short arrow. Polished simplified stylized 3D miniature illustration, vivid colors and soft lighting, comfortably inside frame, clear at 210px. No text, no title or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/nrow-push-generated.png"
+    },
+    {
+      "key": "nrow-random",
+      "prompt": "Single landscape 16:9 game mode icon. A square ivory grid with red and blue playing tokens scattered across cells and a small die beside the board, four red tokens aligned. Polished simplified stylized 3D miniature illustration, vivid colors and soft lighting, comfortably inside frame, clear at 210px. No text, no title or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/nrow-random-generated.png"
+    },
+    {
+      "key": "nrow-rotate",
+      "prompt": "Single landscape 16:9 game mode icon. A square ivory grid with red and blue playing tokens, four red tokens aligned, one broad curved arrow around board indicating rotation. Polished simplified stylized 3D miniature illustration, vivid colors and soft lighting, comfortably inside frame, clear at 210px. No text, no title or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/nrow-rotate-generated.png"
+    },
+    {
+      "key": "nrow-shoot",
+      "prompt": "Single landscape 16:9 game mode icon. A square ivory grid with red and blue playing tokens, a red token entering horizontally from outside right edge with a short straight motion trail. Polished simplified stylized 3D miniature illustration, vivid colors and soft lighting, comfortably inside frame, clear at 210px. No text, no title or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/nrow-shoot-generated.png"
+    },
+    {
+      "key": "robot-island-1d",
+      "prompt": "Single landscape 16:9 game mode icon. A cute white robot with blue face balancing on a narrow straight grassy strip island above blue water. Side view emphasizing only left-right movement. Polished simplified stylized 3D miniature illustration, vivid colors and soft lighting, comfortably inside frame, clear at 210px. No text, no title or logos.",
+      "tool": "built-in image_gen",
+      "file": "mode-thumbnails/robot-island-1d-generated.png"
+    }
+  ]
+}

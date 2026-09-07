@@ -1,0 +1,6 @@
+{
+    "name": "N in a Row",
+    "description": "A configurable Connect-style game with rotating gravity and edge-shot variants.",
+    "icon": "🔴",
+    "type": "2d"
+}

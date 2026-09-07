@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="640" viewBox="0 0 1024 640">
+  <defs>
+    <clipPath id="frame"><rect width="1024" height="640" rx="28"/></clipPath>
+    <linearGradient id="t-purple" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A018A0"/>
+      <stop offset="1" stop-color="#800080"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#frame)" shape-rendering="geometricPrecision">
+    <rect width="1024" height="640" fill="#222228"/>
+    <!-- A single exact polar grid. The tetromino uses these same radial and
+         angular boundaries, so the icon cannot drift out of alignment. -->
+    <g transform="translate(0 20)" fill="none" stroke="#555563" stroke-width="3">
+      <circle cx="512" cy="-860" r="940"/>
+      <circle cx="512" cy="-860" r="1060"/>
+      <circle cx="512" cy="-860" r="1180"/>
+      <circle cx="512" cy="-860" r="1300"/>
+      <circle cx="512" cy="-860" r="1420"/>
+      <path d="M 878.05 5.80 L 1064.97 447.91
+               M 735.44 53.06 L 849.54 519.30
+               M 587.12 76.99 L 625.48 555.46
+               M 436.88 76.99 L 398.52 555.46
+               M 288.56 53.06 L 174.46 519.30
+               M 145.95 5.80 L -40.97 447.91"/>
+    </g>
+    <g transform="translate(0 20)" fill="url(#t-purple)" stroke="#D478D4" stroke-width="4" stroke-linejoin="round">
+      <path d="M 792.49 286.18 A 1180 1180 0 0 1 606.30 316.23 L 596.71 196.61 A 1060 1060 0 0 0 763.96 169.62 Z"/>
+      <path d="M 606.30 316.23 A 1180 1180 0 0 1 417.70 316.23 L 427.29 196.61 A 1060 1060 0 0 0 596.71 196.61 Z"/>
+      <path d="M 417.70 316.23 A 1180 1180 0 0 1 231.51 286.18 L 260.04 169.62 A 1060 1060 0 0 0 427.29 196.61 Z"/>
+      <path d="M 615.89 435.84 A 1300 1300 0 0 1 408.11 435.84 L 417.70 316.23 A 1180 1180 0 0 0 606.30 316.23 Z"/>
+    </g>
+  </g>
+</svg>

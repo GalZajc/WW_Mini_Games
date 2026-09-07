@@ -1,0 +1,7 @@
+{
+    "name": "Rod Balance 2D",
+    "description": "Balance a rod while moving its support horizontally and vertically.",
+    "icon": "📏",
+    "type": "2d",
+    "hidden": true
+}

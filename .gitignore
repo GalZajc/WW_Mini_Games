@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Backups and archives
+backups/
+*.zip
+*.tar.gz
+
+# Local user play records and transient data
+data/records.json
+data/tetris-physics-last.json
+data/reromo-tetris-projection-cache/
+data/mobile_controller_state.json
+
+# Test outputs and visual artifacts
+**/tests/artifacts/
+tests/artifacts/
+.tempmediaStorage/
+
+# Logs and environment
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini

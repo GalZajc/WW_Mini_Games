@@ -1,0 +1,6 @@
+{
+    "name": "Tic Tac Toe",
+    "description": "Multiplayer — host or join a game over LAN",
+    "icon": "✕",
+    "type": "2d"
+}

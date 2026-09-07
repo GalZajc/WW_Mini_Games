@@ -1,0 +1,12 @@
+{
+  "mode": "2d",
+  "threeD_handLength": 1.35,
+  "threeD_frictionCoefficient": 1.94,
+  "threeD_rodLength": 4.5,
+  "threeD_gravity": 2.9,
+  "twoD_handLength": 1.35,
+  "twoD_frictionCoefficient": 1.76,
+  "twoD_rodLength": 3.2,
+  "twoD_gravity": 9.81,
+  "rodProfileVersion": 2
+}

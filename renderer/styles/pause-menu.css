@@ -1,0 +1,538 @@
+/* ═══════════════════════════════════════════════════════════════
+   Pause Menu Overlay
+   Compact neutral panel with settings / controls / exit
+   ═══════════════════════════════════════════════════════════════ */
+
+#pause-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 22, 26, 0.72);
+    backdrop-filter: blur(4px);
+    /* Framework-owned modal layer. Keep this at the maximum browser z-index:
+       games may create HUD/game-over elements directly under <body>. */
+    z-index: 2147483647;
+    isolation: isolate;
+    pointer-events: auto;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 150ms ease;
+}
+
+#pause-overlay.active {
+    display: flex;
+}
+
+/* ── Panel ────────────────────────────────────────────────────── */
+
+#pause-panel {
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    background: var(--bg-1);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    width: min(320px, calc(100vw - 16px));
+    max-width: calc(100vw - 16px);
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Panel header */
+.pause-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-2);
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+
+.pause-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pause-back-btn {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 14px;
+    cursor: pointer;
+    padding: 2px 4px;
+    border-radius: var(--radius-sm);
+    transition: color var(--transition), background var(--transition);
+    font-family: var(--font);
+}
+
+.pause-back-btn:hover {
+    color: var(--text);
+    background: var(--bg-4);
+}
+
+/* ── Menu Items ───────────────────────────────────────────────── */
+
+.pause-menu-list {
+    padding: 4px 0;
+}
+
+.pause-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: background var(--transition);
+    font-size: 12px;
+    color: var(--text);
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    font-family: var(--font);
+}
+
+.pause-menu-item:hover {
+    background: var(--bg-3);
+}
+
+.pause-menu-item:active {
+    background: var(--bg-4);
+}
+
+.pause-menu-item .item-icon {
+    width: 16px;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 13px;
+    flex-shrink: 0;
+}
+
+.pause-menu-item .item-label {
+    flex: 1;
+}
+
+.pause-menu-item.danger {
+    color: var(--danger);
+}
+
+.pause-menu-item.danger .item-icon {
+    color: var(--danger);
+}
+
+.pause-separator {
+    height: 1px;
+    background: var(--border);
+    margin: 2px 0;
+}
+
+/* ── Settings Panel ───────────────────────────────────────────── */
+
+.settings-section {
+    padding: 8px 14px;
+    min-width: 0;
+}
+
+/* Standard settings views size themselves from their schema. A game with
+   many parameters can use nearly the full window, while short schemas retain
+   the compact panel. Grid auto-fit also reduces the column count when the
+   available window is narrower than the preferred width. */
+#pause-panel.pause-panel-settings {
+    width: min(var(--settings-preferred-width, 420px), calc(100vw - 16px));
+    max-width: calc(100vw - 16px);
+    max-height: calc(100vh - 16px);
+}
+
+.settings-groups {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+    align-items: start;
+    gap: 10px 24px;
+    min-width: 0;
+}
+
+.settings-group {
+    min-width: 0;
+}
+
+.settings-group-title {
+    font-size: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+
+.setting-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0;
+    gap: 10px;
+    min-width: 0;
+}
+
+.setting-row[hidden] {
+    display: none;
+}
+
+.setting-label {
+    font-size: 11px;
+    color: var(--text-dim);
+    flex: 1 1 130px;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.setting-control {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+    min-width: 0;
+    justify-content: flex-end;
+}
+
+.setting-row-full {
+    display: block;
+}
+
+.setting-row-full .setting-control {
+    display: block;
+    width: 100%;
+}
+
+/* Range slider */
+.setting-range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: clamp(90px, 12vw, 180px);
+    max-width: 100%;
+    height: 3px;
+    background: var(--bg-4);
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+.setting-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+    transition: transform 100ms ease;
+}
+
+.setting-range::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+.setting-range::-webkit-slider-thumb:active {
+    background: var(--accent-hover);
+}
+
+.setting-value {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--text);
+    min-width: 32px;
+    text-align: right;
+}
+
+/* Number input */
+.setting-number {
+    width: 78px;
+    height: 22px;
+    padding: 0 6px;
+    background: var(--bg-0);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    color: var(--text);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    outline: none;
+    text-align: right;
+    color-scheme: dark;
+}
+
+/* Chromium otherwise renders the native increment/decrement buttons white
+   even in the dark pause panel. Keep the native keyboard behaviour, but make
+   the affordance use the same dark palette as the field. */
+.setting-number::-webkit-inner-spin-button,
+.setting-number::-webkit-outer-spin-button {
+    opacity: 1;
+    filter: invert(0.82) sepia(0.12) saturate(0.45) hue-rotate(178deg) brightness(0.82);
+    position: relative;
+    left: 4px;
+    margin-right: -4px;
+}
+
+.setting-number:disabled::-webkit-inner-spin-button,
+.setting-number:disabled::-webkit-outer-spin-button {
+    filter: invert(0.45);
+}
+
+.setting-number:focus {
+    border-color: var(--border-focus);
+}
+
+/* Three-digit grid sizes must remain fully visible beside Chromium's number
+   spinner/datalist affordance. Other numeric controls keep the compact width. */
+.setting-number[list] {
+    width: 68px;
+}
+
+/* Colour input */
+.setting-color {
+    width: 38px;
+    height: 22px;
+    padding: 1px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--bg-0);
+    cursor: pointer;
+}
+
+.setting-color:focus {
+    border-color: var(--border-focus);
+    outline: none;
+}
+
+/* Select dropdown */
+.setting-select {
+    height: 22px;
+    padding: 0 6px;
+    background: var(--bg-0);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 11px;
+    outline: none;
+    cursor: pointer;
+    min-width: 0;
+    max-width: 100%;
+}
+
+.setting-select:focus {
+    border-color: var(--border-focus);
+}
+
+/* Checkbox / toggle */
+.setting-toggle {
+    position: relative;
+    width: 28px;
+    height: 14px;
+    background: var(--bg-4);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background var(--transition);
+}
+
+.setting-toggle.active {
+    background: var(--accent);
+}
+
+.setting-toggle::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--text);
+    transition: transform var(--transition);
+}
+
+.setting-toggle.active::after {
+    transform: translateX(14px);
+}
+
+.settings-status {
+    min-height: 14px;
+    margin-top: 6px;
+    color: var(--text-dim);
+    font-size: 10px;
+    line-height: 1.35;
+}
+
+.settings-status.error {
+    color: var(--danger);
+}
+
+.settings-progress {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 7px;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+    font-size: 9px;
+}
+
+.settings-progress[hidden] {
+    display: none;
+}
+
+.settings-progress-track {
+    flex: 1;
+    height: 4px;
+    overflow: hidden;
+    border-radius: 2px;
+    background: var(--bg-0);
+    border: 1px solid var(--border);
+}
+
+.settings-progress-fill {
+    width: 0;
+    height: 100%;
+    background: var(--accent);
+    transition: width 80ms linear;
+}
+
+.pause-actions .btn:disabled,
+.pause-header button:disabled {
+    cursor: wait;
+    opacity: 0.55;
+}
+
+/* Games may open a rich detail editor while remaining inside the standard
+   pause overlay. The ordinary settings and controls panels stay compact. */
+#pause-panel.pause-panel-wide {
+    display: flex;
+    flex-direction: column;
+    width: min(1500px, 97vw);
+    height: min(960px, 96vh);
+    max-height: 96vh;
+    overflow: hidden;
+}
+
+@media (max-width: 520px) {
+    #pause-panel.pause-panel-settings .setting-row:not(.setting-row-full) {
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    #pause-panel.pause-panel-settings .setting-control {
+        flex-basis: 100%;
+        justify-content: flex-start;
+    }
+
+    #pause-panel.pause-panel-settings .setting-number {
+        flex: 1 1 120px;
+        width: auto;
+    }
+
+    .pause-actions {
+        flex-wrap: wrap;
+    }
+}
+
+/* ── Controls Panel ───────────────────────────────────────────── */
+
+.control-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    gap: 8px;
+}
+
+.control-action {
+    font-size: 11px;
+    color: var(--text-dim);
+    flex-shrink: 0;
+}
+
+.control-bindings {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.control-key {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 6px;
+    min-width: 24px;
+    height: 20px;
+    background: var(--bg-0);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: var(--text);
+    cursor: pointer;
+    transition: border-color var(--transition), background var(--transition);
+}
+
+.control-key:hover {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+}
+
+.control-key.listening {
+    border-color: var(--warning);
+    color: var(--warning);
+    animation: pulse 800ms ease infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50%      { opacity: 0.5; }
+}
+
+/* ── Action Buttons ───────────────────────────────────────────── */
+
+.pause-actions {
+    padding: 8px 14px;
+    display: flex;
+    gap: 6px;
+    border-top: 1px solid var(--border);
+}
+
+.btn {
+    flex: 1;
+    height: 26px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--bg-3);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background var(--transition), border-color var(--transition);
+}
+
+.btn:hover {
+    background: var(--bg-4);
+    border-color: var(--border-light);
+}
+
+.btn-primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+}

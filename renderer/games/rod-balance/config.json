@@ -1,0 +1,6 @@
+{
+    "name": "Rod Balance",
+    "description": "Balance a rod in either 3D or 2D, with independent physics settings for each mode.",
+    "icon": "🪄",
+    "type": "3d"
+}

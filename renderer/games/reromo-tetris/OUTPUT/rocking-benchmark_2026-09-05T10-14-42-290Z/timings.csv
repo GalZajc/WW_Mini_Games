@@ -1,0 +1,11 @@
+repeat,durationMs,stable,solver,virtualWork,bodyCount,contactReactionCount
+1,0.30230000000000246,true,contact-certificate,,30,60
+2,0.30580000000000496,true,contact-certificate,,30,60
+3,0.5198000000000036,true,contact-certificate,,30,60
+4,0.2890999999999906,true,contact-certificate,,30,60
+5,0.33209999999999695,true,contact-certificate,,30,60
+6,0.2469999999999999,true,contact-certificate,,30,60
+7,0.6221999999999923,true,contact-certificate,,30,60
+8,0.3053999999999917,true,contact-certificate,,30,60
+9,0.2195000000000107,true,contact-certificate,,30,60
+10,0.2528999999999968,true,contact-certificate,,30,60

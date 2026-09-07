@@ -1,0 +1,28 @@
+{
+  "mode": "rotate",
+  "columns": 7,
+  "rows": 6,
+  "winLength": 4,
+  "modeProfiles": {
+    "rotate": {
+      "columns": 7,
+      "rows": 6,
+      "winLength": 4
+    },
+    "random": {
+      "columns": 7,
+      "rows": 6,
+      "winLength": 4
+    },
+    "shoot": {
+      "columns": 7,
+      "rows": 6,
+      "winLength": 4
+    },
+    "push": {
+      "columns": 7,
+      "rows": 6,
+      "winLength": 4
+    }
+  }
+}

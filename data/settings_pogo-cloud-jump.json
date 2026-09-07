@@ -1,0 +1,13 @@
+{
+  "springStiffness": 1450,
+  "springRestLength": 0.85,
+  "legBentLength": 0.2,
+  "legExtendedLength": 0.65,
+  "mouseAimEnabled": true,
+  "lockMouseYToTop": true,
+  "angularSpeed": 100,
+  "monsterMass": 8,
+  "gravity": 14.5,
+  "monsterHeight": 0.72,
+  "platformGap": 2.7
+}

@@ -1,0 +1,16 @@
+{
+  "experiment": "rocking-benchmark",
+  "timestampUtc": "2026-09-05T10:11:13.569Z",
+  "medianMs": 19.13825,
+  "meanMs": 19.610160000000008,
+  "minimumMs": 14.72849999999994,
+  "maximumMs": 24.456099999999992,
+  "stableAll": true,
+  "solvers": [
+    "coupled-equilibrium"
+  ],
+  "bodyCount": 30,
+  "contactReactionCount": 504,
+  "performanceBudgetMs": 16,
+  "withinPerformanceBudget": false
+}

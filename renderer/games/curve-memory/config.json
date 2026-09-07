@@ -1,0 +1,6 @@
+{
+    "name": "Curve Memory",
+    "description": "Study a smooth random curve, then reproduce its shape and turning points from memory.",
+    "icon": "〰️",
+    "type": "2d"
+}

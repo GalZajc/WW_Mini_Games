@@ -1,0 +1,6 @@
+{
+    "name": "Cup Shuffle",
+    "description": "Track every hidden ball while the cups swap; your fastest successful shuffle is the record.",
+    "icon": "🥤",
+    "type": "2d"
+}

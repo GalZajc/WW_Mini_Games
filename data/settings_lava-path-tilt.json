@@ -1,0 +1,7 @@
+{
+  "pathWidth": 85,
+  "friction": 1.2,
+  "stickiness": 3,
+  "tiltStrength": 900,
+  "turnSharpness": 1
+}

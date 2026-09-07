@@ -1,0 +1,8 @@
+{
+    "name": "Hoop Glider 3D",
+    "description": "Fly through the hoops in full 3D space! Mouse to steer.",
+    "icon": "✈️",
+    "iconImage": "icon.png",
+    "type": "3d",
+    "hidden": true
+}

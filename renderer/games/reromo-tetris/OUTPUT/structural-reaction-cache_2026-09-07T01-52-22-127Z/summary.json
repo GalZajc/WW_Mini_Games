@@ -1,0 +1,12 @@
+[
+  {
+    "reuseReactions": false,
+    "medianMs": 110.45859999999993,
+    "hits": 0
+  },
+  {
+    "reuseReactions": true,
+    "medianMs": 5.005400000000009,
+    "hits": 14
+  }
+]

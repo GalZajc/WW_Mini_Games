@@ -1,0 +1,9 @@
+{
+  "sp_rows": 9,
+  "sp_cols": 16,
+  "sp_winLen": 6,
+  "sp_ai": "easy",
+  "mp_rows": 10,
+  "mp_cols": 15,
+  "mp_winLen": 6
+}

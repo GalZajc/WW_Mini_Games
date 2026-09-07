@@ -1,0 +1,6 @@
+{
+  "distribution": "perceptual",
+  "toleranceMs": 200,
+  "minimumInterval": 0.1,
+  "maximumInterval": 1
+}
