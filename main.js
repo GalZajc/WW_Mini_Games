@@ -5,7 +5,7 @@ const http = require('http');
 const crypto = require('crypto');
 const IS_HEADLESS_TEST = process.env.WW_MINI_GAMES_HEADLESS_TEST === '1';
 
-let mainWindow;
+const iconPath = path.join(__dirname, 'icon.ico');
 
 function createWindow() {
     mainWindow = new BrowserWindow({
@@ -14,6 +14,7 @@ function createWindow() {
         minWidth: 800,
         minHeight: 600,
         backgroundColor: '#0c0c14',
+        icon: iconPath,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
             contextIsolation: true,
@@ -48,6 +49,10 @@ function createWindow() {
     mainWindow.webContents.on('render-process-gone', (_ev, details) => {
         console.error('[CRASH] Renderer process gone:', details.reason);
     });
+}
+
+if (process.platform === 'win32') {
+    app.setAppUserModelId('ww-mini-games');
 }
 
 app.whenReady().then(createWindow);
