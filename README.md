@@ -92,7 +92,3 @@ Double-click **`setup_and_run.bat`**:
    Or run `run.bat`.
 
 ---
-
-## License
-
-All rights reserved. Developed by Gal Zajc.
