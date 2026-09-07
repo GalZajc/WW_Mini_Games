@@ -166,6 +166,11 @@ export class PauseMenu {
                     <span class="item-icon">⚙</span>
                     <span class="item-label">Settings</span>
                 </button>` : ''}
+                ${hasLayout ? `
+                <button class="pause-menu-item" data-action="layout">
+                    <span class="item-icon">⌗</span>
+                    <span class="item-label">Layout</span>
+                </button>` : ''}
                 ${this._controls.length ? `
                 <button class="pause-menu-item" data-action="controls">
                     <span class="item-icon">⌨</span>
@@ -175,11 +180,6 @@ export class PauseMenu {
                 <button class="pause-menu-item" data-action="mode">
                     <span class="item-icon">▦</span>
                     <span class="item-label">Game modes</span>
-                </button>` : ''}
-                ${hasLayout ? `
-                <button class="pause-menu-item" data-action="layout">
-                    <span class="item-icon">⌗</span>
-                    <span class="item-label">Layout</span>
                 </button>` : ''}
                 <div class="pause-separator"></div>
                 <button class="pause-menu-item danger" data-action="exit">

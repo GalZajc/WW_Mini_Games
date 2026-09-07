@@ -254,15 +254,34 @@ class App {
         this._isPaused = false;
     }
 
+    _getDeepestActiveGame(game) {
+        let current = game;
+        while (current) {
+            const next = current.child || current.activeGame || current.currentGame || current.subGame;
+            if (next && typeof next === 'object') {
+                const hasModes = next.supportsModeSelection
+                    || typeof next.openModeSelector === 'function'
+                    || typeof next.returnToModeSelector === 'function';
+                if (hasModes && next.phase !== 'mode-select') {
+                    current = next;
+                    continue;
+                }
+            }
+            break;
+        }
+        return current;
+    }
+
     chooseCurrentGameMode() {
         return this.openCurrentGameModes();
     }
 
     hasCurrentGameModes() {
+        const target = this._getDeepestActiveGame(this.currentGame);
         return hasGameModes({
             gameId: this.currentConfig?._id,
-            GameClass: this._GameClass,
-            game: this.currentGame,
+            GameClass: target?.constructor ?? this._GameClass,
+            game: target ?? this.currentGame,
         });
     }
 
@@ -273,18 +292,19 @@ class App {
         this._unlockPointer();
         this.pauseMenu.hide();
 
-        const game = this.currentGame;
+        const game = this._getDeepestActiveGame(this.currentGame);
         try {
+            // Check openModeSelector first so games can target their most direct/immediate sub-mode level
+            if (typeof game.openModeSelector === 'function') {
+                const opened = await game.openModeSelector({ source: 'pause-menu', direct: true });
+                if (opened !== false) return true;
+            }
+
             // Existing collection games own important lobby/network teardown in
             // returnToModeSelector(). Let them reuse that path when present.
             if (typeof game.returnToModeSelector === 'function') {
-                await game.returnToModeSelector();
+                await game.returnToModeSelector({ source: 'pause-menu', direct: true });
                 return true;
-            }
-
-            if (typeof game.openModeSelector === 'function') {
-                const opened = await game.openModeSelector({ source: 'pause-menu' });
-                if (opened !== false) return true;
             }
 
             // Legacy games (for example the original canvas lobby) do not

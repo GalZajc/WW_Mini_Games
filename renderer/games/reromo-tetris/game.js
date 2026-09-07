@@ -273,10 +273,21 @@ export default class ReRoMoTetris extends BaseGame {
         ];
     }
 
-    returnToModeSelector() {
+    openModeSelector(options = {}) {
         this.destroy();
         this._modeChosenForSession = false;
-        this._showModeSelector();
+        this._showBoardSelector();
+        return true;
+    }
+
+    returnToModeSelector(options = {}) {
+        this.destroy();
+        this._modeChosenForSession = false;
+        if (options?.direct || options?.source === 'pause-menu') {
+            this._showBoardSelector();
+        } else {
+            this._showModeSelector();
+        }
     }
 
     _showModeSelector() {
