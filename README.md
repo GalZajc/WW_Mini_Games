@@ -10,7 +10,7 @@ WW Mini Games brings together a diverse variety of fast-paced arcade challenges,
 
 - **Prototype & Experimental Phase**: The majority of the mini-games are currently in active prototype and exploratory development stages, focusing on novel mechanics, responsiveness, and physics-driven gameplay.
 - **ReRoMo Tetris (Flagship Title)**: Unlike the prototype mini-games, ReRoMo Tetris is an exceptionally advanced, mature, and deeply engineered game featuring:
-  - Six distinct board topologies: **Cartesian**, **Polar (circular)**, **Möbius strip double-traversal**, **Rocking platform (rolling lines)**, **Rocking platform with mass-collapse pressure**, and **Structural Cartesian (statics, torque equilibrium, and toppling collapse)**.
+  - Six distinct board topologies: **Cartesian**, **Polar (circular)**, **Möbius strip double-traversal**, **Structural Cartesian (statics, torque equilibrium, and toppling collapse)**, **Rocking platform (rolling lines)**, and **Rocking platform with mass-collapse pressure**.
   - Polyomino piece systems from monominos up to 10-ominos with custom probability distributions.
   - Fully modular 8-slot corner widget layout customization.
   - Ongoing development will continue to expand its features, physics, and gameplay modes.

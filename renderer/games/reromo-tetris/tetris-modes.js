@@ -1,4 +1,4 @@
-export const TETRIS_MODES = Object.freeze(['rectangular', 'circular', 'mobius', 'rocking', 'rocking-pressure', 'structural']);
+export const TETRIS_MODES = Object.freeze(['rectangular', 'circular', 'mobius', 'structural', 'rocking', 'rocking-pressure']);
 export function formatSprintTime(seconds) {
     if (!Number.isFinite(seconds)) return '—';
     const centiseconds = Math.floor(Math.max(0, seconds) * 100);

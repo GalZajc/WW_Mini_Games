@@ -313,9 +313,9 @@ export default class ReRoMoTetris extends BaseGame {
             { key: 'rectangular', title: 'Cartesian', artKey: 'tetris-rectangular', description: 'The original rectangular field.' },
             { key: 'circular', title: 'Polar', artKey: 'tetris-circular', description: 'Periodic angular direction on a polar board.' },
             { key: 'mobius', title: 'Möbius', artKey: 'tetris-mobius', description: 'Double-traversal non-orientable strip.' },
+            { key: 'structural', title: 'Structural Cartesian', artKey: 'tetris-structural', description: 'Cartesian stacking with forces, torques, and toppling.' },
             { key: 'rocking', title: 'Rocking · Lines', artKey: 'tetris-rocking', description: 'A rolling circular platform. Clear rows by filling the platform width.' },
             { key: 'rocking-pressure', title: 'Rocking · Pressure', artKey: 'tetris-rocking-pressure', description: 'A rolling platform. Rows collapse under the mass stacked above them.' },
-            { key: 'structural', title: 'Structural Cartesian', artKey: 'tetris-structural', description: 'Cartesian stacking with forces, torques, and toppling.' },
         ];
         this.pendingMode = modes.some(mode => mode.key === this.settings.mode) ? this.settings.mode : 'circular';
         this.modeSelector.innerHTML = modeGalleryMarkup({
