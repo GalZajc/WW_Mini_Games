@@ -1,5 +1,8 @@
 import * as THREE from '../../../node_modules/three/build/three.module.js';
 import { seededRandom } from './model.js';
+import { POLYHEDRON_GEOMETRY, cleanPolygon, createPolyhedronPieces } from './polyhedron-geometry.js';
+import { PUZZLE_PRESENTATION } from './puzzle-interaction.js';
+import { BRIGHT_PALETTE } from './bright-palette.js';
 
 const MODE_SPECS = Object.freeze({
     tetrahedron: Object.freeze({
@@ -7,11 +10,13 @@ const MODE_SPECS = Object.freeze({
         geometry: 'tetrahedron',
         turnOrder: 3,
         axisKind: 'vertices',
+        completeAxisLayers: true,
     }),
     octahedron: Object.freeze({
         label: 'Rubik octahedron',
         geometry: 'octahedron',
         turnOrder: 3,
+        vertexTurnOrder: 4,
         axisKind: 'faces',
     }),
     dodecahedron: Object.freeze({
@@ -23,9 +28,7 @@ const MODE_SPECS = Object.freeze({
     icosahedron: Object.freeze({
         label: 'Rubik icosahedron',
         geometry: 'icosahedron',
-        // Dogic-style icosahedral puzzles turn the five triangular faces
-        // meeting at a vertex. Their physical symmetry is therefore a
-        // five-fold vertex axis, not a three-fold face-normal axis.
+        // Five triangular faces meet at each turning vertex (72 degrees).
         turnOrder: 5,
         axisKind: 'vertices',
     }),
@@ -34,10 +37,10 @@ const MODE_SPECS = Object.freeze({
 export const TWISTY_MODE_INFO = Object.freeze({
     cuboid: Object.freeze({ label: 'Rubik cuboid', icon: '🧊', sizeLabel: 'X × Y × Z' }),
     torus: Object.freeze({ label: 'Rubik torus', icon: '🍩', sizeLabel: 'Major × minor rings' }),
-    tetrahedron: Object.freeze({ label: 'Rubik tetrahedron', icon: '🔺', sizeLabel: 'Cells per edge', maxOrder: 7 }),
-    octahedron: Object.freeze({ label: 'Rubik octahedron', icon: '🔷', sizeLabel: 'Cells per edge', maxOrder: 6 }),
-    dodecahedron: Object.freeze({ label: 'Rubik dodecahedron', icon: '⬟', sizeLabel: 'Cut order', maxOrder: 4 }),
-    icosahedron: Object.freeze({ label: 'Rubik icosahedron', icon: '💠', sizeLabel: 'Cut order', maxOrder: 3 }),
+    tetrahedron: Object.freeze({ label: 'Rubik tetrahedron', icon: '🔺', sizeLabel: 'Cells per edge' }),
+    octahedron: Object.freeze({ label: 'Rubik octahedron', icon: '🔷', sizeLabel: 'Cells per edge' }),
+    dodecahedron: Object.freeze({ label: 'Rubik dodecahedron', icon: '⬟', sizeLabel: 'Layers from face' }),
+    icosahedron: Object.freeze({ label: 'Rubik icosahedron', icon: '💠', sizeLabel: 'Cells per edge' }),
 });
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
@@ -99,6 +102,10 @@ function extractPolygonFaces(geometry) {
 }
 
 function splitConvexPolygon(vertices, axis, threshold, epsilon = 1e-7) {
+    const distances = vertices.map(vertex => vertex.dot(axis) - threshold);
+    if (!distances.some(distance => distance > epsilon) || !distances.some(distance => distance < -epsilon)) {
+        return [vertices];
+    }
     const positive = [];
     const negative = [];
     for (let index = 0; index < vertices.length; index++) {
@@ -116,16 +123,11 @@ function splitConvexPolygon(vertices, axis, threshold, epsilon = 1e-7) {
             negative.push(intersection);
         }
     }
-    const clean = polygon => polygon.filter((vertex, index) =>
-        index === 0 || vertex.distanceToSquared(polygon[index - 1]) > 1e-12
-    ).filter((vertex, index, array) =>
-        array.length < 2 || index !== array.length - 1 || vertex.distanceToSquared(array[0]) > 1e-12
-    );
-    const parts = [clean(positive), clean(negative)].filter(polygon => polygon.length >= 3);
+    const parts = [cleanPolygon(positive), cleanPolygon(negative)].filter(polygon => polygon.length >= 3);
     return parts.length ? parts : [vertices.map(vertex => vertex.clone())];
 }
 
-function cutThresholds(axes, faces, order) {
+function cutThresholds(axes, faces, order, mode) {
     return axes.map(axis => {
         const projections = faces.flatMap(face => face.vertices.map(vertex => vertex.dot(axis)));
         const maximum = Math.max(...projections);
@@ -133,13 +135,17 @@ function cutThresholds(axes, faces, order) {
             .sort((a, b) => b - a)
             .filter((value, index, values) => index === 0 || Math.abs(value - values[index - 1]) > 1e-6);
         const nextLevel = levels[1] ?? Math.min(...projections);
+        // Minx cuts must stop BEFORE neighbouring bands meet halfway along
+        // an edge. k cuts at j/(2k+1) leave 2k+1 equal edge segments and one
+        // pentagonal centre, with 5k(k+1) quadrilaterals around it.
+        const divisions = mode === 'dodecahedron' ? 2 * order - 1 : order;
         return Array.from({ length: Math.max(1, order - 1) }, (_, layer) =>
-            maximum - (maximum - nextLevel) * (layer + 1) / order
+            maximum - (maximum - nextLevel) * (layer + 1) / divisions
         );
     });
 }
 
-function createFaceSlots(faces, axes, thresholds) {
+function createFaceSlots(faces, axes, thresholds, radius) {
     const slots = [];
     for (const face of faces) {
         let polygons = [face.vertices.map(vertex => vertex.clone())];
@@ -151,9 +157,9 @@ function createFaceSlots(faces, axes, thresholds) {
         for (const polygon of polygons) {
             const center = polygon.reduce((sum, vertex) => sum.add(vertex), new THREE.Vector3())
                 .multiplyScalar(1 / polygon.length);
-            const liftedCenter = center.clone().addScaledVector(face.normal, 0.035);
+            const liftedCenter = center.clone().addScaledVector(face.normal, radius * POLYHEDRON_GEOMETRY.stickerLiftPerRadius);
             const vertices = polygon.map(vertex =>
-                liftedCenter.clone().add(vertex.clone().sub(center).multiplyScalar(0.925))
+                liftedCenter.clone().add(vertex.clone().sub(center).multiplyScalar(POLYHEDRON_GEOMETRY.stickerScale))
             );
             slots.push({
                 id: slots.length,
@@ -161,6 +167,8 @@ function createFaceSlots(faces, axes, thresholds) {
                 homeColor: face.faceIndex,
                 normal: face.normal.clone(),
                 center: liftedCenter,
+                surfaceCenter: center,
+                polygon,
                 vertices,
             });
         }
@@ -220,10 +228,11 @@ function maximumAssignment(counts) {
     return total;
 }
 
-function facePalette(count) {
+export function facePalette(count) {
+    if (count === 20) return BRIGHT_PALETTE.colours.map(hex => Number.parseInt(hex.slice(1), 16));
     const classic = [
         0xe53935, 0xff8f00, 0xf5f5f5, 0xfdd835, 0x43a047, 0x1e88e5,
-        0x8e24aa, 0x00acc1, 0x7cb342, 0xfb8c00, 0x6d4c41, 0xec407a,
+        0x8e24aa, 0x00acc1, 0xb9ef70, 0xffb6c1, 0x6d4c41, 0xec407a,
     ];
     return Array.from({ length: count }, (_, index) => {
         if (index < classic.length) return classic[index];
@@ -242,8 +251,18 @@ export class PolyhedronPuzzleModel {
         this.baseGeometry = baseGeometry(this.spec.geometry, radius);
         this.faces = extractPolygonFaces(this.baseGeometry);
         this.axes = this._createAxes();
-        this.thresholds = cutThresholds(this.axes, this.faces, this.order);
-        this.slots = createFaceSlots(this.faces, this.axes, this.thresholds);
+        this.thresholds = cutThresholds(this.axes, this.faces, this.order, mode);
+        if (mode === 'octahedron') {
+            // Vertex-axis cuts coincide with the triangular surface grid,
+            // but are different planes inside the solid. Include them in
+            // the cubie partition so 90-degree turns move whole cubies.
+            for (let index = this.faces.length; index < this.axes.length; index++) {
+                this.thresholds[index] = Array.from({ length: 2 * this.order - 1 }, (_, cut) =>
+                    this.radius * (1 - (cut + 1) / this.order));
+            }
+        }
+        this.slots = createFaceSlots(this.faces, this.axes, this.thresholds, radius);
+        this.pieces = createPolyhedronPieces(this.faces, this.slots, this.axes, this.thresholds, radius);
         this.colors = this.slots.map(slot => slot.homeColor);
         this.faceColors = facePalette(this.faces.length);
         this.maximumScore = this.slots.length;
@@ -253,7 +272,14 @@ export class PolyhedronPuzzleModel {
 
     _createAxes() {
         if (this.spec.axisKind === 'faces') {
-            return this.faces.map(face => face.normal.clone().normalize());
+            const axes = this.faces.map(face => face.normal.clone().normalize());
+            if (this.mode === 'octahedron') {
+                const vertexAxes = uniqueVectors(this.faces.flatMap(face => face.vertices))
+                    .map(vertex => vertex.clone().normalize())
+                    .filter(axis => axis.toArray().find(value => Math.abs(value) > 1e-6) > 0);
+                axes.push(...vertexAxes);
+            }
+            return axes;
         }
         const vertices = uniqueVectors(this.faces.flatMap(face => face.vertices));
         return vertices.map(vertex => vertex.clone().normalize());
@@ -266,8 +292,11 @@ export class PolyhedronPuzzleModel {
             slotIndex,
         ]));
         this.axes.forEach((axis, axisIndex) => {
-            for (let layer = 0; layer < this.thresholds[axisIndex].length; layer++) {
-                const threshold = this.thresholds[axisIndex][layer];
+            const vertexAxis = this.mode === 'octahedron' && axisIndex >= this.faces.length;
+            const turnOrder = vertexAxis ? this.spec.vertexTurnOrder : this.spec.turnOrder;
+            const layerCount = this.thresholds[axisIndex].length + (this.spec.completeAxisLayers || vertexAxis ? 1 : 0);
+            for (let layer = 0; layer < layerCount; layer++) {
+                const threshold = this.thresholds[axisIndex][layer] ?? -Infinity;
                 const upperThreshold = layer === 0
                     ? Infinity
                     : this.thresholds[axisIndex][layer - 1];
@@ -278,7 +307,7 @@ export class PolyhedronPuzzleModel {
                     // layer 2 contained both, and a drag rotated the complete
                     // cap from that depth outward.
                     .filter(({ slot }) => {
-                        const projection = slot.center.dot(axis);
+                        const projection = slot.surfaceCenter.dot(axis);
                         return projection >= threshold - 1e-6
                             && projection < upperThreshold - 1e-6;
                     })
@@ -286,7 +315,7 @@ export class PolyhedronPuzzleModel {
                 const selectedSet = new Set(selected);
                 const quaternion = new THREE.Quaternion().setFromAxisAngle(
                     axis,
-                    Math.PI * 2 / this.spec.turnOrder,
+                    Math.PI * 2 / turnOrder,
                 );
                 const destinationBySource = Array(this.slots.length).fill(-1);
                 const unused = new Set(selected);
@@ -309,17 +338,37 @@ export class PolyhedronPuzzleModel {
                             }
                         }
                     }
-                    if (bestDestination < 0) throw new Error('Could not construct polyhedron move permutation.');
+                    // A nearest colour slot is NOT a legal substitute for a
+                    // geometrically congruent sticker. Check every vertex.
+                    const target = this.slots[bestDestination];
+                    const toleranceSquared = (this.radius * POLYHEDRON_GEOMETRY.epsilon * 4) ** 2;
+                    if (!target || transformedCenter.distanceToSquared(target.center) > toleranceSquared
+                        || transformedNormal.distanceToSquared(target.normal) > toleranceSquared
+                        || target.polygon.length !== this.slots[source].polygon.length
+                        || !this.slots[source].polygon.every(vertex => {
+                            const rotated = vertex.clone().applyQuaternion(quaternion);
+                            return target.polygon.some(point => point.distanceToSquared(rotated) <= toleranceSquared);
+                        })) throw new Error(`Non-congruent ${this.mode} turn (axis ${axisIndex}, layer ${layer}).`);
                     destinationBySource[source] = bestDestination;
                     unused.delete(bestDestination);
                 }
+                const selectedPieces = [...new Set(selected.map(source => this.slots[source].pieceIndex))];
+                for (const pieceIndex of selectedPieces) {
+                    const piece = this.pieces[pieceIndex];
+                    const destinations = new Set(piece.slots.map(source => this.slots[destinationBySource[source]]?.pieceIndex));
+                    if (destinations.size !== 1 || destinations.has(undefined)) {
+                        throw new Error('A layer turn would split a cubie.');
+                    }
+                }
                 moves.push({
                     axisIndex,
+                    turnOrder,
                     axis: axis.clone(),
                     layer,
                     threshold,
                     selected,
                     selectedSet,
+                    selectedPieces,
                     destinationBySource,
                 });
             }
@@ -334,8 +383,7 @@ export class PolyhedronPuzzleModel {
     applyMove(axisIndex, layer, turns = 1) {
         const move = this.move(axisIndex, layer);
         if (!move) return false;
-        const normalized = ((Math.trunc(turns) % this.spec.turnOrder) + this.spec.turnOrder)
-            % this.spec.turnOrder;
+        const normalized = ((Math.trunc(turns) % move.turnOrder) + move.turnOrder) % move.turnOrder;
         if (normalized === 0) return false;
         for (let step = 0; step < normalized; step++) {
             const next = [...this.colors];
@@ -354,17 +402,27 @@ export class PolyhedronPuzzleModel {
             const move = layers.find(candidate => candidate.selectedSet.has(slotIndex));
             if (!move) continue;
             const slot = this.slots[slotIndex];
-            const tangent = new THREE.Vector3().crossVectors(move.axis, slot.center);
+            const velocity = new THREE.Vector3().crossVectors(move.axis, slot.surfaceCenter);
+            // On a side face, swipe along the visible cut line. Projecting
+            // the full 3D rotational velocity also includes motion out of
+            // that face, which can select the wrong slice in oblique views.
+            const tangent = new THREE.Vector3().crossVectors(move.axis, slot.normal);
+            if (tangent.lengthSq() < 1e-8) tangent.copy(velocity);
+            else if (tangent.dot(velocity) < 0) tangent.negate();
             if (tangent.lengthSq() < 1e-8) continue;
             candidates.push({
                 axisIndex,
                 layer: move.layer,
                 axis: move.axis.clone(),
                 tangent: tangent.normalize(),
+                changesFace: this.slots[move.destinationBySource[slotIndex]].faceIndex !== slot.faceIndex,
+                cornerTip: this.mode === 'octahedron' && move.turnOrder === 4 && move.selected.length === 4,
                 move,
             });
         }
-        return candidates;
+        // A grabbed sticker must leave its face. Merely preferring this
+        // inside a screen-angle tolerance still allowed front-face turns.
+        return candidates.filter(candidate => candidate.changesFace || candidate.cornerTip);
     }
 
     score() {
@@ -408,14 +466,12 @@ export class PolyhedronPuzzleModel {
 }
 
 function torusReferenceColor(u, v, uCount, vCount) {
-    const majorBand = Math.floor(u * 6 / uCount) % 6;
-    const minorBand = Math.floor(v * 3 / vCount) % 3;
-    return (majorBand + minorBand * 2) % 6;
+    return ((v % vCount + vCount) % vCount) * uCount + (u % uCount + uCount) % uCount;
 }
 
 export class TorusPuzzleModel {
 
-    constructor(uCount = 12, vCount = 6) {
+    constructor(uCount = 12, vCount = 6, settings = {}) {
         this.uCount = Math.round(Number(uCount));
         this.vCount = Math.round(Number(vCount));
         this.slots = [];
@@ -430,7 +486,12 @@ export class TorusPuzzleModel {
             }
         }
         this.colors = this.slots.map(slot => slot.homeColor);
-        this.faceColors = facePalette(6);
+        const value = key => Number(settings[key] ?? PUZZLE_PRESENTATION[key]);
+        const low = value('torusLightnessMin') / 100;
+        const high = value('torusLightnessMax') / 100;
+        this.faceColors = this.slots.map(slot => new THREE.Color().setHSL(
+            slot.u / this.uCount + value('torusHueOffset') / 360, value('torusSaturation') / 100,
+            low + (high - low) * slot.v / (this.vCount - 1), THREE.SRGBColorSpace).getHex());
         this.maximumScore = this.slots.length;
         this.scrambleMoves = [];
     }
@@ -469,21 +530,14 @@ export class TorusPuzzleModel {
     }
 
     score() {
+        // Every colour identifies one home cell. A solved torus may be
+        // translated around either ring: count matching offsets in O(cells).
+        const offsets = new Uint32Array(this.maximumScore);
         let best = 0;
-        for (let offsetU = 0; offsetU < this.uCount; offsetU++) {
-            for (let offsetV = 0; offsetV < this.vCount; offsetV++) {
-                const counts = Array.from({ length: 6 }, () => Array(6).fill(0));
-                for (const slot of this.slots) {
-                    const reference = torusReferenceColor(
-                        slot.u + offsetU,
-                        slot.v + offsetV,
-                        this.uCount,
-                        this.vCount,
-                    );
-                    counts[this.colors[slot.id]][reference]++;
-                }
-                best = Math.max(best, maximumAssignment(counts));
-            }
+        for (const slot of this.slots) {
+            const home = this.colors[slot.id];
+            const offset = this.index(home % this.uCount - slot.u, Math.floor(home / this.uCount) - slot.v);
+            best = Math.max(best, ++offsets[offset]);
         }
         return best;
     }

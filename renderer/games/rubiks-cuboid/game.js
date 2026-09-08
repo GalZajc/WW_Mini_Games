@@ -1,3 +1,5 @@
+import { NetNavigation, resizeNet } from './net-navigation.js';
+import { PuzzleHistory } from './puzzle-history.js';
 import { BaseGame } from '../../core/BaseGame.js';
 import { requireFiniteNumber, requireInteger, requirePositiveNumber } from '../../core/SettingsValidation.js';
 import { PolyLabTrackballOrbitControls } from '../../core/PolyLabTrackballOrbitControls.js';
@@ -17,7 +19,8 @@ import {
     CuboidModel,
 } from './model.js';
 import { TwistySurfaceMode } from './twisty-surface-mode.js';
-import { TWISTY_MODE_INFO } from './twisty-models.js';
+import { TWISTY_MODE_INFO, facePalette } from './twisty-models.js';
+import { chooseDragSlice, PUZZLE_PRESENTATION } from './puzzle-interaction.js';
 
 const PARAMETERS = Object.freeze({
     nx: 3,
@@ -49,6 +52,12 @@ const TWISTY_MODE_KEYS = Object.freeze(Object.keys(TWISTY_MODE_INFO));
 
 function initializeTwistySettings(settings) {
     let source = settings || {};
+    // Replace the old near-duplicate orange default, preserving custom colours.
+    const migratePalette = profile => profile?.faceColor9?.toLowerCase() === '#fb8c00'
+        ? { ...profile, faceColor9: '#ffb6c1' } : profile;
+    source = migratePalette(source);
+    if (source.modeProfiles) source = { ...source, modeProfiles: Object.fromEntries(
+        Object.entries(source.modeProfiles).map(([mode, profile]) => [mode, migratePalette(profile)])) };
     if (!source.modeProfiles || Object.keys(source.modeProfiles).length === 0) {
         const schema = CuboidModeGame.getSettingsSchema();
         const profiles = {};
@@ -62,8 +71,17 @@ function initializeTwistySettings(settings) {
         }
         source = { ...source, modeProfiles: profiles };
     }
-    return initializeModeSettings(
+    const initialized = initializeModeSettings(
         source, TWISTY_MODE_KEYS, CuboidModeGame.getSettingsSchema(), 'cuboid');
+    for (const [mode, profile] of Object.entries(initialized.modeProfiles)) {
+        if (profile.facePaletteVersion >= 3) continue;
+        if (mode === 'icosahedron') facePalette(20).forEach((color, index) => {
+            profile[`faceColor${index}`] = `#${color.toString(16).padStart(6, '0')}`;
+        });
+        if (mode === 'dodecahedron' && !(profile.facePaletteVersion >= 2)) profile.faceColor8 = '#b9ef70';
+        profile.facePaletteVersion = 3;
+    }
+    return { ...initialized, ...initialized.modeProfiles[initialized.mode] };
 }
 const dot = (a, b) => a[0] * b[0] + a[1] * b[1] + a[2] * b[2];
 const cross = (a, b) => [
@@ -127,7 +145,9 @@ class CuboidModeGame extends BaseGame {
         });
 
         this.model = new CuboidModel(this.nx, this.ny, this.nz);
-        this._scrambleModel();
+        this.scoredRun = false;
+        this.scrambleMoves = [];
+        this.scrambleDiagnostics = {};
         this.currentScore = this.model.score();
 
         this._setupThree();
@@ -158,8 +178,7 @@ class CuboidModeGame extends BaseGame {
         this.renderer = new THREE.WebGLRenderer({ canvas: this.canvas, antialias: true });
         this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
         this.renderer.setSize(this.canvas.width, this.canvas.height, false);
-        this.renderer.shadowMap.enabled = true;
-        this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+        this.renderer.shadowMap.enabled = false;
         this.renderer.outputColorSpace = THREE.SRGBColorSpace;
 
         this.scene = new THREE.Scene();
@@ -194,32 +213,14 @@ class CuboidModeGame extends BaseGame {
             },
         });
 
-        this.scene.add(new THREE.HemisphereLight(0xffffff, 0x4e8ec8, 2.05));
-        const keyLight = new THREE.DirectionalLight(0xfff0d5, 2.5);
-        keyLight.position.set(-6, 10, 8);
-        keyLight.castShadow = true;
-        keyLight.shadow.mapSize.set(2048, 2048);
-        keyLight.shadow.camera.left = -10;
-        keyLight.shadow.camera.right = 10;
-        keyLight.shadow.camera.top = 10;
-        keyLight.shadow.camera.bottom = -10;
-        keyLight.shadow.camera.near = 1;
-        keyLight.shadow.camera.far = 35;
-        this.scene.add(keyLight);
-
-        const rimLight = new THREE.DirectionalLight(0x7caeff, 1.35);
-        rimLight.position.set(8, 3, -7);
-        this.scene.add(rimLight);
+        this.scene.add(new THREE.AmbientLight(0xffffff, PUZZLE_PRESENTATION.whiteLightIntensity));
 
         this.puzzleGroup = new THREE.Group();
         this.scene.add(this.puzzleGroup);
         this._createCubieBodies();
         this._createStickerInstances();
 
-        this.layerBox = new THREE.Box3();
-        this.layerHelper = new THREE.Box3Helper(this.layerBox, 0xffd45c);
-        this.layerHelper.visible = false;
-        this.scene.add(this.layerHelper);
+
 
         this.raycaster = new THREE.Raycaster();
         this.pointerNdc = new THREE.Vector2();
@@ -265,7 +266,7 @@ class CuboidModeGame extends BaseGame {
         for (const colorKey of FACE_KEYS) {
             const count = this.model.stickers.filter(sticker => sticker.color === colorKey).length;
             const material = new THREE.MeshStandardMaterial({
-                color: COLOR_VALUES[colorKey],
+                color: this.settings[`faceColor${FACE_KEYS.indexOf(colorKey)}`] || COLOR_VALUES[colorKey],
                 roughness: 0.38,
                 metalness: 0.03,
                 side: THREE.FrontSide,
@@ -403,8 +404,9 @@ class CuboidModeGame extends BaseGame {
             -((clientY - rect.top) / rect.height) * 2 + 1,
         );
         this.raycaster.setFromCamera(this.pointerNdc, this.camera);
-        const intersections = this.raycaster.intersectObjects(this.stickerInstances, false);
+        const intersections = this.raycaster.intersectObjects([...this.stickerInstances, this.bodyInstances], false);
         for (const intersection of intersections) {
+            if (intersection.object === this.bodyInstances) return null;
             const sticker = intersection.object.userData.stickers?.[intersection.instanceId];
             if (sticker) return sticker;
         }
@@ -423,7 +425,7 @@ class CuboidModeGame extends BaseGame {
         })).filter(candidate => length2(candidate.direction) > 0.001);
         if (candidates.length !== 2) return;
 
-        this.runStarted = true;
+        this.runStarted = Boolean(this.scoredRun);
         this.sliceDrag = {
             sticker,
             source,
@@ -475,14 +477,8 @@ class CuboidModeGame extends BaseGame {
         const drag = this.sliceDrag;
         if (!drag) return;
         const delta = [clientX - drag.startX, clientY - drag.startY];
-        const magnitude = length2(delta);
-        const normalized = magnitude > 0.001 ? delta.map(value => value / magnitude) : [1, 0];
-
-        const chosen = drag.candidates.reduce((best, candidate) => {
-            const closeness = Math.abs(candidate.direction[0] * normalized[0]
-                + candidate.direction[1] * normalized[1]);
-            return !best || closeness > best.closeness ? { ...candidate, closeness } : best;
-        }, null);
+        const chosen = chooseDragSlice(drag.candidates, delta[0], delta[1], drag.chosen);
+        if (!chosen) return;
         drag.projectedDistance = delta[0] * chosen.direction[0]
             + delta[1] * chosen.direction[1];
         drag.quarterTurns = chosen.quarterTurnsAllowed
@@ -492,7 +488,7 @@ class CuboidModeGame extends BaseGame {
         drag.chosen = chosen;
 
         this._applyLiveSlicePreview(drag, chosen, drag.quarterTurns);
-        this._showLayerHelper(chosen.axis, chosen.layer);
+
     }
 
     _applyLiveSlicePreview(drag, chosen, quarterTurns) {
@@ -554,22 +550,11 @@ class CuboidModeGame extends BaseGame {
         this._refreshStickerInstances(false);
     }
 
-    _showLayerHelper(axis, layer) {
-        const halfDimensions = [this.nx, this.ny, this.nz].map(value => value * 0.5);
-        const center = layer - (this.model.dimensions[AXIS_INDEX[axis]] - 1) * 0.5;
-        const min = halfDimensions.map(value => -value - 0.04);
-        const max = halfDimensions.map(value => value + 0.04);
-        min[AXIS_INDEX[axis]] = center - 0.51;
-        max[AXIS_INDEX[axis]] = center + 0.51;
-        this.layerBox.min.set(...min);
-        this.layerBox.max.set(...max);
-        this.layerHelper.visible = true;
-    }
 
     _finishSliceDrag() {
         const drag = this.sliceDrag;
         this.sliceDrag = null;
-        this.layerHelper.visible = false;
+
         if (!drag?.chosen) return;
 
         this.audio?.playSound?.('rubik-release', { volume: 0.32 });
@@ -580,8 +565,8 @@ class CuboidModeGame extends BaseGame {
         if (!drag.chosen.quarterTurnsAllowed && normalized !== 2) return;
         const appliedTurns = normalized === 3 ? -1 : normalized;
 
-        this.moves++;
-        this.moveHistory.push({
+        if (this.scoredRun) this.moves++;
+        this.history.record({
             axis: drag.chosen.axis,
             layer: drag.chosen.layer,
             quarterTurns: appliedTurns,
@@ -594,7 +579,7 @@ class CuboidModeGame extends BaseGame {
     _cancelSliceDrag() {
         const drag = this.sliceDrag;
         this.sliceDrag = null;
-        this.layerHelper.visible = false;
+
         this._finishTurnAnimationImmediately();
         if (!drag || drag.appliedAxis === null || drag.appliedQuarterTurns === 0) return;
         if (this.model.rotate(drag.appliedAxis, drag.appliedLayer, -drag.appliedQuarterTurns)) {
@@ -604,7 +589,7 @@ class CuboidModeGame extends BaseGame {
     }
 
     _completeRun() {
-        if (this.phase !== 'playing') return;
+        if (this.phase !== 'playing' || !this.scoredRun) return;
         this.phase = 'complete';
         this.bestMoves = this.bestMoves === null ? this.moves : Math.min(this.bestMoves, this.moves);
         if (!this.scoreSubmitted) {
@@ -625,11 +610,16 @@ class CuboidModeGame extends BaseGame {
         this._renderHud();
     }
 
-    _newScramble() {
+    _resetSolved() { this._newScramble(false); }
+
+    _newScramble(shuffle = true) {
+        this.history?.clear();
         this._cancelSliceDrag();
         this.turnAnimation = null;
         this.model = new CuboidModel(this.nx, this.ny, this.nz);
-        this._scrambleModel();
+        if (shuffle) this._scrambleModel();
+        this.scoredRun = shuffle;
+        if (!shuffle) this.scrambleMoves = [];
         this.currentScore = this.model.score();
         this.phase = 'playing';
         this.elapsed = 0;
@@ -648,14 +638,18 @@ class CuboidModeGame extends BaseGame {
             font-family:Inter,system-ui,sans-serif; color:#242b27;
         `;
         this.hud.innerHTML = `
-            <div style="position:absolute;top:14px;left:14px;min-width:285px;padding:12px 15px;border:2px solid #5e6661;border-radius:14px;background:rgba(220,224,221,.94);box-shadow:0 12px 30px rgba(35,55,44,.22);">
-                <div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#396047;">Rubik's Cuboid ${this.nx} × ${this.ny} × ${this.nz}</div>
+            <div data-run-panel style="position:absolute;top:14px;left:14px;z-index:1;min-width:285px;"><div data-run-info style="padding:12px 15px;border:2px solid #5e6661;border-radius:14px;background:#aeb4b0;color:#3f4b43;box-shadow:0 12px 30px rgba(35,55,44,.22);">
+                <div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#3f4b43;">Rubik's Cuboid ${this.nx} × ${this.ny} × ${this.nz}</div>
                 <div data-score style="margin-top:3px;font-size:34px;font-weight:900;line-height:1.08;">0 / 0</div>
-                <div data-score-percent style="font-size:12px;color:#4f5d55;">0% colour match</div>
-                <div data-run style="margin-top:6px;font-size:12px;color:#59675e;">0 moves · 0.0 s</div>
-                <div data-best style="margin-top:3px;font-size:11px;color:#707b74;">Best: —</div>
+                <div data-score-percent style="font-size:12px;color:#3f4b43;">0% colour match</div>
+                <div data-run style="margin-top:6px;font-size:12px;color:#3f4b43;">0 moves · 0.0 s</div>
+                <div data-best style="margin-top:3px;font-size:11px;color:#3f4b43;">Best: —</div>
             </div>
-            <div data-net-panel style="position:absolute;top:14px;right:14px;width:330px;height:250px;min-width:220px;min-height:170px;max-width:720px;max-height:600px;border:2px solid #5e6661;border-radius:14px;background:rgba(201,206,202,.96);box-shadow:0 12px 32px rgba(35,55,44,.24);pointer-events:auto;overflow:hidden;">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px;pointer-events:auto;">
+                <button data-shuffle style="padding:7px 10px;border:2px solid #5e6661;border-radius:10px;background:#aeb4b0;color:#3f4b43;font:inherit;font-size:12px;cursor:pointer;">Shuffle</button>
+                <button data-solve style="padding:7px 10px;border:2px solid #5e6661;border-radius:10px;background:#aeb4b0;color:#3f4b43;font:inherit;font-size:12px;cursor:pointer;">Solve</button>
+            </div></div>
+            <div data-net-panel style="position:absolute;top:14px;right:14px;width:330px;height:250px;min-width:150px;min-height:100px;box-sizing:border-box;border:2px solid #5e6661;border-radius:14px;background:rgba(201,206,202,.96);box-shadow:0 12px 32px rgba(35,55,44,.24);pointer-events:auto;overflow:hidden;">
                 <div style="height:25px;padding:6px 10px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#3f4b43;border-bottom:1px solid #8c948f;">Live unfolded net · drag stickers here too</div>
                 <canvas data-net-canvas style="display:block;width:100%;height:calc(100% - 25px);cursor:grab;"></canvas>
                 <div data-net-resize title="Drag to resize" style="position:absolute;left:0;bottom:0;width:18px;height:18px;cursor:nesw-resize;background:linear-gradient(135deg,transparent 45%,rgba(255,255,255,.42) 46%,rgba(255,255,255,.42) 54%,transparent 55%);"></div>
@@ -670,6 +664,8 @@ class CuboidModeGame extends BaseGame {
             </div>
         `;
         document.body.appendChild(this.hud);
+        this.hud.querySelector('[data-shuffle]').onclick = () => this._newScramble();
+        this.hud.querySelector('[data-solve]').onclick = () => this._resetSolved();
 
         this.scoreElement = this.hud.querySelector('[data-score]');
         this.scorePercentElement = this.hud.querySelector('[data-score-percent]');
@@ -678,6 +674,8 @@ class CuboidModeGame extends BaseGame {
         this.netPanel = this.hud.querySelector('[data-net-panel]');
         this.netCanvas = this.hud.querySelector('[data-net-canvas]');
         this.netResizeHandle = this.hud.querySelector('[data-net-resize]');
+        this.netNavigation = new NetNavigation(this);
+        this.history = new PuzzleHistory(this, (move, sign) => this.model.rotate(move.axis, move.layer, sign * move.quarterTurns), () => this._refreshStickerInstances());
         this.completeElement = this.hud.querySelector('[data-complete]');
         this.completeScoreElement = this.hud.querySelector('[data-complete-score]');
         this.completeTimeElement = this.hud.querySelector('[data-complete-time]');
@@ -686,8 +684,7 @@ class CuboidModeGame extends BaseGame {
         this._netMouseDown = event => {
             if (event.button !== 0 || this.phase !== 'playing') return;
             const rect = this.netCanvas.getBoundingClientRect();
-            const x = event.clientX - rect.left;
-            const y = event.clientY - rect.top;
+            const [x, y] = this.netNavigation.point(event.clientX - rect.left, event.clientY - rect.top);
             const hit = this.netHitCells?.find(cell =>
                 x >= cell.x && x <= cell.x + cell.width && y >= cell.y && y <= cell.y + cell.height
             );
@@ -714,14 +711,7 @@ class CuboidModeGame extends BaseGame {
         this.newScrambleButton.addEventListener('click', this._newScrambleClick);
     }
 
-    _updateNetResize(event) {
-        const resize = this.netResizing;
-        const width = clamp(resize.width - (event.clientX - resize.startX), 220, 720);
-        const height = clamp(resize.height + (event.clientY - resize.startY), 170, 600);
-        this.netPanel.style.width = `${width}px`;
-        this.netPanel.style.height = `${height}px`;
-        this._drawNet();
-    }
+    _updateNetResize(event) { resizeNet(this, event); }
 
     _netFaces() {
         const rowY = this.nz;
@@ -751,6 +741,7 @@ class CuboidModeGame extends BaseGame {
         ctx.clearRect(0, 0, rect.width, rect.height);
         ctx.fillStyle = '#aeb4b0';
         ctx.fillRect(0, 0, rect.width, rect.height);
+        this.netNavigation?.transform(ctx);
 
         const gridWidth = this.nx * 2 + this.nz * 2;
         const gridHeight = this.ny + this.nz * 2;
@@ -783,7 +774,7 @@ class CuboidModeGame extends BaseGame {
                 const row = Math.round(dot(centered, face.v) + (face.rows - 1) * 0.5);
                 const x = offsetX + (face.gx + column) * cellSize;
                 const y = offsetY + (face.gy + row) * cellSize;
-                ctx.fillStyle = FACE_COLORS[sticker.color];
+                ctx.fillStyle = this.settings[`faceColor${FACE_KEYS.indexOf(sticker.color)}`] || FACE_COLORS[sticker.color];
                 ctx.fillRect(x + 1, y + 1, Math.max(1, cellSize - 2), Math.max(1, cellSize - 2));
                 ctx.strokeStyle = 'rgba(0,0,0,.72)';
                 ctx.lineWidth = 1;
@@ -872,6 +863,12 @@ class CuboidModeGame extends BaseGame {
         this.bestElement.textContent = this.bestMoves === null
             ? 'Best for these settings: —'
             : `Best for these settings: ${this.bestMoves} moves`;
+        if (!this.scoredRun) {
+            this.scoreElement.textContent = 'Free play';
+            this.scorePercentElement.textContent = 'Shuffle to start a timed solve';
+            this.runElement.textContent = '';
+        }
+        this.bestElement.hidden = !this.scoredRun;
         this.completeElement.style.display = this.phase === 'complete' ? 'grid' : 'none';
         this.completeScoreElement.textContent = `${this.moves} moves`;
         this.completeTimeElement.textContent = `${this.elapsed.toFixed(1)} seconds`;
@@ -912,6 +909,7 @@ class CuboidModeGame extends BaseGame {
     }
 
     onPause() {
+        if (this.netNavigation) this.netNavigation.pan = null;
         this.trackball?.cancel();
         this._cancelSliceDrag();
         this.canvas.style.cursor = 'default';
@@ -922,6 +920,8 @@ class CuboidModeGame extends BaseGame {
     }
 
     destroy() {
+        this.history?.dispose();
+        this.netNavigation?.dispose();
         this._bestRequest = (this._bestRequest || 0) + 1;
         if (this._canvasMouseDown) this.canvas.removeEventListener('mousedown', this._canvasMouseDown);
         if (this._windowMouseMove) window.removeEventListener('mousemove', this._windowMouseMove);
@@ -958,6 +958,28 @@ class CuboidModeGame extends BaseGame {
             { key: 'polyhedronOrder', label: 'Polyhedron cut order', type: 'number', min: 2, step: 1, default: 3, group: 'Polyhedron size', modes: ['tetrahedron', 'octahedron', 'dodecahedron', 'icosahedron'] },
             { key: 'dragPixelsPerQuarter', label: 'Drag length / 90° [px]', type: 'range', min: 0, step: 2, strictPositive: true, default: PARAMETERS.dragPixelsPerQuarter, group: 'Controls' },
             { key: 'turnAnimationSpeed', label: 'Turn animation speed [°/s]', type: 'range', min: 0, step: 90, strictPositive: true, default: PARAMETERS.turnAnimationSpeed, group: 'Controls' },
+            { key: 'sliceGlowStyle', label: 'Slice highlight colours', type: 'select',
+                default: PUZZLE_PRESENTATION.sliceGlowStyle, modeProfile: false, group: 'Appearance',
+                modes: ['octahedron'],
+                options: [{ value: 'slice', label: 'Orange / blue' }, { value: 'sticker', label: 'Each sticker’s own colour' },
+                    { value: 'dark', label: 'Darken stickers' }] },
+            { key: 'sliceDarkness', label: 'Sticker darkening [%]', type: 'range', min: 0, max: 100, step: 1,
+                fundamental: true, default: PUZZLE_PRESENTATION.sliceDarkness, modeProfile: false, group: 'Appearance',
+                modes: ['octahedron'] },
+            ...Array.from({ length: 20 }, (_, index) => ({
+                key: `faceColor${index}`, label: `Face ${index + 1}`, type: 'color',
+                default: `#${(facePalette(12)[index] ?? facePalette(20)[index]).toString(16).padStart(6, '0')}`, group: 'Face colours',
+                modes: Object.entries({ cuboid: 6, tetrahedron: 4, octahedron: 8, dodecahedron: 12, icosahedron: 20 })
+                    .filter(([, count]) => index < count).map(([mode]) => mode),
+            })),
+            { key: 'facePaletteVersion', type: 'hidden', default: 0 },
+            ...[
+                ['torusHueOffset', 'Hue offset [°]', 0, 360],
+                ['torusSaturation', 'Saturation [%]', 1, 100],
+                ['torusLightnessMin', 'Lowest lightness [%]', 1, 98],
+                ['torusLightnessMax', 'Highest lightness [%]', 2, 99],
+            ].map(([key, label, min, max]) => ({ key, label, min, max, step: 1, type: 'range',
+                default: PUZZLE_PRESENTATION[key], group: 'Torus colours', modes: ['torus'] })),
         ];
     }
 
@@ -975,6 +997,13 @@ class CuboidModeGame extends BaseGame {
 }
 
 export default class RubiksTwistyGame extends CuboidModeGame {
+
+    restart() {
+        const mode = this.mode;
+        this.destroy();
+        this.init();
+        if (mode && TWISTY_MODE_INFO[mode]) this.selectMode(mode);
+    }
 
     init() {
         this.wantsPointerLock = false;
@@ -1064,9 +1093,10 @@ export default class RubiksTwistyGame extends CuboidModeGame {
             </div>`;
         } else {
             const minimum = 2;
-            const maximum = TWISTY_MODE_INFO[this.pendingMode].maxOrder;
+
             panel.innerHTML = `<div style="display:grid;grid-template-columns:1fr;gap:8px;">
-                ${this._numberField('polyhedronOrder', TWISTY_MODE_INFO[this.pendingMode].sizeLabel, minimum, maximum, this.settings.polyhedronOrder ?? 2)}
+                ${this._numberField('polyhedronOrder', TWISTY_MODE_INFO[this.pendingMode].sizeLabel, minimum, undefined, this.settings.polyhedronOrder ?? 2)}
+                ${this.pendingMode === 'dodecahedron' ? '<div style="font-size:11px;opacity:.75;">n layers → 2n − 1 cells per edge</div>' : ''}
             </div>`;
         }
     }
@@ -1147,9 +1177,18 @@ export default class RubiksTwistyGame extends CuboidModeGame {
     }
 
     mountPauseSettings({ panel, settings }) {
+        const darkness = panel.querySelector('[data-key="sliceDarkness"]');
+        if (darkness) {
+            darkness.type = 'range'; darkness.min = '0'; darkness.max = '100'; darkness.step = '1';
+            darkness.style.width = '180px';
+            const value = document.createElement('output');
+            value.style.cssText = 'font-size:12px;min-width:36px;margin-left:6px;';
+            const update = () => { value.textContent = `${darkness.value}%`; };
+            darkness.addEventListener('input', update); update(); darkness.after(value);
+        }
         const mode = settings.mode || this.mode || 'cuboid';
         const input = panel.querySelector('[data-key="polyhedronOrder"]');
-        if (!input || !TWISTY_MODE_INFO[mode]?.maxOrder) return;
+        if (!input) return;
         input.removeAttribute('max');
     }
 
@@ -1164,12 +1203,14 @@ export default class RubiksTwistyGame extends CuboidModeGame {
         } else if (mode === 'torus') {
             requireInteger(active.torusU ?? 12, 'Major-ring cells', { minimum: 4 });
             requireInteger(active.torusV ?? 6, 'Minor-ring cells', { minimum: 3 });
+            const low = Number(active.torusLightnessMin ?? PUZZLE_PRESENTATION.torusLightnessMin);
+            const high = Number(active.torusLightnessMax ?? PUZZLE_PRESENTATION.torusLightnessMax);
+            requireFiniteNumber(low, 'Lowest lightness', { minimum: 1, maximum: 98 });
+            requireFiniteNumber(high, 'Highest lightness', { minimum: 2, maximum: 99 });
+            requireFiniteNumber(active.torusSaturation ?? PUZZLE_PRESENTATION.torusSaturation, 'Saturation', { minimum: 1, maximum: 100 });
+            if (high <= low) throw new Error('Highest lightness must be greater than lowest lightness.');
         } else {
-            const maximum = TWISTY_MODE_INFO[mode]?.maxOrder;
-            const order = requireInteger(active.polyhedronOrder ?? 2, 'Polyhedron cut order', { minimum: 2, maximum: maximum ?? Infinity });
-            if (maximum && order > maximum) {
-                throw new Error(`${TWISTY_MODE_INFO[mode].label} supports cut orders only through ${maximum}.`);
-            }
+            requireInteger(active.polyhedronOrder ?? 2, 'Polyhedron cut order', { minimum: 2 });
         }
         requirePositiveNumber(active.dragPixelsPerQuarter ?? PARAMETERS.dragPixelsPerQuarter, 'Drag length per quarter-turn');
         requirePositiveNumber(active.turnAnimationSpeed ?? PARAMETERS.turnAnimationSpeed, 'Turn animation speed');
@@ -1204,11 +1245,14 @@ export default class RubiksTwistyGame extends CuboidModeGame {
                 mode,
                 torusU: Math.round(Number(active.torusU ?? 12)),
                 torusV: Math.round(Number(active.torusV ?? 6)),
+                colourPatternVersion: 2,
             };
         }
         return {
             mode,
             order: Math.round(Number(active.polyhedronOrder ?? 2)),
+            ...(mode === 'dodecahedron' ? { geometryVersion: 2 } : {}),
+            ...(mode === 'octahedron' ? { geometryVersion: 2 } : {}),
         };
     }
 

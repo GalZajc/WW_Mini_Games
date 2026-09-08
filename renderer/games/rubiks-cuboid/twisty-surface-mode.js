@@ -1,11 +1,15 @@
+import { NetNavigation, resizeNet } from './net-navigation.js';
+import { PuzzleHistory } from './puzzle-history.js';
 import * as THREE from '../../../node_modules/three/build/three.module.js';
 import { PolyLabTrackballOrbitControls } from '../../core/PolyLabTrackballOrbitControls.js';
+import { POLYHEDRON_GEOMETRY, roundedSticker } from './polyhedron-geometry.js';
+import { dragSliceChoices, PUZZLE_PRESENTATION } from './puzzle-interaction.js';
+import { SliceChoiceOverlay } from './slice-choice-overlay.js';
 import {
     PolyhedronPuzzleModel,
     TorusPuzzleModel,
     TWISTY_MODE_INFO,
     disposePuzzleModel,
-    polyhedronModeSpec,
 } from './twisty-models.js';
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
@@ -301,6 +305,7 @@ export class TwistySurfaceMode {
             this.model = new TorusPuzzleModel(
                 this.settings.torusU ?? 12,
                 this.settings.torusV ?? 6,
+                this.settings,
             );
             this.sizeText = `${this.model.uCount} × ${this.model.vCount}`;
         } else {
@@ -308,8 +313,8 @@ export class TwistySurfaceMode {
             this.model = new PolyhedronPuzzleModel(this.mode, order, 3);
             this.sizeText = `${TWISTY_MODE_INFO[this.mode].sizeLabel.toLowerCase()} ${order}`;
         }
-        this.scrambleSeed = makeSeed();
-        this.scrambleMoves = this.model.scramble(this.scrambleSeed);
+        this.scoredRun = false;
+        this.scrambleMoves = [];
         this.currentScore = this.model.score();
 
         this.audio?.loadSound?.('rubik-turn', TURN_SOUND_URL).catch(() => {});
@@ -329,8 +334,7 @@ export class TwistySurfaceMode {
         this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
         this.renderer.setSize(this.canvas.width, this.canvas.height, false);
         this.renderer.outputColorSpace = THREE.SRGBColorSpace;
-        this.renderer.shadowMap.enabled = true;
-        this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+        this.renderer.shadowMap.enabled = false;
         this.scene = new THREE.Scene();
         this.scene.background = new THREE.Color(0x78cfff);
         this.camera = new THREE.PerspectiveCamera(
@@ -354,14 +358,7 @@ export class TwistySurfaceMode {
                 this.canvas.style.cursor = dragging ? 'grabbing' : 'default';
             },
         });
-        this.scene.add(new THREE.HemisphereLight(0xffffff, 0x4e8ec8, 2.05));
-        const key = new THREE.DirectionalLight(0xfff3dc, 2.4);
-        key.position.set(-7, 11, 9);
-        key.castShadow = true;
-        this.scene.add(key);
-        const rim = new THREE.DirectionalLight(0x70a9ff, 1.25);
-        rim.position.set(9, 2, -8);
-        this.scene.add(rim);
+        this.scene.add(new THREE.AmbientLight(0xffffff, PUZZLE_PRESENTATION.whiteLightIntensity));
         this.puzzleGroup = new THREE.Group();
         this.scene.add(this.puzzleGroup);
         this.raycaster = new THREE.Raycaster();
@@ -369,25 +366,48 @@ export class TwistySurfaceMode {
     }
 
     _createPuzzleMeshes() {
+        this.model.faceColors = this.model.faceColors.map((color, index) => {
+            const custom = this.settings[`faceColor${index}`];
+            return this.mode !== 'torus' && /^#[0-9a-f]{6}$/i.test(custom || '') ? Number.parseInt(custom.slice(1), 16) : color;
+        });
         this.slotMeshes = [];
         if (this.mode === 'torus') this._createTorusMeshes();
         else this._createPolyhedronMeshes();
     }
 
     _createPolyhedronMeshes() {
-        const body = new THREE.Mesh(
-            this.model.baseGeometry.clone(),
-            new THREE.MeshStandardMaterial({ color: 0x090b10, roughness: 0.7, metalness: 0.04 }),
-        );
-        body.scale.setScalar(1.005);
-        body.castShadow = true;
-        body.receiveShadow = true;
-        this.puzzleGroup.add(body);
+        // Uncut hull is a picking occluder, so even subpixel gaps between
+        // separate plastic bodies cannot expose stickers on the far side.
+        this.pieceBodyPositions = this.model.pieces.map(piece => {
+            const positions = [];
+            for (const face of piece.faces) {
+                for (let index = 1; index < face.length - 1; index++) {
+                    for (const point of [face[0], face[index], face[index + 1]]) {
+                        const vertex = point.clone().sub(piece.center).multiplyScalar(POLYHEDRON_GEOMETRY.bodyScale).add(piece.center);
+                        positions.push(vertex.x, vertex.y, vertex.z);
+                    }
+                }
+            }
+            return positions;
+        });
+        this.fullBodyGeometry = this._bodyGeometry(this.pieceBodyPositions.flat());
+        const bodyMaterial = new THREE.MeshStandardMaterial({ color: 0x111317, roughness: 0.48, metalness: 0.04 });
+        this.pickHull = new THREE.Mesh(this.model.baseGeometry, bodyMaterial);
+        this.bodyRestMesh = new THREE.Mesh(this.fullBodyGeometry, bodyMaterial);
+        this.bodyTurnMesh = new THREE.Mesh(this._bodyGeometry([]), bodyMaterial);
+        this.bodyTurnMesh.visible = false;
+        this.bodyAnimation = null;
+        for (const body of [this.bodyRestMesh, this.bodyTurnMesh]) {
+            body.castShadow = true;
+            body.receiveShadow = true;
+            this.puzzleGroup.add(body);
+        }
 
         for (const slot of this.model.slots) {
             const localPositions = [];
-            for (let index = 1; index < slot.vertices.length - 1; index++) {
-                for (const vertex of [slot.vertices[0], slot.vertices[index], slot.vertices[index + 1]]) {
+            const outline = roundedSticker(slot.vertices);
+            for (let index = 1; index < outline.length - 1; index++) {
+                for (const vertex of [outline[0], outline[index], outline[index + 1]]) {
                     const local = vertex.clone().sub(slot.center);
                     localPositions.push(local.x, local.y, local.z);
                 }
@@ -408,6 +428,54 @@ export class TwistySurfaceMode {
             this.slotMeshes.push(mesh);
             this.puzzleGroup.add(mesh);
         }
+        // Keep the original meshes for exact picking and choice outlines;
+        // draw the same triangles/material in one batch instead of one draw
+        // call per sticker. No geometry simplification or resolution change.
+        const vertexCount = this.slotMeshes.reduce((sum, mesh) => sum + mesh.geometry.attributes.position.count, 0);
+        const material = this.slotMeshes[0].material.clone();
+        material.color.setHex(0xffffff);
+        this.stickerBatch = new THREE.BatchedMesh(this.slotMeshes.length, vertexCount, 0, material);
+        this.stickerBatch.castShadow = true;
+        this.puzzleGroup.add(this.stickerBatch);
+        for (const mesh of this.slotMeshes) {
+            const id = this.stickerBatch.addInstance(this.stickerBatch.addGeometry(mesh.geometry));
+            mesh.userData.batchId = id;
+            mesh.updateMatrix();
+            this.stickerBatch.setMatrixAt(id, mesh.matrix);
+            this.stickerBatch.setColorAt(id, mesh.material.color);
+            mesh.visible = false;
+        }
+    }
+
+    _bodyGeometry(positions) {
+        const geometry = new THREE.BufferGeometry();
+        geometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
+        geometry.computeVertexNormals();
+        return geometry;
+    }
+
+    _refreshPolyhedronBodies(animation, quaternion) {
+        // Two draw calls for all plastic, even on a high-order minx. Rebuild
+        // these batches only at the beginning/end of a turn, never per frame.
+        if (this.bodyAnimation !== animation) {
+            if (this.bodyRestMesh.geometry !== this.fullBodyGeometry) this.bodyRestMesh.geometry.dispose();
+            this.bodyTurnMesh.geometry.dispose();
+            if (animation) {
+                const moving = [], stationary = [];
+                this.pieceBodyPositions.forEach((positions, index) => {
+                    const target = animation.selectedPieces.has(index) ? moving : stationary;
+                    for (const value of positions) target.push(value);
+                });
+                this.bodyRestMesh.geometry = this._bodyGeometry(stationary);
+                this.bodyTurnMesh.geometry = this._bodyGeometry(moving);
+            } else {
+                this.bodyRestMesh.geometry = this.fullBodyGeometry;
+                this.bodyTurnMesh.geometry = this._bodyGeometry([]);
+            }
+            this.bodyAnimation = animation;
+        }
+        this.bodyTurnMesh.visible = Boolean(animation);
+        if (animation) this.bodyTurnMesh.quaternion.copy(quaternion);
     }
 
     _createTorusMeshes() {
@@ -420,6 +488,7 @@ export class TwistySurfaceMode {
         body.castShadow = true;
         body.receiveShadow = true;
         this.puzzleGroup.add(body);
+        this.torusBody = body;
         for (const slot of this.model.slots) {
             const uAngle = (slot.u + 0.5) / this.model.uCount * Math.PI * 2;
             const vAngle = (slot.v + 0.5) / this.model.vCount * Math.PI * 2;
@@ -455,6 +524,7 @@ export class TwistySurfaceMode {
         const quaternion = animation
             ? new THREE.Quaternion().setFromAxisAngle(animation.axis, animation.angle * eased)
             : null;
+        this._refreshPolyhedronBodies(animation, quaternion);
         for (const slot of this.model.slots) {
             const mesh = this.slotMeshes[slot.id];
             const selected = animation?.selectedSet.has(slot.id);
@@ -465,6 +535,11 @@ export class TwistySurfaceMode {
             if (selected) {
                 mesh.position.applyQuaternion(quaternion);
                 mesh.quaternion.copy(quaternion);
+            }
+            if (this.stickerBatch) {
+                mesh.updateMatrix();
+                this.stickerBatch.setMatrixAt(mesh.userData.batchId, mesh.matrix);
+                this.stickerBatch.setColorAt(mesh.userData.batchId, mesh.material.color);
             }
         }
     }
@@ -500,6 +575,7 @@ export class TwistySurfaceMode {
         this._mouseDown = event => {
             if (event.button !== 0 || this.phase !== 'playing' || this.animation) return;
             const slotIndex = this._pickSlot(event.clientX, event.clientY);
+            if (this._resumeSliceChoice(event, '3d', slotIndex)) return;
             if (slotIndex === null) return;
             event.preventDefault();
             this._startDrag(slotIndex, event.clientX, event.clientY);
@@ -509,18 +585,24 @@ export class TwistySurfaceMode {
                 this._updateNetResize(event);
                 return;
             }
-            if (this.drag) this._updateDrag(event.clientX, event.clientY);
+            if (this.drag?.pointerDown) this._updateDrag(event.clientX, event.clientY);
         };
         this._mouseUp = event => {
             if (event.button === 0 && this.netResizing) {
                 this.netResizing = null;
                 return;
             }
-            if (event.button === 0 && this.drag) this._finishDrag();
+            if (event.button === 0 && this.drag) {
+                this.drag.pointerDown = false;
+                // Release the original field, then grab an exclusive field.
+                if (this.drag.choices) return;
+                this._finishDrag();
+            }
         };
         this.canvas.addEventListener('mousedown', this._mouseDown);
         window.addEventListener('mousemove', this._mouseMove);
         window.addEventListener('mouseup', this._mouseUp);
+
     }
 
     _pickSlot(clientX, clientY) {
@@ -530,8 +612,15 @@ export class TwistySurfaceMode {
             -(clientY - rect.top) / rect.height * 2 + 1,
         );
         this.raycaster.setFromCamera(this.pointerNdc, this.camera);
-        const hits = this.raycaster.intersectObjects(this.slotMeshes, false);
-        return hits.length ? hits[0].object.userData.slotIndex : null;
+        // Plastic is opaque to picking too, including the gaps at sticker corners.
+        const bodies = this.mode === 'torus' ? [this.torusBody] : [this.bodyRestMesh, this.bodyTurnMesh];
+        const hits = this.raycaster.intersectObjects([...this.slotMeshes, ...bodies.filter(body => body?.visible)], false);
+        if (this.pickHull && this.mode !== 'torus' && !this.animation && hits.length) {
+            this.pickHull.matrixWorld.copy(this.puzzleGroup.matrixWorld);
+            const hullHit = this.raycaster.intersectObject(this.pickHull, false)[0];
+            if (hullHit && hits[0].distance > hullHit.distance + 1e-5) return null;
+        }
+        return hits.length ? hits[0].object.userData.slotIndex ?? null : null;
     }
 
     _projectDirection(point, tangent) {
@@ -558,6 +647,7 @@ export class TwistySurfaceMode {
     }
 
     _startDrag(slotIndex, clientX, clientY, source = '3d', netFace = null) {
+        this._clearSliceChoice();
         const candidates = [];
         if (this.mode === 'torus') {
             const slot = this.model.slots[slotIndex];
@@ -581,12 +671,16 @@ export class TwistySurfaceMode {
             }
         }
         if (candidates.length < 1) return;
-        this.runStarted = true;
+        this.runStarted = Boolean(this.scoredRun);
         this.drag = {
             slotIndex,
             startX: clientX,
             startY: clientY,
             source,
+            netFace,
+            pointerDown: true,
+            lastX: clientX,
+            lastY: clientY,
             candidates,
             chosen: null,
             steps: 0,
@@ -598,29 +692,60 @@ export class TwistySurfaceMode {
 
     _updateDrag(clientX, clientY) {
         const drag = this.drag;
+        drag.lastX = clientX;
+        drag.lastY = clientY;
+        if (drag.choices) return;
         const delta = new THREE.Vector2(clientX - drag.startX, clientY - drag.startY);
-        const normalized = delta.lengthSq() > 1e-8 ? delta.clone().normalize() : new THREE.Vector2(1, 0);
-        const chosen = drag.candidates.reduce((best, candidate) => {
-            const closeness = Math.abs(candidate.direction.dot(normalized));
-            return !best || closeness > best.closeness ? { ...candidate, closeness } : best;
-        }, null);
+        let chosen = drag.chosen;
+        if (!chosen) {
+            const tips = drag.candidates.filter(candidate => candidate.cornerTip);
+            const choices = dragSliceChoices(tips.length ? tips : drag.candidates, delta.x, delta.y);
+            if (choices.length > 1 && this.mode === 'octahedron' && !tips.length) {
+                drag.choices = choices;
+                this.sliceChoiceOverlay = new SliceChoiceOverlay(this, choices);
+                return;
+            }
+            chosen = choices[0];
+        }
+        if (!chosen) return;
         const key = this.mode === 'torus'
             ? `${chosen.axis}:${chosen.layer}`
             : `${chosen.axisIndex}:${chosen.layer}`;
         const projected = delta.dot(chosen.direction);
         const steps = clamp(Math.round(projected / this.dragPixelsPerStep), -12, 12);
-        if (drag.appliedKey && drag.appliedKey !== key && drag.appliedSteps !== 0) {
-            this._applyAnimatedMove(drag.chosen, -drag.appliedSteps);
-            drag.appliedSteps = 0;
-        }
         drag.chosen = chosen;
         drag.appliedKey = key;
         drag.steps = steps;
         const stepDelta = steps - drag.appliedSteps;
         if (stepDelta !== 0) {
+            drag.hasRotated = true;
+            this._clearSliceChoice();
             this._applyAnimatedMove(chosen, stepDelta);
             drag.appliedSteps = steps;
         }
+    }
+
+    _clearSliceChoice() {
+        this.sliceChoiceOverlay?.dispose();
+        this.sliceChoiceOverlay = null;
+        if (this.netCanvas) this._drawNet();
+    }
+
+    _resumeSliceChoice(event, source, slotIndex, face = null) {
+        const choices = this.drag?.choices;
+        if (!choices) return false;
+        event.preventDefault();
+        const matches = slotIndex === null || slotIndex === undefined ? []
+            : choices.filter(choice => choice.move.selectedSet.has(slotIndex));
+        if (matches.length === 1) {
+            const selected = matches[0];
+            this._startDrag(slotIndex, event.clientX, event.clientY, source, face);
+            this.drag.chosen = this.drag.candidates.find(candidate => candidate.axisIndex === selected.axisIndex && candidate.layer === selected.layer);
+        } else if (!matches.length) {
+            this.drag = null;
+            this._clearSliceChoice();
+        }
+        return true;
     }
 
     _applyAnimatedMove(candidate, turns) {
@@ -637,7 +762,7 @@ export class TwistySurfaceMode {
         } else {
             applied = this.model.applyMove(candidate.axisIndex, candidate.layer, turns);
             selected = candidate.move.selected;
-            angle = turns * Math.PI * 2 / polyhedronModeSpec(this.mode).turnOrder;
+            angle = turns * Math.PI * 2 / candidate.move.turnOrder;
         }
         if (!applied) return false;
         const selectedSet = new Set(selected);
@@ -647,6 +772,7 @@ export class TwistySurfaceMode {
         this.animation = {
             oldColors,
             selectedSet,
+            selectedPieces: new Set(candidate.move?.selectedPieces || []),
             axis: candidate.axis?.isVector3 ? candidate.axis.clone() : candidate.move?.axis.clone(),
             axisName: candidate.axis,
             layer: candidate.layer,
@@ -671,23 +797,25 @@ export class TwistySurfaceMode {
     }
 
     _finishDrag() {
+        this._clearSliceChoice();
         const drag = this.drag;
         this.drag = null;
         this.audio?.playSound?.('rubik-release', { volume: 0.32 });
         if (!drag?.chosen || drag.appliedSteps === 0) return;
         const turnOrder = this.mode === 'torus'
             ? (drag.chosen.axis === 'u' ? this.model.uCount : this.model.vCount)
-            : polyhedronModeSpec(this.mode).turnOrder;
+            : drag.chosen.move.turnOrder;
         const normalized = ((drag.appliedSteps % turnOrder) + turnOrder) % turnOrder;
         if (normalized === 0) return;
-        this.moves++;
+        if (this.scoredRun) this.moves++;
+        this.history.record({ axis: this.mode === 'torus' ? drag.chosen.axis : drag.chosen.axisIndex, layer: drag.chosen.layer, turns: drag.appliedSteps });
         this.currentScore = this.model.score();
         this._renderHud();
         if (this.currentScore === this.model.maximumScore) this._completeRun();
     }
 
     _completeRun() {
-        if (this.phase !== 'playing') return;
+        if (this.phase !== 'playing' || !this.scoredRun) return;
         this.phase = 'complete';
         this.bestMoves = this.bestMoves === null ? this.moves : Math.min(this.bestMoves, this.moves);
         if (!this.scoreSubmitted) {
@@ -706,17 +834,22 @@ export class TwistySurfaceMode {
         this._renderHud();
     }
 
-    _newScramble() {
+    _resetSolved() { this._newScramble(false); }
+
+    _newScramble(shuffle = true) {
+        this.history?.clear();
+        this._clearSliceChoice();
         this._finishAnimationImmediately();
         this.drag = null;
         if (this.mode === 'torus') {
-            this.model = new TorusPuzzleModel(this.model.uCount, this.model.vCount);
+            this.model = new TorusPuzzleModel(this.model.uCount, this.model.vCount, this.settings);
         } else {
             disposePuzzleModel(this.model);
             this.model = new PolyhedronPuzzleModel(this.mode, this.model.order, 3);
         }
-        this.scrambleSeed = makeSeed();
-        this.scrambleMoves = this.model.scramble(this.scrambleSeed);
+        this.scoredRun = shuffle;
+        this.scrambleSeed = shuffle ? makeSeed() : null;
+        this.scrambleMoves = shuffle ? this.model.scramble(this.scrambleSeed) : [];
         this.currentScore = this.model.score();
         this.phase = 'playing';
         this.elapsed = 0;
@@ -728,6 +861,9 @@ export class TwistySurfaceMode {
     }
 
     _rebuildPuzzleMeshes() {
+        this.stickerBatch?.dispose();
+        this.stickerBatch = null;
+        this.fullBodyGeometry?.dispose();
         for (const mesh of this.slotMeshes || []) {
             mesh.geometry?.dispose?.();
             mesh.material?.dispose?.();
@@ -748,14 +884,18 @@ export class TwistySurfaceMode {
         this.hud = document.createElement('div');
         this.hud.style.cssText = `position:fixed;inset:0;z-index:760;pointer-events:none;font-family:Inter,system-ui,sans-serif;color:#242b27;`;
         this.hud.innerHTML = `
-            <div style="position:absolute;top:14px;left:14px;min-width:294px;padding:12px 15px;border:2px solid #5e6661;border-radius:14px;background:rgba(220,224,221,.94);box-shadow:0 12px 30px rgba(35,55,44,.22);">
-                <div data-title style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#396047;"></div>
+            <div data-run-panel style="position:absolute;top:14px;left:14px;z-index:1;min-width:294px;"><div data-run-info style="padding:12px 15px;border:2px solid #5e6661;border-radius:14px;background:#aeb4b0;color:#3f4b43;box-shadow:0 12px 30px rgba(35,55,44,.22);">
+                <div data-title style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#3f4b43;"></div>
                 <div data-score style="margin-top:3px;font-size:34px;font-weight:900;line-height:1.08;">0 / 0</div>
-                <div data-percent style="font-size:12px;color:#4f5d55;"></div>
-                <div data-run style="margin-top:6px;font-size:12px;color:#59675e;"></div>
-                <div data-best style="margin-top:3px;font-size:11px;color:#707b74;">Best: —</div>
+                <div data-percent style="font-size:12px;color:#3f4b43;"></div>
+                <div data-run style="margin-top:6px;font-size:12px;color:#3f4b43;"></div>
+                <div data-best style="margin-top:3px;font-size:11px;color:#3f4b43;">Best: —</div>
             </div>
-            <div data-net-panel style="position:absolute;top:14px;right:14px;width:350px;height:270px;min-width:230px;min-height:170px;max-width:760px;max-height:640px;border:2px solid #5e6661;border-radius:14px;background:rgba(201,206,202,.96);box-shadow:0 12px 32px rgba(35,55,44,.24);pointer-events:auto;overflow:hidden;">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px;pointer-events:auto;">
+                <button data-shuffle style="padding:7px 10px;border:2px solid #5e6661;border-radius:10px;background:#aeb4b0;color:#3f4b43;font:inherit;font-size:12px;cursor:pointer;">Shuffle</button>
+                <button data-solve style="padding:7px 10px;border:2px solid #5e6661;border-radius:10px;background:#aeb4b0;color:#3f4b43;font:inherit;font-size:12px;cursor:pointer;">Solve</button>
+            </div></div>
+            <div data-net-panel style="position:absolute;top:14px;right:14px;width:350px;height:270px;min-width:150px;min-height:100px;box-sizing:border-box;border:2px solid #5e6661;border-radius:14px;background:rgba(201,206,202,.96);box-shadow:0 12px 32px rgba(35,55,44,.24);pointer-events:auto;overflow:hidden;">
                 <div style="height:25px;padding:6px 10px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#3f4b43;border-bottom:1px solid #8c948f;">Live unfolded map · drag pieces here too</div>
                 <canvas data-net-canvas style="display:block;width:100%;height:calc(100% - 25px);cursor:grab;"></canvas>
                 <div data-net-resize title="Drag to resize" style="position:absolute;left:0;bottom:0;width:18px;height:18px;cursor:nesw-resize;background:linear-gradient(135deg,transparent 45%,rgba(255,255,255,.48) 46%,rgba(255,255,255,.48) 54%,transparent 55%);"></div>
@@ -769,6 +909,8 @@ export class TwistySurfaceMode {
                 </div>
             </div>`;
         document.body.appendChild(this.hud);
+        this.hud.querySelector('[data-shuffle]').onclick = () => this._newScramble();
+        this.hud.querySelector('[data-solve]').onclick = () => this._resetSolved();
         this.titleElement = this.hud.querySelector('[data-title]');
         this.scoreElement = this.hud.querySelector('[data-score]');
         this.percentElement = this.hud.querySelector('[data-percent]');
@@ -780,13 +922,16 @@ export class TwistySurfaceMode {
         this.netPanel = this.hud.querySelector('[data-net-panel]');
         this.netCanvas = this.hud.querySelector('[data-net-canvas]');
         this.netResizeHandle = this.hud.querySelector('[data-net-resize]');
+        this.netNavigation = new NetNavigation(this);
+        this.history = new PuzzleHistory(this, (move, sign) => this.model.applyMove(move.axis, move.layer, sign * move.turns), () => { this._refreshMeshes(); this._drawNet(); });
         this._newClick = () => this._newScramble();
         this._netMouseDown = event => {
             if (event.button !== 0 || this.phase !== 'playing') return;
+
             const rect = this.netCanvas.getBoundingClientRect();
-            const x = event.clientX - rect.left;
-            const y = event.clientY - rect.top;
+            const [x, y] = this.netNavigation.point(event.clientX - rect.left, event.clientY - rect.top);
             const hit = this.netHitCells?.find(cell => pointInPolygon(x, y, cell.polygon));
+            if (this._resumeSliceChoice(event, 'net', hit?.slotIndex ?? null, hit?.face)) return;
             if (!hit) return;
             event.preventDefault();
             event.stopPropagation();
@@ -809,15 +954,7 @@ export class TwistySurfaceMode {
         this.netResizeHandle.addEventListener('mousedown', this._netResizeDown);
     }
 
-    _updateNetResize(event) {
-        const resize = this.netResizing;
-        if (!resize) return;
-        const width = clamp(resize.width - (event.clientX - resize.startX), 230, 760);
-        const height = clamp(resize.height + (event.clientY - resize.startY), 170, 640);
-        this.netPanel.style.width = `${width}px`;
-        this.netPanel.style.height = `${height}px`;
-        this._drawNet();
-    }
+    _updateNetResize(event) { resizeNet(this, event); }
 
     _drawNet() {
         if (!this.netCanvas || !this.model) return;
@@ -835,9 +972,11 @@ export class TwistySurfaceMode {
         ctx.clearRect(0, 0, rect.width, rect.height);
         ctx.fillStyle = '#aeb4b0';
         ctx.fillRect(0, 0, rect.width, rect.height);
+        this.netNavigation?.transform(ctx);
         this.netHitCells = [];
         if (this.mode === 'torus') this._drawTorusNet(ctx, rect.width, rect.height);
         else this._drawPolyhedronNet(ctx, rect.width, rect.height);
+        this.sliceChoiceOverlay?.drawNet(ctx);
     }
 
     _drawTorusNet(ctx, width, height) {
@@ -960,6 +1099,12 @@ export class TwistySurfaceMode {
         this.bestElement.textContent = this.bestMoves === null
             ? 'Best for this mode and size: —'
             : `Best for this mode and size: ${this.bestMoves} moves`;
+        if (!this.scoredRun) {
+            this.scoreElement.textContent = 'Free play';
+            this.percentElement.textContent = 'Shuffle to start a timed solve';
+            this.runElement.textContent = '';
+        }
+        this.bestElement.hidden = !this.scoredRun;
         this.completeElement.style.display = this.phase === 'complete' ? 'grid' : 'none';
         this.completeScoreElement.textContent = `${this.moves} moves`;
         this.completeTimeElement.textContent = `${this.elapsed.toFixed(1)} seconds`;
@@ -999,6 +1144,7 @@ export class TwistySurfaceMode {
     }
 
     render() {
+        this.sliceChoiceOverlay?.update();
         this.renderer?.render(this.scene, this.camera);
     }
 
@@ -1012,6 +1158,8 @@ export class TwistySurfaceMode {
     }
 
     onPause() {
+        if (this.netNavigation) this.netNavigation.pan = null;
+        this._clearSliceChoice();
         this.trackball?.cancel();
         this._finishAnimationImmediately();
         if (this.drag?.chosen && this.drag.appliedSteps !== 0) {
@@ -1029,10 +1177,16 @@ export class TwistySurfaceMode {
     }
 
     destroy() {
+        this.stickerBatch?.dispose();
+        this.history?.dispose();
+        this.netNavigation?.dispose();
+        this._clearSliceChoice();
+        this.fullBodyGeometry?.dispose();
         this._bestRequest = (this._bestRequest || 0) + 1;
         this.canvas.removeEventListener('mousedown', this._mouseDown);
         window.removeEventListener('mousemove', this._mouseMove);
         window.removeEventListener('mouseup', this._mouseUp);
+
         this.netCanvas?.removeEventListener('mousedown', this._netMouseDown);
         this.netResizeHandle?.removeEventListener('mousedown', this._netResizeDown);
         this.trackball?.dispose();

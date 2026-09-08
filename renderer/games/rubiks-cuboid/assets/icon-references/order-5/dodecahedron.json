@@ -1,0 +1,31 @@
+{
+  "mode": "dodecahedron",
+  "order": 5,
+  "faces": 12,
+  "stickers": 1212,
+  "camera": [
+    5.540236136380652,
+    4.011895133241162,
+    6.8775345141277064
+  ],
+  "solved": true,
+  "renderMs": 3.15,
+  "drawCalls": 2,
+  "triangles": 28608,
+  "batchComparison": [
+    {
+      "moving": false,
+      "maxDifference": 53,
+      "changed": 9,
+      "originalCalls": 1213,
+      "batchedCalls": 2
+    },
+    {
+      "moving": true,
+      "maxDifference": 59,
+      "changed": 12,
+      "originalCalls": 1214,
+      "batchedCalls": 3
+    }
+  ]
+}

@@ -41,7 +41,7 @@ export function createPictureMemory(catalog, settings = {}, seed = Date.now()) {
     return {
         mode: 'picture-memory', seed, cards, player: 1, scores: [0, 0, 0],
         open: [], matched: [], phase: 'pick', winner: null, moves: 0,
-        lastEvent: `Poišči ${chosen.length} parov slik.`,
+        lastEvent: `Find ${chosen.length} picture pairs.`,
     };
 }
 
@@ -50,7 +50,7 @@ export function flipPictureMemory(state, index) {
     if (state.winner !== null || state.phase !== 'pick' || !Number.isInteger(index)
         || index < 0 || index >= state.cards.length || state.open.includes(index) || state.matched.includes(index)) return false;
     state.open.push(index);
-    state.lastEvent = state.open.length === 1 ? 'Izberi še drugo sliko.' : 'Preverjam par …';
+    state.lastEvent = state.open.length === 1 ? 'Select a second card.' : 'Checking pair…';
     if (state.open.length === 2) { state.phase = 'resolve'; state.moves++; }
     return true;
 }
@@ -61,16 +61,16 @@ export function resolvePictureMemory(state) {
     if (state.cards[first].pairId === state.cards[second].pairId) {
         state.matched.push(first, second);
         state.scores[state.player]++;
-        state.lastEvent = `Igralec ${state.player} je našel par.`;
+        state.lastEvent = `Player ${state.player} found a match!`;
     } else {
         state.player = 3 - state.player;
-        state.lastEvent = `Ni par. Na vrsti je igralec ${state.player}.`;
+        state.lastEvent = `No match. Player ${state.player}'s turn.`;
     }
     state.open = [];
     state.phase = 'pick';
     if (state.matched.length === state.cards.length) {
         state.winner = state.scores[1] === state.scores[2] ? 0 : (state.scores[1] > state.scores[2] ? 1 : 2);
-        state.lastEvent = state.winner ? `Zmagal je igralec ${state.winner}.` : 'Vsi pari so najdeni. Neodločeno.';
+        state.lastEvent = state.winner ? `Player ${state.winner} wins!` : 'All pairs matched. Draw!';
     }
     return true;
 }

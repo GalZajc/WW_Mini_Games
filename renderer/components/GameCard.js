@@ -36,12 +36,12 @@ const MODE_THUMBNAILS = Object.freeze({
     'reaction-color': 'mode-thumbnails/reaction-color-generated.png',
     'reaction-sound': 'mode-thumbnails/reaction-sound-generated.png',
     'reaction-pendulum': 'mode-thumbnails/reaction-pendulum-generated.png',
-    'twisty-cuboid': 'mode-thumbnails/twisty-cuboid-generated.png',
-    'twisty-torus': 'mode-thumbnails/twisty-torus-generated.png',
-    'twisty-tetrahedron': 'mode-thumbnails/twisty-tetrahedron-generated.png',
-    'twisty-octahedron': 'mode-thumbnails/twisty-octahedron-generated.png',
-    'twisty-dodecahedron': 'mode-thumbnails/twisty-dodecahedron-generated.png',
-    'twisty-icosahedron': 'mode-thumbnails/twisty-icosahedron-generated.png',
+    'twisty-cuboid': 'mode-thumbnails/twisty-cuboid-wide-generated.png',
+    'twisty-torus': 'mode-thumbnails/twisty-torus-wide-generated.png',
+    'twisty-tetrahedron': 'mode-thumbnails/twisty-tetrahedron-wide-v3-generated.png',
+    'twisty-octahedron': 'mode-thumbnails/twisty-octahedron-wide-generated.png',
+    'twisty-dodecahedron': 'mode-thumbnails/twisty-dodecahedron-wide-v2-generated.png',
+    'twisty-icosahedron': 'mode-thumbnails/twisty-icosahedron-bright-generated.png',
     'nrow-rotate': 'mode-thumbnails/nrow-rotate-generated.png',
     'nrow-random': 'mode-thumbnails/nrow-random-generated.png',
     'nrow-shoot': 'mode-thumbnails/nrow-shoot-generated.png',
@@ -271,7 +271,7 @@ export function gameArtworkMarkup(artKey, label = '') {
     const launcher = LAUNCHER_THUMBNAILS[baseKey];
     const thumbnail = MODE_THUMBNAILS[artKey] || (launcher && `game-thumbnails/${launcher}`);
     if (thumbnail) {
-        return `<img class="game-card-art" src="assets/${thumbnail}" alt="${escapeAttribute(label)}" draggable="false">`;
+        return `<img class="game-card-art${artKey.startsWith('twisty-') ? ' twisty-card-art' : ''}" src="assets/${thumbnail}" alt="${escapeAttribute(label)}" draggable="false">`;
     }
     const scene = SCENES[baseKey];
     if (scene) {

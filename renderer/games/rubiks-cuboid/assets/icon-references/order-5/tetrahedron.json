@@ -1,0 +1,12 @@
+{
+  "mode": "tetrahedron",
+  "order": 5,
+  "faces": 4,
+  "stickers": 100,
+  "camera": [
+    5.540236136380652,
+    4.011895133241162,
+    6.8775345141277064
+  ],
+  "solved": true
+}

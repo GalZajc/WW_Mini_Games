@@ -7,7 +7,7 @@ export function createReversi(size = 8) {
     const middle = size / 2;
     grid[middle - 1][middle - 1] = grid[middle][middle] = 2;
     grid[middle - 1][middle] = grid[middle][middle - 1] = 1;
-    return { mode: 'reversi', size, grid, player: 1, winner: null, passes: 0, lastEvent: 'Črni začne.' };
+    return { mode: 'reversi', size, grid, player: 1, winner: null, passes: 0, lastEvent: 'Black starts.' };
 }
 
 const REVERSI_DIRECTIONS = [-1, 0, 1].flatMap(dr => [-1, 0, 1].map(dc => [dr, dc])).filter(([dr, dc]) => dr || dc);
@@ -45,8 +45,8 @@ export function playReversi(state, row, column) {
     if (!reversiMoves(state).length) {
         state.player = 3 - state.player; state.passes++;
         if (!reversiMoves(state).length) finishReversi(state);
-        else state.lastEvent = 'Nasprotnik nima poteze in preskoči.';
-    } else state.lastEvent = `Obrnjenih ploščkov: ${flips.length}.`;
+        else state.lastEvent = 'Opponent has no legal move and passes.';
+    } else state.lastEvent = `Discs flipped: ${flips.length}.`;
     return true;
 }
 
@@ -54,7 +54,7 @@ function finishReversi(state) {
     const counts = [0, 0, 0];
     state.grid.flat().forEach(value => counts[value]++);
     state.winner = counts[1] === counts[2] ? 0 : (counts[1] > counts[2] ? 1 : 2);
-    state.lastEvent = state.winner ? `Zmagal je igralec ${state.winner}.` : 'Neodločeno.';
+    state.lastEvent = state.winner ? `Player ${state.winner} wins!` : 'Draw.';
 }
 
 export function chooseReversiMove(state) {
@@ -78,7 +78,7 @@ export function createCheckers(size = 8, rowsPerSide = 3) {
     for (let row = size - rowsPerSide; row < size; row++) for (let column = 0; column < size; column++) {
         if ((row + column) % 2) grid[row][column] = 1;
     }
-    return { mode: 'checkers', size, grid, player: 1, winner: null, forced: null, lastEvent: 'Beli začne.' };
+    return { mode: 'checkers', size, grid, player: 1, winner: null, forced: null, lastEvent: 'White starts.' };
 }
 
 const owner = piece => Math.abs(piece);
@@ -112,14 +112,16 @@ export function playCheckers(state, move) {
     const [fr, fc] = legal.from, [tr, tc] = legal.to;
     let piece = state.grid[fr][fc]; state.grid[fr][fc] = 0; state.grid[tr][tc] = piece;
     if (legal.capture) state.grid[legal.capture[0]][legal.capture[1]] = 0;
+    const wasKing = isKing(piece);
     if ((owner(piece) === 1 && tr === 0) || (owner(piece) === 2 && tr === state.size - 1)) state.grid[tr][tc] = -owner(piece);
-    if (legal.capture && checkersMoves(state, state.player, [tr, tc]).some(candidate => candidate.capture)) {
-        state.forced = [tr, tc]; state.lastEvent = 'Nadaljuj zaporedni skok.'; return true;
+    const crowned = !wasKing && isKing(state.grid[tr][tc]);
+    if (!crowned && legal.capture && checkersMoves(state, state.player, [tr, tc]).some(candidate => candidate.capture)) {
+        state.forced = [tr, tc]; state.lastEvent = 'Continue multi-jump.'; return true;
     }
     state.forced = null; state.player = 3 - state.player;
     const next = checkersMoves(state);
-    if (!next.length) { state.winner = 3 - state.player; state.lastEvent = `Zmagal je igralec ${state.winner}.`; }
-    else state.lastEvent = legal.capture ? 'Figura je bila zajeta.' : 'Poteza končana.';
+    if (!next.length) { state.winner = 3 - state.player; state.lastEvent = `Player ${state.winner} wins!`; }
+    else state.lastEvent = crowned ? 'King crowned!' : (legal.capture ? 'Piece captured.' : 'Turn completed.');
     return true;
 }
 
@@ -176,7 +178,7 @@ export function createKalisto(size = 16, shapeCount = KALISTO_SHAPES.length, pla
     return {
         mode: 'kalisto', size, grid: Array.from({ length: size }, () => Array(size).fill(0)),
         playerCount, player: 1, winner: null, phase: 'pillars', setupPillarsPlaced: 0,
-        lastEvent: 'Igralec 1 naj postavi prvi steber.', pillars: [],
+        lastEvent: 'Player 1: place the first pillar.', pillars: [],
         pillarsRemaining: [0, ...Array(playerCount).fill(3)],
         remaining: [null, ...Array.from({ length: playerCount }, () => Array.from({ length: shapeCount }, (_, index) => index))],
         eliminated: [false, ...Array(playerCount).fill(false)], scores: null,
@@ -251,7 +253,7 @@ export function playKalisto(state, placement) {
     if (!canPlaceKalisto(state, state.player, cells)) return false;
     cells.forEach(([r, c]) => { state.grid[r][c] = state.player; });
     state.remaining[state.player] = state.remaining[state.player].filter(index => index !== shapeIndex);
-    state.lastEvent = `Igralec ${state.player} je položil ${cells.length} polj.`;
+    state.lastEvent = `Player ${state.player} placed a ${cells.length}-cell tile.`;
     advanceKalistoTurn(state);
     return true;
 }
@@ -266,15 +268,15 @@ export function playKalistoPillar(state, row, column) {
         state.setupPillarsPlaced++;
         if (state.setupPillarsPlaced >= state.playerCount * 2) {
             state.phase = 'pieces'; state.player = 1;
-            state.lastEvent = 'Stebri so postavljeni. Igralec 1 naj položi ploščico.';
+            state.lastEvent = 'Pillars placed. Player 1: place a tile.';
         } else {
             state.player = state.player % state.playerCount + 1;
             const round = Math.floor(state.setupPillarsPlaced / state.playerCount) + 1;
-            state.lastEvent = `Igralec ${state.player} naj postavi ${round === 1 ? 'prvi' : 'drugi'} steber.`;
+            state.lastEvent = `Player ${state.player}: place ${round === 1 ? 'first' : 'second'} pillar.`;
         }
         return true;
     }
-    state.lastEvent = `Igralec ${player} je postavil tretji steber.`;
+    state.lastEvent = `Player ${player} placed a third pillar.`;
     advanceKalistoTurn(state);
     return true;
 }
@@ -288,8 +290,8 @@ function finishKalisto(state) {
     // started later. Player 1 starts this single-round implementation.
     state.winner = Math.max(...winners.map(item => item.player));
     state.lastEvent = winners.length === 1
-        ? `Zmagal je igralec ${state.winner} z ${best} kazenskimi točkami.`
-        : `Izenačenje pri ${best} kazenskih točkah; zmaga poznejši začetni igralec ${state.winner}.`;
+        ? `Player ${state.winner} wins with ${best} penalty points!`
+        : `Tie at ${best} penalty points; later starting player ${state.winner} wins!`;
 }
 
 function kalistoHasMove(state, player) {

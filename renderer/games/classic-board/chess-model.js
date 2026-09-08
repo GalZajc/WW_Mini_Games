@@ -27,7 +27,7 @@ export function createChess() {
             1: { kingSide: true, queenSide: true },
             2: { kingSide: true, queenSide: true },
         },
-        lastMove: null, lastEvent: 'Beli začne.',
+        lastMove: null, lastEvent: 'White starts.',
     };
 }
 
@@ -219,14 +219,14 @@ export function playChess(state, requestedMove) {
     const nextMoves = chessMoves(state);
     if (!nextMoves.length) {
         if (chessInCheck(state)) {
-            state.winner = player; state.result = 'checkmate'; state.lastEvent = `Mat. Zmagal je igralec ${player}.`;
+            state.winner = player; state.result = 'checkmate'; state.lastEvent = `Checkmate. Player ${player} wins.`;
         } else {
-            state.winner = 0; state.result = 'stalemate'; state.lastEvent = 'Pat. Neodločeno.';
+            state.winner = 0; state.result = 'stalemate'; state.lastEvent = 'Stalemate. Draw.';
         }
     } else if (insufficientMaterial(state.board)) {
-        state.winner = 0; state.result = 'insufficient'; state.lastEvent = 'Neodločeno: premalo materiala za mat.';
-    } else if (chessInCheck(state)) state.lastEvent = `Šah igralcu ${state.player}.`;
-    else state.lastEvent = captured || move.enPassantCapture ? 'Figura je bila zajeta.' : (move.castle ? 'Rokada.' : 'Poteza končana.');
+        state.winner = 0; state.result = 'insufficient'; state.lastEvent = 'Draw: insufficient material for checkmate.';
+    } else if (chessInCheck(state)) state.lastEvent = `Check on player ${state.player}.`;
+    else state.lastEvent = captured || move.enPassantCapture ? 'Piece captured.' : (move.castle ? 'Castling.' : 'Move completed.');
     return true;
 }
 

@@ -1,6 +1,6 @@
 {
-    "name": "Človek ne jezi se",
-    "description": "Posplošena klasična dirka za 2–6 igralcev, lokalno, prek LAN-a ali proti računalniku.",
+    "name": "Ludo",
+    "description": "Classic cross-and-circle board game for 2–6 players, locally, on LAN, or against the computer.",
     "icon": "🎲",
     "type": "2d",
     "hidden": true

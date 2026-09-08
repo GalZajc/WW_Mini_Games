@@ -250,6 +250,11 @@ body {
     object-fit: cover;
 }
 
+.game-card-thumb img.twisty-card-art {
+    object-fit: contain;
+    background: #77d7ff;
+}
+
 .game-card-thumb .thumb-placeholder {
     font-size: 64px;
     opacity: 1;

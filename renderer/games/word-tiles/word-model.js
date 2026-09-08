@@ -33,7 +33,7 @@ export function createWordState(raw = {}, seed = 1) {
     const state = {
         seed, size, rackSize, board: Array.from({ length: size }, () => Array(size).fill(null)), bag,
         racks: [null, [], []], scores: [0, 0, 0], player: 1, winner: null, passes: 0, turn: 1,
-        lastEvent: 'Igralec 1 začne.', bingoBonus: Number.isFinite(Number(raw.bingoBonus))
+        lastEvent: 'Player 1 starts.', bingoBonus: Number.isFinite(Number(raw.bingoBonus))
             ? Math.max(0, Math.round(Number(raw.bingoBonus))) : 50,
     };
     refillRack(state, 1); refillRack(state, 2); return state;
@@ -86,38 +86,38 @@ function scoreCells(state, pending, cells) {
 }
 
 export function evaluateWordMove(state, placements, dictionary) {
-    if (!placements?.length || state.winner !== null) return { ok: false, error: 'Ni postavljenih ploščic.' };
+    if (!placements?.length || state.winner !== null) return { ok: false, error: 'No tiles placed.' };
     const rack = state.racks[state.player], rackById = new Map(rack.map(tile => [tile.id, tile]));
     const pending = new Map();
     for (const placement of placements) {
         const source = rackById.get(placement.tileId);
-        if (!source) return { ok: false, error: 'Ploščice ni na stojalu.' };
-        if (!inside(state, placement.row, placement.column) || state.board[placement.row][placement.column]) return { ok: false, error: 'Polje ni prazno.' };
+        if (!source) return { ok: false, error: 'Tile not on rack.' };
+        if (!inside(state, placement.row, placement.column) || state.board[placement.row][placement.column]) return { ok: false, error: 'Square is not empty.' };
         const key = keyOf(placement.row, placement.column);
-        if (pending.has(key)) return { ok: false, error: 'Dve ploščici sta na istem polju.' };
+        if (pending.has(key)) return { ok: false, error: 'Two tiles placed on the same square.' };
         let letter = source.letter;
         if (letter === '?') {
             letter = String(placement.blankLetter || '').toLocaleUpperCase('sl-SI');
-            if (!/^[A-ZČŠŽ]$/.test(letter)) return { ok: false, error: 'Žoliku določi črko.' };
+            if (!/^[A-ZČŠŽ]$/.test(letter)) return { ok: false, error: 'Assign a letter to the blank tile.' };
         }
         pending.set(key, { ...source, letter, points: source.letter === '?' ? 0 : source.points, blank: source.letter === '?' });
         rackById.delete(source.id);
     }
     const sameRow = placements.every(item => item.row === placements[0].row);
     const sameColumn = placements.every(item => item.column === placements[0].column);
-    if (!sameRow && !sameColumn) return { ok: false, error: 'Ploščice morajo biti v isti vrsti ali stolpcu.' };
+    if (!sameRow && !sameColumn) return { ok: false, error: 'Tiles must be in the same row or column.' };
     const direction = sameRow ? [0, 1] : [1, 0];
     const main = collectWord(state, pending, placements[0].row, placements[0].column, ...direction);
     const expectedSpan = sameRow
         ? Math.max(...placements.map(item => item.column)) - Math.min(...placements.map(item => item.column)) + 1
         : Math.max(...placements.map(item => item.row)) - Math.min(...placements.map(item => item.row)) + 1;
-    if (main.length < expectedSpan) return { ok: false, error: 'V besedi je praznina.' };
+    if (main.length < expectedSpan) return { ok: false, error: 'There is a gap in the word.' };
     const boardEmpty = !state.board.some(row => row.some(Boolean));
     const center = Math.floor(state.size / 2);
-    if (boardEmpty && !pending.has(keyOf(center, center))) return { ok: false, error: 'Prva beseda mora prekriti sredino.' };
+    if (boardEmpty && !pending.has(keyOf(center, center))) return { ok: false, error: 'First word must cover the centre square.' };
     if (!boardEmpty) {
         const connected = placements.some(item => [[-1, 0], [1, 0], [0, -1], [0, 1]].some(([dr, dc]) => state.board[item.row + dr]?.[item.column + dc]));
-        if (!connected && main.every(cell => pending.has(keyOf(cell.row, cell.column)))) return { ok: false, error: 'Poteza se mora dotikati obstoječih besed.' };
+        if (!connected && main.every(cell => pending.has(keyOf(cell.row, cell.column)))) return { ok: false, error: 'Move must connect to existing words.' };
     }
     const words = [];
     if (main.length > 1) words.push(main);
@@ -126,10 +126,10 @@ export function evaluateWordMove(state, placements, dictionary) {
         const cross = collectWord(state, pending, placement.row, placement.column, ...crossDirection);
         if (cross.length > 1) words.push(cross);
     }
-    if (!words.length) return { ok: false, error: 'Beseda mora imeti vsaj dve črki.' };
+    if (!words.length) return { ok: false, error: 'Word must be at least two letters long.' };
     const names = words.map(cells => normalizeWord(cells.map(cell => cell.tile.letter).join('')));
     const invalid = names.filter(word => !dictionary.has(word));
-    if (invalid.length) return { ok: false, error: `Ni v slovarju: ${invalid.join(', ')}`, words: names };
+    if (invalid.length) return { ok: false, error: `Not in dictionary: ${invalid.join(', ')}`, words: names };
     let score = words.reduce((sum, cells) => sum + scoreCells(state, pending, cells), 0);
     if (placements.length === state.rackSize) score += state.bingoBonus;
     return { ok: true, pending, words: names, score };
@@ -144,19 +144,19 @@ export function playWordMove(state, placements, dictionary) {
     }
     state.racks[state.player] = state.racks[state.player].filter(tile => !usedIds.has(tile.id));
     state.scores[state.player] += result.score; refillRack(state, state.player);
-    state.lastEvent = `${result.words.join(' + ')} · ${result.score} točk.`; state.passes = 0;
+    state.lastEvent = `${result.words.join(' + ')} · ${result.score} pts.`; state.passes = 0;
     finishOrAdvance(state); return result;
 }
 
 export function passWordTurn(state) {
     if (state.winner !== null) return false;
-    state.passes++; state.lastEvent = `Igralec ${state.player} je preskočil.`; finishOrAdvance(state); return true;
+    state.passes++; state.lastEvent = `Player ${state.player} passed.`; finishOrAdvance(state); return true;
 }
 
 export function exchangeRack(state) {
     if (state.winner !== null || state.bag.length < state.racks[state.player].length) return false;
     state.bag.unshift(...state.racks[state.player]); state.racks[state.player] = []; refillRack(state, state.player);
-    state.passes++; state.lastEvent = `Igralec ${state.player} je zamenjal stojalo.`; finishOrAdvance(state); return true;
+    state.passes++; state.lastEvent = `Player ${state.player} exchanged rack.`; finishOrAdvance(state); return true;
 }
 
 function finishOrAdvance(state) {
@@ -164,7 +164,7 @@ function finishOrAdvance(state) {
     if (emptied || state.passes >= 4) {
         for (let player = 1; player <= 2; player++) state.scores[player] -= state.racks[player].reduce((sum, tile) => sum + tile.points, 0);
         state.winner = state.scores[1] === state.scores[2] ? 0 : (state.scores[1] > state.scores[2] ? 1 : 2);
-        state.lastEvent = state.winner ? `Zmagal je igralec ${state.winner}.` : 'Neodločeno.'; return;
+        state.lastEvent = state.winner ? `Player ${state.winner} wins!` : 'Draw!'; return;
     }
     state.player = 3 - state.player; state.turn++;
 }

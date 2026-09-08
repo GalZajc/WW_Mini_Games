@@ -27,7 +27,7 @@ export default class ClassicPictureMemoryGame extends BaseGame {
         });
         this._keyDown = event => { if (event.code === 'KeyR' && this.state && this._hostControlsState()) this._restartState(); };
         window.addEventListener('keydown', this._keyDown);
-        this.lobby = new SessionLobby(this, { title: 'Klasični spomin', players: 2, onStart: session => this._startSession(session) });
+        this.lobby = new SessionLobby(this, { title: 'Classic Memory', players: 2, onStart: session => this._startSession(session) });
     }
 
     _startSession(session) {
@@ -183,11 +183,11 @@ export default class ClassicPictureMemoryGame extends BaseGame {
             if (!this.state.matched.includes(index) && !this.state.open.includes(index)) this.cardTargets.push({ ...placement, index });
         });
         ctx.fillStyle = '#f7f5ff'; ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic'; ctx.font = '900 19px Inter';
-        const status = this.state.winner === null ? `Na vrsti: igralec ${this.state.player}` : (this.state.winner ? `Zmagovalec: igralec ${this.state.winner}` : 'Neodločeno');
-        ctx.fillText(`Klasični spomin · ${status}`, 18, 31);
+        const status = this.state.winner === null ? `Turn: Player ${this.state.player}` : (this.state.winner ? `Winner: Player ${this.state.winner}` : 'Draw');
+        ctx.fillText(`Classic Memory · ${status}`, 18, 31);
         ctx.fillStyle = '#aaa7bf'; ctx.font = '12px Inter'; ctx.fillText(this.state.lastEvent, 18, 51);
         ctx.textAlign = 'right'; ctx.fillStyle = '#d9fff8'; ctx.font = '800 13px Inter';
-        ctx.fillText(`Igralec 1: ${this.state.scores[1]} · Igralec 2: ${this.state.scores[2]} · poteze: ${this.state.moves}`, this.w - 18, 31);
+        ctx.fillText(`Player 1: ${this.state.scores[1]} · Player 2: ${this.state.scores[2]} · Moves: ${this.state.moves}`, this.w - 18, 31);
     }
 
     destroy() {

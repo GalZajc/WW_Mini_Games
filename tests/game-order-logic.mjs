@@ -4,14 +4,14 @@ import { DEFAULT_GAME_ORDER, sortGamesByPriority } from '../renderer/core/GameLo
 // 1. Verify exact length and IDs of DEFAULT_GAME_ORDER
 assert.equal(DEFAULT_GAME_ORDER.length, 25);
 assert.equal(DEFAULT_GAME_ORDER[0], 'reromo-tetris');
-assert.equal(DEFAULT_GAME_ORDER[1], 'pogo-cloud-jump');
-assert.equal(DEFAULT_GAME_ORDER[2], 'flappy');
-assert.equal(DEFAULT_GAME_ORDER[3], 'sky-pilot-3d');
-assert.equal(DEFAULT_GAME_ORDER[4], 'dino-runner');
-assert.equal(DEFAULT_GAME_ORDER[5], 'rod-balance');
-assert.equal(DEFAULT_GAME_ORDER[6], 'wheelie-balance');
-assert.equal(DEFAULT_GAME_ORDER[7], 'cup-shuffle');
-assert.equal(DEFAULT_GAME_ORDER[8], 'rubiks-cuboid');
+assert.equal(DEFAULT_GAME_ORDER[1], 'rubiks-cuboid');
+assert.equal(DEFAULT_GAME_ORDER[2], 'pogo-cloud-jump');
+assert.equal(DEFAULT_GAME_ORDER[3], 'flappy');
+assert.equal(DEFAULT_GAME_ORDER[4], 'sky-pilot-3d');
+assert.equal(DEFAULT_GAME_ORDER[5], 'dino-runner');
+assert.equal(DEFAULT_GAME_ORDER[6], 'rod-balance');
+assert.equal(DEFAULT_GAME_ORDER[7], 'wheelie-balance');
+assert.equal(DEFAULT_GAME_ORDER[8], 'cup-shuffle');
 assert.equal(DEFAULT_GAME_ORDER[9], 'robot-island');
 assert.equal(DEFAULT_GAME_ORDER[10], 'curve-memory');
 assert.equal(DEFAULT_GAME_ORDER[11], 'rhythm-memory');

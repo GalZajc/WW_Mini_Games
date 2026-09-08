@@ -28,7 +28,7 @@ export default class LudoGame extends BaseGame {
             this._onNetworkMessage(message, info);
         });
         this.lobby = new SessionLobby(this, {
-            title: 'Človek ne jezi se',
+            title: 'Ludo',
             players: this.rules.playerCount,
             onStart: session => this._startSession(session),
         });
@@ -44,7 +44,7 @@ export default class LudoGame extends BaseGame {
         this.session = session;
         this.state = createLudoState(this.rules, session.seed ?? Date.now());
         if (session.mode === 'lan' && !session.isHost) {
-            this.state.lastEvent = 'Čakam začetno stanje gostitelja…';
+            this.state.lastEvent = 'Waiting for host state…';
         } else if (session.mode === 'lan') this._broadcastState();
         this._ensureRollButton();
     }
@@ -54,7 +54,7 @@ export default class LudoGame extends BaseGame {
         this.rollButton = document.createElement('button');
         this.rollButton.className = 'ludo-roll-button';
         this.rollButton.type = 'button';
-        this.rollButton.textContent = 'VRZI KOCKO';
+        this.rollButton.textContent = 'ROLL DICE';
         this.rollButton.style.cssText = 'position:fixed;right:22px;bottom:22px;z-index:720;height:34px;padding:0 15px;border:1px solid #176d25;border-radius:6px;background:linear-gradient(#73d44e,#329b34);color:#fff;font:800 11px Inter;cursor:pointer;box-shadow:inset 0 1px #d8ffc8,0 3px 8px rgba(20,70,30,.3)';
         this._rollClick = () => this._requestAction({ action: 'roll' });
         this.rollButton.addEventListener('click', this._rollClick);
@@ -89,7 +89,10 @@ export default class LudoGame extends BaseGame {
         if (payload.action === 'roll' && this.state.phase === 'roll') {
             rollLudoDice(this.state);
             this.audio.playBeep(180 + this.state.dice * 45, 0.08, 0.25);
-            if (!legalLudoMoves(this.state).length) passLudoTurn(this.state);
+            if (!legalLudoMoves(this.state).length) {
+                this.state.phase = 'pass';
+                this.aiTimer = Number(this.settings.aiDelay ?? 0.8);
+            }
         } else if (payload.action === 'move' && this.state.phase === 'move') {
             const result = applyLudoMove(this.state, Number(payload.piece));
             if (!result.ok) return;
@@ -121,12 +124,21 @@ export default class LudoGame extends BaseGame {
 
     _networkLost(info = {}) {
         if (this.session?.isHost && info.peerId) delete this.session.peerSeats?.[info.peerId];
-        if (this.state) this.state.lastEvent = 'Povezava z igralcem je bila prekinjena.';
+        if (this.state) this.state.lastEvent = 'Player disconnected.';
     }
 
     update(dt) {
         if (!this.state || this.state.winner !== null) return;
         this._syncRollButton();
+        if (this.state.phase === 'pass') {
+            this.aiTimer -= dt;
+            if (this.aiTimer <= 0 || (this._controlledByHuman(this.state.turn) && this.input.isMouseJustDown(0))) {
+                passLudoTurn(this.state);
+                this._broadcastState();
+                this._syncRollButton();
+            }
+            return;
+        }
         if (this._hostControlsState() && !this._controlledByHuman(this.state.turn) && !this._controlledByRemote(this.state.turn)) {
             this.aiTimer -= dt;
             if (this.aiTimer <= 0) {
@@ -224,7 +236,7 @@ export default class LudoGame extends BaseGame {
             });
         });
         ctx.fillStyle = '#263b32'; ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
-        ctx.font = '900 19px Inter'; ctx.fillText(this.state.winner === null ? `Na vrsti: igralec ${this.state.turn + 1}` : `Zmagovalec: igralec ${this.state.winner + 1}`, 20, 34);
+        ctx.font = '900 19px Inter'; ctx.fillText(this.state.winner === null ? `Turn: Player ${this.state.turn + 1}` : `Winner: Player ${this.state.winner + 1}`, 20, 34);
         ctx.font = '12px Inter'; ctx.fillStyle = '#49675a'; ctx.fillText(this.state.lastEvent, 20, 54);
         ctx.textAlign = 'center'; ctx.font = '900 34px Inter'; ctx.fillStyle = '#263b32';
         ctx.fillText(this.state.dice === null ? '–' : String(this.state.dice), cx, cy + 10);
@@ -245,16 +257,16 @@ export default class LudoGame extends BaseGame {
 
     static getSettingsSchema() {
         return [
-            { key: 'playerCount', label: 'Število igralcev', type: 'range', min: 2, max: 6, step: 1, default: 4 },
-            { key: 'trackFields', label: 'Polja na skupni poti', type: 'range', min: 12, max: 120, step: 1, default: 40 },
-            { key: 'homeFields', label: 'Polja v ciljni vrsti', type: 'range', min: 2, max: 10, step: 1, default: 4 },
-            { key: 'piecesPerPlayer', label: 'Figur na igralca', type: 'range', min: 1, max: 8, step: 1, default: 4 },
-            { key: 'diceSides', label: 'Strani kocke', type: 'range', min: 4, max: 12, step: 1, default: 6 },
-            { key: 'entryRoll', label: 'Met za vstop na ploščo', type: 'range', min: 1, max: 12, step: 1, default: 6 },
-            { key: 'extraTurnOnMaximum', label: 'Dodaten met pri največjem metu', type: 'toggle', default: true },
-            { key: 'extraTurnOnCapture', label: 'Dodaten met ob izločitvi', type: 'toggle', default: true },
-            { key: 'safeStartFields', label: 'Varna začetna polja', type: 'toggle', default: true },
-            { key: 'aiDelay', label: 'Premor računalnika [s]', type: 'range', min: 0.12, max: 2, step: 0.05, default: 0.55 },
+            { key: 'playerCount', label: 'Player count', type: 'range', min: 2, max: 6, step: 1, default: 4 },
+            { key: 'trackFields', label: 'Track spaces', type: 'range', min: 12, max: 120, step: 1, default: 40 },
+            { key: 'homeFields', label: 'Home column spaces', type: 'range', min: 2, max: 10, step: 1, default: 4 },
+            { key: 'piecesPerPlayer', label: 'Tokens per player', type: 'range', min: 1, max: 8, step: 1, default: 4 },
+            { key: 'diceSides', label: 'Dice sides', type: 'range', min: 4, max: 12, step: 1, default: 6 },
+            { key: 'entryRoll', label: 'Roll to enter track', type: 'range', min: 1, max: 12, step: 1, default: 6 },
+            { key: 'extraTurnOnMaximum', label: 'Extra roll on maximum roll', type: 'toggle', default: true },
+            { key: 'extraTurnOnCapture', label: 'Extra roll on capture', type: 'toggle', default: true },
+            { key: 'safeStartFields', label: 'Safe start spaces', type: 'toggle', default: true },
+            { key: 'aiDelay', label: 'AI delay [s]', type: 'range', min: 0.12, max: 2, step: 0.05, default: 0.55 },
         ];
     }
 

@@ -187,8 +187,8 @@ Dolžina roke in palice sta pozitivni, gravitacija in koeficient trenja pa
 Za kvader so `Nx`, `Ny`, `Nz >= 1`; ena kocka v smeri je dovoljena. Torus potrebuje
   `U >= 4` in `V >= 3`, sicer osnovni obroč oziroma prečni obroč degenerira.
   Pri tetraedru, oktaedru, dodekaedru in ikozaedru je red celo število najmanj
-  2 in največji red iz kataloga konkretnega poliedra; kataloška meja je meja
-  razpoložljive mreže, ne skriti popravek vnosa. Dolžina vlečenja za četrt obrata
+  2, brez umetne zgornje omejitve. Mreža se generira za izbrani red.
+  Dolžina vlečenja za četrt obrata
   in hitrost animacije sta pozitivni. Velikost podokenjca in zoom sta vizualni
   nastavitvi oziroma interakciji in ne vplivata na rezultat.
 

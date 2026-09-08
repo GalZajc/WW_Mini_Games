@@ -1,6 +1,6 @@
 {
-    "name": "Slovenske besedne ploščice",
-    "description": "Scrabble po slovensko z lokalnim slovarjem, bonusi, LAN igro in računalniškim nasprotnikom.",
+    "name": "Word Tiles",
+    "description": "Scrabble-style tile word game with local dictionary, bonuses, LAN play, and computer opponent.",
     "icon": "🔤",
     "type": "2d",
     "hidden": true

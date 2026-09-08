@@ -27,14 +27,14 @@ import { requireFiniteNumber, requireInteger, requirePositiveNumber } from '../.
 const TAU = Math.PI * 2;
 
 const MODES = {
-    memory: { title: 'Klasični spomin', description: 'Poišči pare slik v mreži ali varno razmetani postavitvi.', artKey: 'classic-board-memory' },
-    go: { title: 'Go', description: 'Izberi klasično ravninsko ploščo ali povezano površino kvadra.', artKey: 'classic-board-go' },
-    reversi: { title: 'Reversi', description: 'Obdaj nasprotnikove ploščke in jih obrni.', artKey: 'classic-board-reversi' },
-    checkers: { title: 'Dama', description: 'Obvezni skoki, zaporedna jemanja in dame.', artKey: 'classic-board-checkers' },
-    kalisto: { title: 'Callisto', description: 'Širi svojo barvo iz stebrov in tekmecem zapri prostor.', artKey: 'classic-board-callisto' },
-    ludo: { title: 'Človek ne jezi se', description: 'Nastavljiva pot, kocka, figure ter od 2 do 6 igralcev.', artKey: 'classic-board-ludo' },
-    chess: { title: 'Šah', description: 'Klasični šah z rokado, en passantom, promocijo in računalnikom.', artKey: 'classic-board-chess' },
-    scrabble: { title: 'Scrabble · slovenske besedne ploščice', description: 'Slovenski Scrabble z velikim lokalnim slovarjem.', artKey: 'classic-board-scrabble' },
+    memory: { title: 'Classic Memory', description: 'Find matching image pairs on a grid or in an artfully scattered layout.', artKey: 'classic-board-memory' },
+    go: { title: 'Go', description: 'Choose a traditional flat board or the seamless surface of a cube.', artKey: 'classic-board-go' },
+    reversi: { title: 'Reversi', description: "Flank your opponent's discs and flip them to your colour.", artKey: 'classic-board-reversi' },
+    checkers: { title: 'Checkers', description: 'Mandatory jumps, multi-captures, and crowned kings.', artKey: 'classic-board-checkers' },
+    kalisto: { title: 'Callisto', description: 'Expand your territory from pillars and block off opponents.', artKey: 'classic-board-callisto' },
+    ludo: { title: 'Ludo', description: 'Custom track, dice, tokens, and 2 to 6 players.', artKey: 'classic-board-ludo' },
+    chess: { title: 'Chess', description: 'Standard chess with castling, en passant, promotion, and AI engine.', artKey: 'classic-board-chess' },
+    scrabble: { title: 'Word Tiles', description: 'Letter placement crossword game with comprehensive dictionary.', artKey: 'classic-board-scrabble' },
 };
 const MODE_KEYS = Object.keys(MODES);
 const CHILD_MODES = Object.freeze({ scrabble: WordTilesGame, memory: ClassicPictureMemoryGame, go: GoGame });
@@ -58,34 +58,34 @@ function nestedGoSettingsSchema() {
 
 function settingsSchema() {
     return [
-        { key: 'mode', label: 'Igra', type: 'hidden', default: 'memory', modeProfile: false },
-        { key: 'boardSize', label: 'Velikost plošče', type: 'range', min: 4, max: 20, step: 1, default: 8, modes: ['reversi', 'checkers'] },
-        { key: 'checkerRows', label: 'Začetne vrste pri dami', type: 'range', min: 1, max: 7, step: 1, default: 3, modes: ['checkers'] },
-        { key: 'callistoBoardSize', label: 'Velikost plošče Callisto', type: 'range', min: 12, max: 20, step: 1, default: 16, modes: ['kalisto'] },
-        { key: 'callistoPlayerCount', label: 'Število igralcev', type: 'range', min: 2, max: 4, step: 1, default: 2, modes: ['kalisto'] },
-        { key: 'callistoTileCount', label: 'Ploščic na igralca', type: 'range', min: 5, max: KALISTO_SHAPES.length, step: 1, default: KALISTO_SHAPES.length, modes: ['kalisto'] },
-        { key: 'playerCount', label: 'Število igralcev', type: 'range', min: 2, max: 6, step: 1, default: 4, modes: ['ludo'] },
-        { key: 'trackFields', label: 'Polja na skupni poti', type: 'range', min: 12, max: 120, step: 1, default: 40, modes: ['ludo'] },
-        { key: 'homeFields', label: 'Polja v ciljni vrsti', type: 'range', min: 2, max: 10, step: 1, default: 4, modes: ['ludo'] },
-        { key: 'piecesPerPlayer', label: 'Figur na igralca', type: 'range', min: 1, max: 8, step: 1, default: 4, modes: ['ludo'] },
-        { key: 'diceSides', label: 'Strani kocke', type: 'range', min: 4, max: 12, step: 1, default: 6, modes: ['ludo'] },
-        { key: 'entryRoll', label: 'Met za vstop na ploščo', type: 'range', min: 1, max: 12, step: 1, default: 6, modes: ['ludo'] },
-        { key: 'extraTurnOnMaximum', label: 'Dodaten met pri največjem metu', type: 'toggle', default: true, modes: ['ludo'] },
-        { key: 'extraTurnOnCapture', label: 'Dodaten met ob izločitvi', type: 'toggle', default: true, modes: ['ludo'] },
-        { key: 'safeStartFields', label: 'Varna začetna polja', type: 'toggle', default: true, modes: ['ludo'] },
-        { key: 'chessAiDepth', label: 'Globina šahovskega računalnika', type: 'range', min: 1, max: 3, step: 1, default: 2, modes: ['chess'] },
-        { key: 'wordBoardSize', label: 'Velikost besedne plošče (liho)', type: 'range', min: 9, max: 21, step: 2, default: 15, modes: ['scrabble'] },
-        { key: 'wordRackSize', label: 'Ploščic na stojalu', type: 'range', min: 5, max: 12, step: 1, default: 7, modes: ['scrabble'] },
-        { key: 'wordBingoBonus', label: 'Bonus za celo stojalo', type: 'range', min: 0, max: 150, step: 5, default: 50, modes: ['scrabble'] },
-        { key: 'wordAiScanLimit', label: 'Besed, pregledanih na potezo', type: 'range', min: 5000, max: 120000, step: 5000, default: 50000, modes: ['scrabble'] },
-        { key: 'memoryPairCount', label: 'Število parov slik', type: 'range', min: 2, max: 60, step: 1, default: 10, modes: ['memory'] },
-        { key: 'memoryCategory', label: 'Vrsta slik', type: 'select', options: memoryCategoryOptions(), default: 'mixed', modes: ['memory'] },
-        { key: 'memoryScattered', label: 'Naključno razmetane in zasukane karte', type: 'toggle', default: true, modes: ['memory'] },
-        { key: 'memoryMaxRotation', label: 'Največji zasuk kart [°]', type: 'range', min: 0, max: 24, step: 1, default: 13, modes: ['memory'] },
-        { key: 'memoryLabelsVisible', label: 'Imena slik na kartah', type: 'toggle', default: true, modes: ['memory'] },
-        { key: 'memoryRevealDelay', label: 'Čas prikaza napačnega para [s]', type: 'range', min: 0.25, max: 2.5, step: 0.05, default: 0.85, modes: ['memory'] },
+        { key: 'mode', label: 'Game', type: 'hidden', default: 'memory', modeProfile: false },
+        { key: 'boardSize', label: 'Board size', type: 'range', min: 4, max: 20, step: 1, default: 8, modes: ['reversi', 'checkers'] },
+        { key: 'checkerRows', label: 'Starting rows in Checkers', type: 'range', min: 1, max: 7, step: 1, default: 3, modes: ['checkers'] },
+        { key: 'callistoBoardSize', label: 'Callisto board size', type: 'range', min: 12, max: 20, step: 1, default: 16, modes: ['kalisto'] },
+        { key: 'callistoPlayerCount', label: 'Player count', type: 'range', min: 2, max: 4, step: 1, default: 2, modes: ['kalisto'] },
+        { key: 'callistoTileCount', label: 'Tiles per player', type: 'range', min: 5, max: KALISTO_SHAPES.length, step: 1, default: KALISTO_SHAPES.length, modes: ['kalisto'] },
+        { key: 'playerCount', label: 'Player count', type: 'range', min: 2, max: 6, step: 1, default: 4, modes: ['ludo'] },
+        { key: 'trackFields', label: 'Track spaces', type: 'range', min: 12, max: 120, step: 1, default: 40, modes: ['ludo'] },
+        { key: 'homeFields', label: 'Home column spaces', type: 'range', min: 2, max: 10, step: 1, default: 4, modes: ['ludo'] },
+        { key: 'piecesPerPlayer', label: 'Tokens per player', type: 'range', min: 1, max: 8, step: 1, default: 4, modes: ['ludo'] },
+        { key: 'diceSides', label: 'Dice sides', type: 'range', min: 4, max: 12, step: 1, default: 6, modes: ['ludo'] },
+        { key: 'entryRoll', label: 'Roll to enter track', type: 'range', min: 1, max: 12, step: 1, default: 6, modes: ['ludo'] },
+        { key: 'extraTurnOnMaximum', label: 'Extra roll on maximum roll', type: 'toggle', default: true, modes: ['ludo'] },
+        { key: 'extraTurnOnCapture', label: 'Extra roll on capture', type: 'toggle', default: true, modes: ['ludo'] },
+        { key: 'safeStartFields', label: 'Safe start spaces', type: 'toggle', default: true, modes: ['ludo'] },
+        { key: 'chessAiDepth', label: 'Chess AI search depth', type: 'range', min: 1, max: 3, step: 1, default: 2, modes: ['chess'] },
+        { key: 'wordBoardSize', label: 'Word board size (odd)', type: 'range', min: 9, max: 21, step: 2, default: 15, modes: ['scrabble'] },
+        { key: 'wordRackSize', label: 'Rack tile capacity', type: 'range', min: 5, max: 12, step: 1, default: 7, modes: ['scrabble'] },
+        { key: 'wordBingoBonus', label: 'Bonus for using entire rack', type: 'range', min: 0, max: 150, step: 5, default: 50, modes: ['scrabble'] },
+        { key: 'wordAiScanLimit', label: 'Words evaluated per AI turn', type: 'range', min: 5000, max: 120000, step: 5000, default: 50000, modes: ['scrabble'] },
+        { key: 'memoryPairCount', label: 'Image pair count', type: 'range', min: 2, max: 60, step: 1, default: 10, modes: ['memory'] },
+        { key: 'memoryCategory', label: 'Image category', type: 'select', options: memoryCategoryOptions(), default: 'mixed', modes: ['memory'] },
+        { key: 'memoryScattered', label: 'Scattered and rotated cards', type: 'toggle', default: true, modes: ['memory'] },
+        { key: 'memoryMaxRotation', label: 'Maximum card rotation [°]', type: 'range', min: 0, max: 24, step: 1, default: 13, modes: ['memory'] },
+        { key: 'memoryLabelsVisible', label: 'Card labels visible', type: 'toggle', default: true, modes: ['memory'] },
+        { key: 'memoryRevealDelay', label: 'Mismatch reveal duration [s]', type: 'range', min: 0.25, max: 2.5, step: 0.05, default: 0.85, modes: ['memory'] },
         ...nestedGoSettingsSchema(),
-        { key: 'aiDelay', label: 'Premor računalnika [s]', type: 'range', min: 0.1, max: 2, step: 0.05, default: 0.45 },
+        { key: 'aiDelay', label: 'AI think delay [s]', type: 'range', min: 0.1, max: 2, step: 0.05, default: 0.45 },
     ];
 }
 
@@ -182,7 +182,7 @@ export default class ClassicBoardGame extends BaseGame {
         this.modeSelector = document.createElement('div');
         this.modeSelector.className = 'ww-mode-select';
         this.modeSelector.innerHTML = modeGalleryMarkup({
-            gameName: 'Klasične namizne igre', prompt: 'izberi igro',
+            gameName: 'Classic Board Games', prompt: 'Choose a game',
             modes: MODE_KEYS.map(key => ({ key, ...MODES[key] })), selectedMode: this.mode,
         });
         this._modeHandler = bindModeGallery(this.modeSelector, {
@@ -366,7 +366,10 @@ export default class ClassicBoardGame extends BaseGame {
         if (this.mode === 'kalisto' && action.kind === 'kalisto-place') played = playKalisto(this.state, action.placement);
         if (this.mode === 'kalisto' && action.kind === 'kalisto-pillar') played = playKalistoPillar(this.state, action.row, action.column);
         if (!played) return;
-        this.selected = null; this.audio.playClick();
+        this.selected = (this.mode === 'checkers' && this.state.forced)
+            ? { row: this.state.forced[0], column: this.state.forced[1] }
+            : null;
+        this.audio.playClick();
         if (this.state.winner !== null) {
             this.audio.playSuccess();
             this.submitScore({ mode: this.mode, winner: this.state.winner, seed: this.state.seed });
@@ -379,7 +382,10 @@ export default class ClassicBoardGame extends BaseGame {
             const dice = rollLudoDice(this.state);
             if (dice === null) return;
             this.audio.playBeep(180 + dice * 45, 0.08, 0.25);
-            if (!legalLudoMoves(this.state).length) passLudoTurn(this.state);
+            if (!legalLudoMoves(this.state).length) {
+                this.state.phase = 'pass';
+                this.aiTimer = Number(this.settings.aiDelay ?? 0.8);
+            }
         } else if (action.kind === 'ludo-move' && this.state.phase === 'move') {
             const result = applyLudoMove(this.state, Number(action.piece));
             if (!result.ok) return;
@@ -453,8 +459,11 @@ export default class ClassicBoardGame extends BaseGame {
         if (this.mode === 'kalisto') {
             const palette = this.kalistoPaletteTargets.find(item => mouse.x >= item.x && mouse.x <= item.x + item.w && mouse.y >= item.y && mouse.y <= item.y + item.h);
             if (palette) {
-                this.kalistoSelection.pillar = palette.kind === 'pillar';
-                if (palette.kind === 'shape') this.kalistoSelection.shapeIndex = palette.shapeIndex;
+                if (palette.kind === 'pillar') this.kalistoSelection.pillar = true;
+                else if (palette.kind === 'shape') { this.kalistoSelection.shapeIndex = palette.shapeIndex; this.kalistoSelection.pillar = false; }
+                else if (palette.kind === 'rot-cw') { this.kalistoSelection.rotation = (this.kalistoSelection.rotation + 1) % 4; this.kalistoSelection.pillar = false; }
+                else if (palette.kind === 'rot-ccw') { this.kalistoSelection.rotation = (this.kalistoSelection.rotation + 3) % 4; this.kalistoSelection.pillar = false; }
+                else if (palette.kind === 'flip') { this.kalistoSelection.flipped = !this.kalistoSelection.flipped; this.kalistoSelection.pillar = false; }
                 return;
             }
         }
@@ -469,6 +478,15 @@ export default class ClassicBoardGame extends BaseGame {
     _updateLudo(dt) {
         this._syncRollButton();
         if (this.state.winner !== null) return;
+        if (this.state.phase === 'pass') {
+            this.aiTimer -= dt;
+            if (this.aiTimer <= 0 || (this._controlledByHuman() && this.input.isMouseJustDown(0))) {
+                passLudoTurn(this.state);
+                this._broadcastState();
+                this._syncRollButton();
+            }
+            return;
+        }
         if (this._hostControlsState() && !this._controlledByHuman() && !this._controlledByRemote()) {
             this.aiTimer -= dt;
             if (this.aiTimer <= 0) {
@@ -498,7 +516,7 @@ export default class ClassicBoardGame extends BaseGame {
         this.rollButton = document.createElement('button');
         this.rollButton.className = 'ludo-roll-button';
         this.rollButton.type = 'button';
-        this.rollButton.textContent = 'VRZI KOCKO';
+        this.rollButton.textContent = 'ROLL DICE';
         this.rollButton.style.cssText = 'position:fixed;right:22px;bottom:22px;z-index:720;height:34px;padding:0 15px;border:1px solid #176d25;border-radius:6px;background:linear-gradient(#73d44e,#329b34);color:#fff;font:800 11px Inter;cursor:pointer;box-shadow:inset 0 1px #d8ffc8,0 3px 8px rgba(20,70,30,.3)';
         this._rollClick = () => this._requestAction({ kind: 'ludo-roll' });
         this.rollButton.addEventListener('click', this._rollClick);
@@ -524,17 +542,48 @@ export default class ClassicBoardGame extends BaseGame {
     }
 
     _checkerClick(cell) {
+        if (this.state.forced) {
+            const valid = checkersMoves(this.state, this.state.player, this.state.forced)
+                .some(candidate => candidate.to[0] === cell.row && candidate.to[1] === cell.column);
+            if (valid) {
+                this._requestAction({ kind: 'checker-move', move: { from: this.state.forced, to: [cell.row, cell.column] } });
+            }
+            return;
+        }
         const piece = this.state.grid[cell.row][cell.column];
-        if (Math.abs(piece) === this.state.player) { this.selected = cell; return; }
+        if (Math.abs(piece) === this.state.player) {
+            this.selected = (this.selected?.row === cell.row && this.selected?.column === cell.column) ? null : cell;
+            return;
+        }
         if (!this.selected) return;
-        this._requestAction({ kind: 'checker-move', move: { from: [this.selected.row, this.selected.column], to: [cell.row, cell.column] } });
+        const valid = checkersMoves(this.state, this.state.player, [this.selected.row, this.selected.column])
+            .some(candidate => candidate.to[0] === cell.row && candidate.to[1] === cell.column);
+        if (valid) {
+            this._requestAction({ kind: 'checker-move', move: { from: [this.selected.row, this.selected.column], to: [cell.row, cell.column] } });
+        } else {
+            this.selected = null;
+        }
     }
 
     _chessClick(cell) {
         const piece = this.state.board[cell.row][cell.column];
-        if (piece?.[0] === (this.state.player === 1 ? 'w' : 'b')) { this.selected = cell; return; }
+        if (this.selected && this.selected.row === cell.row && this.selected.column === cell.column) {
+            this.selected = null;
+            return;
+        }
+        if (piece?.[0] === (this.state.player === 1 ? 'w' : 'b')) {
+            this.selected = cell;
+            return;
+        }
         if (!this.selected) return;
-        this._requestAction({ kind: 'chess-move', move: { from: [this.selected.row, this.selected.column], to: [cell.row, cell.column] } });
+        const valid = chessMoves(this.state).some(candidate =>
+            candidate.from[0] === this.selected.row && candidate.from[1] === this.selected.column
+            && candidate.to[0] === cell.row && candidate.to[1] === cell.column);
+        if (valid) {
+            this._requestAction({ kind: 'chess-move', move: { from: [this.selected.row, this.selected.column], to: [cell.row, cell.column] } });
+        } else {
+            this.selected = null;
+        }
     }
 
     _kalistoClick(cell) {
@@ -624,9 +673,14 @@ export default class ClassicBoardGame extends BaseGame {
         }
         if (this.mode === 'reversi') this._renderReversiHints();
         if (this.mode === 'checkers') this._renderCheckerSelection();
-        if (this.mode === 'kalisto') this._renderKalistoPalette();
+        if (this.mode === 'reversi') this._renderReversiHints();
+        if (this.mode === 'checkers') this._renderCheckerSelection();
+        if (this.mode === 'kalisto') {
+            this._renderKalistoHover();
+            this._renderKalistoPalette();
+        }
         ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic'; ctx.fillStyle = '#24342a'; ctx.font = '900 19px Inter';
-        const status = this.state.winner === null ? `Na vrsti: igralec ${this.state.player}` : (this.state.winner ? `Zmagovalec: igralec ${this.state.winner}` : 'Neodločeno');
+        const status = this.state.winner === null ? `Turn: Player ${this.state.player}` : (this.state.winner ? `Winner: Player ${this.state.winner}` : 'Draw');
         ctx.fillText(`${MODES[this.mode].title} · ${status}`, 18, 32);
         ctx.font = '12px Inter'; ctx.fillStyle = '#4c6559'; ctx.fillText(this.state.lastEvent, 18, 52);
     }
@@ -662,11 +716,23 @@ export default class ClassicBoardGame extends BaseGame {
                 const glyph = chessPieceGlyph(piece); ctx.strokeText(glyph, px + cell / 2, py + cell / 2 + cell * .02); ctx.fillText(glyph, px + cell / 2, py + cell / 2 + cell * .02);
             }
         }
+        ctx.fillStyle = 'rgba(255,255,255,.65)';
+        ctx.font = '700 11px Inter';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'top';
+        for (let col = 0; col < 8; col++) {
+            ctx.fillText(String.fromCharCode(97 + col), x + col * cell + cell / 2, y + board + 8);
+        }
+        ctx.textAlign = 'right';
+        ctx.textBaseline = 'middle';
+        for (let r = 0; r < 8; r++) {
+            ctx.fillText(String(8 - r), x - 10, y + r * cell + cell / 2);
+        }
         ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic'; ctx.fillStyle = '#24342a'; ctx.font = '900 19px Inter';
         const status = this.state.winner === null
-            ? `Na vrsti: ${this.state.player === 1 ? 'beli' : 'črni'}${chessInCheck(this.state) ? ' · ŠAH' : ''}`
-            : (this.state.winner ? `Zmagovalec: igralec ${this.state.winner}` : 'Neodločeno');
-        ctx.fillText(`Šah · ${status}`, 18, 32);
+            ? `Turn: ${this.state.player === 1 ? 'White' : 'Black'}${chessInCheck(this.state) ? ' · CHECK' : ''}`
+            : (this.state.winner ? `Winner: Player ${this.state.winner}` : 'Draw');
+        ctx.fillText(`Chess · ${status}`, 18, 32);
         ctx.font = '12px Inter'; ctx.fillStyle = '#4c6559'; ctx.fillText(this.state.lastEvent, 18, 52);
     }
 
@@ -710,7 +776,7 @@ export default class ClassicBoardGame extends BaseGame {
         });
         ctx.fillStyle = '#263b32'; ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
         ctx.font = '900 19px Inter';
-        const status = this.state.winner === null ? `Na vrsti: igralec ${this.state.turn + 1}` : `Zmagovalec: igralec ${this.state.winner + 1}`;
+        const status = this.state.winner === null ? `Turn: Player ${this.state.turn + 1}` : `Winner: Player ${this.state.winner + 1}`;
         ctx.fillText(`${MODES[this.mode].title} · ${status}`, 20, 34);
         ctx.font = '12px Inter'; ctx.fillStyle = '#49675a'; ctx.fillText(this.state.lastEvent, 20, 54);
         ctx.textAlign = 'center'; ctx.font = '900 34px Inter'; ctx.fillStyle = '#263b32';
@@ -721,6 +787,7 @@ export default class ClassicBoardGame extends BaseGame {
         const ctx = this.ctx;
         ctx.beginPath(); ctx.arc(x, y, radius, 0, Math.PI * 2);
         if (this.mode === 'kalisto') ctx.fillStyle = value === 1 ? '#3586e6' : '#ef643e';
+        else if (this.mode === 'reversi') ctx.fillStyle = value === 1 ? '#20272b' : '#f5f3e8';
         else ctx.fillStyle = Math.abs(value) === 1 ? '#f5f3e8' : '#20272b';
         ctx.fill(); ctx.strokeStyle = '#26352f'; ctx.lineWidth = 2; ctx.stroke();
         if (this.mode === 'checkers' && value < 0) {
@@ -755,29 +822,92 @@ export default class ClassicBoardGame extends BaseGame {
         }
     }
 
+    _renderKalistoHover() {
+        if (!this._controlledByHuman() || this.state.winner !== null) return;
+        const mouse = this.input.getMousePos();
+        const cell = this._cellAt(mouse);
+        if (!cell) return;
+        const ctx = this.ctx, { x, y, cell: cellSize } = this.layout;
+        if (this.state.phase === 'pillars' || this.kalistoSelection.pillar) {
+            const valid = canPlaceKalistoPillar(this.state, cell.row, cell.column);
+            const px = x + cell.column * cellSize, py = y + cell.row * cellSize;
+            ctx.fillStyle = valid ? 'rgba(78, 200, 90, 0.45)' : 'rgba(235, 60, 50, 0.35)';
+            ctx.fillRect(px + 1, py + 1, cellSize - 2, cellSize - 2);
+            ctx.beginPath();
+            ctx.arc(px + cellSize / 2, py + cellSize / 2, Math.max(3, cellSize * 0.28), 0, TAU);
+            ctx.fillStyle = valid ? 'rgba(255, 255, 255, 0.8)' : 'rgba(255, 100, 100, 0.5)';
+            ctx.fill();
+            return;
+        }
+        const remaining = this.state.remaining[this.state.player];
+        if (!remaining.includes(this.kalistoSelection.shapeIndex)) return;
+        const shape = transformKalistoShape(KALISTO_SHAPES[this.kalistoSelection.shapeIndex], this.kalistoSelection.rotation, this.kalistoSelection.flipped);
+        const cells = shape.map(([r, c]) => [r + cell.row, c + cell.column]);
+        const valid = canPlaceKalisto(this.state, this.state.player, cells);
+        const color = valid ? 'rgba(64, 160, 255, 0.5)' : 'rgba(235, 60, 50, 0.35)';
+        for (const [r, c] of cells) {
+            if (r >= 0 && r < this.state.size && c >= 0 && c < this.state.size) {
+                const px = x + c * cellSize, py = y + r * cellSize;
+                ctx.fillStyle = color;
+                ctx.fillRect(px + 1, py + 1, cellSize - 2, cellSize - 2);
+            }
+        }
+    }
+
     _renderKalistoPalette() {
         const ctx = this.ctx, { x, y, board } = this.layout;
         const remaining = this.state.remaining[this.state.player];
         if (!remaining.includes(this.kalistoSelection.shapeIndex)) this.kalistoSelection.shapeIndex = remaining[0];
         const left = x + board + 18;
         this.kalistoPaletteTargets = [];
-        ctx.textAlign = 'left'; ctx.textBaseline = 'top'; ctx.fillStyle = '#24342a'; ctx.font = '800 12px Inter';
-        ctx.fillText(this.state.phase === 'pillars' ? 'Postavljanje stebrov' : 'Ploščice Callisto', left, y);
-        ctx.font = '11px Inter'; ctx.fillStyle = '#4c6559'; ctx.fillText('Q/E: vrti · F: zrcali · C: steber', left, y + 19);
-        let offset = 45;
+        ctx.textAlign = 'left'; ctx.textBaseline = 'top'; ctx.fillStyle = '#24342a'; ctx.font = '800 13px Inter';
+        ctx.fillText(this.state.phase === 'pillars' ? 'Pillar Placement' : 'Callisto Inventory', left, y);
+
+        // Quick control buttons: Rotate CCW, Rotate CW, Flip
+        const btnY = y + 20;
+        const btnW = 52, btnH = 22;
+        ctx.fillStyle = 'rgba(255,255,255,.85)'; ctx.fillRect(left, btnY, btnW, btnH);
+        ctx.fillStyle = '#24342a'; ctx.font = '700 10px Inter'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+        ctx.fillText('↺ [Q]', left + btnW / 2, btnY + btnH / 2);
+        this.kalistoPaletteTargets.push({ kind: 'rot-ccw', x: left, y: btnY, w: btnW, h: btnH });
+
+        ctx.fillStyle = 'rgba(255,255,255,.85)'; ctx.fillRect(left + 56, btnY, btnW, btnH);
+        ctx.fillStyle = '#24342a'; ctx.fillText('↻ [E]', left + 56 + btnW / 2, btnY + btnH / 2);
+        this.kalistoPaletteTargets.push({ kind: 'rot-cw', x: left + 56, y: btnY, w: btnW, h: btnH });
+
+        ctx.fillStyle = 'rgba(255,255,255,.85)'; ctx.fillRect(left + 112, btnY, btnW, btnH);
+        ctx.fillStyle = '#24342a'; ctx.fillText('⇄ [F]', left + 112 + btnW / 2, btnY + btnH / 2);
+        this.kalistoPaletteTargets.push({ kind: 'flip', x: left + 112, y: btnY, w: btnW, h: btnH });
+
+        let offset = 48;
         if (this.state.phase === 'pieces' && this.state.pillarsRemaining[this.state.player] > 0) {
             const py = y + offset;
-            ctx.fillStyle = this.kalistoSelection.pillar ? '#ffd73d' : 'rgba(255,255,255,.72)'; ctx.fillRect(left, py, 168, 21);
-            ctx.fillStyle = '#24342a'; ctx.fillText('C. tretji steber', left + 6, py + 4);
-            this.kalistoPaletteTargets.push({ kind: 'pillar', x: left, y: py, w: 168, h: 21 });
-            offset += 25;
+            ctx.fillStyle = this.kalistoSelection.pillar ? '#ffd73d' : 'rgba(255,255,255,.75)';
+            ctx.fillRect(left, py, 168, 22);
+            ctx.fillStyle = '#24342a'; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+            ctx.font = '800 11px Inter';
+            ctx.fillText('⚑ 3rd Pillar [C]', left + 8, py + 11);
+            this.kalistoPaletteTargets.push({ kind: 'pillar', x: left, y: py, w: 168, h: 22 });
+            offset += 27;
         }
         remaining.slice(0, 18).forEach((shapeIndex, listIndex) => {
             const column = Math.floor(listIndex / 9), line = listIndex % 9;
-            const px = left + column * 86, py = y + offset + line * 25;
-            ctx.fillStyle = !this.kalistoSelection.pillar && shapeIndex === this.kalistoSelection.shapeIndex ? '#ffd73d' : 'rgba(255,255,255,.72)'; ctx.fillRect(px, py, 81, 21);
-            ctx.fillStyle = '#24342a'; ctx.fillText(`${listIndex + 1}. ${shapeIndex + 1} (${KALISTO_SHAPES[shapeIndex].length})`, px + 6, py + 4);
-            this.kalistoPaletteTargets.push({ kind: 'shape', shapeIndex, x: px, y: py, w: 81, h: 21 });
+            const px = left + column * 86, py = y + offset + line * 26;
+            const isSelected = !this.kalistoSelection.pillar && shapeIndex === this.kalistoSelection.shapeIndex;
+            ctx.fillStyle = isSelected ? '#ffd73d' : 'rgba(255,255,255,.72)';
+            ctx.fillRect(px, py, 81, 23);
+            ctx.fillStyle = '#24342a'; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+            ctx.font = '700 11px Inter';
+            ctx.fillText(`${listIndex + 1}.`, px + 4, py + 11);
+            const rawShape = KALISTO_SHAPES[shapeIndex];
+            const miniSize = 3.5;
+            const startMiniX = px + 24;
+            const startMiniY = py + 4;
+            ctx.fillStyle = isSelected ? '#24342a' : '#4a6559';
+            for (const [r, c] of rawShape) {
+                ctx.fillRect(startMiniX + c * (miniSize + 1), startMiniY + r * (miniSize + 1), miniSize, miniSize);
+            }
+            this.kalistoPaletteTargets.push({ kind: 'shape', shapeIndex, x: px, y: py, w: 81, h: 23 });
         });
     }
 

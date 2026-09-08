@@ -11,21 +11,21 @@ import {
 } from './card-model.js';
 
 const MODES = {
-    blackjack: { title: 'Blackjack', description: 'Približaj se 21, ne da bi jo presegel.', artKey: 'card-lounge-blackjack' },
-    eights: { title: 'Osmica', description: 'Ujemaj barvo ali vrednost; osmica zamenja barvo.', artKey: 'card-lounge-eights' },
-    war: { title: 'Vojna', description: 'Višja karta pobere kup; ob izenačenju sledi vojna.', artKey: 'card-lounge-war' },
-    memory: { title: 'Spomin s kartami', description: 'Odkrivaj pare in si zapomni njihove položaje.', artKey: 'card-lounge-memory' },
+    blackjack: { title: 'Blackjack', description: 'Get as close to 21 as possible without going over.', artKey: 'card-lounge-blackjack' },
+    eights: { title: 'Crazy Eights', description: 'Match suit or rank; eights are wild and change suit.', artKey: 'card-lounge-eights' },
+    war: { title: 'War', description: 'Higher card wins the pot; ties trigger a war battle.', artKey: 'card-lounge-war' },
+    memory: { title: 'Card Memory', description: 'Find matching card pairs and remember their positions.', artKey: 'card-lounge-memory' },
 };
 const MODE_KEYS = Object.keys(MODES);
 
 function settingsSchema() {
     return [
-        { key: 'mode', label: 'Igra', type: 'hidden', default: 'war', modeProfile: false },
-        { key: 'deckCount', label: 'Kompleti kart', type: 'range', min: 1, max: 6, step: 1, default: 1, modes: ['blackjack'] },
-        { key: 'dealerHitsSoft17', label: 'Delivec vleče pri mehkih 17', type: 'toggle', default: false, modes: ['blackjack'] },
-        { key: 'eightHandSize', label: 'Začetnih kart', type: 'range', min: 3, max: 12, step: 1, default: 7, modes: ['eights'] },
-        { key: 'memoryPairs', label: 'Število parov', type: 'range', min: 3, max: 26, step: 1, default: 8, modes: ['memory'] },
-        { key: 'aiDelay', label: 'Premor računalnika [s]', type: 'range', min: 0.1, max: 2, step: 0.05, default: 0.55 },
+        { key: 'mode', label: 'Game', type: 'hidden', default: 'war', modeProfile: false },
+        { key: 'deckCount', label: 'Number of Decks', type: 'range', min: 1, max: 6, step: 1, default: 1, modes: ['blackjack'] },
+        { key: 'dealerHitsSoft17', label: 'Dealer Hits Soft 17', type: 'toggle', default: false, modes: ['blackjack'] },
+        { key: 'eightHandSize', label: 'Initial Hand Size', type: 'range', min: 3, max: 12, step: 1, default: 7, modes: ['eights'] },
+        { key: 'memoryPairs', label: 'Card Pairs', type: 'range', min: 3, max: 26, step: 1, default: 8, modes: ['memory'] },
+        { key: 'aiDelay', label: 'Computer Delay [s]', type: 'range', min: 0.1, max: 2, step: 0.05, default: 0.55 },
     ];
 }
 
@@ -38,6 +38,7 @@ export default class CardLoungeGame extends BaseGame {
         this.preparePauseSettings(this.settings);
         this.mode = this.settings.mode; this.phase = 'mode-select'; this.state = null; this.session = null;
         this.aiTimer = 0; this.resolveTimer = 0; this.cardTargets = []; this.memoryKnowledge = new Map();
+        this.pendingEightIndex = null;
         this.network.onConnect(info => this.lobby?.handleConnect(info));
         this.network.onDisconnect(info => {
             if (this.lobby) this.lobby.handleDisconnect(info);
@@ -53,7 +54,7 @@ export default class CardLoungeGame extends BaseGame {
     _showModeSelector() {
         this.phase = 'mode-select'; this.lobby?.destroy(); this.lobby = null; this._removeButtons();
         this.modeSelector?.remove(); this.modeSelector = document.createElement('div'); this.modeSelector.className = 'ww-mode-select';
-        this.modeSelector.innerHTML = modeGalleryMarkup({ gameName: 'Kartni salon', prompt: 'izberi način', modes: MODE_KEYS.map(key => ({ key, ...MODES[key] })), selectedMode: this.mode });
+        this.modeSelector.innerHTML = modeGalleryMarkup({ gameName: 'Card Lounge', prompt: 'Choose a card game', modes: MODE_KEYS.map(key => ({ key, ...MODES[key] })), selectedMode: this.mode });
         this._modeHandler = bindModeGallery(this.modeSelector, { onMode: mode => this._chooseMode(mode), onBack: () => this.endGame() });
         document.body.appendChild(this.modeSelector);
     }
@@ -122,9 +123,16 @@ export default class CardLoungeGame extends BaseGame {
         if (!this.actionBar || !this.state) return;
         const human = this._controlledByHuman(this.state.player ?? 1);
         if (this.mode === 'blackjack') this.actionBar.innerHTML = this.state.phase === 'player'
-            ? `${this._button('hit', 'VZEMI')}${this._button('stand', 'OSTANI')}` : this._button('again', 'NOVA IGRA');
-        else if (this.mode === 'war') this.actionBar.innerHTML = this._button('round', 'OBRNI KARTI', this.state.winner !== null);
-        else if (this.mode === 'eights') this.actionBar.innerHTML = this._button('draw', 'VLECI KARTO', !human || this.state.winner !== null);
+            ? `${this._button('hit', 'HIT')}${this._button('stand', 'STAND')}` : this._button('again', 'NEW GAME');
+        else if (this.mode === 'war') this.actionBar.innerHTML = this.state.winner === null
+            ? this._button('round', 'FLIP CARDS')
+            : this._button('again', 'NEW GAME');
+        else if (this.mode === 'eights') this.actionBar.innerHTML = this.state.winner === null
+            ? this._button('draw', 'DRAW CARD', !human)
+            : this._button('again', 'NEW GAME');
+        else if (this.mode === 'memory') this.actionBar.innerHTML = this.state.winner !== null
+            ? this._button('again', 'NEW GAME')
+            : '';
         else this.actionBar.innerHTML = '';
     }
 
@@ -145,15 +153,20 @@ export default class CardLoungeGame extends BaseGame {
     }
 
     _applyAction(action, seat) {
-        if (!this._hostControlsState() || this.state.winner !== null && action.kind !== 'again') return;
-        if (!['war', 'blackjack'].includes(this.mode) && seat !== this.state.player - 1) return;
+        if (!this._hostControlsState() || (this.state.winner !== null && action.kind !== 'again')) return;
+        if (!['war', 'blackjack'].includes(this.mode) && seat !== this.state.player - 1 && action.kind !== 'again') return;
         let played = false;
-        if (this.mode === 'blackjack') {
+        if (action.kind === 'again') {
+            this.state = this._createState((Date.now() ^ this.state.seed) >>> 0);
+            this.pendingEightIndex = null;
+            this.memoryKnowledge.clear();
+            played = true;
+        } else if (this.mode === 'blackjack') {
             if (action.kind === 'hit') played = hitBlackjack(this.state);
             if (action.kind === 'stand') played = standBlackjack(this.state, Boolean(this.settings.dealerHitsSoft17));
-            if (action.kind === 'again') { this.state = this._createState((Date.now() ^ this.state.seed) >>> 0); played = true; }
-        } else if (this.mode === 'war' && action.kind === 'round') played = playWarRound(this.state);
-        else if (this.mode === 'eights') {
+        } else if (this.mode === 'war' && action.kind === 'round') {
+            played = playWarRound(this.state);
+        } else if (this.mode === 'eights') {
             if (action.kind === 'play') played = playEightCard(this.state, Number(action.cardIndex), action.chosenSuit);
             if (action.kind === 'draw') played = drawEightCard(this.state);
         } else if (this.mode === 'memory') {
@@ -203,7 +216,9 @@ export default class CardLoungeGame extends BaseGame {
                 const action = this.mode === 'eights'
                     ? chooseEightAction(this.state)
                     : { kind: 'flip', index: chooseMemoryCard(this.state, this.memoryKnowledge) };
-                if (action.index !== null) this._applyAction(action, this.state.player - 1);
+                if (action && (action.kind === 'draw' || action.cardIndex !== undefined || action.index !== null)) {
+                    this._applyAction(action, this.state.player - 1);
+                }
             }
             return;
         }
@@ -212,7 +227,27 @@ export default class CardLoungeGame extends BaseGame {
         const mouse = this.input.getMousePos();
         const target = [...this.cardTargets].reverse().find(item => mouse.x >= item.x && mouse.x <= item.x + item.w && mouse.y >= item.y && mouse.y <= item.y + item.h);
         if (!target) return;
-        if (this.mode === 'eights') this._requestAction({ kind: 'play', cardIndex: target.index });
+        if (this.mode === 'eights') {
+            if (target.kind === 'draw-pile') {
+                this.pendingEightIndex = null;
+                this._requestAction({ kind: 'draw' });
+                return;
+            }
+            if (target.kind === 'suit-choice') {
+                if (this.pendingEightIndex !== null) {
+                    this._requestAction({ kind: 'play', cardIndex: this.pendingEightIndex, chosenSuit: target.suit });
+                    this.pendingEightIndex = null;
+                }
+                return;
+            }
+            const card = this.state.hands[this.state.player]?.[target.index];
+            if (card && card.rank === 6) {
+                this.pendingEightIndex = this.pendingEightIndex === target.index ? null : target.index;
+                return;
+            }
+            this.pendingEightIndex = null;
+            this._requestAction({ kind: 'play', cardIndex: target.index });
+        }
         if (this.mode === 'memory') this._requestAction({ kind: 'flip', index: target.index });
     }
 
@@ -251,8 +286,8 @@ export default class CardLoungeGame extends BaseGame {
         drawHand(this.state.dealerHand, 82, this.state.phase === 'player');
         drawHand(this.state.playerHand, this.h - h - 78);
         const ctx = this.ctx; ctx.textAlign = 'center'; ctx.fillStyle = '#d7f3df'; ctx.font = '800 14px Inter';
-        ctx.fillText(`Delivec: ${this.state.phase === 'player' ? '?' : blackjackValue(this.state.dealerHand)}`, center, 72);
-        ctx.fillText(`Ti: ${blackjackValue(this.state.playerHand)}`, center, this.h - 50);
+        ctx.fillText(`Dealer: ${this.state.phase === 'player' ? '?' : blackjackValue(this.state.dealerHand)}`, center, 72);
+        ctx.fillText(`You: ${blackjackValue(this.state.playerHand)}`, center, this.h - 50);
     }
 
     _renderWar() {
@@ -261,8 +296,8 @@ export default class CardLoungeGame extends BaseGame {
         this._drawCard(battle[0], this.w / 2 - w - 35, y, w, h, !battle[0]);
         this._drawCard(battle[1], this.w / 2 + 35, y, w, h, !battle[1]);
         const ctx = this.ctx; ctx.textAlign = 'center'; ctx.fillStyle = '#fff'; ctx.font = '800 14px Inter';
-        ctx.fillText(`Igralec 1 · ${this.state.hands[1].length} kart`, this.w / 2 - w / 2 - 35, y + h + 27);
-        ctx.fillText(`Igralec 2 · ${this.state.hands[2].length} kart`, this.w / 2 + w / 2 + 35, y + h + 27);
+        ctx.fillText(`Player 1 · ${this.state.hands[1].length} cards`, this.w / 2 - w / 2 - 35, y + h + 27);
+        ctx.fillText(`Player 2 · ${this.state.hands[2].length} cards`, this.w / 2 + w / 2 + 35, y + h + 27);
     }
 
     _renderEights() {
@@ -271,16 +306,57 @@ export default class CardLoungeGame extends BaseGame {
         const topY = 70, backGap = Math.min(22, (this.w - 100) / Math.max(1, state.hands[opponent].length));
         let x = (this.w - (w + backGap * (state.hands[opponent].length - 1))) / 2;
         state.hands[opponent].forEach(() => { this._drawCard(null, x, topY, w, h, true); x += backGap; });
-        this._drawCard(null, this.w / 2 - w - 18, this.h / 2 - h / 2, w, h, true);
+
+        // Draw pile
+        const drawX = this.w / 2 - w - 18, drawY = this.h / 2 - h / 2;
+        this._drawCard(null, drawX, drawY, w, h, true);
+        if (this._controlledByHuman(state.player) && state.winner === null) {
+            this.cardTargets.push({ kind: 'draw-pile', x: drawX, y: drawY, w, h });
+        }
+
+        // Discard pile
         this._drawCard(state.discard.at(-1), this.w / 2 + 18, this.h / 2 - h / 2, w, h);
-        ctx.textAlign = 'center'; ctx.fillStyle = '#d7f3df'; ctx.font = '12px Inter'; ctx.fillText(`Izbrana barva: ${SUITS[state.chosenSuit]} · kup: ${state.drawPile.length}`, this.w / 2, this.h / 2 + h / 2 + 22);
+
+        const suitNames = ['Spades', 'Hearts', 'Diamonds', 'Clubs'];
+        ctx.textAlign = 'center'; ctx.fillStyle = '#d7f3df'; ctx.font = '12px Inter';
+        ctx.fillText(`Active suit: ${SUITS[state.chosenSuit]} ${suitNames[state.chosenSuit]} · Draw pile: ${state.drawPile.length}`, this.w / 2, this.h / 2 + h / 2 + 22);
+
+        // Player hand
         const hand = state.hands[state.player], gap = Math.min(72, (this.w - 70 - w) / Math.max(1, hand.length - 1));
         x = (this.w - (w + gap * (hand.length - 1))) / 2; const y = this.h - h - 34;
         hand.forEach((card, index) => {
+            const isPendingEight = this.pendingEightIndex === index;
             const playable = canPlayEight(state, card) && this._controlledByHuman(state.player);
-            this._drawCard(card, x, y - (playable ? 9 : 0), w, h, false, playable);
-            if (playable) this.cardTargets.push({ x, y: y - 9, w, h, index }); x += gap;
+            this._drawCard(card, x, y - (isPendingEight ? 14 : playable ? 9 : 0), w, h, false, isPendingEight || playable);
+            if (playable) this.cardTargets.push({ kind: 'card', x, y: y - (isPendingEight ? 14 : playable ? 9 : 0), w, h, index });
+            x += gap;
         });
+
+        // If an eight is clicked by human, show suit selection buttons
+        if (this.pendingEightIndex !== null && this._controlledByHuman(state.player) && state.winner === null) {
+            const pickerW = 280, pickerH = 68, px = (this.w - pickerW) / 2, py = y - 76;
+            ctx.fillStyle = 'rgba(16,36,26,.92)'; ctx.strokeStyle = '#ffd43b'; ctx.lineWidth = 2;
+            ctx.beginPath(); ctx.roundRect(px, py, pickerW, pickerH, 8); ctx.fill(); ctx.stroke();
+            ctx.fillStyle = '#ffd43b'; ctx.font = '800 11px Inter'; ctx.textAlign = 'center';
+            ctx.fillText('CHOOSE NEXT SUIT FOR EIGHT:', this.w / 2, py + 16);
+            const suits = [
+                { suit: 0, glyph: '♠', label: 'Spades', color: '#fff' },
+                { suit: 1, glyph: '♥', label: 'Hearts', color: '#ff6262' },
+                { suit: 2, glyph: '♦', label: 'Diamonds', color: '#ff6262' },
+                { suit: 3, glyph: '♣', label: 'Clubs', color: '#fff' },
+            ];
+            const btnW = 58, btnH = 34, btnGap = 8;
+            let bx = this.w / 2 - (4 * btnW + 3 * btnGap) / 2;
+            const by = py + 24;
+            suits.forEach(({ suit, glyph, label, color }) => {
+                ctx.fillStyle = '#224e38'; ctx.strokeStyle = '#4da872'; ctx.lineWidth = 1;
+                ctx.beginPath(); ctx.roundRect(bx, by, btnW, btnH, 5); ctx.fill(); ctx.stroke();
+                ctx.fillStyle = color; ctx.font = '800 16px Inter'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+                ctx.fillText(glyph, bx + btnW / 2, by + btnH / 2);
+                this.cardTargets.push({ kind: 'suit-choice', suit, x: bx, y: by, w: btnW, h: btnH });
+                bx += btnW + btnGap;
+            });
+        }
     }
 
     _renderMemory() {
@@ -293,9 +369,9 @@ export default class CardLoungeGame extends BaseGame {
             const row = Math.floor(index / columns), column = index % columns, x = startX + column * (cardW + gap), y = startY + row * (cardH + gap);
             const visible = this.state.open.includes(index) || this.state.matched.includes(index), matched = this.state.matched.includes(index);
             this._drawCard(card, x, y, cardW, cardH, !visible, matched);
-            if (!visible && this.state.phase === 'pick' && this._controlledByHuman(this.state.player)) this.cardTargets.push({ x, y, w: cardW, h: cardH, index });
+            if (!visible && this.state.phase === 'pick' && this._controlledByHuman(this.state.player)) this.cardTargets.push({ kind: 'card', x, y, w: cardW, h: cardH, index });
         });
-        const ctx = this.ctx; ctx.textAlign = 'right'; ctx.fillStyle = '#d7f3df'; ctx.font = '800 13px Inter'; ctx.fillText(`Igralec 1: ${this.state.scores[1]} · Igralec 2: ${this.state.scores[2]}`, this.w - 18, 31);
+        const ctx = this.ctx; ctx.textAlign = 'right'; ctx.fillStyle = '#d7f3df'; ctx.font = '800 13px Inter'; ctx.fillText(`Player 1: ${this.state.scores[1]} · Player 2: ${this.state.scores[2]}`, this.w - 18, 31);
     }
 
     destroy() {

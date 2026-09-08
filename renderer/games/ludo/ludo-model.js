@@ -60,7 +60,7 @@ export function createLudoState(rawRules = {}, seed = 1) {
         dice: null,
         phase: 'roll',
         winner: null,
-        lastEvent: 'Začni z metom kocke.',
+        lastEvent: 'Roll the dice to begin.',
         turnNumber: 1,
     };
 }
@@ -78,7 +78,7 @@ export function rollLudoDice(state) {
     if (state.winner !== null || state.phase !== 'roll') return null;
     state.dice = 1 + Math.floor(nextRandom(state) * state.rules.diceSides);
     state.phase = 'move';
-    state.lastEvent = `Igralec ${state.turn + 1} je vrgel ${state.dice}.`;
+    state.lastEvent = `Player ${state.turn + 1} rolled ${state.dice}.`;
     return state.dice;
 }
 
@@ -94,9 +94,13 @@ export function legalLudoMoves(state, playerIndex = state.turn, dice = state.dic
     const pieces = state.players[playerIndex].pieces;
     const moves = [];
     pieces.forEach((position, piece) => {
-        if (position === -1 && dice === state.rules.entryRoll) moves.push({ piece, from: -1, to: 0 });
-        else if (position >= 0 && position < limit && position + dice <= limit) {
-            moves.push({ piece, from: position, to: position + dice });
+        if (position === -1 && dice === state.rules.entryRoll) {
+            if (!pieces.includes(0)) moves.push({ piece, from: -1, to: 0 });
+        } else if (position >= 0 && position < limit && position + dice <= limit) {
+            const targetPos = position + dice;
+            if (targetPos === limit || !pieces.includes(targetPos)) {
+                moves.push({ piece, from: position, to: targetPos });
+            }
         }
     });
     return moves;
@@ -133,14 +137,14 @@ export function applyLudoMove(state, pieceIndex) {
     if (state.players[playerIndex].pieces.every(position => position === finish)) {
         state.winner = playerIndex;
         state.phase = 'gameover';
-        state.lastEvent = `Igralec ${playerIndex + 1} je zmagal.`;
+        state.lastEvent = `Player ${playerIndex + 1} wins!`;
         return { ok: true, captured, won: true, extraTurn: false };
     }
     const extraTurn = (state.rules.extraTurnOnMaximum && state.dice === state.rules.diceSides)
         || (state.rules.extraTurnOnCapture && captured > 0);
     state.lastEvent = captured
-        ? `Igralec ${playerIndex + 1} je izločil ${captured} figur${captured === 1 ? 'o' : 'e'}.`
-        : `Igralec ${playerIndex + 1} je premaknil figuro.`;
+        ? `Player ${playerIndex + 1} captured ${captured} token${captured === 1 ? '' : 's'}.`
+        : `Player ${playerIndex + 1} moved a token.`;
     state.dice = null;
     state.phase = 'roll';
     if (!extraTurn) {
@@ -152,7 +156,7 @@ export function applyLudoMove(state, pieceIndex) {
 
 export function passLudoTurn(state) {
     if (state.winner !== null) return;
-    state.lastEvent = `Igralec ${state.turn + 1} nima veljavne poteze.`;
+    state.lastEvent = `Player ${state.turn + 1} has no legal moves.`;
     state.dice = null;
     state.phase = 'roll';
     state.turn = (state.turn + 1) % state.rules.playerCount;

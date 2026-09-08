@@ -28,7 +28,7 @@ export function cardColor(card) { return card.suit === 1 || card.suit === 2 ? '#
 export function createWar(seed = 1) {
     const deck = shuffledDeck(seed);
     return {
-        mode: 'war', seed, player: 1, winner: null, round: 0, lastBattle: [], lastEvent: 'Obrni naslednji karti.',
+        mode: 'war', seed, player: 1, winner: null, round: 0, lastBattle: [], lastEvent: 'Flip the next cards.',
         hands: [null, deck.filter((_, i) => i % 2 === 0), deck.filter((_, i) => i % 2 === 1)],
     };
 }
@@ -43,18 +43,18 @@ export function playWarRound(state) {
         if (first.rank !== second.rank) {
             const winner = first.rank > second.rank ? 1 : 2;
             state.hands[winner].push(...pot);
-            state.lastEvent = `Igralec ${winner} dobi ${pot.length} kart.`;
+            state.lastEvent = `Player ${winner} takes ${pot.length} cards.`;
             break;
         }
-        state.lastEvent = 'Vojna! Vsak zastavi še tri karte.';
+        state.lastEvent = 'War! Both players place cards face down.';
         for (let hidden = 0; hidden < 3; hidden++) {
-            if (state.hands[1].length) pot.push(state.hands[1].shift());
-            if (state.hands[2].length) pot.push(state.hands[2].shift());
+            if (state.hands[1].length > 1) pot.push(state.hands[1].shift());
+            if (state.hands[2].length > 1) pot.push(state.hands[2].shift());
         }
     }
     if (!state.hands[1].length || !state.hands[2].length) {
-        state.winner = state.hands[1].length > state.hands[2].length ? 1 : 2;
-        state.lastEvent = `Zmagal je igralec ${state.winner}.`;
+        state.winner = state.hands[1].length > state.hands[2].length ? 1 : (state.hands[2].length > state.hands[1].length ? 2 : 0);
+        state.lastEvent = state.winner ? `Player ${state.winner} won the game!` : 'Draw! Neither player has cards left.';
     }
     return true;
 }
@@ -65,7 +65,7 @@ export function createCrazyEights(seed = 1, handSize = 7) {
     for (let i = 0; i < handSize; i++) { hands[1].push(deck.pop()); hands[2].push(deck.pop()); }
     let top = deck.pop();
     if (top.rank === 6) { deck.unshift(top); top = deck.pop(); }
-    return { mode: 'eights', seed, player: 1, winner: null, drawPile: deck, discard: [top], hands, chosenSuit: top.suit, lastEvent: 'Igralec 1 začne.' };
+    return { mode: 'eights', seed, player: 1, winner: null, drawPile: deck, discard: [top], hands, chosenSuit: top.suit, lastEvent: 'Player 1 moves first.' };
 }
 
 export function canPlayEight(state, card) {
@@ -83,10 +83,20 @@ export function playEightCard(state, cardIndex, chosenSuit = null) {
     const hand = state.hands[state.player], card = hand[cardIndex];
     if (!card || !canPlayEight(state, card) || state.winner !== null) return false;
     hand.splice(cardIndex, 1); state.discard.push(card);
-    state.chosenSuit = card.rank === 6 ? (Number.isInteger(chosenSuit) ? chosenSuit : mostCommonSuit(hand)) : card.suit;
-    if (!hand.length) { state.winner = state.player; state.lastEvent = `Zmagal je igralec ${state.winner}.`; return true; }
-    state.lastEvent = card.rank === 6 ? `Osmica spremeni barvo v ${SUITS[state.chosenSuit]}.` : `${cardLabel(card)} je odigrana.`;
-    state.player = 3 - state.player; return true;
+    state.chosenSuit = card.rank === 6
+        ? (Number.isInteger(chosenSuit) && chosenSuit >= 0 && chosenSuit <= 3 ? chosenSuit : mostCommonSuit(hand))
+        : card.suit;
+    if (!hand.length) {
+        state.winner = state.player;
+        state.lastEvent = `Player ${state.winner} played all cards and won!`;
+        return true;
+    }
+    const suitNames = ['Spades', 'Hearts', 'Diamonds', 'Clubs'];
+    state.lastEvent = card.rank === 6
+        ? `Eight played! Suit changed to ${SUITS[state.chosenSuit]} ${suitNames[state.chosenSuit]}.`
+        : `${cardLabel(card)} played.`;
+    state.player = 3 - state.player;
+    return true;
 }
 
 export function drawEightCard(state) {
@@ -94,8 +104,9 @@ export function drawEightCard(state) {
     refillEightsDeck(state);
     const card = state.drawPile.pop();
     if (card) state.hands[state.player].push(card);
-    state.lastEvent = card ? `Igralec ${state.player} vleče karto.` : 'Kup je prazen.';
-    state.player = 3 - state.player; return true;
+    state.lastEvent = card ? `Player ${state.player} drew a card.` : 'The draw pile is empty.';
+    state.player = 3 - state.player;
+    return true;
 }
 
 function mostCommonSuit(hand) {
@@ -107,7 +118,8 @@ export function chooseEightAction(state) {
     const playable = state.hands[state.player].map((card, index) => ({ card, index })).filter(item => canPlayEight(state, item.card));
     if (!playable.length) return { kind: 'draw' };
     playable.sort((a, b) => (b.card.rank === 6 ? -1 : b.card.rank) - (a.card.rank === 6 ? -1 : a.card.rank));
-    const best = playable[0]; return { kind: 'play', cardIndex: best.index, chosenSuit: mostCommonSuit(state.hands[state.player]) };
+    const best = playable[0];
+    return { kind: 'play', cardIndex: best.index, chosenSuit: mostCommonSuit(state.hands[state.player]) };
 }
 
 export function blackjackValue(hand) {
@@ -117,29 +129,68 @@ export function blackjackValue(hand) {
     return value;
 }
 
+function isSoft17(hand) {
+    if (blackjackValue(hand) !== 17) return false;
+    const hardTotal = hand.reduce((sum, card) => sum + (card.rank <= 8 ? card.rank + 2 : card.rank === 12 ? 1 : 10), 0);
+    return hardTotal <= 7;
+}
+
 export function createBlackjack(seed = 1, deckCount = 1) {
-    const deck = shuffledDeck(seed, deckCount), state = { mode: 'blackjack', seed, deck, playerHand: [], dealerHand: [], phase: 'player', winner: null, lastEvent: 'Vzemi karto ali ostani.' };
-    state.playerHand.push(deck.pop()); state.dealerHand.push(deck.pop()); state.playerHand.push(deck.pop()); state.dealerHand.push(deck.pop());
-    if (blackjackValue(state.playerHand) === 21) standBlackjack(state);
+    const deck = shuffledDeck(seed, deckCount);
+    const state = {
+        mode: 'blackjack', seed, deck, playerHand: [], dealerHand: [],
+        phase: 'player', winner: null, lastEvent: 'Hit or Stand?',
+    };
+    state.playerHand.push(deck.pop());
+    state.dealerHand.push(deck.pop());
+    state.playerHand.push(deck.pop());
+    state.dealerHand.push(deck.pop());
+    const playerVal = blackjackValue(state.playerHand);
+    const dealerVal = blackjackValue(state.dealerHand);
+    if (playerVal === 21 || dealerVal === 21) {
+        state.phase = 'gameover';
+        if (playerVal === 21 && dealerVal === 21) {
+            state.winner = 0; state.lastEvent = 'Both have Blackjack! Push (Tie).';
+        } else if (playerVal === 21) {
+            state.winner = 1; state.lastEvent = 'Blackjack! You win!';
+        } else {
+            state.winner = 2; state.lastEvent = 'Dealer has Blackjack. Dealer wins.';
+        }
+    }
     return state;
 }
 
 export function hitBlackjack(state) {
     if (state.phase !== 'player') return false;
+    if (!state.deck.length) state.deck = shuffledDeck(Date.now());
     state.playerHand.push(state.deck.pop());
     const value = blackjackValue(state.playerHand);
-    state.lastEvent = `Tvoja vsota je ${value}.`;
-    if (value > 21) { state.phase = 'gameover'; state.winner = 2; state.lastEvent = 'Presegel si 21. Delivec zmaga.'; }
+    state.lastEvent = `Your total is ${value}.`;
+    if (value > 21) {
+        state.phase = 'gameover'; state.winner = 2;
+        state.lastEvent = `Bust with ${value}! Dealer wins.`;
+    }
     return true;
 }
 
 export function standBlackjack(state, dealerHitsSoft17 = false) {
     if (state.phase !== 'player') return false;
     state.phase = 'dealer';
-    while (blackjackValue(state.dealerHand) < 17 || (dealerHitsSoft17 && blackjackValue(state.dealerHand) === 17 && state.dealerHand.some(card => card.rank === 12))) state.dealerHand.push(state.deck.pop());
+    while (blackjackValue(state.dealerHand) < 17 || (dealerHitsSoft17 && isSoft17(state.dealerHand))) {
+        if (!state.deck.length) state.deck = shuffledDeck(Date.now());
+        state.dealerHand.push(state.deck.pop());
+    }
     const player = blackjackValue(state.playerHand), dealer = blackjackValue(state.dealerHand);
-    state.phase = 'gameover'; state.winner = dealer > 21 || player > dealer ? 1 : (player === dealer ? 0 : 2);
-    state.lastEvent = state.winner === 1 ? 'Zmagal si.' : state.winner === 2 ? 'Delivec je zmagal.' : 'Neodločeno.';
+    state.phase = 'gameover';
+    if (dealer > 21) {
+        state.winner = 1; state.lastEvent = `Dealer busts with ${dealer}! You win.`;
+    } else if (player > dealer) {
+        state.winner = 1; state.lastEvent = `You win (${player} vs ${dealer})!`;
+    } else if (dealer > player) {
+        state.winner = 2; state.lastEvent = `Dealer wins (${dealer} vs ${player}).`;
+    } else {
+        state.winner = 0; state.lastEvent = `Push at ${player}. It's a tie.`;
+    }
     return true;
 }
 
@@ -149,7 +200,7 @@ export function createMemory(seed = 1, pairs = 8) {
     const cards = source.flatMap((card, pair) => [{ ...card, id: `${pair}-a`, pair }, { ...card, id: `${pair}-b`, pair }]);
     const random = randomFactory(seed ^ 0xa5a5a5a5);
     for (let i = cards.length - 1; i > 0; i--) { const j = Math.floor(random() * (i + 1)); [cards[i], cards[j]] = [cards[j], cards[i]]; }
-    return { mode: 'memory', seed, cards, player: 1, winner: null, scores: [0, 0, 0], open: [], matched: [], phase: 'pick', lastEvent: 'Igralec 1 začne.' };
+    return { mode: 'memory', seed, cards, player: 1, winner: null, scores: [0, 0, 0], open: [], matched: [], phase: 'pick', lastEvent: 'Player 1 moves first.' };
 }
 
 export function flipMemoryCard(state, index) {
@@ -159,12 +210,12 @@ export function flipMemoryCard(state, index) {
         const [a, b] = state.open;
         if (state.cards[a].pair === state.cards[b].pair) {
             state.matched.push(a, b); state.scores[state.player]++; state.open = [];
-            state.lastEvent = `Igralec ${state.player} najde par in igra znova.`;
+            state.lastEvent = `Player ${state.player} found a match and goes again!`;
             if (state.matched.length === state.cards.length) {
                 state.winner = state.scores[1] === state.scores[2] ? 0 : (state.scores[1] > state.scores[2] ? 1 : 2);
-                state.lastEvent = state.winner ? `Zmagal je igralec ${state.winner}.` : 'Neodločeno.';
+                state.lastEvent = state.winner ? `Player ${state.winner} won the game!` : 'All pairs found. It\'s a tie!';
             }
-        } else { state.phase = 'resolve'; state.lastEvent = 'Kartici se ne ujemata.'; }
+        } else { state.phase = 'resolve'; state.lastEvent = 'Cards do not match.'; }
     }
     return true;
 }

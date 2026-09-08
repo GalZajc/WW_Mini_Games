@@ -7,6 +7,7 @@
  */
 export const DEFAULT_GAME_ORDER = Object.freeze([
     'reromo-tetris',           // tetris
+    'rubiks-cuboid',           // rubik
     'pogo-cloud-jump',         // pogo jump
     'flappy',                  // flappy
     'sky-pilot-3d',            // ski pilot 3D
@@ -14,7 +15,6 @@ export const DEFAULT_GAME_ORDER = Object.freeze([
     'rod-balance',             // rod balance
     'wheelie-balance',         // wheeelie balance
     'cup-shuffle',             // cup shuffle
-    'rubiks-cuboid',           // rubik
     'robot-island',            // robot island
     'curve-memory',            // curve memory
     'rhythm-memory',           // rhythm memory
@@ -29,8 +29,8 @@ export const DEFAULT_GAME_ORDER = Object.freeze([
     'lava-path-tilt',          // lava path tilt
     'tarzan-swing',            // tarzan swing
     'standing-swing-jump',     // swing jump
-    'card-lounge',             // kartni salon
-    'classic-board',           // klasične namizne igre
+    'card-lounge',             // card lounge
+    'classic-board',           // classic board games
 ]);
 
 /**

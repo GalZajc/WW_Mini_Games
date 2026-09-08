@@ -16,7 +16,7 @@ export default class WordTilesGame extends BaseGame {
         this.wasDestroyed = false;
         this.phase = 'loading'; this.state = null; this.session = null; this.lobby = null;
         this.dictionary = new Set(); this.dictionaryWords = []; this.pending = []; this.selectedTileId = null;
-        this.blankLetter = null; this.message = 'Nalagam slovenski slovar…'; this.dictionaryProgress = 0;
+        this.blankLetter = null; this.message = 'Loading dictionary…'; this.dictionaryProgress = 0;
         this.aiTimer = 0; this.layout = null; this.rackTargets = [];
         this.network.onConnect(info => this.lobby?.handleConnect(info));
         this.network.onDisconnect(info => {
@@ -40,16 +40,16 @@ export default class WordTilesGame extends BaseGame {
             if (!dictionaryResponse.ok || !affixResponse.ok) {
                 throw new Error(`HTTP ${dictionaryResponse.status}/${affixResponse.status}`);
             }
-            this.message = 'Razširjam slovenske besedne oblike…';
+            this.message = 'Expanding dictionary word forms…';
             const [dictionaryRaw, affixRaw] = await Promise.all([dictionaryResponse.text(), affixResponse.text()]);
             this.dictionary = await expandHunspellDictionaryAsync(dictionaryRaw, affixRaw, {
                 onProgress: progress => {
                     this.dictionaryProgress = progress * 0.92;
-                    this.message = `Razširjam slovenske besedne oblike… ${Math.round(progress * 100)} %`;
+                    this.message = `Expanding dictionary word forms… ${Math.round(progress * 100)} %`;
                 },
             });
             FALLBACK_WORDS.forEach(word => this.dictionary.add(normalizeWord(word)));
-            this.dictionaryProgress = 0.94; this.message = 'Pripravljam besede za računalniškega igralca…';
+            this.dictionaryProgress = 0.94; this.message = 'Preparing words for AI engine…';
             const points = word => [...word.toLocaleUpperCase('sl-SI')].reduce((sum, letter) => sum + (LETTER_DATA[letter]?.[1] || 0), 0);
             const scoredWords = [...this.dictionary]
                 .filter(word => word.length <= 13)
@@ -57,19 +57,19 @@ export default class WordTilesGame extends BaseGame {
             scoredWords.sort((a, b) => b.points - a.points || b.word.length - a.word.length);
             this.dictionaryWords = scoredWords.slice(0, 120000).map(item => item.word);
             this.dictionaryProgress = 1;
-            this.message = `${this.dictionary.size.toLocaleString('sl-SI')} besed v slovarju.`;
+            this.message = `${this.dictionary.size.toLocaleString('en-US')} words in dictionary.`;
         } catch (error) {
             console.error('Slovenian dictionary load failed:', error);
             this.dictionary = new Set(FALLBACK_WORDS); this.dictionaryWords = [...this.dictionary];
             this.dictionaryProgress = 1;
-            this.message = 'Velikega slovarja ni bilo mogoče naložiti; uporabljen je zasilni seznam.';
+            this.message = 'Dictionary could not be loaded; using fallback word list.';
         }
         if (!this.wasDestroyed && this.phase === 'loading') this._showLobby();
     }
 
     _showLobby() {
         this.phase = 'lobby';
-        this.lobby = new SessionLobby(this, { title: 'Slovenske besedne ploščice', players: 2, onStart: session => this._startSession(session) });
+        this.lobby = new SessionLobby(this, { title: 'Word Tiles', players: 2, onStart: session => this._startSession(session) });
     }
 
     _startSession(session) {
@@ -83,7 +83,7 @@ export default class WordTilesGame extends BaseGame {
         this.actionBar?.remove(); this.actionBar = document.createElement('div');
         this.actionBar.style.cssText = 'position:fixed;right:18px;bottom:18px;z-index:720;display:flex;gap:6px';
         const button = (action, text) => `<button data-word-action="${action}" style="height:32px;padding:0 11px;border:1px solid #176d25;border-radius:5px;background:linear-gradient(#73d44e,#329b34);color:#fff;font:800 10px Inter;cursor:pointer">${text}</button>`;
-        this.actionBar.innerHTML = `${button('commit', 'POTRDI [ENTER]')}${button('recall', 'VRNI [R]')}${button('exchange', 'MENJAJ VSE [X]')}${button('pass', 'PRESKOČI [P]')}`;
+        this.actionBar.innerHTML = `${button('commit', 'PLAY [ENTER]')}${button('recall', 'RECALL [R]')}${button('exchange', 'EXCHANGE ALL [X]')}${button('pass', 'PASS [P]')}`;
         this._actionClick = event => { const action = event.target.closest('[data-word-action]')?.dataset.wordAction; if (action) this._handleUiAction(action); };
         this.actionBar.addEventListener('click', this._actionClick); document.body.appendChild(this.actionBar);
     }
@@ -93,7 +93,7 @@ export default class WordTilesGame extends BaseGame {
         if (this.selectedTileId) {
             const tile = this._viewRack().find(item => item.id === this.selectedTileId);
             if (tile?.letter === '?' && /^[a-zčšž]$/iu.test(event.key)) {
-                this.blankLetter = event.key.toLocaleUpperCase('sl-SI'); this.message = `Žoliku je določena črka ${this.blankLetter}.`; return;
+                this.blankLetter = event.key.toLocaleUpperCase('sl-SI'); this.message = `Blank tile assigned to letter ${this.blankLetter}.`; return;
             }
         }
         if (event.key === 'Enter') this._handleUiAction('commit');
@@ -106,10 +106,10 @@ export default class WordTilesGame extends BaseGame {
         if (!this.state || !this._controlledByHuman(this.state.player)) return;
         if (action === 'recall') { this.pending = []; this.selectedTileId = null; return; }
         if (action === 'commit') {
-            if (!this.pending.length) { this.message = 'Najprej postavi vsaj eno ploščico.'; return; }
+            if (!this.pending.length) { this.message = 'Place at least one tile on the board first.'; return; }
             this._requestAction({ kind: 'play', placements: this.pending }); return;
         }
-        if (this.pending.length) { this.message = 'Pred menjavo ali preskokom vrni postavljene ploščice.'; return; }
+        if (this.pending.length) { this.message = 'Recall placed tiles before exchanging or passing.'; return; }
         this._requestAction({ kind: action });
     }
 
@@ -135,11 +135,11 @@ export default class WordTilesGame extends BaseGame {
         if (action.kind === 'play') {
             const result = playWordMove(this.state, action.placements, this.dictionary);
             if (!result.ok) { this.message = result.error; return; }
-            this.message = `${result.words.join(' + ')}: ${result.score} točk.`; played = true;
+            this.message = `${result.words.join(' + ')}: ${result.score} pts.`; played = true;
         }
         if (action.kind === 'pass') played = passWordTurn(this.state);
         if (action.kind === 'exchange') {
-            played = exchangeRack(this.state); if (!played) this.message = 'V vreči ni dovolj ploščic za menjavo.';
+            played = exchangeRack(this.state); if (!played) this.message = 'Not enough tiles in bag to exchange.';
         }
         if (!played) return;
         this.pending = []; this.selectedTileId = null; this.audio.playClick(); this._broadcastState();
@@ -165,7 +165,7 @@ export default class WordTilesGame extends BaseGame {
             this.aiTimer -= dt;
             if (this.aiTimer <= 0) {
                 this.aiTimer = Number(this.settings.aiDelay ?? .7);
-                this.message = 'Računalnik išče besedo…';
+                this.message = 'Computer searching for a word…';
                 const choice = chooseWordMove(this.state, this.dictionaryWords, this.dictionary, Number(this.settings.aiScanLimit ?? 50000));
                 this._applyAction(choice ? { kind: 'play', placements: choice.placements } : (this.state.bag.length >= this.state.rackSize ? { kind: 'exchange' } : { kind: 'pass' }), this.state.player - 1);
             }
@@ -179,13 +179,13 @@ export default class WordTilesGame extends BaseGame {
             if (this.pending.some(item => item.tileId === rackTarget.tileId)) return;
             this.selectedTileId = rackTarget.tileId; this.blankLetter = null;
             const tile = this._viewRack().find(item => item.id === rackTarget.tileId);
-            this.message = tile?.letter === '?' ? 'Pritisni črko za žolika, nato klikni polje.' : `Izbrana črka ${tile?.letter}.`;
+            this.message = tile?.letter === '?' ? 'Press a letter key for the blank tile, then click a board square.' : `Selected letter ${tile?.letter}.`;
             return;
         }
         const cell = this._cellAt(mouse);
         if (!cell || !this.selectedTileId || this.state.board[cell.row][cell.column] || this.pending.some(item => item.row === cell.row && item.column === cell.column)) return;
         const tile = this._viewRack().find(item => item.id === this.selectedTileId);
-        if (tile?.letter === '?' && !this.blankLetter) { this.message = 'Najprej pritisni črko, ki jo predstavlja žolik.'; return; }
+        if (tile?.letter === '?' && !this.blankLetter) { this.message = 'Press a letter key to assign to the blank tile first.'; return; }
         this.pending.push({ ...cell, tileId: this.selectedTileId, blankLetter: this.blankLetter }); this.selectedTileId = null; this.blankLetter = null;
     }
 
@@ -244,9 +244,10 @@ export default class WordTilesGame extends BaseGame {
             } rackX += tileSize + 6;
         });
         const sideX = x + board + 18; ctx.textAlign = 'left'; ctx.textBaseline = 'top'; ctx.fillStyle = '#244236'; ctx.font = '900 15px Inter';
-        ctx.fillText(`Igralec 1: ${this.state.scores[1]}`, sideX, y); ctx.fillText(`Igralec 2: ${this.state.scores[2]}`, sideX, y + 24);
-        ctx.font = '12px Inter'; ctx.fillStyle = '#4a675a'; ctx.fillText(`V vreči: ${this.state.bag.length}`, sideX, y + 57); ctx.fillText(`Poteza: ${this.state.turn}`, sideX, y + 77);
-        ctx.fillStyle = '#244236'; ctx.font = '900 19px Inter'; ctx.fillText(this.state.winner === null ? `Na vrsti: igralec ${this.state.player}` : (this.state.winner ? `Zmagovalec: igralec ${this.state.winner}` : 'Neodločeno'), 18, 18);
+        ctx.fillText(`Player 1: ${this.state.scores[1]}`, sideX, y); ctx.fillText(`Player 2: ${this.state.scores[2]}`, sideX, y + 24);
+        ctx.font = '12px Inter'; ctx.fillStyle = '#4a675a'; ctx.fillText(`In bag: ${this.state.bag.length}`, sideX, y + 57); ctx.fillText(`Turn: ${this.state.turn}`, sideX, y + 77);
+        const status = this.state.winner === null ? `Turn: Player ${this.state.player}` : (this.state.winner ? `Winner: Player ${this.state.winner}` : 'Draw');
+        ctx.fillStyle = '#244236'; ctx.font = '900 19px Inter'; ctx.fillText(`Word Tiles · ${status}`, 18, 18);
         ctx.font = '11px Inter'; ctx.fillStyle = '#4a675a'; this._wrapText(this.message || this.state.lastEvent, sideX, y + 112, 190, 16);
     }
 
@@ -275,11 +276,11 @@ export default class WordTilesGame extends BaseGame {
     }
     static getSettingsSchema() {
         return [
-            { key: 'boardSize', label: 'Velikost plošče (liho)', type: 'range', min: 9, max: 21, step: 2, default: 15 },
-            { key: 'rackSize', label: 'Ploščic na stojalu', type: 'range', min: 5, max: 12, step: 1, default: 7 },
-            { key: 'bingoBonus', label: 'Bonus za celo stojalo', type: 'range', min: 0, max: 150, step: 5, default: 50 },
-            { key: 'aiDelay', label: 'Premor računalnika [s]', type: 'range', min: 0.1, max: 2, step: 0.05, default: 0.7 },
-            { key: 'aiScanLimit', label: 'Besed, pregledanih na potezo', type: 'range', min: 5000, max: 120000, step: 5000, default: 50000 },
+            { key: 'boardSize', label: 'Board size (odd)', type: 'range', min: 9, max: 21, step: 2, default: 15 },
+            { key: 'rackSize', label: 'Rack capacity', type: 'range', min: 5, max: 12, step: 1, default: 7 },
+            { key: 'bingoBonus', label: 'Bonus for using entire rack', type: 'range', min: 0, max: 150, step: 5, default: 50 },
+            { key: 'aiDelay', label: 'AI delay [s]', type: 'range', min: 0.1, max: 2, step: 0.05, default: 0.7 },
+            { key: 'aiScanLimit', label: 'Words evaluated per AI turn', type: 'range', min: 5000, max: 120000, step: 5000, default: 50000 },
         ];
     }
     static getControlsSchema() { return []; }
