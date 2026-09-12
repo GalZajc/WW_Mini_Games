@@ -165,9 +165,11 @@ export { MAX_POLYOMINO_ORDER, POLYOMINO_COUNTS };
 
 export function getPreviewCells(entry) {
     if (!entry._cells) {
-        entry._cells = entry.classicName === 'T'
-            ? [[0, 1], [1, 0], [1, 1], [1, 2]]
-            : decodePolyomino(entry.encoded);
+        const offsets = getPieceGeometry(entry).rotations[0];
+        const minRow = Math.min(...offsets.map(cell => cell.r));
+        const minColumn = Math.min(...offsets.map(cell => cell.phi));
+        entry._cells = offsets.map(cell => [cell.r - minRow, cell.phi - minColumn])
+            .sort((a, b) => a[0] - b[0] || a[1] - b[1]);
     }
     return entry._cells;
 }
@@ -199,7 +201,7 @@ export function getPieceGeometry(entry) {
     if (classic) {
         baseOffsets = classic.offsets.map(([r, phi]) => ({ r, phi }));
     } else {
-        const cells = getPreviewCells(entry);
+        const cells = decodePolyomino(entry.encoded);
         const [pivotRow, pivotColumn] = choosePivot(cells);
         baseOffsets = cells.map(([row, column]) => ({
             r: row - pivotRow,

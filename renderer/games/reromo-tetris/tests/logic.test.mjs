@@ -180,10 +180,30 @@ test('ordinary Cartesian pieces keep catalogue chirality for every polyomino', (
     }
 });
 
+test('HOLD and NEXT match unrotated spawn cells in every mode', () => {
+    const normalize = cells => {
+        const minR = Math.min(...cells.map(cell => cell[0]));
+        const minC = Math.min(...cells.map(cell => cell[1]));
+        return cells.map(([r, c]) => [r - minR, c - minC])
+            .sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+    };
+    const game = Object.create(ReRoMoTetris.prototype);
+    game.columns = 256;
+    for (const mode of ['rectangular', 'structural', 'rocking', 'rocking-pressure', 'circular', 'mobius']) {
+        game.settings = { mode };
+        for (const entry of [...POLYOMINO_CATALOG.byOrder[4], ...POLYOMINO_CATALOG.byOrder[5]]) {
+            const blocks = game._blocksFor({ entry, r: 20, phi: 128, rotation: 0 });
+            // At the annulus spawn the angular coordinate points screen-left.
+            const visible = blocks.map(({ r, phi }) => [r, mode === 'circular' ? -phi : phi]);
+            assert.deepEqual(normalize(visible), getPreviewCells(entry), `${mode}: ${entry.id}`);
+        }
+    }
+});
+
 test('HOLD and NEXT derive one shared field scale from all enabled pieces', () => {
     const defaults = defaultOrderWeights();
     assert.deepEqual(getActivePiecePreviewBounds(defaults, {}), {
-        rows: 3,
+        rows: 2,
         columns: 4,
         count: 7,
     });

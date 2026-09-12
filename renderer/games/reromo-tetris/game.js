@@ -1212,13 +1212,10 @@ export default class ReRoMoTetris extends BaseGame {
         const offsets = getPieceGeometry(piece.entry).rotations[positiveModulo(rotation, 4)];
         const wrapped = !isCartesianMode(this.settings.mode);
         return offsets.map(offset => {
-            // Ordinary Cartesian play uses the same catalogue chirality as
-            // HOLD/NEXT and the non-Cartesian projections. The old negation
-            // mirrored every one-sided polyomino but retained its colour.
-            // Structural Cartesian keeps its established physical convention.
-            const rawPhi = this.settings.mode === 'rectangular'
-                ? phi + offset.phi
-                : phi - offset.phi;
+            // At spawn, only the annulus projects increasing columns leftward.
+            const rawPhi = this.settings.mode === 'circular'
+                ? phi - offset.phi
+                : phi + offset.phi;
             return {
                 r: r + offset.r,
                 phi: wrapped ? positiveModulo(rawPhi, this.columns) : rawPhi,
