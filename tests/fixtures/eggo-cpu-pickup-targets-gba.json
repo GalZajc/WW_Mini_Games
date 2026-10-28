@@ -1,0 +1,8689 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building",
+    "checkpoint_frames": [
+      80,
+      140
+    ],
+    "fixture": "tests/fixtures/eggo-cpu-pickup-targets-gba.json",
+    "script_sha256": "b31a5e19cdfa9279e707d463eb5b9d8099526b9ef62c687750531d21f317c85c",
+    "diagnostic_source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00080",
+    "diagnostic_entry": 134244884,
+    "diagnostic_end": 134245720,
+    "instruction_limit": 10000,
+    "diagnostic_stack": 50360320,
+    "diagnostic_cpu": 33577536,
+    "diagnostic_actor": 33574736,
+    "diagnostic_board": 33621584,
+    "diagnostic_field": 33572960,
+    "diagnostic_pool": 33783808,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "ram_sha256": "d95076039e7146bc80903a8219d25201e05b38d27bc618eff98ac225fc1a47dd",
+    "iwram_sha256": "3f160f4040b0b00500f57e03b5d0f0b1dfe5f7e9e8c9a88b2700e6d03aba8d62",
+    "diagnostic_cases": [
+      {
+        "name": "empty-flat",
+        "items": [],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "empty-ridge",
+        "items": [],
+        "heights": [
+          47,
+          37,
+          43,
+          40,
+          37,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "vertical-bound--9",
+        "items": [
+          [
+            40,
+            729
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "vertical-bound--8",
+        "items": [
+          [
+            40,
+            728
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "vertical-bound--7",
+        "items": [
+          [
+            40,
+            727
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "vertical-bound-475",
+        "items": [
+          [
+            40,
+            245
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "vertical-bound-476",
+        "items": [
+          [
+            40,
+            244
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "horizontal-bound-91",
+        "items": [
+          [
+            131,
+            720
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "horizontal-bound-92",
+        "items": [
+          [
+            132,
+            720
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "horizontal-bound-93",
+        "items": [
+          [
+            133,
+            720
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "tie-first",
+        "items": [
+          [
+            32,
+            620
+          ],
+          [
+            48,
+            620
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "tie-reversed",
+        "items": [
+          [
+            48,
+            620
+          ],
+          [
+            32,
+            620
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "hidden-under-roof",
+        "items": [
+          [
+            40,
+            600
+          ],
+          [
+            40,
+            450
+          ]
+        ],
+        "heights": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "left-edge",
+        "items": [
+          [
+            -12,
+            620
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "right-edge",
+        "items": [
+          [
+            112,
+            620
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      },
+      {
+        "name": "fractional-below",
+        "items": [
+          [
+            40,
+            728.125
+          ],
+          [
+            40,
+            727.875
+          ]
+        ],
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "actorX": 32,
+        "actorY": 720
+      }
+    ]
+  },
+  "calls": [
+    {
+      "frame": 81,
+      "parameters": {
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00080",
+        "next_source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00081",
+        "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+        "entry": 134243832,
+        "cpu": 33577536,
+        "board": 33621584,
+        "frame_address": 33626780,
+        "keys_address": 33614248,
+        "return": 134217728,
+        "instruction_limit": 1000000,
+        "stack": 50360320,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "ram_sha256": "d95076039e7146bc80903a8219d25201e05b38d27bc618eff98ac225fc1a47dd",
+        "iwram_sha256": "3f160f4040b0b00500f57e03b5d0f0b1dfe5f7e9e8c9a88b2700e6d03aba8d62",
+        "next_ram_sha256": "bf5a942e6ef6bbaa1c9cd4c70d6004b7a8972c2f0a1279a0816f06ed5b1002cc",
+        "frame": 1058,
+        "diagnostic_writes": []
+      },
+      "oracle_output": "C:\\Users\\galza\\Igre\\pc\\Moje Igrce\\WW Mini Games\\scripts\\OUTPUT\\eggo-cpu-policy_2026-10-04_18-24-17_309210",
+      "returned_keys": 96,
+      "recorded_keys": 96,
+      "targets": [
+        {
+          "input": {
+            "actorX": -131072,
+            "actorY": 39917958,
+            "heights": [
+              42,
+              42,
+              42,
+              45,
+              44,
+              44,
+              45
+            ],
+            "pickups": [
+              {
+                "id": 33573280,
+                "x": 3423079,
+                "y": 1914292,
+                "kind": 0
+              },
+              {
+                "id": 33573748,
+                "x": 3272946,
+                "y": 2879705,
+                "kind": 3
+              },
+              {
+                "id": 33573592,
+                "x": 4507406,
+                "y": 7328023,
+                "kind": 1
+              },
+              {
+                "id": 33573800,
+                "x": 5440114,
+                "y": 13865275,
+                "kind": 12
+              },
+              {
+                "id": 33573696,
+                "x": 5660032,
+                "y": 17491807,
+                "kind": 6
+              },
+              {
+                "id": 33573332,
+                "x": 4090935,
+                "y": 24750088,
+                "kind": 0
+              },
+              {
+                "id": 33573852,
+                "x": 4677412,
+                "y": 28421971,
+                "kind": 2
+              },
+              {
+                "id": 33573904,
+                "x": 1365233,
+                "y": 34995768,
+                "kind": 0
+              },
+              {
+                "id": 33573384,
+                "x": 198955,
+                "y": 38669361,
+                "kind": 10
+              },
+              {
+                "id": 33573436,
+                "x": 4170835,
+                "y": 42342954,
+                "kind": 0
+              },
+              {
+                "id": 33573644,
+                "x": 5387655,
+                "y": 46016547,
+                "kind": 7
+              },
+              {
+                "id": 33573488,
+                "x": 1481328,
+                "y": 49947936,
+                "kind": 7
+              },
+              {
+                "id": 33573540,
+                "x": 6795571,
+                "y": 50515692,
+                "kind": 7
+              }
+            ],
+            "difficulty": 6,
+            "special": false,
+            "elevated": false
+          },
+          "before": {
+            "targetColumn": 0,
+            "idleTarget": 198955,
+            "counterD4": 0
+          },
+          "after": {
+            "targetColumn": 0,
+            "idleTarget": 198955,
+            "counterD4": 0
+          },
+          "selected": 33573384,
+          "nearPickup": true
+        }
+      ],
+      "travels": [
+        {
+          "input": {
+            "heights": [
+              42,
+              42,
+              42,
+              45,
+              44,
+              44,
+              45
+            ],
+            "start": 0,
+            "target": 0,
+            "row": 40,
+            "vy": -91755,
+            "kind": -1,
+            "margin": 4,
+            "keys": 0,
+            "sideFlag": 0,
+            "elevated": false,
+            "loopRegister": 0,
+            "frame": 1058,
+            "nearPickup": true
+          },
+          "before": {
+            "waypoint": 0,
+            "labels": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "parents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "groundRow": 44,
+            "counterD4": 0
+          },
+          "after": {
+            "waypoint": 0,
+            "labels": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "parents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "groundRow": 44,
+            "counterD4": 0
+          },
+          "early": false,
+          "keys": 64
+        }
+      ]
+    },
+    {
+      "frame": 141,
+      "parameters": {
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00140",
+        "next_source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00141",
+        "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+        "entry": 134243832,
+        "cpu": 33577536,
+        "board": 33621584,
+        "frame_address": 33626780,
+        "keys_address": 33614248,
+        "return": 134217728,
+        "instruction_limit": 1000000,
+        "stack": 50360320,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "ram_sha256": "631c821b66a8dfeb7b78338186f6b22f91da7cee52647e1650f02c58122ac8b2",
+        "iwram_sha256": "ff9b65dfe04efb7f0f5ce6d88ae304f5114bda2d04191148d78a74f2a33ddd0b",
+        "next_ram_sha256": "f66a7f1647c51faa9b19ac319e54b69c6cf558369a5c54bb3de458d1c996d6b6",
+        "frame": 1118,
+        "diagnostic_writes": []
+      },
+      "oracle_output": "C:\\Users\\galza\\Igre\\pc\\Moje Igrce\\WW Mini Games\\scripts\\OUTPUT\\eggo-cpu-policy_2026-10-04_18-24-17_500775",
+      "returned_keys": 82,
+      "recorded_keys": 82,
+      "targets": [
+        {
+          "input": {
+            "actorX": 655360,
+            "actorY": 41070943,
+            "heights": [
+              42,
+              42,
+              42,
+              43,
+              43,
+              44,
+              45
+            ],
+            "pickups": [
+              {
+                "id": 33573384,
+                "x": 3264467,
+                "y": 1896664,
+                "kind": 4
+              },
+              {
+                "id": 33573280,
+                "x": 3332538,
+                "y": 2987125,
+                "kind": 0
+              },
+              {
+                "id": 33573748,
+                "x": 3223603,
+                "y": 5609044,
+                "kind": 3
+              },
+              {
+                "id": 33573592,
+                "x": 4539740,
+                "y": 10925016,
+                "kind": 1
+              },
+              {
+                "id": 33573800,
+                "x": 5450135,
+                "y": 17683696,
+                "kind": 12
+              },
+              {
+                "id": 33573696,
+                "x": 5663675,
+                "y": 21340060,
+                "kind": 6
+              },
+              {
+                "id": 33573332,
+                "x": 4090935,
+                "y": 28615317,
+                "kind": 0
+              },
+              {
+                "id": 33573852,
+                "x": 4677412,
+                "y": 32288910,
+                "kind": 2
+              },
+              {
+                "id": 33573904,
+                "x": 1361453,
+                "y": 38862708,
+                "kind": 0
+              },
+              {
+                "id": 33573436,
+                "x": 4170835,
+                "y": 46209894,
+                "kind": 0
+              },
+              {
+                "id": 33573644,
+                "x": 5383875,
+                "y": 49883487,
+                "kind": 7
+              },
+              {
+                "id": 33573488,
+                "x": 571591,
+                "y": 50611971,
+                "kind": 7
+              }
+            ],
+            "difficulty": 6,
+            "special": false,
+            "elevated": false
+          },
+          "before": {
+            "targetColumn": 1,
+            "idleTarget": 1361516,
+            "counterD4": 0
+          },
+          "after": {
+            "targetColumn": 1,
+            "idleTarget": 1361453,
+            "counterD4": 0
+          },
+          "selected": 33573904,
+          "nearPickup": true
+        }
+      ],
+      "travels": [
+        {
+          "input": {
+            "heights": [
+              42,
+              42,
+              42,
+              43,
+              43,
+              44,
+              45
+            ],
+            "start": 1,
+            "target": 1,
+            "row": 41,
+            "vy": -203164,
+            "kind": -1,
+            "margin": 4,
+            "keys": 0,
+            "sideFlag": 0,
+            "elevated": false,
+            "loopRegister": 0,
+            "frame": 1118,
+            "nearPickup": true
+          },
+          "before": {
+            "waypoint": 1,
+            "labels": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "parents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "groundRow": 42,
+            "counterD4": 0
+          },
+          "after": {
+            "waypoint": 1,
+            "labels": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "parents": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "groundRow": 42,
+            "counterD4": 0
+          },
+          "early": false,
+          "keys": 64
+        }
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "name": "empty-flat",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 70
+      },
+      "selected": 0,
+      "nearPickup": false,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "empty-ridge",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          37,
+          43,
+          40,
+          37,
+          47,
+          47
+        ],
+        "pickups": [],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 4,
+        "idleTarget": 3670016,
+        "counterD4": 70
+      },
+      "selected": 0,
+      "nearPickup": false,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 37,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 37,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 43,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 40,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 37,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "vertical-bound--9",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 2621440,
+            "y": 47775744,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 70
+      },
+      "selected": 0,
+      "nearPickup": false,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 47775744,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "vertical-bound--8",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 2621440,
+            "y": 47710208,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "selected": 33783808,
+      "nearPickup": true,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 47710208,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "vertical-bound--7",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 2621440,
+            "y": 47644672,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "selected": 33783808,
+      "nearPickup": true,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 47644672,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "vertical-bound-475",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 2621440,
+            "y": 16056320,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "selected": 33783808,
+      "nearPickup": true,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 16056320,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "vertical-bound-476",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 2621440,
+            "y": 15990784,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 70
+      },
+      "selected": 0,
+      "nearPickup": false,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 15990784,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "horizontal-bound-91",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 8585216,
+            "y": 47185920,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 6,
+        "idleTarget": 8585216,
+        "counterD4": 9
+      },
+      "selected": 33783808,
+      "nearPickup": true,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 8585216,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "horizontal-bound-92",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 8650752,
+            "y": 47185920,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 6,
+        "idleTarget": 8650752,
+        "counterD4": 9
+      },
+      "selected": 33783808,
+      "nearPickup": true,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 8650752,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "horizontal-bound-93",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 8716288,
+            "y": 47185920,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 6,
+        "idleTarget": 8716288,
+        "counterD4": 9
+      },
+      "selected": 33783808,
+      "nearPickup": true,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 8716288,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "tie-first",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 2097152,
+            "y": 40632320,
+            "kind": 0
+          },
+          {
+            "id": 33783860,
+            "x": 3145728,
+            "y": 40632320,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 2,
+        "idleTarget": 2097152,
+        "counterD4": 9
+      },
+      "selected": 33783808,
+      "nearPickup": true,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 40632320,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 33783888,
+          "size": 4
+        },
+        {
+          "name": "itemX",
+          "address": 33783860,
+          "value": 3145728,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783864,
+          "value": 40632320,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783900,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783888,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "tie-reversed",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 3145728,
+            "y": 40632320,
+            "kind": 0
+          },
+          {
+            "id": 33783860,
+            "x": 2097152,
+            "y": 40632320,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 3,
+        "idleTarget": 3145728,
+        "counterD4": 9
+      },
+      "selected": 33783808,
+      "nearPickup": true,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 3145728,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 40632320,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 33783888,
+          "size": 4
+        },
+        {
+          "name": "itemX",
+          "address": 33783860,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783864,
+          "value": 40632320,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783900,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783888,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "hidden-under-roof",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 2621440,
+            "y": 39321600,
+            "kind": 0
+          },
+          {
+            "id": 33783860,
+            "x": 2621440,
+            "y": 29491200,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "selected": 33783860,
+      "nearPickup": true,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 30,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 30,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 30,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 30,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 30,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 30,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 30,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 30,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 39321600,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 33783888,
+          "size": 4
+        },
+        {
+          "name": "itemX",
+          "address": 33783860,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783864,
+          "value": 29491200,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783900,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783888,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "left-edge",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": -786432,
+            "y": 40632320,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 0,
+        "idleTarget": -786432,
+        "counterD4": 9
+      },
+      "selected": 33783808,
+      "nearPickup": true,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": -786432,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 40632320,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "right-edge",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 7340032,
+            "y": 40632320,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 6,
+        "idleTarget": 7340032,
+        "counterD4": 9
+      },
+      "selected": 33783808,
+      "nearPickup": true,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 7340032,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 40632320,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "fractional-below",
+      "input": {
+        "actorX": 2097152,
+        "actorY": 47185920,
+        "heights": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "pickups": [
+          {
+            "id": 33783808,
+            "x": 2621440,
+            "y": 47718400,
+            "kind": 0
+          },
+          {
+            "id": 33783860,
+            "x": 2621440,
+            "y": 47702016,
+            "kind": 0
+          }
+        ],
+        "difficulty": 6,
+        "special": false,
+        "elevated": false
+      },
+      "before": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "after": {
+        "targetColumn": 3,
+        "idleTarget": 2621440,
+        "counterD4": 9
+      },
+      "selected": 33783860,
+      "nearPickup": true,
+      "diagnostic_writes": [
+        {
+          "name": "actorX",
+          "address": 33574736,
+          "value": 2097152,
+          "size": 4
+        },
+        {
+          "name": "actorY",
+          "address": 33574740,
+          "value": 47185920,
+          "size": 4
+        },
+        {
+          "name": "height",
+          "address": 33625368,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "listHead",
+          "address": 33574008,
+          "value": 33783836,
+          "size": 4
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6,
+          "size": 4
+        },
+        {
+          "name": "target",
+          "address": 33577536,
+          "value": 3,
+          "size": 4
+        },
+        {
+          "name": "idle",
+          "address": 33577780,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "counterD4",
+          "address": 33577748,
+          "value": 9,
+          "size": 4
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584,
+          "size": 4
+        },
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736,
+          "size": 4
+        },
+        {
+          "name": "field",
+          "address": 50360436,
+          "value": 33572960,
+          "size": 4
+        },
+        {
+          "name": "elevated",
+          "address": 50360448,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "cost",
+          "address": 50360404,
+          "value": 9999,
+          "size": 4
+        },
+        {
+          "name": "selected",
+          "address": 50360388,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "nearPickup",
+          "address": 50360428,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "special",
+          "address": 33554668,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "height-0",
+          "address": 33625376,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-1",
+          "address": 33625380,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-2",
+          "address": 33625384,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-3",
+          "address": 33625388,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-4",
+          "address": 33625392,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-5",
+          "address": 33625396,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "height-6",
+          "address": 33625400,
+          "value": 47,
+          "size": 4
+        },
+        {
+          "name": "gap-count-0",
+          "address": 33625184,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-1",
+          "address": 33625185,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-2",
+          "address": 33625186,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-3",
+          "address": 33625187,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-4",
+          "address": 33625188,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-5",
+          "address": 33625189,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-6",
+          "address": 33625190,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-7",
+          "address": 33625191,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-8",
+          "address": 33625192,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-9",
+          "address": 33625193,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-10",
+          "address": 33625194,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-11",
+          "address": 33625195,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-12",
+          "address": 33625196,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-13",
+          "address": 33625197,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-14",
+          "address": 33625198,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-15",
+          "address": 33625199,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-16",
+          "address": 33625200,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-17",
+          "address": 33625201,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-18",
+          "address": 33625202,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-19",
+          "address": 33625203,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-20",
+          "address": 33625204,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-21",
+          "address": 33625205,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-22",
+          "address": 33625206,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-23",
+          "address": 33625207,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-24",
+          "address": 33625208,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-25",
+          "address": 33625209,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-26",
+          "address": 33625210,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-27",
+          "address": 33625211,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-28",
+          "address": 33625212,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-29",
+          "address": 33625213,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-30",
+          "address": 33625214,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-31",
+          "address": 33625215,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-32",
+          "address": 33625216,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-33",
+          "address": 33625217,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-34",
+          "address": 33625218,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-35",
+          "address": 33625219,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-36",
+          "address": 33625220,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-37",
+          "address": 33625221,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-38",
+          "address": 33625222,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-39",
+          "address": 33625223,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-40",
+          "address": 33625224,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-41",
+          "address": 33625225,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-42",
+          "address": 33625226,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-43",
+          "address": 33625227,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-44",
+          "address": 33625228,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-45",
+          "address": 33625229,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-46",
+          "address": 33625230,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "gap-count-47",
+          "address": 33625231,
+          "value": 0,
+          "size": 1
+        },
+        {
+          "name": "itemX",
+          "address": 33783808,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783812,
+          "value": 47718400,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783848,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783836,
+          "value": 33783888,
+          "size": 4
+        },
+        {
+          "name": "itemX",
+          "address": 33783860,
+          "value": 2621440,
+          "size": 4
+        },
+        {
+          "name": "itemY",
+          "address": 33783864,
+          "value": 47702016,
+          "size": 4
+        },
+        {
+          "name": "kind",
+          "address": 33783900,
+          "value": 0,
+          "size": 4
+        },
+        {
+          "name": "next",
+          "address": 33783888,
+          "value": 0,
+          "size": 4
+        }
+      ]
+    }
+  ],
+  "limits": "Ordinary-input native Survival pickup-selection states; isolated original policy calls, not complete JavaScript trajectory parity."
+}

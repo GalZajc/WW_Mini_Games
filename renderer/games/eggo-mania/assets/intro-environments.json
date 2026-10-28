@@ -1,0 +1,655 @@
+{
+  "parameters": {
+    "sources": {
+      "factory": "scripts/OUTPUT/eggo-reference_2026-10-03_11-35-23_945555/factory-start",
+      "dragon": "scripts/OUTPUT/eggo-reference_2026-10-03_11-09-58_790843/dragon-start",
+      "castle": "scripts/OUTPUT/eggo-reference_2026-10-03_11-09-58_791843/castle-start",
+      "pirate": "scripts/OUTPUT/eggo-reference_2026-10-03_11-09-58_790843/pirate-start",
+      "space": "scripts/OUTPUT/eggo-reference_2026-10-03_11-10-02_933922/space-start",
+      "jungle": "scripts/OUTPUT/eggo-reference_2026-10-03_11-10-02_923963/jungle-start",
+      "park": "scripts/OUTPUT/eggo-reference_2026-10-03_11-10-02_928927/park-start",
+      "beanstalk": "scripts/OUTPUT/eggo-reference_2026-10-03_11-10-07_122395/beanstalk-start"
+    },
+    "landed": {
+      "dragon": "11-11-12_576376",
+      "castle": "11-11-12_514995",
+      "pirate": "11-11-12_580151",
+      "space": "11-11-15_404434",
+      "jungle": "11-11-15_417436",
+      "park": "11-11-15_425429",
+      "beanstalk": "11-11-18_098381"
+    },
+    "frames": [
+      120,
+      270,
+      300,
+      330,
+      360,
+      390,
+      420
+    ],
+    "height": 160,
+    "field_width": 112,
+    "maximum_step": 100,
+    "baseline_world_y": 720.044,
+    "tile_pixels": 16
+  },
+  "stages": {
+    "factory": {
+      "records": [
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-35-23_945555\\factory-start.frame00120",
+          "native_map_offset": 0,
+          "world_height": 39.419498046875,
+          "graphics_sha256": "ccffe403caae22d5e72cb9dd2f7b87a5445401056b13ca51bf653159b81cff15",
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-35-23_945555\\factory-start.frame00270",
+          "native_map_offset": 53,
+          "world_height": 34.21874578857422,
+          "graphics_sha256": "fda8393ba74d25e02892f4a24993cc1abc7bd60e9851deacbc87ae6087bea7b7",
+          "step_pixels": 53,
+          "overlap_error": 5.2842122830440585,
+          "strip_offset": 53
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-35-23_945555\\factory-start.frame00300",
+          "native_map_offset": 110,
+          "world_height": 27.656245788574218,
+          "graphics_sha256": "e85a2eb90919defb605eda14637c043e257aee6f983f352382ed1cce88ad11a8",
+          "step_pixels": 57,
+          "overlap_error": 1.234396671289875,
+          "strip_offset": 110
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-35-23_945555\\factory-start.frame00330",
+          "native_map_offset": 168,
+          "world_height": 21.093745788574218,
+          "graphics_sha256": "479d39ac0500fc8682b04ffe36a1329952b378bb9e2dbe6f4ded3f3f90ccbdc5",
+          "step_pixels": 58,
+          "overlap_error": 0.0,
+          "strip_offset": 168
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-35-23_945555\\factory-start.frame00360",
+          "native_map_offset": 225,
+          "world_height": 14.531245788574218,
+          "graphics_sha256": "946025d9751652ab7cc5431002efaf1a5aa15c70274709b37e46260f97555549",
+          "step_pixels": 57,
+          "overlap_error": 0.0,
+          "strip_offset": 225
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-35-23_945555\\factory-start.frame00390",
+          "native_map_offset": 27,
+          "world_height": 7.968745788574218,
+          "graphics_sha256": "e775604c51f31daab10f26b3db15f779bbf829d8f1ee2e77a1610688c532139f",
+          "step_pixels": 58,
+          "overlap_error": 0.8304446778711485,
+          "strip_offset": 283
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-35-23_945555\\factory-start.frame00420",
+          "native_map_offset": 84,
+          "world_height": 1.4062457885742177,
+          "graphics_sha256": "48771ad58e522463f64a216398a5237299f3e9f8809e35012ddc6c9d37cac831",
+          "step_pixels": 57,
+          "overlap_error": 2.4581888580674986,
+          "strip_offset": 340
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-35-23_945555\\factory-start.frame00480",
+          "native_map_offset": 94,
+          "world_height": 0,
+          "graphics_sha256": "f545ff979bb4c905766056859b0dd8bae2c5f2758cea2a0cce774018dc0e9e46",
+          "step_pixels": 10,
+          "overlap_error": 2.617936507936508,
+          "strip_offset": 350
+        }
+      ],
+      "initial_state_sha256": "3ec90524d2ab90d9c4c8aae2eb4f66b87f98ea6acb7c8a416159409298bfa4a3",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    },
+    "dragon": {
+      "records": [
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\dragon-start.frame00120",
+          "native_map_offset": 0,
+          "world_height": 39.21303900146484,
+          "graphics_sha256": "9f669348aa906be26701022eb0219afdba1af5d5b6d0f830d187923bc06cbe85",
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\dragon-start.frame00270",
+          "native_map_offset": 0,
+          "world_height": 37.93749578857422,
+          "graphics_sha256": "26d3ba32e503da8444a48e9d1aeccc4b66028ac06858f25294fcccd8c32db9db",
+          "step_pixels": 0,
+          "overlap_error": 7.446558779761904,
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\dragon-start.frame00300",
+          "native_map_offset": 77,
+          "world_height": 31.374995788574218,
+          "graphics_sha256": "020cf5bcfe1a90984b4757f732dce1f24c90238111c3685b557408f1cc8fffdb",
+          "step_pixels": 77,
+          "overlap_error": 4.8878729202524385,
+          "strip_offset": 77
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\dragon-start.frame00330",
+          "native_map_offset": 135,
+          "world_height": 24.812495788574218,
+          "graphics_sha256": "c5e71fa67f3395dd8f219d28e16b4f1eafa149a413f58e84e632106eafb92c3c",
+          "step_pixels": 58,
+          "overlap_error": 0.0,
+          "strip_offset": 135
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\dragon-start.frame00360",
+          "native_map_offset": 192,
+          "world_height": 18.249995788574218,
+          "graphics_sha256": "c32844513eb1c6b365e727acc5df09be0ec654ffca2edb68231b9b54e881933b",
+          "step_pixels": 57,
+          "overlap_error": 0.0,
+          "strip_offset": 192
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\dragon-start.frame00390",
+          "native_map_offset": 250,
+          "world_height": 11.687495788574218,
+          "graphics_sha256": "bb5d3cd141432d5302d4f383b1c177cfaf59c3c2b91d52e3c7683d10ce864224",
+          "step_pixels": 58,
+          "overlap_error": 0.0,
+          "strip_offset": 250
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\dragon-start.frame00420",
+          "native_map_offset": 51,
+          "world_height": 5.124995788574218,
+          "graphics_sha256": "d6508f223b63252d77c3ed9b6dd386963a8f5a88381d4e137cefe63a7ddc018b",
+          "step_pixels": 57,
+          "overlap_error": 0.0,
+          "strip_offset": 307
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-12_576376\\dragon-landed.frame00020",
+          "native_map_offset": 94,
+          "world_height": 0,
+          "graphics_sha256": "f4a978b64fdd6996d4c5b48b13cf434e523115cc0dfafaa43ee8bad0b9efd9a3",
+          "step_pixels": 43,
+          "overlap_error": 0.0,
+          "strip_offset": 350
+        }
+      ],
+      "initial_state_sha256": "bb1bb5d483c5e0584fe20d6ae1a779be35c3304fa3e62ae14d9c472c9c445547",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    },
+    "castle": {
+      "records": [
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_791843\\castle-start.frame00120",
+          "native_map_offset": 0,
+          "world_height": 39.50275,
+          "graphics_sha256": "09813b79d507d1151190c0a6f85fda8e4bdc38ae0960a7af179cb109509d8bb5",
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_791843\\castle-start.frame00270",
+          "native_map_offset": 0,
+          "world_height": 37.9715,
+          "graphics_sha256": "bb108be60988859107b9c77d1cedba281ce39262b7ade6616ecaa85892090408",
+          "step_pixels": 0,
+          "overlap_error": 5.2734375,
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_791843\\castle-start.frame00300",
+          "native_map_offset": 77,
+          "world_height": 31.409,
+          "graphics_sha256": "903787a1f336c564edc8a4794cf7282abb82abc8d11f8e3c2d69461f0ccdae64",
+          "step_pixels": 77,
+          "overlap_error": 0.0,
+          "strip_offset": 77
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_791843\\castle-start.frame00330",
+          "native_map_offset": 135,
+          "world_height": 24.8465,
+          "graphics_sha256": "b839a1cb44aca45df02b21e361198618eccb55ac72f28f07cfad1e4271d8bdfe",
+          "step_pixels": 58,
+          "overlap_error": 0.0,
+          "strip_offset": 135
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_791843\\castle-start.frame00360",
+          "native_map_offset": 192,
+          "world_height": 18.284,
+          "graphics_sha256": "0d9d8faaa1c1f0141a4aa4503d895dbe7dc805061876c5c8d86a0e830a7a74de",
+          "step_pixels": 57,
+          "overlap_error": 0.0,
+          "strip_offset": 192
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_791843\\castle-start.frame00390",
+          "native_map_offset": 250,
+          "world_height": 11.721499999999999,
+          "graphics_sha256": "0c7cd9eb71137619a3a34b62ec8f24ebb569aad65c64c0748590ab55ed70ce09",
+          "step_pixels": 58,
+          "overlap_error": 0.013363678804855275,
+          "strip_offset": 250
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_791843\\castle-start.frame00420",
+          "native_map_offset": 51,
+          "world_height": 5.158999999999999,
+          "graphics_sha256": "cff8ec4bd3a7b9df88783e99d0c11d8c39fbdbd8f2c137b2ac2f26c6d6eaf945",
+          "step_pixels": 57,
+          "overlap_error": 0.0,
+          "strip_offset": 307
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-12_514995\\castle-landed.frame00020",
+          "native_map_offset": 94,
+          "world_height": 0,
+          "graphics_sha256": "0e412a0986e5ee52ae0bfa93e7f112168517c2f468abcc7229634ada54e09d33",
+          "step_pixels": 43,
+          "overlap_error": 0.6003510378510378,
+          "strip_offset": 350
+        }
+      ],
+      "initial_state_sha256": "448931478cfb53fcc0468ae97e06175f133cc5f46814f77dea0fa476abc0d6c8",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    },
+    "pirate": {
+      "records": [
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\pirate-start.frame00120",
+          "native_map_offset": 0,
+          "world_height": 39.21303900146484,
+          "graphics_sha256": "d11084937f5c3496b8fc5769326746bbbbe28e75c1b7276d9f2aadb936d8be2a",
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\pirate-start.frame00270",
+          "native_map_offset": 0,
+          "world_height": 37.93749578857422,
+          "graphics_sha256": "48563be4008160f8a304f024e05fe4897f57d7e92f10a2165e1ecfb5b0177f1a",
+          "step_pixels": 0,
+          "overlap_error": 0.0,
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\pirate-start.frame00300",
+          "native_map_offset": 76,
+          "world_height": 31.374995788574218,
+          "graphics_sha256": "7e18e295a1b6f54a8a5e6eef1d356d9d1c292bbdcef767464b271f414c522a32",
+          "step_pixels": 76,
+          "overlap_error": 0.0,
+          "strip_offset": 76
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\pirate-start.frame00330",
+          "native_map_offset": 132,
+          "world_height": 24.812495788574218,
+          "graphics_sha256": "79311522bc8a7226a7b6a1c43934cf649f93a62556347a1e8909acb00640d838",
+          "step_pixels": 56,
+          "overlap_error": 0.0,
+          "strip_offset": 132
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\pirate-start.frame00360",
+          "native_map_offset": 188,
+          "world_height": 18.249995788574218,
+          "graphics_sha256": "222d4c188cba46637a27caf3b6b0af9209d04929f40106f392a5ad1f906ca7c8",
+          "step_pixels": 56,
+          "overlap_error": 0.0,
+          "strip_offset": 188
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\pirate-start.frame00390",
+          "native_map_offset": 244,
+          "world_height": 11.687495788574218,
+          "graphics_sha256": "836fd00dbf5e19e3a68a86f25b5d357536b1e002b131e25eebd8c25643acaf2d",
+          "step_pixels": 56,
+          "overlap_error": 0.0,
+          "strip_offset": 244
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\pirate-start.frame00420",
+          "native_map_offset": 44,
+          "world_height": 5.124995788574218,
+          "graphics_sha256": "4545fed58cfb40e49d70c4796b81f3f2d66545b4ed769d5eb5a166213e313d30",
+          "step_pixels": 56,
+          "overlap_error": 0.0,
+          "strip_offset": 300
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-12_580151\\pirate-landed.frame00020",
+          "native_map_offset": 86,
+          "world_height": 0,
+          "graphics_sha256": "e3ebbc4a4ad0d5d2f8deea2df1fb25a8a2beace5f6393ee9ba02f5df8132e729",
+          "step_pixels": 42,
+          "overlap_error": 0.0,
+          "strip_offset": 342
+        }
+      ],
+      "initial_state_sha256": "b22d898d1502d17a8b82dc3e05c3ca1a157fb6bf816dad763fa1cf81d680c153",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    },
+    "space": {
+      "records": [
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_933922\\space-start.frame00120",
+          "native_map_offset": 0,
+          "world_height": 40.21303900146484,
+          "graphics_sha256": "c86b215f221750d96a7c5b1bb9521c129d0d74b9a3c43b1c739a5b19cfded24a",
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_933922\\space-start.frame00270",
+          "native_map_offset": 0,
+          "world_height": 38.93749578857422,
+          "graphics_sha256": "25ac3ea0197d75e32d60d90fccd4dca375da3118d68a384ff0fe85f26ec9b0f9",
+          "step_pixels": 0,
+          "overlap_error": 4.556566220238095,
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_933922\\space-start.frame00300",
+          "native_map_offset": 69,
+          "world_height": 32.37499578857422,
+          "graphics_sha256": "23e2aadb1ee444b31c95f53f678215db0110c42ab22f844732afcc29de997f28",
+          "step_pixels": 69,
+          "overlap_error": 0.6059000523286238,
+          "strip_offset": 69
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_933922\\space-start.frame00330",
+          "native_map_offset": 126,
+          "world_height": 25.812495788574218,
+          "graphics_sha256": "96b09089ad6c2caa93798b843a5e0e117e3a1068aa67f045faae7b0e46050bf4",
+          "step_pixels": 57,
+          "overlap_error": 0.4574664817383264,
+          "strip_offset": 126
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_933922\\space-start.frame00360",
+          "native_map_offset": 184,
+          "world_height": 19.249995788574218,
+          "graphics_sha256": "fe53eb9461189c1f125a51dded77d82cc599a7d77244a27bd769578836f70819",
+          "step_pixels": 58,
+          "overlap_error": 0.17930088702147526,
+          "strip_offset": 184
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_933922\\space-start.frame00390",
+          "native_map_offset": 241,
+          "world_height": 12.687495788574218,
+          "graphics_sha256": "790906252f6dc1f085314a8a4a322a4680905856894d798764af93ced83e3c4a",
+          "step_pixels": 57,
+          "overlap_error": 0.3643666204345816,
+          "strip_offset": 241
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_933922\\space-start.frame00420",
+          "native_map_offset": 43,
+          "world_height": 6.124995788574218,
+          "graphics_sha256": "ec5f3d7e7fa3f0d655d210677c4fabc34e47d75128cbfbcfaf1664fe8dd60301",
+          "step_pixels": 58,
+          "overlap_error": 0.5142682072829131,
+          "strip_offset": 299
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-15_404434\\space-landed.frame00020",
+          "native_map_offset": 94,
+          "world_height": 0,
+          "graphics_sha256": "f5347aa47591281df666e696214208d01bda3b434bf216ce4bfd13219d7df1ff",
+          "step_pixels": 51,
+          "overlap_error": 0.0,
+          "strip_offset": 350
+        }
+      ],
+      "initial_state_sha256": "5d3261f4e3b77fc58e9e65314ded19d42c9a235545ed00021241e13cff0bae4b",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    },
+    "jungle": {
+      "records": [
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_923963\\jungle-start.frame00120",
+          "native_map_offset": 0,
+          "world_height": 39.18755682373047,
+          "graphics_sha256": "d01b97728f1e03d67ba96c7f5c0c4e4531aae85f265cbf40e1824802bf4e6696",
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_923963\\jungle-start.frame00270",
+          "native_map_offset": 0,
+          "world_height": 38.37499578857422,
+          "graphics_sha256": "ddccd26fb8827522b77f192b5f8e4e2c0fbd24f9e328cc3d80188c334fe1e9bd",
+          "step_pixels": 0,
+          "overlap_error": 0.0,
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_923963\\jungle-start.frame00300",
+          "native_map_offset": 73,
+          "world_height": 31.812495788574218,
+          "graphics_sha256": "d2e19e4847afb16b46a3102ee9095f8c0b33036ab19ef177ee1882d618577061",
+          "step_pixels": 73,
+          "overlap_error": 0.0,
+          "strip_offset": 73
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_923963\\jungle-start.frame00330",
+          "native_map_offset": 131,
+          "world_height": 25.249995788574218,
+          "graphics_sha256": "8cf7f8251da7e51203d375a6737c64726b3425c4e2176e139dbf89ee197b0a9b",
+          "step_pixels": 58,
+          "overlap_error": 0.0,
+          "strip_offset": 131
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_923963\\jungle-start.frame00360",
+          "native_map_offset": 189,
+          "world_height": 18.687495788574218,
+          "graphics_sha256": "22b8fa3c068dbd551ac3892034da9d1d3f321cdeaf06c7ef79195d437858edf7",
+          "step_pixels": 58,
+          "overlap_error": 0.0,
+          "strip_offset": 189
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_923963\\jungle-start.frame00390",
+          "native_map_offset": 246,
+          "world_height": 12.124995788574218,
+          "graphics_sha256": "c0098f5c04fef576f88b0816f6ac3a387621475d2816cf885c63ce5a05f38776",
+          "step_pixels": 57,
+          "overlap_error": 0.0,
+          "strip_offset": 246
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_923963\\jungle-start.frame00420",
+          "native_map_offset": 48,
+          "world_height": 5.562495788574218,
+          "graphics_sha256": "694e504b0d45e3b094e1d307b3a47e08c320b0577b5fc72d2a31ea7738dcc015",
+          "step_pixels": 58,
+          "overlap_error": 0.0,
+          "strip_offset": 304
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-15_417436\\jungle-landed.frame00020",
+          "native_map_offset": 94,
+          "world_height": 0,
+          "graphics_sha256": "43476f414618b6c4cb5c0f942aa54a128cc40d58e67d0f9c2cd67217d9716fc9",
+          "step_pixels": 46,
+          "overlap_error": 0.0,
+          "strip_offset": 350
+        }
+      ],
+      "initial_state_sha256": "788282198778791867a41b840b4093e85f80e9ffc4a0be820e5c0c97aa69b93d",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    },
+    "park": {
+      "records": [
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_928927\\park-start.frame00120",
+          "native_map_offset": 0,
+          "world_height": 39.17433508300781,
+          "graphics_sha256": "9128d6a574702d5b0b5de5601894d047d85093508981be101561b5e3df546406",
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_928927\\park-start.frame00270",
+          "native_map_offset": 0,
+          "world_height": 38.59374578857422,
+          "graphics_sha256": "40897f516187fc29ce12cd88c714bdfb364cd7549f32c59d6569d864aba252f9",
+          "step_pixels": 0,
+          "overlap_error": 0.0,
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_928927\\park-start.frame00300",
+          "native_map_offset": 72,
+          "world_height": 32.03124578857422,
+          "graphics_sha256": "9032fa731c2e3ab2e28653589fc8af173ec3a74457c23803ce15fce0772a5555",
+          "step_pixels": 72,
+          "overlap_error": 0.0,
+          "strip_offset": 72
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_928927\\park-start.frame00330",
+          "native_map_offset": 129,
+          "world_height": 25.468745788574218,
+          "graphics_sha256": "3e0308764c78eee41326081ce40cd007f3e33ef4099d4e6bcb2d03695e1b52a2",
+          "step_pixels": 57,
+          "overlap_error": 0.0,
+          "strip_offset": 129
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_928927\\park-start.frame00360",
+          "native_map_offset": 187,
+          "world_height": 18.906245788574218,
+          "graphics_sha256": "4149f1cdc8904553001278c96f944b618389466110f70afb05797e3997677a4e",
+          "step_pixels": 58,
+          "overlap_error": 1.7899451447245565,
+          "strip_offset": 187
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_928927\\park-start.frame00390",
+          "native_map_offset": 244,
+          "world_height": 12.343745788574218,
+          "graphics_sha256": "6ae06a6166a707a01816589582c33b11b0a6af867e496ea491cb6f205b586a11",
+          "step_pixels": 57,
+          "overlap_error": 6.099052242256126,
+          "strip_offset": 244
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-02_928927\\park-start.frame00420",
+          "native_map_offset": 46,
+          "world_height": 5.781245788574218,
+          "graphics_sha256": "11189fccccb59f6372b2cad519743c47b7bc23dd3d52c98862224a91eb47e13c",
+          "step_pixels": 58,
+          "overlap_error": 2.810049019607843,
+          "strip_offset": 302
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-15_425429\\park-landed.frame00020",
+          "native_map_offset": 94,
+          "world_height": 0,
+          "graphics_sha256": "c802f22740226aeda20eaea026050f3ed0306ba0994eecc653c42ad9930b8d0e",
+          "step_pixels": 48,
+          "overlap_error": 0.2615327380952381,
+          "strip_offset": 350
+        }
+      ],
+      "initial_state_sha256": "42d0973090ce7789209527e348b17bbf55e7faec8d3923d175226ce02fa3c2e4",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    },
+    "beanstalk": {
+      "records": [
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-07_122395\\beanstalk-start.frame00120",
+          "native_map_offset": 0,
+          "world_height": 39.16277655029297,
+          "graphics_sha256": "d61bfc5c950a8efd3cfb9cfc4f82564a46e7d8d168b09975d511bddd67db9ace",
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-07_122395\\beanstalk-start.frame00270",
+          "native_map_offset": 0,
+          "world_height": 38.81249578857422,
+          "graphics_sha256": "ae3caf672bab8cefd63f44165320664e0d1fdd001948b0c802cd68b689c7737b",
+          "step_pixels": 0,
+          "overlap_error": 0.0,
+          "strip_offset": 0
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-07_122395\\beanstalk-start.frame00300",
+          "native_map_offset": 70,
+          "world_height": 32.24999578857422,
+          "graphics_sha256": "1e375e2e01b23fac83d69dbf7127fcf2a8a06e6325c86b9731b45634c997087b",
+          "step_pixels": 70,
+          "overlap_error": 0.0,
+          "strip_offset": 70
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-07_122395\\beanstalk-start.frame00330",
+          "native_map_offset": 127,
+          "world_height": 25.687495788574218,
+          "graphics_sha256": "9ea25a3ac99be888b900c735d2ae864abb47c5a865f43b9702e90a2115981a43",
+          "step_pixels": 57,
+          "overlap_error": 0.0,
+          "strip_offset": 127
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-07_122395\\beanstalk-start.frame00360",
+          "native_map_offset": 185,
+          "world_height": 19.124995788574218,
+          "graphics_sha256": "7a0445a50addbe06a37cbf41cf9477b7cf846984c30bd51e532edce4d2feb2b8",
+          "step_pixels": 58,
+          "overlap_error": 0.0,
+          "strip_offset": 185
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-07_122395\\beanstalk-start.frame00390",
+          "native_map_offset": 242,
+          "world_height": 12.562495788574218,
+          "graphics_sha256": "03deada13ba849d5360f5c515b234d8507e856ad76ca27cd4da633184822986d",
+          "step_pixels": 57,
+          "overlap_error": 0.0,
+          "strip_offset": 242
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-10-07_122395\\beanstalk-start.frame00420",
+          "native_map_offset": 44,
+          "world_height": 5.999995788574218,
+          "graphics_sha256": "654d202d8d9d79ce360b8e6030837a15a2992b235ecba783a8b21417b1f51146",
+          "step_pixels": 58,
+          "overlap_error": 0.0,
+          "strip_offset": 300
+        },
+        {
+          "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-18_098381\\beanstalk-landed.frame00020",
+          "native_map_offset": 94,
+          "world_height": 0,
+          "graphics_sha256": "f7b59f50cfd693152d3583f5c81e6373a7aea72985f2a515963d04202643d558",
+          "step_pixels": 50,
+          "overlap_error": 0.0,
+          "strip_offset": 350
+        }
+      ],
+      "initial_state_sha256": "e46a46352a0eb12a8bbf4d72eae77295a4278394923e45589de7f35b4af622af",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    }
+  }
+}

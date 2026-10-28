@@ -1,0 +1,467 @@
+{
+  "parameters": {
+    "sources": [
+      [
+        "scripts/OUTPUT/eggo-reference_2026-10-03_18-33-28_689905/cloud-stay.frame00004",
+        26,
+        283
+      ],
+      [
+        "scripts/OUTPUT/eggo-reference_2026-10-03_18-33-28_689905/cloud-stay.frame00024",
+        26,
+        263
+      ],
+      [
+        "scripts/OUTPUT/eggo-reference_2026-10-03_18-33-28_689905/cloud-stay.frame00064",
+        27,
+        223
+      ],
+      [
+        "scripts/OUTPUT/eggo-reference_2026-10-03_18-34-06_756390/cloud-stay-long.frame00020",
+        27,
+        167
+      ],
+      [
+        "scripts/OUTPUT/eggo-reference_2026-10-03_19-06-59_360101/cloud-jump-hit.frame00087",
+        27,
+        200
+      ]
+    ],
+    "palette": 3,
+    "sprite_size": 64,
+    "counter_address": 66424,
+    "position_addresses": [
+      66428,
+      66432
+    ],
+    "input_replay": "scripts/OUTPUT/eggo-reference_2026-10-03_18-32-01_021801/cloud-native",
+    "first_frame": "scripts/OUTPUT/eggo-reference_2026-10-03_18-44-25_623063/cloud-start.frame00001"
+  },
+  "records": [
+    {
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_18-33-28_689905/cloud-stay.frame00004",
+      "object": {
+        "id": 26,
+        "x": 48,
+        "y": 24,
+        "w": 64,
+        "h": 64,
+        "tile": 702,
+        "palette": 3
+      },
+      "counter": 283,
+      "atlas_frame": 0,
+      "position": [
+        3145728,
+        43515904
+      ],
+      "image_sha256": "a3ca403eaab4b04502db9798e768643d88e72c37d272661cbd183b6a9b863705",
+      "source_parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_18-32-01_021801/cloud-native.frame01036.state",
+        "steps": [
+          [
+            100,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": true,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "audio": null,
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          4,
+          12,
+          16,
+          24,
+          32,
+          48,
+          64
+        ],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "f49ef24263c4a4c8622caaadba94db016f4302d3ac09d2f810e1127aeaf53246",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 100
+      },
+      "ram_sha256": "dfc54cce525a546a8c4250d0581a2ebb0d5618cae9dee672bda172e6f0b766f6"
+    },
+    {
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_18-33-28_689905/cloud-stay.frame00024",
+      "object": {
+        "id": 26,
+        "x": 48,
+        "y": 24,
+        "w": 64,
+        "h": 64,
+        "tile": 702,
+        "palette": 3
+      },
+      "counter": 263,
+      "atlas_frame": 0,
+      "position": [
+        3145728,
+        43515904
+      ],
+      "image_sha256": "a3ca403eaab4b04502db9798e768643d88e72c37d272661cbd183b6a9b863705",
+      "source_parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_18-32-01_021801/cloud-native.frame01036.state",
+        "steps": [
+          [
+            100,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": true,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "audio": null,
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          4,
+          12,
+          16,
+          24,
+          32,
+          48,
+          64
+        ],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "f49ef24263c4a4c8622caaadba94db016f4302d3ac09d2f810e1127aeaf53246",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 100
+      },
+      "ram_sha256": "535e660441d192c562b5626db1c5358e4a17f6861b8f71262cef92d517bf6c48"
+    },
+    {
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_18-33-28_689905/cloud-stay.frame00064",
+      "object": {
+        "id": 27,
+        "x": 48,
+        "y": 24,
+        "w": 64,
+        "h": 64,
+        "tile": 638,
+        "palette": 3
+      },
+      "counter": 223,
+      "atlas_frame": 0,
+      "position": [
+        3145728,
+        43515904
+      ],
+      "image_sha256": "a3ca403eaab4b04502db9798e768643d88e72c37d272661cbd183b6a9b863705",
+      "source_parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_18-32-01_021801/cloud-native.frame01036.state",
+        "steps": [
+          [
+            100,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": true,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "audio": null,
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          4,
+          12,
+          16,
+          24,
+          32,
+          48,
+          64
+        ],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "f49ef24263c4a4c8622caaadba94db016f4302d3ac09d2f810e1127aeaf53246",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 100
+      },
+      "ram_sha256": "92e549f5365db9b07135689b757e5e7c84dee07a77631e39ac3a67b5642d34d2"
+    },
+    {
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_18-34-06_756390/cloud-stay-long.frame00020",
+      "object": {
+        "id": 27,
+        "x": 48,
+        "y": 24,
+        "w": 64,
+        "h": 64,
+        "tile": 638,
+        "palette": 3
+      },
+      "counter": 167,
+      "atlas_frame": 0,
+      "position": [
+        3145728,
+        43515904
+      ],
+      "image_sha256": "a3ca403eaab4b04502db9798e768643d88e72c37d272661cbd183b6a9b863705",
+      "source_parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_18-33-28_689905/cloud-stay.state",
+        "steps": [
+          [
+            240,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "audio": null,
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          20,
+          40,
+          60,
+          100,
+          140,
+          180,
+          220
+        ],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "c3ca20649f51fa4c1ddb5a80246f6b54c7b42c59a0fabc72545e853908ccb68b",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 240
+      },
+      "ram_sha256": "41e66679e6aeaf6fa76ce2c8dfcde719e6eada65d201341ac53c730208de6a30"
+    },
+    {
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_19-06-59_360101/cloud-jump-hit.frame00087",
+      "object": {
+        "id": 27,
+        "x": 48,
+        "y": 56,
+        "w": 64,
+        "h": 64,
+        "tile": 638,
+        "palette": 3
+      },
+      "counter": 200,
+      "atlas_frame": 1,
+      "position": [
+        3145728,
+        43515904
+      ],
+      "image_sha256": "91704a419266a66a0a408dc3fec45397f56187596fe0c098ff65a9734c2e0f39",
+      "source_parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_18-32-01_021801/cloud-native.frame01036.state",
+        "steps": [
+          [
+            70,
+            ""
+          ],
+          [
+            28,
+            "UP"
+          ],
+          [
+            22,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "audio": null,
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          70,
+          85,
+          86,
+          87,
+          100,
+          120
+        ],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "f49ef24263c4a4c8622caaadba94db016f4302d3ac09d2f810e1127aeaf53246",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 120
+      },
+      "ram_sha256": "83acfa481088025a6604bd4b304464bed64aeffe1e834a4ecbe09ecb9ceb9c68"
+    }
+  ],
+  "first_displayed_counter": 286,
+  "image_sha256": "52856d358b03a3a3e6787d527b9266df33cf393065a243977927f72871d4d47e",
+  "limits": "Normal/strike textures. Visible texture follows the previous physics counter because of native sprite-buffer latency. Environmental electric bubble is a separate effect."
+}

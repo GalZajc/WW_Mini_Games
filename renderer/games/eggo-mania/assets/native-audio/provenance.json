@@ -1,0 +1,18 @@
+{
+  "asset": "scripts/OUTPUT/eggo-sound-driver-extract_2026-10-26T19-33-58-670Z",
+  "oracle": "scripts/OUTPUT/eggo-native-sound-state_2026-10-26T20-01-22_483068Z",
+  "build": "scripts/OUTPUT/eggo-audio-hardware-build_2026-10-26T21-07-43_398070Z",
+  "output": "renderer/games/eggo-mania/assets/native-audio",
+  "initialFrame": 400,
+  "sha256": {
+    "hardware-initial.bin": "fdbbbcd611413a404b4e2634febbb8e53a6f8f7ad538d3b0ae3fb56267cb36eb",
+    "driver-initial.bin": "a0664a847cf1bf345dce2162bf7e6d4a41f414aad1d55fc519b697f21f6b1b7c",
+    "driver-io.bin": "5a8de130dae3263cddc72b3a0294abd9e23ee794d34968f6a47cddaf86ca7cd5",
+    "sound-driver.bin": "635664010a98823dfbe9a3eb13b8bfb066093036e11cade6eaa9c780242c0ff5",
+    "manifest.json": "c619bd852e6267434e4bc6257780361fd813f1fd9cdf32075b0f08e7794df9a8",
+    "audio-hardware.wasm": "81b37eedf51d6e956ffad95ffba345d48b7dc93f41a68155b9e240508eef71ca"
+  },
+  "bootstrapBytes": 432,
+  "containsFullRom": false,
+  "containsGameState": false
+}

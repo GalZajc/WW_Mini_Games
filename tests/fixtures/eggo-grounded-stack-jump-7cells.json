@@ -1,0 +1,125 @@
+{
+  "source_setup_run": "scripts/OUTPUT/eggo-reference_2026-10-07_03-31-25_724061/actual-placement-jump",
+  "source_checkpoint_run": "scripts/OUTPUT/eggo-reference_2026-10-07_03-32-38_888496/placed-stack-jump",
+  "source_checkpoint": "scripts/OUTPUT/eggo-reference_2026-10-07_03-32-38_888496/placed-stack-jump.frame00072.state",
+  "source_checkpoint_frame_after_followup": 72,
+  "source_input_tape": "tests/OUTPUT/eggo-input-replay_2026-10-07_03-16-26_086460/steps.json",
+  "source_followup_run": "scripts/OUTPUT/eggo-reference_2026-10-07_03-35-27_964683/authentic-grounded-stack-jump",
+  "source_rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "source_core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+  "rows_bottom_up": [
+    [
+      0,
+      3,
+      3,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      3,
+      3,
+      0,
+      4,
+      4,
+      0,
+      0
+    ]
+  ],
+  "piece_templates": {
+    "3": {
+      "kind": 6,
+      "rotation": 0,
+      "placement_frame": 47
+    },
+    "4": {
+      "kind": 3,
+      "rotation": 3,
+      "placement_frame": 110
+    }
+  },
+  "actor": {
+    "x": 2.875,
+    "y": 1.938532829284668,
+    "vy": -0.0,
+    "ground": true,
+    "facing": 1,
+    "native_frame_before_input": 788,
+    "native_source_pose": "idle"
+  },
+  "bg3_global_frame_before_input": 788,
+  "waterline": -2.0,
+  "cells": 7,
+  "input": {
+    "gba": "UP",
+    "app_action": "jump",
+    "hold_frames": 40,
+    "total_frames": 90
+  },
+  "native_peak_height": 5.8763933181762695,
+  "native_samples": [
+    {
+      "frame": 1,
+      "x": 2.875,
+      "y": 1.938532829284668,
+      "vy": 13.125
+    },
+    {
+      "frame": 2,
+      "x": 2.875,
+      "y": 2.157282829284668,
+      "vy": 12.75003433227539
+    },
+    {
+      "frame": 8,
+      "x": 2.875,
+      "y": 3.3385448455810547,
+      "vy": 10.500240325927734
+    },
+    {
+      "frame": 18,
+      "x": 2.875,
+      "y": 4.807360649108887,
+      "vy": 6.750583648681641
+    },
+    {
+      "frame": 32,
+      "x": 2.875,
+      "y": 5.813798904418945,
+      "vy": 1.5010643005371094
+    },
+    {
+      "frame": 40,
+      "x": 2.875,
+      "y": 5.838956832885742,
+      "vy": -1.4986610412597656
+    },
+    {
+      "frame": 56,
+      "x": 2.875,
+      "y": 3.9393367767333984,
+      "vy": -13.125
+    },
+    {
+      "frame": 64,
+      "x": 2.875,
+      "y": 2.1893367767333984,
+      "vy": -13.125
+    },
+    {
+      "frame": 72,
+      "x": 2.875,
+      "y": 1.9705867767333984,
+      "vy": -0.0
+    },
+    {
+      "frame": 90,
+      "x": 2.875,
+      "y": 1.9705867767333984,
+      "vy": -0.0
+    }
+  ],
+  "tolerance_cells": 0.002,
+  "limitations": "Authentic grounded checkpoint after a 600-frame input replay built the player cells through actual gameplay. Native ROM follow-up holds UP for 40 frames and then releases for 50. Validates the reproduced board-jump path and rendered board stability; not whole-screen pixel parity or the users original save."
+}

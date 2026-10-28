@@ -182,6 +182,11 @@ export class PauseMenu {
                     <span class="item-label">Game modes</span>
                 </button>` : ''}
                 <div class="pause-separator"></div>
+                ${['music', 'effects'].map(channel => `<label class="pause-volume" style="display:flex;align-items:center;gap:8px;font-size:12px;padding:5px 12px">
+                    <span style="width:56px">${channel === 'music' ? 'Music' : 'Effects'}</span>
+                    <input type="range" data-volume="${channel}" aria-label="${channel} volume" min="0" max="100" step="1" value="${Math.round((this.app.audio?.volumes?.[channel] ?? 1) * 100)}" style="flex:1;min-width:0">
+                    <output style="width:34px;text-align:right">${Math.round((this.app.audio?.volumes?.[channel] ?? 1) * 100)}%</output>
+                </label>`).join('')}
                 <button class="pause-menu-item danger" data-action="exit">
                     <span class="item-icon">✕</span>
                     <span class="item-label">Exit to Menu</span>
@@ -191,6 +196,12 @@ export class PauseMenu {
 
         this.panel.querySelectorAll('[data-action]').forEach(btn => {
             btn.addEventListener('click', () => this._onMenuAction(btn.dataset.action));
+        });
+        this.panel.querySelectorAll('[data-volume]').forEach(input => {
+            input.addEventListener('input', () => {
+                this.app.audio?.setVolume(input.dataset.volume, Number(input.value) / 100);
+                input.nextElementSibling.textContent = `${input.value}%`;
+            });
         });
     }
 
@@ -1022,9 +1033,11 @@ export class PauseMenu {
 
     async _saveControls() {
         const gameId = this._gameConfig._id;
-        await this.app.settingsManager.saveKeybindings(gameId, this._tempBindings);
+        const bindings = clone(this._tempBindings);
+        await this.app.settingsManager.saveKeybindings(gameId, bindings);
         // Update live bindings
-        this.app.input.setActionBindings(this._tempBindings);
+        this.app.currentBindings = bindings;
+        this.app.input.setActionBindings(bindings);
         this._view = 'main';
         this._render();
     }

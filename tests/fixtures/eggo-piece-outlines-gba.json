@@ -1,0 +1,125 @@
+{
+  "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "initial_state_sha256": "9b38e747d43587b523a0e30d7ceb84cc8040da35f360062ede34a7588bac442c",
+  "capture_steps": [
+    [
+      28,
+      ""
+    ],
+    [
+      1,
+      "B"
+    ],
+    [
+      9,
+      ""
+    ]
+  ],
+  "captures": [
+    {
+      "kind": 0,
+      "orientation": 0,
+      "frame": 28,
+      "oam_object": 36,
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-06_06-42-28_529871/preview-kind-0-outline-trace.frame00028.sprites/036.png",
+      "fixture": "tests/fixtures/eggo-piece-outline-kind0-oam.png",
+      "sha256": "fa970ca9d251e1ad17ad1c1f95b4980608d1e87d2226fa19198d68c3bef1ec82",
+      "size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "kind": 1,
+      "orientation": 0,
+      "frame": 28,
+      "oam_object": 36,
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-06_06-42-30_410473/preview-kind-1-outline-trace.frame00028.sprites/036.png",
+      "fixture": "tests/fixtures/eggo-piece-outline-kind1-oam.png",
+      "sha256": "311e54e8d29a275fa42bed76c687cf6f0e1c7f9ab8b23d50e9b47ed942fc24da",
+      "size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "kind": 2,
+      "orientation": 0,
+      "frame": 28,
+      "oam_object": 36,
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-06_06-42-32_731691/preview-kind-2-outline-trace.frame00028.sprites/036.png",
+      "fixture": "tests/fixtures/eggo-piece-outline-kind2-oam.png",
+      "sha256": "8cfaa550af4d2f8eb4048f8530da221366e03285dd5c34eb69f3e73b8fe3fff1",
+      "size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "kind": 3,
+      "orientation": 0,
+      "frame": 28,
+      "oam_object": 36,
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-06_06-42-34_915764/preview-kind-3-outline-trace.frame00028.sprites/036.png",
+      "fixture": "tests/fixtures/eggo-piece-outline-kind3-oam.png",
+      "sha256": "755a23a3f081e990b45ed045b60a0758ed41c687467a509ff2f3c8b9f9dd16b7",
+      "size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "kind": 4,
+      "orientation": 0,
+      "frame": 28,
+      "oam_object": 36,
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-06_06-42-37_003864/preview-kind-4-outline-trace.frame00028.sprites/036.png",
+      "fixture": "tests/fixtures/eggo-piece-outline-kind4-oam.png",
+      "sha256": "4d45b18c9779712630fbd56d65a35959b77f0a20ac01820c6c9b99332d7f1c22",
+      "size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "kind": 5,
+      "orientation": 0,
+      "frame": 28,
+      "oam_object": 36,
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-06_06-42-38_963902/preview-kind-5-outline-trace.frame00028.sprites/036.png",
+      "fixture": "tests/fixtures/eggo-piece-outline-kind5-oam.png",
+      "sha256": "f907d04fd61f42a4ceceeabaf915d57fed797631588e634e7cfcf6d70ca4055c",
+      "size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "kind": 6,
+      "orientation": 0,
+      "frame": 28,
+      "oam_object": 36,
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-06_06-42-41_156919/preview-kind-6-outline-trace.frame00028.sprites/036.png",
+      "fixture": "tests/fixtures/eggo-piece-outline-kind6-oam.png",
+      "sha256": "b9b0815af6ef30ad67f1bd8c3da448eabba45e2b3da9d3175ee951459088dbfb",
+      "size_px": [
+        64,
+        64
+      ]
+    },
+    {
+      "kind": 7,
+      "orientation": 0,
+      "frame": 28,
+      "oam_object": 36,
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-06_06-42-43_284404/preview-kind-7-outline-trace.frame00028.sprites/036.png",
+      "fixture": "tests/fixtures/eggo-piece-outline-kind7-oam.png",
+      "sha256": "dab8b12b8b4fb84608035adf1fb86ab3c8214343e4a1ebd5409edf5cf0b832a5",
+      "size_px": [
+        64,
+        64
+      ]
+    }
+  ],
+  "note": "Raw 64x64 OAM source images for the connected white piece outline; affine transform and palette are excluded."
+}

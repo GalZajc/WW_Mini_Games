@@ -1,0 +1,2557 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-04_17-18-51_654025/floor-wave-animation",
+    "position": 201752,
+    "velocity": 201744,
+    "actor_roots": [
+      15316,
+      20304
+    ],
+    "count_offset": 2092,
+    "frame_address": 72348,
+    "samples": 80,
+    "pointer_objects": [
+      4,
+      7
+    ],
+    "bar_objects": [
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "bar_rom_offsets": [
+      897112,
+      898136,
+      895064,
+      896088
+    ],
+    "bar_width": 64,
+    "bar_height": 32,
+    "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+    "random_seed": "encoded in the original initial state",
+    "original_run": {
+      "collapse_trace_parameters": {
+        "field_roots": [
+          13116,
+          18104
+        ],
+        "timer_offset": 4780,
+        "timer_rows": 50,
+        "wave_offset": 2168,
+        "wave_y": 4,
+        "wave_vy": 24,
+        "destructive_offset": 4984,
+        "delay": 120,
+        "rise_speed": 23100
+      },
+      "pickup_trace_parameters": null,
+      "pickup_initial": null,
+      "output_collision_index": 0,
+      "enemy_trace_parameters": null,
+      "projectile_trace_parameters": null,
+      "item_trace_parameters": null,
+      "rival_pose_parameters": null,
+      "load": "scripts/OUTPUT/eggo-reference_2026-10-04_10-55-24_353501/collapse-onset-replay.state",
+      "steps": [
+        [
+          80,
+          ""
+        ]
+      ],
+      "steps_file": null,
+      "writes": [],
+      "sample_every": 1,
+      "sample_graphics": true,
+      "oam_trace": false,
+      "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+      "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+      "arena_trace_parameters": null,
+      "arena_initial": null,
+      "survival_config_parameters": null,
+      "survival_config_initial": null,
+      "audio": null,
+      "board_events": false,
+      "board_parameters": {
+        "start": 65668,
+        "field_stride": 4684,
+        "rows": 47,
+        "stride": 8,
+        "columns": 7,
+        "fields": 2
+      },
+      "snapshot_frames": [],
+      "music_trace_parameters": null,
+      "ai_trace_parameters": null,
+      "bot_parameters": null,
+      "bot_observed_shapes": null,
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "initial_state_sha256": "0e60e0bb605b8540f90dfb897f20d0228a22ca6fa19c57043130e14ef56f434e",
+      "random_seed": "encoded in the initial emulator state",
+      "core_options": {
+        "mgba_solar_sensor_level": "0",
+        "mgba_allow_opposing_directions": "no",
+        "mgba_gb_model": "Autodetect",
+        "mgba_use_bios": "ON",
+        "mgba_skip_bios": "OFF",
+        "mgba_sgb_borders": "ON",
+        "mgba_idle_optimization": "Remove Known",
+        "mgba_frameskip": "disabled",
+        "mgba_frameskip_threshold": "33",
+        "mgba_frameskip_interval": "0",
+        "mgba_color_correction": "OFF",
+        "mgba_interframe_blending": "OFF",
+        "mgba_force_gbp": "OFF",
+        "mgba_gb_colors": "Grayscale"
+      },
+      "frames": 80
+    },
+    "initial_ram_sha256": "b9142d10059d0d0699b448a4aeb2f8db24d9c1d6745d8afb88883dc3ed1cb50b",
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "palette_sha256": "498333f4a53e062a4c23109ab2fbf9357b85c144371bbe7dbe97103ca83bb2c7"
+  },
+  "initial": {
+    "frame": 977,
+    "meters": [
+      {
+        "position": 4297418,
+        "velocity": 30229,
+        "count": 7
+      },
+      {
+        "position": 10583162,
+        "velocity": 0,
+        "count": 2
+      }
+    ]
+  },
+  "samples": [
+    {
+      "frame": 1,
+      "native_frame": 978,
+      "meters": [
+        {
+          "position": 4361780,
+          "velocity": 64362,
+          "count": 7,
+          "pointer": {
+            "x": 65,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "006e7f7229bc2cd1fdab80922b1e528bcb48f520f5d770634ca9dd71e72e9bd4",
+      "oam_sha256": "df22c5ee735222b45adba62eaceb575ec2b1efbe8705f204a1f8231fb5ba0d75"
+    },
+    {
+      "frame": 2,
+      "native_frame": 979,
+      "meters": [
+        {
+          "position": 4458264,
+          "velocity": 96484,
+          "count": 7,
+          "pointer": {
+            "x": 66,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "3f53423a44b2ca5abcea762c5debe75086ff8047c75da733e991e4d6e64088de",
+      "oam_sha256": "7ad3c6b8949a5473f953f045fa8101f8529af4140b35bd180e4abc0f6f471069"
+    },
+    {
+      "frame": 3,
+      "native_frame": 980,
+      "meters": [
+        {
+          "position": 4583855,
+          "velocity": 125591,
+          "count": 7,
+          "pointer": {
+            "x": 68,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "e5794eb50823e10a9e924d429d1e6fccbfdc8bbfe8f6393dfc454a053c92c891",
+      "oam_sha256": "bd4adb7e1edea4f9fcaae7cfcd326aaaf46243f156ccc16c37bc60af68268f9f"
+    },
+    {
+      "frame": 4,
+      "native_frame": 981,
+      "meters": [
+        {
+          "position": 4734628,
+          "velocity": 150773,
+          "count": 7,
+          "pointer": {
+            "x": 69,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "23cfac2fb6e3a316225c3733a012bcc14eb9ebcaf5dfa5dbc4f6c9d9e23ca314",
+      "oam_sha256": "7d4618e12277597fb7cf943ecde9d785b3bc92bd12cd44444bb4282dfabae9ce"
+    },
+    {
+      "frame": 5,
+      "native_frame": 982,
+      "meters": [
+        {
+          "position": 4905871,
+          "velocity": 171243,
+          "count": 7,
+          "pointer": {
+            "x": 72,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "7eb7291be2572ef9c876017b38199e5d7b5ffef484304d023530b2e0730fd0db",
+      "oam_sha256": "571f1cad74c2650bd630c9b6d7ec72a42354dee8e1c33ba07a9fab715e9fb3c8"
+    },
+    {
+      "frame": 6,
+      "native_frame": 983,
+      "meters": [
+        {
+          "position": 5092233,
+          "velocity": 186362,
+          "count": 7,
+          "pointer": {
+            "x": 74,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "b19ffb8218abafd442cb8f41b7a29921036b88a482d82d927c5807ca066c9cb8",
+      "oam_sha256": "ce2bfd81ec5689f72a096dfd453cb17696832d0a60dcedda31e6ad57a131dacd"
+    },
+    {
+      "frame": 7,
+      "native_frame": 984,
+      "meters": [
+        {
+          "position": 5287890,
+          "velocity": 195657,
+          "count": 7,
+          "pointer": {
+            "x": 77,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "c2d13f034a841ae86863ee5290b2488235490e32374b1ee5e9fe4d2c45366e81",
+      "oam_sha256": "03871574193c2b200bcd291e9d1481e1f37c7477a0eb2f0c58db70c6fef45425"
+    },
+    {
+      "frame": 8,
+      "native_frame": 985,
+      "meters": [
+        {
+          "position": 5486728,
+          "velocity": 198838,
+          "count": 7,
+          "pointer": {
+            "x": 80,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "d1ec58ae4fb538361d2479ee97e88981bfca45a2751456959c394fb9c5fbc72e",
+      "oam_sha256": "1dc108a6b834e2bf3cc680cf76fcf9093060d1c48b5794c38c9c86630b85118d"
+    },
+    {
+      "frame": 9,
+      "native_frame": 986,
+      "meters": [
+        {
+          "position": 5682533,
+          "velocity": 195805,
+          "count": 7,
+          "pointer": {
+            "x": 83,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "cb16a8c47ea6d62e7db84b78b1e6caf68ac0cd434dc4638cecd774cedf1a5108",
+      "oam_sha256": "aa6e695b4a39cc94e5446cec227e6feb622226a58a81bf537aa0b53de5b77ebb"
+    },
+    {
+      "frame": 10,
+      "native_frame": 987,
+      "meters": [
+        {
+          "position": 5869186,
+          "velocity": 186653,
+          "count": 7,
+          "pointer": {
+            "x": 86,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "89a6f4f6f8c416d617eea575870528e03108612cdbf6b3854fc586cc3819f9ce",
+      "oam_sha256": "dc05a7df99d5d596659a88291c152b162cffe1292de5aca5357cf62b100ff836"
+    },
+    {
+      "frame": 11,
+      "native_frame": 988,
+      "meters": [
+        {
+          "position": 6029312,
+          "velocity": 171668,
+          "count": 7,
+          "pointer": {
+            "x": 89,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "ff288ba257e36998a578b2787ab72a6eb77ad9cb59054cf31b767f737f2b499a",
+      "oam_sha256": "74da16d71026204ff1757b6476b79a178c6ff68c687ca7b6fb3c682068273ab8"
+    },
+    {
+      "frame": 12,
+      "native_frame": 989,
+      "meters": [
+        {
+          "position": 6029312,
+          "velocity": 151680,
+          "count": 7,
+          "pointer": {
+            "x": 92,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "635871a40b8053bab62a41b0beb63c8dbad9a3cb1891d086412f735b9456d89e",
+      "oam_sha256": "f1e664e14b583ebc0545af2163002ffa00f4a11c1b08cdd5dc793c48d7441d25"
+    },
+    {
+      "frame": 13,
+      "native_frame": 990,
+      "meters": [
+        {
+          "position": 6029312,
+          "velocity": 131692,
+          "count": 7,
+          "pointer": {
+            "x": 92,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "33dfe29a94947f26be7fed63a13fdabf08f2e84f8ad0c73708c5bc20d07f6fc8",
+      "oam_sha256": "2bb5131963917885d882fbf2138dea9a52d0df510ceda70c382efb63ce7fdf7a"
+    },
+    {
+      "frame": 14,
+      "native_frame": 991,
+      "meters": [
+        {
+          "position": 6029312,
+          "velocity": 111704,
+          "count": 7,
+          "pointer": {
+            "x": 92,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "056d0a01391294b2a82165abda2db6729f23709a347c59cf8295c6c9f9fe2cc9",
+      "oam_sha256": "23162d205a274156ce219e9cd73aaae72643de421def8d60242c3bebcc8aa052"
+    },
+    {
+      "frame": 15,
+      "native_frame": 992,
+      "meters": [
+        {
+          "position": 6029312,
+          "velocity": 91716,
+          "count": 7,
+          "pointer": {
+            "x": 92,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "03e4ed65d87e1c9451caa35e4e71c95d31be5b8ff8a326c662885bae540873f5",
+      "oam_sha256": "d2fbdb73acf21e2313f0ead93a9bff41f222e05b41ee01e9e99a1ca0950dc750"
+    },
+    {
+      "frame": 16,
+      "native_frame": 993,
+      "meters": [
+        {
+          "position": 6029312,
+          "velocity": 71728,
+          "count": 7,
+          "pointer": {
+            "x": 92,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "a31c8731a8ca0ddcdb9d0526e7277793ec0942e9bc02ad7fae22419f91d6f77b",
+      "oam_sha256": "d72ba5aac5012bd85cb580692233c042e40340181a385fb7f87412ccff48620f"
+    },
+    {
+      "frame": 17,
+      "native_frame": 994,
+      "meters": [
+        {
+          "position": 6029312,
+          "velocity": 51740,
+          "count": 7,
+          "pointer": {
+            "x": 92,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "1565d27dab121be6175a1761f112bfff01cc854bbb5ec7fc2990782bdfc201b8",
+      "oam_sha256": "1dcbf2b592e67099fe54e9c83d50136bebdc8f7720b08639555226140c2ed86e"
+    },
+    {
+      "frame": 18,
+      "native_frame": 995,
+      "meters": [
+        {
+          "position": 6029312,
+          "velocity": 31752,
+          "count": 7,
+          "pointer": {
+            "x": 92,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "526b2837431a91353c9e0cfbd9d056caa5a495107b0853b947fb27e39bf8019f",
+      "oam_sha256": "495d9876bb82fad7893d87d61db0c25f4d32577dc3f08ae388b10561dc229dea"
+    },
+    {
+      "frame": 19,
+      "native_frame": 996,
+      "meters": [
+        {
+          "position": 6029312,
+          "velocity": 11764,
+          "count": 7,
+          "pointer": {
+            "x": 92,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "61bdd0a5c12c22a47e5dad04d845dd03eab9f18eb5de6fe6ed4140662ebd8614",
+      "oam_sha256": "78b332c932f7f5b756dfcba49d7761e2cacd01af9a17525b9bb315ef4e4dee2e"
+    },
+    {
+      "frame": 20,
+      "native_frame": 997,
+      "meters": [
+        {
+          "position": 6028296,
+          "velocity": -1016,
+          "count": 7,
+          "pointer": {
+            "x": 92,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "5cd41b36e2bbc2e5dbb5e1ca08565c2f44490eaa66dee32cdb8fe7b226f65e4c",
+      "oam_sha256": "f60dd1790ac0e1826cdc874cbddad7ec7aac241edaed383b408938f43bd306cb"
+    },
+    {
+      "frame": 21,
+      "native_frame": 998,
+      "meters": [
+        {
+          "position": 6014531,
+          "velocity": -13765,
+          "count": 7,
+          "pointer": {
+            "x": 91,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "85c90281d843bb52d2ffeadaca44540e79248ad2db716d5bcd5994b52caf1bf0",
+      "oam_sha256": "789e337cb5d1352a3e1efacdc9bf13eb71820a46d7be4c1e94720445dafc6ec0"
+    },
+    {
+      "frame": 22,
+      "native_frame": 999,
+      "meters": [
+        {
+          "position": 5988447,
+          "velocity": -26084,
+          "count": 7,
+          "pointer": {
+            "x": 91,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "f31ccb3a7cb0764dba01a8d6c55a0ab659eba5bb8561cfdcd4eafe29a38904ed",
+      "oam_sha256": "1735df2a88be00d7f2f3f4c9c99b47fa9bcdc8b5d3b41e93cb0a7ca9e6d794ff"
+    },
+    {
+      "frame": 23,
+      "native_frame": 1000,
+      "meters": [
+        {
+          "position": 5950860,
+          "velocity": -37587,
+          "count": 7,
+          "pointer": {
+            "x": 91,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "295320c1691f37f6f9e574673bead02dfa5ec2347ee3e4e1257b457e113a0c3d",
+      "oam_sha256": "170a137081c39e4345533c9cc5240be791b26ca8cef0d1a944ecdaffb7d29bba"
+    },
+    {
+      "frame": 24,
+      "native_frame": 1001,
+      "meters": [
+        {
+          "position": 5902944,
+          "velocity": -47916,
+          "count": 7,
+          "pointer": {
+            "x": 90,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "01be88e79cfd651648047a8c789354875f3d03e3bf64e7e02fce6176c4572597",
+      "oam_sha256": "e7e62d3d7962422c619a15c5060cbdbed89e6df2e9b34a5240f2f6e654757cdf"
+    },
+    {
+      "frame": 25,
+      "native_frame": 1002,
+      "meters": [
+        {
+          "position": 5846197,
+          "velocity": -56747,
+          "count": 7,
+          "pointer": {
+            "x": 90,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "4469c0bcbc1fc4d024a408716541b6cee118b1e35e315aa4e2617549c2f0e900",
+      "oam_sha256": "d8bb69155a43f24bb47302afaf61314fd78f9906ccad073fc1f557ab5535780b"
+    },
+    {
+      "frame": 26,
+      "native_frame": 1003,
+      "meters": [
+        {
+          "position": 5782392,
+          "velocity": -63805,
+          "count": 7,
+          "pointer": {
+            "x": 89,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "a60caf7b0117063031912a43e8a48732d8d9e454c14edab5b45f74e43df02141",
+      "oam_sha256": "cc6730137d9c18afe57054e6b53c330f44b8e5e07a3ea1a5981c64dd2e5509fc"
+    },
+    {
+      "frame": 27,
+      "native_frame": 1004,
+      "meters": [
+        {
+          "position": 5713523,
+          "velocity": -68869,
+          "count": 7,
+          "pointer": {
+            "x": 88,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "547214d8f04c19f014c2959c2ced2df905e670014206b8b7adbcb74af5bf8011",
+      "oam_sha256": "0ac23777518183707dbdfbfd285d445653f7ea6363cb7db70831fb9593672508"
+    },
+    {
+      "frame": 28,
+      "native_frame": 1005,
+      "meters": [
+        {
+          "position": 5641742,
+          "velocity": -71781,
+          "count": 7,
+          "pointer": {
+            "x": 87,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "49851e79981e9d5af032af2b6ca5a0111365e4ca872b797de0640e72e6fc9411",
+      "oam_sha256": "440dc2a232cad0f1b42c6b890776ef8bf4b3af8e2beff676b3067913556daf45"
+    },
+    {
+      "frame": 29,
+      "native_frame": 1006,
+      "meters": [
+        {
+          "position": 5569292,
+          "velocity": -72450,
+          "count": 7,
+          "pointer": {
+            "x": 86,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "0668f53843bbc69aba7a050f24b0c413620133df3a5607b4b2d2c23b7ac187b5",
+      "oam_sha256": "35d553ecd32ecf940108c078c215d4d09377ab94130571d078ca365a874a87c6"
+    },
+    {
+      "frame": 30,
+      "native_frame": 1007,
+      "meters": [
+        {
+          "position": 5498437,
+          "velocity": -70855,
+          "count": 7,
+          "pointer": {
+            "x": 84,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "c1f51cffa7cc798bf7ba376ac0fe990848318546e0925c8b970337037bf0cb71",
+      "oam_sha256": "cb38e7fe5988ea8840d3a303c3d368f18be66cf7edd76df8853038bfb697eb4b"
+    },
+    {
+      "frame": 31,
+      "native_frame": 1008,
+      "meters": [
+        {
+          "position": 5431391,
+          "velocity": -67046,
+          "count": 7,
+          "pointer": {
+            "x": 83,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "118cb36bc0678b2140a998cc92bbd4d3e9b3b855d063a2b38f1b770a33af6d70",
+      "oam_sha256": "0889cf4e690d1fbd50b1daf38bf69d53e539fd3208b2d1913da9d31ef36bf08d"
+    },
+    {
+      "frame": 32,
+      "native_frame": 1009,
+      "meters": [
+        {
+          "position": 5370250,
+          "velocity": -61141,
+          "count": 7,
+          "pointer": {
+            "x": 82,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "fab40c248ac8b24f68d9c1455eb0027b1fcdd01878f10aa7f36ed6862c166668",
+      "oam_sha256": "e8fdd0479ba2abb7762798feef40f88c335d30359a5d61c883ae54b299a18dba"
+    },
+    {
+      "frame": 33,
+      "native_frame": 1010,
+      "meters": [
+        {
+          "position": 5316924,
+          "velocity": -53326,
+          "count": 7,
+          "pointer": {
+            "x": 81,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "2efd4804c66ea9c515b400277e7a7a7c0d6513031f38fddd1e35183cc04a66e6",
+      "oam_sha256": "66f8d743c4301ff96e684071b92de6eb8425c8dad22d687303cd6c5f31104250"
+    },
+    {
+      "frame": 34,
+      "native_frame": 1011,
+      "meters": [
+        {
+          "position": 5273080,
+          "velocity": -43844,
+          "count": 7,
+          "pointer": {
+            "x": 81,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "e71df2a204cc592444c1995d48c91e25c0463a94e843f8e27477c5bf950f366e",
+      "oam_sha256": "3c381e61dc6365912d9f6bc77c2045f0f761ca104b04c7b139bfbaa9ace771f7"
+    },
+    {
+      "frame": 35,
+      "native_frame": 1012,
+      "meters": [
+        {
+          "position": 5240088,
+          "velocity": -32992,
+          "count": 7,
+          "pointer": {
+            "x": 80,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "911ca33e3f5d5d4a88ebcea7a5612013184e8ad2554843d9d0f37e41e7c566b8",
+      "oam_sha256": "dd676ef1cc9530321dad1651e756ffe14cd02c0dc542a655eba80d8a991c3c24"
+    },
+    {
+      "frame": 36,
+      "native_frame": 1013,
+      "meters": [
+        {
+          "position": 5218979,
+          "velocity": -21109,
+          "count": 7,
+          "pointer": {
+            "x": 79,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "97de56f97852662c9f4613d1cfb76852b3c79d3d2ad04bbbd1e4c22e37546e7e",
+      "oam_sha256": "4a5e6b44865cf158ea16743cfbe579e4b719f677ee1d73136e52b07a8fe34518"
+    },
+    {
+      "frame": 37,
+      "native_frame": 1014,
+      "meters": [
+        {
+          "position": 5210412,
+          "velocity": -8567,
+          "count": 7,
+          "pointer": {
+            "x": 79,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "5f23fe886ac135a072d0316c47e59ee3cac84030aa0cb0bc1fa529b68b288bb6",
+      "oam_sha256": "d40fce4471456e64d84a9202d1115ce4ca575b98314a67f8d0407c5d805a8dd7"
+    },
+    {
+      "frame": 38,
+      "native_frame": 1015,
+      "meters": [
+        {
+          "position": 5210412,
+          "velocity": 0,
+          "count": 7,
+          "pointer": {
+            "x": 79,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "469a88bdbd7f8cf7a7f9a6d2224be4c6d643370d4582160737651191919e236c",
+      "oam_sha256": "e672096583e364b015af3f408f72fd57db1db57610e8d1afa9f4738a6a120224"
+    },
+    {
+      "frame": 39,
+      "native_frame": 1016,
+      "meters": [
+        {
+          "position": 5216014,
+          "velocity": 5602,
+          "count": 7,
+          "pointer": {
+            "x": 79,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "e893a67a07568f394a2635eb6a5afeba0ba426ba6a5929a603154e3fd8e04f45",
+      "oam_sha256": "3373695864f2fedab9c16bb4f162476a8061ab79da497a5d12237b070257df94"
+    },
+    {
+      "frame": 40,
+      "native_frame": 1017,
+      "meters": [
+        {
+          "position": 5227043,
+          "velocity": 11029,
+          "count": 7,
+          "pointer": {
+            "x": 79,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "ee555a54959b90f6b6213bf6b8e5822b925e797c112167d372e9fd0644189c9b",
+      "oam_sha256": "be6fc1b9d3d7be267c4c8c9700f946b4c0ef095b14524e02d2739027b357794d"
+    },
+    {
+      "frame": 41,
+      "native_frame": 1018,
+      "meters": [
+        {
+          "position": 5243154,
+          "velocity": 16111,
+          "count": 7,
+          "pointer": {
+            "x": 79,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "2c7e497e9e664d21833057e801ff1fe14523463e04b744fc14a4778e9516c93c",
+      "oam_sha256": "1503b656c4eff1f006b0498933ef86f22f366cee48193e8fcd4195d9f81df167"
+    },
+    {
+      "frame": 42,
+      "native_frame": 1019,
+      "meters": [
+        {
+          "position": 5243364,
+          "velocity": 210,
+          "count": 6,
+          "pointer": {
+            "x": 80,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "9b8d6b031ebbba6400873e2a8348586b712c6dce73adb6bbea0ef2fce3bfd7c1",
+      "oam_sha256": "ecc7d3f9782155bd6de4e14452a5b3a8a43b4d39753d0ea2d4d4d521706bf84b"
+    },
+    {
+      "frame": 43,
+      "native_frame": 1020,
+      "meters": [
+        {
+          "position": 5234874,
+          "velocity": -8490,
+          "count": 6,
+          "pointer": {
+            "x": 80,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "f625c4cbe54684af5e6e298e134ab26ceefba62ad3ecd94ca3d20cf1ec56a193",
+      "oam_sha256": "d79a04b45c06323a0765c1d8fed220a33ff3970b5569859b33d52aa776aaf8b2"
+    },
+    {
+      "frame": 44,
+      "native_frame": 1021,
+      "meters": [
+        {
+          "position": 5217950,
+          "velocity": -16924,
+          "count": 6,
+          "pointer": {
+            "x": 79,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "fc340872c0cdef76b25a9c3cf9ca119f65ffaa330336cc02c77ac6adf5de0ab7",
+      "oam_sha256": "8745e134e9e3bb2c610fe395c64a34ba0fd9f32238edb4235eca28d1701cc7eb"
+    },
+    {
+      "frame": 45,
+      "native_frame": 1022,
+      "meters": [
+        {
+          "position": 5193121,
+          "velocity": -24829,
+          "count": 6,
+          "pointer": {
+            "x": 79,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "22d06612eaa10fcdaca1b2dc78406d67661498df29d0e1080bc26c44568b63ee",
+      "oam_sha256": "54652acce00c47c641300280b214b576c2e691b3117046561d75a4ace1400014"
+    },
+    {
+      "frame": 46,
+      "native_frame": 1023,
+      "meters": [
+        {
+          "position": 5161162,
+          "velocity": -31959,
+          "count": 6,
+          "pointer": {
+            "x": 79,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "89e248460ba9e659be9720102b9c6d677b6b42031cdc6179c93038ab6f5b307a",
+      "oam_sha256": "393de4073e0072569e651fcd5f08509108f4800c5757a52940f1a2f53456378e"
+    },
+    {
+      "frame": 47,
+      "native_frame": 1024,
+      "meters": [
+        {
+          "position": 5123072,
+          "velocity": -38090,
+          "count": 6,
+          "pointer": {
+            "x": 78,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": true
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "5783cd7badfd39bc448f22f682ccd02cd72d16988d53cf7c369cd3790e75d6f4",
+      "oam_sha256": "1703c32616c95a2789cf7584bf4fb31b7d94a9a68abc4985d45d023b7ce7df96"
+    },
+    {
+      "frame": 48,
+      "native_frame": 1025,
+      "meters": [
+        {
+          "position": 5080042,
+          "velocity": -43030,
+          "count": 6,
+          "pointer": {
+            "x": 78,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "e078a8e7de4d38a0595e289e25c586926dbda1b766a6e6ad10f4c5a5bedbc92e",
+      "oam_sha256": "8046d74af25934ac30954e67145fab1e5f452142c85eaf52a8e1482ed1c317ca"
+    },
+    {
+      "frame": 49,
+      "native_frame": 1026,
+      "meters": [
+        {
+          "position": 5033416,
+          "velocity": -46626,
+          "count": 6,
+          "pointer": {
+            "x": 77,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "9c3dcd98f00e7dd9a2429c1667412af3dcec5288dd481bc93e2577f1dc5fbc36",
+      "oam_sha256": "e72258bff361554ea2bfc71563f82fc5c0b4076e4f69cb3ad8a4e6148eba39c1"
+    },
+    {
+      "frame": 50,
+      "native_frame": 1027,
+      "meters": [
+        {
+          "position": 4984651,
+          "velocity": -48765,
+          "count": 6,
+          "pointer": {
+            "x": 76,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "0cd46f34a9d89149464e7bd29ef93f8723d61975be809dbdd31fc6601a39ac5b",
+      "oam_sha256": "2e53808772cdaac99c41d7083bb309704e4bbc1a4293b9d85a01f0a213da7c9c"
+    },
+    {
+      "frame": 51,
+      "native_frame": 1028,
+      "meters": [
+        {
+          "position": 4935271,
+          "velocity": -49380,
+          "count": 6,
+          "pointer": {
+            "x": 76,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "712f062f5f5b9551416186518d61b0434ad451f40e09191dbc9b01d93ecfde5f",
+      "oam_sha256": "ae33b2824923369c40b0dec6f0d2aa653ca3cd27ac78d3f04ff3b396f1cb3f48"
+    },
+    {
+      "frame": 52,
+      "native_frame": 1029,
+      "meters": [
+        {
+          "position": 4886819,
+          "velocity": -48452,
+          "count": 6,
+          "pointer": {
+            "x": 75,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "6f405d04214fb3b41253012db0ba82db4478b1add6d507b5ecc8cbe11b04f85f",
+      "oam_sha256": "8659429cd17b45d2f35c923030ec58d189a99f0707954917c5b5e8a73b9ea50e"
+    },
+    {
+      "frame": 53,
+      "native_frame": 1030,
+      "meters": [
+        {
+          "position": 4840809,
+          "velocity": -46010,
+          "count": 6,
+          "pointer": {
+            "x": 74,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "2aae28c550ac2b72b21fb6f03aa9f9023a1249580ab7962d375ddbe3bc4d839a",
+      "oam_sha256": "f036159a691943361eb2fb83f44bda25c34f70e4681c41969c523869a74770fc"
+    },
+    {
+      "frame": 54,
+      "native_frame": 1031,
+      "meters": [
+        {
+          "position": 4798679,
+          "velocity": -42130,
+          "count": 6,
+          "pointer": {
+            "x": 73,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "95da0d46203c3e08a9610035f811c3d9804d307029d2f1221c851f657537c68a",
+      "oam_sha256": "cf25bf1791971a5017b6ac594acecf7ff472ef5325cc6465be6e13d432554c07"
+    },
+    {
+      "frame": 55,
+      "native_frame": 1032,
+      "meters": [
+        {
+          "position": 4761746,
+          "velocity": -36933,
+          "count": 6,
+          "pointer": {
+            "x": 73,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "d3461b3b7a6e96787b6fa8cda09d0fcafbf42d48816293e8d4168eda58ccf670",
+      "oam_sha256": "e48cb0761bdd09bc7a9a4962f9124e9c2678aba554814c0e214672f5583ec2c9"
+    },
+    {
+      "frame": 56,
+      "native_frame": 1033,
+      "meters": [
+        {
+          "position": 4731164,
+          "velocity": -30582,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "0ef69aa9e6cb57c4792a2758f0a3259b972bc5f8a5deff0c304319c9289cc4e5",
+      "oam_sha256": "21b1c66f423c07fe78497a32729011df38527b00f31ab1980042634c8530eb8e"
+    },
+    {
+      "frame": 57,
+      "native_frame": 1034,
+      "meters": [
+        {
+          "position": 4707889,
+          "velocity": -23275,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "c016fdf117ecf7abad98dff495e3beedf3da3a494074194fd3f15d22c3427e40",
+      "oam_sha256": "8481ab9bb03300fce6791196232e25ff68e76774366ad6d3f42d93a0c3065b36"
+    },
+    {
+      "frame": 58,
+      "native_frame": 1035,
+      "meters": [
+        {
+          "position": 4692648,
+          "velocity": -15241,
+          "count": 6,
+          "pointer": {
+            "x": 71,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "afd2fa26a595536e94827afa095f814afb10fea926ece199d580164f28f482ed",
+      "oam_sha256": "f5dfc4defe0d55f755f5172de43f37cc996109bab3b60cac117f5646dcd7f4e2"
+    },
+    {
+      "frame": 59,
+      "native_frame": 1036,
+      "meters": [
+        {
+          "position": 4685917,
+          "velocity": -6731,
+          "count": 6,
+          "pointer": {
+            "x": 71,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "f6dd016562da67f6b36f907852bd58180cdab60bd2b5e714b79348e9489b7860",
+      "oam_sha256": "82fe67264414d3d5b2f8f424650630fd055d5795615a34cfbfd554c7cdee9a9f"
+    },
+    {
+      "frame": 60,
+      "native_frame": 1037,
+      "meters": [
+        {
+          "position": 4685917,
+          "velocity": 0,
+          "count": 6,
+          "pointer": {
+            "x": 71,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "9df4ae4ea6cd54f8ce1c9eb892b970389939a4eb32d4056369d9cc9f73d131ce",
+      "oam_sha256": "599c73f8ae3a48b2920230fd193650bc48b9c3782859f4be4c9016641bce5a43"
+    },
+    {
+      "frame": 61,
+      "native_frame": 1038,
+      "meters": [
+        {
+          "position": 4687430,
+          "velocity": 1513,
+          "count": 6,
+          "pointer": {
+            "x": 71,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "d25295c637467aa9969921981e61ec9e0665bf7364982cc69fe30df4e527fd97",
+      "oam_sha256": "7b1170a7b39aeaa20031eb328b45ca823f0e44e71188f95c5ba6978765804261"
+    },
+    {
+      "frame": 62,
+      "native_frame": 1039,
+      "meters": [
+        {
+          "position": 4690408,
+          "velocity": 2978,
+          "count": 6,
+          "pointer": {
+            "x": 71,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "0de5e4a1e37adf10c95574f18595ee525a58cad2cc04392cda4a0f9c525bb0fd",
+      "oam_sha256": "96d63051d9cbe2ba1caae1ef875e7aa68d9a2068fdeb471620db917223cdf38a"
+    },
+    {
+      "frame": 63,
+      "native_frame": 1040,
+      "meters": [
+        {
+          "position": 4694758,
+          "velocity": 4350,
+          "count": 6,
+          "pointer": {
+            "x": 71,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "f4c16fe0bdb8f0803a1691262b7df74122740b71a7e6c77d7b4f587a955ab433",
+      "oam_sha256": "114bf5ac322fed537bc1480535f645a2f8de1f8623c726d24faf3cf1cfee0081"
+    },
+    {
+      "frame": 64,
+      "native_frame": 1041,
+      "meters": [
+        {
+          "position": 4700344,
+          "velocity": 5586,
+          "count": 6,
+          "pointer": {
+            "x": 71,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "7db869279ea0ee1edaad0e81bf308ad5c4a7f7dbc6174fbbf07beeccea4de0f9",
+      "oam_sha256": "1a97b61c8ef52c45195f2014837da9e121dd30ba8a505362d2bcd184425433a1"
+    },
+    {
+      "frame": 65,
+      "native_frame": 1042,
+      "meters": [
+        {
+          "position": 4706992,
+          "velocity": 6648,
+          "count": 6,
+          "pointer": {
+            "x": 71,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": false
+        },
+        {
+          "position": 10583162,
+          "velocity": 0,
+          "count": 2,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "92c7fccc8b20562f6d3823a5273502ca7761efd3ae5fead0fffb496decf4e619",
+      "oam_sha256": "ca77efce1a467f3e7fd4777603ef19a3ed6eeb44e1d58b3aec6173358afa1875"
+    },
+    {
+      "frame": 66,
+      "native_frame": 1043,
+      "meters": [
+        {
+          "position": 4714494,
+          "velocity": 7502,
+          "count": 6,
+          "pointer": {
+            "x": 71,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": false
+        },
+        {
+          "position": 10601090,
+          "velocity": 17928,
+          "count": 3,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "d626612c8c0f1d4a53f3c54cad9eecb58f89d8c5387543a54858e81d5746675d",
+      "oam_sha256": "f159061ea9f1c72c8f332514cbe1fc86aa4103e65bdbc2d068b83f4035f39121"
+    },
+    {
+      "frame": 67,
+      "native_frame": 1044,
+      "meters": [
+        {
+          "position": 4722616,
+          "velocity": 8122,
+          "count": 6,
+          "pointer": {
+            "x": 71,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": false
+        },
+        {
+          "position": 10636385,
+          "velocity": 35295,
+          "count": 3,
+          "pointer": {
+            "x": 33,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "6474379a78cf14a36566111742edadc1f55177273e6a2e4298e71d02e2468c6e",
+      "oam_sha256": "a57984d419d560829bcaf59f44427f232a42b7ae4ec60b05c91d8aafa9863aaa"
+    },
+    {
+      "frame": 68,
+      "native_frame": 1045,
+      "meters": [
+        {
+          "position": 4731104,
+          "velocity": 8488,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10687944,
+          "velocity": 51559,
+          "count": 3,
+          "pointer": {
+            "x": 34,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "6eea23797bac5a2dd65e8436b091c6e32ab2e3efad4442128dc7103abd320a91",
+      "oam_sha256": "e568cdbeafe7117b30c8a0bd29273ba96a38d705e06175766d92a192407aa629"
+    },
+    {
+      "frame": 69,
+      "native_frame": 1046,
+      "meters": [
+        {
+          "position": 4739693,
+          "velocity": 8589,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10754156,
+          "velocity": 66212,
+          "count": 3,
+          "pointer": {
+            "x": 35,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "a2642b94407cd1e52bca3d70b6eae02d09a30bd498c1e712b1ce7fa80239428d",
+      "oam_sha256": "63a7bb304fd8d8b5d25a4ff37bc2a5f5e84b31ceb2b3f74b5d1e90f9f980db3b"
+    },
+    {
+      "frame": 70,
+      "native_frame": 1047,
+      "meters": [
+        {
+          "position": 4748114,
+          "velocity": 8421,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10832952,
+          "velocity": 78796,
+          "count": 3,
+          "pointer": {
+            "x": 36,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "9b51f78b901e40560d2796e7c07bd2957f2c4bac767c9eb0140386094ec99903",
+      "oam_sha256": "3867213677f857a351db3905e2af6c1b61e2d42e78a25720a1d0af4e92aba152"
+    },
+    {
+      "frame": 71,
+      "native_frame": 1048,
+      "meters": [
+        {
+          "position": 4756104,
+          "velocity": 7990,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 10921870,
+          "velocity": 88918,
+          "count": 3,
+          "pointer": {
+            "x": 37,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "51c5cdb6f30c3e74ae4b70fdb01f6e05383eea9d4035d3879efeca40581d7d65",
+      "oam_sha256": "3badae73e8654d875683a71f0b45bdd8add5504bae12db98b15f69349485eae9"
+    },
+    {
+      "frame": 72,
+      "native_frame": 1049,
+      "meters": [
+        {
+          "position": 4763413,
+          "velocity": 7309,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": false
+        },
+        {
+          "position": 11018131,
+          "velocity": 96261,
+          "count": 3,
+          "pointer": {
+            "x": 38,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "18889d1f747a87e61dd48850bb40e52507d9945101ec47de860863aaa9903512",
+      "oam_sha256": "1ac90a8096d9ea04ce6ccd334f3d58a725d9e546bd4eb024a301cd8eea00d5ca"
+    },
+    {
+      "frame": 73,
+      "native_frame": 1050,
+      "meters": [
+        {
+          "position": 4769813,
+          "velocity": 6400,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": false
+        },
+        {
+          "position": 11118727,
+          "velocity": 100596,
+          "count": 3,
+          "pointer": {
+            "x": 40,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "8c4b2032b3de4b476efca21df5556371d647ae63933381f5576effd61002622a",
+      "oam_sha256": "29b92d2be72eed3904eefb0472471a7407762d588930fce581012c1ac770b385"
+    },
+    {
+      "frame": 74,
+      "native_frame": 1051,
+      "meters": [
+        {
+          "position": 4775104,
+          "velocity": 5291,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": false
+        },
+        {
+          "position": 11220514,
+          "velocity": 101787,
+          "count": 3,
+          "pointer": {
+            "x": 41,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "614f27d83ed4d44db8d1b740c750fc061c74e280dcaa33377489a4746cbbe83c",
+      "oam_sha256": "f7efe0bead8088d31ba444a3f95b5850f7931b1bae258d6d0c4d9213e64a5bbf"
+    },
+    {
+      "frame": 75,
+      "native_frame": 1052,
+      "meters": [
+        {
+          "position": 4779121,
+          "velocity": 4017,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 149
+          },
+          "bar_y": 153,
+          "flashing": false
+        },
+        {
+          "position": 11320311,
+          "velocity": 99797,
+          "count": 3,
+          "pointer": {
+            "x": 43,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "badfdaba2cf1b9efa15e2e6454c62e835f4f6ad5107fb310d8342f37bb505782",
+      "oam_sha256": "e2b1e660aefe7db8a6d4f697d6cb3f22b48b0996a30a03496f1ea27c3f751593"
+    },
+    {
+      "frame": 76,
+      "native_frame": 1053,
+      "meters": [
+        {
+          "position": 4781738,
+          "velocity": 2617,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 11415000,
+          "velocity": 94689,
+          "count": 3,
+          "pointer": {
+            "x": 44,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "a857d561fa19f2cab91c00ce77830fdf3d4750213acbd1ee82e504c28dcd4281",
+      "oam_sha256": "2b66c5d423af657047b08acd100da3fa167587f8dd4dcb2af6cbb5e564f60eb2"
+    },
+    {
+      "frame": 77,
+      "native_frame": 1054,
+      "meters": [
+        {
+          "position": 4782873,
+          "velocity": 1135,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 11501622,
+          "velocity": 86622,
+          "count": 3,
+          "pointer": {
+            "x": 46,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "1d6c32de8d5836c14c34f6cbb329790acc3af739ccb1519c5611ef4701bf85eb",
+      "oam_sha256": "c1903c1e11b516304e4f63f46213e91275a3a6a56720c4b9e59bc539f8e44e58"
+    },
+    {
+      "frame": 78,
+      "native_frame": 1055,
+      "meters": [
+        {
+          "position": 4782873,
+          "velocity": 0,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 11577470,
+          "velocity": 75848,
+          "count": 3,
+          "pointer": {
+            "x": 47,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "361a892e9752341079e9ce537121b67ea3c128236feb8337c17c94faf0ed6c40",
+      "oam_sha256": "0180e28ba89720d2fef39a12e8c0e0d23af7cb0953dffc773215f5604421f251"
+    },
+    {
+      "frame": 79,
+      "native_frame": 1056,
+      "meters": [
+        {
+          "position": 4782873,
+          "velocity": 0,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        },
+        {
+          "position": 11640174,
+          "velocity": 62704,
+          "count": 3,
+          "pointer": {
+            "x": 48,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "eb462e1485a797b21e3d20615f35cbcf6b1b9325f33b8fd448ffa9d5f4e86b62",
+      "oam_sha256": "8b45385be24e33c1715debd2a2d0054ed582d64365ca3d3ec9b63d6dd72ad073"
+    },
+    {
+      "frame": 80,
+      "native_frame": 1057,
+      "meters": [
+        {
+          "position": 4782873,
+          "velocity": 0,
+          "count": 6,
+          "pointer": {
+            "x": 72,
+            "y": 147
+          },
+          "bar_y": 151,
+          "flashing": true
+        },
+        {
+          "position": 11687774,
+          "velocity": 47600,
+          "count": 3,
+          "pointer": {
+            "x": 49,
+            "y": 148
+          },
+          "bar_y": 152,
+          "flashing": false
+        }
+      ],
+      "ram_sha256": "89ec5b3846ebb74c621f68c52a654bc5b53bb8174127a2cb956d6d1ef3e61cd3",
+      "oam_sha256": "c1e89ad228de91c017f860ca61ddef22f5b32879df23d85b084c52d162f8cf4a"
+    }
+  ],
+  "pictures": [
+    {
+      "picture": 0,
+      "rom_offset": 897112,
+      "pixel_sha256": "fa310d8feee65cce2c23b422a1c845e5dadd8b40b5139760f5bdf172922bf4d5"
+    },
+    {
+      "picture": 1,
+      "rom_offset": 898136,
+      "pixel_sha256": "737b0d75d166d50228e2949d4f390e28f30ebb88c23c5b9101b46a26566504ba"
+    },
+    {
+      "picture": 2,
+      "rom_offset": 895064,
+      "pixel_sha256": "07139e5b00682a8c41cd6c4af8d7eca5d0e3def5b497f9f1e32032ccabc951c4"
+    },
+    {
+      "picture": 3,
+      "rom_offset": 896088,
+      "pixel_sha256": "d865d3f3bf123845ebbbd493609f4e6906aceaa24627741d0a62748023b5736c"
+    }
+  ]
+}

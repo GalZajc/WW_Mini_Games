@@ -1,0 +1,354 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_01-40-12_808881/camera-throw",
+    "actor": 15316,
+    "target_x": 2236,
+    "target_y": 2240,
+    "frames": 28,
+    "fixed_scale": 65536,
+    "seed": "preserved in source save state",
+    "fixture": "tests/fixtures/eggo-throw-gba.json",
+    "source_parameters": {
+      "load": "hard-idle",
+      "steps": [
+        [
+          8,
+          "A"
+        ],
+        [
+          28,
+          ""
+        ]
+      ],
+      "writes": [],
+      "sample_every": 4,
+      "sample_graphics": true,
+      "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+      "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+      "bot_parameters": null,
+      "bot_observed_shapes": null,
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+      "random_seed": "encoded in the initial emulator state",
+      "core_options": {
+        "mgba_solar_sensor_level": "0",
+        "mgba_allow_opposing_directions": "no",
+        "mgba_gb_model": "Autodetect",
+        "mgba_use_bios": "ON",
+        "mgba_skip_bios": "OFF",
+        "mgba_sgb_borders": "ON",
+        "mgba_idle_optimization": "Remove Known",
+        "mgba_frameskip": "disabled",
+        "mgba_frameskip_threshold": "33",
+        "mgba_frameskip_interval": "0",
+        "mgba_color_correction": "OFF",
+        "mgba_interframe_blending": "OFF",
+        "mgba_force_gbp": "OFF",
+        "mgba_gb_colors": "Grayscale"
+      },
+      "frames": 36
+    },
+    "source_hashes": {
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.trace.json": "f1bdb102f94a347940364c84e4eb3314edfb818c5f992152c2e2c7df06b03322",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00004.ram": "527649e4151635f856d6fa08053bde3af9ff4cca8f6ed9e68df6b03be15667ca",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00004.0x7000000": "339f0f9331df6980ef5b6c4cd87e5b4eb09c3796717d65d7b55bc5dfecf9de2d",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00008.ram": "ef5555b282aa2a9b0f3968167729576c4d48a0d7f8c2f05fe9105bd4d9e07423",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00008.0x7000000": "25234f7483923b9cfd6fe73ca12dc8a49ec48dac2a03c54641efc7173addb0f3",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00012.ram": "e16b548d6933e194b6d0507f16251081ab7c978002a7fe04ebddf09437f5b130",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00012.0x7000000": "fdec57e7fec3423ee0d0247dc569196557c07ea2796757b943ef66534622bea4",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00016.ram": "ed703e1bdd0d37c290f47b01b1dbad484bdf8fe7f3da070da036755165c11f07",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00016.0x7000000": "245839d3ad1763821d888e5c3e140909d3fecf52160671aafdfdb81c862a59a2",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00020.ram": "eafc1e72a9fc3fa6bb9e57504d4be0e5f9774ed6df8e911c3b570282173d7acd",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00020.0x7000000": "c172893b4997ec56b8c2cac319d8e14c292750c65b17d9ba19d8260dbceae47c",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00024.ram": "ebef3cf28e6541ea690e52ade3b1615c872ab590d6b4324771cb1ef18654f086",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00024.0x7000000": "71123ac63de732c8ae113a19c21408f111463394f3b097edda50ee00a5e1b3ff",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00028.ram": "981f8158d24c00e3ee638682eaa3c78fa277306d188bae9be1d9a87e2ab736f7",
+      "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00028.0x7000000": "9ef8112e5702dbf6c7cd7607ae834472fd2dfbe2c8d504cb6cf8b0814e4a23dd"
+    }
+  },
+  "start_x": 47.9410400390625,
+  "start_y": 720.0440673828125,
+  "target_x": 40.0,
+  "target_y": 688.0,
+  "kind": 6,
+  "rotation": 0,
+  "samples": [
+    {
+      "frame": 1,
+      "keys": "A",
+      "world_x": 47.9410400390625,
+      "world_y": 720.0440673828125,
+      "x": 63.0,
+      "y": 101.0
+    },
+    {
+      "frame": 2,
+      "keys": "A",
+      "world_x": 47.65748596191406,
+      "world_y": 711.84619140625,
+      "x": 63.0,
+      "y": 93.0
+    },
+    {
+      "frame": 3,
+      "keys": "A",
+      "world_x": 47.37382507324219,
+      "world_y": 703.7328033447266,
+      "x": 63.0,
+      "y": 85.0
+    },
+    {
+      "frame": 4,
+      "keys": "A",
+      "world_x": 47.09028625488281,
+      "world_y": 695.7917785644531,
+      "x": 63.0,
+      "y": 82.0
+    },
+    {
+      "frame": 5,
+      "keys": "A",
+      "world_x": 46.80662536621094,
+      "world_y": 687.7487030029297,
+      "x": 63.0,
+      "y": 75.0
+    },
+    {
+      "frame": 6,
+      "keys": "A",
+      "world_x": 46.52308654785156,
+      "world_y": 680.4151000976562,
+      "x": 62.0,
+      "y": 64.0
+    },
+    {
+      "frame": 7,
+      "keys": "A",
+      "world_x": 46.23942565917969,
+      "world_y": 673.4940948486328,
+      "x": 62.0,
+      "y": 57.0
+    },
+    {
+      "frame": 8,
+      "keys": "A",
+      "world_x": 45.95588684082031,
+      "world_y": 667.0579528808594,
+      "x": 62.0,
+      "y": 45.0
+    },
+    {
+      "frame": 9,
+      "keys": "",
+      "world_x": 45.67222595214844,
+      "world_y": 660.9220886230469,
+      "x": 61.0,
+      "y": 39.0
+    },
+    {
+      "frame": 10,
+      "keys": "",
+      "world_x": 45.38868713378906,
+      "world_y": 655.6744232177734,
+      "x": 61.0,
+      "y": 30.0
+    },
+    {
+      "frame": 11,
+      "keys": "",
+      "world_x": 45.10502624511719,
+      "world_y": 651.08544921875,
+      "x": 61.0,
+      "y": 25.0
+    },
+    {
+      "frame": 12,
+      "keys": "",
+      "world_x": 44.82148742675781,
+      "world_y": 647.0662994384766,
+      "x": 61.0,
+      "y": 20.0
+    },
+    {
+      "frame": 13,
+      "keys": "",
+      "world_x": 44.53782653808594,
+      "world_y": 643.9538879394531,
+      "x": 60.0,
+      "y": 20.0
+    },
+    {
+      "frame": 14,
+      "keys": "",
+      "world_x": 44.25428771972656,
+      "world_y": 641.6017303466797,
+      "x": 60.0,
+      "y": 19.0
+    },
+    {
+      "frame": 15,
+      "keys": "",
+      "world_x": 43.97062683105469,
+      "world_y": 640.0244750976562,
+      "x": 60.0,
+      "y": 21.0
+    },
+    {
+      "frame": 16,
+      "keys": "",
+      "world_x": 43.68708801269531,
+      "world_y": 639.2689819335938,
+      "x": 60.0,
+      "y": 25.0
+    },
+    {
+      "frame": 17,
+      "keys": "",
+      "world_x": 43.40342712402344,
+      "world_y": 639.2893829345703,
+      "x": 60.0,
+      "y": 25.0
+    },
+    {
+      "frame": 18,
+      "keys": "",
+      "world_x": 43.11988830566406,
+      "world_y": 640.0710144042969,
+      "x": 60.0,
+      "y": 26.0
+    },
+    {
+      "frame": 19,
+      "keys": "",
+      "world_x": 42.83622741699219,
+      "world_y": 641.7593841552734,
+      "x": 60.0,
+      "y": 27.0
+    },
+    {
+      "frame": 20,
+      "keys": "",
+      "world_x": 42.55268859863281,
+      "world_y": 644.021484375,
+      "x": 58.5,
+      "y": 28.0
+    },
+    {
+      "frame": 21,
+      "keys": "",
+      "world_x": 42.26902770996094,
+      "world_y": 646.9452056884766,
+      "x": 58.5,
+      "y": 31.0
+    },
+    {
+      "frame": 22,
+      "keys": "",
+      "world_x": 41.98548889160156,
+      "world_y": 650.4807434082031,
+      "x": 59.0,
+      "y": 33.0
+    },
+    {
+      "frame": 23,
+      "keys": "",
+      "world_x": 41.70182800292969,
+      "world_y": 654.8771057128906,
+      "x": 58.0,
+      "y": 37.0
+    },
+    {
+      "frame": 24,
+      "keys": "",
+      "world_x": 41.41828918457031,
+      "world_y": 659.4839324951172,
+      "x": 57.0,
+      "y": 31.0
+    },
+    {
+      "frame": 25,
+      "keys": "",
+      "world_x": 41.13462829589844,
+      "world_y": 664.5072631835938,
+      "x": 57.0,
+      "y": 36.0
+    },
+    {
+      "frame": 26,
+      "keys": "",
+      "world_x": 40.85108947753906,
+      "world_y": 670.2439727783203,
+      "x": 58.0,
+      "y": 38.0
+    },
+    {
+      "frame": 27,
+      "keys": "",
+      "world_x": 40.56742858886719,
+      "world_y": 675.8844909667969,
+      "x": 57.0,
+      "y": 44.0
+    },
+    {
+      "frame": 28,
+      "keys": "",
+      "world_x": 40.0,
+      "world_y": 688.0,
+      "x": 57.0,
+      "y": 52.0
+    }
+  ],
+  "limits": "One ordinary-input throw on an empty tower; this does not establish every actor state or moving-board target update.",
+  "graphics": [
+    {
+      "frame": 4,
+      "x": 31.090286254882812,
+      "y": 672.2209777832031,
+      "scale": 0.3303375244140625,
+      "matrix": 844
+    },
+    {
+      "frame": 8,
+      "x": 29.955886840820312,
+      "y": 639.0584411621094,
+      "scale": 0.4374847412109375,
+      "matrix": 623
+    },
+    {
+      "frame": 12,
+      "x": 28.821487426757812,
+      "y": 604.6385650634766,
+      "scale": 0.54461669921875,
+      "matrix": 494
+    },
+    {
+      "frame": 16,
+      "x": 27.687088012695312,
+      "y": 595.4125366210938,
+      "scale": 0.651763916015625,
+      "matrix": 410
+    },
+    {
+      "frame": 20,
+      "x": 26.552688598632812,
+      "y": 596.73681640625,
+      "scale": 0.7588958740234375,
+      "matrix": 349
+    },
+    {
+      "frame": 24,
+      "x": 25.418289184570312,
+      "y": 645.7705535888672,
+      "scale": 0.8660430908203125,
+      "matrix": 305
+    },
+    {
+      "frame": 28,
+      "x": 24.283889770507812,
+      "y": 675.5596771240234,
+      "scale": 0.973175048828125,
+      "matrix": 270
+    }
+  ]
+}

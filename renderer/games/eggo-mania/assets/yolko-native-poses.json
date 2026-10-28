@@ -1,0 +1,114 @@
+{
+  "source_resource_sheet": "scripts\\OUTPUT\\eggo-characters_2026-10-04_22-34-09_814879\\yolko.png",
+  "cell_size": [
+    64,
+    64
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "source_resource_row": 3,
+      "source_resource_column": 2
+    },
+    {
+      "index": 1,
+      "source_resource_row": 6,
+      "source_resource_column": 0
+    },
+    {
+      "index": 2,
+      "source_resource_row": 6,
+      "source_resource_column": 1
+    },
+    {
+      "index": 3,
+      "source_resource_row": 7,
+      "source_resource_column": 1
+    },
+    {
+      "index": 4,
+      "source_resource_row": 8,
+      "source_resource_column": 0
+    },
+    {
+      "index": 5,
+      "source_resource_row": 8,
+      "source_resource_column": 1
+    },
+    {
+      "index": 6,
+      "source_resource_row": 10,
+      "source_resource_column": 0
+    },
+    {
+      "index": 7,
+      "source_resource_row": 13,
+      "source_resource_column": 0
+    },
+    {
+      "index": 8,
+      "source_resource_row": 13,
+      "source_resource_column": 1
+    },
+    {
+      "index": 9,
+      "source_resource_row": 3,
+      "source_resource_column": 3
+    },
+    {
+      "index": 10,
+      "source_resource_row": 3,
+      "source_resource_column": 4
+    },
+    {
+      "index": 11,
+      "source_resource_row": 3,
+      "source_resource_column": 5
+    },
+    {
+      "index": 12,
+      "source_resource_row": 3,
+      "source_resource_column": 6
+    },
+    {
+      "index": 13,
+      "source_resource_row": 7,
+      "source_resource_column": 0
+    },
+    {
+      "index": 14,
+      "source_resource_row": 9,
+      "source_resource_column": 0
+    },
+    {
+      "index": 15,
+      "source_resource_row": 9,
+      "source_resource_column": 1
+    },
+    {
+      "index": 16,
+      "source_resource_row": 10,
+      "source_resource_column": 1
+    },
+    {
+      "index": 17,
+      "source_resource_row": 11,
+      "source_resource_column": 0
+    },
+    {
+      "index": 18,
+      "source_resource_row": 11,
+      "source_resource_column": 1
+    },
+    {
+      "index": 19,
+      "source_resource_row": 12,
+      "source_resource_column": 0
+    },
+    {
+      "index": 20,
+      "source_resource_row": 12,
+      "source_resource_column": 1
+    }
+  ]
+}

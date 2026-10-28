@@ -865,10 +865,8 @@ export default class ReRoMoTetris extends BaseGame {
             return;
         }
 
-        // Structural Cartesian and Möbius retain their established projected
-        // clockwise convention. Ordinary Cartesian now uses catalogue
-        // chirality directly, so its screen-facing rotation needs no swap.
-        const rotationDirection = (isStructuralMode(this.settings.mode) || this.settings.mode === 'mobius') ? -1 : 1;
+        // All modes use catalogue chirality directly for clockwise rotation.
+        const rotationDirection = 1;
         if (this.input.isActionJustDown('rotateClockwise')) this._rotatePiece(rotationDirection);
         if (this.input.isActionJustDown('rotateCounterClockwise')) this._rotatePiece(-rotationDirection);
         if (this.input.isActionJustDown('rotate180')) this._rotatePiece(2);

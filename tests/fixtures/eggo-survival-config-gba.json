@@ -1,0 +1,3158 @@
+{
+  "parameters": {
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "table": 881840,
+    "difficulty_stride": 608,
+    "round_stride": 76,
+    "words": 19,
+    "waterline_offset": 15288,
+    "waterline_scale": 65536,
+    "native_frame_offset": 72348,
+    "water_start_frame_offset": 120,
+    "water_rise_speed_raw_offset": 23100,
+    "water_rate_word_index": 15,
+    "board_offset": 65668,
+    "board_field_stride": 4684,
+    "board_rows": 47,
+    "board_columns": 7,
+    "board_row_stride": 8,
+    "pickup_offsets": [
+      28,
+      48,
+      56,
+      44,
+      52,
+      36,
+      40,
+      32,
+      16,
+      8,
+      12,
+      20,
+      24
+    ]
+  },
+  "tables": [
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2,
+        6,
+        6,
+        6,
+        6,
+        0,
+        10,
+        27,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        0,
+        10,
+        32,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        10,
+        32,
+        5
+      ],
+      [
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        2,
+        6,
+        6,
+        6,
+        6,
+        0,
+        9,
+        32,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        6,
+        0,
+        9,
+        32,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        6,
+        0,
+        9,
+        32,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        6,
+        0,
+        9,
+        32,
+        6
+      ],
+      [
+        1,
+        1,
+        2,
+        4,
+        2,
+        2,
+        0,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        6,
+        0,
+        8,
+        32,
+        7
+      ]
+    ],
+    [
+      [
+        0,
+        5,
+        3,
+        3,
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        6,
+        5,
+        8,
+        37,
+        7
+      ],
+      [
+        0,
+        9,
+        3,
+        2,
+        1,
+        0,
+        0,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        6,
+        5,
+        7,
+        42,
+        7
+      ],
+      [
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        4,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        42,
+        8
+      ],
+      [
+        5,
+        0,
+        6,
+        0,
+        2,
+        0,
+        0,
+        4,
+        4,
+        4,
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        42,
+        8
+      ],
+      [
+        2,
+        2,
+        2,
+        5,
+        2,
+        1,
+        2,
+        6,
+        6,
+        6,
+        6,
+        2,
+        2,
+        2,
+        2,
+        7,
+        5,
+        47,
+        8
+      ],
+      [
+        3,
+        3,
+        2,
+        2,
+        3,
+        0,
+        1,
+        4,
+        4,
+        4,
+        4,
+        6,
+        6,
+        6,
+        6,
+        7,
+        5,
+        47,
+        9
+      ],
+      [
+        4,
+        5,
+        2,
+        2,
+        3,
+        2,
+        1,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        8,
+        4,
+        47,
+        9
+      ],
+      [
+        5,
+        7,
+        2,
+        3,
+        6,
+        0,
+        2,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        9,
+        4,
+        47,
+        9
+      ]
+    ],
+    [
+      [
+        5,
+        9,
+        2,
+        2,
+        1,
+        1,
+        1,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        9,
+        4,
+        47,
+        9
+      ],
+      [
+        6,
+        9,
+        2,
+        3,
+        2,
+        1,
+        2,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        11,
+        4,
+        47,
+        9
+      ],
+      [
+        0,
+        0,
+        1,
+        6,
+        0,
+        0,
+        0,
+        3,
+        6,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        24,
+        3,
+        47,
+        10
+      ],
+      [
+        7,
+        9,
+        2,
+        2,
+        2,
+        1,
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        13,
+        3,
+        47,
+        10
+      ],
+      [
+        7,
+        9,
+        2,
+        1,
+        1,
+        3,
+        1,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        14,
+        2,
+        47,
+        11
+      ],
+      [
+        6,
+        6,
+        6,
+        9,
+        6,
+        4,
+        5,
+        6,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        4,
+        15,
+        2,
+        47,
+        12
+      ],
+      [
+        8,
+        9,
+        2,
+        4,
+        3,
+        1,
+        1,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        15,
+        1,
+        47,
+        13
+      ],
+      [
+        9,
+        9,
+        2,
+        3,
+        3,
+        1,
+        2,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        16,
+        0,
+        47,
+        14
+      ]
+    ]
+  ],
+  "sources": [
+    {
+      "round": 1,
+      "stage": "factory",
+      "parameters": {
+        "pickup_trace_parameters": {
+          "manager_roots": [
+            13540,
+            18528
+          ],
+          "list_head": 1048,
+          "spawn_clock": 1064,
+          "node_offset": 28,
+          "next": 28,
+          "limit": 18,
+          "ram_base": 33554432,
+          "fields": {
+            "x": 0,
+            "y": 4,
+            "vx": 20,
+            "vy": 24,
+            "state": 36,
+            "kind": 40,
+            "variant": 44,
+            "wait": 48
+          }
+        },
+        "pickup_initial": [
+          {
+            "spawn_clock": 0,
+            "items": []
+          },
+          {
+            "spawn_clock": 0,
+            "items": []
+          }
+        ],
+        "output_collision_index": 0,
+        "enemy_trace_parameters": {
+          "roots": [
+            200760,
+            200888,
+            201016,
+            201144
+          ],
+          "frame_address": 72348,
+          "x": 0,
+          "y": 4,
+          "vx": 20,
+          "vy": 24,
+          "animation": 32,
+          "type": 36,
+          "active": 72,
+          "life": 76,
+          "variant": 80,
+          "angle": 84,
+          "speed": 88,
+          "actor_addresses": [
+            15316,
+            20304,
+            15316,
+            20304
+          ],
+          "escape_counter": 2364,
+          "waterline": 2172,
+          "actor_coordinate_offset": 2200
+        },
+        "projectile_trace_parameters": null,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "survival-hard",
+        "steps": [
+          [
+            8,
+            "A"
+          ],
+          [
+            1200,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": {
+          "stage": 12948,
+          "rng": 72364,
+          "rng_game": 72368,
+          "rng_secondary": 72372,
+          "seed": 59812
+        },
+        "arena_initial": {
+          "stage": 1,
+          "rng": 16006,
+          "rng_game": 0,
+          "rng_secondary": 0,
+          "seed": 0
+        },
+        "audio": null,
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "3ec90524d2ab90d9c4c8aae2eb4f66b87f98ea6acb7c8a416159409298bfa4a3",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 1208
+      },
+      "ram_sha256": "2c979024cf0d59dc2fef1b53f86d47946a9b1fc9eff770445754fbf2bad2f239",
+      "config": [
+        5,
+        9,
+        2,
+        2,
+        1,
+        1,
+        1,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        9,
+        4,
+        47,
+        9
+      ],
+      "native_frame": 1163,
+      "native_waterline_raw": 49807360,
+      "native_waterline_y": 760.0,
+      "water_start_frame": 1540,
+      "water_rise_speed_raw": -106496
+    },
+    {
+      "round": 2,
+      "stage": "dragon",
+      "parameters": {
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_11-09-58_790843/dragon-start.state",
+        "steps": [
+          [
+            120,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 20,
+        "sample_graphics": true,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "3a33b2563513648c5f8cc49be1f334872a616f713561cfd793cf69a071e5eba1",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 120
+      },
+      "ram_sha256": "a3b96c6fa8eec05ec25c5a525c287e54eff6dffacc15912960918c8b10f88716",
+      "config": [
+        6,
+        9,
+        2,
+        3,
+        2,
+        1,
+        2,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        11,
+        4,
+        47,
+        9
+      ],
+      "native_frame": 486,
+      "native_waterline_raw": 49807360,
+      "native_waterline_y": 760.0,
+      "water_start_frame": 1460,
+      "water_rise_speed_raw": -122880
+    },
+    {
+      "round": 3,
+      "stage": "castle",
+      "parameters": {
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_11-09-58_791843/castle-start.state",
+        "steps": [
+          [
+            120,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 20,
+        "sample_graphics": true,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "f5dd878c0af138ac7b51e6a1565576fa858183e80f67e64fcbd861f8d004c250",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 120
+      },
+      "ram_sha256": "c9fb2972291b6b2991232c15085c9b133856d38b27cfa94f82b40c26baec1a30",
+      "config": [
+        0,
+        0,
+        1,
+        6,
+        0,
+        0,
+        0,
+        3,
+        6,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        24,
+        3,
+        47,
+        10
+      ],
+      "native_frame": 486,
+      "native_waterline_raw": 49807360,
+      "native_waterline_y": 760.0,
+      "water_start_frame": 1100,
+      "water_rise_speed_raw": -229376
+    },
+    {
+      "round": 4,
+      "stage": "pirate",
+      "parameters": {
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_11-09-58_790843/pirate-start.state",
+        "steps": [
+          [
+            120,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 20,
+        "sample_graphics": true,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "849cf3b6fdf6d89de60890d7eb18521b6e3b7ec003621cdee81864398183718c",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 120
+      },
+      "ram_sha256": "4d9ab73a197a365e1b6c3c846d943cc90ba0db61494d40dff0a596755c593743",
+      "config": [
+        7,
+        9,
+        2,
+        2,
+        2,
+        1,
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        13,
+        3,
+        47,
+        10
+      ],
+      "native_frame": 486,
+      "native_waterline_raw": 49807360,
+      "native_waterline_y": 760.0,
+      "water_start_frame": 1380,
+      "water_rise_speed_raw": -139264
+    },
+    {
+      "round": 5,
+      "stage": "space",
+      "parameters": {
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_11-10-02_933922/space-start.state",
+        "steps": [
+          [
+            120,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 20,
+        "sample_graphics": true,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "465a7ba9c383174635be9e858534c725c8d661aa8fd4be94954345fc75989cd7",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 120
+      },
+      "ram_sha256": "1167900b7c1fd5d3c95185bec4441674f6d14bee1d45cfafc6c57284c21a6c4b",
+      "config": [
+        7,
+        9,
+        2,
+        1,
+        1,
+        3,
+        1,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        14,
+        2,
+        47,
+        11
+      ],
+      "native_frame": 486,
+      "native_waterline_raw": 49807360,
+      "native_waterline_y": 760.0,
+      "water_start_frame": 1340,
+      "water_rise_speed_raw": -147456
+    },
+    {
+      "round": 6,
+      "stage": "jungle",
+      "parameters": {
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_11-10-02_923963/jungle-start.state",
+        "steps": [
+          [
+            120,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 20,
+        "sample_graphics": true,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "99fa055f848cf910e29d6e17fefc5e43dfd12898244f1b966e6e5e28b3c64da1",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 120
+      },
+      "ram_sha256": "31d0d1c42e3ab2001d336958862fda59566048942be5f06cdb0e4b5e9b0aa872",
+      "config": [
+        6,
+        6,
+        6,
+        9,
+        6,
+        4,
+        5,
+        6,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        4,
+        15,
+        2,
+        47,
+        12
+      ],
+      "native_frame": 484,
+      "native_waterline_raw": 49807360,
+      "native_waterline_y": 760.0,
+      "water_start_frame": 1300,
+      "water_rise_speed_raw": -155648
+    },
+    {
+      "round": 7,
+      "stage": "park",
+      "parameters": {
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_11-10-02_928927/park-start.state",
+        "steps": [
+          [
+            120,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 20,
+        "sample_graphics": true,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "211e9bd4c429e893f879b40934d63da629927e17e589ab7107b41bdcdf1f264c",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 120
+      },
+      "ram_sha256": "540eb63a015a8d3a7775854a9939f717470084cbe562220b847f748ae008a095",
+      "config": [
+        8,
+        9,
+        2,
+        4,
+        3,
+        1,
+        1,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        15,
+        1,
+        47,
+        13
+      ],
+      "native_frame": 483,
+      "native_waterline_raw": 49807360,
+      "native_waterline_y": 760.0,
+      "water_start_frame": 1300,
+      "water_rise_speed_raw": -155648
+    },
+    {
+      "round": 8,
+      "stage": "beanstalk",
+      "parameters": {
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_11-10-07_122395/beanstalk-start.state",
+        "steps": [
+          [
+            120,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 20,
+        "sample_graphics": true,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "d457f1c602a404b5fb049ae92a7ba00d9c26ed7b0d5424a32564e7a7daed423f",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 120
+      },
+      "ram_sha256": "5ff4c6bfab007e2cb8d298787297ed7e44d07a489ed65e54bc0087dad00e2b9d",
+      "config": [
+        9,
+        9,
+        2,
+        3,
+        3,
+        1,
+        2,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        16,
+        0,
+        47,
+        14
+      ],
+      "native_frame": 482,
+      "native_waterline_raw": 49807360,
+      "native_waterline_y": 760.0,
+      "water_start_frame": 1260,
+      "water_rise_speed_raw": -163840
+    }
+  ],
+  "ninth": {
+    "parameters": {
+      "pickup_trace_parameters": {
+        "manager_roots": [
+          13540,
+          18528
+        ],
+        "list_head": 1048,
+        "spawn_clock": 1064,
+        "node_offset": 28,
+        "next": 28,
+        "limit": 18,
+        "ram_base": 33554432,
+        "bag_offset": 4,
+        "bag_types": 13,
+        "bag_total": 56,
+        "fields": {
+          "x": 0,
+          "y": 4,
+          "vx": 20,
+          "vy": 24,
+          "state": 36,
+          "kind": 40,
+          "variant": 44,
+          "wait": 48
+        }
+      },
+      "pickup_initial": [
+        {
+          "spawn_clock": 23,
+          "bag": [
+            4,
+            3,
+            3,
+            4,
+            5,
+            3,
+            5,
+            3,
+            3,
+            1,
+            0,
+            1,
+            1
+          ],
+          "remaining": 36,
+          "items": [
+            {
+              "address": 13600,
+              "x": 3666152,
+              "y": 27892269,
+              "vx": 0,
+              "vy": 70568,
+              "state": 1,
+              "kind": 1,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 13652,
+              "x": 5597472,
+              "y": 10003838,
+              "vx": -1475,
+              "vy": 61008,
+              "state": 1,
+              "kind": 2,
+              "variant": 2,
+              "wait": 0
+            },
+            {
+              "address": 13704,
+              "x": 61268,
+              "y": 12293023,
+              "vx": -866,
+              "vy": 62542,
+              "state": 1,
+              "kind": 7,
+              "variant": 2,
+              "wait": 0
+            },
+            {
+              "address": 13756,
+              "x": 5313269,
+              "y": 14624845,
+              "vx": -511,
+              "vy": 63397,
+              "state": 1,
+              "kind": 3,
+              "variant": 1,
+              "wait": 0
+            },
+            {
+              "address": 14016,
+              "x": 5461529,
+              "y": 16980476,
+              "vx": 114,
+              "vy": 63876,
+              "state": 1,
+              "kind": 10,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 13808,
+              "x": 2691137,
+              "y": 19734360,
+              "vx": -63,
+              "vy": 64172,
+              "state": 1,
+              "kind": 7,
+              "variant": 1,
+              "wait": 0
+            },
+            {
+              "address": 13860,
+              "x": 2380570,
+              "y": 22111558,
+              "vx": -63,
+              "vy": 64308,
+              "state": 1,
+              "kind": 2,
+              "variant": 1,
+              "wait": 0
+            },
+            {
+              "address": 13912,
+              "x": 4703617,
+              "y": 24492534,
+              "vx": 0,
+              "vy": 64386,
+              "state": 1,
+              "kind": 2,
+              "variant": 3,
+              "wait": 0
+            },
+            {
+              "address": 13964,
+              "x": 469941,
+              "y": 27133221,
+              "vx": 0,
+              "vy": 64427,
+              "state": 1,
+              "kind": 5,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 14068,
+              "x": 276007,
+              "y": 34093482,
+              "vx": -63,
+              "vy": 64449,
+              "state": 1,
+              "kind": 4,
+              "variant": 1,
+              "wait": 0
+            },
+            {
+              "address": 14120,
+              "x": 1819961,
+              "y": 36478095,
+              "vx": -63,
+              "vy": 64449,
+              "state": 1,
+              "kind": 1,
+              "variant": 3,
+              "wait": 0
+            },
+            {
+              "address": 14172,
+              "x": 2863323,
+              "y": 38862708,
+              "vx": -63,
+              "vy": 64449,
+              "state": 1,
+              "kind": 0,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 14224,
+              "x": 5035458,
+              "y": 41247321,
+              "vx": -63,
+              "vy": 64449,
+              "state": 1,
+              "kind": 10,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 14276,
+              "x": 1223001,
+              "y": 43631934,
+              "vx": -63,
+              "vy": 64449,
+              "state": 1,
+              "kind": 10,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 14328,
+              "x": 4819303,
+              "y": 46016547,
+              "vx": -63,
+              "vy": 64449,
+              "state": 1,
+              "kind": 6,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 14380,
+              "x": 400609,
+              "y": 48401160,
+              "vx": 0,
+              "vy": 64449,
+              "state": 1,
+              "kind": 5,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 14432,
+              "x": 4852547,
+              "y": 50801705,
+              "vx": 6323,
+              "vy": 32993,
+              "state": 2,
+              "kind": 7,
+              "variant": 3,
+              "wait": 0
+            },
+            {
+              "address": 14484,
+              "x": 6428546,
+              "y": 50371585,
+              "vx": 23865,
+              "vy": -18689,
+              "state": 2,
+              "kind": 5,
+              "variant": 1,
+              "wait": 0
+            }
+          ]
+        },
+        {
+          "spawn_clock": 23,
+          "bag": [
+            4,
+            3,
+            3,
+            4,
+            5,
+            3,
+            5,
+            3,
+            3,
+            1,
+            0,
+            1,
+            1
+          ],
+          "remaining": 36,
+          "items": [
+            {
+              "address": 18588,
+              "x": 2122215,
+              "y": 7791214,
+              "vx": -1157,
+              "vy": 58256,
+              "state": 1,
+              "kind": 9,
+              "variant": 3,
+              "wait": 0
+            },
+            {
+              "address": 18640,
+              "x": 5597472,
+              "y": 10003838,
+              "vx": -1475,
+              "vy": 61008,
+              "state": 1,
+              "kind": 2,
+              "variant": 2,
+              "wait": 0
+            },
+            {
+              "address": 18692,
+              "x": 61268,
+              "y": 12293023,
+              "vx": -866,
+              "vy": 62542,
+              "state": 1,
+              "kind": 7,
+              "variant": 2,
+              "wait": 0
+            },
+            {
+              "address": 19160,
+              "x": 5313269,
+              "y": 14624845,
+              "vx": -511,
+              "vy": 63397,
+              "state": 1,
+              "kind": 3,
+              "variant": 1,
+              "wait": 0
+            },
+            {
+              "address": 18744,
+              "x": 5461529,
+              "y": 16980476,
+              "vx": 114,
+              "vy": 63876,
+              "state": 1,
+              "kind": 10,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 18796,
+              "x": 2691137,
+              "y": 19734360,
+              "vx": -63,
+              "vy": 64172,
+              "state": 1,
+              "kind": 7,
+              "variant": 1,
+              "wait": 0
+            },
+            {
+              "address": 18848,
+              "x": 2380570,
+              "y": 22111558,
+              "vx": -63,
+              "vy": 64308,
+              "state": 1,
+              "kind": 2,
+              "variant": 1,
+              "wait": 0
+            },
+            {
+              "address": 18900,
+              "x": 4703617,
+              "y": 24492534,
+              "vx": 0,
+              "vy": 64386,
+              "state": 1,
+              "kind": 2,
+              "variant": 3,
+              "wait": 0
+            },
+            {
+              "address": 18952,
+              "x": 469941,
+              "y": 27133221,
+              "vx": 0,
+              "vy": 64427,
+              "state": 1,
+              "kind": 5,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 19004,
+              "x": 4385557,
+              "y": 31708869,
+              "vx": 0,
+              "vy": 64449,
+              "state": 1,
+              "kind": 1,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 19056,
+              "x": 276007,
+              "y": 34093482,
+              "vx": -63,
+              "vy": 64449,
+              "state": 1,
+              "kind": 4,
+              "variant": 1,
+              "wait": 0
+            },
+            {
+              "address": 19108,
+              "x": 1819961,
+              "y": 36478095,
+              "vx": -63,
+              "vy": 64449,
+              "state": 1,
+              "kind": 1,
+              "variant": 3,
+              "wait": 0
+            },
+            {
+              "address": 19212,
+              "x": 5035458,
+              "y": 41247321,
+              "vx": -63,
+              "vy": 64449,
+              "state": 1,
+              "kind": 10,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 19264,
+              "x": 1223001,
+              "y": 43631934,
+              "vx": -63,
+              "vy": 64449,
+              "state": 1,
+              "kind": 10,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 19316,
+              "x": 4819303,
+              "y": 46016547,
+              "vx": -63,
+              "vy": 64449,
+              "state": 1,
+              "kind": 6,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 19368,
+              "x": 400609,
+              "y": 48401160,
+              "vx": 0,
+              "vy": 64449,
+              "state": 1,
+              "kind": 5,
+              "variant": 0,
+              "wait": 0
+            },
+            {
+              "address": 19420,
+              "x": 4852547,
+              "y": 50801705,
+              "vx": 6323,
+              "vy": 32993,
+              "state": 2,
+              "kind": 7,
+              "variant": 3,
+              "wait": 0
+            },
+            {
+              "address": 19472,
+              "x": 6428546,
+              "y": 50371585,
+              "vx": 23865,
+              "vy": -18689,
+              "state": 2,
+              "kind": 5,
+              "variant": 1,
+              "wait": 0
+            }
+          ]
+        }
+      ],
+      "output_collision_index": 0,
+      "enemy_trace_parameters": {
+        "roots": [
+          200760,
+          200888,
+          201016,
+          201144
+        ],
+        "frame_address": 72348,
+        "x": 0,
+        "y": 4,
+        "vx": 20,
+        "vy": 24,
+        "animation": 32,
+        "type": 36,
+        "active": 72,
+        "life": 76,
+        "variant": 80,
+        "angle": 84,
+        "speed": 88,
+        "actor_addresses": [
+          15316,
+          20304,
+          15316,
+          20304
+        ],
+        "escape_counter": 2364,
+        "waterline": 2172,
+        "actor_coordinate_offset": 2200
+      },
+      "projectile_trace_parameters": null,
+      "item_trace_parameters": null,
+      "rival_pose_parameters": null,
+      "load": "win8",
+      "steps": [
+        [
+          8,
+          "A"
+        ],
+        [
+          80,
+          ""
+        ]
+      ],
+      "steps_file": null,
+      "writes": [],
+      "sample_every": 0,
+      "sample_graphics": false,
+      "oam_trace": false,
+      "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+      "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+      "arena_trace_parameters": {
+        "stage": 12948,
+        "rng": 72364,
+        "rng_game": 72368,
+        "rng_secondary": 72372,
+        "seed": 59812
+      },
+      "arena_initial": {
+        "stage": 0,
+        "rng": 18525,
+        "rng_game": 47581,
+        "rng_secondary": 47581,
+        "seed": 0
+      },
+      "survival_config_parameters": {
+        "root": 59688,
+        "words": 19
+      },
+      "survival_config_initial": [
+        9,
+        9,
+        2,
+        3,
+        3,
+        1,
+        2,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        16,
+        0,
+        47,
+        14
+      ],
+      "audio": null,
+      "board_events": false,
+      "board_parameters": {
+        "start": 65668,
+        "field_stride": 4684,
+        "rows": 47,
+        "stride": 8,
+        "columns": 7,
+        "fields": 2
+      },
+      "snapshot_frames": [
+        30,
+        50
+      ],
+      "bot_parameters": null,
+      "bot_observed_shapes": null,
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "initial_state_sha256": "574f84435354ccf8d489acec0d2c0c5854c069b5d9a9fca4766330ba54e68d80",
+      "random_seed": "encoded in the initial emulator state",
+      "core_options": {
+        "mgba_solar_sensor_level": "0",
+        "mgba_allow_opposing_directions": "no",
+        "mgba_gb_model": "Autodetect",
+        "mgba_use_bios": "ON",
+        "mgba_skip_bios": "OFF",
+        "mgba_sgb_borders": "ON",
+        "mgba_idle_optimization": "Remove Known",
+        "mgba_frameskip": "disabled",
+        "mgba_frameskip_threshold": "33",
+        "mgba_frameskip_interval": "0",
+        "mgba_color_correction": "OFF",
+        "mgba_interframe_blending": "OFF",
+        "mgba_force_gbp": "OFF",
+        "mgba_gb_colors": "Grayscale"
+      },
+      "frames": 88
+    },
+    "trace_sha256": "54f273232968faef47b24fa1c912773d4d60a4b78388e5bac65c287d29559e2b",
+    "selection_seed": 64756,
+    "difficulty": 1,
+    "level": 2,
+    "words": [
+      0,
+      9,
+      3,
+      2,
+      1,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      6,
+      6,
+      6,
+      6,
+      5,
+      7,
+      43,
+      10
+    ],
+    "frame": 34,
+    "native_frame": 365,
+    "native_waterline_raw": 45613056,
+    "native_initial_waterline_y": 696.0,
+    "water_start_frame": 1700,
+    "water_rise_speed_raw": -73728,
+    "initial_board": {
+      "ram_row_order": "ascending RAM row index",
+      "fields": [
+        {
+          "ram_rows": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              19,
+              21,
+              24,
+              26,
+              29,
+              31,
+              33
+            ],
+            [
+              19,
+              22,
+              24,
+              26,
+              29,
+              32,
+              33
+            ],
+            [
+              19,
+              23,
+              24,
+              27,
+              29,
+              32,
+              33
+            ],
+            [
+              20,
+              23,
+              25,
+              28,
+              30,
+              32,
+              34
+            ]
+          ],
+          "occupied_cells": 28,
+          "complete_rows": 4
+        },
+        {
+          "ram_rows": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              20,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              20,
+              23,
+              26,
+              28,
+              31,
+              33,
+              35
+            ],
+            [
+              21,
+              24,
+              26,
+              28,
+              31,
+              34,
+              35
+            ],
+            [
+              21,
+              25,
+              26,
+              29,
+              31,
+              34,
+              35
+            ],
+            [
+              22,
+              25,
+              27,
+              30,
+              32,
+              34,
+              36
+            ]
+          ],
+          "occupied_cells": 29,
+          "complete_rows": 4
+        }
+      ]
+    },
+    "ram_sha256": "fdfea41b47fb7824d3d265c0025fea1206135c1259753996cb74681733cbcca5"
+  },
+  "rng_transitions": {
+    "round8": {
+      "round": 8,
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-05_13-27-07_650874/rng-round8-callers",
+      "input": {
+        "load": "win7",
+        "steps": [
+          [
+            8,
+            "A"
+          ],
+          [
+            420,
+            ""
+          ]
+        ],
+        "writes": [],
+        "initial_state_sha256": "e46a46352a0eb12a8bbf4d72eae77295a4278394923e45589de7f35b4af622af",
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "trace_sha256": "0e23d157711f3cf0817e71797571ff813e0954700a675c43b883f9b233f35fa7",
+        "instrumentation": {
+          "method": "In-memory Thumb BL trampolines count each direct caller; source ROM is never modified.",
+          "call_sites": [
+            {
+              "id": 0,
+              "call_site": "0x080006a0",
+              "wrapper": "0x083f9260",
+              "counter_address": "0x02031908"
+            },
+            {
+              "id": 1,
+              "call_site": "0x080016b4",
+              "wrapper": "0x083f9284",
+              "counter_address": "0x0203190c"
+            },
+            {
+              "id": 2,
+              "call_site": "0x08001864",
+              "wrapper": "0x083f92a8",
+              "counter_address": "0x02031910"
+            },
+            {
+              "id": 3,
+              "call_site": "0x0800194c",
+              "wrapper": "0x083f92cc",
+              "counter_address": "0x02031914"
+            },
+            {
+              "id": 4,
+              "call_site": "0x08002222",
+              "wrapper": "0x083f92f0",
+              "counter_address": "0x02031918"
+            },
+            {
+              "id": 5,
+              "call_site": "0x080022a8",
+              "wrapper": "0x083f9314",
+              "counter_address": "0x0203191c"
+            },
+            {
+              "id": 6,
+              "call_site": "0x080022b4",
+              "wrapper": "0x083f9338",
+              "counter_address": "0x02031920"
+            },
+            {
+              "id": 7,
+              "call_site": "0x0800b21c",
+              "wrapper": "0x083f935c",
+              "counter_address": "0x02031924"
+            },
+            {
+              "id": 8,
+              "call_site": "0x0800d230",
+              "wrapper": "0x083f9380",
+              "counter_address": "0x02031928"
+            },
+            {
+              "id": 9,
+              "call_site": "0x0800ed50",
+              "wrapper": "0x083f93a4",
+              "counter_address": "0x0203192c"
+            },
+            {
+              "id": 10,
+              "call_site": "0x08015ef0",
+              "wrapper": "0x083f93c8",
+              "counter_address": "0x02031930"
+            },
+            {
+              "id": 11,
+              "call_site": "0x08015f14",
+              "wrapper": "0x083f93ec",
+              "counter_address": "0x02031934"
+            },
+            {
+              "id": 12,
+              "call_site": "0x08018d32",
+              "wrapper": "0x083f9410",
+              "counter_address": "0x02031938"
+            },
+            {
+              "id": 13,
+              "call_site": "0x08018d48",
+              "wrapper": "0x083f9434",
+              "counter_address": "0x0203193c"
+            },
+            {
+              "id": 14,
+              "call_site": "0x08018d56",
+              "wrapper": "0x083f9458",
+              "counter_address": "0x02031940"
+            },
+            {
+              "id": 15,
+              "call_site": "0x08018d62",
+              "wrapper": "0x083f947c",
+              "counter_address": "0x02031944"
+            }
+          ],
+          "patch_offset": "0x3f9260",
+          "counter_base": "0x02031908",
+          "counter_ram_offset": "0x31908",
+          "last_r6_ram_offset": "0x31948",
+          "previous_r6_ram_offset": "0x31988",
+          "counter_bytes": 192,
+          "cave_bytes": 576
+        }
+      },
+      "before": {
+        "global_rng": 48442,
+        "field_rng": [
+          31138,
+          31138
+        ],
+        "config": [
+          8,
+          9,
+          2,
+          4,
+          3,
+          1,
+          1,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          15,
+          1,
+          47,
+          13
+        ]
+      },
+      "after": {
+        "global_rng": 48865,
+        "field_rng": [
+          48865,
+          48865
+        ],
+        "config": [
+          9,
+          9,
+          2,
+          3,
+          3,
+          1,
+          2,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          16,
+          0,
+          47,
+          14
+        ]
+      },
+      "rng_call_deltas": [
+        {
+          "site": "0x0800194c",
+          "count": 1
+        },
+        {
+          "site": "0x08002222",
+          "count": 1
+        }
+      ]
+    },
+    "round9": {
+      "round": 9,
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-05_13-28-26_984797/rng-round9-callers",
+      "input": {
+        "load": "win8",
+        "steps": [
+          [
+            8,
+            "A"
+          ],
+          [
+            420,
+            ""
+          ]
+        ],
+        "writes": [],
+        "initial_state_sha256": "574f84435354ccf8d489acec0d2c0c5854c069b5d9a9fca4766330ba54e68d80",
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "trace_sha256": "8608a469dee95fbec037d16c7eeee5689a814e1b7a1aeb844c71caa3dd2cde45",
+        "instrumentation": {
+          "method": "In-memory Thumb BL trampolines count each direct caller; source ROM is never modified.",
+          "call_sites": [
+            {
+              "id": 0,
+              "call_site": "0x080006a0",
+              "wrapper": "0x083f9260",
+              "counter_address": "0x02031908"
+            },
+            {
+              "id": 1,
+              "call_site": "0x080016b4",
+              "wrapper": "0x083f9284",
+              "counter_address": "0x0203190c"
+            },
+            {
+              "id": 2,
+              "call_site": "0x08001864",
+              "wrapper": "0x083f92a8",
+              "counter_address": "0x02031910"
+            },
+            {
+              "id": 3,
+              "call_site": "0x0800194c",
+              "wrapper": "0x083f92cc",
+              "counter_address": "0x02031914"
+            },
+            {
+              "id": 4,
+              "call_site": "0x08002222",
+              "wrapper": "0x083f92f0",
+              "counter_address": "0x02031918"
+            },
+            {
+              "id": 5,
+              "call_site": "0x080022a8",
+              "wrapper": "0x083f9314",
+              "counter_address": "0x0203191c"
+            },
+            {
+              "id": 6,
+              "call_site": "0x080022b4",
+              "wrapper": "0x083f9338",
+              "counter_address": "0x02031920"
+            },
+            {
+              "id": 7,
+              "call_site": "0x0800b21c",
+              "wrapper": "0x083f935c",
+              "counter_address": "0x02031924"
+            },
+            {
+              "id": 8,
+              "call_site": "0x0800d230",
+              "wrapper": "0x083f9380",
+              "counter_address": "0x02031928"
+            },
+            {
+              "id": 9,
+              "call_site": "0x0800ed50",
+              "wrapper": "0x083f93a4",
+              "counter_address": "0x0203192c"
+            },
+            {
+              "id": 10,
+              "call_site": "0x08015ef0",
+              "wrapper": "0x083f93c8",
+              "counter_address": "0x02031930"
+            },
+            {
+              "id": 11,
+              "call_site": "0x08015f14",
+              "wrapper": "0x083f93ec",
+              "counter_address": "0x02031934"
+            },
+            {
+              "id": 12,
+              "call_site": "0x08018d32",
+              "wrapper": "0x083f9410",
+              "counter_address": "0x02031938"
+            },
+            {
+              "id": 13,
+              "call_site": "0x08018d48",
+              "wrapper": "0x083f9434",
+              "counter_address": "0x0203193c"
+            },
+            {
+              "id": 14,
+              "call_site": "0x08018d56",
+              "wrapper": "0x083f9458",
+              "counter_address": "0x02031940"
+            },
+            {
+              "id": 15,
+              "call_site": "0x08018d62",
+              "wrapper": "0x083f947c",
+              "counter_address": "0x02031944"
+            }
+          ],
+          "patch_offset": "0x3f9260",
+          "counter_base": "0x02031908",
+          "counter_ram_offset": "0x31908",
+          "last_r6_ram_offset": "0x31948",
+          "previous_r6_ram_offset": "0x31988",
+          "counter_bytes": 192,
+          "cave_bytes": 576
+        }
+      },
+      "before": {
+        "global_rng": 18525,
+        "field_rng": [
+          47581,
+          47581
+        ],
+        "config": [
+          9,
+          9,
+          2,
+          3,
+          3,
+          1,
+          2,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          16,
+          0,
+          47,
+          14
+        ]
+      },
+      "after": {
+        "global_rng": 63315,
+        "field_rng": [
+          64756,
+          64756
+        ],
+        "config": [
+          0,
+          9,
+          3,
+          2,
+          1,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          6,
+          6,
+          6,
+          6,
+          5,
+          7,
+          43,
+          10
+        ]
+      },
+      "rng_call_deltas": [
+        {
+          "site": "0x0800194c",
+          "count": 1
+        },
+        {
+          "site": "0x08002222",
+          "count": 1
+        },
+        {
+          "site": "0x080022a8",
+          "count": 1
+        },
+        {
+          "site": "0x080022b4",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "limits": "Later-stage snapshots descend from logged win probes. Verify configuration, not successful input-only wins or full difficulty effects."
+}

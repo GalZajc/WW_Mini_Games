@@ -12,6 +12,14 @@ export class AudioManager {
     constructor() {
         /** @type {AudioContext|null} */
         this._ctx = null;
+        this._channels = null;
+        this.volumes = { music: 1, effects: 1 };
+        try {
+            const saved = JSON.parse(globalThis.localStorage?.getItem('ww-audio-volumes') || '{}');
+            for (const channel of Object.keys(this.volumes)) {
+                if (Number.isFinite(saved[channel])) this.volumes[channel] = Math.max(0, Math.min(1, saved[channel]));
+            }
+        } catch {}
         /** @type {Map<string, AudioBuffer>} */
         this._soundBuffers = new Map();
         /** @type {Map<string, Promise<AudioBuffer>>} */
@@ -30,11 +38,27 @@ export class AudioManager {
                 this._ctx = new AudioContextClass();
             }
         }
+        if (!this._channels) {
+            this._channels = {};
+            for (const channel of Object.keys(this.volumes)) {
+                const gain = this._ctx.createGain();
+                gain.gain.value = this.volumes[channel];
+                gain.connect(this._ctx.destination);
+                this._channels[channel] = gain;
+            }
+        }
         // Resume if suspended (autoplay policy)
         if (this._ctx.state === 'suspended') {
             this._ctx.resume();
         }
         return this._ctx;
+    }
+
+    setVolume(channel, value) {
+        if (!Object.hasOwn(this.volumes, channel) || !Number.isFinite(value)) return;
+        this.volumes[channel] = Math.max(0, Math.min(1, value));
+        this._channels?.[channel]?.gain.setValueAtTime(this.volumes[channel], this._ctx.currentTime);
+        try { globalThis.localStorage?.setItem('ww-audio-volumes', JSON.stringify(this.volumes)); } catch {}
     }
 
     /**
@@ -81,7 +105,7 @@ export class AudioManager {
         gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration);
 
         osc.connect(gain);
-        gain.connect(ctx.destination);
+        gain.connect(this._channels.effects);
 
         osc.start(ctx.currentTime);
         osc.stop(ctx.currentTime + duration + 0.01);
@@ -105,7 +129,7 @@ export class AudioManager {
             gain.gain.setValueAtTime(0, start);
             gain.gain.linearRampToValueAtTime(Math.min(1, volume) / notes.length, start + 0.015);
             gain.gain.exponentialRampToValueAtTime(0.0001, start + 0.3);
-            oscillator.connect(gain); gain.connect(ctx.destination);
+            oscillator.connect(gain); gain.connect(this._channels.effects);
             oscillator.start(start); oscillator.stop(start + 0.32);
             oscillator.onended = () => { oscillator.disconnect(); gain.disconnect(); };
         });
@@ -139,7 +163,7 @@ export class AudioManager {
         noiseGain.gain.exponentialRampToValueAtTime(0.001, now + duration);
         source.connect(filter);
         filter.connect(noiseGain);
-        noiseGain.connect(ctx.destination);
+        noiseGain.connect(this._channels.effects);
 
         const body = ctx.createOscillator();
         const bodyGain = ctx.createGain();
@@ -149,7 +173,7 @@ export class AudioManager {
         bodyGain.gain.setValueAtTime(Math.max(0.001, volume * 0.42), now);
         bodyGain.gain.exponentialRampToValueAtTime(0.001, now + 0.06);
         body.connect(bodyGain);
-        bodyGain.connect(ctx.destination);
+        bodyGain.connect(this._channels.effects);
 
         source.start(now);
         source.stop(now + duration);
@@ -218,7 +242,7 @@ export class AudioManager {
         noiseGain.gain.exponentialRampToValueAtTime(0.001, now + duration);
         noise.connect(filter);
         filter.connect(noiseGain);
-        noiseGain.connect(ctx.destination);
+        noiseGain.connect(this._channels.effects);
 
         const body = ctx.createOscillator();
         const bodyGain = ctx.createGain();
@@ -228,7 +252,7 @@ export class AudioManager {
         bodyGain.gain.setValueAtTime(Math.max(0.001, level * bodyMix), now);
         bodyGain.gain.exponentialRampToValueAtTime(0.001, now + duration);
         body.connect(bodyGain);
-        bodyGain.connect(ctx.destination);
+        bodyGain.connect(this._channels.effects);
 
         noise.start(now);
         noise.stop(now + duration);
@@ -264,7 +288,7 @@ export class AudioManager {
         bodyGain.gain.setValueAtTime(Math.max(0.001, volume), now);
         bodyGain.gain.exponentialRampToValueAtTime(0.001, now + 0.068);
         body.connect(bodyGain);
-        bodyGain.connect(ctx.destination);
+        bodyGain.connect(this._channels.effects);
 
         const samples = Math.ceil(ctx.sampleRate * 0.032);
         const buffer = ctx.createBuffer(1, samples, ctx.sampleRate);
@@ -282,7 +306,7 @@ export class AudioManager {
         attackGain.gain.value = volume * 0.5;
         attack.connect(lowPass);
         lowPass.connect(attackGain);
-        attackGain.connect(ctx.destination);
+        attackGain.connect(this._channels.effects);
 
         body.start(now);
         body.stop(now + 0.072);
@@ -333,9 +357,52 @@ export class AudioManager {
         source.playbackRate.value = playbackRate;
         gain.gain.value = Math.max(0, volume);
         source.connect(gain);
-        gain.connect(ctx.destination);
+        gain.connect(this._channels.effects);
         source.start(ctx.currentTime);
         return true;
+    }
+
+    /** Start a loaded track, optionally looping after an initial phrase; preserve pause position. */
+    playLoop(id, { volume = 1, offset = 0, loop = true, loopStart = 0 } = {}) {
+        const buffer = this._soundBuffers.get(id);
+        if (!buffer || !buffer.duration) return null;
+        const ctx = this._ensureCtx();
+        const source = ctx.createBufferSource();
+        const gain = ctx.createGain();
+        const cycleStart = Math.max(0, Math.min(loopStart, buffer.duration));
+        if (loop && cycleStart >= buffer.duration) return null;
+        const wrap = position => position < buffer.duration ? position : cycleStart + (position-buffer.duration) % (buffer.duration-cycleStart);
+        const begin = loop ? (offset >= 0 ? wrap(offset) : ((offset % buffer.duration) + buffer.duration) % buffer.duration) : Math.max(0, Math.min(offset, buffer.duration));
+        if (!loop && begin >= buffer.duration) return null;
+        const startedAt = ctx.currentTime;
+        source.buffer = buffer;
+        source.loop = loop;
+        source.loopStart = cycleStart;
+        source.loopEnd = buffer.duration;
+        gain.gain.value = Math.max(0, volume);
+        source.connect(gain);
+        gain.connect(this._channels.music);
+        source.start(startedAt, begin);
+        let stopped = false, position = begin;
+        const currentPosition = () => loop ? wrap(begin + ctx.currentTime - startedAt) : Math.min(buffer.duration, begin + ctx.currentTime - startedAt);
+        source.onended = () => {
+            if (stopped) return;
+            position = buffer.duration;
+            stopped = true;
+            source.disconnect();
+            gain.disconnect();
+        };
+        return {
+            position: () => stopped ? position : currentPosition(),
+            stop: () => {
+                if (stopped) return;
+                position = currentPosition();
+                stopped = true;
+                source.stop();
+                source.disconnect();
+                gain.disconnect();
+            },
+        };
     }
 
     /**
@@ -355,6 +422,7 @@ export class AudioManager {
         if (this._ctx) {
             this._ctx.close().catch(() => {});
             this._ctx = null;
+            this._channels = null;
         }
     }
 }

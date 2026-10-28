@@ -23,6 +23,7 @@ export const DEFAULT_GAME_ORDER = Object.freeze([
     'click-speed',             // click speed
     'cup-and-ball',            // cup and ball
     'n-in-a-row',              // n in a row
+    'flow-lines',              // connect the color pairs
     'tic-tac-toe',             // tic tac toe
     'sudoku',                  // sudoku
     'spherical-bowl-balance',  // sperical bowl

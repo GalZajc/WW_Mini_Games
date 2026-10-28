@@ -1,0 +1,3508 @@
+{
+  "parameters": {
+    "capture": "scripts/OUTPUT/eggo-reference_2026-10-18_19-46-19_307262/bomb-fuse-grounded",
+    "frames": 250,
+    "size": 32,
+    "body_offset": [
+      8,
+      8
+    ],
+    "maximum_body_alpha_changes": 32,
+    "remaining_counter": "Before actor update: 251 - capture frame",
+    "seed": "hard-idle checkpoint RNG retained; inventory and known fuse counter initialized explicitly",
+    "global_clock_oam_delay": 2
+  },
+  "sources": [
+    {
+      "frame": 2,
+      "remaining": 249,
+      "clock": 13,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 0,
+      "graphics_sha256": "f41eba14e356f128ee9cfc8915a918ac70697d8f2b1d475d1ee3a1e8a307c77f"
+    },
+    {
+      "frame": 3,
+      "remaining": 248,
+      "clock": 14,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 0,
+      "graphics_sha256": "4a06079a39611f7ab51709d67f7e4084767281e82341b541fccbdda4b8899fff"
+    },
+    {
+      "frame": 4,
+      "remaining": 247,
+      "clock": 15,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 0,
+      "graphics_sha256": "b9063af6a643542c1707e967f96f7dee259e979d2d28471d338b23618af5e358"
+    },
+    {
+      "frame": 5,
+      "remaining": 246,
+      "clock": 16,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 0,
+      "graphics_sha256": "fc4789fb21575f09ef8f9a1bd28ac4aafc0c95f2c5e6724a77dfd760ab2910e6"
+    },
+    {
+      "frame": 6,
+      "remaining": 245,
+      "clock": 17,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 0,
+      "graphics_sha256": "3d2514cc1e736526392ac580bed5e71c65ca2f9c13826a382c646a776cc97290"
+    },
+    {
+      "frame": 7,
+      "remaining": 244,
+      "clock": 18,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 1,
+      "graphics_sha256": "2c3fb87e912b80c5f3e0b4684ae88c79a927b3309f5d1356a92159092c45f74f"
+    },
+    {
+      "frame": 8,
+      "remaining": 243,
+      "clock": 19,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 1,
+      "graphics_sha256": "45400b66870ba7f787de98a4fe8b4fe47f95c4be978b48266199bb88ed57a7f2"
+    },
+    {
+      "frame": 9,
+      "remaining": 242,
+      "clock": 20,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 1,
+      "graphics_sha256": "c8e1f6f5b10eabe0253b4761488c251b3895a7c97898d1c4191dfd90d73c2c4f"
+    },
+    {
+      "frame": 10,
+      "remaining": 241,
+      "clock": 21,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 1,
+      "graphics_sha256": "549e064879a22c65a52886cc1aefeb23a3a0b4954cd6cf3c986e1f635255168c"
+    },
+    {
+      "frame": 11,
+      "remaining": 240,
+      "clock": 22,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 1,
+      "graphics_sha256": "acaeb0729ce3d3987923d43cae3a041314c51f41931da1f7a16b1b7757aac79c"
+    },
+    {
+      "frame": 12,
+      "remaining": 239,
+      "clock": 23,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 1,
+      "graphics_sha256": "8a790cedf6920f6e6719142cb0c10390733fcd7b31f0e94b65244c3a5b995d8e"
+    },
+    {
+      "frame": 13,
+      "remaining": 238,
+      "clock": 0,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 1,
+      "graphics_sha256": "58bf774170d31ef826ab5bc587efa5b0ed1b657819a32c99b62dc484b74d013d"
+    },
+    {
+      "frame": 14,
+      "remaining": 237,
+      "clock": 1,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 1,
+      "graphics_sha256": "0405fb89f7af453791d3956ff360c6c04e1be2b25f8995c6857787afac3b9f9c"
+    },
+    {
+      "frame": 15,
+      "remaining": 236,
+      "clock": 2,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 2,
+      "graphics_sha256": "30eba2f46d091581c1f89e3011c1dc9a7ec55e234fb571467912aa254b0d3e24"
+    },
+    {
+      "frame": 16,
+      "remaining": 235,
+      "clock": 3,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 2,
+      "graphics_sha256": "5f971ff30ae9b42a01b023111366da36d49a1f478504202d9f344ea010f631d8"
+    },
+    {
+      "frame": 17,
+      "remaining": 234,
+      "clock": 4,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 2,
+      "graphics_sha256": "1ab29d6bcdfb55601257cdaffd9152a73c9a5946bf0b4a3b2b0ba1a180950c64"
+    },
+    {
+      "frame": 18,
+      "remaining": 233,
+      "clock": 5,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 2,
+      "graphics_sha256": "be644cf55c80536e029e1be94baa733cfaed38bb7d66648cfa5d8a07325df453"
+    },
+    {
+      "frame": 19,
+      "remaining": 232,
+      "clock": 6,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 2,
+      "graphics_sha256": "8e2f33d758bb9943649a5a37c769486fa259f2fd2315c2c62dedeb7d74dbf4a0"
+    },
+    {
+      "frame": 20,
+      "remaining": 231,
+      "clock": 7,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 2,
+      "graphics_sha256": "4280538ffc9a4532e977fb95d33d7a5f2dbfcc3dd8ea97d96b61e2d28f4e19d8"
+    },
+    {
+      "frame": 21,
+      "remaining": 230,
+      "clock": 8,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 2,
+      "graphics_sha256": "5fd2765c48d86c667eed7bec0e71e05cd123312d70b63ce1d54df725234ae54c"
+    },
+    {
+      "frame": 22,
+      "remaining": 229,
+      "clock": 9,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 2,
+      "graphics_sha256": "edc18e0375c377e7af78e832d481411cc1a6f7d5ab74b102f881a702f23da172"
+    },
+    {
+      "frame": 23,
+      "remaining": 228,
+      "clock": 10,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 0,
+      "graphics_sha256": "3b0532884a1380c2e5a65fe59c96866ad1c8792a622114d1eef89941d73056fa"
+    },
+    {
+      "frame": 24,
+      "remaining": 227,
+      "clock": 11,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 0,
+      "graphics_sha256": "6bfe1741299932296c46810bed21c4919f802dd11842b3e545e25d78aac71c34"
+    },
+    {
+      "frame": 25,
+      "remaining": 226,
+      "clock": 12,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 0,
+      "graphics_sha256": "9bb86c89f80021fb3d524feee5b8d3f8051a0e74f01d463fc789743dd459f648"
+    },
+    {
+      "frame": 26,
+      "remaining": 225,
+      "clock": 13,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 0,
+      "graphics_sha256": "9bcb636a91a8323f92b8017fdfaac2097edcf95d2d5abad345dad19a7fda490e"
+    },
+    {
+      "frame": 27,
+      "remaining": 224,
+      "clock": 14,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 0,
+      "graphics_sha256": "c5277f008b6250b82ae309c67f336c4a34cff173662d04fca67127e8febe65f4"
+    },
+    {
+      "frame": 28,
+      "remaining": 223,
+      "clock": 15,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 3,
+      "graphics_sha256": "c1b5ed409d69cddb938f9ac4724bd76fe231c34ef161aa1feec6a60f68ec9ec3"
+    },
+    {
+      "frame": 29,
+      "remaining": 222,
+      "clock": 16,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 3,
+      "graphics_sha256": "049c696b78281b35686111e9384172d1f6cc21b36801a286be27c982d0b5ee1e"
+    },
+    {
+      "frame": 30,
+      "remaining": 221,
+      "clock": 17,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 3,
+      "graphics_sha256": "a50d21b0c3fb6e23f65ed46d20bbd46f27f88546726bfcad3fd9dd1e5419b233"
+    },
+    {
+      "frame": 31,
+      "remaining": 220,
+      "clock": 18,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 4,
+      "graphics_sha256": "04e82e29a47af7cebdb49feaaabfdf4af2a0f660615bc6e12556ec3e8ada53fd"
+    },
+    {
+      "frame": 32,
+      "remaining": 219,
+      "clock": 19,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 4,
+      "graphics_sha256": "62240bba2c62e6e0c7a08043f4b1296b28224f32871f9dffade2ed2e2ca98c28"
+    },
+    {
+      "frame": 33,
+      "remaining": 218,
+      "clock": 20,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 4,
+      "graphics_sha256": "67ccc09faacda5a83b08ed8d6e21164a4cf4d12bb25eed0473ded7b2b62cda2a"
+    },
+    {
+      "frame": 34,
+      "remaining": 217,
+      "clock": 21,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 4,
+      "graphics_sha256": "bc9e27a5701d28cfba59713b3653ff2b7b12e1b050d7c012b8505e0cdd1b118a"
+    },
+    {
+      "frame": 35,
+      "remaining": 216,
+      "clock": 22,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 4,
+      "graphics_sha256": "9f9fdb3d4cd325c0778395651e4c4c5abb25c85adb6f1da3bd40c1f8dacf4e5e"
+    },
+    {
+      "frame": 36,
+      "remaining": 215,
+      "clock": 23,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 4,
+      "graphics_sha256": "c714b4e3be87e307576aa9db5a87a74d47b44278736b4db7a5aa92cfa943efee"
+    },
+    {
+      "frame": 37,
+      "remaining": 214,
+      "clock": 0,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 4,
+      "graphics_sha256": "1525a9507df3ad31a55b77ceff332b8b80cb7f485a200404dc23bb516dc02e6a"
+    },
+    {
+      "frame": 38,
+      "remaining": 213,
+      "clock": 1,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 4,
+      "graphics_sha256": "bbd9804059ff3af329889fed3da6192c6be731d256fa5ab0902e894dc8eebd77"
+    },
+    {
+      "frame": 39,
+      "remaining": 212,
+      "clock": 2,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 5,
+      "graphics_sha256": "245cd819090c162f86dac2dbb8fe3d0cd5b4051e0b2e7cfe395321d43a7915fe"
+    },
+    {
+      "frame": 40,
+      "remaining": 211,
+      "clock": 3,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 5,
+      "graphics_sha256": "152fcb3f554ba72cec0d4302a3d312098089902f98b64879957f9c00ae1c6060"
+    },
+    {
+      "frame": 41,
+      "remaining": 210,
+      "clock": 4,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 5,
+      "graphics_sha256": "fb47eb226596e06cd53489a32145a098f6b579c7cde1c9fc2c2b18b5023c1021"
+    },
+    {
+      "frame": 42,
+      "remaining": 209,
+      "clock": 5,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 5,
+      "graphics_sha256": "bccc2f6f35e5ac0f425e1ec7632b13b1c19b1e04872b01ba4b374ea2a0c06a0d"
+    },
+    {
+      "frame": 43,
+      "remaining": 208,
+      "clock": 6,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 5,
+      "graphics_sha256": "d042baffc3d329e35daa93dd539cf1a6f21c79d1a96a5a509b56d0cc1c847d94"
+    },
+    {
+      "frame": 44,
+      "remaining": 207,
+      "clock": 7,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        1,
+        -5
+      ],
+      "image": 5,
+      "graphics_sha256": "56d610122f7ff642816bf563e0609e0b5e6ad37dbe3178caf4492fba6a31d880"
+    },
+    {
+      "frame": 45,
+      "remaining": 206,
+      "clock": 8,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 6,
+      "graphics_sha256": "218f6f1797a223ed979b88f6e33ed57a60c2849e9965d6b2ebc9b9d2500c5d0f"
+    },
+    {
+      "frame": 46,
+      "remaining": 205,
+      "clock": 9,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 6,
+      "graphics_sha256": "0784bd55448f7f0d2810d475f4f80e5b69a6d600e5608217f1e03ae038d89a00"
+    },
+    {
+      "frame": 47,
+      "remaining": 204,
+      "clock": 10,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "cd490a9f2fa5f1b4b900c387e41572b9725cae0068db16e33b246d84caadbcc3"
+    },
+    {
+      "frame": 48,
+      "remaining": 203,
+      "clock": 11,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "a60935b8673e304c15f6289306a38da73a7112136efac3892c2837a74cefef79"
+    },
+    {
+      "frame": 49,
+      "remaining": 202,
+      "clock": 12,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "f66a8472196a5ad8c819fa04b5e66cb86caca13addbbb0211d8559d21d85d9fb"
+    },
+    {
+      "frame": 50,
+      "remaining": 201,
+      "clock": 13,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "5457c4ed20413c83028af0f068ad62e2d3c8f0debbc3f88f9e727417852cac30"
+    },
+    {
+      "frame": 51,
+      "remaining": 200,
+      "clock": 14,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "97fd3c45c3fde47e5aa67a39d532575d0413f788ef6de533223cb6cbd83435fa"
+    },
+    {
+      "frame": 52,
+      "remaining": 199,
+      "clock": 15,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "3157fb97bb4087c97a13f1ef83f3d72906c1a3a11c90faed7cc2b95f9cafe9b1"
+    },
+    {
+      "frame": 53,
+      "remaining": 198,
+      "clock": 16,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "f7696ed6aa3dae9bfbb0031b33e3a96d58012faf36a57c0d68b4f47335633caf"
+    },
+    {
+      "frame": 54,
+      "remaining": 197,
+      "clock": 17,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "30d852651a4dd6e57cca9c1f41df3b1eba2d2ff60cc7cd001a8d714931d87141"
+    },
+    {
+      "frame": 55,
+      "remaining": 196,
+      "clock": 18,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 8,
+      "graphics_sha256": "78b7a3e81139275b432c943b69d5ebef65a18f54e2190bfb93a8fd2d5aa27975"
+    },
+    {
+      "frame": 56,
+      "remaining": 195,
+      "clock": 19,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 8,
+      "graphics_sha256": "7dd24edbb3cc2e3da73951e853cfdc5b2db4aff61d631891d5ad24ad080bdfff"
+    },
+    {
+      "frame": 57,
+      "remaining": 194,
+      "clock": 20,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 8,
+      "graphics_sha256": "0a8de9150dca6e052d1618875e18324e5d1fd7d52d3a371171a109388aadf15e"
+    },
+    {
+      "frame": 58,
+      "remaining": 193,
+      "clock": 21,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 8,
+      "graphics_sha256": "3ad4687589f3e34dbc5731954ba4db1ad75efb8e3a5b9f11fb2ab53996d86eff"
+    },
+    {
+      "frame": 59,
+      "remaining": 192,
+      "clock": 22,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 8,
+      "graphics_sha256": "15160b38bd3ee650e5e89d4f342575168927fdce8ae06923fa52719d94f0c64e"
+    },
+    {
+      "frame": 60,
+      "remaining": 191,
+      "clock": 23,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 9,
+      "graphics_sha256": "87ca1c3d7bcd4e51cc74ec2451068dec3d8544a9972cfb29a5d56a9af8306ffd"
+    },
+    {
+      "frame": 61,
+      "remaining": 190,
+      "clock": 0,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 9,
+      "graphics_sha256": "00b1e1fb98c1818e9549072101999004666bfde46350819474b5521794c25c3e"
+    },
+    {
+      "frame": 62,
+      "remaining": 189,
+      "clock": 1,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 9,
+      "graphics_sha256": "7d93f1bd6e9162d2d41c35727192de9dc74deaca9abfa5b8c8d3a9f6b4956f4c"
+    },
+    {
+      "frame": 63,
+      "remaining": 188,
+      "clock": 2,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "45373bc2910f5ee90a996741d5b0e86a1fd3638097c4bbe49a9c4dc1011436f8"
+    },
+    {
+      "frame": 64,
+      "remaining": 187,
+      "clock": 3,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "2a7489112b52e30482b960d957a4f7609954ec08a6a29f8f1e8fce4d81eee602"
+    },
+    {
+      "frame": 65,
+      "remaining": 186,
+      "clock": 4,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "30c898d523033ba1ca42665041682bb6c431c65054c369af9537510a3a75bab5"
+    },
+    {
+      "frame": 66,
+      "remaining": 185,
+      "clock": 5,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "ba714c3a9741969c981fbd1d47e8d63babb18823410d5bb9093a5f1d630e4806"
+    },
+    {
+      "frame": 67,
+      "remaining": 184,
+      "clock": 6,
+      "body_object": 27,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "704467f57c3db190ad6f091b021d7cafea1460dc62b7e0eea32bfcf622abb218"
+    },
+    {
+      "frame": 68,
+      "remaining": 183,
+      "clock": 7,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "d7a4e66326cc6342366914687d71f88f6c2530175f9a5069c8e64a9b24167c58"
+    },
+    {
+      "frame": 69,
+      "remaining": 182,
+      "clock": 8,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "7b92b9ca7ccea2ad33f1ede00112a642aebfd794b4047ce7ba798a9026536209"
+    },
+    {
+      "frame": 70,
+      "remaining": 181,
+      "clock": 9,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "ca4450c736b4620eb599ad362e53a2a1dd5ed8ea69942e604c3f0ee58b405f1a"
+    },
+    {
+      "frame": 71,
+      "remaining": 180,
+      "clock": 10,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 11,
+      "graphics_sha256": "89ab792cc0f58236165cde91114b907076d5ba54c436e4936f42380e405b4aa7"
+    },
+    {
+      "frame": 72,
+      "remaining": 179,
+      "clock": 11,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 11,
+      "graphics_sha256": "52d944406292af492bc42be4f235f106973142c28e3e7382cdd2c8eb226d064f"
+    },
+    {
+      "frame": 73,
+      "remaining": 178,
+      "clock": 12,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 11,
+      "graphics_sha256": "8c86bb61424825d901b509ed7ba4d238d369ead8d977d5129cd3ce8dd2f521da"
+    },
+    {
+      "frame": 74,
+      "remaining": 177,
+      "clock": 13,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 11,
+      "graphics_sha256": "bbe5a94e1fce1928f02d5d7b8165aa64d66fb1c1c66dd8a24dab1490f5a31c28"
+    },
+    {
+      "frame": 75,
+      "remaining": 176,
+      "clock": 14,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 11,
+      "graphics_sha256": "d314757391f88eb948e239393a7edbc1cbb3d8801f6a969c85cc490d15cbc94c"
+    },
+    {
+      "frame": 76,
+      "remaining": 175,
+      "clock": 15,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 11,
+      "graphics_sha256": "b0e8048e51cf4f7833452b5e57cab477cc6974aed4e563e0bd2e5113637634e3"
+    },
+    {
+      "frame": 77,
+      "remaining": 174,
+      "clock": 16,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 11,
+      "graphics_sha256": "de75026505c524b574ac37c87fdc7f90e6b95c11c4d0597d477aac4cce7584a3"
+    },
+    {
+      "frame": 78,
+      "remaining": 173,
+      "clock": 17,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 11,
+      "graphics_sha256": "0945e0c4c151efb2a8f457beb3e27b8a559be0784c4a27d48b7b7e2530a03811"
+    },
+    {
+      "frame": 79,
+      "remaining": 172,
+      "clock": 18,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 9,
+      "graphics_sha256": "864e23fd8e1925f7196c1d53a7664ebbddfb185b70d1f6210ec90c3ce000fefa"
+    },
+    {
+      "frame": 80,
+      "remaining": 171,
+      "clock": 19,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 9,
+      "graphics_sha256": "4d707a866a53c258da475685ca0b4fb8803b0956c59248167353b7408bd60ce3"
+    },
+    {
+      "frame": 81,
+      "remaining": 170,
+      "clock": 20,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 9,
+      "graphics_sha256": "3b130513db0af5434afc4587fb1da1c9ffc456cab0211b813df182b9b024fedc"
+    },
+    {
+      "frame": 82,
+      "remaining": 169,
+      "clock": 21,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 9,
+      "graphics_sha256": "b0c9a113f38f38db103d01834964bc12cdf3a0cc37a77feebdc85f1a5c0cc00d"
+    },
+    {
+      "frame": 83,
+      "remaining": 168,
+      "clock": 22,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 9,
+      "graphics_sha256": "0de4b5899e269dbfa5ca43f296da7fc9f92e7f2b9e53799c8271462253d279ff"
+    },
+    {
+      "frame": 84,
+      "remaining": 167,
+      "clock": 23,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 9,
+      "graphics_sha256": "692f7999406f9fd7c5de579bdf4d864b79da7a14e9b2d5985c12de2e69164909"
+    },
+    {
+      "frame": 85,
+      "remaining": 166,
+      "clock": 0,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 9,
+      "graphics_sha256": "20c6253c58bf13d67b56548dab005a225a58f9edaf92f558c8afb7c1c302e0e8"
+    },
+    {
+      "frame": 86,
+      "remaining": 165,
+      "clock": 1,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 9,
+      "graphics_sha256": "7acebe83ba1e11a0ae4825fb7a18a61c16c5f39493984c8699fff62499a52182"
+    },
+    {
+      "frame": 87,
+      "remaining": 164,
+      "clock": 2,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "095d330048b7e1946839212170b100d42e60a9b14fbd247d7b1fd52a760e0e35"
+    },
+    {
+      "frame": 88,
+      "remaining": 163,
+      "clock": 3,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "696950676920588ccc1d5381ce09f96f74efb28b5313bf1794f0aa9c272e9711"
+    },
+    {
+      "frame": 89,
+      "remaining": 162,
+      "clock": 4,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "aa5e11af360892d6c82d6cfa526355c00200fa116ea98e5892fc5d3f4592ec5e"
+    },
+    {
+      "frame": 90,
+      "remaining": 161,
+      "clock": 5,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "966890ce48a90f5178adafc9ff157f0db5fd2ca6c00d5cee6a016c73da082df0"
+    },
+    {
+      "frame": 91,
+      "remaining": 160,
+      "clock": 6,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 10,
+      "graphics_sha256": "ba8f0c2db4a0432c3cce4d32cf3bfe189538cb72263bb6809acdb4fce9dc513e"
+    },
+    {
+      "frame": 92,
+      "remaining": 159,
+      "clock": 7,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 6,
+      "graphics_sha256": "dd7544c296d179c75d87e109682ba46d4f32f9f109d43ac8e7e0753de8239913"
+    },
+    {
+      "frame": 93,
+      "remaining": 158,
+      "clock": 8,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 6,
+      "graphics_sha256": "a8a277a66aac6e24903b634c683105f86dc701f0ffcd8a7baecc4e36b9f7c9f5"
+    },
+    {
+      "frame": 94,
+      "remaining": 157,
+      "clock": 9,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 6,
+      "graphics_sha256": "763880eeffc012e685037be87525ea77ba26dd8218e97dfd62e7758bc2d7d9d9"
+    },
+    {
+      "frame": 95,
+      "remaining": 156,
+      "clock": 10,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "2f537d76f98f64f8088524a4099486dca76d225e5f7aada8d76a77293262437b"
+    },
+    {
+      "frame": 96,
+      "remaining": 155,
+      "clock": 11,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "92ed5e9a4703d0133bd4eca4ada8675085cff19675dff9db09a86d1431abcf87"
+    },
+    {
+      "frame": 97,
+      "remaining": 154,
+      "clock": 12,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "591a53530bfc2237c4565d7c78338ebf4d1a287e940bb33c46515531ba51d11a"
+    },
+    {
+      "frame": 98,
+      "remaining": 153,
+      "clock": 13,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "26e84ffafaa9f16f2887f89db88117f5ff1307bd0fa200d87bad25a12cfa7753"
+    },
+    {
+      "frame": 99,
+      "remaining": 152,
+      "clock": 14,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "99321f0f2ec211fde592b1cf223c623717aa9abcb0c77da3b0b1b7740efeaaa8"
+    },
+    {
+      "frame": 100,
+      "remaining": 151,
+      "clock": 15,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "40fdeb39859fd3bac51fa637c9471f65a7f3e4694b3caa08cde46d09a7cd69a8"
+    },
+    {
+      "frame": 101,
+      "remaining": 150,
+      "clock": 16,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "bbe255eb7d77141181b0d441a62f645eceacdd5d4e55f3dd6c5656b248846ca1"
+    },
+    {
+      "frame": 102,
+      "remaining": 149,
+      "clock": 17,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 7,
+      "graphics_sha256": "4130a4607127b67820ef93222d8c264c642f0fe0ab7f6427d005f3a1fb330ae8"
+    },
+    {
+      "frame": 103,
+      "remaining": 148,
+      "clock": 18,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 8,
+      "graphics_sha256": "fa64a0bdfaf7249131d58034fd9556ec9069a451eafb8d8d26100830df1863cb"
+    },
+    {
+      "frame": 104,
+      "remaining": 147,
+      "clock": 19,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 8,
+      "graphics_sha256": "5b00495ddf790680e2e266fe9867b3831c3dc7a73b38172766c8e549ebd3ed12"
+    },
+    {
+      "frame": 105,
+      "remaining": 146,
+      "clock": 20,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 8,
+      "graphics_sha256": "6063c0522e8785e3244fa390152dd4a72bd1733b8587b19ca638f66edd776f86"
+    },
+    {
+      "frame": 106,
+      "remaining": 145,
+      "clock": 21,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 8,
+      "graphics_sha256": "acf4c682c87399060f8363f9fc72456d9389892f072b5e64a39d4e4160e76e1a"
+    },
+    {
+      "frame": 107,
+      "remaining": 144,
+      "clock": 22,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 8,
+      "graphics_sha256": "f0363bdaee0743758b24ec938347b2af8ac6808effd17b985a8ece261d3f831d"
+    },
+    {
+      "frame": 108,
+      "remaining": 143,
+      "clock": 23,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        2,
+        -4
+      ],
+      "image": 8,
+      "graphics_sha256": "2cc6023aee127f871f7e3385050b1426bcfb6a7ae80dc8ea4ad8384dcd8d3187"
+    },
+    {
+      "frame": 109,
+      "remaining": 142,
+      "clock": 0,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 12,
+      "graphics_sha256": "f0843808a748179c85321e106a1ac4959a06facc8e3b1c0f3e2a068302c8631a"
+    },
+    {
+      "frame": 110,
+      "remaining": 141,
+      "clock": 1,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 12,
+      "graphics_sha256": "2de0471c61109ca97b851a9b8195fbdf6a5875793d4f35cb99061be4dbc813aa"
+    },
+    {
+      "frame": 111,
+      "remaining": 140,
+      "clock": 2,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 13,
+      "graphics_sha256": "72b31296192536928beeebcbefef2ae20f3495dfaaf38bbd94e4091b71bcefb9"
+    },
+    {
+      "frame": 112,
+      "remaining": 139,
+      "clock": 3,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 13,
+      "graphics_sha256": "291bfcb89c92e7357032f6e9db4534b142b5e73e14c98d19e1e499ea2d66f26e"
+    },
+    {
+      "frame": 113,
+      "remaining": 138,
+      "clock": 4,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 13,
+      "graphics_sha256": "cf20775e91ab0fb5adfbfa4cb90e017f9238612510d170bd276b622fa92a90a7"
+    },
+    {
+      "frame": 114,
+      "remaining": 137,
+      "clock": 5,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 13,
+      "graphics_sha256": "f81be6a90cb9cb4d9872b2a26d7e1a671569e11a23e0c84d8fb0e0778557a7fc"
+    },
+    {
+      "frame": 115,
+      "remaining": 136,
+      "clock": 6,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 13,
+      "graphics_sha256": "a63a78f6a5c1455bc0e498c8d7311027560255d87bbbabda4b7a7d8bc6c04d2c"
+    },
+    {
+      "frame": 116,
+      "remaining": 135,
+      "clock": 7,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 13,
+      "graphics_sha256": "a9b7e65b0f3ef3c57be1667c630ba2755a70cb7dd677f270a6c4f7f86d8ed79a"
+    },
+    {
+      "frame": 117,
+      "remaining": 134,
+      "clock": 8,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 13,
+      "graphics_sha256": "de1bd43fb5458a506df1f9c327343c3374b743f6a684f81300bf9faf29e57d63"
+    },
+    {
+      "frame": 118,
+      "remaining": 133,
+      "clock": 9,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 13,
+      "graphics_sha256": "a806eacfb2e909a30986718673147e4faf44db0a789bc7c81535a6b07cafdea6"
+    },
+    {
+      "frame": 119,
+      "remaining": 132,
+      "clock": 10,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 14,
+      "graphics_sha256": "fa3d951f7786340e8208f6efa624904205b3b3ce3b220c89f9b93ce861914fec"
+    },
+    {
+      "frame": 120,
+      "remaining": 131,
+      "clock": 11,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 14,
+      "graphics_sha256": "59501cf59e0b699f492eec137474b5dbb2947d72b61687ee5309e943d99b9f7e"
+    },
+    {
+      "frame": 121,
+      "remaining": 130,
+      "clock": 12,
+      "body_object": 29,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 14,
+      "graphics_sha256": "996de3571dd8a839765ac41241af979ad547dc6a423cad0f05133e358334c232"
+    },
+    {
+      "frame": 122,
+      "remaining": 129,
+      "clock": 13,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 14,
+      "graphics_sha256": "9eaf9c5bf2ec41fda5c4cad21eda5265d35f9e6b17baf0bfbe5df7ee2099072f"
+    },
+    {
+      "frame": 123,
+      "remaining": 128,
+      "clock": 14,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 14,
+      "graphics_sha256": "97b3354eeb7bc4298714837c94b5557660aa16b1103f27f1d7eb10feb91d07e3"
+    },
+    {
+      "frame": 124,
+      "remaining": 127,
+      "clock": 15,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 15,
+      "graphics_sha256": "d196b044aa86efbb152219ff17e8965ab1379c13f2c02ef5fb2cac1843cadf52"
+    },
+    {
+      "frame": 125,
+      "remaining": 126,
+      "clock": 16,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 15,
+      "graphics_sha256": "c1922c6adec8871212c37771f3e482d312174a3ab8d9e63eb5fe175caf253a42"
+    },
+    {
+      "frame": 126,
+      "remaining": 125,
+      "clock": 17,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 15,
+      "graphics_sha256": "032d085e7a44d0ffe634960e63a0ffde9638dad779835415f22cdf77269bac70"
+    },
+    {
+      "frame": 127,
+      "remaining": 124,
+      "clock": 18,
+      "body_object": 30,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 16,
+      "graphics_sha256": "e5ffc69efa40e124077c6907485990de33458272ce72191efb284ace5dfc2b7d"
+    },
+    {
+      "frame": 128,
+      "remaining": 123,
+      "clock": 19,
+      "body_object": 30,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 16,
+      "graphics_sha256": "15163a081ddb1f519059145c6c4d42c249cbcfd0884cb754d4cc6aa40aa6b9f6"
+    },
+    {
+      "frame": 129,
+      "remaining": 122,
+      "clock": 20,
+      "body_object": 30,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 16,
+      "graphics_sha256": "5356015fd7af9dc768d3da14e1f83b66eace7d1f8e4625a61bea7222e50c9549"
+    },
+    {
+      "frame": 130,
+      "remaining": 121,
+      "clock": 21,
+      "body_object": 30,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 16,
+      "graphics_sha256": "69f8d68c2eba8a02f51458892c8351f7568990771b0ca1d7e09f9ee318507a8b"
+    },
+    {
+      "frame": 131,
+      "remaining": 120,
+      "clock": 22,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 17,
+      "graphics_sha256": "b9221630355702b8f4aded4a5c15514595b7b1285f2742ccbdc81c88f2d60681"
+    },
+    {
+      "frame": 132,
+      "remaining": 119,
+      "clock": 23,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 17,
+      "graphics_sha256": "071ac1f518758f2450e8f4a57eb72770c40a5e1920d658027ba477bf1ebca77c"
+    },
+    {
+      "frame": 133,
+      "remaining": 118,
+      "clock": 0,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 17,
+      "graphics_sha256": "ec371a86513e210187ae2a50e282b540c0e7c70322b02ee5c42fe1e7219cf870"
+    },
+    {
+      "frame": 134,
+      "remaining": 117,
+      "clock": 1,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 17,
+      "graphics_sha256": "6d24f1a0e117372d8c6ea6eb12c1c20ab373743085e2e0a4d0944bec9d5e9635"
+    },
+    {
+      "frame": 135,
+      "remaining": 116,
+      "clock": 2,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "789fe8d2ee30b016bdaa53da5a4b8e6b2322b0c55928e7b107ccd53e7880d50f"
+    },
+    {
+      "frame": 136,
+      "remaining": 115,
+      "clock": 3,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "bf0154b816cddad93be907b4c06cc67bbba2ca748ea5f6739df5caf966625cb4"
+    },
+    {
+      "frame": 137,
+      "remaining": 114,
+      "clock": 4,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "91c751a844ac37403efd313507cdf589f64717dd1cd502d4fea23b9f70b977c0"
+    },
+    {
+      "frame": 138,
+      "remaining": 113,
+      "clock": 5,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "20aa80d633b5465f08e214f2375aa42f08a6f4131a3f48195da2ab1042218d11"
+    },
+    {
+      "frame": 139,
+      "remaining": 112,
+      "clock": 6,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "62adc5ad98c82b8b59031c5c931b59ed82ba1d7f4268d35ef5196eb42878fe11"
+    },
+    {
+      "frame": 140,
+      "remaining": 111,
+      "clock": 7,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "99b953113ec388c99ebf27f9a8a8de67b318db21003e8b64adb76605373d0066"
+    },
+    {
+      "frame": 141,
+      "remaining": 110,
+      "clock": 8,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "d89aaf9de7e4d270a262256d3868f8b6ec991e98ea23e37de9b787c7dd4c282a"
+    },
+    {
+      "frame": 142,
+      "remaining": 109,
+      "clock": 9,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "681c47c09c857fe8589036cb4be69c54054830289b37030261c5d47eae5c03fa"
+    },
+    {
+      "frame": 143,
+      "remaining": 108,
+      "clock": 10,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "b6c752d4563a26bcfd9652dc615d9989d6a413a68c6c4d0129e6fea2fe300c6b"
+    },
+    {
+      "frame": 144,
+      "remaining": 107,
+      "clock": 11,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "bd0ec778f349b0f6578fc82ec18ea538490e966adc4f7a2312d695400b25e999"
+    },
+    {
+      "frame": 145,
+      "remaining": 106,
+      "clock": 12,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "ec585240115689dae9b5f7991b759e9d51cbe386a5e1b260e76d71de53b863a5"
+    },
+    {
+      "frame": 146,
+      "remaining": 105,
+      "clock": 13,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "40b34e6871a00449b5ff46b8b0d17b206129ed399807162a1576d5a2dcb77e19"
+    },
+    {
+      "frame": 147,
+      "remaining": 104,
+      "clock": 14,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "2e918439dba4cbbde5267c623970bfcdd897f775c96537e1f3fd7d1027f6eaf2"
+    },
+    {
+      "frame": 148,
+      "remaining": 103,
+      "clock": 15,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "89cf785a61a8450b4f50c3f0a9183b6926533b67174c09a002499a5691a3ae0f"
+    },
+    {
+      "frame": 149,
+      "remaining": 102,
+      "clock": 16,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "bbb98ac142020270a6b00aff3fdc942c2d0c27bf91cba160aacb885705531f95"
+    },
+    {
+      "frame": 150,
+      "remaining": 101,
+      "clock": 17,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "05af8de347c2fceca9a72725d1f7beeb086f590cce60bcc0aeca9995010f966b"
+    },
+    {
+      "frame": 151,
+      "remaining": 100,
+      "clock": 18,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 17,
+      "graphics_sha256": "9f790a7834b0e8145c5f96b0cb4395efa12428cc3c1135c6b8e49f0e0cb348b5"
+    },
+    {
+      "frame": 152,
+      "remaining": 99,
+      "clock": 19,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 17,
+      "graphics_sha256": "1a8bbd84122a19682eddb65463af3304c5fb920bb3a9fcc058b4764243d1f395"
+    },
+    {
+      "frame": 153,
+      "remaining": 98,
+      "clock": 20,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 17,
+      "graphics_sha256": "a739830f60a90c0e6773ca3f04ad4e87b9e32a69a7e4745d2195d51140ab0e3b"
+    },
+    {
+      "frame": 154,
+      "remaining": 97,
+      "clock": 21,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 17,
+      "graphics_sha256": "9ad0545e09c5b2c2f46d34e7cf48fc3c791937829bce3a5f1dfd6bf7cb68a00f"
+    },
+    {
+      "frame": 155,
+      "remaining": 96,
+      "clock": 22,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 17,
+      "graphics_sha256": "63ca782dbad58fa7468b232ea88fa0061ff6ea2a2c24cf953d38b3e7b86cb57e"
+    },
+    {
+      "frame": 156,
+      "remaining": 95,
+      "clock": 23,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 17,
+      "graphics_sha256": "7513f239c0f89afa5b81c364c9f5a011cec9060044adfb1336e6d78958985788"
+    },
+    {
+      "frame": 157,
+      "remaining": 94,
+      "clock": 0,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 17,
+      "graphics_sha256": "098d72c362ba879765e2891ebdb548a5118803b3ea645111dfef0566c071fd34"
+    },
+    {
+      "frame": 158,
+      "remaining": 93,
+      "clock": 1,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 17,
+      "graphics_sha256": "c3b99c0b4339bc78a28934e9ed393f1812dc8872335266af7d14ae32ea7d49f0"
+    },
+    {
+      "frame": 159,
+      "remaining": 92,
+      "clock": 2,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "69754cde789c0ba25bcd45f80b2275f84d014550052f1aa2d540c8fbcf4b94e6"
+    },
+    {
+      "frame": 160,
+      "remaining": 91,
+      "clock": 3,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "8ffdbf5d1dcfa077e270cf11545fe60987f9bec9f816c35762041fdec20a0f5c"
+    },
+    {
+      "frame": 161,
+      "remaining": 90,
+      "clock": 4,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "040d4b63814620ec831d001c89c495d80709b621057b3e7049728c4417906ca5"
+    },
+    {
+      "frame": 162,
+      "remaining": 89,
+      "clock": 5,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "35d106ab7d2ef3f4fbea5f4670c3150b63d68a59f2e2fa6174dfc75a3eb56718"
+    },
+    {
+      "frame": 163,
+      "remaining": 88,
+      "clock": 6,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "f88ffbfb28819fdcf88d47de9feaeea87133b1b5ba00a244558b5d0d9b4ed92d"
+    },
+    {
+      "frame": 164,
+      "remaining": 87,
+      "clock": 7,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "59dfa94d1db03cffe46d8d9f996b607d6358b2aef60763c8dd8c83b8e2eb5b3c"
+    },
+    {
+      "frame": 165,
+      "remaining": 86,
+      "clock": 8,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "0b96fc6bb34d1e0b47a28921ea1580b485b35ffd34fc38758755053a81c395f1"
+    },
+    {
+      "frame": 166,
+      "remaining": 85,
+      "clock": 9,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 18,
+      "graphics_sha256": "28be7a3d8745d55ce83cfe20d6711d5dec1d113891b456dc8f4bf2661e0bf932"
+    },
+    {
+      "frame": 167,
+      "remaining": 84,
+      "clock": 10,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "8151eab89716ecc7c9c85e3341920a7b5f7f06958e01909b731ae71fa5f5e854"
+    },
+    {
+      "frame": 168,
+      "remaining": 83,
+      "clock": 11,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "b8c7085ce23f6d7f1909cf44e377d25b2380d495f8b95ba62a560b0e5b8adfd5"
+    },
+    {
+      "frame": 169,
+      "remaining": 82,
+      "clock": 12,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "108c60ec6b60b0d7393e6627587731488fb8fa6ef146c596a3e50104ce2a136a"
+    },
+    {
+      "frame": 170,
+      "remaining": 81,
+      "clock": 13,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "c5482daf10a83f18acfdad945b418ad1761448f0880a06dcab65d5501a55b7a1"
+    },
+    {
+      "frame": 171,
+      "remaining": 80,
+      "clock": 14,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "9a7d4c7026468d6aa93cfc81379ef24302caa7ddbab8797b5d59a39a25100a75"
+    },
+    {
+      "frame": 172,
+      "remaining": 79,
+      "clock": 15,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        3,
+        -3
+      ],
+      "image": 19,
+      "graphics_sha256": "06566971ee104768c7fa084e639d0fc09eea7a6206364a9b29973592cbe2862c"
+    },
+    {
+      "frame": 173,
+      "remaining": 78,
+      "clock": 16,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "4a75e8094c33fa002e98e04ff2bf5f032565808ce435b75b72cfd05407e47bc3"
+    },
+    {
+      "frame": 174,
+      "remaining": 77,
+      "clock": 17,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "937b8714c811b674491b0c4034f58441b2ccc54a41eae5e263f25d89204dd7b8"
+    },
+    {
+      "frame": 175,
+      "remaining": 76,
+      "clock": 18,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "026606de3a6083fee3818209cfba602b07d33a9aebb0d209c6a2d00c2829c39a"
+    },
+    {
+      "frame": 176,
+      "remaining": 75,
+      "clock": 19,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "eafe4e5181e475606df7465127b205ae07c23ce0de816a913352e1b1dc0ecace"
+    },
+    {
+      "frame": 177,
+      "remaining": 74,
+      "clock": 20,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "fa610540443cd80e8ac3bfd890775e98bc111d80744abd7aca68db32635cffb0"
+    },
+    {
+      "frame": 178,
+      "remaining": 73,
+      "clock": 21,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "196deafd7f0d7e2231e1c5998fe931230e2110e6c5cee160c6aea70214dfe1ee"
+    },
+    {
+      "frame": 179,
+      "remaining": 72,
+      "clock": 22,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "96ad08ddaf10a4cb756df26d428bcc3f2f235ce2ccfb73a5c796d900748a0ebe"
+    },
+    {
+      "frame": 180,
+      "remaining": 71,
+      "clock": 23,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "3573abe637b801eee1fee8da98b41e32e52e2c6fbeed74929c85dadd13b74ef1"
+    },
+    {
+      "frame": 181,
+      "remaining": 70,
+      "clock": 0,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "a2c8745db65869b6cd1dfa029a659309f4f4c6c89be077dcd09e1d185bff214b"
+    },
+    {
+      "frame": 182,
+      "remaining": 69,
+      "clock": 1,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "79b63b69a6e2a67010d455fb4e035939fa448ebabf9ac83d717746e1d127a192"
+    },
+    {
+      "frame": 183,
+      "remaining": 68,
+      "clock": 2,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "f524005584bb76cfc41549f59b4e5617fac1fccc8d78094788b45fd9d2a0b23f"
+    },
+    {
+      "frame": 184,
+      "remaining": 67,
+      "clock": 3,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "60864e0b4c1621bdfd76d7eb12a1caa73b3fff26e51e0fec87a8143950859928"
+    },
+    {
+      "frame": 185,
+      "remaining": 66,
+      "clock": 4,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "e0cc760cf8f7c970e08b633c98ca3e89a5f10c3c1450480487074cb447ee79fe"
+    },
+    {
+      "frame": 186,
+      "remaining": 65,
+      "clock": 5,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "df80461f09f72722acdd9e90f324dd17788f89d3f93da6b21428d59319050296"
+    },
+    {
+      "frame": 187,
+      "remaining": 64,
+      "clock": 6,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "97d060b6a8086dfba205d31d019a7fe4f3b9fb2b6245f0d8e1fb8d238db6ba6b"
+    },
+    {
+      "frame": 188,
+      "remaining": 63,
+      "clock": 7,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "3c68a6e64b5be5456054eed6628b39e24658097fb10bee4f97e00bfcb4a1ac68"
+    },
+    {
+      "frame": 189,
+      "remaining": 62,
+      "clock": 8,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "243136fdc6f74a7b45a2e1574d11692356fe3ac17737827989d9fc17a3553e27"
+    },
+    {
+      "frame": 190,
+      "remaining": 61,
+      "clock": 9,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "144325257d06d3170afde713eb4c2c6f80d3b6daa49084012042b65ae480e595"
+    },
+    {
+      "frame": 191,
+      "remaining": 60,
+      "clock": 10,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "a80cff45cc2be47fdf9a812199313d5edb70dcf5c9dce4d27a1cf418328a8960"
+    },
+    {
+      "frame": 192,
+      "remaining": 59,
+      "clock": 11,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "3719ca020720e8105f00ee0a8e9f25167590af7bb4b01b32841f2693d532cf07"
+    },
+    {
+      "frame": 193,
+      "remaining": 58,
+      "clock": 12,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "458176ef563148e0b654ad7b30be8fd89a9fd95f08b98c2f154d6fd538e0d2ed"
+    },
+    {
+      "frame": 194,
+      "remaining": 57,
+      "clock": 13,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "4623abf9515817cdd163bae7244ea89f5de10c9e3b1dc14c37e0cfb8a39e51e0"
+    },
+    {
+      "frame": 195,
+      "remaining": 56,
+      "clock": 14,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "0a289b050afa43da48b97365334342b2bb72b62e45c1eba9c176dbeadfec9d9a"
+    },
+    {
+      "frame": 196,
+      "remaining": 55,
+      "clock": 15,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "2e4d2ecfb81856871d318ebfd15567e00fb9fac440ee55c87a002e52878724bd"
+    },
+    {
+      "frame": 197,
+      "remaining": 54,
+      "clock": 16,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "9bcd0462176a76f12b370fb464a961c27babb2a2f6626965125ef3f92e833d67"
+    },
+    {
+      "frame": 198,
+      "remaining": 53,
+      "clock": 17,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "39866304e82327bb76e360f504a96a89f41d0f9d85b1c9ad08f130fbae9b31bd"
+    },
+    {
+      "frame": 199,
+      "remaining": 52,
+      "clock": 18,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "70ff750a8dd27947fac052e09de85a5a4f392e56a20880e5fd208b8a8f5f69ca"
+    },
+    {
+      "frame": 200,
+      "remaining": 51,
+      "clock": 19,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "cf16f67c44476128a24cdd42d421b2c911e452668f3008ee2c32afa6cadad338"
+    },
+    {
+      "frame": 201,
+      "remaining": 50,
+      "clock": 20,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 23,
+      "graphics_sha256": "0cfe86ca13bff2a32dfdbdc24e8f8115667905de922ae7035cd2a86e515e72d8"
+    },
+    {
+      "frame": 202,
+      "remaining": 49,
+      "clock": 21,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 23,
+      "graphics_sha256": "c8ea1a365631f8c5474f44fec08497bc3fe27c2d095ed484c31a7b78d6a234c2"
+    },
+    {
+      "frame": 203,
+      "remaining": 48,
+      "clock": 22,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 23,
+      "graphics_sha256": "17984b5c1a13f3ed0820945ce2577f8b81f1be12af54e78044bdd4f4a12d3e9a"
+    },
+    {
+      "frame": 204,
+      "remaining": 47,
+      "clock": 23,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "ae7017c664a6ab77505f0147a61eaf5ac7ad6d4fefb676f9201026fc59309a40"
+    },
+    {
+      "frame": 205,
+      "remaining": 46,
+      "clock": 0,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "23bcafdee389af8bd5a8f0fc357b82a17f43952f74d6fbdf174271c9b10cf23c"
+    },
+    {
+      "frame": 206,
+      "remaining": 45,
+      "clock": 1,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "e1d1255e6afb32d69ee35467a06c4f8d14204fb4548ef10ceae6eb0cba1b2236"
+    },
+    {
+      "frame": 207,
+      "remaining": 44,
+      "clock": 2,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "4e2316ecb03fd7d00d97ba899362f9e4b1f6b4c1c9e649b451284b57694e7b4d"
+    },
+    {
+      "frame": 208,
+      "remaining": 43,
+      "clock": 3,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "d542cf88ae8eebff945bd9879cb0d131bb7a05e9b3c2aa98b9320a901aabee1e"
+    },
+    {
+      "frame": 209,
+      "remaining": 42,
+      "clock": 4,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "2618e5cd89c27e1406605c6dc3f6b4c5e920a422e034b075c4b82f4576d4c9cc"
+    },
+    {
+      "frame": 210,
+      "remaining": 41,
+      "clock": 5,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "e67bff03bcd51e132750f3368829cb1979a1cf97cc706bf4c335eca0b4a94598"
+    },
+    {
+      "frame": 211,
+      "remaining": 40,
+      "clock": 6,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "2a2cb9040dd9336c17c866d6ac79de75a390dbd78f1a4fb0ce1dcd5312f2eef3"
+    },
+    {
+      "frame": 212,
+      "remaining": 39,
+      "clock": 7,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 24,
+      "graphics_sha256": "4f925b24dff194bd69b0b45697fde5ec1a2c5328054b2dcced249fca1e3bda34"
+    },
+    {
+      "frame": 213,
+      "remaining": 38,
+      "clock": 8,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 24,
+      "graphics_sha256": "09989db0ab2131036eb87dce4193e93e129381bc157d8a64a7d77b8dcbeb2e67"
+    },
+    {
+      "frame": 214,
+      "remaining": 37,
+      "clock": 9,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 24,
+      "graphics_sha256": "2b6ac3edcf4fab8e31fbcc7994a893070eaab56ffd5cc0fa07dffcfc66584fa8"
+    },
+    {
+      "frame": 215,
+      "remaining": 36,
+      "clock": 10,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 25,
+      "graphics_sha256": "5b1cb6a00d8f20c48ad3bd967f8b73f65ecca674fba664c1e46548766fbb502a"
+    },
+    {
+      "frame": 216,
+      "remaining": 35,
+      "clock": 11,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 25,
+      "graphics_sha256": "aaf8c8e409ce8b222d6903a06ab1ffd572b87cb0252fb202ed105c3819759182"
+    },
+    {
+      "frame": 217,
+      "remaining": 34,
+      "clock": 12,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 25,
+      "graphics_sha256": "690999b4c9bd3a608ba43bdb4892c2ea460680b3befbf0393cce65c11afabdc2"
+    },
+    {
+      "frame": 218,
+      "remaining": 33,
+      "clock": 13,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 25,
+      "graphics_sha256": "7250cfd6856cd10c01c662daaa2e4b69224280838f535230a91f9fc27685b0d7"
+    },
+    {
+      "frame": 219,
+      "remaining": 32,
+      "clock": 14,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 25,
+      "graphics_sha256": "39735b466ccddf23d45a3b34ef00e6ae5e297d3846977539aa430580f73e65a7"
+    },
+    {
+      "frame": 220,
+      "remaining": 31,
+      "clock": 15,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "9994f77d0c1d9fc9beb40864cb4faff07cf6386c3ac850a9c37f72e5115a5703"
+    },
+    {
+      "frame": 221,
+      "remaining": 30,
+      "clock": 16,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "c8cb5778af55ea0cff0fbb8b6d039d6158543f2ffd30a4fde2e9756407715937"
+    },
+    {
+      "frame": 222,
+      "remaining": 29,
+      "clock": 17,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 20,
+      "graphics_sha256": "a098745c3b42dddad93eba176da67b4a4c1a1183fc62e62b2177ab18744e222f"
+    },
+    {
+      "frame": 223,
+      "remaining": 28,
+      "clock": 18,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "c70aa922192b37e4b190751f3931b43d449dcae70bcef1b621367bb18fc4e1db"
+    },
+    {
+      "frame": 224,
+      "remaining": 27,
+      "clock": 19,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "b73d1cd6e581af1b5cd6396d1e42c51ede65cd304dcd04d13f03540bed5fc011"
+    },
+    {
+      "frame": 225,
+      "remaining": 26,
+      "clock": 20,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "4cf278470ef7a1f0aba479b26d25e2540e79f90c334f1341ecb1744dce1ec354"
+    },
+    {
+      "frame": 226,
+      "remaining": 25,
+      "clock": 21,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "6510e93fa32ce9123073f049925335ba886949d5a73feb733c7b2b648b772cf8"
+    },
+    {
+      "frame": 227,
+      "remaining": 24,
+      "clock": 22,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 21,
+      "graphics_sha256": "fd5650ff2aa5911f3f7f0ad3a71276a5ea3951a0bc58e79e286c83660fb8d17e"
+    },
+    {
+      "frame": 228,
+      "remaining": 23,
+      "clock": 23,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 23,
+      "graphics_sha256": "5ea5587e853ce1aad5e54f7eb6f1cb1f61a3d7b183e92377184b5b2999b6c686"
+    },
+    {
+      "frame": 229,
+      "remaining": 22,
+      "clock": 0,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 23,
+      "graphics_sha256": "73f7ef0ee8de52f0edcb266cdd5b771c75900ca9603a6d6f72e6417938ccde1f"
+    },
+    {
+      "frame": 230,
+      "remaining": 21,
+      "clock": 1,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 23,
+      "graphics_sha256": "c09a364c3e8b15d4a08e630ffe9acbaeb9fa42dc4c232b7038e5ae9746fdf0b1"
+    },
+    {
+      "frame": 231,
+      "remaining": 20,
+      "clock": 2,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 24,
+      "graphics_sha256": "007e1e24c236bebebc0e6fe1fbcd3b0f45e8087b71c615e375ddf7bec75b27a4"
+    },
+    {
+      "frame": 232,
+      "remaining": 19,
+      "clock": 3,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 24,
+      "graphics_sha256": "a4505bb3e88b13d1d00731023683fd4b18fee01f9ce477ced81cf429d5d909ff"
+    },
+    {
+      "frame": 233,
+      "remaining": 18,
+      "clock": 4,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 24,
+      "graphics_sha256": "cf4e2624be461943c570c81fa3ee1bb81568f782ee43dc5fc2e1e821c6e11037"
+    },
+    {
+      "frame": 234,
+      "remaining": 17,
+      "clock": 5,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 24,
+      "graphics_sha256": "8a821917f6d3a9e40f8cc585027705c823664f8dcf538b20a5490ca553d1e91c"
+    },
+    {
+      "frame": 235,
+      "remaining": 16,
+      "clock": 6,
+      "body_object": 32,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 24,
+      "graphics_sha256": "b8980d80b68c71851088d7d098be60592e59926e2f9165dfd68adae501e8f600"
+    },
+    {
+      "frame": 236,
+      "remaining": 15,
+      "clock": 7,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        4,
+        -2
+      ],
+      "image": 22,
+      "graphics_sha256": "84371bc210491544446c2f92e029c936a607d971804aabfcbc4f229fabfcf7f0"
+    },
+    {
+      "frame": 237,
+      "remaining": 14,
+      "clock": 8,
+      "body_object": 32,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 26,
+      "graphics_sha256": "b8d058cacfac1c815c32e90e4b919a3e67ce656f6bb0ea9f58e9e6e585da6b9e"
+    },
+    {
+      "frame": 238,
+      "remaining": 13,
+      "clock": 9,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 26,
+      "graphics_sha256": "4aba9839633532499fbe1aa24ed9bb99fb0df6934dbb808bc8071524303e628c"
+    },
+    {
+      "frame": 239,
+      "remaining": 12,
+      "clock": 10,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 27,
+      "graphics_sha256": "02c2d4c12a8899f06ac4438222810f6536103bdf98ad755b1dcb8c002e9acc4b"
+    },
+    {
+      "frame": 240,
+      "remaining": 11,
+      "clock": 11,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 27,
+      "graphics_sha256": "f49962c954c58825ac1a6a6b0945946e453f60aeb85a0102eac4182eb1dd7f6a"
+    },
+    {
+      "frame": 241,
+      "remaining": 10,
+      "clock": 12,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 27,
+      "graphics_sha256": "f272be41e567bc3bd007d01b9aec9faa313e611935bed93a6b0598326a1d7bd0"
+    },
+    {
+      "frame": 242,
+      "remaining": 9,
+      "clock": 13,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 27,
+      "graphics_sha256": "2c5c2ebd51a8b5e80df347f3b4259fe5fdf46329e1caca902cd8e0c77df4a44d"
+    },
+    {
+      "frame": 243,
+      "remaining": 8,
+      "clock": 14,
+      "body_object": 30,
+      "body_alpha_changes": 1,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 27,
+      "graphics_sha256": "7b7bacfd0ad033deac4118b3fd5b0126ad609e4d8e0f67c958cfd95f0702a742"
+    },
+    {
+      "frame": 244,
+      "remaining": 7,
+      "clock": 15,
+      "body_object": 30,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 28,
+      "graphics_sha256": "fd9555838e5e1e3e83e54f5a556057526eaa386562443b018a79e096fe248e87"
+    },
+    {
+      "frame": 245,
+      "remaining": 6,
+      "clock": 16,
+      "body_object": 30,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 28,
+      "graphics_sha256": "6fd3e63684633beb99883678ddf0e789afa766eccb5606b69cc34e3b9b07d1d0"
+    },
+    {
+      "frame": 246,
+      "remaining": 5,
+      "clock": 17,
+      "body_object": 30,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 28,
+      "graphics_sha256": "0532afd3693531d8d0e71d85c0de13126c7850d8caae2092069d41ba68bf29d4"
+    },
+    {
+      "frame": 247,
+      "remaining": 4,
+      "clock": 18,
+      "body_object": 30,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 29,
+      "graphics_sha256": "16fd7ffd8d0ec2c430a3db2a554a7f16b7214244a3adcb8e3f8a6aa593837ba7"
+    },
+    {
+      "frame": 248,
+      "remaining": 3,
+      "clock": 19,
+      "body_object": 30,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 29,
+      "graphics_sha256": "94be8347ef34faa1f03a8d3b9ae6f005fb492edcfa4438320d160a18fb992579"
+    },
+    {
+      "frame": 249,
+      "remaining": 2,
+      "clock": 20,
+      "body_object": 30,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 29,
+      "graphics_sha256": "8976b84c536ef5620353f2724fe71349690bfb8fcf6661fa5d67b75f375f1b50"
+    },
+    {
+      "frame": 250,
+      "remaining": 1,
+      "clock": 21,
+      "body_object": 30,
+      "body_alpha_changes": 0,
+      "fuse_offset": [
+        5,
+        -1
+      ],
+      "image": 29,
+      "graphics_sha256": "d6d674f11bb70c209c337c85283b7a1306957bd6171fc110e2f1e67be89293a4"
+    }
+  ],
+  "lookup": [
+    29,
+    29,
+    29,
+    29,
+    29,
+    28,
+    28,
+    28,
+    27,
+    27,
+    27,
+    27,
+    27,
+    26,
+    26,
+    22,
+    24,
+    24,
+    24,
+    24,
+    24,
+    23,
+    23,
+    23,
+    21,
+    21,
+    21,
+    21,
+    21,
+    20,
+    20,
+    20,
+    25,
+    25,
+    25,
+    25,
+    25,
+    24,
+    24,
+    24,
+    22,
+    22,
+    22,
+    22,
+    22,
+    21,
+    21,
+    21,
+    23,
+    23,
+    23,
+    21,
+    21,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    22,
+    22,
+    22,
+    22,
+    22,
+    22,
+    22,
+    22,
+    21,
+    21,
+    21,
+    21,
+    21,
+    21,
+    21,
+    21,
+    20,
+    20,
+    19,
+    19,
+    19,
+    19,
+    19,
+    19,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    19,
+    19,
+    19,
+    19,
+    19,
+    19,
+    19,
+    19,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    17,
+    17,
+    17,
+    17,
+    16,
+    16,
+    16,
+    16,
+    15,
+    15,
+    15,
+    14,
+    14,
+    14,
+    14,
+    14,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    12,
+    12,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    6,
+    6,
+    6,
+    10,
+    10,
+    10,
+    10,
+    10,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    9,
+    9,
+    9,
+    8,
+    8,
+    8,
+    8,
+    8,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    6,
+    6,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "images": 30
+}

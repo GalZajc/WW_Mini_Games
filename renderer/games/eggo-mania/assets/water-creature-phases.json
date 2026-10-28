@@ -1,0 +1,136 @@
+{
+  "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+  "iwram": "scripts/OUTPUT/eggo-reference_2026-10-04_22-26-53_045214/funky-hard-entry.frame00714.0x3000000",
+  "palette_capture": "scripts/OUTPUT/eggo-reference_2026-10-17_18-39-35_419191/solid-8.frame00110.0x5000000",
+  "decoder": 50337336,
+  "destination": 33685504,
+  "return": 134217728,
+  "stack": 50360320,
+  "instruction_limit": 100000,
+  "size": 64,
+  "palette_bank": 2,
+  "rise_literal_offsets": [
+    81496,
+    81504,
+    81512,
+    81520,
+    81528,
+    81536,
+    81544,
+    81600
+  ],
+  "release_literal_offsets": [
+    81324,
+    81332,
+    81340,
+    81348,
+    81356,
+    81364,
+    81372,
+    81380
+  ],
+  "random_seed": null,
+  "routine": "0x08013a7c",
+  "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "iwram_sha256": "e13becae3c5bf24d8c2bb7b7692eae847aace082f2f8aa9ec24330b537556d01",
+  "palette_sha256": "59e22230601bf44eda4530bdb2e9d4dfe2574686859455d615949f937a94d282",
+  "frames": [
+    {
+      "frame": 0,
+      "literal": "0x8013e58",
+      "source": "0x80de9b4",
+      "raw_sha256": "adcf1d43d03275de758f28ab0a611dc74816764c10675aff331811c8711be507"
+    },
+    {
+      "frame": 1,
+      "literal": "0x8013e60",
+      "source": "0x80debe0",
+      "raw_sha256": "a0143d61cbd6473b41af4483a3b756ad7c126609e4d8f674fb7ad788a40ef5b5"
+    },
+    {
+      "frame": 2,
+      "literal": "0x8013e68",
+      "source": "0x80dede4",
+      "raw_sha256": "00129802b1839622b2df156dd70c855359d23c484c2801a3f6c0b7ecd73c2218"
+    },
+    {
+      "frame": 3,
+      "literal": "0x8013e70",
+      "source": "0x80defe8",
+      "raw_sha256": "373cdd10ed5ca4bee0532e4ec009a0663462bf55529ebadd0a0a23bba7d5ac57"
+    },
+    {
+      "frame": 4,
+      "literal": "0x8013e78",
+      "source": "0x80df214",
+      "raw_sha256": "10d8ca43310d77733cd7f92b1f90608b0846d3ee10e67418e2181ff655178419"
+    },
+    {
+      "frame": 5,
+      "literal": "0x8013e80",
+      "source": "0x80df454",
+      "raw_sha256": "dcca27b1844a359185f3808bdc2d918b86b0f2574df1852d27831f729f69412f"
+    },
+    {
+      "frame": 6,
+      "literal": "0x8013e88",
+      "source": "0x80df63c",
+      "raw_sha256": "b0fd0f8ea8da3e40a2bc0c1349f3cbae5203e8fe02874498309a32ee4e70c069"
+    },
+    {
+      "frame": 7,
+      "literal": "0x8013ec0",
+      "source": "0x80df824",
+      "raw_sha256": "dc56a4237e23ca8edf91cbba20dc6e473d759739cba1687d3179b3975155c388"
+    },
+    {
+      "frame": 8,
+      "literal": "0x8013dac",
+      "source": "0x80dfa40",
+      "raw_sha256": "b71d8da9ef21f67c0fea56bafb47d02e66239557bdb4459a467fcfad186a22dd"
+    },
+    {
+      "frame": 9,
+      "literal": "0x8013db4",
+      "source": "0x80dfcac",
+      "raw_sha256": "1f266267e3a855140f7676577794ab38ed6defbc65aff59b7e3740960516f6ec"
+    },
+    {
+      "frame": 10,
+      "literal": "0x8013dbc",
+      "source": "0x80dfed8",
+      "raw_sha256": "a87ca185a8000af09e0d6b6e1d165e42cd323ccbaf0b50cd051515e30a77edb0"
+    },
+    {
+      "frame": 11,
+      "literal": "0x8013dc4",
+      "source": "0x80e00dc",
+      "raw_sha256": "d0e7d4284583be4f843da103921285ca2345a4f86ac2a15770cab496fe02cff9"
+    },
+    {
+      "frame": 12,
+      "literal": "0x8013dcc",
+      "source": "0x80e029c",
+      "raw_sha256": "a6a76b51088ec92201d8e641465b366dcd8501a95de933a704eb1197324b0138"
+    },
+    {
+      "frame": 13,
+      "literal": "0x8013dd4",
+      "source": "0x80e045c",
+      "raw_sha256": "150204541855244c01435f8dcfc74a9f87baad51548a486d2dfe0f25b16f4b93"
+    },
+    {
+      "frame": 14,
+      "literal": "0x8013ddc",
+      "source": "0x80e0638",
+      "raw_sha256": "5a76df9dbfb485180696d589765982c5ef1f527403fbc944003d7f6efca7fb8e"
+    },
+    {
+      "frame": 15,
+      "literal": "0x8013de4",
+      "source": "0x80e0850",
+      "raw_sha256": "8876e3d5a227d4d8b5ef7ed75157a057b6b6ca625049e42c9869fd6a7c00f1c7"
+    }
+  ],
+  "asset_sha256": "a8d96203d56d5415bc9922971ed9546a0f16b5f4b02cd4465329745ebf4d0149"
+}

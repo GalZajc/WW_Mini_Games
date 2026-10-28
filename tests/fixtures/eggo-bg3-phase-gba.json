@@ -1,0 +1,52 @@
+{
+  "source": {
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "3ec90524d2ab90d9c4c8aae2eb4f66b87f98ea6acb7c8a416159409298bfa4a3",
+    "menu_probe": "scripts/OUTPUT/eggo-reference_2026-10-06_14-49-37_906322",
+    "entry_probe": "scripts/OUTPUT/eggo-reference_2026-10-06_14-54-25_462278",
+    "continuation_probe": "scripts/OUTPUT/eggo-reference_2026-10-06_14-53-01_208518",
+    "round_transition_probe": "scripts/OUTPUT/eggo-reference_2026-10-06_15-04-43_906068"
+  },
+  "ram_address": "0x02011A9C",
+  "entry_samples": [
+    {"input_frame": 45, "counter": 1, "stage_id": 1},
+    {"input_frame": 46, "counter": 1, "stage_id": 1},
+    {"input_frame": 47, "counter": 2, "stage_id": 1},
+    {"input_frame": 60, "counter": 15, "stage_id": 1}
+  ],
+  "continuation_samples": [
+    {"elapsed_after_entry": 15, "counter": 30},
+    {"elapsed_after_entry": 30, "counter": 45},
+    {"elapsed_after_entry": 45, "counter": 60},
+    {"elapsed_after_entry": 60, "counter": 75},
+    {"elapsed_after_entry": 75, "counter": 90},
+    {"elapsed_after_entry": 90, "counter": 105},
+    {"elapsed_after_entry": 105, "counter": 120},
+    {"elapsed_after_entry": 120, "counter": 135},
+    {"elapsed_after_entry": 135, "counter": 150},
+    {"elapsed_after_entry": 150, "counter": 165},
+    {"elapsed_after_entry": 165, "counter": 180},
+    {"elapsed_after_entry": 180, "counter": 195}
+  ],
+  "factory_stream_row": {
+    "row": 11,
+    "rate": 2,
+    "period": 16,
+    "counter": 1,
+    "native_frame_index": 0,
+    "source_address": "0x08308394",
+    "native_dma_queue_match": true
+  },
+  "round_transition": {
+    "input_from": "tests/artifacts/eggo-reference/win8.state",
+    "inputs": [[8, "A"], [420, ""]],
+    "samples": [
+      {"elapsed": 45, "counter": 1, "round_height": 43, "stage_id": 1},
+      {"elapsed": 60, "counter": 1, "round_height": 43, "stage_id": 1},
+      {"elapsed": 100, "counter": 37, "round_height": 43, "stage_id": 1},
+      {"elapsed": 428, "counter": 365, "round_height": 43, "stage_id": 1}
+    ]
+  },
+  "limits": "The factory row's selected DMA source pointer matches the native queue at the entry capture. This is a frame-phase check; it does not claim complete BG3 image or whole-scene parity."
+}

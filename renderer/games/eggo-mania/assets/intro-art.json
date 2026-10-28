@@ -1,0 +1,73 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-09-58_790843/dragon-start",
+    "countdown_frames": [
+      90,
+      120,
+      180,
+      240
+    ],
+    "countdown_object": 2,
+    "countdown_palette_frame": 120,
+    "balloon_frame": 120,
+    "balloon_palette": 6,
+    "balloon_origin": [
+      -3,
+      -4
+    ],
+    "balloon_size": 128,
+    "countdown_size": 64
+  },
+  "initial_state_sha256": "bb1bb5d483c5e0584fe20d6ae1a779be35c3304fa3e62ae14d9c472c9c445547",
+  "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+  "countdown": [
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\dragon-start.frame00090",
+      "graphics_sha256": "265417f13e729682c909e88622910da2010102f6dee4c70f525b83604eb277bf",
+      "label": "3",
+      "frame": 90,
+      "object": 2,
+      "image_sha256": "d79620f937e62fed6d168accdec5e4f9ccac545ee4fa310b5ab9b62b787d4a46",
+      "note": "Raw picture: native affine scale/rotation are not baked in."
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\dragon-start.frame00120",
+      "graphics_sha256": "9b45d82f430881c4edd9f27f989cd04a0627b04762bcab1c3de507bf364aeefa",
+      "label": "2",
+      "frame": 120,
+      "object": 2,
+      "image_sha256": "63cd7086ffe3217f8539aa404b7ceba655fccb5cfa94f44b440bbf452adb6258",
+      "note": "Raw picture: native affine scale/rotation are not baked in."
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\dragon-start.frame00180",
+      "graphics_sha256": "341879c9e4ba7e0c59c82e221e24d3cde6daf52a410beb8180bf0d8c59005a1d",
+      "label": "1",
+      "frame": 180,
+      "object": 2,
+      "image_sha256": "814294b594a77c69b146a98eb2d65150b6656740e501a6eb8896d0b4f3503621",
+      "note": "Raw picture: native affine scale/rotation are not baked in."
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\dragon-start.frame00240",
+      "graphics_sha256": "d8906d6d929e06f299ee5b4ab72004d47cf3443338e8689b8c44d4bc1fb372d0",
+      "label": "GO",
+      "frame": 240,
+      "object": 2,
+      "image_sha256": "5977da31dcdb69040f41e31a63d2f4b1c1261a191b7eb9b179c6e30db6a90019",
+      "note": "Raw picture: native affine scale/rotation are not baked in."
+    }
+  ],
+  "balloon": {
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-09-58_790843\\dragon-start.frame00120",
+    "graphics_sha256": "9b45d82f430881c4edd9f27f989cd04a0627b04762bcab1c3de507bf364aeefa",
+    "objects": [
+      26,
+      28,
+      29,
+      30,
+      31
+    ]
+  }
+}

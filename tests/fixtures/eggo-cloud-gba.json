@@ -1,0 +1,631 @@
+{
+  "parameters": {
+    "hit": "scripts/OUTPUT/eggo-reference_2026-10-03_19-06-59_360101/cloud-jump-hit",
+    "control": "scripts/OUTPUT/eggo-reference_2026-10-03_19-06-59_380095/cloud-jump-control",
+    "bubble_control": "scripts/OUTPUT/eggo-reference_2026-10-03_19-02-43_365219/cloud-removed-control",
+    "pixels_per_cell": 16,
+    "jump_frame": 72,
+    "float_frames": [
+      71,
+      99
+    ],
+    "counter_address": 66424,
+    "state_address": 17480,
+    "snapshot_frames": [
+      85,
+      86,
+      87,
+      100,
+      120
+    ],
+    "cloud_x": 5,
+    "cloud_y": 3.5,
+    "first_hit_frame": 86,
+    "pulse_counters": [
+      [
+        201,
+        192
+      ],
+      [
+        137,
+        128
+      ],
+      [
+        73,
+        64
+      ]
+    ],
+    "hit_radius_pixels": 20,
+    "strict_bounds": true,
+    "rom_routines": {
+      "create": "0x080041b4",
+      "advance": "0x0801add0",
+      "hit_box": "0x080049ec",
+      "hit_state": "0x0800f634"
+    }
+  },
+  "initial_x": 5.996315002441406,
+  "samples": [
+    {
+      "frame": 70,
+      "hit_height_pixels": 0.0,
+      "control_height_pixels": 0.0,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 71,
+      "hit_height_pixels": 0.0,
+      "control_height_pixels": 0.0,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 72,
+      "hit_height_pixels": 3.5,
+      "control_height_pixels": 3.5,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 73,
+      "hit_height_pixels": 6.9000091552734375,
+      "control_height_pixels": 6.9000091552734375,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 74,
+      "hit_height_pixels": 10.200027465820312,
+      "control_height_pixels": 10.200027465820312,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 75,
+      "hit_height_pixels": 13.400054931640625,
+      "control_height_pixels": 13.400054931640625,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 76,
+      "hit_height_pixels": 16.500091552734375,
+      "control_height_pixels": 16.500091552734375,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 77,
+      "hit_height_pixels": 19.500137329101562,
+      "control_height_pixels": 19.500137329101562,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 78,
+      "hit_height_pixels": 22.400192260742188,
+      "control_height_pixels": 22.400192260742188,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 79,
+      "hit_height_pixels": 25.20025634765625,
+      "control_height_pixels": 25.20025634765625,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 80,
+      "hit_height_pixels": 27.90032958984375,
+      "control_height_pixels": 27.90032958984375,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 81,
+      "hit_height_pixels": 30.500411987304688,
+      "control_height_pixels": 30.500411987304688,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 82,
+      "hit_height_pixels": 33.00050354003906,
+      "control_height_pixels": 33.00050354003906,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 83,
+      "hit_height_pixels": 35.400604248046875,
+      "control_height_pixels": 35.400604248046875,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 84,
+      "hit_height_pixels": 37.700714111328125,
+      "control_height_pixels": 37.700714111328125,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 85,
+      "hit_height_pixels": 39.90083312988281,
+      "control_height_pixels": 39.90083312988281,
+      "hit_state": 0,
+      "control_state": 0
+    },
+    {
+      "frame": 86,
+      "hit_height_pixels": 42.00096130371094,
+      "control_height_pixels": 42.00096130371094,
+      "hit_state": 7,
+      "control_state": 0
+    },
+    {
+      "frame": 87,
+      "hit_height_pixels": 44.0010986328125,
+      "control_height_pixels": 44.0010986328125,
+      "hit_state": 7,
+      "control_state": 0
+    },
+    {
+      "frame": 88,
+      "hit_height_pixels": 45.801239013671875,
+      "control_height_pixels": 45.9012451171875,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 89,
+      "hit_height_pixels": 47.40138244628906,
+      "control_height_pixels": 47.70140075683594,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 90,
+      "hit_height_pixels": 48.80152893066406,
+      "control_height_pixels": 49.40156555175781,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 91,
+      "hit_height_pixels": 50.001678466796875,
+      "control_height_pixels": 51.001739501953125,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 92,
+      "hit_height_pixels": 51.0018310546875,
+      "control_height_pixels": 52.501922607421875,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 93,
+      "hit_height_pixels": 51.80198669433594,
+      "control_height_pixels": 53.90211486816406,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 94,
+      "hit_height_pixels": 52.40214538574219,
+      "control_height_pixels": 55.20231628417969,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 95,
+      "hit_height_pixels": 52.80230712890625,
+      "control_height_pixels": 56.40252685546875,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 96,
+      "hit_height_pixels": 53.002471923828125,
+      "control_height_pixels": 57.50274658203125,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 97,
+      "hit_height_pixels": 53.00263977050781,
+      "control_height_pixels": 58.50297546386719,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 98,
+      "hit_height_pixels": 52.80281066894531,
+      "control_height_pixels": 59.40321350097656,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 99,
+      "hit_height_pixels": 52.402984619140625,
+      "control_height_pixels": 60.203460693359375,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 100,
+      "hit_height_pixels": 51.80316162109375,
+      "control_height_pixels": 60.8037109375,
+      "hit_state": 7,
+      "control_state": 0
+    },
+    {
+      "frame": 101,
+      "hit_height_pixels": 51.00334167480469,
+      "control_height_pixels": 61.20396423339844,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 102,
+      "hit_height_pixels": 50.00352478027344,
+      "control_height_pixels": 61.40422058105469,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 103,
+      "hit_height_pixels": 48.8037109375,
+      "control_height_pixels": 61.40447998046875,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 104,
+      "hit_height_pixels": 47.403900146484375,
+      "control_height_pixels": 61.204742431640625,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 105,
+      "hit_height_pixels": 45.80409240722656,
+      "control_height_pixels": 60.80500793457031,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 106,
+      "hit_height_pixels": 44.00428771972656,
+      "control_height_pixels": 60.20527648925781,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 107,
+      "hit_height_pixels": 42.004486083984375,
+      "control_height_pixels": 59.405548095703125,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 108,
+      "hit_height_pixels": 39.8046875,
+      "control_height_pixels": 58.40582275390625,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 109,
+      "hit_height_pixels": 37.40489196777344,
+      "control_height_pixels": 57.20610046386719,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 110,
+      "hit_height_pixels": 34.80509948730469,
+      "control_height_pixels": 55.80638122558594,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 111,
+      "hit_height_pixels": 32.00531005859375,
+      "control_height_pixels": 54.2066650390625,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 112,
+      "hit_height_pixels": 29.005523681640625,
+      "control_height_pixels": 52.406951904296875,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 113,
+      "hit_height_pixels": 25.805740356445312,
+      "control_height_pixels": 50.40724182128906,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 114,
+      "hit_height_pixels": 22.405960083007812,
+      "control_height_pixels": 48.20753479003906,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 115,
+      "hit_height_pixels": 18.905960083007812,
+      "control_height_pixels": 45.807830810546875,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 116,
+      "hit_height_pixels": 15.405960083007812,
+      "control_height_pixels": 43.2081298828125,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 117,
+      "hit_height_pixels": 11.905960083007812,
+      "control_height_pixels": 40.40843200683594,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 118,
+      "hit_height_pixels": 8.405960083007812,
+      "control_height_pixels": 37.40873718261719,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 119,
+      "hit_height_pixels": 4.9059600830078125,
+      "control_height_pixels": 34.20904541015625,
+      "hit_state": null,
+      "control_state": null
+    },
+    {
+      "frame": 120,
+      "hit_height_pixels": 1.4059600830078125,
+      "control_height_pixels": 30.809356689453125,
+      "hit_state": 7,
+      "control_state": 0
+    }
+  ],
+  "sources": [
+    {
+      "kind": "hit",
+      "parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_18-32-01_021801/cloud-native.frame01036.state",
+        "steps": [
+          [
+            70,
+            ""
+          ],
+          [
+            28,
+            "UP"
+          ],
+          [
+            22,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "audio": null,
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          70,
+          85,
+          86,
+          87,
+          100,
+          120
+        ],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "f49ef24263c4a4c8622caaadba94db016f4302d3ac09d2f810e1127aeaf53246",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 120
+      },
+      "trace_sha256": "9f530251d073d0c5ba02b85e4c266f05244492c8a42de02f417fcdb2727de6ac"
+    },
+    {
+      "kind": "control",
+      "parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_18-32-01_021801/cloud-native.frame01036.state",
+        "steps": [
+          [
+            70,
+            ""
+          ],
+          [
+            28,
+            "UP"
+          ],
+          [
+            22,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [
+          [
+            22452,
+            -1
+          ]
+        ],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "audio": null,
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          85,
+          86,
+          87,
+          100,
+          120
+        ],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "f49ef24263c4a4c8622caaadba94db016f4302d3ac09d2f810e1127aeaf53246",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 120
+      },
+      "trace_sha256": "dbdbc3a662f8e27c4d66f46dfb3003001a2c21b0f6f25cd2e07ab052a761dab3"
+    },
+    {
+      "kind": "bubble_control",
+      "parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_18-32-01_021801/cloud-native.frame01036.state",
+        "steps": [
+          [
+            400,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [
+          [
+            22452,
+            -1
+          ]
+        ],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "audio": null,
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          1,
+          100,
+          113,
+          200
+        ],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "f49ef24263c4a4c8622caaadba94db016f4302d3ac09d2f810e1127aeaf53246",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 400
+      },
+      "trace_sha256": "695b0f2c70a665110b109e5ea84b607cfa96f5c70880555ac265185e8a8b358a"
+    }
+  ],
+  "limits": "Paired jump tests and cloud timer/hit box. State 6 in the no-cloud control is an independent environmental electric bubble; its behavior is not implemented by this fixture."
+}

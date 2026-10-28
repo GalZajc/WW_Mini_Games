@@ -1,0 +1,380 @@
+{
+  "source": "scripts\\OUTPUT\\eggo-reference_2026-10-19_17-08-58_793239",
+  "parameters": {
+    "native_angle_step": 6710886,
+    "native_angle_period": 268435440,
+    "camera": "Previous prepared descriptor; world/projectile sampled before handler update"
+  },
+  "samples": [
+    {
+      "frame": 2,
+      "visible_ticks": 1,
+      "matrix": [
+        252,
+        39,
+        -40,
+        252
+      ]
+    },
+    {
+      "frame": 3,
+      "visible_ticks": 2,
+      "matrix": [
+        243,
+        78,
+        -79,
+        243
+      ]
+    },
+    {
+      "frame": 4,
+      "visible_ticks": 3,
+      "matrix": [
+        228,
+        115,
+        -116,
+        228
+      ]
+    },
+    {
+      "frame": 5,
+      "visible_ticks": 4,
+      "matrix": [
+        207,
+        149,
+        -150,
+        207
+      ]
+    },
+    {
+      "frame": 6,
+      "visible_ticks": 5,
+      "matrix": [
+        182,
+        179,
+        -180,
+        182
+      ]
+    },
+    {
+      "frame": 7,
+      "visible_ticks": 6,
+      "matrix": [
+        151,
+        206,
+        -207,
+        151
+      ]
+    },
+    {
+      "frame": 8,
+      "visible_ticks": 7,
+      "matrix": [
+        116,
+        227,
+        -228,
+        116
+      ]
+    },
+    {
+      "frame": 9,
+      "visible_ticks": 8,
+      "matrix": [
+        80,
+        243,
+        -244,
+        80
+      ]
+    },
+    {
+      "frame": 10,
+      "visible_ticks": 9,
+      "matrix": [
+        40,
+        252,
+        -253,
+        40
+      ]
+    },
+    {
+      "frame": 11,
+      "visible_ticks": 10,
+      "matrix": [
+        1,
+        255,
+        -256,
+        1
+      ]
+    },
+    {
+      "frame": 12,
+      "visible_ticks": 11,
+      "matrix": [
+        -40,
+        252,
+        -253,
+        -40
+      ]
+    },
+    {
+      "frame": 13,
+      "visible_ticks": 12,
+      "matrix": [
+        -79,
+        243,
+        -244,
+        -79
+      ]
+    },
+    {
+      "frame": 14,
+      "visible_ticks": 13,
+      "matrix": [
+        -116,
+        228,
+        -229,
+        -116
+      ]
+    },
+    {
+      "frame": 15,
+      "visible_ticks": 14,
+      "matrix": [
+        -150,
+        207,
+        -208,
+        -150
+      ]
+    },
+    {
+      "frame": 16,
+      "visible_ticks": 15,
+      "matrix": [
+        -180,
+        182,
+        -183,
+        -180
+      ]
+    },
+    {
+      "frame": 17,
+      "visible_ticks": 16,
+      "matrix": [
+        -207,
+        151,
+        -152,
+        -207
+      ]
+    },
+    {
+      "frame": 18,
+      "visible_ticks": 17,
+      "matrix": [
+        -228,
+        116,
+        -117,
+        -228
+      ]
+    },
+    {
+      "frame": 19,
+      "visible_ticks": 18,
+      "matrix": [
+        -244,
+        80,
+        -81,
+        -244
+      ]
+    },
+    {
+      "frame": 20,
+      "visible_ticks": 19,
+      "matrix": [
+        -253,
+        40,
+        -41,
+        -253
+      ]
+    },
+    {
+      "frame": 48,
+      "visible_ticks": 20,
+      "matrix": [
+        -256,
+        1,
+        -2,
+        -256
+      ]
+    },
+    {
+      "frame": 49,
+      "visible_ticks": 21,
+      "matrix": [
+        -253,
+        -40,
+        39,
+        -253
+      ]
+    },
+    {
+      "frame": 50,
+      "visible_ticks": 22,
+      "matrix": [
+        -244,
+        -79,
+        78,
+        -244
+      ]
+    },
+    {
+      "frame": 51,
+      "visible_ticks": 23,
+      "matrix": [
+        -229,
+        -116,
+        115,
+        -229
+      ]
+    },
+    {
+      "frame": 52,
+      "visible_ticks": 24,
+      "matrix": [
+        -208,
+        -150,
+        149,
+        -208
+      ]
+    },
+    {
+      "frame": 53,
+      "visible_ticks": 25,
+      "matrix": [
+        -183,
+        -180,
+        179,
+        -183
+      ]
+    },
+    {
+      "frame": 54,
+      "visible_ticks": 26,
+      "matrix": [
+        -152,
+        -207,
+        206,
+        -152
+      ]
+    },
+    {
+      "frame": 55,
+      "visible_ticks": 27,
+      "matrix": [
+        -117,
+        -228,
+        227,
+        -117
+      ]
+    },
+    {
+      "frame": 56,
+      "visible_ticks": 28,
+      "matrix": [
+        -81,
+        -244,
+        243,
+        -81
+      ]
+    },
+    {
+      "frame": 57,
+      "visible_ticks": 29,
+      "matrix": [
+        -41,
+        -253,
+        252,
+        -41
+      ]
+    },
+    {
+      "frame": 58,
+      "visible_ticks": 30,
+      "matrix": [
+        -2,
+        -256,
+        255,
+        -2
+      ]
+    },
+    {
+      "frame": 59,
+      "visible_ticks": 31,
+      "matrix": [
+        39,
+        -253,
+        252,
+        39
+      ]
+    },
+    {
+      "frame": 60,
+      "visible_ticks": 32,
+      "matrix": [
+        78,
+        -244,
+        243,
+        78
+      ]
+    },
+    {
+      "frame": 61,
+      "visible_ticks": 33,
+      "matrix": [
+        115,
+        -229,
+        228,
+        115
+      ]
+    },
+    {
+      "frame": 62,
+      "visible_ticks": 34,
+      "matrix": [
+        149,
+        -208,
+        207,
+        149
+      ]
+    },
+    {
+      "frame": 63,
+      "visible_ticks": 35,
+      "matrix": [
+        179,
+        -183,
+        182,
+        179
+      ]
+    },
+    {
+      "frame": 64,
+      "visible_ticks": 36,
+      "matrix": [
+        206,
+        -152,
+        151,
+        206
+      ]
+    },
+    {
+      "frame": 65,
+      "visible_ticks": 37,
+      "matrix": [
+        227,
+        -117,
+        116,
+        227
+      ]
+    }
+  ]
+}

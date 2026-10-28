@@ -1,0 +1,150 @@
+{
+  "parameters": {
+    "seed": "Saved checkpoint RNG retained; every setup write recorded",
+    "throw_kind": 0,
+    "throw_steps": [
+      [
+        2,
+        ""
+      ],
+      [
+        1,
+        "A"
+      ],
+      [
+        3,
+        ""
+      ]
+    ],
+    "rescue_cases": [
+      {
+        "name": "below",
+        "y": 129
+      },
+      {
+        "name": "equal",
+        "y": 128
+      },
+      {
+        "name": "above",
+        "y": 127,
+        "frames": 90
+      },
+      {
+        "name": "early",
+        "y": 127,
+        "clock": 348
+      },
+      {
+        "name": "ready",
+        "y": 127,
+        "clock": 350
+      },
+      {
+        "name": "forced-rise",
+        "y": 127,
+        "forced": true,
+        "height": 42,
+        "frames": 30
+      }
+    ]
+  },
+  "cases": [
+    {
+      "stage": "factory",
+      "kind": 0,
+      "matrix": [
+        844,
+        0,
+        0,
+        844
+      ],
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-18_19-59-21_283982\\factory-throw-skin",
+      "oam_sha256": "2ce10ecf9388a788946153fa5b037e3ee9f37f462f834f49ef22a549668bf34a"
+    },
+    {
+      "stage": "dragon",
+      "kind": 0,
+      "matrix": [
+        785,
+        -309,
+        308,
+        785
+      ],
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-18_19-59-22_111248\\dragon-throw-skin",
+      "oam_sha256": "9939eb39fb8cebef7c6b352be6e291ceaa3e3fae26f0f2dfacea5f150de7ed71"
+    },
+    {
+      "stage": "castle",
+      "kind": 0,
+      "matrix": [
+        622,
+        570,
+        -571,
+        622
+      ],
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-18_19-59-22_883322\\castle-throw-skin",
+      "oam_sha256": "7b81faf2ddb581a8cc4eba3d61619cfd4b61e8211fac5c2df6cc28f3d891ca9e"
+    },
+    {
+      "stage": "pirate",
+      "kind": 0,
+      "matrix": [
+        844,
+        0,
+        0,
+        844
+      ],
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-18_19-59-23_693139\\pirate-throw-skin",
+      "oam_sha256": "908a4bee5c2b9c6b3c5a3c87f5fcaf56877b822e7afe73830a33fb5eb6aa2b06"
+    },
+    {
+      "stage": "space",
+      "kind": 0,
+      "matrix": [
+        787,
+        303,
+        -304,
+        787
+      ],
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-18_19-59-24_574367\\space-throw-skin",
+      "oam_sha256": "4818cc42b7017356fc24ec779a9b32d3b6e2c28ea63618639bc1a3e610bf46e2"
+    },
+    {
+      "stage": "jungle",
+      "kind": 0,
+      "matrix": [
+        844,
+        0,
+        0,
+        844
+      ],
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-18_19-59-25_393329\\jungle-throw-skin",
+      "oam_sha256": "45d06e34897e834ade22aa30af4019e0b12c9ae1c425c523f5afd7238f05447e"
+    },
+    {
+      "stage": "park",
+      "kind": 0,
+      "matrix": [
+        844,
+        0,
+        0,
+        844
+      ],
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-18_19-59-26_703943\\park-throw-skin",
+      "oam_sha256": "b63f8b3089586dbd6130c5210bc9155efce1ee26d846a91933322f99a1db5a37"
+    },
+    {
+      "stage": "beanstalk",
+      "kind": 0,
+      "matrix": [
+        844,
+        0,
+        0,
+        844
+      ],
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-18_19-59-28_377290\\beanstalk-throw-skin",
+      "oam_sha256": "34d221d6c9dec5ae8026d06e6b28d6457d3c959b50ecfde9ceae7625595fc1b5"
+    }
+  ]
+}

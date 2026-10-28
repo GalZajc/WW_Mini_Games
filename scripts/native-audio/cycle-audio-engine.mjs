@@ -1,0 +1,1 @@
+export {CYCLE_AUDIO,createCycleAudioEngine} from '../../renderer/games/eggo-mania/native-program-engine.js';

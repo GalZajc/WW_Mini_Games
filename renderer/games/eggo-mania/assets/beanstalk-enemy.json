@@ -1,0 +1,114 @@
+[
+  {
+    "phase": 0,
+    "source": "native-vram-frame-0",
+    "object": {
+      "id": 26,
+      "x": 48,
+      "y": 144,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "f1cc46e4c73fccaf4058d74502391b99200d287ad7bb800d2b93ff389371a416"
+  },
+  {
+    "phase": 1,
+    "source": "native-vram-frame-1",
+    "object": {
+      "id": 26,
+      "x": 48,
+      "y": 144,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "54d6a5203cb30be655850da7db7e23b21032c1369b2c3c54335f6a1a17917355"
+  },
+  {
+    "phase": 2,
+    "source": "native-vram-frame-2",
+    "object": {
+      "id": 26,
+      "x": 48,
+      "y": 144,
+      "w": 64,
+      "h": 64,
+      "tile": 766,
+      "palette": 5
+    },
+    "pixel_sha256": "7f306061244eb05598ec26c9c5f84146c6a2f9de8e52a4f36aeced1de7a8b074"
+  },
+  {
+    "phase": 3,
+    "source": "native-vram-frame-3",
+    "object": {
+      "id": 26,
+      "x": 48,
+      "y": 144,
+      "w": 64,
+      "h": 64,
+      "tile": 766,
+      "palette": 5
+    },
+    "pixel_sha256": "f1cc46e4c73fccaf4058d74502391b99200d287ad7bb800d2b93ff389371a416"
+  },
+  {
+    "phase": 4,
+    "source": "native-vram-frame-4",
+    "object": {
+      "id": 26,
+      "x": 48,
+      "y": 144,
+      "w": 64,
+      "h": 64,
+      "tile": 766,
+      "palette": 5
+    },
+    "pixel_sha256": "54d6a5203cb30be655850da7db7e23b21032c1369b2c3c54335f6a1a17917355"
+  },
+  {
+    "phase": 5,
+    "source": "native-vram-frame-5",
+    "object": {
+      "id": 26,
+      "x": 48,
+      "y": 144,
+      "w": 64,
+      "h": 64,
+      "tile": 766,
+      "palette": 5
+    },
+    "pixel_sha256": "7f306061244eb05598ec26c9c5f84146c6a2f9de8e52a4f36aeced1de7a8b074"
+  },
+  {
+    "phase": 6,
+    "source": "native-vram-frame-6",
+    "object": {
+      "id": 26,
+      "x": 48,
+      "y": 144,
+      "w": 64,
+      "h": 64,
+      "tile": 766,
+      "palette": 5
+    },
+    "pixel_sha256": "54d6a5203cb30be655850da7db7e23b21032c1369b2c3c54335f6a1a17917355"
+  },
+  {
+    "phase": 7,
+    "source": "native-vram-frame-7",
+    "object": {
+      "id": 26,
+      "x": 48,
+      "y": 144,
+      "w": 64,
+      "h": 64,
+      "tile": 766,
+      "palette": 5
+    },
+    "pixel_sha256": "7f306061244eb05598ec26c9c5f84146c6a2f9de8e52a4f36aeced1de7a8b074"
+  }
+]

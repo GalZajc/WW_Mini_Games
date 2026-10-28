@@ -1,0 +1,28 @@
+{
+  "source_capture_directory": "scripts\\OUTPUT\\eggo-reference_2026-10-07_13-02-24_227876",
+  "source_capture_prefix": "eggo-replay-full-graphics",
+  "source_capture_metadata_sha256": "bb1563956616d343183a614cf52d44b7777bac9ebf30f85d91da40dec46a257b",
+  "native_frame_period": 60,
+  "phase_formula": "nativeFrame % 60",
+  "dimensions": {
+    "width": 112,
+    "height": 1080,
+    "phase_width": 112,
+    "phase_height": 18
+  },
+  "source_map": {
+    "bg3cnt": "0x0b01",
+    "screen_base": 11,
+    "source_x": [
+      136,
+      247
+    ],
+    "source_y": [
+      80,
+      97
+    ]
+  },
+  "pixel_format": "GBA RGB555 expanded to libretro RGB565 levels",
+  "palette_index_zero_transparent": true,
+  "sha256": "b188a7299432a1dad8db6156653fcfb81e79fb2619fc16c6d48a64c87f719efa"
+}

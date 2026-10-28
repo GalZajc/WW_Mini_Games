@@ -1,0 +1,172 @@
+{
+  "description": "First 19 frames of the deterministic 600-frame native input tape, before any A/place action.",
+  "source_trace": "scripts/OUTPUT/eggo-reference_2026-10-07_03-16-28_810987/build-600-input-replay.trace.json",
+  "source_input_steps": "tests/OUTPUT/eggo-input-replay_2026-10-07_03-16-26_086460/steps.json",
+  "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+  "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+  "frames": 19,
+  "initial_actor": {
+    "world_x": 47.9410400390625,
+    "world_y": 720.0440673828125,
+    "velocity_x": 0.0,
+    "velocity_y": 0.0,
+    "game_x": 3.9963150024414062,
+    "game_y": -0.00275421142578125,
+    "grounded": true
+  },
+  "actor_samples": [
+    {
+      "frame": 1,
+      "keys": "LEFT+UP",
+      "world_x": 45.9410400390625,
+      "world_y": 720.0440673828125,
+      "x": 63.0,
+      "y": 101.0
+    },
+    {
+      "frame": 2,
+      "keys": "LEFT+UP",
+      "world_x": 43.9410400390625,
+      "world_y": 716.5440673828125,
+      "x": 61.0,
+      "y": 100.0
+    },
+    {
+      "frame": 3,
+      "keys": "LEFT+UP",
+      "world_x": 41.9410400390625,
+      "world_y": 713.1440582275391,
+      "x": 57.0,
+      "y": 94.0
+    },
+    {
+      "frame": 4,
+      "keys": "LEFT+UP",
+      "world_x": 39.9410400390625,
+      "world_y": 709.8440399169922,
+      "x": 55.0,
+      "y": 91.0
+    },
+    {
+      "frame": 5,
+      "keys": "LEFT+UP",
+      "world_x": 37.9410400390625,
+      "world_y": 706.6440124511719,
+      "x": 53.0,
+      "y": 90.0
+    },
+    {
+      "frame": 6,
+      "keys": "LEFT+UP",
+      "world_x": 35.9410400390625,
+      "world_y": 703.5439758300781,
+      "x": 51.0,
+      "y": 91.0
+    },
+    {
+      "frame": 7,
+      "keys": "LEFT+UP",
+      "world_x": 33.9410400390625,
+      "world_y": 700.5439300537109,
+      "x": 49.0,
+      "y": 91.0
+    },
+    {
+      "frame": 8,
+      "keys": "LEFT+UP",
+      "world_x": 31.9410400390625,
+      "world_y": 697.6438751220703,
+      "x": 47.0,
+      "y": 91.0
+    },
+    {
+      "frame": 9,
+      "keys": "LEFT",
+      "world_x": 29.9410400390625,
+      "world_y": 694.8438110351562,
+      "x": 45.0,
+      "y": 91.0
+    },
+    {
+      "frame": 10,
+      "keys": "LEFT",
+      "world_x": 27.9410400390625,
+      "world_y": 692.2437438964844,
+      "x": 43.0,
+      "y": 91.0
+    },
+    {
+      "frame": 11,
+      "keys": "LEFT",
+      "world_x": 25.9410400390625,
+      "world_y": 689.8436737060547,
+      "x": 41.0,
+      "y": 91.0
+    },
+    {
+      "frame": 12,
+      "keys": "LEFT",
+      "world_x": 23.9410400390625,
+      "world_y": 687.6436004638672,
+      "x": 39.0,
+      "y": 91.0
+    },
+    {
+      "frame": 13,
+      "keys": "LEFT",
+      "world_x": 21.9410400390625,
+      "world_y": 685.6435241699219,
+      "x": 37.0,
+      "y": 91.0
+    },
+    {
+      "frame": 14,
+      "keys": "LEFT",
+      "world_x": 19.9410400390625,
+      "world_y": 683.8434448242188,
+      "x": 35.0,
+      "y": 91.0
+    },
+    {
+      "frame": 15,
+      "keys": "LEFT",
+      "world_x": 17.9410400390625,
+      "world_y": 682.2433624267578,
+      "x": 33.0,
+      "y": 91.0
+    },
+    {
+      "frame": 16,
+      "keys": "LEFT",
+      "world_x": 15.9410400390625,
+      "world_y": 680.8432769775391,
+      "x": 31.0,
+      "y": 91.0
+    },
+    {
+      "frame": 17,
+      "keys": "LEFT",
+      "world_x": 13.9410400390625,
+      "world_y": 679.6431884765625,
+      "x": 29.0,
+      "y": 91.0
+    },
+    {
+      "frame": 18,
+      "keys": "LEFT",
+      "world_x": 11.9410400390625,
+      "world_y": 678.6430969238281,
+      "x": 27.0,
+      "y": 91.0
+    },
+    {
+      "frame": 19,
+      "keys": "LEFT",
+      "world_x": 9.9410400390625,
+      "world_y": 677.8430023193359,
+      "x": 25.0,
+      "y": 91.0
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "parameters": {
+    "capture": "scripts/OUTPUT/eggo-reference_2026-10-18_17-30-58_564005/fish-affine-both",
+    "frames": [
+      26,
+      40,
+      60,
+      80,
+      100,
+      120
+    ],
+    "enemy_roots": [
+      200760,
+      200888
+    ],
+    "seed": "Original captured native state",
+    "angles": "Previous actor update, used for OAM submission"
+  },
+  "cases": [
+    {
+      "frame": 26,
+      "side": 0,
+      "angle": 67854514,
+      "variant": 1,
+      "animation": 0,
+      "visible_native_png_pixels": 51,
+      "matrix": [
+        -4,
+        255,
+        255,
+        3
+      ],
+      "object": 26,
+      "oam_sha256": "288ee4f04c3405dd6c7ae37cdfb279f2c2ce37489a2e467ff6ecfda644f8d547"
+    },
+    {
+      "frame": 40,
+      "side": 0,
+      "angle": 78293670,
+      "variant": 1,
+      "animation": 2,
+      "visible_native_png_pixels": 1446,
+      "matrix": [
+        -66,
+        247,
+        247,
+        65
+      ],
+      "object": 26,
+      "oam_sha256": "43101463a9868dc300fac2aa8316a785d03212632ee6e6d46f03fa8deb5ea776"
+    },
+    {
+      "frame": 60,
+      "side": 0,
+      "angle": 96189366,
+      "variant": 1,
+      "animation": 2,
+      "visible_native_png_pixels": 1799,
+      "matrix": [
+        -160,
+        199,
+        199,
+        159
+      ],
+      "object": 26,
+      "oam_sha256": "a2a6fb43fee9da5f2f18a8961cfe6a2ac4ede80fc51878908cb14f7e89816c18"
+    },
+    {
+      "frame": 60,
+      "side": 1,
+      "angle": 37282700,
+      "variant": 0,
+      "animation": 2,
+      "visible_native_png_pixels": 1062,
+      "matrix": [
+        164,
+        195,
+        -196,
+        164
+      ],
+      "object": 27,
+      "oam_sha256": "a2a6fb43fee9da5f2f18a8961cfe6a2ac4ede80fc51878908cb14f7e89816c18"
+    },
+    {
+      "frame": 80,
+      "side": 0,
+      "angle": 132726412,
+      "variant": 1,
+      "animation": 2,
+      "visible_native_png_pixels": 1791,
+      "matrix": [
+        -256,
+        9,
+        9,
+        255
+      ],
+      "object": 26,
+      "oam_sha256": "6c10ff0ddedcfbe346a7951668ecf1600a9bf8151f1d5ee96ac7f4cfe31da13c"
+    },
+    {
+      "frame": 80,
+      "side": 1,
+      "angle": 0,
+      "variant": 0,
+      "animation": 2,
+      "visible_native_png_pixels": 1791,
+      "matrix": [
+        256,
+        0,
+        0,
+        256
+      ],
+      "object": 27,
+      "oam_sha256": "6c10ff0ddedcfbe346a7951668ecf1600a9bf8151f1d5ee96ac7f4cfe31da13c"
+    },
+    {
+      "frame": 100,
+      "side": 0,
+      "angle": 170754766,
+      "variant": 1,
+      "animation": 2,
+      "visible_native_png_pixels": 1773,
+      "matrix": [
+        -169,
+        -193,
+        -193,
+        168
+      ],
+      "object": 28,
+      "oam_sha256": "6d98e502d31e4360fffb02e25fa7cc465262abf500267846ead852f35599de81"
+    },
+    {
+      "frame": 100,
+      "side": 1,
+      "angle": 231898394,
+      "variant": 0,
+      "animation": 2,
+      "visible_native_png_pixels": 1775,
+      "matrix": [
+        167,
+        -194,
+        193,
+        167
+      ],
+      "object": 29,
+      "oam_sha256": "6d98e502d31e4360fffb02e25fa7cc465262abf500267846ead852f35599de81"
+    },
+    {
+      "frame": 120,
+      "side": 0,
+      "angle": 190141770,
+      "variant": 1,
+      "animation": 2,
+      "visible_native_png_pixels": 1430,
+      "matrix": [
+        -67,
+        -248,
+        -248,
+        66
+      ],
+      "object": 26,
+      "oam_sha256": "0267ca709ff943660ca137a0b3d675a82fcca9dc6be7b22daf5c144c0d020af3"
+    },
+    {
+      "frame": 120,
+      "side": 1,
+      "angle": 212511390,
+      "variant": 0,
+      "animation": 2,
+      "visible_native_png_pixels": 208,
+      "matrix": [
+        65,
+        -248,
+        247,
+        65
+      ],
+      "object": 27,
+      "oam_sha256": "0267ca709ff943660ca137a0b3d675a82fcca9dc6be7b22daf5c144c0d020af3"
+    }
+  ]
+}

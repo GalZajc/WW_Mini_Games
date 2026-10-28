@@ -1,0 +1,440 @@
+{
+  "parameters": {
+    "sources": {
+      "dragon": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-12_576376/dragon-landed",
+      "castle": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-12_514995/castle-landed",
+      "pirate": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-12_580151/pirate-landed",
+      "space": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-15_404434/space-landed",
+      "jungle": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-15_417436/jungle-landed",
+      "park": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-15_425429/park-landed",
+      "beanstalk": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-18_098381/beanstalk-landed"
+    },
+    "width": 112,
+    "height": 112,
+    "channel_error_cap": 16,
+    "period": 256,
+    "sample_frames": [
+      20,
+      40,
+      60,
+      80,
+      100,
+      120
+    ]
+  },
+  "stages": [
+    {
+      "stage": "dragon",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-12_576376/dragon-landed",
+      "writes": [],
+      "steps": [
+        [
+          120,
+          ""
+        ]
+      ],
+      "initial_state_sha256": "3a33b2563513648c5f8cc49be1f334872a616f713561cfd793cf69a071e5eba1",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "asset_sha256": "6f76bea9a5d8069404c449e76732d29ee9589f2586085850bb236b400251edc5",
+      "samples": [
+        {
+          "frame": 20,
+          "offset_pixels": 94,
+          "match_error": 1.8137489370748299,
+          "next_match_error": 8.018521471088436,
+          "image_sha256": "aaf1719e53cf4930458bcad5a45d51484efffd7566a3c3f799366a4f24bddfd8"
+        },
+        {
+          "frame": 40,
+          "offset_pixels": 94,
+          "match_error": 2.0328975340136055,
+          "next_match_error": 8.025483630952381,
+          "image_sha256": "c218992250865320703e18896f6db0d6eafff21fcbc90ca4d45bbe32a26b0977"
+        },
+        {
+          "frame": 60,
+          "offset_pixels": 94,
+          "match_error": 2.100579294217687,
+          "next_match_error": 8.042543579931973,
+          "image_sha256": "d3b0b799dc2a120779719b8181d4510a6b45946eff3cef8f05e69713ee83b20b"
+        },
+        {
+          "frame": 80,
+          "offset_pixels": 94,
+          "match_error": 2.1054421768707483,
+          "next_match_error": 8.035182823129253,
+          "image_sha256": "c41f845caebdd312664f2cf55323c04365d71d298efc2de31c3ffc71bc23ef67"
+        },
+        {
+          "frame": 100,
+          "offset_pixels": 94,
+          "match_error": 2.316911139455782,
+          "next_match_error": 8.271896258503402,
+          "image_sha256": "08d525819832f5299026e485c54e3bb8ed53b36e7384a219eb05d46d770fdedb"
+        },
+        {
+          "frame": 120,
+          "offset_pixels": 94,
+          "match_error": 2.255580357142857,
+          "next_match_error": 8.155691964285714,
+          "image_sha256": "864baaaad662aaf704f3211f83fb3a1ac44ac983ff31b0fe3e84d858f722e148"
+        }
+      ]
+    },
+    {
+      "stage": "castle",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-12_514995/castle-landed",
+      "writes": [],
+      "steps": [
+        [
+          120,
+          ""
+        ]
+      ],
+      "initial_state_sha256": "f5dd878c0af138ac7b51e6a1565576fa858183e80f67e64fcbd861f8d004c250",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "asset_sha256": "7bfa4d7062335d4237e0314a39d2397640d53f426008a1fd443f22829c2b6a44",
+      "samples": [
+        {
+          "frame": 20,
+          "offset_pixels": 94,
+          "match_error": 1.9873511904761905,
+          "next_match_error": 7.842633928571429,
+          "image_sha256": "e103d206cc06cdde950361867c1b38dfcde687670dad096df698fa04819984b8"
+        },
+        {
+          "frame": 40,
+          "offset_pixels": 94,
+          "match_error": 2.1759938350340136,
+          "next_match_error": 7.840428358843537,
+          "image_sha256": "d03d01b18d776150ca1c3faab1955dfc80c63d9ed72a1133af7755abc3305875"
+        },
+        {
+          "frame": 60,
+          "offset_pixels": 94,
+          "match_error": 2.243144132653061,
+          "next_match_error": 7.836548681972789,
+          "image_sha256": "5c59eeee6e3e45b244367227fa2e23a147c31a9c13b6a7af1f9dcb62fd7f960f"
+        },
+        {
+          "frame": 80,
+          "offset_pixels": 94,
+          "match_error": 2.245588860544218,
+          "next_match_error": 7.876594387755102,
+          "image_sha256": "3e2cdc08bbfd1691ea6cbfe05d381ea95ea53fbf12ca4154f9f7c72882569403"
+        },
+        {
+          "frame": 100,
+          "offset_pixels": 94,
+          "match_error": 2.5379198554421767,
+          "next_match_error": 8.133051658163266,
+          "image_sha256": "acbad263605a0187a6698b5b7cfb0ca1f6f8b7e415a365d5c31171f087c34700"
+        },
+        {
+          "frame": 120,
+          "offset_pixels": 94,
+          "match_error": 2.3345291241496597,
+          "next_match_error": 7.947066326530612,
+          "image_sha256": "01cc8084316fa63234193a4e72dc231dd5ea1fb4abc9e168698d9114df7cb990"
+        }
+      ]
+    },
+    {
+      "stage": "pirate",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-12_580151/pirate-landed",
+      "writes": [],
+      "steps": [
+        [
+          120,
+          ""
+        ]
+      ],
+      "initial_state_sha256": "849cf3b6fdf6d89de60890d7eb18521b6e3b7ec003621cdee81864398183718c",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "asset_sha256": "388602a22e2fa080c2be7a7b246b3daf71ca3949450a784b40333262e26cbcd0",
+      "samples": [
+        {
+          "frame": 20,
+          "offset_pixels": 86,
+          "match_error": 1.6123777636054422,
+          "next_match_error": 7.875292304421769,
+          "image_sha256": "b3eeb4cb263e8acda78f26be9177b5685053b607a3ab3088dfde4b9700d5f904"
+        },
+        {
+          "frame": 40,
+          "offset_pixels": 86,
+          "match_error": 1.8286830357142858,
+          "next_match_error": 7.8700042517006805,
+          "image_sha256": "80e19da06c116de80729538687eef5112273a4cd1895e265ef561bb57bd0b0c9"
+        },
+        {
+          "frame": 60,
+          "offset_pixels": 86,
+          "match_error": 1.915045705782313,
+          "next_match_error": 7.884805484693878,
+          "image_sha256": "6f4131ece98d3fde2748680901291774f5e7abdbbdee3dd34be957277a5ff74e"
+        },
+        {
+          "frame": 80,
+          "offset_pixels": 86,
+          "match_error": 1.9011745323129252,
+          "next_match_error": 7.886160714285714,
+          "image_sha256": "ae08de1ef120a2486c41141c69ba0659ac7e30c00f7b38a3fa520ee987e06f6a"
+        },
+        {
+          "frame": 100,
+          "offset_pixels": 86,
+          "match_error": 1.8882865646258504,
+          "next_match_error": 8.156329719387756,
+          "image_sha256": "6831bb030b12a9553d18f748b0fd4ddc75e0efef6750ff2d15578d7a8532267e"
+        },
+        {
+          "frame": 120,
+          "offset_pixels": 86,
+          "match_error": 1.8900669642857142,
+          "next_match_error": 8.211017219387756,
+          "image_sha256": "6c074fb7addb2c9fea47186773784bad09cb10d246991cd5a538fcace99b0e52"
+        }
+      ]
+    },
+    {
+      "stage": "space",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-15_404434/space-landed",
+      "writes": [],
+      "steps": [
+        [
+          120,
+          ""
+        ]
+      ],
+      "initial_state_sha256": "465a7ba9c383174635be9e858534c725c8d661aa8fd4be94954345fc75989cd7",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "asset_sha256": "c2df9768358d8b988796328c166a80d1e510caef6f2f86c1818abbb39884f9d9",
+      "samples": [
+        {
+          "frame": 20,
+          "offset_pixels": 94,
+          "match_error": 1.6039806547619047,
+          "next_match_error": 6.918872236394558,
+          "image_sha256": "19f67d9432448133ae63bf3e5a980e722c7195481544fb846b66321f643a0259"
+        },
+        {
+          "frame": 40,
+          "offset_pixels": 94,
+          "match_error": 1.5577168367346939,
+          "next_match_error": 6.872608418367347,
+          "image_sha256": "6547af72d846232cd79f10271c61337cb291ec05348a262f702806b4df28583a"
+        },
+        {
+          "frame": 60,
+          "offset_pixels": 94,
+          "match_error": 1.5577168367346939,
+          "next_match_error": 6.872608418367347,
+          "image_sha256": "4e47451fd0cddcd74a790b7fa6ed1c60bef4466938f456132b8b2ba3d8edfe88"
+        },
+        {
+          "frame": 80,
+          "offset_pixels": 94,
+          "match_error": 1.656170280612245,
+          "next_match_error": 6.861819727891157,
+          "image_sha256": "1f7cffe498946a24bac19b8af73ef1666e087be5209097c01418c86612b318c3"
+        },
+        {
+          "frame": 100,
+          "offset_pixels": 94,
+          "match_error": 1.8724489795918366,
+          "next_match_error": 6.85796662414966,
+          "image_sha256": "91e19ccb2156c609f84c2ccea35a0254a754d6a002e3ce0d8cb4df822d5efff4"
+        },
+        {
+          "frame": 120,
+          "offset_pixels": 94,
+          "match_error": 1.8790656887755102,
+          "next_match_error": 6.909784226190476,
+          "image_sha256": "913b3a08b14b2658960592c06c770d9046dee194f28528b512fcc5fa8af6ae45"
+        }
+      ]
+    },
+    {
+      "stage": "jungle",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-15_417436/jungle-landed",
+      "writes": [],
+      "steps": [
+        [
+          120,
+          ""
+        ]
+      ],
+      "initial_state_sha256": "99fa055f848cf910e29d6e17fefc5e43dfd12898244f1b966e6e5e28b3c64da1",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "asset_sha256": "38acd9a56c726eb5d936e13e67323fa2a356e910eae579ee1a67d8108106377f",
+      "samples": [
+        {
+          "frame": 20,
+          "offset_pixels": 94,
+          "match_error": 1.8937606292517006,
+          "next_match_error": 7.443080357142857,
+          "image_sha256": "1c0e9564bf4e0929c48341d3ee8affb74e518b85d05b7bdf1bbcdebe04e22bb3"
+        },
+        {
+          "frame": 40,
+          "offset_pixels": 94,
+          "match_error": 2.0808354591836733,
+          "next_match_error": 7.467846513605442,
+          "image_sha256": "55bdb889cefda05453b4e6240d8c403ab8192c29e9b8d0337e0aff8096854db2"
+        },
+        {
+          "frame": 60,
+          "offset_pixels": 94,
+          "match_error": 2.181653911564626,
+          "next_match_error": 7.453098426870748,
+          "image_sha256": "0f171260dfd0d4a4e6e6a3eda5c0a2f2afdfb7a2b2fc32de18ce9fd540797a8b"
+        },
+        {
+          "frame": 80,
+          "offset_pixels": 94,
+          "match_error": 2.2306016156462585,
+          "next_match_error": 7.526201105442177,
+          "image_sha256": "ea8fb01cd5532682d589ee454faf65fe38590874fb2256be354df36eb76edf44"
+        },
+        {
+          "frame": 100,
+          "offset_pixels": 94,
+          "match_error": 2.46468431122449,
+          "next_match_error": 7.790683460884353,
+          "image_sha256": "fcc27a937587d2f162f981275a2db9dd9ecbf744e8e2d9cf35abec9379d1fa20"
+        },
+        {
+          "frame": 120,
+          "offset_pixels": 94,
+          "match_error": 2.3963382227891157,
+          "next_match_error": 7.7336309523809526,
+          "image_sha256": "0653e5301ff4c503db9a41e792fa3d3461abbafd2b072f13a5a132cd469f824e"
+        }
+      ]
+    },
+    {
+      "stage": "park",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-15_425429/park-landed",
+      "writes": [],
+      "steps": [
+        [
+          120,
+          ""
+        ]
+      ],
+      "initial_state_sha256": "211e9bd4c429e893f879b40934d63da629927e17e589ab7107b41bdcdf1f264c",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "asset_sha256": "e86b900734b316dd4618997beb6c861def704e3476576aed4b4bcd24315f8d7c",
+      "samples": [
+        {
+          "frame": 20,
+          "offset_pixels": 94,
+          "match_error": 1.7245960884353742,
+          "next_match_error": 6.695657950680272,
+          "image_sha256": "cda49ed68ffb3c24e7ec15fe060f42950663fa82d93c79a6191979895763051e"
+        },
+        {
+          "frame": 40,
+          "offset_pixels": 94,
+          "match_error": 2.055032950680272,
+          "next_match_error": 6.766183035714286,
+          "image_sha256": "ef68f3a0ee43f96d43da79c1d15856c2a65f99f722bd579f2739ce8383a281a3"
+        },
+        {
+          "frame": 60,
+          "offset_pixels": 94,
+          "match_error": 2.3810586734693877,
+          "next_match_error": 6.8858949829931975,
+          "image_sha256": "b0f64621593bed3a059711d5130e6ada8dbc3313699969e4e0960d2d94e8e8be"
+        },
+        {
+          "frame": 80,
+          "offset_pixels": 94,
+          "match_error": 2.477997448979592,
+          "next_match_error": 7.173947704081633,
+          "image_sha256": "72c405b5ee4f3f87e3e4e215cd2e0fabf220b172aa948c8ed2b4cbfc02942159"
+        },
+        {
+          "frame": 100,
+          "offset_pixels": 94,
+          "match_error": 2.469281462585034,
+          "next_match_error": 7.1813881802721085,
+          "image_sha256": "7c674682e93d8ab0a2819a386d96a88e881cfec03efe649202f2cc216d86043b"
+        },
+        {
+          "frame": 120,
+          "offset_pixels": 94,
+          "match_error": 2.080755739795918,
+          "next_match_error": 6.855017006802721,
+          "image_sha256": "1481a9dba43e2ffcbea50108f9ececc4aba3deacb10f73c72a5e6dff5e82b722"
+        }
+      ]
+    },
+    {
+      "stage": "beanstalk",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-11-18_098381/beanstalk-landed",
+      "writes": [],
+      "steps": [
+        [
+          120,
+          ""
+        ]
+      ],
+      "initial_state_sha256": "d457f1c602a404b5fb049ae92a7ba00d9c26ed7b0d5424a32564e7a7daed423f",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "asset_sha256": "43ae692b7b6c58429481ed5c97f218206eb051ba774d20c3b50a51be2d7bf99c",
+      "samples": [
+        {
+          "frame": 20,
+          "offset_pixels": 94,
+          "match_error": 1.987563775510204,
+          "next_match_error": 7.04094919217687,
+          "image_sha256": "1dde0d9122b13cd70ddec30b1bf22ffdc05c665957fe1cec483030aed58f9a71"
+        },
+        {
+          "frame": 40,
+          "offset_pixels": 94,
+          "match_error": 2.1286670918367347,
+          "next_match_error": 7.050595238095238,
+          "image_sha256": "06be1dfd4e89ad034ba388c7b7d2ed5d32d1fe3c8b952b849581b7a8db50a3a9"
+        },
+        {
+          "frame": 60,
+          "offset_pixels": 94,
+          "match_error": 2.3065741921768708,
+          "next_match_error": 7.081526360544218,
+          "image_sha256": "2614159ca427b55610f02931680ec3157e7c0926abdadf4740792f35cff3238a"
+        },
+        {
+          "frame": 80,
+          "offset_pixels": 94,
+          "match_error": 2.4876966411564627,
+          "next_match_error": 7.185081845238095,
+          "image_sha256": "df0aaf0c897e96b31b7f6184313aa15273b6554baf027747b5bd5c669deecd55"
+        },
+        {
+          "frame": 100,
+          "offset_pixels": 94,
+          "match_error": 2.5690901360544216,
+          "next_match_error": 7.390120110544218,
+          "image_sha256": "c3b4dda5714a3c06ca68db28c5f3e4527bf03a2583380b7c62530ee9c8a32eaf"
+        },
+        {
+          "frame": 120,
+          "offset_pixels": 94,
+          "match_error": 2.8160342261904763,
+          "next_match_error": 7.466305272108843,
+          "image_sha256": "ea6793583c6b8555e3646672643511d88ae1f6923e07155be91de72ba073c22b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "phase": 0,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-56-01_700214\\pirate-primary-art.frame00026",
+    "object": {
+      "id": 26,
+      "x": 485,
+      "y": 130,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "618f4d16d8060c0b4c45a13d72a84ba78883d75ff5e54c6139a859722cca1d98"
+  },
+  {
+    "phase": 1,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-56-01_700214\\pirate-primary-art.frame00028",
+    "object": {
+      "id": 26,
+      "x": 485,
+      "y": 122,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "07785fab69561cf1544c9a82e0d788ba82fb7d2f5b13f519d81d02ca553a0cef"
+  },
+  {
+    "phase": 2,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-56-01_700214\\pirate-primary-art.frame00030",
+    "object": {
+      "id": 26,
+      "x": 485,
+      "y": 114,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "4483a7e8b55ae028637cd68f4481c38598a15b8e36e6ff7829021bf118392ca3"
+  },
+  {
+    "phase": 3,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-56-01_700214\\pirate-primary-art.frame00032",
+    "object": {
+      "id": 26,
+      "x": 486,
+      "y": 106,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "91565826ffa55abbba9bd008cd01574b60e91a6df9343c19fa3a617f109b65b3"
+  },
+  {
+    "phase": 4,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-56-01_700214\\pirate-primary-art.frame00034",
+    "object": {
+      "id": 26,
+      "x": 487,
+      "y": 99,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "c349bdd39e167b9e50dc0d3ed55e0d7b31aa525a6a8270ee36fe2e39633df6e5"
+  }
+]

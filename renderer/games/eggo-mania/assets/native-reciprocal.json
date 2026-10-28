@@ -1,0 +1,6 @@
+{
+  "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "offset": 890192,
+  "bytes": 4096,
+  "encoding": "unsigned 32-bit little endian"
+}

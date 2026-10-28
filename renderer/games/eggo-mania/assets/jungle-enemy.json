@@ -1,0 +1,114 @@
+[
+  {
+    "phase": 0,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_23-29-53_007795\\jungle-enemy-art.frame00001",
+    "object": {
+      "id": 24,
+      "x": 51,
+      "y": 68,
+      "w": 32,
+      "h": 64,
+      "tile": 798,
+      "palette": 5
+    },
+    "pixel_sha256": "adf139c51e1b3e1e680a16d6650e9278f1209c6816630cb61e4902fabe736c38"
+  },
+  {
+    "phase": 1,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_23-29-53_007795\\jungle-enemy-art.frame00006",
+    "object": {
+      "id": 24,
+      "x": 51,
+      "y": 68,
+      "w": 32,
+      "h": 64,
+      "tile": 798,
+      "palette": 5
+    },
+    "pixel_sha256": "b433b636bf80fc864269929573c14aed44744de0509fa8f5db2c0c743d9d9591"
+  },
+  {
+    "phase": 2,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_23-29-53_007795\\jungle-enemy-art.frame00011",
+    "object": {
+      "id": 24,
+      "x": 51,
+      "y": 69,
+      "w": 32,
+      "h": 64,
+      "tile": 798,
+      "palette": 5
+    },
+    "pixel_sha256": "318b14c0900746ebcce9fce31971c8e731c80203e2be62fa511efdd0b8015a68"
+  },
+  {
+    "phase": 3,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_23-29-53_007795\\jungle-enemy-art.frame00016",
+    "object": {
+      "id": 24,
+      "x": 51,
+      "y": 70,
+      "w": 32,
+      "h": 64,
+      "tile": 798,
+      "palette": 5
+    },
+    "pixel_sha256": "86ec9013e97eeead75bbab18361fa57e5799285ff8039d3e21443c9eac31c85f"
+  },
+  {
+    "phase": 4,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_23-29-53_007795\\jungle-enemy-art.frame00021",
+    "object": {
+      "id": 24,
+      "x": 51,
+      "y": 70,
+      "w": 32,
+      "h": 64,
+      "tile": 798,
+      "palette": 5
+    },
+    "pixel_sha256": "be7756bafb6258595ddf5337dbfcbdd4bd4804640e3c2fee6d8a0c7534f41e94"
+  },
+  {
+    "phase": 5,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_23-29-53_007795\\jungle-enemy-art.frame00026",
+    "object": {
+      "id": 24,
+      "x": 51,
+      "y": 70,
+      "w": 32,
+      "h": 64,
+      "tile": 798,
+      "palette": 5
+    },
+    "pixel_sha256": "5a6bc639a13ca83d9a8ee3abafd9ec7c13db642a7b191982e6463589c7f1a964"
+  },
+  {
+    "phase": 6,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_23-29-53_007795\\jungle-enemy-art.frame00031",
+    "object": {
+      "id": 24,
+      "x": 51,
+      "y": 71,
+      "w": 32,
+      "h": 64,
+      "tile": 798,
+      "palette": 5
+    },
+    "pixel_sha256": "85faa1155c447fe939f49cc60e6960964e2027cd714fc05781fdc40a2cf0f82a"
+  },
+  {
+    "phase": 7,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_23-29-53_007795\\jungle-enemy-art.frame00036",
+    "object": {
+      "id": 24,
+      "x": 51,
+      "y": 72,
+      "w": 32,
+      "h": 64,
+      "tile": 798,
+      "palette": 5
+    },
+    "pixel_sha256": "dc16b559e8d15d174fb55a50a7b152dfccb8bc82e991756e1144345844242eab"
+  }
+]

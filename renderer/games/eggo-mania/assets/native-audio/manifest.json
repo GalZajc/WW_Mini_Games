@@ -1,0 +1,88 @@
+{
+  "romSize": 4194304,
+  "bytes": 620000,
+  "sha256": "635664010a98823dfbe9a3eb13b8bfb066093036e11cade6eaa9c780242c0ff5",
+  "instructions": 1155074386,
+  "blocks": [
+    {
+      "offset": 127680,
+      "length": 10560,
+      "assetOffset": 0
+    },
+    {
+      "offset": 138272,
+      "length": 13760,
+      "assetOffset": 10560
+    },
+    {
+      "offset": 152064,
+      "length": 82880,
+      "assetOffset": 24320
+    },
+    {
+      "offset": 234976,
+      "length": 25376,
+      "assetOffset": 107200
+    },
+    {
+      "offset": 260448,
+      "length": 14560,
+      "assetOffset": 132576
+    },
+    {
+      "offset": 275136,
+      "length": 3392,
+      "assetOffset": 147136
+    },
+    {
+      "offset": 281088,
+      "length": 161408,
+      "assetOffset": 150528
+    },
+    {
+      "offset": 442656,
+      "length": 3456,
+      "assetOffset": 311936
+    },
+    {
+      "offset": 446144,
+      "length": 63296,
+      "assetOffset": 315392
+    },
+    {
+      "offset": 509792,
+      "length": 14496,
+      "assetOffset": 378688
+    },
+    {
+      "offset": 526816,
+      "length": 9888,
+      "assetOffset": 393184
+    },
+    {
+      "offset": 536864,
+      "length": 9888,
+      "assetOffset": 403072
+    },
+    {
+      "offset": 547232,
+      "length": 9888,
+      "assetOffset": 412960
+    },
+    {
+      "offset": 557568,
+      "length": 194944,
+      "assetOffset": 422848
+    },
+    {
+      "offset": 752576,
+      "length": 192,
+      "assetOffset": 617792
+    },
+    {
+      "offset": 752800,
+      "length": 2016,
+      "assetOffset": 617984
+    }
+  ]
+}

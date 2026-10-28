@@ -1,0 +1,569 @@
+{
+  "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942",
+  "writes": [],
+  "start_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+  "rows_bottom_up": [
+    [
+      0,
+      3,
+      3,
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      3,
+      3,
+      0,
+      4,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      7,
+      7,
+      7,
+      0
+    ],
+    [
+      0,
+      5,
+      5,
+      7,
+      8,
+      7,
+      0
+    ],
+    [
+      0,
+      6,
+      5,
+      8,
+      8,
+      8,
+      0
+    ],
+    [
+      6,
+      6,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "stable_through_frame": 1680,
+  "captured_at_frame": 840,
+  "native_frame": 1403,
+  "bg3_global_frame": 1403,
+  "bg3_global_frame_source": "RAM capture at 0x02011A9C",
+  "progress_marker_world_y_pixels": {
+    "source": "bot-tower.frame00840.0x7000000 objects 2/3; inverse of the 0x0801a380 portrait-position formula",
+    "player": 688,
+    "cpu": 593
+  },
+  "native_camera_state": {
+    "source": "bot-tower.frame00840.ram camera trackers",
+    "player_camera_position_q16": 41615360,
+    "cpu_camera_position_q16": 34996224,
+    "player_bg3_camera_y": 347,
+    "cpu_bg3_camera_y": 292,
+    "cpu_bg3_vofs": 36
+  },
+  "observed_shapes": [
+    [
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ]
+  ],
+  "piece_materials": {
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 1,
+    "7": 2,
+    "8": 2,
+    "9": 1
+  },
+  "egg": {
+    "x": 6.5,
+    "y": 1.8125,
+    "progress_height": 1.96875,
+    "vy": 10.125,
+    "ground": false
+  },
+  "egg_measurement": {
+    "source": "bot-tower.frame00840.0x7000000",
+    "object": 36,
+    "screen_x": 72,
+    "screen_y": 32,
+    "anchor_x": 32,
+    "anchor_y": 56,
+    "note": "Position of the visible OAM object in this exact capture. The previous fixture's position did not match this frame. RAM coordinates can also lead the displayed object by one frame and are not stable addresses across arbitrary long runs."
+  },
+  "crates": [
+    {
+      "x": 4.375,
+      "y": 1.75,
+      "cells": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "nativeKind": 0,
+      "nativeVariant": 1,
+      "color": 7,
+      "material": 2
+    }
+  ],
+  "view": {
+    "foreground_pixels": 5,
+    "background_pixels": 6,
+    "meter_pointer_x": 84,
+    "meter": {
+      "position": 5567081,
+      "velocity": 0,
+      "incomplete_floors": 7,
+      "pose": {
+        "x": 84,
+        "y": 148,
+        "barY": 152,
+        "flashing": true
+      }
+    }
+  },
+  "piece_templates": {
+    "3": {
+      "kind": 6,
+      "rotation": 2
+    },
+    "4": {
+      "kind": 3,
+      "rotation": 3
+    },
+    "5": {
+      "kind": 6,
+      "rotation": 3
+    },
+    "6": {
+      "kind": 5,
+      "rotation": 3
+    },
+    "7": {
+      "kind": 7,
+      "rotation": 2
+    },
+    "8": {
+      "kind": 0,
+      "rotation": 0
+    },
+    "9": {
+      "kind": 2,
+      "rotation": 0
+    }
+  },
+  "piece_templates_source": "Owner-cell geometry and native factory placement-tile captures from the referenced frame.",
+  "cpu_capture": {
+    "source_ram": "scripts/OUTPUT/eggo-reference_2026-10-03_01-01-06_741942/bot-tower.frame00840.ram",
+    "source_oam": "scripts/OUTPUT/eggo-reference_2026-10-03_01-01-06_741942/bot-tower.frame00840.sprites/037.png",
+    "source_ram_sha256": "0522ED49D48C32E9ED53B4F5514B7208467224C9AE0A615E1297AE3812A120D2",
+    "rows_bottom_up": [
+      [
+        3,
+        3,
+        17,
+        15,
+        18,
+        19,
+        20
+      ],
+      [
+        24,
+        3,
+        3,
+        21,
+        22,
+        23,
+        23
+      ],
+      [
+        24,
+        24,
+        37,
+        39,
+        23,
+        23,
+        0
+      ],
+      [
+        40,
+        24,
+        41,
+        42,
+        43,
+        44,
+        0
+      ],
+      [
+        25,
+        25,
+        25,
+        45,
+        44,
+        44,
+        44
+      ],
+      [
+        0,
+        0,
+        45,
+        45,
+        45,
+        44,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        45,
+        0,
+        0,
+        0
+      ]
+    ],
+    "piece_templates": {
+      "3": {
+        "kind": 5,
+        "rotation": 0
+      },
+      "15": {
+        "kind": 2,
+        "rotation": 0
+      },
+      "17": {
+        "kind": 2,
+        "rotation": 0
+      },
+      "18": {
+        "kind": 2,
+        "rotation": 0
+      },
+      "19": {
+        "kind": 2,
+        "rotation": 0
+      },
+      "20": {
+        "kind": 2,
+        "rotation": 0
+      },
+      "21": {
+        "kind": 2,
+        "rotation": 0
+      },
+      "22": {
+        "kind": 2,
+        "rotation": 0
+      },
+      "23": {
+        "kind": 6,
+        "rotation": 0
+      },
+      "24": {
+        "kind": 6,
+        "rotation": 3
+      },
+      "25": {
+        "kind": 1,
+        "rotation": 1
+      },
+      "37": {
+        "kind": 2,
+        "rotation": 0
+      },
+      "39": {
+        "kind": 2,
+        "rotation": 0
+      },
+      "40": {
+        "kind": 2,
+        "rotation": 1
+      },
+      "41": {
+        "kind": 2,
+        "rotation": 0
+      },
+      "42": {
+        "kind": 2,
+        "rotation": 0
+      },
+      "43": {
+        "kind": 2,
+        "rotation": 0
+      },
+      "44": {
+        "kind": 0,
+        "rotation": 0
+      },
+      "45": {
+        "kind": 0,
+        "rotation": 0
+      }
+    },
+    "piece_templates_source": "The singleton at owner 40 is rotation 1: its captured BG2 descriptors [45,46,52,53] match the native factory kind-2 rotation-1 map. Singleton shape geometry alone cannot recover this art rotation.",
+    "actor": {
+      "x": 3.5,
+      "y": 7.9715,
+      "progress_height": 7.96875,
+      "vy": -1,
+      "ground": false,
+      "facing": 1,
+      "oam": {
+        "object": 37,
+        "x": 152,
+        "y": 37,
+        "anchor_x": 32,
+        "anchor_y": 56
+      },
+      "pose": {
+        "state": "fall-free",
+        "key": "air-free",
+        "row": 6,
+        "frame": 1
+      }
+    },
+    "crates": [
+      {
+        "nativeKind": 12,
+        "nativeVariant": 0,
+        "nativeSwayFrame": 1402,
+        "nativeAffineMatrix": [
+          237,
+          96,
+          -97,
+          237
+        ],
+        "nativeAffineDoubleSize": true,
+        "x": 5.6875,
+        "y": 12.3465,
+        "oam": {
+          "object": 27,
+          "x": 203,
+          "y": 7,
+          "affine_double_size": true,
+          "matrix_8_8": [
+            237,
+            96,
+            -97,
+            237
+          ]
+        }
+      },
+      {
+        "nativeKind": 6,
+        "nativeVariant": 2,
+        "x": 5.875,
+        "y": 8.8465,
+        "oam": {
+          "object": 28,
+          "x": 214,
+          "y": 71
+        }
+      }
+    ],
+    "completion_effects": [
+      {
+        "row": 4,
+        "started_at_native_frame": 1398,
+        "visible_age_at_capture": 5,
+        "source_objects": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ]
+      }
+    ],
+    "view": {
+      "camera": 6.784,
+      "board_camera": 6.625,
+      "background_camera": 7.25,
+      "board_camera_source": "Minimum-difference screenshot alignment over all 161 integer-pixel offsets from 0 to 160 px (0 to 10 cells, 1 px steps); 106 px gives the best full CPU-field match. This verifies placement, not yet ROM camera-state derivation.",
+      "meter": {
+        "position": 53,
+        "velocity": 0,
+        "incomplete_floors": 4,
+        "pose": {
+          "x": 53,
+          "y": 148,
+          "barY": 152,
+          "flashing": false
+        }
+      }
+    },
+    "native_frame": 1403,
+    "camera_source": "CPU field object camera_y 0x02004CFC = 292; ring base 350 and half-rate scroll",
+    "actor_source": "OAM object 37 at (152,37); actor RAM x=40 and y=592.5, normalized against native floor",
+    "limitations": "Captured CPU board and actor are seeded for a full-screen renderer diagnostic; this is a state-restored screenshot fixture, not yet an ordinary-input replay."
+  },
+  "native_divider_progress": {
+    "player": 0,
+    "cpu": 3,
+    "source": "frame-840 actor field +0x934 (0x02004508 player, 0x02005884 CPU); ROM 0x0801a380 uses these completed-floor counts for OAM objects 12/13."
+  }
+}

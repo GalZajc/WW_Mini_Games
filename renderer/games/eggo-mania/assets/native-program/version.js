@@ -1,0 +1,1 @@
+export const NATIVE_PROGRAM_VERSION="2db596533784e89a";

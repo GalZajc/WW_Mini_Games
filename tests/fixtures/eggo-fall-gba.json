@@ -1,0 +1,1864 @@
+{
+  "parameters": {
+    "tile_pixels": 16,
+    "frame_rate": 60,
+    "profiles": [
+      {
+        "name": "neutral",
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-03_01-32-34_765349/camera-jump",
+        "last_frame": 63,
+        "jump_frame": 2,
+        "float_through_frame": 37,
+        "boosted": false,
+        "terminal_px_per_frame": 3.5
+      },
+      {
+        "name": "float",
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-21-47_684890/fall-float",
+        "last_frame": 80,
+        "jump_frame": 2,
+        "float_through_frame": 100,
+        "boosted": false,
+        "terminal_px_per_frame": 1.75
+      },
+      {
+        "name": "boots-neutral",
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-03_03-35-31_795765/boots-expiry",
+        "last_frame": 44,
+        "jump_frame": 2,
+        "float_through_frame": 9,
+        "boosted": true,
+        "terminal_px_per_frame": 5
+      },
+      {
+        "name": "boots-float",
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-21-47_777898/boots-fall-float",
+        "last_frame": 86,
+        "jump_frame": 2,
+        "float_through_frame": 120,
+        "boosted": true,
+        "terminal_px_per_frame": 1.75
+      },
+      {
+        "name": "boots-fast",
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-21-47_811844/boots-fall-fast",
+        "last_frame": 31,
+        "jump_frame": 2,
+        "float_through_frame": 9,
+        "boosted": true,
+        "fast": true,
+        "terminal_px_per_frame": 6
+      },
+      {
+        "name": "fast-high",
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-22-40_480122/fall-fast-high",
+        "last_frame": 24,
+        "initial_velocity_pixels": 3.5,
+        "jump_frame": null,
+        "float_through_frame": 0,
+        "boosted": false,
+        "fast": true,
+        "fast_from_frame": 2,
+        "terminal_px_per_frame": 5.5
+      }
+    ]
+  },
+  "profiles": [
+    {
+      "name": "neutral",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_01-32-34_765349/camera-jump",
+      "last_frame": 63,
+      "jump_frame": 2,
+      "float_through_frame": 37,
+      "boosted": false,
+      "terminal_px_per_frame": 3.5,
+      "samples": [
+        {
+          "frame": 1,
+          "keys": "UP",
+          "world_y": 720.0440673828125
+        },
+        {
+          "frame": 2,
+          "keys": "UP",
+          "world_y": 716.5440673828125
+        },
+        {
+          "frame": 3,
+          "keys": "UP",
+          "world_y": 713.1440582275391
+        },
+        {
+          "frame": 4,
+          "keys": "UP",
+          "world_y": 709.8440399169922
+        },
+        {
+          "frame": 5,
+          "keys": "UP",
+          "world_y": 706.6440124511719
+        },
+        {
+          "frame": 6,
+          "keys": "UP",
+          "world_y": 703.5439758300781
+        },
+        {
+          "frame": 7,
+          "keys": "UP",
+          "world_y": 700.5439300537109
+        },
+        {
+          "frame": 8,
+          "keys": "UP",
+          "world_y": 697.6438751220703
+        },
+        {
+          "frame": 9,
+          "keys": "UP",
+          "world_y": 694.8438110351562
+        },
+        {
+          "frame": 10,
+          "keys": "UP",
+          "world_y": 692.1437377929688
+        },
+        {
+          "frame": 11,
+          "keys": "UP",
+          "world_y": 689.5436553955078
+        },
+        {
+          "frame": 12,
+          "keys": "UP",
+          "world_y": 687.0435638427734
+        },
+        {
+          "frame": 13,
+          "keys": "UP",
+          "world_y": 684.6434631347656
+        },
+        {
+          "frame": 14,
+          "keys": "UP",
+          "world_y": 682.3433532714844
+        },
+        {
+          "frame": 15,
+          "keys": "UP",
+          "world_y": 680.1432342529297
+        },
+        {
+          "frame": 16,
+          "keys": "UP",
+          "world_y": 678.0431060791016
+        },
+        {
+          "frame": 17,
+          "keys": "UP",
+          "world_y": 676.04296875
+        },
+        {
+          "frame": 18,
+          "keys": "UP",
+          "world_y": 674.142822265625
+        },
+        {
+          "frame": 19,
+          "keys": "UP",
+          "world_y": 672.3426666259766
+        },
+        {
+          "frame": 20,
+          "keys": "UP",
+          "world_y": 670.6425018310547
+        },
+        {
+          "frame": 21,
+          "keys": "UP",
+          "world_y": 669.0423278808594
+        },
+        {
+          "frame": 22,
+          "keys": "UP",
+          "world_y": 667.5421447753906
+        },
+        {
+          "frame": 23,
+          "keys": "UP",
+          "world_y": 666.1419525146484
+        },
+        {
+          "frame": 24,
+          "keys": "UP",
+          "world_y": 664.8417510986328
+        },
+        {
+          "frame": 25,
+          "keys": "UP",
+          "world_y": 663.6415405273438
+        },
+        {
+          "frame": 26,
+          "keys": "UP",
+          "world_y": 662.5413208007812
+        },
+        {
+          "frame": 27,
+          "keys": "UP",
+          "world_y": 661.5410919189453
+        },
+        {
+          "frame": 28,
+          "keys": "UP",
+          "world_y": 660.6408538818359
+        },
+        {
+          "frame": 29,
+          "keys": "UP",
+          "world_y": 659.8406066894531
+        },
+        {
+          "frame": 30,
+          "keys": "UP",
+          "world_y": 659.1403503417969
+        },
+        {
+          "frame": 31,
+          "keys": "UP",
+          "world_y": 658.5400848388672
+        },
+        {
+          "frame": 32,
+          "keys": "UP",
+          "world_y": 658.0398101806641
+        },
+        {
+          "frame": 33,
+          "keys": "UP",
+          "world_y": 657.6395263671875
+        },
+        {
+          "frame": 34,
+          "keys": "UP",
+          "world_y": 657.3392333984375
+        },
+        {
+          "frame": 35,
+          "keys": "UP",
+          "world_y": 657.1389312744141
+        },
+        {
+          "frame": 36,
+          "keys": "UP",
+          "world_y": 657.0386199951172
+        },
+        {
+          "frame": 37,
+          "keys": "",
+          "world_y": 657.0382995605469
+        },
+        {
+          "frame": 38,
+          "keys": "",
+          "world_y": 657.2379760742188
+        },
+        {
+          "frame": 39,
+          "keys": "",
+          "world_y": 657.6376495361328
+        },
+        {
+          "frame": 40,
+          "keys": "",
+          "world_y": 658.2373199462891
+        },
+        {
+          "frame": 41,
+          "keys": "",
+          "world_y": 659.0369873046875
+        },
+        {
+          "frame": 42,
+          "keys": "",
+          "world_y": 660.0366516113281
+        },
+        {
+          "frame": 43,
+          "keys": "",
+          "world_y": 661.2363128662109
+        },
+        {
+          "frame": 44,
+          "keys": "",
+          "world_y": 662.6359710693359
+        },
+        {
+          "frame": 45,
+          "keys": "",
+          "world_y": 664.2356262207031
+        },
+        {
+          "frame": 46,
+          "keys": "",
+          "world_y": 666.0352783203125
+        },
+        {
+          "frame": 47,
+          "keys": "",
+          "world_y": 668.0349273681641
+        },
+        {
+          "frame": 48,
+          "keys": "",
+          "world_y": 670.2345733642578
+        },
+        {
+          "frame": 49,
+          "keys": "",
+          "world_y": 672.6342163085938
+        },
+        {
+          "frame": 50,
+          "keys": "",
+          "world_y": 675.2338562011719
+        },
+        {
+          "frame": 51,
+          "keys": "",
+          "world_y": 678.0334930419922
+        },
+        {
+          "frame": 52,
+          "keys": "",
+          "world_y": 681.0331268310547
+        },
+        {
+          "frame": 53,
+          "keys": "",
+          "world_y": 684.2327575683594
+        },
+        {
+          "frame": 54,
+          "keys": "",
+          "world_y": 687.6323852539062
+        },
+        {
+          "frame": 55,
+          "keys": "",
+          "world_y": 691.1323852539062
+        },
+        {
+          "frame": 56,
+          "keys": "",
+          "world_y": 694.6323852539062
+        },
+        {
+          "frame": 57,
+          "keys": "",
+          "world_y": 698.1323852539062
+        },
+        {
+          "frame": 58,
+          "keys": "",
+          "world_y": 701.6323852539062
+        },
+        {
+          "frame": 59,
+          "keys": "",
+          "world_y": 705.1323852539062
+        },
+        {
+          "frame": 60,
+          "keys": "",
+          "world_y": 708.6323852539062
+        },
+        {
+          "frame": 61,
+          "keys": "",
+          "world_y": 712.1323852539062
+        },
+        {
+          "frame": 62,
+          "keys": "",
+          "world_y": 715.6323852539062
+        },
+        {
+          "frame": 63,
+          "keys": "",
+          "world_y": 719.1323852539062
+        }
+      ],
+      "writes": [],
+      "steps": [
+        [
+          36,
+          "UP"
+        ],
+        [
+          84,
+          ""
+        ]
+      ],
+      "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+      "trace_sha256": "46272bd0a174124972c51f650f961fc57b3d8dc5eb15891321389c7cbbc51d2a",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    },
+    {
+      "name": "float",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-21-47_684890/fall-float",
+      "last_frame": 80,
+      "jump_frame": 2,
+      "float_through_frame": 100,
+      "boosted": false,
+      "terminal_px_per_frame": 1.75,
+      "samples": [
+        {
+          "frame": 1,
+          "keys": "UP",
+          "world_y": 720.0440673828125
+        },
+        {
+          "frame": 2,
+          "keys": "UP",
+          "world_y": 716.5440673828125
+        },
+        {
+          "frame": 3,
+          "keys": "UP",
+          "world_y": 713.1440582275391
+        },
+        {
+          "frame": 4,
+          "keys": "UP",
+          "world_y": 709.8440399169922
+        },
+        {
+          "frame": 5,
+          "keys": "UP",
+          "world_y": 706.6440124511719
+        },
+        {
+          "frame": 6,
+          "keys": "UP",
+          "world_y": 703.5439758300781
+        },
+        {
+          "frame": 7,
+          "keys": "UP",
+          "world_y": 700.5439300537109
+        },
+        {
+          "frame": 8,
+          "keys": "UP",
+          "world_y": 697.6438751220703
+        },
+        {
+          "frame": 9,
+          "keys": "UP",
+          "world_y": 694.8438110351562
+        },
+        {
+          "frame": 10,
+          "keys": "UP",
+          "world_y": 692.1437377929688
+        },
+        {
+          "frame": 11,
+          "keys": "UP",
+          "world_y": 689.5436553955078
+        },
+        {
+          "frame": 12,
+          "keys": "UP",
+          "world_y": 687.0435638427734
+        },
+        {
+          "frame": 13,
+          "keys": "UP",
+          "world_y": 684.6434631347656
+        },
+        {
+          "frame": 14,
+          "keys": "UP",
+          "world_y": 682.3433532714844
+        },
+        {
+          "frame": 15,
+          "keys": "UP",
+          "world_y": 680.1432342529297
+        },
+        {
+          "frame": 16,
+          "keys": "UP",
+          "world_y": 678.0431060791016
+        },
+        {
+          "frame": 17,
+          "keys": "UP",
+          "world_y": 676.04296875
+        },
+        {
+          "frame": 18,
+          "keys": "UP",
+          "world_y": 674.142822265625
+        },
+        {
+          "frame": 19,
+          "keys": "UP",
+          "world_y": 672.3426666259766
+        },
+        {
+          "frame": 20,
+          "keys": "UP",
+          "world_y": 670.6425018310547
+        },
+        {
+          "frame": 21,
+          "keys": "UP",
+          "world_y": 669.0423278808594
+        },
+        {
+          "frame": 22,
+          "keys": "UP",
+          "world_y": 667.5421447753906
+        },
+        {
+          "frame": 23,
+          "keys": "UP",
+          "world_y": 666.1419525146484
+        },
+        {
+          "frame": 24,
+          "keys": "UP",
+          "world_y": 664.8417510986328
+        },
+        {
+          "frame": 25,
+          "keys": "UP",
+          "world_y": 663.6415405273438
+        },
+        {
+          "frame": 26,
+          "keys": "UP",
+          "world_y": 662.5413208007812
+        },
+        {
+          "frame": 27,
+          "keys": "UP",
+          "world_y": 661.5410919189453
+        },
+        {
+          "frame": 28,
+          "keys": "UP",
+          "world_y": 660.6408538818359
+        },
+        {
+          "frame": 29,
+          "keys": "UP",
+          "world_y": 659.8406066894531
+        },
+        {
+          "frame": 30,
+          "keys": "UP",
+          "world_y": 659.1403503417969
+        },
+        {
+          "frame": 31,
+          "keys": "UP",
+          "world_y": 658.5400848388672
+        },
+        {
+          "frame": 32,
+          "keys": "UP",
+          "world_y": 658.0398101806641
+        },
+        {
+          "frame": 33,
+          "keys": "UP",
+          "world_y": 657.6395263671875
+        },
+        {
+          "frame": 34,
+          "keys": "UP",
+          "world_y": 657.3392333984375
+        },
+        {
+          "frame": 35,
+          "keys": "UP",
+          "world_y": 657.1389312744141
+        },
+        {
+          "frame": 36,
+          "keys": "UP",
+          "world_y": 657.0386199951172
+        },
+        {
+          "frame": 37,
+          "keys": "UP",
+          "world_y": 657.0382995605469
+        },
+        {
+          "frame": 38,
+          "keys": "UP",
+          "world_y": 657.1379699707031
+        },
+        {
+          "frame": 39,
+          "keys": "UP",
+          "world_y": 657.3376312255859
+        },
+        {
+          "frame": 40,
+          "keys": "UP",
+          "world_y": 657.6372833251953
+        },
+        {
+          "frame": 41,
+          "keys": "UP",
+          "world_y": 658.0369262695312
+        },
+        {
+          "frame": 42,
+          "keys": "UP",
+          "world_y": 658.5365600585938
+        },
+        {
+          "frame": 43,
+          "keys": "UP",
+          "world_y": 659.1361846923828
+        },
+        {
+          "frame": 44,
+          "keys": "UP",
+          "world_y": 659.8358001708984
+        },
+        {
+          "frame": 45,
+          "keys": "UP",
+          "world_y": 660.6354064941406
+        },
+        {
+          "frame": 46,
+          "keys": "UP",
+          "world_y": 661.5350036621094
+        },
+        {
+          "frame": 47,
+          "keys": "UP",
+          "world_y": 662.5345916748047
+        },
+        {
+          "frame": 48,
+          "keys": "UP",
+          "world_y": 663.6341705322266
+        },
+        {
+          "frame": 49,
+          "keys": "UP",
+          "world_y": 664.833740234375
+        },
+        {
+          "frame": 50,
+          "keys": "UP",
+          "world_y": 666.13330078125
+        },
+        {
+          "frame": 51,
+          "keys": "UP",
+          "world_y": 667.5328521728516
+        },
+        {
+          "frame": 52,
+          "keys": "UP",
+          "world_y": 669.0323944091797
+        },
+        {
+          "frame": 53,
+          "keys": "UP",
+          "world_y": 670.6319274902344
+        },
+        {
+          "frame": 54,
+          "keys": "UP",
+          "world_y": 672.3314514160156
+        },
+        {
+          "frame": 55,
+          "keys": "UP",
+          "world_y": 674.0814514160156
+        },
+        {
+          "frame": 56,
+          "keys": "UP",
+          "world_y": 675.8314514160156
+        },
+        {
+          "frame": 57,
+          "keys": "UP",
+          "world_y": 677.5814514160156
+        },
+        {
+          "frame": 58,
+          "keys": "UP",
+          "world_y": 679.3314514160156
+        },
+        {
+          "frame": 59,
+          "keys": "UP",
+          "world_y": 681.0814514160156
+        },
+        {
+          "frame": 60,
+          "keys": "UP",
+          "world_y": 682.8314514160156
+        },
+        {
+          "frame": 61,
+          "keys": "UP",
+          "world_y": 684.5814514160156
+        },
+        {
+          "frame": 62,
+          "keys": "UP",
+          "world_y": 686.3314514160156
+        },
+        {
+          "frame": 63,
+          "keys": "UP",
+          "world_y": 688.0814514160156
+        },
+        {
+          "frame": 64,
+          "keys": "UP",
+          "world_y": 689.8314514160156
+        },
+        {
+          "frame": 65,
+          "keys": "UP",
+          "world_y": 691.5814514160156
+        },
+        {
+          "frame": 66,
+          "keys": "UP",
+          "world_y": 693.3314514160156
+        },
+        {
+          "frame": 67,
+          "keys": "UP",
+          "world_y": 695.0814514160156
+        },
+        {
+          "frame": 68,
+          "keys": "UP",
+          "world_y": 696.8314514160156
+        },
+        {
+          "frame": 69,
+          "keys": "UP",
+          "world_y": 698.5814514160156
+        },
+        {
+          "frame": 70,
+          "keys": "UP",
+          "world_y": 700.3314514160156
+        },
+        {
+          "frame": 71,
+          "keys": "UP",
+          "world_y": 702.0814514160156
+        },
+        {
+          "frame": 72,
+          "keys": "UP",
+          "world_y": 703.8314514160156
+        },
+        {
+          "frame": 73,
+          "keys": "UP",
+          "world_y": 705.5814514160156
+        },
+        {
+          "frame": 74,
+          "keys": "UP",
+          "world_y": 707.3314514160156
+        },
+        {
+          "frame": 75,
+          "keys": "UP",
+          "world_y": 709.0814514160156
+        },
+        {
+          "frame": 76,
+          "keys": "UP",
+          "world_y": 710.8314514160156
+        },
+        {
+          "frame": 77,
+          "keys": "UP",
+          "world_y": 712.5814514160156
+        },
+        {
+          "frame": 78,
+          "keys": "UP",
+          "world_y": 714.3314514160156
+        },
+        {
+          "frame": 79,
+          "keys": "UP",
+          "world_y": 716.0814514160156
+        },
+        {
+          "frame": 80,
+          "keys": "UP",
+          "world_y": 717.8314514160156
+        }
+      ],
+      "writes": [],
+      "steps": [
+        [
+          100,
+          "UP"
+        ]
+      ],
+      "initial_state_sha256": "6fefcbbbdd7d43e491f6a8d4e32520d7f82b49ac5c6d25060882137ff79115cd",
+      "trace_sha256": "842d73b5935f7f854ea669b7185b0d96fb67ff447369464de5e80ec29c3d3e8a",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    },
+    {
+      "name": "boots-neutral",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_03-35-31_795765/boots-expiry",
+      "last_frame": 44,
+      "jump_frame": 2,
+      "float_through_frame": 9,
+      "boosted": true,
+      "terminal_px_per_frame": 5,
+      "samples": [
+        {
+          "frame": 1,
+          "keys": "UP",
+          "world_y": 720.8659515380859
+        },
+        {
+          "frame": 2,
+          "keys": "UP",
+          "world_y": 715.8659515380859
+        },
+        {
+          "frame": 3,
+          "keys": "UP",
+          "world_y": 710.9659423828125
+        },
+        {
+          "frame": 4,
+          "keys": "UP",
+          "world_y": 706.1659240722656
+        },
+        {
+          "frame": 5,
+          "keys": "UP",
+          "world_y": 701.4658966064453
+        },
+        {
+          "frame": 6,
+          "keys": "UP",
+          "world_y": 696.8658599853516
+        },
+        {
+          "frame": 7,
+          "keys": "UP",
+          "world_y": 692.3658142089844
+        },
+        {
+          "frame": 8,
+          "keys": "UP",
+          "world_y": 687.9657592773438
+        },
+        {
+          "frame": 9,
+          "keys": "",
+          "world_y": 683.6656951904297
+        },
+        {
+          "frame": 10,
+          "keys": "",
+          "world_y": 679.6656188964844
+        },
+        {
+          "frame": 11,
+          "keys": "",
+          "world_y": 675.9655303955078
+        },
+        {
+          "frame": 12,
+          "keys": "",
+          "world_y": 672.5654296875
+        },
+        {
+          "frame": 13,
+          "keys": "",
+          "world_y": 669.4653167724609
+        },
+        {
+          "frame": 14,
+          "keys": "",
+          "world_y": 666.6651916503906
+        },
+        {
+          "frame": 15,
+          "keys": "",
+          "world_y": 664.1650543212891
+        },
+        {
+          "frame": 16,
+          "keys": "",
+          "world_y": 661.9649047851562
+        },
+        {
+          "frame": 17,
+          "keys": "",
+          "world_y": 660.0647430419922
+        },
+        {
+          "frame": 18,
+          "keys": "",
+          "world_y": 658.4645690917969
+        },
+        {
+          "frame": 19,
+          "keys": "",
+          "world_y": 657.1643829345703
+        },
+        {
+          "frame": 20,
+          "keys": "",
+          "world_y": 656.1641845703125
+        },
+        {
+          "frame": 21,
+          "keys": "",
+          "world_y": 655.4639739990234
+        },
+        {
+          "frame": 22,
+          "keys": "",
+          "world_y": 655.0637512207031
+        },
+        {
+          "frame": 23,
+          "keys": "",
+          "world_y": 654.9635162353516
+        },
+        {
+          "frame": 24,
+          "keys": "",
+          "world_y": 655.1632690429688
+        },
+        {
+          "frame": 25,
+          "keys": "",
+          "world_y": 655.6630096435547
+        },
+        {
+          "frame": 26,
+          "keys": "",
+          "world_y": 656.4627380371094
+        },
+        {
+          "frame": 27,
+          "keys": "",
+          "world_y": 657.5624542236328
+        },
+        {
+          "frame": 28,
+          "keys": "",
+          "world_y": 658.962158203125
+        },
+        {
+          "frame": 29,
+          "keys": "",
+          "world_y": 660.6618499755859
+        },
+        {
+          "frame": 30,
+          "keys": "",
+          "world_y": 662.6615295410156
+        },
+        {
+          "frame": 31,
+          "keys": "",
+          "world_y": 664.9611968994141
+        },
+        {
+          "frame": 32,
+          "keys": "",
+          "world_y": 667.5608520507812
+        },
+        {
+          "frame": 33,
+          "keys": "",
+          "world_y": 670.4604949951172
+        },
+        {
+          "frame": 34,
+          "keys": "",
+          "world_y": 673.6601257324219
+        },
+        {
+          "frame": 35,
+          "keys": "",
+          "world_y": 677.1597442626953
+        },
+        {
+          "frame": 36,
+          "keys": "",
+          "world_y": 680.9593505859375
+        },
+        {
+          "frame": 37,
+          "keys": "",
+          "world_y": 685.0589447021484
+        },
+        {
+          "frame": 38,
+          "keys": "",
+          "world_y": 689.4585266113281
+        },
+        {
+          "frame": 39,
+          "keys": "",
+          "world_y": 694.1580963134766
+        },
+        {
+          "frame": 40,
+          "keys": "",
+          "world_y": 699.1576538085938
+        },
+        {
+          "frame": 41,
+          "keys": "",
+          "world_y": 704.1576538085938
+        },
+        {
+          "frame": 42,
+          "keys": "",
+          "world_y": 709.1576538085938
+        },
+        {
+          "frame": 43,
+          "keys": "",
+          "world_y": 714.1576538085938
+        },
+        {
+          "frame": 44,
+          "keys": "",
+          "world_y": 719.1576538085938
+        }
+      ],
+      "writes": [],
+      "steps": [
+        [
+          8,
+          "UP"
+        ],
+        [
+          16,
+          ""
+        ],
+        [
+          360,
+          ""
+        ],
+        [
+          8,
+          "UP"
+        ]
+      ],
+      "initial_state_sha256": "934fad1efe9f14e07e2a32a1c75bdec035167b8b462915694fa430b654a7a675",
+      "trace_sha256": "43f64832bc8e8022fbc6c83e55b762aa5e6b86590bad969f793ff832debd162f",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    },
+    {
+      "name": "boots-float",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-21-47_777898/boots-fall-float",
+      "last_frame": 86,
+      "jump_frame": 2,
+      "float_through_frame": 120,
+      "boosted": true,
+      "terminal_px_per_frame": 1.75,
+      "samples": [
+        {
+          "frame": 1,
+          "keys": "UP",
+          "world_y": 720.8659515380859
+        },
+        {
+          "frame": 2,
+          "keys": "UP",
+          "world_y": 715.8659515380859
+        },
+        {
+          "frame": 3,
+          "keys": "UP",
+          "world_y": 710.9659423828125
+        },
+        {
+          "frame": 4,
+          "keys": "UP",
+          "world_y": 706.1659240722656
+        },
+        {
+          "frame": 5,
+          "keys": "UP",
+          "world_y": 701.4658966064453
+        },
+        {
+          "frame": 6,
+          "keys": "UP",
+          "world_y": 696.8658599853516
+        },
+        {
+          "frame": 7,
+          "keys": "UP",
+          "world_y": 692.3658142089844
+        },
+        {
+          "frame": 8,
+          "keys": "UP",
+          "world_y": 687.9657592773438
+        },
+        {
+          "frame": 9,
+          "keys": "UP",
+          "world_y": 683.6656951904297
+        },
+        {
+          "frame": 10,
+          "keys": "UP",
+          "world_y": 679.4656219482422
+        },
+        {
+          "frame": 11,
+          "keys": "UP",
+          "world_y": 675.3655395507812
+        },
+        {
+          "frame": 12,
+          "keys": "UP",
+          "world_y": 671.3654479980469
+        },
+        {
+          "frame": 13,
+          "keys": "UP",
+          "world_y": 667.4653472900391
+        },
+        {
+          "frame": 14,
+          "keys": "UP",
+          "world_y": 663.6652374267578
+        },
+        {
+          "frame": 15,
+          "keys": "UP",
+          "world_y": 659.9651184082031
+        },
+        {
+          "frame": 16,
+          "keys": "UP",
+          "world_y": 656.364990234375
+        },
+        {
+          "frame": 17,
+          "keys": "UP",
+          "world_y": 652.8648529052734
+        },
+        {
+          "frame": 18,
+          "keys": "UP",
+          "world_y": 649.4647064208984
+        },
+        {
+          "frame": 19,
+          "keys": "UP",
+          "world_y": 646.16455078125
+        },
+        {
+          "frame": 20,
+          "keys": "UP",
+          "world_y": 642.9643859863281
+        },
+        {
+          "frame": 21,
+          "keys": "UP",
+          "world_y": 639.8642120361328
+        },
+        {
+          "frame": 22,
+          "keys": "UP",
+          "world_y": 636.8640289306641
+        },
+        {
+          "frame": 23,
+          "keys": "UP",
+          "world_y": 633.9638366699219
+        },
+        {
+          "frame": 24,
+          "keys": "UP",
+          "world_y": 631.1636352539062
+        },
+        {
+          "frame": 25,
+          "keys": "UP",
+          "world_y": 628.4634246826172
+        },
+        {
+          "frame": 26,
+          "keys": "UP",
+          "world_y": 625.8632049560547
+        },
+        {
+          "frame": 27,
+          "keys": "UP",
+          "world_y": 623.3629760742188
+        },
+        {
+          "frame": 28,
+          "keys": "UP",
+          "world_y": 620.9627380371094
+        },
+        {
+          "frame": 29,
+          "keys": "UP",
+          "world_y": 618.6624908447266
+        },
+        {
+          "frame": 30,
+          "keys": "UP",
+          "world_y": 616.4622344970703
+        },
+        {
+          "frame": 31,
+          "keys": "UP",
+          "world_y": 614.3619689941406
+        },
+        {
+          "frame": 32,
+          "keys": "UP",
+          "world_y": 612.3616943359375
+        },
+        {
+          "frame": 33,
+          "keys": "UP",
+          "world_y": 610.4614105224609
+        },
+        {
+          "frame": 34,
+          "keys": "UP",
+          "world_y": 608.6611175537109
+        },
+        {
+          "frame": 35,
+          "keys": "UP",
+          "world_y": 606.9608154296875
+        },
+        {
+          "frame": 36,
+          "keys": "UP",
+          "world_y": 605.3605041503906
+        },
+        {
+          "frame": 37,
+          "keys": "UP",
+          "world_y": 603.8601837158203
+        },
+        {
+          "frame": 38,
+          "keys": "UP",
+          "world_y": 602.4598541259766
+        },
+        {
+          "frame": 39,
+          "keys": "UP",
+          "world_y": 601.1595153808594
+        },
+        {
+          "frame": 40,
+          "keys": "UP",
+          "world_y": 599.9591674804688
+        },
+        {
+          "frame": 41,
+          "keys": "UP",
+          "world_y": 598.8588104248047
+        },
+        {
+          "frame": 42,
+          "keys": "UP",
+          "world_y": 597.8584442138672
+        },
+        {
+          "frame": 43,
+          "keys": "UP",
+          "world_y": 596.9580688476562
+        },
+        {
+          "frame": 44,
+          "keys": "UP",
+          "world_y": 596.1576843261719
+        },
+        {
+          "frame": 45,
+          "keys": "UP",
+          "world_y": 595.4572906494141
+        },
+        {
+          "frame": 46,
+          "keys": "UP",
+          "world_y": 594.8568878173828
+        },
+        {
+          "frame": 47,
+          "keys": "UP",
+          "world_y": 594.3564758300781
+        },
+        {
+          "frame": 48,
+          "keys": "UP",
+          "world_y": 593.9560546875
+        },
+        {
+          "frame": 49,
+          "keys": "UP",
+          "world_y": 593.6556243896484
+        },
+        {
+          "frame": 50,
+          "keys": "UP",
+          "world_y": 593.4551849365234
+        },
+        {
+          "frame": 51,
+          "keys": "UP",
+          "world_y": 593.354736328125
+        },
+        {
+          "frame": 52,
+          "keys": "UP",
+          "world_y": 593.3542785644531
+        },
+        {
+          "frame": 53,
+          "keys": "UP",
+          "world_y": 593.4538116455078
+        },
+        {
+          "frame": 54,
+          "keys": "UP",
+          "world_y": 593.6533355712891
+        },
+        {
+          "frame": 55,
+          "keys": "UP",
+          "world_y": 593.9528503417969
+        },
+        {
+          "frame": 56,
+          "keys": "UP",
+          "world_y": 594.3523559570312
+        },
+        {
+          "frame": 57,
+          "keys": "UP",
+          "world_y": 594.8518524169922
+        },
+        {
+          "frame": 58,
+          "keys": "UP",
+          "world_y": 595.4513397216797
+        },
+        {
+          "frame": 59,
+          "keys": "UP",
+          "world_y": 596.1508178710938
+        },
+        {
+          "frame": 60,
+          "keys": "UP",
+          "world_y": 596.9502868652344
+        },
+        {
+          "frame": 61,
+          "keys": "UP",
+          "world_y": 597.8497467041016
+        },
+        {
+          "frame": 62,
+          "keys": "UP",
+          "world_y": 598.8491973876953
+        },
+        {
+          "frame": 63,
+          "keys": "UP",
+          "world_y": 599.9486389160156
+        },
+        {
+          "frame": 64,
+          "keys": "UP",
+          "world_y": 601.1480712890625
+        },
+        {
+          "frame": 65,
+          "keys": "UP",
+          "world_y": 602.4474945068359
+        },
+        {
+          "frame": 66,
+          "keys": "UP",
+          "world_y": 603.8469085693359
+        },
+        {
+          "frame": 67,
+          "keys": "UP",
+          "world_y": 605.3463134765625
+        },
+        {
+          "frame": 68,
+          "keys": "UP",
+          "world_y": 606.9457092285156
+        },
+        {
+          "frame": 69,
+          "keys": "UP",
+          "world_y": 608.6450958251953
+        },
+        {
+          "frame": 70,
+          "keys": "UP",
+          "world_y": 610.3950958251953
+        },
+        {
+          "frame": 71,
+          "keys": "UP",
+          "world_y": 612.1450958251953
+        },
+        {
+          "frame": 72,
+          "keys": "UP",
+          "world_y": 613.8950958251953
+        },
+        {
+          "frame": 73,
+          "keys": "UP",
+          "world_y": 615.6450958251953
+        },
+        {
+          "frame": 74,
+          "keys": "UP",
+          "world_y": 617.3950958251953
+        },
+        {
+          "frame": 75,
+          "keys": "UP",
+          "world_y": 619.1450958251953
+        },
+        {
+          "frame": 76,
+          "keys": "UP",
+          "world_y": 620.8950958251953
+        },
+        {
+          "frame": 77,
+          "keys": "UP",
+          "world_y": 622.6450958251953
+        },
+        {
+          "frame": 78,
+          "keys": "UP",
+          "world_y": 624.3950958251953
+        },
+        {
+          "frame": 79,
+          "keys": "UP",
+          "world_y": 626.1450958251953
+        },
+        {
+          "frame": 80,
+          "keys": "UP",
+          "world_y": 627.8950958251953
+        },
+        {
+          "frame": 81,
+          "keys": "UP",
+          "world_y": 629.6450958251953
+        },
+        {
+          "frame": 82,
+          "keys": "UP",
+          "world_y": 631.3950958251953
+        },
+        {
+          "frame": 83,
+          "keys": "UP",
+          "world_y": 633.1450958251953
+        },
+        {
+          "frame": 84,
+          "keys": "UP",
+          "world_y": 634.8950958251953
+        },
+        {
+          "frame": 85,
+          "keys": "UP",
+          "world_y": 636.6450958251953
+        },
+        {
+          "frame": 86,
+          "keys": "UP",
+          "world_y": 638.3950958251953
+        }
+      ],
+      "writes": [],
+      "steps": [
+        [
+          120,
+          "UP"
+        ]
+      ],
+      "initial_state_sha256": "934fad1efe9f14e07e2a32a1c75bdec035167b8b462915694fa430b654a7a675",
+      "trace_sha256": "6d06fc5503585a88914208ae1de317e1c730c34d5c4bfcabbae0f66087b2719b",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    },
+    {
+      "name": "boots-fast",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-21-47_811844/boots-fall-fast",
+      "last_frame": 31,
+      "jump_frame": 2,
+      "float_through_frame": 9,
+      "boosted": true,
+      "fast": true,
+      "terminal_px_per_frame": 6,
+      "samples": [
+        {
+          "frame": 1,
+          "keys": "UP",
+          "world_y": 720.8659515380859
+        },
+        {
+          "frame": 2,
+          "keys": "UP",
+          "world_y": 715.8659515380859
+        },
+        {
+          "frame": 3,
+          "keys": "UP",
+          "world_y": 710.9659423828125
+        },
+        {
+          "frame": 4,
+          "keys": "UP",
+          "world_y": 706.1659240722656
+        },
+        {
+          "frame": 5,
+          "keys": "UP",
+          "world_y": 701.4658966064453
+        },
+        {
+          "frame": 6,
+          "keys": "UP",
+          "world_y": 696.8658599853516
+        },
+        {
+          "frame": 7,
+          "keys": "UP",
+          "world_y": 692.3658142089844
+        },
+        {
+          "frame": 8,
+          "keys": "UP",
+          "world_y": 687.9657592773438
+        },
+        {
+          "frame": 9,
+          "keys": "DOWN",
+          "world_y": 683.6656951904297
+        },
+        {
+          "frame": 10,
+          "keys": "DOWN",
+          "world_y": 679.8656311035156
+        },
+        {
+          "frame": 11,
+          "keys": "DOWN",
+          "world_y": 676.5655670166016
+        },
+        {
+          "frame": 12,
+          "keys": "DOWN",
+          "world_y": 673.7655029296875
+        },
+        {
+          "frame": 13,
+          "keys": "DOWN",
+          "world_y": 671.4654388427734
+        },
+        {
+          "frame": 14,
+          "keys": "DOWN",
+          "world_y": 669.6653747558594
+        },
+        {
+          "frame": 15,
+          "keys": "DOWN",
+          "world_y": 668.3653106689453
+        },
+        {
+          "frame": 16,
+          "keys": "DOWN",
+          "world_y": 667.5652465820312
+        },
+        {
+          "frame": 17,
+          "keys": "DOWN",
+          "world_y": 667.2651824951172
+        },
+        {
+          "frame": 18,
+          "keys": "DOWN",
+          "world_y": 667.4651184082031
+        },
+        {
+          "frame": 19,
+          "keys": "DOWN",
+          "world_y": 668.1650543212891
+        },
+        {
+          "frame": 20,
+          "keys": "DOWN",
+          "world_y": 669.364990234375
+        },
+        {
+          "frame": 21,
+          "keys": "DOWN",
+          "world_y": 671.0649261474609
+        },
+        {
+          "frame": 22,
+          "keys": "DOWN",
+          "world_y": 673.2648620605469
+        },
+        {
+          "frame": 23,
+          "keys": "DOWN",
+          "world_y": 675.9647979736328
+        },
+        {
+          "frame": 24,
+          "keys": "DOWN",
+          "world_y": 679.1647338867188
+        },
+        {
+          "frame": 25,
+          "keys": "DOWN",
+          "world_y": 682.8646697998047
+        },
+        {
+          "frame": 26,
+          "keys": "DOWN",
+          "world_y": 687.0646057128906
+        },
+        {
+          "frame": 27,
+          "keys": "DOWN",
+          "world_y": 691.7645416259766
+        },
+        {
+          "frame": 28,
+          "keys": "DOWN",
+          "world_y": 696.9644775390625
+        },
+        {
+          "frame": 29,
+          "keys": "DOWN",
+          "world_y": 702.6644134521484
+        },
+        {
+          "frame": 30,
+          "keys": "DOWN",
+          "world_y": 708.6644134521484
+        },
+        {
+          "frame": 31,
+          "keys": "DOWN",
+          "world_y": 714.6644134521484
+        }
+      ],
+      "writes": [],
+      "steps": [
+        [
+          8,
+          "UP"
+        ],
+        [
+          70,
+          "DOWN"
+        ]
+      ],
+      "initial_state_sha256": "934fad1efe9f14e07e2a32a1c75bdec035167b8b462915694fa430b654a7a675",
+      "trace_sha256": "11f8d0e82658b69cc2aad8f418e089644b1b26285ae52fae28c453a8a3df5d5e",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    },
+    {
+      "name": "fast-high",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_11-22-40_480122/fall-fast-high",
+      "last_frame": 24,
+      "initial_velocity_pixels": 3.5,
+      "jump_frame": null,
+      "float_through_frame": 0,
+      "boosted": false,
+      "fast": true,
+      "fast_from_frame": 2,
+      "terminal_px_per_frame": 5.5,
+      "samples": [
+        {
+          "frame": 1,
+          "keys": "DOWN",
+          "world_y": 221.5440673828125
+        },
+        {
+          "frame": 2,
+          "keys": "DOWN",
+          "world_y": 225.39405822753906
+        },
+        {
+          "frame": 3,
+          "keys": "DOWN",
+          "world_y": 229.5940399169922
+        },
+        {
+          "frame": 4,
+          "keys": "DOWN",
+          "world_y": 234.14401245117188
+        },
+        {
+          "frame": 5,
+          "keys": "DOWN",
+          "world_y": 239.04397583007812
+        },
+        {
+          "frame": 6,
+          "keys": "DOWN",
+          "world_y": 244.29393005371094
+        },
+        {
+          "frame": 7,
+          "keys": "DOWN",
+          "world_y": 249.79393005371094
+        },
+        {
+          "frame": 8,
+          "keys": "DOWN",
+          "world_y": 255.29393005371094
+        },
+        {
+          "frame": 9,
+          "keys": "DOWN",
+          "world_y": 260.79393005371094
+        },
+        {
+          "frame": 10,
+          "keys": "DOWN",
+          "world_y": 266.29393005371094
+        },
+        {
+          "frame": 11,
+          "keys": "DOWN",
+          "world_y": 271.79393005371094
+        },
+        {
+          "frame": 12,
+          "keys": "DOWN",
+          "world_y": 277.29393005371094
+        },
+        {
+          "frame": 13,
+          "keys": "DOWN",
+          "world_y": 282.79393005371094
+        },
+        {
+          "frame": 14,
+          "keys": "DOWN",
+          "world_y": 288.29393005371094
+        },
+        {
+          "frame": 15,
+          "keys": "DOWN",
+          "world_y": 293.79393005371094
+        },
+        {
+          "frame": 16,
+          "keys": "DOWN",
+          "world_y": 299.29393005371094
+        },
+        {
+          "frame": 17,
+          "keys": "DOWN",
+          "world_y": 304.79393005371094
+        },
+        {
+          "frame": 18,
+          "keys": "DOWN",
+          "world_y": 310.29393005371094
+        },
+        {
+          "frame": 19,
+          "keys": "DOWN",
+          "world_y": 315.79393005371094
+        },
+        {
+          "frame": 20,
+          "keys": "DOWN",
+          "world_y": 321.29393005371094
+        },
+        {
+          "frame": 21,
+          "keys": "DOWN",
+          "world_y": 326.79393005371094
+        },
+        {
+          "frame": 22,
+          "keys": "DOWN",
+          "world_y": 332.29393005371094
+        },
+        {
+          "frame": 23,
+          "keys": "DOWN",
+          "world_y": 337.79393005371094
+        },
+        {
+          "frame": 24,
+          "keys": "DOWN",
+          "world_y": 343.29393005371094
+        }
+      ],
+      "writes": [],
+      "steps": [
+        [
+          24,
+          "DOWN"
+        ]
+      ],
+      "initial_state_sha256": "8ee3f23c5ee8ba087a56a633996a4aab9be018297ad240c2f8efc11aa82c6355",
+      "trace_sha256": "eae0c2f300a21c2698fa29e29f21e74b488dc138fa55b6b498026db6a4dc0043",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68"
+    }
+  ]
+}

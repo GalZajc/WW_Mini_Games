@@ -1,0 +1,64 @@
+{
+  "parameters": {
+    "size": 16,
+    "stages": [
+      "factory",
+      "dragon",
+      "castle",
+      "pirate",
+      "space",
+      "jungle",
+      "park",
+      "beanstalk"
+    ],
+    "player": "scripts/OUTPUT/eggo-reference_2026-10-03_01-01-06_741942/bot-tower.frame00840.sprites/002.png",
+    "rivals": [
+      "scripts/OUTPUT/eggo-reference_2026-10-03_01-01-06_741942/bot-tower.frame00840.sprites/003.png",
+      "tests/artifacts/eggo-reference/dragon-assets.sprites/003.png",
+      "tests/artifacts/eggo-reference/castle-assets.sprites/003.png",
+      "tests/artifacts/eggo-reference/pirate-assets.sprites/003.png",
+      "tests/artifacts/eggo-reference/round5.sprites/003.png",
+      "tests/artifacts/eggo-reference/round6.sprites/003.png",
+      "tests/artifacts/eggo-reference/round7.sprites/003.png",
+      "tests/artifacts/eggo-reference/round8.sprites/003.png"
+    ]
+  },
+  "sources": [
+    {
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_01-01-06_741942/bot-tower.frame00840.sprites/002.png",
+      "sha256": "e7f10e7182261f05b5185e410d99d649d820d2ed0dc976efbbc7fb2fb4d884e0"
+    },
+    {
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_01-01-06_741942/bot-tower.frame00840.sprites/003.png",
+      "sha256": "177763a049a4e2c925ef64440b8afdce00f74d05b3a6203e63f9b742304683d8"
+    },
+    {
+      "source": "tests/artifacts/eggo-reference/dragon-assets.sprites/003.png",
+      "sha256": "177763a049a4e2c925ef64440b8afdce00f74d05b3a6203e63f9b742304683d8"
+    },
+    {
+      "source": "tests/artifacts/eggo-reference/castle-assets.sprites/003.png",
+      "sha256": "177763a049a4e2c925ef64440b8afdce00f74d05b3a6203e63f9b742304683d8"
+    },
+    {
+      "source": "tests/artifacts/eggo-reference/pirate-assets.sprites/003.png",
+      "sha256": "177763a049a4e2c925ef64440b8afdce00f74d05b3a6203e63f9b742304683d8"
+    },
+    {
+      "source": "tests/artifacts/eggo-reference/round5.sprites/003.png",
+      "sha256": "177763a049a4e2c925ef64440b8afdce00f74d05b3a6203e63f9b742304683d8"
+    },
+    {
+      "source": "tests/artifacts/eggo-reference/round6.sprites/003.png",
+      "sha256": "177763a049a4e2c925ef64440b8afdce00f74d05b3a6203e63f9b742304683d8"
+    },
+    {
+      "source": "tests/artifacts/eggo-reference/round7.sprites/003.png",
+      "sha256": "177763a049a4e2c925ef64440b8afdce00f74d05b3a6203e63f9b742304683d8"
+    },
+    {
+      "source": "tests/artifacts/eggo-reference/round8.sprites/003.png",
+      "sha256": "177763a049a4e2c925ef64440b8afdce00f74d05b3a6203e63f9b742304683d8"
+    }
+  ]
+}

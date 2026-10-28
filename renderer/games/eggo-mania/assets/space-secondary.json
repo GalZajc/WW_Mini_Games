@@ -1,0 +1,44 @@
+[
+  {
+    "phase": 0,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_23-50-29_101264\\space-secondary-cycle.frame00175",
+    "object": {
+      "id": 26,
+      "x": 467,
+      "y": 204,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "88163bd283a4c86caadd48e23b5d8d9324c5e0be518967af6eca62b360b6bdc2"
+  },
+  {
+    "phase": 1,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_23-50-29_101264\\space-secondary-cycle.frame00180",
+    "object": {
+      "id": 26,
+      "x": 473,
+      "y": 204,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "66f695fec134311c02a9f9d0dd4d531fae5d7c33a4e98f04aa614f55cc422d4e"
+  },
+  {
+    "phase": 2,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_23-50-29_101264\\space-secondary-cycle.frame00185",
+    "object": {
+      "id": 26,
+      "x": 480,
+      "y": 204,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "660f411d5d945ab4cd51ac3fc1221f63ee4f30ae09219e6af09a391ecc9bac2e"
+  }
+]

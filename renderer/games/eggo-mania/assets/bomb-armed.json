@@ -1,0 +1,117 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_12-44-24_578471/bomb-afterthrow.frame00030",
+    "object": 30,
+    "size": 16,
+    "kind": "armed bomb",
+    "note": "Native art after a controlled pickup-position probe; not proof of natural AI decisions."
+  },
+  "object": {
+    "id": 30,
+    "x": 224,
+    "y": 60,
+    "w": 16,
+    "h": 16,
+    "tile": 678,
+    "palette": 2
+  },
+  "source_parameters": {
+    "item_trace_parameters": {
+      "item_palette": 2,
+      "actor_palettes": [
+        0,
+        1
+      ],
+      "held_offset": [
+        24,
+        15
+      ],
+      "held_tolerance": 3,
+      "size": 16,
+      "actor_anchor": [
+        32,
+        56
+      ],
+      "actor_world_addresses": [
+        15316,
+        20304
+      ],
+      "icon_indices": {
+        "bomb": 27,
+        "boots": 19,
+        "cloud": 14,
+        "filler": 9,
+        "hammer": 29
+      }
+    },
+    "rival_pose_parameters": null,
+    "load": "scripts/OUTPUT/eggo-reference_2026-10-03_12-34-13_873422/bomb-lifetime.complete00130.state",
+    "steps": [
+      [
+        240,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [
+      [
+        19420,
+        6291456
+      ],
+      [
+        19424,
+        43515904
+      ]
+    ],
+    "sample_every": 10,
+    "sample_graphics": true,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "board_events": true,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "f8638cec96a0df22b1a2da1d4b3686a8a3ac8ccbe31de5bb8e53f85ce67c52a6",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 240
+  },
+  "image_sha256": "5340bb52c30947949b395fcbb58c1bd0bfce4ba00bbb494abd81597312ee8fdc",
+  "source_graphics_sha256": {
+    ".memory3": "8a7da12e999d2a92e39086b2b6531ee82cdce8ffd5f74dc4fbd005e5cf5ebb81",
+    ".0x5000000": "033720fbd3fb9d19ad972258aae790819bdc458fa5ad66f0f126cc93f24afcf2",
+    ".0x7000000": "02d7a71983112de9cb70acb5f3f58fd2e88792907055f5891e566210bcd414b9",
+    ".0x4000000": "5714015787f1be678378845bf085b2ce0d721249bc18d0c71de3426374a7cc07"
+  }
+}

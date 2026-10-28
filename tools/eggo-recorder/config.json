@@ -1,0 +1,19 @@
+{
+  "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+  "core": "runtime/mgba_libretro.dll",
+  "initial_state": "runtime/survival-hard.state",
+  "window_scale": 4,
+  "compression_level": 1,
+  "keyframe_interval": 300,
+  "checkpoint_interval": 300,
+  "writer_queue_frames": 90,
+  "capture_memory": true,
+  "core_options": {
+    "mgba_frameskip": "disabled",
+    "mgba_color_correction": "OFF",
+    "mgba_interframe_blending": "OFF"
+  },
+  "keyboard": {"Up":"UP","Down":"DOWN","Left":"LEFT","Right":"RIGHT","space":"A","z":"A","x":"B","q":"L","r":"R","Return":"START"},
+  "stick_deadzone": 0.22,
+  "controller": {"rescan_seconds": 2, "windows_buttons": {"A": 1, "B": 0, "L": 4, "R": 5, "START": 7}}
+}

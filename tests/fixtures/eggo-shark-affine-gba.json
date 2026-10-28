@@ -1,0 +1,192 @@
+{
+  "parameters": {
+    "capture": "scripts/OUTPUT/eggo-reference_2026-10-18_19-42-34_987880/shark-affine-both",
+    "frames": [
+      26,
+      40,
+      60,
+      80,
+      100,
+      120
+    ],
+    "enemy_roots": [
+      200760,
+      200888
+    ],
+    "seed": "Original captured native state",
+    "angles": "Previous actor update, used for OAM submission",
+    "stage": "castle"
+  },
+  "cases": [
+    {
+      "stage": "castle",
+      "frame": 40,
+      "side": 0,
+      "angle": 73819746,
+      "variant": 1,
+      "animation": 1,
+      "visible_native_png_pixels": 495,
+      "matrix": [
+        -40,
+        252,
+        252,
+        39
+      ],
+      "object": 26,
+      "oam_sha256": "506c6fd4c1c98676cf9c716a7b3ba37cf7de8ad9a912c59517013886d0a55b07"
+    },
+    {
+      "stage": "castle",
+      "frame": 40,
+      "side": 1,
+      "angle": 60397974,
+      "variant": 0,
+      "animation": 1,
+      "visible_native_png_pixels": 1,
+      "matrix": [
+        40,
+        252,
+        -253,
+        40
+      ],
+      "object": 27,
+      "oam_sha256": "506c6fd4c1c98676cf9c716a7b3ba37cf7de8ad9a912c59517013886d0a55b07"
+    },
+    {
+      "stage": "castle",
+      "frame": 60,
+      "side": 0,
+      "angle": 88732826,
+      "variant": 1,
+      "animation": 0,
+      "visible_native_png_pixels": 793,
+      "matrix": [
+        -124,
+        224,
+        224,
+        123
+      ],
+      "object": 26,
+      "oam_sha256": "82962b16c81f77e124102c2981575cfc963595c7183a334f5fe7e4580a67d099"
+    },
+    {
+      "stage": "castle",
+      "frame": 60,
+      "side": 1,
+      "angle": 45484894,
+      "variant": 0,
+      "animation": 0,
+      "visible_native_png_pixels": 772,
+      "matrix": [
+        124,
+        223,
+        -224,
+        124
+      ],
+      "object": 27,
+      "oam_sha256": "82962b16c81f77e124102c2981575cfc963595c7183a334f5fe7e4580a67d099"
+    },
+    {
+      "stage": "castle",
+      "frame": 80,
+      "side": 0,
+      "angle": 119304640,
+      "variant": 1,
+      "animation": 4,
+      "visible_native_png_pixels": 1005,
+      "matrix": [
+        -241,
+        87,
+        87,
+        240
+      ],
+      "object": 26,
+      "oam_sha256": "76eefb17f60e09e6768b270f81ea40100c4cd888430df5ed8284956d2a307b6d"
+    },
+    {
+      "stage": "castle",
+      "frame": 80,
+      "side": 1,
+      "angle": 13421772,
+      "variant": 0,
+      "animation": 4,
+      "visible_native_png_pixels": 1007,
+      "matrix": [
+        243,
+        78,
+        -79,
+        243
+      ],
+      "object": 27,
+      "oam_sha256": "76eefb17f60e09e6768b270f81ea40100c4cd888430df5ed8284956d2a307b6d"
+    },
+    {
+      "stage": "castle",
+      "frame": 100,
+      "side": 0,
+      "angle": 161806918,
+      "variant": 1,
+      "animation": 3,
+      "visible_native_png_pixels": 993,
+      "matrix": [
+        -205,
+        -154,
+        -154,
+        204
+      ],
+      "object": 26,
+      "oam_sha256": "163db6838c7fde223b7706db8a43cd7694d6b17b2930dc223312244b21ae1804"
+    },
+    {
+      "stage": "castle",
+      "frame": 100,
+      "side": 1,
+      "angle": 240846242,
+      "variant": 0,
+      "animation": 3,
+      "visible_native_png_pixels": 583,
+      "matrix": [
+        203,
+        -156,
+        155,
+        203
+      ],
+      "object": 27,
+      "oam_sha256": "163db6838c7fde223b7706db8a43cd7694d6b17b2930dc223312244b21ae1804"
+    },
+    {
+      "stage": "castle",
+      "frame": 120,
+      "side": 0,
+      "angle": 185667846,
+      "variant": 1,
+      "animation": 2,
+      "visible_native_png_pixels": 850,
+      "matrix": [
+        -93,
+        -239,
+        -239,
+        92
+      ],
+      "object": 26,
+      "oam_sha256": "663df6d762e0b2703c1f1490a984d46fa16ccb76997f92ab25cb35a35a958c14"
+    },
+    {
+      "stage": "castle",
+      "frame": 120,
+      "side": 1,
+      "angle": 216985314,
+      "variant": 0,
+      "animation": 2,
+      "visible_native_png_pixels": 0,
+      "matrix": [
+        90,
+        -240,
+        239,
+        90
+      ],
+      "object": 27,
+      "oam_sha256": "663df6d762e0b2703c1f1490a984d46fa16ccb76997f92ab25cb35a35a958c14"
+    }
+  ]
+}

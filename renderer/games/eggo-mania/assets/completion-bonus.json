@@ -1,0 +1,120 @@
+{
+  "routine": "0x08004e20",
+  "stage_dispatch_table": "0x08004e54",
+  "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "random_seed": null,
+  "assets": [
+    {
+      "stage": "beanstalk",
+      "map_pointer": "0x81f4c58",
+      "descriptors": [
+        "0x2026",
+        "0x2027",
+        "0x202d",
+        "0x202e"
+      ],
+      "source_capture": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-18_098381\\beanstalk-landed.frame00020",
+      "vram_sha256": "c9fbb2bc19036225f382467c1f7dcdad7beed7fe1571e5df66f39ab55b537207",
+      "palette_sha256": "060af2f9b3b7bd9d86e332719a59cb5df244e8d926c94153f12ede250639ee6a",
+      "asset_sha256": "3d0bc78b4fb46da99f09e90d8d78e18b6d71f5ad25cc5b278d40534b0e15c39b"
+    },
+    {
+      "stage": "factory",
+      "map_pointer": "0x81f8000",
+      "descriptors": [
+        "0x2d",
+        "0x2e",
+        "0x34",
+        "0x35"
+      ],
+      "source_capture": "scripts\\OUTPUT\\eggo-reference_2026-10-05_18-51-49_188487\\eggo-factory-map-row.frame00001",
+      "vram_sha256": "ff491a0ab1058b06cbc570a7d8309f376d4ea24584e842feeb0fbe2cec254920",
+      "palette_sha256": "b62c01de1a5ea166d2d205cc1087638c32e44ecd235b80de2b8728b40b2408a9",
+      "asset_sha256": "bdef5f701f68e659f6b312e965faaa6a3bc2d358e7ce17936a237cb69bce0701"
+    },
+    {
+      "stage": "dragon",
+      "map_pointer": "0x81fbda8",
+      "descriptors": [
+        "0x3b",
+        "0x3c",
+        "0x42",
+        "0x43"
+      ],
+      "source_capture": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-12_576376\\dragon-landed.frame00020",
+      "vram_sha256": "b81df7d13f4697f05abbce86f4674fb4f7c713cafb47bc7503bee8e7c450a012",
+      "palette_sha256": "b1efd6dae6e1c57abbe6b9708d3a943f4d244b6a98d0cf6be62b87f535f6aa77",
+      "asset_sha256": "bdef5f701f68e659f6b312e965faaa6a3bc2d358e7ce17936a237cb69bce0701"
+    },
+    {
+      "stage": "castle",
+      "map_pointer": "0x81ffa50",
+      "descriptors": [
+        "0x102f",
+        "0x1030",
+        "0x1036",
+        "0x1037"
+      ],
+      "source_capture": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-12_514995\\castle-landed.frame00020",
+      "vram_sha256": "8c9c28d2100f07691a04a2c1c1d2979247a5765338d8d945401dbf305a096066",
+      "palette_sha256": "e2ac0ab7a399082622a25314cc07f98df0cb641b581c2717237e9cd2434e5fa7",
+      "asset_sha256": "29eccd890f5198caef35c5181d8130ed5cfeff67f754b477ec0232127b59b067"
+    },
+    {
+      "stage": "pirate",
+      "map_pointer": "0x8202c58",
+      "descriptors": [
+        "0x302d",
+        "0x302e",
+        "0x3032",
+        "0x3033"
+      ],
+      "source_capture": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-12_580151\\pirate-landed.frame00020",
+      "vram_sha256": "b75230d5a60d4e05247859b7eaa8eaa135e2e60b64b9c91437d000ed8d62e376",
+      "palette_sha256": "6f2fdadc1be213ed8037630926c764998187c76d7b222c354c720f426d773ea7",
+      "asset_sha256": "7b33733e822c56ecf6c903e225349b022b6e44aa3689649e3cf208996479768f"
+    },
+    {
+      "stage": "space",
+      "map_pointer": "0x82071bc",
+      "descriptors": [
+        "0x2a",
+        "0x2b",
+        "0x31",
+        "0x32"
+      ],
+      "source_capture": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-15_404434\\space-landed.frame00020",
+      "vram_sha256": "6155cceb1c4daccd52c1cf3ba8148d6a21b00ab2c325f20ee478a95bbe5a2c71",
+      "palette_sha256": "bc302615d8cbed2526facce41d8901d67102f70ebd53e986e2cf1d52360e2034",
+      "asset_sha256": "bdef5f701f68e659f6b312e965faaa6a3bc2d358e7ce17936a237cb69bce0701"
+    },
+    {
+      "stage": "jungle",
+      "map_pointer": "0x820abbc",
+      "descriptors": [
+        "0x2015",
+        "0x2016",
+        "0x201b",
+        "0x201c"
+      ],
+      "source_capture": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-15_417436\\jungle-landed.frame00020",
+      "vram_sha256": "58e5ecc3de8aedc90ed02e2fe947d9643b0d783425aaa10e59a2096a056508a9",
+      "palette_sha256": "e56c006d89383ef1b3f473972774b8c0f8d0e43497d20e2eee8ac0e799368b85",
+      "asset_sha256": "24566a7cd24341db784ac09ec670fbc6660ab45d93ad4dd0b5894d4e7bc6d3d0"
+    },
+    {
+      "stage": "park",
+      "map_pointer": "0x820d664",
+      "descriptors": [
+        "0x102f",
+        "0x1030",
+        "0x1036",
+        "0x1037"
+      ],
+      "source_capture": "scripts\\OUTPUT\\eggo-reference_2026-10-03_11-11-15_425429\\park-landed.frame00020",
+      "vram_sha256": "812272320419d0e00b71ba5b91fed4087bef445e8e5a0964d1f81bf5fb8413b1",
+      "palette_sha256": "267f5495afdde7c6bcf1235c5e9369af7a443c47b2c8080e2478151f0735df1f",
+      "asset_sha256": "29eccd890f5198caef35c5181d8130ed5cfeff67f754b477ec0232127b59b067"
+    }
+  ]
+}

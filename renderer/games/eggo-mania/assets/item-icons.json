@@ -1,0 +1,307 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_01-01-06_741942/bot-tower",
+    "size": 16,
+    "palette": 2,
+    "exclude_objects": [
+      2,
+      3
+    ],
+    "columns": 8,
+    "derived": [
+      {
+        "source_index": 18,
+        "flip": "horizontal",
+        "source_sha256": "60c15c87087864499981cb13889addb93d86550db0878f33776d69b52e3472ac",
+        "purpose": "Unobserved fourth L3 orientation"
+      }
+    ],
+    "help_icons": [
+      {
+        "kind": "hammer",
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-03_03-00-50_443266/hammer-help.png",
+        "rectangle": [
+          84,
+          30,
+          100,
+          46
+        ],
+        "note": "Native help-page picture; live gameplay palette still needs observation."
+      }
+    ]
+  },
+  "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+  "icons": [
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00120",
+      "object": 29,
+      "tile": 682,
+      "image_sha256": "3882d8163cf19564a3c5c3582dcf745deff576fb39178d992834bbca618e20e9",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "f9e38be0381d958b368e141def27c5b27dc6b0c8744d4a9f55b9b8a1356a4e94"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00120",
+      "object": 30,
+      "tile": 678,
+      "image_sha256": "17883a15ea09f241c4c57c840675b8e4ea13f7f304be608526c88aaacfd7c03c",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "f9e38be0381d958b368e141def27c5b27dc6b0c8744d4a9f55b9b8a1356a4e94"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00120",
+      "object": 31,
+      "tile": 674,
+      "image_sha256": "a7d1e7fb9c33fdf4db3c8780d5b80dce326039e47f402ff1cd76d1e320bd85b4",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "f9e38be0381d958b368e141def27c5b27dc6b0c8744d4a9f55b9b8a1356a4e94"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00120",
+      "object": 32,
+      "tile": 670,
+      "image_sha256": "9de242b38d76ab4dfe2cf43496bf485620cae2f9b0d8576f28c31ccbb4fc6799",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "f9e38be0381d958b368e141def27c5b27dc6b0c8744d4a9f55b9b8a1356a4e94"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00240",
+      "object": 30,
+      "tile": 666,
+      "image_sha256": "69287309dc9cb79812c3903afae46a1aa2f2e6a463d3926435bcfdf3bd7dbbea",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "776b7c196cf137263dc1723a5b2d677fd10776ec5bd86b2033031bbd08ca36e7"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00240",
+      "object": 31,
+      "tile": 662,
+      "image_sha256": "468869bd90a45b2ea959dbbdb4e4ad4cddfd6e1361a0094561ad2bb4fe7b0c14",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "776b7c196cf137263dc1723a5b2d677fd10776ec5bd86b2033031bbd08ca36e7"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00360",
+      "object": 34,
+      "tile": 602,
+      "image_sha256": "b008a892b61991f0833f34a89fa625495c713b084b0339f130601f5435533a23",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "97cd7fb859ba50f0e26d4fe2bd5f8c3a119eabb01d33b7e9213a65a915015d07"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00360",
+      "object": 35,
+      "tile": 598,
+      "image_sha256": "4eae0b2c85589a33df5984d44a3f7748a4d5e0b3ed41805939a42ad27d40b694",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "97cd7fb859ba50f0e26d4fe2bd5f8c3a119eabb01d33b7e9213a65a915015d07"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00480",
+      "object": 27,
+      "tile": 746,
+      "image_sha256": "965ff7afd41405c3ec3d9fd097728ce3527cfb8bfeceb174a82e06a53e6d41bd",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "99ae7265a4866de88996aa131be16b07d700664cb1b75684f674e90e0f143932"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00480",
+      "object": 28,
+      "tile": 742,
+      "image_sha256": "eb05d44b6c45930a076fbffa1fa7841f4bd434770e24fd70af084c2c66ce3499",
+      "source_affine": true,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "99ae7265a4866de88996aa131be16b07d700664cb1b75684f674e90e0f143932"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00480",
+      "object": 30,
+      "tile": 734,
+      "image_sha256": "b33de6ac8a39339e89941b31cb65f2aa9fcabd6ba51915c60cbe552dc1910971",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "99ae7265a4866de88996aa131be16b07d700664cb1b75684f674e90e0f143932"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00480",
+      "object": 31,
+      "tile": 730,
+      "image_sha256": "9fa00bf0d8cd3a58b5a6303875315e38db6a10254519d5ba041398fe24e6ecba",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "99ae7265a4866de88996aa131be16b07d700664cb1b75684f674e90e0f143932"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00720",
+      "object": 26,
+      "tile": 762,
+      "image_sha256": "540a7781ef45a9b083c3a7f0916c138e70fae729763a61c91e0164e4ae7ccf05",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "f24c2cff9c22740391e7378693414cebdba7cd0e8af75793a30ec30558bedbb7"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00720",
+      "object": 27,
+      "tile": 758,
+      "image_sha256": "7ca8effb419d2afb6d4e5599f4f6eb4b8387c3dfbfba793aa79899c976725f74",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "f24c2cff9c22740391e7378693414cebdba7cd0e8af75793a30ec30558bedbb7"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00840",
+      "object": 27,
+      "tile": 758,
+      "image_sha256": "96c2908a9befd6a684d410fcb48c27f0b3c94af9e2101d8753ce73e7362229e0",
+      "source_affine": true,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "2e6bacbc32141b39d14c269da8dadfdeb066f64b1e7013811443fb64b14ed126"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00960",
+      "object": 26,
+      "tile": 698,
+      "image_sha256": "8e5a3c010445af1af0317d3e8ab34490f5983877b52ff8aeb0680f1d832876f0",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "151f2b0fdcf56188025db48b819988e0fafbb5e79bef0fca15247ef0f8213021"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame00960",
+      "object": 27,
+      "tile": 694,
+      "image_sha256": "f5d2fb5528b2ab34229c1abd23d47f4ee260bf06cf03673c0b800213c55d8300",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "151f2b0fdcf56188025db48b819988e0fafbb5e79bef0fca15247ef0f8213021"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame01080",
+      "object": 26,
+      "tile": 698,
+      "image_sha256": "f8f174b8d565e692a861a252229287633b444ccaa3dd4cdd567577bdd10c4eae",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "1fb7b93701dbf0fe6d1b9a02ae12c87a7676d214d6ca34007c25b59952331c4d"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame01080",
+      "object": 31,
+      "tile": 678,
+      "image_sha256": "60c15c87087864499981cb13889addb93d86550db0878f33776d69b52e3472ac",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "1fb7b93701dbf0fe6d1b9a02ae12c87a7676d214d6ca34007c25b59952331c4d"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame01200",
+      "object": 25,
+      "tile": 822,
+      "image_sha256": "4c323fc36de7390cde6e450b29053543fb4bc9c55982c67eea281a39eaed61c6",
+      "source_affine": true,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "e18627fca3e752104780c030c1f020694b7455454a2f13937fdd36a51fe1bfe4"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame01200",
+      "object": 28,
+      "tile": 810,
+      "image_sha256": "964354e72ddc3471c7652a01090c2c5496595747dee70b3ccc3268bb17002891",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "e18627fca3e752104780c030c1f020694b7455454a2f13937fdd36a51fe1bfe4"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame01200",
+      "object": 29,
+      "tile": 806,
+      "image_sha256": "e2c3251336313ea8279724888ade5854d348e6c10662b2ad730e2a00c751c925",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "e18627fca3e752104780c030c1f020694b7455454a2f13937fdd36a51fe1bfe4"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame01320",
+      "object": 29,
+      "tile": 750,
+      "image_sha256": "433d650c2903ed1701078f4ababbdff7fb3ed3efa5ddbf85b64e17002c0fbbd8",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "03bd4b8c69ce8055a47cd2dda40c169e6f789b2bcf15479f94c7eef7112241fe"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame01440",
+      "object": 26,
+      "tile": 762,
+      "image_sha256": "fb88dd1eef152126f60842e4137ba6dfa7d74bae66f9158c993a8f1c2607fe2e",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "b105bb435e67c04a88d5257a971482e3ee8e206a18cbbbc3c3fd8bbb6f455e8e"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame01560",
+      "object": 29,
+      "tile": 750,
+      "image_sha256": "0382e92ce29e080ad7cb27ef04f9f61ea78178370f17189519095392a639d7a9",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "8321fd2de1b1e4e1bd65dc53386797570dcb99fa6d44575a70691f7491b60f39"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame01680",
+      "object": 33,
+      "tile": 654,
+      "image_sha256": "2c2c95cc70145f09afcc4e7bf6df479816718a66ff1292b060a358cd6ab3a4f5",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "287c63935ace16d230a625a4d3722036b89310eb9c0155eb527faa406dd70984"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame01800",
+      "object": 32,
+      "tile": 602,
+      "image_sha256": "4a0c7a7361dfb084d6ce74f0681b4f41ee59dea9557380520f3e1a3403472753",
+      "source_affine": false,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "0c14e799f08e631e18199471b15e4ff02741a4fa40ba4d59756d82bd4012c485"
+    },
+    {
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-01-06_741942\\bot-tower.frame01800",
+      "object": 35,
+      "tile": 590,
+      "image_sha256": "2d85d423fb33d544c2d32ace50347fa3a04671916e978bb4d75e9b2caccf9838",
+      "source_affine": true,
+      "note": "Raw tile picture; affine motion is not baked into the icon.",
+      "graphics_sha256": "0c14e799f08e631e18199471b15e4ff02741a4fa40ba4d59756d82bd4012c485"
+    },
+    {
+      "derived_from_index": 18,
+      "transform": "horizontal",
+      "purpose": "Unobserved fourth L3 orientation",
+      "image_sha256": "e336bdc30ed92258aa10bc60ca006c62829ecffabf6101315a77bff87b4ab8a8"
+    },
+    {
+      "kind": "hammer",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_03-00-50_443266/hammer-help.png",
+      "rectangle": [
+        84,
+        30,
+        100,
+        46
+      ],
+      "note": "Native help-page picture; live gameplay palette still needs observation.",
+      "source_sha256": "1dae3321d3104c35715359264a5c9458414d97188140381661464222aa6bd222",
+      "image_sha256": "c55649ee06d847983ea1eec93513599420daff320c70978f55e2b09e837c4d0a"
+    }
+  ]
+}

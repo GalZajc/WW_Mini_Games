@@ -1,0 +1,143 @@
+{
+  "source": "scripts\\OUTPUT\\eggo-reference_2026-10-19_17-06-26_289951\\rival-poses",
+  "samples": [
+    {
+      "frame": 2,
+      "cel": 0,
+      "mirrored": true,
+      "native_sprite_sha256": "153ae6918d509157474d5b55762da5764a7cf8bf6653cddfcad9db5c76598cfc"
+    },
+    {
+      "frame": 3,
+      "cel": 0,
+      "mirrored": true,
+      "native_sprite_sha256": "153ae6918d509157474d5b55762da5764a7cf8bf6653cddfcad9db5c76598cfc"
+    },
+    {
+      "frame": 4,
+      "cel": 0,
+      "mirrored": true,
+      "native_sprite_sha256": "153ae6918d509157474d5b55762da5764a7cf8bf6653cddfcad9db5c76598cfc"
+    },
+    {
+      "frame": 5,
+      "cel": 0,
+      "mirrored": true,
+      "native_sprite_sha256": "153ae6918d509157474d5b55762da5764a7cf8bf6653cddfcad9db5c76598cfc"
+    },
+    {
+      "frame": 6,
+      "cel": 1,
+      "mirrored": true,
+      "native_sprite_sha256": "32e344d22129283459d409ce2dfcd458cda4f5b427013baf59d7987a970c38eb"
+    },
+    {
+      "frame": 7,
+      "cel": 1,
+      "mirrored": true,
+      "native_sprite_sha256": "32e344d22129283459d409ce2dfcd458cda4f5b427013baf59d7987a970c38eb"
+    },
+    {
+      "frame": 8,
+      "cel": 1,
+      "mirrored": true,
+      "native_sprite_sha256": "32e344d22129283459d409ce2dfcd458cda4f5b427013baf59d7987a970c38eb"
+    },
+    {
+      "frame": 9,
+      "cel": 1,
+      "mirrored": true,
+      "native_sprite_sha256": "32e344d22129283459d409ce2dfcd458cda4f5b427013baf59d7987a970c38eb"
+    },
+    {
+      "frame": 10,
+      "cel": 2,
+      "mirrored": true,
+      "native_sprite_sha256": "13ae70ad4355674f9d9817a6beba0711280ad2f2ee3a69c68a134c3f0b11d672"
+    },
+    {
+      "frame": 11,
+      "cel": 2,
+      "mirrored": true,
+      "native_sprite_sha256": "13ae70ad4355674f9d9817a6beba0711280ad2f2ee3a69c68a134c3f0b11d672"
+    },
+    {
+      "frame": 12,
+      "cel": 2,
+      "mirrored": true,
+      "native_sprite_sha256": "13ae70ad4355674f9d9817a6beba0711280ad2f2ee3a69c68a134c3f0b11d672"
+    },
+    {
+      "frame": 13,
+      "cel": 2,
+      "mirrored": true,
+      "native_sprite_sha256": "13ae70ad4355674f9d9817a6beba0711280ad2f2ee3a69c68a134c3f0b11d672"
+    },
+    {
+      "frame": 14,
+      "cel": 3,
+      "mirrored": true,
+      "native_sprite_sha256": "38e0468dc4df4d70b8a4166fc73e773b6d128130577b725fbcb899437c1ced91"
+    },
+    {
+      "frame": 15,
+      "cel": 3,
+      "mirrored": true,
+      "native_sprite_sha256": "38e0468dc4df4d70b8a4166fc73e773b6d128130577b725fbcb899437c1ced91"
+    },
+    {
+      "frame": 16,
+      "cel": 3,
+      "mirrored": true,
+      "native_sprite_sha256": "38e0468dc4df4d70b8a4166fc73e773b6d128130577b725fbcb899437c1ced91"
+    },
+    {
+      "frame": 17,
+      "cel": 3,
+      "mirrored": true,
+      "native_sprite_sha256": "38e0468dc4df4d70b8a4166fc73e773b6d128130577b725fbcb899437c1ced91"
+    },
+    {
+      "frame": 18,
+      "cel": 0,
+      "mirrored": true,
+      "native_sprite_sha256": "153ae6918d509157474d5b55762da5764a7cf8bf6653cddfcad9db5c76598cfc"
+    },
+    {
+      "frame": 19,
+      "cel": 0,
+      "mirrored": true,
+      "native_sprite_sha256": "153ae6918d509157474d5b55762da5764a7cf8bf6653cddfcad9db5c76598cfc"
+    },
+    {
+      "frame": 20,
+      "cel": 0,
+      "mirrored": true,
+      "native_sprite_sha256": "153ae6918d509157474d5b55762da5764a7cf8bf6653cddfcad9db5c76598cfc"
+    },
+    {
+      "frame": 21,
+      "cel": 0,
+      "mirrored": true,
+      "native_sprite_sha256": "153ae6918d509157474d5b55762da5764a7cf8bf6653cddfcad9db5c76598cfc"
+    },
+    {
+      "frame": 22,
+      "cel": 1,
+      "mirrored": true,
+      "native_sprite_sha256": "32e344d22129283459d409ce2dfcd458cda4f5b427013baf59d7987a970c38eb"
+    },
+    {
+      "frame": 23,
+      "cel": 1,
+      "mirrored": true,
+      "native_sprite_sha256": "32e344d22129283459d409ce2dfcd458cda4f5b427013baf59d7987a970c38eb"
+    },
+    {
+      "frame": 24,
+      "cel": 1,
+      "mirrored": true,
+      "native_sprite_sha256": "32e344d22129283459d409ce2dfcd458cda4f5b427013baf59d7987a970c38eb"
+    }
+  ]
+}

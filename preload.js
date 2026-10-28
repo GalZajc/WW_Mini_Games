@@ -6,6 +6,7 @@ contextBridge.exposeInMainWorld('api', {
     readSettings:    (gameId)              => ipcRenderer.invoke('read-settings', gameId),
     writeSettings:   (gameId, settings)    => ipcRenderer.invoke('write-settings', gameId, settings),
     writeTetrisPhysicsDiagnostic: data     => ipcRenderer.invoke('write-tetris-physics-diagnostic', data),
+    writeEggoPerformanceDiagnostic: data   => ipcRenderer.invoke('write-eggo-performance-diagnostic', data),
     readReRoMoProjectionCache:  (key)        => ipcRenderer.invoke('read-reromo-projection-cache', key),
     writeReRoMoProjectionCache: (key, bytes) => ipcRenderer.invoke('write-reromo-projection-cache', key, bytes),
     readGlobalSettings: ()                 => ipcRenderer.invoke('read-global-settings'),
@@ -16,6 +17,7 @@ contextBridge.exposeInMainWorld('api', {
     writeKeybindings:(bindings)            => ipcRenderer.invoke('write-keybindings', bindings),
 
     // ── Multiplayer networking ──
+    openEggoOnline:   ()                   => ipcRenderer.invoke('open-eggo-online'),
     netHost:          (options)            => ipcRenderer.invoke('net-host', options),
     netJoin:          (code)               => ipcRenderer.invoke('net-join', code),
     netSend:          (message, peerId)    => ipcRenderer.invoke('net-send', message, peerId),

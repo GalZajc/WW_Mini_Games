@@ -1,0 +1,950 @@
+[
+  {
+    "phase": 1,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01575",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 496,
+          "y": 114,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 11,
+          "y": 63,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "0c896ff44dbe4f00868baabd0900098465d3aff275f3918e7571e0b31098640a"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 11,
+          "y": 95,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "a8b6b3f87e1076845c4b1875025920e312d4d017068ea4f581fb419f43ba5cd7"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 7,
+          "y": 100,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 2,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01579",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 500,
+          "y": 106,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 15,
+          "y": 55,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "f9f8081762b8556ccb8713ca384ed28e91e0d9b1c66769c2a558250d816febc3"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 15,
+          "y": 87,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "11b5c79e177434316b039508e7eaf1a50e0f578dcab1fb8d4edb5fe06d3e8d5a"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 11,
+          "y": 74,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 3,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01583",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 504,
+          "y": 100,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 19,
+          "y": 49,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "c531a9efc16ac33c61d57922ca0d4bd78a63cfed2b63a9995db1ffd2963d8de3"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 19,
+          "y": 81,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "61a0b0ac82a93af0980ace31f8b71011a8a55796f549037062048fb6af31cc94"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 15,
+          "y": 53,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 4,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01587",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 508,
+          "y": 96,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 23,
+          "y": 45,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "8283311a8646c8ce03032b41bfbd3a95f70b5df9dd640674ddd7694b60757049"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 23,
+          "y": 77,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "6e7e072ad0a7727e13377bec04379124276990359d876c6f88ecc7aecaf00564"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 19,
+          "y": 38,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 5,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01591",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 0,
+          "y": 93,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 27,
+          "y": 42,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "1058c709db828fb5912d32d404e2051558847e7f1016aff234fabd6aabc42a9f"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 27,
+          "y": 74,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "654a4d37ec3a3562aaae4d9d4ed0873039c5d708ec9be0747810678af0b82696"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 23,
+          "y": 29,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 6,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01595",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 4,
+          "y": 93,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 31,
+          "y": 42,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "458c3890537f762d718e9da3da69a4c912de080af05afe8adf9477380f4d038a"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 31,
+          "y": 74,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "2e6ea6f053daca92a39ac35f403d9e94decde39b743009ef9a9ad87294ba191c"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 27,
+          "y": 28,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 7,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01599",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 8,
+          "y": 94,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 35,
+          "y": 43,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "ede586cdf638543065577c7bccadb1663f1ee1f5f08297b64c4f5811660c8756"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 35,
+          "y": 75,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "08f84163c467a95006b39cbcf3c9181a817dd5e11b5ed833fb21613686fa6d18"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 31,
+          "y": 36,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 8,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01603",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 12,
+          "y": 97,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 39,
+          "y": 46,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "1fce9d017d2775591669d9fcd167cf87b003c4fe6cf7b47737c506a62b32be45"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 39,
+          "y": 78,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "3214bbe4d9f7469eb42efc8f571fb40823f5bd3b2e2a55237956af85a8446560"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 35,
+          "y": 55,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 9,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01607",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 16,
+          "y": 102,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 43,
+          "y": 51,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "53dd60ecd95c2887cf6a45158f249ab4febcabc506d57db696d9d40c9034629a"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 43,
+          "y": 83,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "357f499740647a8a747f100c8adbe5b63e494bc77d22c273ebd3d4b3cf9dc650"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 39,
+          "y": 72,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 10,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01611",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 20,
+          "y": 112,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 47,
+          "y": 61,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "c8cbcf8597d1ac7e1ff2a435338410303764ff8c682db6218c5ea4b98ed9ee10"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 47,
+          "y": 93,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "fb09fdbc515e869cf6b38f63321b90d986a1a6305fbc007a53e9573e2f2c3761"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 43,
+          "y": 89,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 11,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01615",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 24,
+          "y": 118,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 51,
+          "y": 67,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "1cdb295b433eac50a93d0afe229fd5e4805d261fa26c92049c3dfb01cfb33e95"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 51,
+          "y": 99,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "c3bd18c4695db1b2cb8692669499b9cd0b07d0bb24db81bb7e6426bfb63b204f"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 47,
+          "y": 96,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 12,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01619",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 28,
+          "y": 124,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 55,
+          "y": 73,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "bfa457368543bbdc59a70fbf48285595f684320ca1495a9249d975c2f9671186"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 55,
+          "y": 105,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "8df44eaae6a6d07935542410fe1e00e84af39e92b9a9c4216e22f597ede041d9"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 51,
+          "y": 96,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 13,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01623",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 32,
+          "y": 128,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 59,
+          "y": 77,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "f9f8081762b8556ccb8713ca384ed28e91e0d9b1c66769c2a558250d816febc3"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 59,
+          "y": 109,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "65e3069f719b2c3af6ea0ef16d11cfae2bc22901c562a8e028f6d5e2feaa66a0"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 55,
+          "y": 96,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 14,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01627",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 36,
+          "y": 129,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 63,
+          "y": 78,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "781a2ad09929c88090f956121f3c6b4bb8bcf89c8ac01e361fa09015ee503fcb"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 63,
+          "y": 110,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "fb1884482f98c7dd63bcb2f82e8393eef29fae62557f68b860a7358369f39be8"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 59,
+          "y": 94,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 15,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01631",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 40,
+          "y": 128,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 67,
+          "y": 77,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "7e1847fe41621b3474243cedffb28f7c6cdff4d5c358bc6895ace3ea81a900ff"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 67,
+          "y": 109,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "207cc15271461ae05c3a4f4b09521928ee122fecff3836660f027be3cf90f8b9"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 63,
+          "y": 95,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 16,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01635",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 44,
+          "y": 124,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 71,
+          "y": 73,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "4024628910a90e88eda007f7a0e44041d723cf19a3fe458b8fb8decbb16bc3ba"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 71,
+          "y": 105,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "21313e7aa2e4564a7d36b9edc61d671ba1971b425bd262c1e472f8072ca45cc9"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 67,
+          "y": 98,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 17,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01639",
+    "objects": [
+      {
+        "object": {
+          "id": 29,
+          "x": 48,
+          "y": 118,
+          "w": 64,
+          "h": 32,
+          "tile": 710,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 27,
+          "x": 75,
+          "y": 67,
+          "w": 16,
+          "h": 32,
+          "tile": 750,
+          "palette": 5
+        },
+        "pixel_sha256": "0c896ff44dbe4f00868baabd0900098465d3aff275f3918e7571e0b31098640a"
+      },
+      {
+        "object": {
+          "id": 28,
+          "x": 75,
+          "y": 99,
+          "w": 16,
+          "h": 32,
+          "tile": 742,
+          "palette": 5
+        },
+        "pixel_sha256": "f7660c932ce5d63090ba1f116868136bc23619e281af7113cdc6e15eb5131a4a"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 71,
+          "y": 101,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  },
+  {
+    "phase": 0,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-43-34_086046\\park-primary-art.frame01643",
+    "objects": [
+      {
+        "object": {
+          "id": 27,
+          "x": 52,
+          "y": 110,
+          "w": 64,
+          "h": 32,
+          "tile": 726,
+          "palette": 5
+        },
+        "pixel_sha256": "f1e6cbcf416de819673bc703e4ecc253e5adc0137b2a029addd22a3e9c403d4a"
+      },
+      {
+        "object": {
+          "id": 26,
+          "x": 75,
+          "y": 108,
+          "w": 32,
+          "h": 16,
+          "tile": 758,
+          "palette": 5
+        },
+        "pixel_sha256": "6db32485bcc1a4e77d0f4eb3b406ed937272e2877e94fe490b885fcc16d77430"
+      }
+    ]
+  }
+]

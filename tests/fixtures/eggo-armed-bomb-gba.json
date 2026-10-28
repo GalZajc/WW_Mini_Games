@@ -1,0 +1,213 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_13-55-10_161647",
+    "name": "bomb-right-expiry",
+    "entity_position": 66440,
+    "entity_velocity": 66456,
+    "fuse_counter": 66468,
+    "fixed_scale": 65536,
+    "rate": 60,
+    "pickup_checkpoint": "scripts/OUTPUT/eggo-reference_2026-10-03_13-32-22_191046/inventory-bomb-0.frame03567.ram",
+    "held_counter": 67136,
+    "frames": [
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      248,
+      249,
+      250,
+      251
+    ],
+    "burst_first_frame": 251
+  },
+  "source_parameters": {
+    "output_collision_index": 0,
+    "item_trace_parameters": {
+      "item_palette": 2,
+      "actor_palettes": [
+        0,
+        1
+      ],
+      "held_offset": [
+        24,
+        15
+      ],
+      "held_tolerance": 3,
+      "size": 16,
+      "actor_anchor": [
+        32,
+        56
+      ],
+      "actor_world_addresses": [
+        15316,
+        20304
+      ],
+      "capture_unknown_pictures": true,
+      "inventory_addresses": [
+        17464,
+        22452
+      ],
+      "bomb_inventory_id": 8,
+      "icon_indices": {
+        "bomb": 27,
+        "boots": 19,
+        "cloud": 14,
+        "filler": 9,
+        "hammer": 29
+      }
+    },
+    "rival_pose_parameters": null,
+    "load": "scripts/OUTPUT/eggo-reference_2026-10-03_13-32-22_191046/inventory-bomb-0.frame03567.state",
+    "steps": [
+      [
+        2,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        270,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [],
+    "sample_every": 10,
+    "sample_graphics": true,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "board_events": true,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [
+      248,
+      249,
+      250,
+      251,
+      252,
+      253
+    ],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "a000d8009f333cd1449653351c9ec72885bd6e36ab31d56dea5eabe4b482efe6",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 280
+  },
+  "samples": [
+    {
+      "frame": 20,
+      "x": 26.0,
+      "y": 543.6936340332031,
+      "vertical_velocity": -3.5,
+      "remaining_frames": 230,
+      "ram_sha256": "2e373b13522fcd06c861e9e689940c990b90c7a853793444f6c9d4ef4bcca072"
+    },
+    {
+      "frame": 30,
+      "x": 46.0,
+      "y": 514.3186340332031,
+      "vertical_velocity": -2.25,
+      "remaining_frames": 220,
+      "ram_sha256": "b372644871f53458171ef213d218b768e9355fa9f5b266c3fec4d780bc8052b3"
+    },
+    {
+      "frame": 40,
+      "x": 66.0,
+      "y": 497.4436340332031,
+      "vertical_velocity": -1.0,
+      "remaining_frames": 210,
+      "ram_sha256": "d1a6f4257343fdc7d7e56e680eaa203bb72178b9fd51742b86a78630f900d975"
+    },
+    {
+      "frame": 50,
+      "x": 86.0,
+      "y": 493.0686340332031,
+      "vertical_velocity": 0.25,
+      "remaining_frames": 200,
+      "ram_sha256": "b9b58a9a744458467e0b2a58b1df40927e67c458929f0457eb51ee51b443b09f"
+    },
+    {
+      "frame": 60,
+      "x": 106.0,
+      "y": 501.1936340332031,
+      "vertical_velocity": 1.5,
+      "remaining_frames": 190,
+      "ram_sha256": "50806f2a2fc717a74868534938a76c17b3a3814752124c204e2a70b096c6910a"
+    },
+    {
+      "frame": 70,
+      "x": 126.0,
+      "y": 521.8186340332031,
+      "vertical_velocity": 2.75,
+      "remaining_frames": 180,
+      "ram_sha256": "c1ff28aef1a0848a6284444828b3aef3f09b9c880e8c1a72b5a6e059aab4f6ee"
+    },
+    {
+      "frame": 248,
+      "x": 142.0,
+      "y": 573.9436340332031,
+      "vertical_velocity": -0.25,
+      "remaining_frames": 2,
+      "ram_sha256": "84bc1f240097f83a94c26025c339ef8f6ed04678fe66dbbd7eb5fdc2aa383fb9"
+    },
+    {
+      "frame": 249,
+      "x": 142.0,
+      "y": 573.6936340332031,
+      "vertical_velocity": -0.125,
+      "remaining_frames": 1,
+      "ram_sha256": "a30d839ed234d6667d9b2dc685a74f0ebaa98ae6753b6462fc1ffa0a25c877d0"
+    },
+    {
+      "frame": 250,
+      "x": 142.0,
+      "y": 573.6936340332031,
+      "vertical_velocity": -0.125,
+      "remaining_frames": 0,
+      "ram_sha256": "30da8b0503289a096b2f8f65d7a63e1593ba2802d03cb10c2fc4a0154f62d742"
+    },
+    {
+      "frame": 251,
+      "x": 142.0,
+      "y": 573.6936340332031,
+      "vertical_velocity": -0.125,
+      "remaining_frames": 0,
+      "ram_sha256": "a6ed1745256cea87b441eaeacf368165ec5291c4d11f5ea0d452a3f72cb2ee4c"
+    }
+  ],
+  "pickup_ram_sha256": "f8acd3a5a25d7182b3e0adac2d3010848951a9cdec4c3abd9d47c7972edf003c",
+  "armed_frames": 250,
+  "flight_pixels_per_frame": 2,
+  "flight_acceleration_pixels_per_frame_squared": 0.125,
+  "limits": "Flight constants apply after the initial upward release. Bounce, targeting and damage remain uncalibrated."
+}

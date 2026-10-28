@@ -88,7 +88,9 @@ class App {
 
             if (this.state === 'playing' && this.currentGame) {
                 // ESC toggles pause (unless game handles it)
-                if (this.input.isKeyJustDown('Escape')) {
+                const controllerPause = this.currentGame.supportsPauseBinding &&
+                    this.currentGame.phase !== 'character-select' && this.input.isActionJustDown('pause');
+                if (this.input.isKeyJustDown('Escape') || controllerPause) {
                     // A mode picker is a launcher subpage, not a paused game.
                     // ESC always returns straight to the common game gallery.
                     if (this.currentGame?.phase === 'mode-select' || this.currentGame?.modeSelector) {
@@ -446,11 +448,26 @@ class App {
         const is3D = this.currentConfig?.type === '3d';
         const targetCanvas = is3D ? this.canvas3d : this.canvas;
 
-        targetCanvas.width  = window.innerWidth;
-        targetCanvas.height = window.innerHeight;
+        const cssWidth = window.innerWidth;
+        const cssHeight = window.innerHeight;
+        const requestedScale = !is3D
+            ? Number(this.currentGame?.canvasPixelRatio?.() ?? 1)
+            : 1;
+        const pixelRatio = Number.isFinite(requestedScale) && requestedScale > 0
+            ? requestedScale
+            : 1;
+        const backingWidth = Math.max(1, Math.round(cssWidth * pixelRatio));
+        const backingHeight = Math.max(1, Math.round(cssHeight * pixelRatio));
+
+        // Assigning canvas.width/height clears the bitmap and resets its 2D
+        // context even when the value is unchanged. Games that render at a
+        // higher device scale must therefore keep their backing dimensions
+        // stable across animation frames.
+        if (targetCanvas.width !== backingWidth) targetCanvas.width = backingWidth;
+        if (targetCanvas.height !== backingHeight) targetCanvas.height = backingHeight;
 
         if (this.currentGame && this.currentGame.onResize) {
-            this.currentGame.onResize(targetCanvas.width, targetCanvas.height);
+            this.currentGame.onResize(cssWidth, cssHeight);
         }
     }
 }

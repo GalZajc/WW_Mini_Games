@@ -1,0 +1,345 @@
+{
+  "parameters": {
+    "menu_source": "scripts/OUTPUT/eggo-reference_2026-10-04_22-24-52_823457",
+    "resources": "scripts/OUTPUT/eggo-characters_2026-10-04_22-34-09_814879",
+    "difficulty_source": "scripts/OUTPUT/eggo-reference_2026-10-19_04-02-46_012404/character-hard",
+    "snapshot_frames": [
+      304,
+      38,
+      76,
+      114,
+      152,
+      190,
+      228,
+      266
+    ],
+    "order": [
+      "yolko",
+      "funky",
+      "robo",
+      "bebub",
+      "coolio",
+      "eggo",
+      "spike",
+      "astro"
+    ],
+    "random_seed": "encoded in the recorded menu checkpoint",
+    "native_resolution": [
+      240,
+      160
+    ]
+  },
+  "sources": {
+    "yolko": {
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-04_22-24-52_823457\\survival-roster.frame00304",
+      "vram_sha256": "ecc47ac5cd6971781a0851f7e9b7a91f6ad19de9feb40ea98044fd5d8a7ca1b3"
+    },
+    "funky": {
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-04_22-24-52_823457\\survival-roster.frame00038",
+      "vram_sha256": "dedee3d51f139b88892ff29f5b36096b0e38a4e8e58fd484593beea9542b2e69"
+    },
+    "robo": {
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-04_22-24-52_823457\\survival-roster.frame00076",
+      "vram_sha256": "be77039cc32b74dcc4bde1e47c1b30ba3f8a02b94a74e8b86d9e96ecc5b5c966"
+    },
+    "bebub": {
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-04_22-24-52_823457\\survival-roster.frame00114",
+      "vram_sha256": "a4acfb60f0c75237ae01285b41847d9d12f4f5fd0e187bd90634a680e63e922c"
+    },
+    "coolio": {
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-04_22-24-52_823457\\survival-roster.frame00152",
+      "vram_sha256": "c33088ff63ca63ce6ce0c3e4734b7ad60c6ee06694860fc65bb1add65aa1ca54"
+    },
+    "eggo": {
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-04_22-24-52_823457\\survival-roster.frame00190",
+      "vram_sha256": "3639908cd1e938ae1f3e947e25ac3f0be7c313fbed158c5e8df4a97f17cc777c"
+    },
+    "spike": {
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-04_22-24-52_823457\\survival-roster.frame00228",
+      "vram_sha256": "63bd871cb804de745b66247bc3e796cd587714d47d43716b776b6f37e685b2ab"
+    },
+    "astro": {
+      "prefix": "scripts\\OUTPUT\\eggo-reference_2026-10-04_22-24-52_823457\\survival-roster.frame00266",
+      "vram_sha256": "06be1a3ba45394fe90b9454e921da0ca128ce7eb03c0c90293c1e9f59575b08c"
+    }
+  },
+  "common": [
+    {
+      "cell": 0,
+      "x": 24,
+      "y": 47,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "cell": 1,
+      "x": 112,
+      "y": 0,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "cell": 2,
+      "x": 176,
+      "y": 0,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "cell": 3,
+      "x": 112,
+      "y": 0,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "cell": 4,
+      "x": 176,
+      "y": 0,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "cell": 5,
+      "x": 105,
+      "y": 40,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "cell": 6,
+      "x": 229,
+      "y": 39,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "cell": 7,
+      "x": 37,
+      "y": 141,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "cell": 8,
+      "x": 8,
+      "y": 129,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "cell": 9,
+      "x": 69,
+      "y": 141,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "cell": 10,
+      "x": 82,
+      "y": 129,
+      "width": 32,
+      "height": 32
+    },
+    {
+      "cell": 11,
+      "x": 112,
+      "y": 61,
+      "width": 64,
+      "height": 32
+    },
+    {
+      "cell": 12,
+      "x": 176,
+      "y": 61,
+      "width": 64,
+      "height": 32
+    }
+  ],
+  "characters": {
+    "yolko": [
+      {
+        "cell": 13,
+        "x": 112,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 14,
+        "x": 176,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 15,
+        "x": 24,
+        "y": 37,
+        "width": 64,
+        "height": 64
+      }
+    ],
+    "funky": [
+      {
+        "cell": 16,
+        "x": 112,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 17,
+        "x": 176,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 18,
+        "x": 24,
+        "y": 37,
+        "width": 64,
+        "height": 64
+      }
+    ],
+    "robo": [
+      {
+        "cell": 19,
+        "x": 112,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 20,
+        "x": 176,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 21,
+        "x": 24,
+        "y": 37,
+        "width": 64,
+        "height": 64
+      }
+    ],
+    "bebub": [
+      {
+        "cell": 22,
+        "x": 112,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 23,
+        "x": 176,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 24,
+        "x": 24,
+        "y": 37,
+        "width": 64,
+        "height": 64
+      }
+    ],
+    "coolio": [
+      {
+        "cell": 25,
+        "x": 112,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 26,
+        "x": 176,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 27,
+        "x": 24,
+        "y": 37,
+        "width": 64,
+        "height": 64
+      }
+    ],
+    "eggo": [
+      {
+        "cell": 28,
+        "x": 112,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 29,
+        "x": 176,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 30,
+        "x": 24,
+        "y": 37,
+        "width": 64,
+        "height": 64
+      }
+    ],
+    "spike": [
+      {
+        "cell": 31,
+        "x": 112,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 32,
+        "x": 176,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 33,
+        "x": 24,
+        "y": 37,
+        "width": 64,
+        "height": 64
+      }
+    ],
+    "astro": [
+      {
+        "cell": 34,
+        "x": 112,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 35,
+        "x": 176,
+        "y": 32,
+        "width": 64,
+        "height": 32
+      },
+      {
+        "cell": 36,
+        "x": 24,
+        "y": 37,
+        "width": 64,
+        "height": 64
+      }
+    ]
+  }
+}

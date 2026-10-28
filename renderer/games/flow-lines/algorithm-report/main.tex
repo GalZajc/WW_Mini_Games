@@ -1,0 +1,65 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovene]{babel}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{amsmath,amssymb,booktabs}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\begin{document}
+{\Large\bfseries Enolične uganke Numberlink z malo barvami}
+
+\textbf{Namen.} Generator mora ustvariti povezave barvnih parov na mreži \(A\times B\), pri katerih obstaja natanko ena povezava vseh parov in ta edina zapolni vseh \(N=AB\) polj. Preverjanje zato upošteva tudi alternativne povezave, ki bi pustile prazna polja. Samo ena rešitev med polnimi pokritji ne zadostuje tej močnejši zahtevi.
+
+\textbf{Slabost prejšnjega postopka.} Rezanje ene Hamiltonove poti zagotovi obstoj polnega pokritja, ne zagotovi pa enoličnosti. Predhodno naštevanje vseh enostavnih poti za vsak par posebej je pri malo barvah zelo potratno. Večina naštetih poti se nikoli ne more pojaviti v skupni rešitvi. Yoshinaka in sodelavci~\cite{zdd} obravnavajo rešitve kot množice robov in stanja delnih povezav ter jih stiskajo z ZDD-ji. Nova izvedba uporablja lastno robno iskanje s širjenjem omejitev in komponentami. Ne zahteva zunanjega reševalnika.
+
+\textbf{Lema o bližnjici.} Če sta dva nekonsekutivna kvadratka iste poti sosednja, lahko vmesni odsek nadomestimo z enim robom. Nastane druga povezava istih krajišč, ki uporablja podmnožico prvotnih polj in ostane disjunktna od drugih poti. Edina povezava dobre uganke je zato sestavljena iz induciranih poti, torej poti brez takih dotikov same sebe.
+
+Naj bo \(R\) znana inducirana rešitev, ki pokrije vseh \(N\) polj. Vsako drugo povezavo \(Q\) lahko z odstranjevanjem bližnjic skrčimo v inducirano povezavo \(Q'\). Če odstranimo vsaj eno polje, \(Q'\) ne more biti \(R\), ker \(R\) uporablja vsa polja. Če ničesar ne odstranimo, je \(Q'=Q\). Zato obstoj druge poljubne povezave lahko preverimo z iskanjem drugih induciranih povezav. To je redukcija dokazovanja, ne novo pravilo za igralca. Pri štetju izključno polnih pokritij se redukcija izključi, saj lahko krajšanje izgubi pokritost.
+
+\textbf{Natančni dokazovalnik.} Vsak mrežni rob je neodločen, izključen ali izbran. Krajišča imajo stopnjo \(1\); druga uporabljena polja stopnjo \(2\), neuporabljena pa \(0\). Omejitve stopenj prisilijo določene robove. Komponente izbranih robov preprečujejo zanke in povezovanje različnih črk. Dosegljivost preverja, ali se vsak nedokončan par še lahko poveže. V induciranem iskanju se dodatno izločajo bližnjice in združitve komponent z več medsebojnimi dotiki.
+
+Povezava \(k\) parov na največ \(N\) uporabljenih poljih ima največ \(N-k\) robov. Že izbrane komponente skrčimo in za vsak nedokončan par izračunamo spodnjo mejo \(d_i\) za število potrebnih novih robov. Če je \(e\) robov že izbranih, mora veljati
+\[
+e+\sum_i d_i\leq N-k.
+\]
+Prekoračitev pomeni protislovje. Preostalo rezervo uporabljamo tudi za izključevanje robov, ki bi pri vsakem paru presegli to mejo. Spodnje meje lahko uporabljajo prekrivajoče se najkrajše poti, zato služijo samo varnemu izločanju nemogočih stanj.
+
+Znano, posebej preverjeno pokritje je prva rešitev. Iskanje druge rešitve se razveji po preostalih robovih in mora biti dokončano, preden vrne rezultat \texttt{unique}. Presežena računska omejitev vrne \texttt{unknown} in ne potrdi enoličnosti.
+
+\textbf{Postopno sestavljanje.} Generator začne z ravnimi pasovi oziroma njihovimi razrezi. Nato premika krajišča s prenosi repov med sosednjimi potmi. Sprememba ohrani pokritost, disjunktnost in število barv. Vsaka sprejeta sprememba dobi svoj dokončan dokaz enoličnosti. Ob dvoumnem ali nepotrjenem predlogu se obnovi zadnje potrjeno stanje. Za manj barv lahko generator združi poti, vendar tudi združitev posebej preveri.
+
+Končni izbor upošteva zavoje, število ravnih poti, dolžine in notranja krajišča. Pri običajnih mrežah ima vrnjena pot najmanj tri polja. To preprečuje očitno trivialne postavitve, ni pa formalna mera človeške težavnosti. Vsi parametri so v datoteki \texttt{parameters.js}. Razpon barv ostane uporabnikov. Izračun poteka v delavcu Web Worker; prikaz kaže napredek in ostane odziven. Časovna serija ne všteva priprave ugank.
+
+\textbf{Meje števila barv.} Osnovna nujna meja je \(2k\leq N\); konstrukcijski pogoj najmanj treh polj da \(k\leq\lfloor N/3\rfloor\). Ti meji ne zagotavljata enolične uganke za vsako manjše število barv. Pri \(A,B\geq2\) ena barva ne more imeti edine povezave s polnim pokritjem: pot ima \(N-1\) robov, mreža pa \(2N-A-B\), zato ostane vsaj en rob, ki je bližnjica. Za enovrstične mreže argument ne velja. Splošna odločitev o obstoju polnega pokritja je NP-polna~\cite{npc}; iz tega ne sledi, da mora biti praktično generiranje pri 15 parih neuspešno.
+
+\textbf{Preverjanje.} Novi števec je bil primerjan z neodvisnim referenčnim algoritmom, ki našteje vse enostavne poti in njihove disjunktne kombinacije. Vseh 240 primerjav na manjših mrežah se ujema, tako za dovoljene praznine kot za obvezno pokritost. Vključen je regresijski primer, kjer obstaja eno polno pokritje in dodatna krajša povezava.
+
+Meritve različice \texttt{certified-tail-splice-v2} so shranjene s semeni, parametri, potmi in rezultati CSV. Vseh 12 nastavitev v preizkusu je uspelo. Osem meritev na mrežah \(15\times17\) in \(17\times15\) z razponom 15--23 barv je vrnilo 15 barv, 46--55 zavojev ter dokaz močnejše enoličnosti. Časi v Node.js so bili 1,886--6,192 s, mediana pa 3,650 s. Čas v dejanski aplikaciji je odvisen tudi od izvajalnega okolja; to ni zagotovljena časovna meja.
+
+\begin{center}
+\begin{tabular}{rrrrr}
+\toprule
+Mreža & Razpon barv & Vrnjene barve & Zavoji & Čas [s]\\
+\midrule
+\(15\times17\) & 15--23 & 15 & 46--55 & 1,886--6,192\\
+\(17\times15\) & 15--23 & 15 & 46--51 & 1,970--4,400\\
+\(6\times6\) & 3--5 & 4 & 10 & 0,102\\
+\(10\times10\) & 6--10 & 7 & 24 & 3,822\\
+\(3\times20\) & 4--8 & 4 & 12 & 0,678\\
+\(3\times3\) & 2--3 & 2 & 3 & 0,001\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Preizkus v Electronu je preveril dejanski delavec, odzivnost med generiranjem, reševanje z miško, razveljavitev z Z, pavzo, časovno serijo in prekinitev delavca. V potrjenih primerih ni bilo izjem izvajalnega okolja. Rezultati dokazujejo te preizkušene primere; ne pomenijo zagotovila za vsak poljuben razpon dimenzij in barv.
+
+\begin{thebibliography}{9}
+\bibitem{zdd} R. Yoshinaka, T. Saitoh, J. Kawahara, K. Tsuruma, H. Iwashita in S. Minato, \emph{Finding All Solutions and Instances of Numberlink and Slitherlink by ZDDs}, Algorithms 5(2), 176--213, 2012. \url{https://doi.org/10.3390/a5020176}. Izvorna koda avtorjev: \url{https://github.com/kunisura/algorithms2012}.
+\bibitem{npc} A. Adcock idr., \emph{Zig-Zag Numberlink is NP-Complete}, Journal of Information Processing 23(3), 239--245, 2015. \url{https://doi.org/10.2197/ipsjjip.23.239}.
+\bibitem{ahle} T. D. Ahle, \emph{Numberlink}, dokumentacija avtorjevega reševalnika in generatorja. \url{https://github.com/thomasahle/numberlink}. Avtor izrecno opozarja, da njegov hitri reševalnik sam ne potrjuje enoličnosti. Naša izvedba ga ne uporablja kot dokazovalnik.
+\end{thebibliography}
+\end{document}

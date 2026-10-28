@@ -1,9 +1,11 @@
-const { app, BrowserWindow, ipcMain } = require('electron');
+const { app, BrowserWindow, ipcMain, shell } = require('electron');
 const path = require('path');
 const fs = require('fs').promises;
 const http = require('http');
 const crypto = require('crypto');
 const IS_HEADLESS_TEST = process.env.WW_MINI_GAMES_HEADLESS_TEST === '1';
+const EGGO_ONLINE_URL = 'https://eggo-mania-survival-ww.galzajc.chatgpt.site/#create=1';
+ipcMain.handle('open-eggo-online', () => shell.openExternal(EGGO_ONLINE_URL));
 
 const iconPath = path.join(__dirname, 'icon.ico');
 
@@ -20,6 +22,7 @@ function createWindow() {
             contextIsolation: true,
             nodeIntegration: false,
             backgroundThrottling: !IS_HEADLESS_TEST,
+            offscreen: IS_HEADLESS_TEST && process.env.WW_MINI_GAMES_OFFSCREEN_TEST === '1',
         },
         frame: true,
         title: 'WW Mini Games',
@@ -28,6 +31,10 @@ function createWindow() {
 
     mainWindow.setMenuBarVisibility(false);
     mainWindow.loadFile('renderer/index.html');
+    if (IS_HEADLESS_TEST && process.env.WW_MINI_GAMES_OFFSCREEN_TEST === '1') {
+        mainWindow.webContents.setFrameRate(60);
+        mainWindow.webContents.on('paint', () => {});
+    }
 
     mainWindow.once('ready-to-show', () => {
         if (!IS_HEADLESS_TEST) {
@@ -88,6 +95,17 @@ ipcMain.handle('write-tetris-physics-diagnostic', async (_event, data) => {
     await ensureDataDir();
     await fs.writeFile(path.join(dataDir, 'tetris-physics-last.json'), json, 'utf8');
     return true;
+});
+
+ipcMain.handle('write-eggo-performance-diagnostic', async (_event, data) => {
+    const json = JSON.stringify(data, null, 2);
+    if (!json || Buffer.byteLength(json, 'utf8') > 2 * 1024 * 1024) return false;
+    const stamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const folder = path.join(__dirname, 'renderer', 'games', 'eggo-mania', 'OUTPUT', 'performance_' + stamp);
+    await fs.mkdir(folder, { recursive: true });
+    await fs.writeFile(path.join(folder, 'parameters.json'), JSON.stringify(data.parameters, null, 2), 'utf8');
+    await fs.writeFile(path.join(folder, 'frames.json'), json, 'utf8');
+    return folder;
 });
 
 function validateReRoMoProjectionKey(key) {

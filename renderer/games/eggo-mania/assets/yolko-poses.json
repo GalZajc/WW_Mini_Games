@@ -1,0 +1,656 @@
+{
+  "parameters": {
+    "motion": "scripts/OUTPUT/eggo-reference_2026-10-03_01-58-27_058310/actor-motion",
+    "throw": "scripts/OUTPUT/eggo-reference_2026-10-03_01-40-12_808881/camera-throw",
+    "free": "scripts/OUTPUT/eggo-reference_2026-10-03_02-02-34_170672/actor-free",
+    "hop": "scripts/OUTPUT/eggo-reference_2026-10-03_02-03-32_040620/actor-hop",
+    "anchor": [
+      32,
+      56
+    ],
+    "size": 64,
+    "states": {
+      "idle": [
+        [
+          "motion",
+          2
+        ],
+        [
+          "motion",
+          8
+        ]
+      ],
+      "walk": [
+        [
+          "motion",
+          20
+        ],
+        [
+          "motion",
+          24
+        ],
+        [
+          "motion",
+          28
+        ],
+        [
+          "motion",
+          32
+        ]
+      ],
+      "rise": [
+        [
+          "motion",
+          52
+        ],
+        [
+          "motion",
+          56
+        ],
+        [
+          "motion",
+          60
+        ],
+        [
+          "motion",
+          64
+        ]
+      ],
+      "float": [
+        [
+          "motion",
+          72
+        ],
+        [
+          "motion",
+          76
+        ],
+        [
+          "motion",
+          80
+        ],
+        [
+          "motion",
+          84
+        ]
+      ],
+      "fall": [
+        [
+          "motion",
+          100
+        ],
+        [
+          "motion",
+          104
+        ],
+        [
+          "motion",
+          108
+        ],
+        [
+          "motion",
+          112
+        ]
+      ],
+      "throw": [
+        [
+          "throw",
+          4
+        ],
+        [
+          "throw",
+          8
+        ],
+        [
+          "throw",
+          12
+        ],
+        [
+          "throw",
+          16
+        ],
+        [
+          "throw",
+          20
+        ],
+        [
+          "throw",
+          24
+        ],
+        [
+          "throw",
+          28
+        ]
+      ],
+      "idle-free": [
+        [
+          "free",
+          8
+        ],
+        [
+          "free",
+          12
+        ]
+      ],
+      "walk-free": [
+        [
+          "free",
+          20
+        ],
+        [
+          "free",
+          24
+        ]
+      ],
+      "rise-free": [
+        [
+          "throw",
+          32
+        ],
+        [
+          "throw",
+          36
+        ]
+      ],
+      "float-free": [
+        [
+          "hop",
+          4
+        ],
+        [
+          "hop",
+          8
+        ]
+      ],
+      "fall-free": [
+        [
+          "hop",
+          20
+        ],
+        [
+          "hop",
+          24
+        ]
+      ]
+    }
+  },
+  "states": {
+    "idle": [
+      {
+        "object": 33,
+        "screen_x": 31,
+        "screen_y": 56,
+        "captured_flip_x": false,
+        "tile": 677,
+        "graphics_sha256": "0f544793eb29ff135a325188fc02e65fc362d39f8c8811ec0a183f7608293e11",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00002",
+        "frame": 2,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "object": 34,
+        "screen_x": 31,
+        "screen_y": 56,
+        "captured_flip_x": false,
+        "tile": 681,
+        "graphics_sha256": "d85f8842c3f247f90fc2748aef9dc2f345db753c127ac4a43553e97eac55d338",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00008",
+        "frame": 8,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 64,
+        "y": 0
+      }
+    ],
+    "walk": [
+      {
+        "object": 34,
+        "screen_x": 37,
+        "screen_y": 56,
+        "captured_flip_x": false,
+        "tile": 681,
+        "graphics_sha256": "3eb0f81448613ed7307c3c664b6a5f335fce3fc34b703b510c60a49f0fdf5bd1",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00020",
+        "frame": 20,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 0,
+        "y": 64
+      },
+      {
+        "object": 34,
+        "screen_x": 45,
+        "screen_y": 56,
+        "captured_flip_x": false,
+        "tile": 681,
+        "graphics_sha256": "4b90b124a3eb96d1a4d6ec465c74d078f20d1533c91afa14787243c6286de964",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00024",
+        "frame": 24,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 64,
+        "y": 64
+      },
+      {
+        "object": 35,
+        "screen_x": 53,
+        "screen_y": 56,
+        "captured_flip_x": false,
+        "tile": 677,
+        "graphics_sha256": "e77abec0cf0afdf984daf88966a5ef3decc1880d83dd6d2f88961168c4a2a93b",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00028",
+        "frame": 28,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 128,
+        "y": 64
+      },
+      {
+        "object": 35,
+        "screen_x": 61,
+        "screen_y": 56,
+        "captured_flip_x": false,
+        "tile": 677,
+        "graphics_sha256": "84558675a18aca263e45e883f27d2c02e0dda74638377901c9a2565e42ae7452",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00032",
+        "frame": 32,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 192,
+        "y": 64
+      }
+    ],
+    "rise": [
+      {
+        "object": 36,
+        "screen_x": 31,
+        "screen_y": 49,
+        "captured_flip_x": false,
+        "tile": 673,
+        "graphics_sha256": "6d0930c776d4453678db1ec5dbc3e201166c21ef0e76cc866af363d9a1bcb79c",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00052",
+        "frame": 52,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 0,
+        "y": 128
+      },
+      {
+        "object": 34,
+        "screen_x": 31,
+        "screen_y": 48,
+        "captured_flip_x": false,
+        "tile": 673,
+        "graphics_sha256": "5bcebfdd0d0973169a5719efb9c99adf06e57e214d4f9c10833221839668d133",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00056",
+        "frame": 56,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 64,
+        "y": 128
+      },
+      {
+        "object": 34,
+        "screen_x": 31,
+        "screen_y": 48,
+        "captured_flip_x": false,
+        "tile": 673,
+        "graphics_sha256": "32f12fe0aff96fef9493e93cabd221bbed5cdf2afee863d35a452e0311af69d2",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00060",
+        "frame": 60,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 128,
+        "y": 128
+      },
+      {
+        "object": 32,
+        "screen_x": 31,
+        "screen_y": 48,
+        "captured_flip_x": false,
+        "tile": 678,
+        "graphics_sha256": "de524c4c7153fa0e6e00671691bcdf11780993358207be7dcb08943ac29cf5f8",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00064",
+        "frame": 64,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 192,
+        "y": 128
+      }
+    ],
+    "float": [
+      {
+        "object": 32,
+        "screen_x": 31,
+        "screen_y": 48,
+        "captured_flip_x": false,
+        "tile": 678,
+        "graphics_sha256": "67f691a5477661ad56f35d75f51b08d2339b88d9f9a7b6185cdad7a99b2b8bfa",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00072",
+        "frame": 72,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 0,
+        "y": 192
+      },
+      {
+        "object": 32,
+        "screen_x": 31,
+        "screen_y": 48,
+        "captured_flip_x": false,
+        "tile": 678,
+        "graphics_sha256": "8d9f35dc77ec599c431b775d71b968086915e5f67fd95a79d24fb50ab7c914b3",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00076",
+        "frame": 76,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 64,
+        "y": 192
+      },
+      {
+        "object": 31,
+        "screen_x": 31,
+        "screen_y": 48,
+        "captured_flip_x": false,
+        "tile": 682,
+        "graphics_sha256": "18c75dc32a61df43286f89dd41d36deeb77f69fd6871710b72903deedc3340b1",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00080",
+        "frame": 80,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 128,
+        "y": 192
+      },
+      {
+        "object": 31,
+        "screen_x": 31,
+        "screen_y": 48,
+        "captured_flip_x": false,
+        "tile": 682,
+        "graphics_sha256": "474c71c681f9f2f3fba8aa10f1499e7ce588769fe7e802e605088e4609004914",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00084",
+        "frame": 84,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 192,
+        "y": 192
+      }
+    ],
+    "fall": [
+      {
+        "object": 33,
+        "screen_x": 31,
+        "screen_y": 48,
+        "captured_flip_x": false,
+        "tile": 682,
+        "graphics_sha256": "68dba9f57b5a9508a16326f3b5b5c59225606ce69696274ac4e33eb906b6c53a",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00100",
+        "frame": 100,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 0,
+        "y": 256
+      },
+      {
+        "object": 34,
+        "screen_x": 31,
+        "screen_y": 48,
+        "captured_flip_x": false,
+        "tile": 678,
+        "graphics_sha256": "2c1aec1a4dddfa2ebe3452ae6b6c7e8794d7bb9271d5c3e9fb50f1625af2f137",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00104",
+        "frame": 104,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 64,
+        "y": 256
+      },
+      {
+        "object": 34,
+        "screen_x": 31,
+        "screen_y": 48,
+        "captured_flip_x": false,
+        "tile": 678,
+        "graphics_sha256": "178174ee8b9fa7a43493418d1ffc52925a0b28c7888e9c0dc2f97ad367972502",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00108",
+        "frame": 108,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 128,
+        "y": 256
+      },
+      {
+        "object": 33,
+        "screen_x": 31,
+        "screen_y": 48,
+        "captured_flip_x": false,
+        "tile": 682,
+        "graphics_sha256": "e4170515ed06b7c3df8d22e984c1856cd073e5dd6e8dad3847d5cf825353cd94",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-58-27_058310\\actor-motion.frame00112",
+        "frame": 112,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 192,
+        "y": 256
+      }
+    ],
+    "throw": [
+      {
+        "object": 34,
+        "screen_x": 31,
+        "screen_y": 39,
+        "captured_flip_x": false,
+        "tile": 681,
+        "graphics_sha256": "ead93c59373420b0fbc3204de2dec89f1a72d31f06b103b37c2ad50a6d02b0a1",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00004",
+        "frame": 4,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 0,
+        "y": 320
+      },
+      {
+        "object": 33,
+        "screen_x": 30,
+        "screen_y": 9,
+        "captured_flip_x": false,
+        "tile": 685,
+        "graphics_sha256": "bcf3c22f1733e979089f80fc9d9e227e5ec104cdad6924dbc3154bfe95ee699d",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00008",
+        "frame": 8,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 64,
+        "y": 320
+      },
+      {
+        "object": 32,
+        "screen_x": 29,
+        "screen_y": 243,
+        "captured_flip_x": false,
+        "tile": 686,
+        "graphics_sha256": "8ef44645539349db1d620d5cf701757234ab7d88f8eb3d27dc105dec2b62b263",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00012",
+        "frame": 12,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 128,
+        "y": 320
+      },
+      {
+        "object": 33,
+        "screen_x": 27,
+        "screen_y": 243,
+        "captured_flip_x": false,
+        "tile": 685,
+        "graphics_sha256": "3a61354b9e3a88bc1d6ebfc20a4beefb6f4d67b26a2932466e7f80cfa877750a",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00016",
+        "frame": 16,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 192,
+        "y": 320
+      },
+      {
+        "object": 34,
+        "screen_x": 26,
+        "screen_y": 246,
+        "captured_flip_x": false,
+        "tile": 681,
+        "graphics_sha256": "67e9193c2a2af914da80dec7f7dc76a785ee9da471e866ee2c691b2354ab00f4",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00020",
+        "frame": 20,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 256,
+        "y": 320
+      },
+      {
+        "object": 34,
+        "screen_x": 25,
+        "screen_y": 3,
+        "captured_flip_x": false,
+        "tile": 681,
+        "graphics_sha256": "41e4d96a7033b2060769a7a8959fd31a0e2e0e7f92a2e8a7d70b78f91a6d8d99",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00024",
+        "frame": 24,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 320,
+        "y": 320
+      },
+      {
+        "object": 34,
+        "screen_x": 24,
+        "screen_y": 24,
+        "captured_flip_x": false,
+        "tile": 681,
+        "graphics_sha256": "d921820f96efa98cdc89769ad3d58e589e67a96bdce58b27235e148380beb692",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00028",
+        "frame": 28,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 384,
+        "y": 320
+      }
+    ],
+    "idle-free": [
+      {
+        "object": 34,
+        "screen_x": 31,
+        "screen_y": 56,
+        "captured_flip_x": false,
+        "tile": 681,
+        "graphics_sha256": "b57b0af30f31cdceaa4bb5443d0fcb6a675a364a0e5fd16804e832e87c9e7544",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_02-02-34_170672\\actor-free.frame00008",
+        "frame": 8,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 0,
+        "y": 384
+      },
+      {
+        "object": 33,
+        "screen_x": 31,
+        "screen_y": 56,
+        "captured_flip_x": false,
+        "tile": 682,
+        "graphics_sha256": "6d372bb5302ebd66b6e3ff62cddd8cf464884d4ffcafa54b831b0c09f909a658",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_02-02-34_170672\\actor-free.frame00012",
+        "frame": 12,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 64,
+        "y": 384
+      }
+    ],
+    "walk-free": [
+      {
+        "object": 34,
+        "screen_x": 37,
+        "screen_y": 56,
+        "captured_flip_x": false,
+        "tile": 681,
+        "graphics_sha256": "008800d96078419e7875ce5c678e53919658d2975dd264763b0019603d9ed714",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_02-02-34_170672\\actor-free.frame00020",
+        "frame": 20,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 0,
+        "y": 448
+      },
+      {
+        "object": 33,
+        "screen_x": 45,
+        "screen_y": 56,
+        "captured_flip_x": false,
+        "tile": 685,
+        "graphics_sha256": "ee0c91e9d8adc512e800d7690cdf9f7c8d83a3f3e1af2a7e02e5354bd35c74ba",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_02-02-34_170672\\actor-free.frame00024",
+        "frame": 24,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 64,
+        "y": 448
+      }
+    ],
+    "rise-free": [
+      {
+        "object": 34,
+        "screen_x": 24,
+        "screen_y": 30,
+        "captured_flip_x": false,
+        "tile": 681,
+        "graphics_sha256": "f44f5cdf2d8baafa286cc6173c88b18758bb47f372ab33a27c4425aed34ddf11",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00032",
+        "frame": 32,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 0,
+        "y": 512
+      },
+      {
+        "object": 34,
+        "screen_x": 24,
+        "screen_y": 18,
+        "captured_flip_x": false,
+        "tile": 681,
+        "graphics_sha256": "1841e30ffb2bfb5bda7c9c02ab08ad3877115157cb25cf99b079822f99166f8d",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_01-40-12_808881\\camera-throw.frame00036",
+        "frame": 36,
+        "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+        "x": 64,
+        "y": 512
+      }
+    ],
+    "float-free": [
+      {
+        "object": 34,
+        "screen_x": 24,
+        "screen_y": 10,
+        "captured_flip_x": false,
+        "tile": 681,
+        "graphics_sha256": "e12e7f48c88ab88cc04627216313048383df5601831530de4252f4e0cda595f6",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_02-03-32_040620\\actor-hop.frame00004",
+        "frame": 4,
+        "initial_state_sha256": "533164ab815087fa368a00215dafe1a9576455b6a47a68e6a53ded8ae03f4e99",
+        "x": 0,
+        "y": 576
+      },
+      {
+        "object": 33,
+        "screen_x": 24,
+        "screen_y": 6,
+        "captured_flip_x": false,
+        "tile": 682,
+        "graphics_sha256": "7443d3b3dc820d705843b946cc9e6ab5458edf78fa4016ac1e5c560e56fdaa22",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_02-03-32_040620\\actor-hop.frame00008",
+        "frame": 8,
+        "initial_state_sha256": "533164ab815087fa368a00215dafe1a9576455b6a47a68e6a53ded8ae03f4e99",
+        "x": 64,
+        "y": 576
+      }
+    ],
+    "fall-free": [
+      {
+        "object": 32,
+        "screen_x": 24,
+        "screen_y": 31,
+        "captured_flip_x": false,
+        "tile": 678,
+        "graphics_sha256": "02e401d8c80e7580351399692b45d9c86c6b64e9264093e40b0ca0f8d9e197ae",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_02-03-32_040620\\actor-hop.frame00020",
+        "frame": 20,
+        "initial_state_sha256": "533164ab815087fa368a00215dafe1a9576455b6a47a68e6a53ded8ae03f4e99",
+        "x": 0,
+        "y": 640
+      },
+      {
+        "object": 31,
+        "screen_x": 24,
+        "screen_y": 43,
+        "captured_flip_x": false,
+        "tile": 682,
+        "graphics_sha256": "fbffe5ef01f474ea587e57036808fbda671dcc3e7c116413f668b9b3bb5502b1",
+        "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_02-03-32_040620\\actor-hop.frame00024",
+        "frame": 24,
+        "initial_state_sha256": "533164ab815087fa368a00215dafe1a9576455b6a47a68e6a53ded8ae03f4e99",
+        "x": 64,
+        "y": 640
+      }
+    ]
+  }
+}

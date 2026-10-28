@@ -1,0 +1,13 @@
+Eggo native sound hardware
+
+mGBA upstream70ed83c: https://github.com/mgba-emu/mgba/tree/70ed83c
+Original sources retain MPL-2.0 notices. blip_buf is LGPL-2.1-or-later.
+Corresponding sources and build script are in audio-hardware-source.zip.
+
+Rebuild with wasi-sdk27, placing it at scripts/.tools/wasi-sdk-27.0-x86_64-windows
+and the upstream checkout at scripts/.tools/mgba-audio-source/mgba-70ed83c.
+Place pristine src/gba/audio.c at scripts/.tools/mgba-audio-source/70ed83c/src/gba/audio.c.
+Run python scripts/eggo-build-audio-hardware.py from the project root.
+Replace audio-hardware.wasm with the rebuilt module to relink modified blip_buf.
+No signature or installation restriction prevents replacement/relinking.
+The audio-only module contains no cartridge, video renderer or emulated CPU.

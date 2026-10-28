@@ -62,7 +62,7 @@ async function waitFor(callback, label, timeout = 20000) {
     throw new Error(`Timed out waiting for ${label}${lastError ? `: ${lastError.message}` : ''}`);
 }
 
-const child = spawn(electronPath, ['.', `--remote-debugging-port=${debugPort}`], {
+const child = spawn(electronPath, ['--mute-audio', '.', `--remote-debugging-port=${debugPort}`], {
     cwd: root,
     windowsHide: true,
     env: { ...process.env, WW_MINI_GAMES_HEADLESS_TEST: '1' },

@@ -1,0 +1,184 @@
+[
+  {
+    "phase": 0,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00028",
+    "object": {
+      "id": 28,
+      "x": 501,
+      "y": 130,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "947e405281c2e3adda7d0903193863458967f6bd7ae71d992e90845b6225489b"
+  },
+  {
+    "phase": 1,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00033",
+    "object": {
+      "id": 28,
+      "x": 501,
+      "y": 110,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "ce5139cddc5d12fe9a5e7648998ef9abb85f8e41760fcaf94b4f11d729cabe43"
+  },
+  {
+    "phase": 2,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00038",
+    "object": {
+      "id": 26,
+      "x": 503,
+      "y": 92,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "0706c2c65ddf3719a0a572bfcdb518bd001a32eb7d33c1262bfba46cf4d9fbf3"
+  },
+  {
+    "phase": 3,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00043",
+    "object": {
+      "id": 26,
+      "x": 504,
+      "y": 77,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "cef4974778fd6d020da9f1cb22115cac06f2e679f9a06dd9aae3c1be1c0ae7a9"
+  },
+  {
+    "phase": 4,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00048",
+    "object": {
+      "id": 26,
+      "x": 507,
+      "y": 62,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "b57e01f55655f6100681c73d3326b348255cd9cce69899153f9dd30006704e15"
+  },
+  {
+    "phase": 5,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00053",
+    "object": {
+      "id": 26,
+      "x": 510,
+      "y": 50,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "9c3bfc080a0b3f1f237158f996017f261b82dd289e4d8062a565d06ec761383b"
+  },
+  {
+    "phase": 6,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00058",
+    "object": {
+      "id": 26,
+      "x": 0,
+      "y": 40,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "1c6125b83e2fdb29bb50ab6cf979c64ecd965a92082d6c667c9eb70cf634e699"
+  },
+  {
+    "phase": 7,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00063",
+    "object": {
+      "id": 26,
+      "x": 4,
+      "y": 31,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "fab834e1125fdcb333eb1bf973a7753f9090ca9e1dbbd177c0dd8481fce912df"
+  },
+  {
+    "phase": 8,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00068",
+    "object": {
+      "id": 26,
+      "x": 7,
+      "y": 25,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "081215a04bb19e2eb139ece1ef4cf297f7fd98d985c4edff57bfac13fcda2d7e"
+  },
+  {
+    "phase": 9,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00073",
+    "object": {
+      "id": 26,
+      "x": 10,
+      "y": 21,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "61cf269e0efd65017e7a1c947e9a8c5e6cb2bc8db890b6ccfc86f583ccc3f0ed"
+  },
+  {
+    "phase": 10,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00078",
+    "object": {
+      "id": 26,
+      "x": 13,
+      "y": 19,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "8d195565fc844f2f63444a4f066441a389f44f8363e0f332000a9f296fe78afc"
+  },
+  {
+    "phase": 11,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00083",
+    "object": {
+      "id": 26,
+      "x": 15,
+      "y": 19,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "12b64a89dd94a77eafe05030cf90ca1933d13eb5501182d3b716431ea694727a"
+  },
+  {
+    "phase": 12,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-04-40_074729\\dragon-primary-cycle.frame00088",
+    "object": {
+      "id": 26,
+      "x": 17,
+      "y": 20,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 5
+    },
+    "pixel_sha256": "c9672147a8c17a6d795a1d2d40dbf579b766b80d47857cc0fe841a9c45dc1d91"
+  }
+]

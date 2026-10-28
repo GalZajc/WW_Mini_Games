@@ -1,0 +1,52 @@
+{
+  "source": "scripts\\OUTPUT\\eggo-reference_2026-10-03_02-55-37_060043\\first-floor.board-events.json",
+  "source_sha256": "4d392a64245f3729729fa8e958acbd40e3cb1ec1a082fd065756db869767afb6",
+  "initial_state_sha256": "6fefcbbbdd7d43e491f6a8d4e32520d7f82b49ac5c6d25060882137ff79115cd",
+  "writes": [],
+  "field": 1,
+  "before_frame": 28,
+  "after_frame": 51,
+  "before_rows_bottom_up": [
+    [
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "after_rows_bottom_up": [
+    [
+      3,
+      3,
+      5,
+      4,
+      6,
+      7,
+      8
+    ],
+    [
+      0,
+      3,
+      3,
+      9,
+      0,
+      0,
+      0
+    ]
+  ],
+  "observed_added_cells": 6,
+  "completed_rows_after": 1,
+  "interpretation": "Six independently owned cells fill bottom-row gaps nearest column 3, then the next row. Completion adds no extra two cells in this trace."
+}

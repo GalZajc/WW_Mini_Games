@@ -1,0 +1,731 @@
+{
+  "source_checkpoint_run": "scripts/OUTPUT/eggo-reference_2026-10-07_07-48-21_439783/partial-stack-grounded-checkpoint",
+  "source_checkpoint": "scripts/OUTPUT/eggo-reference_2026-10-07_07-48-21_439783/partial-stack-grounded-checkpoint.frame00410.state",
+  "source_checkpoint_frame": 410,
+  "source_input_tape": "tests/OUTPUT/eggo-input-replay_2026-10-07_03-16-26_086460/steps.json",
+  "source_followup_run": "scripts/OUTPUT/eggo-reference_2026-10-07_07-48-31_816139/partial-stack-jump",
+  "source_rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "source_core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+  "rows_bottom_up": [
+    [
+      0,
+      3,
+      3,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      3,
+      3,
+      0,
+      4,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      7,
+      7,
+      7,
+      0
+    ],
+    [
+      0,
+      5,
+      5,
+      7,
+      0,
+      7,
+      0
+    ],
+    [
+      0,
+      6,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "piece_templates": {
+    "3": {
+      "kind": 6,
+      "rotation": 2
+    },
+    "4": {
+      "kind": 3,
+      "rotation": 3
+    },
+    "5": {
+      "kind": 6,
+      "rotation": 3
+    },
+    "6": {
+      "kind": 5,
+      "rotation": 3
+    },
+    "7": {
+      "kind": 7,
+      "rotation": 2
+    }
+  },
+  "actor": {
+    "x": 2.75,
+    "y": 4.943811416625977,
+    "vy": 0,
+    "ground": true,
+    "facing": 1,
+    "native_frame_before_input": 973,
+    "native_source_pose": "grounded on 20-cell seven-row stack"
+  },
+  "bg3_global_frame_before_input": 973,
+  "native_waterline_pixels": 760,
+  "waterline": -2,
+  "cells": 20,
+  "input": {
+    "gba": "UP",
+    "app_action": "jump",
+    "hold_frames": 40,
+    "total_frames": 90
+  },
+  "native_peak_height": 8.881671905517578,
+  "native_samples": [
+    {
+      "frame": 1,
+      "x": 2.75,
+      "y": 4.943811416625977,
+      "vy": 13.125
+    },
+    {
+      "frame": 2,
+      "x": 2.75,
+      "y": 5.162561416625977,
+      "vy": 12.75003433227539
+    },
+    {
+      "frame": 8,
+      "x": 2.75,
+      "y": 6.343823432922363,
+      "vy": 10.500240325927734
+    },
+    {
+      "frame": 18,
+      "x": 2.75,
+      "y": 7.812639236450195,
+      "vy": 6.750583648681641
+    },
+    {
+      "frame": 32,
+      "x": 2.75,
+      "y": 8.819077491760254,
+      "vy": 1.5010643005371094
+    },
+    {
+      "frame": 40,
+      "x": 2.75,
+      "y": 8.84423542022705,
+      "vy": -1.4986610412597656
+    },
+    {
+      "frame": 56,
+      "x": 2.75,
+      "y": 6.944615364074707,
+      "vy": -13.125
+    },
+    {
+      "frame": 64,
+      "x": 2.75,
+      "y": 5.194615364074707,
+      "vy": -13.125
+    },
+    {
+      "frame": 72,
+      "x": 2.75,
+      "y": 4.975865364074707,
+      "vy": 0
+    },
+    {
+      "frame": 90,
+      "x": 2.75,
+      "y": 4.975865364074707,
+      "vy": 0
+    }
+  ],
+  "tolerance_cells": 0.002,
+  "preview_probe": {
+    "held_kind": 6,
+    "rotation": 0,
+    "purpose": "Synthetic deterministic native piece only for exercising the landing-outline renderer during this captured jump. The source ROM checkpoint itself has no held piece."
+  },
+  "expect_preview_outline": true,
+  "limitations": "Native ROM checkpoint captured after real Survival/Hard input replay with 20 placed cells in seven rows and actor vertical velocity zero. Follow-up captures the native 40-frame UP hold plus 50-frame release. The synthetic preview probe checks grid alignment and rendering stability, not native held-piece timing. Screenshots remain partial-state comparisons until all native art, hazards, OAM and streamed BG3 state are restored. The renderer test now seeds the native camera position captured at the grounded checkpoint and records its per-frame ROM camera samples; the runtime follow rule remains a separate parity check.",
+  "camera_reference_pixels": 640,
+  "camera_position_q16_before_input": 37879808,
+  "camera_offset_before_input": 20,
+  "native_camera_samples": [
+    {
+      "frame": 1,
+      "camera_position_q16": 37683200,
+      "camera_y": 315,
+      "camera_pixels": 65.0
+    },
+    {
+      "frame": 2,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 3,
+      "camera_position_q16": 36831232,
+      "camera_y": 307,
+      "camera_pixels": 78.0
+    },
+    {
+      "frame": 4,
+      "camera_position_q16": 36634624,
+      "camera_y": 306,
+      "camera_pixels": 81.0
+    },
+    {
+      "frame": 5,
+      "camera_position_q16": 36438016,
+      "camera_y": 304,
+      "camera_pixels": 84.0
+    },
+    {
+      "frame": 6,
+      "camera_position_q16": 36241408,
+      "camera_y": 302,
+      "camera_pixels": 87.0
+    },
+    {
+      "frame": 7,
+      "camera_position_q16": 36044800,
+      "camera_y": 301,
+      "camera_pixels": 90.0
+    },
+    {
+      "frame": 8,
+      "camera_position_q16": 35848192,
+      "camera_y": 299,
+      "camera_pixels": 93.0
+    },
+    {
+      "frame": 9,
+      "camera_position_q16": 35651584,
+      "camera_y": 298,
+      "camera_pixels": 96.0
+    },
+    {
+      "frame": 10,
+      "camera_position_q16": 35454976,
+      "camera_y": 296,
+      "camera_pixels": 99.0
+    },
+    {
+      "frame": 11,
+      "camera_position_q16": 35323904,
+      "camera_y": 295,
+      "camera_pixels": 101.0
+    },
+    {
+      "frame": 12,
+      "camera_position_q16": 35127296,
+      "camera_y": 293,
+      "camera_pixels": 104.0
+    },
+    {
+      "frame": 13,
+      "camera_position_q16": 34996224,
+      "camera_y": 292,
+      "camera_pixels": 106.0
+    },
+    {
+      "frame": 14,
+      "camera_position_q16": 34865152,
+      "camera_y": 291,
+      "camera_pixels": 108.0
+    },
+    {
+      "frame": 15,
+      "camera_position_q16": 34668544,
+      "camera_y": 289,
+      "camera_pixels": 111.0
+    },
+    {
+      "frame": 16,
+      "camera_position_q16": 34537472,
+      "camera_y": 288,
+      "camera_pixels": 113.0
+    },
+    {
+      "frame": 17,
+      "camera_position_q16": 34406400,
+      "camera_y": 287,
+      "camera_pixels": 115.0
+    },
+    {
+      "frame": 18,
+      "camera_position_q16": 34275328,
+      "camera_y": 286,
+      "camera_pixels": 117.0
+    },
+    {
+      "frame": 19,
+      "camera_position_q16": 34209792,
+      "camera_y": 285,
+      "camera_pixels": 118.0
+    },
+    {
+      "frame": 20,
+      "camera_position_q16": 34078720,
+      "camera_y": 284,
+      "camera_pixels": 120.0
+    },
+    {
+      "frame": 21,
+      "camera_position_q16": 33947648,
+      "camera_y": 283,
+      "camera_pixels": 122.0
+    },
+    {
+      "frame": 22,
+      "camera_position_q16": 33882112,
+      "camera_y": 283,
+      "camera_pixels": 123.0
+    },
+    {
+      "frame": 23,
+      "camera_position_q16": 33751040,
+      "camera_y": 282,
+      "camera_pixels": 125.0
+    },
+    {
+      "frame": 24,
+      "camera_position_q16": 33685504,
+      "camera_y": 281,
+      "camera_pixels": 126.0
+    },
+    {
+      "frame": 25,
+      "camera_position_q16": 33619968,
+      "camera_y": 281,
+      "camera_pixels": 127.0
+    },
+    {
+      "frame": 26,
+      "camera_position_q16": 33554432,
+      "camera_y": 280,
+      "camera_pixels": 128.0
+    },
+    {
+      "frame": 27,
+      "camera_position_q16": 33488896,
+      "camera_y": 279,
+      "camera_pixels": 129.0
+    },
+    {
+      "frame": 28,
+      "camera_position_q16": 33423360,
+      "camera_y": 279,
+      "camera_pixels": 130.0
+    },
+    {
+      "frame": 29,
+      "camera_position_q16": 33357824,
+      "camera_y": 278,
+      "camera_pixels": 131.0
+    },
+    {
+      "frame": 30,
+      "camera_position_q16": 33292288,
+      "camera_y": 278,
+      "camera_pixels": 132.0
+    },
+    {
+      "frame": 31,
+      "camera_position_q16": 33292288,
+      "camera_y": 278,
+      "camera_pixels": 132.0
+    },
+    {
+      "frame": 32,
+      "camera_position_q16": 33226752,
+      "camera_y": 277,
+      "camera_pixels": 133.0
+    },
+    {
+      "frame": 33,
+      "camera_position_q16": 33226752,
+      "camera_y": 277,
+      "camera_pixels": 133.0
+    },
+    {
+      "frame": 34,
+      "camera_position_q16": 33226752,
+      "camera_y": 277,
+      "camera_pixels": 133.0
+    },
+    {
+      "frame": 35,
+      "camera_position_q16": 33161216,
+      "camera_y": 277,
+      "camera_pixels": 134.0
+    },
+    {
+      "frame": 36,
+      "camera_position_q16": 33161216,
+      "camera_y": 277,
+      "camera_pixels": 134.0
+    },
+    {
+      "frame": 37,
+      "camera_position_q16": 33161216,
+      "camera_y": 277,
+      "camera_pixels": 134.0
+    },
+    {
+      "frame": 38,
+      "camera_position_q16": 33161216,
+      "camera_y": 277,
+      "camera_pixels": 134.0
+    },
+    {
+      "frame": 39,
+      "camera_position_q16": 33226752,
+      "camera_y": 277,
+      "camera_pixels": 133.0
+    },
+    {
+      "frame": 40,
+      "camera_position_q16": 33226752,
+      "camera_y": 277,
+      "camera_pixels": 133.0
+    },
+    {
+      "frame": 41,
+      "camera_position_q16": 33226752,
+      "camera_y": 277,
+      "camera_pixels": 133.0
+    },
+    {
+      "frame": 42,
+      "camera_position_q16": 33292288,
+      "camera_y": 278,
+      "camera_pixels": 132.0
+    },
+    {
+      "frame": 43,
+      "camera_position_q16": 33357824,
+      "camera_y": 278,
+      "camera_pixels": 131.0
+    },
+    {
+      "frame": 44,
+      "camera_position_q16": 33423360,
+      "camera_y": 279,
+      "camera_pixels": 130.0
+    },
+    {
+      "frame": 45,
+      "camera_position_q16": 33488896,
+      "camera_y": 279,
+      "camera_pixels": 129.0
+    },
+    {
+      "frame": 46,
+      "camera_position_q16": 33554432,
+      "camera_y": 280,
+      "camera_pixels": 128.0
+    },
+    {
+      "frame": 47,
+      "camera_position_q16": 33685504,
+      "camera_y": 281,
+      "camera_pixels": 126.0
+    },
+    {
+      "frame": 48,
+      "camera_position_q16": 33816576,
+      "camera_y": 282,
+      "camera_pixels": 124.0
+    },
+    {
+      "frame": 49,
+      "camera_position_q16": 33947648,
+      "camera_y": 283,
+      "camera_pixels": 122.0
+    },
+    {
+      "frame": 50,
+      "camera_position_q16": 34078720,
+      "camera_y": 284,
+      "camera_pixels": 120.0
+    },
+    {
+      "frame": 51,
+      "camera_position_q16": 34209792,
+      "camera_y": 285,
+      "camera_pixels": 118.0
+    },
+    {
+      "frame": 52,
+      "camera_position_q16": 34406400,
+      "camera_y": 287,
+      "camera_pixels": 115.0
+    },
+    {
+      "frame": 53,
+      "camera_position_q16": 34603008,
+      "camera_y": 289,
+      "camera_pixels": 112.0
+    },
+    {
+      "frame": 54,
+      "camera_position_q16": 34799616,
+      "camera_y": 290,
+      "camera_pixels": 109.0
+    },
+    {
+      "frame": 55,
+      "camera_position_q16": 34996224,
+      "camera_y": 292,
+      "camera_pixels": 106.0
+    },
+    {
+      "frame": 56,
+      "camera_position_q16": 35192832,
+      "camera_y": 294,
+      "camera_pixels": 103.0
+    },
+    {
+      "frame": 57,
+      "camera_position_q16": 35454976,
+      "camera_y": 296,
+      "camera_pixels": 99.0
+    },
+    {
+      "frame": 58,
+      "camera_position_q16": 35651584,
+      "camera_y": 298,
+      "camera_pixels": 96.0
+    },
+    {
+      "frame": 59,
+      "camera_position_q16": 35913728,
+      "camera_y": 300,
+      "camera_pixels": 92.0
+    },
+    {
+      "frame": 60,
+      "camera_position_q16": 36110336,
+      "camera_y": 301,
+      "camera_pixels": 89.0
+    },
+    {
+      "frame": 61,
+      "camera_position_q16": 36372480,
+      "camera_y": 304,
+      "camera_pixels": 85.0
+    },
+    {
+      "frame": 62,
+      "camera_position_q16": 36569088,
+      "camera_y": 305,
+      "camera_pixels": 82.0
+    },
+    {
+      "frame": 63,
+      "camera_position_q16": 36831232,
+      "camera_y": 307,
+      "camera_pixels": 78.0
+    },
+    {
+      "frame": 64,
+      "camera_position_q16": 37027840,
+      "camera_y": 309,
+      "camera_pixels": 75.0
+    },
+    {
+      "frame": 65,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 66,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 67,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 68,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 69,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 70,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 71,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 72,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 73,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 74,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 75,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 76,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 77,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 78,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 79,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 80,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 81,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 82,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 83,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 84,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 85,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 86,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 87,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 88,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 89,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    },
+    {
+      "frame": 90,
+      "camera_position_q16": 37289984,
+      "camera_y": 311,
+      "camera_pixels": 71.0
+    }
+  ]
+}

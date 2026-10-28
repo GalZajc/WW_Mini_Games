@@ -1,0 +1,312 @@
+{
+  "parameters": {
+    "profiles": {
+      "neutral": "scripts/OUTPUT/eggo-reference_2026-10-03_03-35-31_795765/boots-expiry",
+      "fast": "scripts/OUTPUT/eggo-reference_2026-10-03_03-35-31_697093/boots-fast",
+      "walk": "scripts/OUTPUT/eggo-reference_2026-10-03_03-35-09_701433/boots-speed"
+    },
+    "catch": "scripts/OUTPUT/eggo-reference_2026-10-03_03-34-04_875572/boots-held",
+    "expired": "scripts/OUTPUT/eggo-reference_2026-10-03_03-37-55_279613/boots-expired",
+    "timer_address": 17664,
+    "frame_rate": 60,
+    "sample_frames": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      16,
+      24
+    ]
+  },
+  "profiles": [
+    {
+      "kind": "neutral",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_03-35-31_795765/boots-expiry",
+      "writes": [],
+      "steps": [
+        [
+          8,
+          "UP"
+        ],
+        [
+          16,
+          ""
+        ],
+        [
+          360,
+          ""
+        ],
+        [
+          8,
+          "UP"
+        ]
+      ],
+      "initial_state_sha256": "934fad1efe9f14e07e2a32a1c75bdec035167b8b462915694fa430b654a7a675",
+      "trace_sha256": "43f64832bc8e8022fbc6c83e55b762aa5e6b86590bad969f793ff832debd162f",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "samples": [
+        {
+          "frame": 1,
+          "keys": "UP",
+          "world_x": 34.5,
+          "world_y": 720.8659515380859
+        },
+        {
+          "frame": 2,
+          "keys": "UP",
+          "world_x": 34.5,
+          "world_y": 715.8659515380859
+        },
+        {
+          "frame": 8,
+          "keys": "UP",
+          "world_x": 34.5,
+          "world_y": 687.9657592773438
+        },
+        {
+          "frame": 9,
+          "keys": "",
+          "world_x": 34.5,
+          "world_y": 683.6656951904297
+        },
+        {
+          "frame": 10,
+          "keys": "",
+          "world_x": 34.5,
+          "world_y": 679.6656188964844
+        },
+        {
+          "frame": 16,
+          "keys": "",
+          "world_x": 34.5,
+          "world_y": 661.9649047851562
+        },
+        {
+          "frame": 24,
+          "keys": "",
+          "world_x": 34.5,
+          "world_y": 655.1632690429688
+        }
+      ]
+    },
+    {
+      "kind": "fast",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_03-35-31_697093/boots-fast",
+      "writes": [],
+      "steps": [
+        [
+          8,
+          "UP"
+        ],
+        [
+          16,
+          "DOWN"
+        ]
+      ],
+      "initial_state_sha256": "934fad1efe9f14e07e2a32a1c75bdec035167b8b462915694fa430b654a7a675",
+      "trace_sha256": "c544b173e494bdcf66670da0d6510129630e36d88d6de84ecc5e19ebecc384e7",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "samples": [
+        {
+          "frame": 1,
+          "keys": "UP",
+          "world_x": 34.5,
+          "world_y": 720.8659515380859
+        },
+        {
+          "frame": 2,
+          "keys": "UP",
+          "world_x": 34.5,
+          "world_y": 715.8659515380859
+        },
+        {
+          "frame": 8,
+          "keys": "UP",
+          "world_x": 34.5,
+          "world_y": 687.9657592773438
+        },
+        {
+          "frame": 9,
+          "keys": "DOWN",
+          "world_x": 34.5,
+          "world_y": 683.6656951904297
+        },
+        {
+          "frame": 10,
+          "keys": "DOWN",
+          "world_x": 34.5,
+          "world_y": 679.8656311035156
+        },
+        {
+          "frame": 16,
+          "keys": "DOWN",
+          "world_x": 34.5,
+          "world_y": 667.5652465820312
+        },
+        {
+          "frame": 24,
+          "keys": "DOWN",
+          "world_x": 34.5,
+          "world_y": 679.1647338867188
+        }
+      ]
+    },
+    {
+      "kind": "walk",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-03_03-35-09_701433/boots-speed",
+      "writes": [],
+      "steps": [
+        [
+          8,
+          "RIGHT"
+        ],
+        [
+          8,
+          ""
+        ]
+      ],
+      "initial_state_sha256": "a44c52df3b2f4ddff42519ec42517f576a4cf4bc820133ae2bb748360c8821fd",
+      "trace_sha256": "dcadb557de9839801c5ceb86d853647b7080ba34cbd38deba6c4ec3558edd9ca",
+      "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+      "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+      "samples": [
+        {
+          "frame": 1,
+          "keys": "RIGHT",
+          "world_x": 36.75,
+          "world_y": 593.354736328125
+        },
+        {
+          "frame": 2,
+          "keys": "RIGHT",
+          "world_x": 39.0,
+          "world_y": 593.5542755126953
+        },
+        {
+          "frame": 3,
+          "keys": "RIGHT",
+          "world_x": 41.25,
+          "world_y": 594.0538024902344
+        },
+        {
+          "frame": 4,
+          "keys": "RIGHT",
+          "world_x": 43.5,
+          "world_y": 594.8533172607422
+        },
+        {
+          "frame": 5,
+          "keys": "RIGHT",
+          "world_x": 45.75,
+          "world_y": 595.9528198242188
+        },
+        {
+          "frame": 6,
+          "keys": "RIGHT",
+          "world_x": 48.0,
+          "world_y": 597.3523101806641
+        },
+        {
+          "frame": 7,
+          "keys": "RIGHT",
+          "world_x": 50.25,
+          "world_y": 599.0517883300781
+        },
+        {
+          "frame": 8,
+          "keys": "RIGHT",
+          "world_x": 52.5,
+          "world_y": 601.0512542724609
+        }
+      ]
+    }
+  ],
+  "automatic_catch": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_03-34-04_875572/boots-held",
+    "writes": [],
+    "steps": [
+      [
+        2,
+        "R"
+      ],
+      [
+        27,
+        "LEFT+UP"
+      ],
+      [
+        21,
+        "UP"
+      ]
+    ],
+    "initial_state_sha256": "ecab0659c62eb0deb696aea3fbd72747d38943def4818c2fc02e3fa173e529fc",
+    "trace_sha256": "e4ec9b6c266510aaddaad8e263065136a2740955d279c8a607eebdf4ffcc37b7",
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "timer_samples": [
+      {
+        "frame": 5,
+        "steps_remaining": 0
+      },
+      {
+        "frame": 10,
+        "steps_remaining": 0
+      },
+      {
+        "frame": 15,
+        "steps_remaining": 0
+      },
+      {
+        "frame": 20,
+        "steps_remaining": 0
+      },
+      {
+        "frame": 25,
+        "steps_remaining": 598
+      },
+      {
+        "frame": 30,
+        "steps_remaining": 593
+      },
+      {
+        "frame": 35,
+        "steps_remaining": 588
+      },
+      {
+        "frame": 40,
+        "steps_remaining": 583
+      },
+      {
+        "frame": 45,
+        "steps_remaining": 578
+      },
+      {
+        "frame": 50,
+        "steps_remaining": 573
+      }
+    ],
+    "inferred_activation_frame": 23,
+    "duration_frames": 600
+  },
+  "expiry": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_03-37-55_279613/boots-expired",
+    "writes": [],
+    "steps": [
+      [
+        501,
+        ""
+      ],
+      [
+        8,
+        "UP"
+      ]
+    ],
+    "initial_state_sha256": "934fad1efe9f14e07e2a32a1c75bdec035167b8b462915694fa430b654a7a675",
+    "trace_sha256": "f0b15e93d6cded0263093ef20bfffc9bbb018a683c6e5ae94da11528a13929d3",
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "observed_remaining_frames": 0
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_13-55-10_161647/bomb-right-expiry.frame00248",
+    "replay": "bomb-right-expiry",
+    "objects": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "letters": "LOSE!WIN!",
+    "size": 16,
+    "palette": 12
+  },
+  "source_parameters": {
+    "output_collision_index": 0,
+    "item_trace_parameters": {
+      "item_palette": 2,
+      "actor_palettes": [
+        0,
+        1
+      ],
+      "held_offset": [
+        24,
+        15
+      ],
+      "held_tolerance": 3,
+      "size": 16,
+      "actor_anchor": [
+        32,
+        56
+      ],
+      "actor_world_addresses": [
+        15316,
+        20304
+      ],
+      "capture_unknown_pictures": true,
+      "inventory_addresses": [
+        17464,
+        22452
+      ],
+      "bomb_inventory_id": 8,
+      "icon_indices": {
+        "bomb": 27,
+        "boots": 19,
+        "cloud": 14,
+        "filler": 9,
+        "hammer": 29
+      }
+    },
+    "rival_pose_parameters": null,
+    "load": "scripts/OUTPUT/eggo-reference_2026-10-03_13-32-22_191046/inventory-bomb-0.frame03567.state",
+    "steps": [
+      [
+        2,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        270,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [],
+    "sample_every": 10,
+    "sample_graphics": true,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "board_events": true,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [
+      248,
+      249,
+      250,
+      251,
+      252,
+      253
+    ],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "a000d8009f333cd1449653351c9ec72885bd6e36ab31d56dea5eabe4b482efe6",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 280
+  },
+  "objects": [
+    {
+      "id": 2,
+      "x": 6,
+      "y": 52,
+      "w": 16,
+      "h": 16,
+      "tile": 956,
+      "palette": 12
+    },
+    {
+      "id": 3,
+      "x": 25,
+      "y": 52,
+      "w": 16,
+      "h": 16,
+      "tile": 952,
+      "palette": 12
+    },
+    {
+      "id": 4,
+      "x": 45,
+      "y": 51,
+      "w": 16,
+      "h": 16,
+      "tile": 948,
+      "palette": 12
+    },
+    {
+      "id": 5,
+      "x": 64,
+      "y": 51,
+      "w": 16,
+      "h": 16,
+      "tile": 944,
+      "palette": 12
+    },
+    {
+      "id": 6,
+      "x": 84,
+      "y": 50,
+      "w": 16,
+      "h": 16,
+      "tile": 940,
+      "palette": 12
+    },
+    {
+      "id": 7,
+      "x": 153,
+      "y": 50,
+      "w": 16,
+      "h": 16,
+      "tile": 936,
+      "palette": 12
+    },
+    {
+      "id": 8,
+      "x": 170,
+      "y": 50,
+      "w": 16,
+      "h": 16,
+      "tile": 932,
+      "palette": 12
+    },
+    {
+      "id": 9,
+      "x": 186,
+      "y": 50,
+      "w": 16,
+      "h": 16,
+      "tile": 928,
+      "palette": 12
+    },
+    {
+      "id": 10,
+      "x": 203,
+      "y": 51,
+      "w": 16,
+      "h": 16,
+      "tile": 924,
+      "palette": 12
+    }
+  ],
+  "image_sha256": "ffb16c3ba255e5beb8abbc9cdb8f4e5282ba0a6bba18786f510afb64dbab8014",
+  "graphics_sha256": {
+    ".memory3": "8a211e55c950bb55603efa7dd9d040ba9ae512699ff12891a64337fb7a4323a3",
+    ".0x5000000": "1bc1da5c5b18213f88339e2dd06846afb72ba425fe14121bf07cd769320b5c96",
+    ".0x7000000": "6a9622d507f8955c8a49c9df78807ebc5d7fa1490068df7453407b0b83dfd880",
+    ".0x4000000": "49f6e9ed72364e51e3e7e0e00ca805d7fed72336249d6b14803a2e9bfe71554e"
+  }
+}

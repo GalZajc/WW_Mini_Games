@@ -1,0 +1,280 @@
+{
+  "parameters": {
+    "jump": "scripts/OUTPUT/eggo-reference_2026-10-03_18-03-02_137738/sfx-first-jump",
+    "neutral": "scripts/OUTPUT/eggo-reference_2026-10-03_18-00-47_904566/sfx-clean-neutral",
+    "origin": "scripts/OUTPUT/eggo-reference_2026-10-03_18-00-10_876237/yolko-sfx-origin",
+    "option_evidence": "scripts/OUTPUT/eggo-reference_2026-10-03_17-56-29_461054/native-no-music",
+    "isolated_before_sample": 16000,
+    "silent_tail_samples": 256,
+    "normalization": false,
+    "format": "stereo signed 16-bit PCM"
+  },
+  "source_parameters": {
+    "output_collision_index": 0,
+    "item_trace_parameters": null,
+    "rival_pose_parameters": null,
+    "load": "scripts/OUTPUT/eggo-reference_2026-10-03_18-00-10_876237/yolko-sfx-origin.state",
+    "steps": [
+      [
+        8,
+        "UP"
+      ],
+      [
+        72,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [],
+    "sample_every": 0,
+    "sample_graphics": false,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "audio": {
+      "sample_rate": 32768,
+      "fps": 59.727500915527344,
+      "channels": 2,
+      "sample_width": 2,
+      "sample_frames": 43520,
+      "pcm_sha256": "308a1c2cca8768162b746e8a1b8fbf7a0d73a13518aa4e4559067ae211435fba",
+      "wav_sha256": "bb23e7a4e62ea3f62bf7635742617c3152337f8ef2b963bb1622446bdc734d91"
+    },
+    "board_events": false,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "dc051f81fd6bef1ebaee9000eb892a4be8192618c8f10b4355cc3b2298291bae",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 80
+  },
+  "control_parameters": {
+    "output_collision_index": 0,
+    "item_trace_parameters": null,
+    "rival_pose_parameters": null,
+    "load": "scripts/OUTPUT/eggo-reference_2026-10-03_18-00-10_876237/yolko-sfx-origin.state",
+    "steps": [
+      [
+        80,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [],
+    "sample_every": 0,
+    "sample_graphics": false,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "audio": {
+      "sample_rate": 32768,
+      "fps": 59.727500915527344,
+      "channels": 2,
+      "sample_width": 2,
+      "sample_frames": 43520,
+      "pcm_sha256": "276f56449649ef77fbb5a4b325e3bd9a035fdfd1928b3245f29568123b3af857",
+      "wav_sha256": "171865d32279c69ff1fec688525cf84ef7e32b3a5fc8cb09d8e2dd18db57d0fe"
+    },
+    "board_events": false,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "dc051f81fd6bef1ebaee9000eb892a4be8192618c8f10b4355cc3b2298291bae",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 80
+  },
+  "origin_parameters": {
+    "output_collision_index": 0,
+    "item_trace_parameters": null,
+    "rival_pose_parameters": null,
+    "load": "survival-hard",
+    "steps": [
+      [
+        8,
+        "A"
+      ],
+      [
+        420,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [
+      [
+        1012,
+        2
+      ]
+    ],
+    "sample_every": 0,
+    "sample_graphics": false,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "audio": {
+      "sample_rate": 32768,
+      "fps": 59.727500915527344,
+      "channels": 2,
+      "sample_width": 2,
+      "sample_frames": 234496,
+      "pcm_sha256": "feb6079ee671709bf0bd37f314c4903e6e1a5b5e406ebbda922974daef807b2b",
+      "wav_sha256": "61bb3b703c9b3b3a299f4a7a1f6b6d14cda18191b1ad943ea5004f5f03f307b7"
+    },
+    "board_events": false,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "3ec90524d2ab90d9c4c8aae2eb4f66b87f98ea6acb7c8a416159409298bfa4a3",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 428
+  },
+  "option_evidence_parameters": {
+    "output_collision_index": 0,
+    "item_trace_parameters": null,
+    "rival_pose_parameters": null,
+    "load": "scripts/OUTPUT/eggo-reference_2026-10-03_17-42-58_897743/native-sound-choice2.state",
+    "steps": [
+      [
+        8,
+        "RIGHT"
+      ],
+      [
+        30,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [],
+    "sample_every": 0,
+    "sample_graphics": false,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "audio": {
+      "sample_rate": 32768,
+      "fps": 59.727500915527344,
+      "channels": 2,
+      "sample_width": 2,
+      "sample_frames": 20480,
+      "pcm_sha256": "1f29fcabbe4e810e61f6a95ae82e7c4b67bce703113a9135bc53d9b35f6c2a2d",
+      "wav_sha256": "b4954145bfb966daf4e646512b899a3cafc63850affbc6207c1a6c32c8a06254"
+    },
+    "board_events": false,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "3c8740b2d48d505653ddcce9a0970dff6ad78819abf678383cab97bdf0ec8a58",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 38
+  },
+  "option_screenshot_sha256": "b4644866651aeaa6b1243b6726524bf63dc191069becf375f4f1bc0baa5a2917",
+  "sample_rate": 32768,
+  "sample_frames": 14515,
+  "first_active_sample": 1198,
+  "last_active_sample": 14258,
+  "pcm_sha256": "d9d386b8d994fed455d734c312543193ca0b7c9d0438404f917f666fd4a99f42",
+  "limits": "Clean normal jump cue. Native shared-channel suppression and boosted jumps remain uncalibrated."
+}

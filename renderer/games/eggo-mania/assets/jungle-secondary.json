@@ -1,0 +1,30 @@
+[
+  {
+    "phase": 0,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-58-51_689169\\jungle-secondary-art.frame00005",
+    "object": {
+      "id": 26,
+      "x": 207,
+      "y": 254,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 9
+    },
+    "pixel_sha256": "32d9b51af13a605fc2029c1a7dfac3670a1b6f139bc0cd71f179379dc8b3ca5b"
+  },
+  {
+    "phase": 1,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-58-51_689169\\jungle-secondary-art.frame00010",
+    "object": {
+      "id": 28,
+      "x": 202,
+      "y": 247,
+      "w": 32,
+      "h": 32,
+      "tile": 750,
+      "palette": 9
+    },
+    "pixel_sha256": "5fffa29604b0f4fa9c8a2566c958ceb114c0abbfa3bf11d95ba2a8b88e40765d"
+  }
+]

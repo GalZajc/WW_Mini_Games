@@ -1,0 +1,350 @@
+{
+  "parameters": {
+    "loss": "scripts/OUTPUT/eggo-reference_2026-10-04_22-09-13_475528/result-music-clean",
+    "win": "scripts/OUTPUT/eggo-reference_2026-10-04_22-13-24_319834/win-result-audio-full",
+    "shared_frames": 225,
+    "native_frame_cycles": 280896,
+    "native_cpu_hz": 16777216,
+    "seam_search_samples": 512,
+    "silent_tail_samples": 512,
+    "normalization": false,
+    "crossfade": false,
+    "seed": "encoded in original states"
+  },
+  "tracks": {
+    "result-intro": {
+      "file": "result-intro.wav",
+      "sample_rate": 32768,
+      "sample_frames": 123392,
+      "duration_seconds": 3.765625,
+      "pcm_sha256": "3685a7f41d93399e134be7936bdd6e0a77262ca1f2aff941d3cb296ec2b064ae",
+      "loop": false,
+      "loop_start_seconds": 0
+    },
+    "result-loss": {
+      "file": "result-loss.wav",
+      "sample_rate": 32768,
+      "sample_frames": 179803,
+      "duration_seconds": 5.487152099609375,
+      "pcm_sha256": "3eb1b2e465b8831d348156a0a4885412b2a39cc94ab8c87e492f86d9ac5a2f66",
+      "loop": false,
+      "loop_start_seconds": 0
+    },
+    "result-win": {
+      "file": "result-win.wav",
+      "sample_rate": 32768,
+      "sample_frames": 623298,
+      "duration_seconds": 19.02154541015625,
+      "pcm_sha256": "1ea1f5d0d3d4eef81310a0520b6fda9e9aee2519b19fd79b6abc0b3276699e65",
+      "loop": true,
+      "loop_start_seconds": 6.16314697265625,
+      "period_frames": 768,
+      "verified_frames": 768
+    }
+  },
+  "measurements": [
+    {
+      "name": "result-intro",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-04_22-09-13_475528/result-music-clean",
+      "source_parameters": {
+        "podium_trace_parameters": null,
+        "collapse_trace_parameters": null,
+        "pickup_trace_parameters": null,
+        "pickup_initial": null,
+        "output_collision_index": 0,
+        "enemy_trace_parameters": null,
+        "projectile_trace_parameters": null,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_13-55-10_161647/bomb-right-expiry.loss00244.state",
+        "steps": [
+          [
+            600,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "survival_config_parameters": null,
+        "survival_config_initial": null,
+        "audio": {
+          "sample_rate": 32768,
+          "fps": 59.727500915527344,
+          "channels": 2,
+          "sample_width": 2,
+          "sample_frames": 328704,
+          "pcm_sha256": "9865110bef6c8d655caa00bfb2392724e10adf81afa32d4ed787e377808185dd",
+          "wav_sha256": "683d8937211a361e3e495468312787288bd564ea9f2aabc7b6e8e40411ae3140"
+        },
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          1,
+          2,
+          3,
+          50,
+          110,
+          220,
+          350,
+          600
+        ],
+        "music_trace_parameters": {
+          "iwram_base": 50331648,
+          "track_root": 9520,
+          "track_stride": 16,
+          "tracks": 8
+        },
+        "ai_trace_parameters": null,
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "78bb48f13cb8b025202bb765757dee6b3175d228f5b9e3eae01efa4d4c68b177",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 600
+      },
+      "source_trace_sha256": "e44f7a5c570891b7a6aa267e7eda02868aa79667cd960c2f06fe6c94f7bd4956",
+      "start_sample": 0,
+      "end_sample": 123392,
+      "loop_start_sample": null,
+      "file": "result-intro.wav",
+      "sample_rate": 32768,
+      "sample_frames": 123392,
+      "duration_seconds": 3.765625,
+      "pcm_sha256": "3685a7f41d93399e134be7936bdd6e0a77262ca1f2aff941d3cb296ec2b064ae",
+      "loop": false,
+      "loop_start_seconds": 0
+    },
+    {
+      "name": "result-loss",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-04_22-09-13_475528/result-music-clean",
+      "source_parameters": {
+        "podium_trace_parameters": null,
+        "collapse_trace_parameters": null,
+        "pickup_trace_parameters": null,
+        "pickup_initial": null,
+        "output_collision_index": 0,
+        "enemy_trace_parameters": null,
+        "projectile_trace_parameters": null,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_13-55-10_161647/bomb-right-expiry.loss00244.state",
+        "steps": [
+          [
+            600,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "survival_config_parameters": null,
+        "survival_config_initial": null,
+        "audio": {
+          "sample_rate": 32768,
+          "fps": 59.727500915527344,
+          "channels": 2,
+          "sample_width": 2,
+          "sample_frames": 328704,
+          "pcm_sha256": "9865110bef6c8d655caa00bfb2392724e10adf81afa32d4ed787e377808185dd",
+          "wav_sha256": "683d8937211a361e3e495468312787288bd564ea9f2aabc7b6e8e40411ae3140"
+        },
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          1,
+          2,
+          3,
+          50,
+          110,
+          220,
+          350,
+          600
+        ],
+        "music_trace_parameters": {
+          "iwram_base": 50331648,
+          "track_root": 9520,
+          "track_stride": 16,
+          "tracks": 8
+        },
+        "ai_trace_parameters": null,
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "78bb48f13cb8b025202bb765757dee6b3175d228f5b9e3eae01efa4d4c68b177",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 600
+      },
+      "source_trace_sha256": "e44f7a5c570891b7a6aa267e7eda02868aa79667cd960c2f06fe6c94f7bd4956",
+      "start_sample": 123392,
+      "end_sample": 303195,
+      "loop_start_sample": null,
+      "file": "result-loss.wav",
+      "sample_rate": 32768,
+      "sample_frames": 179803,
+      "duration_seconds": 5.487152099609375,
+      "pcm_sha256": "3eb1b2e465b8831d348156a0a4885412b2a39cc94ab8c87e492f86d9ac5a2f66",
+      "loop": false,
+      "loop_start_seconds": 0
+    },
+    {
+      "name": "result-win",
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-04_22-13-24_319834/win-result-audio-full",
+      "source_parameters": {
+        "podium_trace_parameters": null,
+        "collapse_trace_parameters": null,
+        "pickup_trace_parameters": null,
+        "pickup_initial": null,
+        "output_collision_index": 0,
+        "enemy_trace_parameters": null,
+        "projectile_trace_parameters": null,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "tests/artifacts/eggo-reference/round4.state",
+        "steps": [
+          [
+            2400,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [
+          [
+            15320,
+            0
+          ]
+        ],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "survival_config_parameters": null,
+        "survival_config_initial": null,
+        "audio": {
+          "sample_rate": 32768,
+          "fps": 59.727500915527344,
+          "channels": 2,
+          "sample_width": 2,
+          "sample_frames": 1316352,
+          "pcm_sha256": "6a08bdfe41021b47596f60ec3736f602fb428b8bb88b814faef076ae57527817",
+          "wav_sha256": "2dd31e2dc1433b7639a445c78c8edc9ca6cc0083b4852294f81b479ab2d9951d"
+        },
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "music_trace_parameters": {
+          "iwram_base": 50331648,
+          "track_root": 9520,
+          "track_stride": 16,
+          "tracks": 8
+        },
+        "ai_trace_parameters": null,
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "849cf3b6fdf6d89de60890d7eb18521b6e3b7ec003621cdee81864398183718c",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 2400
+      },
+      "source_trace_sha256": "e978b02e3ad4e1b37298f4ffb93cb132ed92b7edf469141afefc03a18ad6662f",
+      "start_sample": 123392,
+      "end_sample": 746690,
+      "loop_start_sample": 325346,
+      "file": "result-win.wav",
+      "sample_rate": 32768,
+      "sample_frames": 623298,
+      "duration_seconds": 19.02154541015625,
+      "pcm_sha256": "1ea1f5d0d3d4eef81310a0520b6fda9e9aee2519b19fd79b6abc0b3276699e65",
+      "loop": true,
+      "loop_start_seconds": 6.16314697265625
+    }
+  ],
+  "limits": "Native music-only option, stereo PCM unchanged. Result voices/shared SFX channels and sub-packet entry latency remain unverified. Winning origin is an explicit rescue-position diagnostic."
+}

@@ -1,0 +1,24 @@
+{
+  "source": "scripts/OUTPUT/eggo-reference_2026-10-06_04-09-56_843030/player-poses/poses.json",
+  "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+  "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+  "steps": [[1, ""], [15, "RIGHT"], [30, "LEFT"], [30, "RIGHT"], [15, "LEFT"]],
+  "native_walk_ticks_per_pose": 4,
+  "native_walk_frames": [
+    {"native_frame": 18, "pose": 0, "image_sha256": "c12db0ecface25f6955f50133877d0d6716dd9a322fc7cf5d642b80099fa96c9"},
+    {"native_frame": 22, "pose": 1, "image_sha256": "2479f0ce8862a6f8d16cec235cbd221d55d952e475b0e5f186d72ee8515493b6"},
+    {"native_frame": 26, "pose": 2, "image_sha256": "2859ccbe841949a2eeaea15fd158903e6a3a9b4691b8479db5bb0e999b9a170a"},
+    {"native_frame": 30, "pose": 3, "image_sha256": "a88ddade39ca92f6f8e67af233e20275bcd830435eb5399e1719c58cf127984e"},
+    {"native_frame": 34, "pose": 4, "image_sha256": "42dc612b700d56e7b76c8a33f6808e7fbb235541f5dcb8adcd735741f9f95efd"},
+    {"native_frame": 38, "pose": 5, "image_sha256": "62261f3dd5c63b40973dac4a1dc5623c5455fc9023c26ff05dd7cbdc15214f37"},
+    {"native_frame": 42, "pose": 6, "image_sha256": "f1560e0c1b50a3489aa80abd6dabec78513ca7be18ed0235dc387ab160a17df0"}
+  ],
+  "native_direction_change": {
+    "from": "right",
+    "to": "left",
+    "last_old_direction_pose": 3,
+    "first_new_direction_pose": 0,
+    "oam_delay_ticks": 1
+  }
+}

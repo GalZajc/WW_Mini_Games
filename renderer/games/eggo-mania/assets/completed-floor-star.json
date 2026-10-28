@@ -1,0 +1,18 @@
+{
+  "experiment": "ROM completion-star animation",
+  "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+  "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "rom_pointer": "0x80dbffc",
+  "palette_capture": "scripts\\OUTPUT\\eggo-reference_2026-10-07_13-02-24_227876\\eggo-replay-full-graphics.frame00219",
+  "palette_bank": 2,
+  "asset": "renderer\\games\\eggo-mania\\assets\\completed-floor-star.png",
+  "frames": 8,
+  "frame_size": [
+    8,
+    8
+  ],
+  "random_seed": null,
+  "motion_routine": "0x0801b084",
+  "motion": "type 1 advances world Y by one pixel per update; counter increments every two updates, frame is counter >> 1",
+  "asset_sha256": "75187d9de4c9f8ac0e97dd38b85bfd282e154cbadafa8bf0813750d43a473f1f"
+}

@@ -97,6 +97,9 @@ export class BaseGame {
     /** Called when the window / canvas is resized. */
     onResize(width, height) {}
 
+    /** Backing pixels per CSS pixel; pixel-art games may override this for HiDPI. */
+    canvasPixelRatio() { return 1; }
+
     /* ── Settings & Controls schema (static) ────────────────────── */
 
     /**
@@ -213,7 +216,7 @@ export class BaseGame {
     async onLayoutSettingsApplied(settings) {
         this.settings = { ...(settings || {}) };
         this.refreshLayout?.();
-        this.onResize?.(this.canvas?.width, this.canvas?.height);
+        this.onResize?.(window.innerWidth, window.innerHeight);
         this.render?.();
     }
 

@@ -1,0 +1,1534 @@
+{
+  "source_capture": "scripts\\OUTPUT\\eggo-reference_2026-10-18_00-17-03_048519",
+  "source_parameters": {
+    "podium_trace_parameters": null,
+    "collapse_trace_parameters": null,
+    "pickup_trace_parameters": {
+      "manager_roots": [
+        13540,
+        18528
+      ],
+      "list_head": 1048,
+      "spawn_clock": 1064,
+      "node_offset": 28,
+      "next": 28,
+      "limit": 18,
+      "ram_base": 33554432,
+      "bag_offset": 4,
+      "bag_types": 13,
+      "bag_total": 56,
+      "fields": {
+        "x": 0,
+        "y": 4,
+        "vx": 20,
+        "vy": 24,
+        "state": 36,
+        "kind": 40,
+        "variant": 44,
+        "wait": 48
+      }
+    },
+    "pickup_initial": [
+      {
+        "spawn_clock": 32,
+        "bag": [
+          3,
+          5,
+          4,
+          5,
+          6,
+          4,
+          3,
+          2,
+          1,
+          2,
+          0,
+          1,
+          1
+        ],
+        "remaining": 37,
+        "items": [
+          {
+            "address": 13860,
+            "x": 3913438,
+            "y": 2091971,
+            "vx": 12316,
+            "vy": -23223,
+            "state": 1,
+            "kind": 2,
+            "variant": 0,
+            "wait": 0
+          },
+          {
+            "address": 13912,
+            "x": 1675668,
+            "y": 4252056,
+            "vx": -4652,
+            "vy": 46884,
+            "state": 1,
+            "kind": 0,
+            "variant": 3,
+            "wait": 0
+          },
+          {
+            "address": 13964,
+            "x": 0,
+            "y": 7270603,
+            "vx": 3305,
+            "vy": 57308,
+            "state": 1,
+            "kind": 10,
+            "variant": 0,
+            "wait": 0
+          },
+          {
+            "address": 14380,
+            "x": 4162075,
+            "y": 10678325,
+            "vx": 199,
+            "vy": 61560,
+            "state": 1,
+            "kind": 0,
+            "variant": 0,
+            "wait": 0
+          },
+          {
+            "address": 14016,
+            "x": 5443486,
+            "y": 14244724,
+            "vx": -541,
+            "vy": 63290,
+            "state": 1,
+            "kind": 7,
+            "variant": 0,
+            "wait": 0
+          },
+          {
+            "address": 14068,
+            "x": 1515114,
+            "y": 18131711,
+            "vx": -145,
+            "vy": 64024,
+            "state": 1,
+            "kind": 7,
+            "variant": 1,
+            "wait": 0
+          },
+          {
+            "address": 14120,
+            "x": 5621139,
+            "y": 22690455,
+            "vx": -96,
+            "vy": 64331,
+            "state": 1,
+            "kind": 7,
+            "variant": 2,
+            "wait": 0
+          },
+          {
+            "address": 14172,
+            "x": 285879,
+            "y": 27648673,
+            "vx": 0,
+            "vy": 64435,
+            "state": 1,
+            "kind": 1,
+            "variant": 2,
+            "wait": 0
+          },
+          {
+            "address": 14224,
+            "x": 1077074,
+            "y": 31322175,
+            "vx": -63,
+            "vy": 64449,
+            "state": 1,
+            "kind": 5,
+            "variant": 3,
+            "wait": 0
+          },
+          {
+            "address": 14276,
+            "x": 5821580,
+            "y": 35575809,
+            "vx": 0,
+            "vy": 64449,
+            "state": 1,
+            "kind": 6,
+            "variant": 1,
+            "wait": 0
+          },
+          {
+            "address": 14328,
+            "x": 4525050,
+            "y": 39249402,
+            "vx": 0,
+            "vy": 64449,
+            "state": 1,
+            "kind": 3,
+            "variant": 3,
+            "wait": 0
+          },
+          {
+            "address": 14432,
+            "x": 5341456,
+            "y": 46596588,
+            "vx": 0,
+            "vy": 64449,
+            "state": 1,
+            "kind": 2,
+            "variant": 0,
+            "wait": 0
+          },
+          {
+            "address": 14484,
+            "x": 1599206,
+            "y": 50355025,
+            "vx": -16966,
+            "vy": 14625,
+            "state": 2,
+            "kind": 10,
+            "variant": 3,
+            "wait": 0
+          }
+        ]
+      },
+      {
+        "spawn_clock": 32,
+        "bag": [
+          3,
+          5,
+          4,
+          5,
+          6,
+          4,
+          3,
+          2,
+          1,
+          2,
+          0,
+          1,
+          1
+        ],
+        "remaining": 37,
+        "items": [
+          {
+            "address": 19420,
+            "x": 3913438,
+            "y": 2091971,
+            "vx": 12316,
+            "vy": -23223,
+            "state": 1,
+            "kind": 2,
+            "variant": 0,
+            "wait": 0
+          },
+          {
+            "address": 19472,
+            "x": 1675668,
+            "y": 4252056,
+            "vx": -4652,
+            "vy": 46884,
+            "state": 1,
+            "kind": 0,
+            "variant": 3,
+            "wait": 0
+          },
+          {
+            "address": 18952,
+            "x": 0,
+            "y": 7270603,
+            "vx": 3305,
+            "vy": 57308,
+            "state": 1,
+            "kind": 10,
+            "variant": 0,
+            "wait": 0
+          },
+          {
+            "address": 19004,
+            "x": 4162075,
+            "y": 10678325,
+            "vx": 199,
+            "vy": 61560,
+            "state": 1,
+            "kind": 0,
+            "variant": 0,
+            "wait": 0
+          },
+          {
+            "address": 19212,
+            "x": 5443486,
+            "y": 14244724,
+            "vx": -541,
+            "vy": 63290,
+            "state": 1,
+            "kind": 7,
+            "variant": 0,
+            "wait": 0
+          },
+          {
+            "address": 19056,
+            "x": 1515114,
+            "y": 18131711,
+            "vx": -145,
+            "vy": 64024,
+            "state": 1,
+            "kind": 7,
+            "variant": 1,
+            "wait": 0
+          },
+          {
+            "address": 19108,
+            "x": 5621139,
+            "y": 22690455,
+            "vx": -96,
+            "vy": 64331,
+            "state": 1,
+            "kind": 7,
+            "variant": 2,
+            "wait": 0
+          },
+          {
+            "address": 19160,
+            "x": 285879,
+            "y": 27648673,
+            "vx": 0,
+            "vy": 64435,
+            "state": 1,
+            "kind": 1,
+            "variant": 2,
+            "wait": 0
+          },
+          {
+            "address": 19264,
+            "x": 5821580,
+            "y": 35575809,
+            "vx": 0,
+            "vy": 64449,
+            "state": 1,
+            "kind": 6,
+            "variant": 1,
+            "wait": 0
+          },
+          {
+            "address": 19316,
+            "x": 4525050,
+            "y": 39249402,
+            "vx": 0,
+            "vy": 64449,
+            "state": 1,
+            "kind": 3,
+            "variant": 3,
+            "wait": 0
+          },
+          {
+            "address": 19368,
+            "x": 3849069,
+            "y": 42922995,
+            "vx": 0,
+            "vy": 64449,
+            "state": 1,
+            "kind": 6,
+            "variant": 0,
+            "wait": 0
+          }
+        ]
+      }
+    ],
+    "output_collision_index": 0,
+    "enemy_trace_parameters": {
+      "roots": [
+        200760,
+        200888,
+        201016,
+        201144
+      ],
+      "frame_address": 72348,
+      "x": 0,
+      "y": 4,
+      "vx": 20,
+      "vy": 24,
+      "animation": 32,
+      "type": 36,
+      "active": 72,
+      "life": 76,
+      "variant": 80,
+      "angle": 84,
+      "speed": 88,
+      "actor_addresses": [
+        15316,
+        20304,
+        15316,
+        20304
+      ],
+      "escape_counter": 2364,
+      "waterline": 2172,
+      "actor_coordinate_offset": 2200
+    },
+    "projectile_trace_parameters": null,
+    "item_trace_parameters": null,
+    "rival_pose_parameters": null,
+    "load": "hard-idle",
+    "steps": [
+      [
+        8,
+        "LEFT+UP"
+      ],
+      [
+        11,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        3,
+        "RIGHT+UP"
+      ],
+      [
+        5,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        1,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        14,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        8,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        6,
+        "RIGHT+UP"
+      ],
+      [
+        3,
+        "RIGHT"
+      ],
+      [
+        19,
+        "LEFT"
+      ],
+      [
+        8,
+        "LEFT+UP"
+      ],
+      [
+        5,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        9,
+        ""
+      ],
+      [
+        7,
+        "UP"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        8,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        5,
+        "LEFT+UP"
+      ],
+      [
+        7,
+        ""
+      ],
+      [
+        7,
+        "RIGHT"
+      ],
+      [
+        7,
+        ""
+      ],
+      [
+        1,
+        "RIGHT"
+      ],
+      [
+        4,
+        "RIGHT+UP"
+      ],
+      [
+        4,
+        "LEFT+UP"
+      ],
+      [
+        11,
+        "LEFT"
+      ],
+      [
+        11,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        8,
+        "RIGHT"
+      ],
+      [
+        14,
+        ""
+      ],
+      [
+        8,
+        "UP"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        1,
+        "RIGHT"
+      ],
+      [
+        9,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        6,
+        "RIGHT"
+      ],
+      [
+        2,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        2,
+        "LEFT+UP"
+      ],
+      [
+        22,
+        "LEFT"
+      ],
+      [
+        6,
+        "LEFT+UP"
+      ],
+      [
+        2,
+        "RIGHT+UP"
+      ],
+      [
+        15,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        8,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        5,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        7,
+        "LEFT+UP"
+      ],
+      [
+        1,
+        "UP"
+      ],
+      [
+        22,
+        ""
+      ],
+      [
+        7,
+        "UP"
+      ],
+      [
+        1,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        6,
+        "RIGHT"
+      ],
+      [
+        16,
+        ""
+      ],
+      [
+        1,
+        "UP"
+      ],
+      [
+        7,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        2,
+        "RIGHT"
+      ],
+      [
+        9,
+        "LEFT"
+      ],
+      [
+        7,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        7,
+        "RIGHT"
+      ],
+      [
+        1,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        2,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        10,
+        "RIGHT"
+      ],
+      [
+        3,
+        "LEFT"
+      ],
+      [
+        9,
+        ""
+      ],
+      [
+        5,
+        "UP"
+      ],
+      [
+        3,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        6,
+        "RIGHT"
+      ],
+      [
+        16,
+        "LEFT"
+      ],
+      [
+        4,
+        "LEFT+UP"
+      ],
+      [
+        4,
+        "UP"
+      ],
+      [
+        13,
+        ""
+      ],
+      [
+        8,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        6,
+        "RIGHT"
+      ],
+      [
+        2,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        21,
+        "LEFT"
+      ],
+      [
+        8,
+        "LEFT+UP"
+      ],
+      [
+        1,
+        "RIGHT"
+      ],
+      [
+        21,
+        ""
+      ],
+      [
+        3,
+        "UP"
+      ],
+      [
+        5,
+        "LEFT+UP"
+      ],
+      [
+        22,
+        "LEFT"
+      ],
+      [
+        8,
+        "LEFT+UP"
+      ],
+      [
+        18,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        8,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        2,
+        "LEFT+UP"
+      ],
+      [
+        7,
+        "LEFT"
+      ],
+      [
+        15,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        14,
+        "RIGHT"
+      ],
+      [
+        8,
+        "LEFT"
+      ]
+    ],
+    "steps_file": "C:\\Users\\galza\\Igre\\pc\\Moje Igrce\\WW Mini Games\\scripts\\OUTPUT\\eggo-extended-input_2026-10-18_00-17-02_887611\\steps.json",
+    "writes": [],
+    "sample_every": 1,
+    "sample_graphics": true,
+    "sample_graphics_at_video": false,
+    "oam_trace": true,
+    "until_result": false,
+    "terminal_game_state": null,
+    "game_state_address": null,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "arena_trace_parameters": {
+      "stage": 12948,
+      "rng": 72364,
+      "rng_game": 72368,
+      "rng_secondary": 72372,
+      "seed": 59812
+    },
+    "field_rng_trace_parameters": {
+      "objects": [
+        13116,
+        18104
+      ],
+      "selector_offset": 4980,
+      "rng_game": 72368,
+      "rng_secondary": 72372,
+      "selector_rule": "zero selects rng_game; nonzero selects rng_secondary"
+    },
+    "arena_initial": {
+      "stage": 1,
+      "rng": 27399,
+      "rng_game": 3118,
+      "rng_secondary": 3118,
+      "seed": 0
+    },
+    "camera_trace_parameters": {
+      "objects": {
+        "player": "0x3910",
+        "cpu": "0x4c8c",
+        "camera_position": "0x4",
+        "camera_scale": "0x2c",
+        "camera_y": "0x70"
+      },
+      "follow_state": {
+        "player_field_root": "0x0200f404",
+        "field_stride": "0x124c",
+        "actor_pointer_offset": "0x1248",
+        "actor_y_offset": "0x6",
+        "actor_gate_offsets": [
+          "0x854",
+          "0x874"
+        ],
+        "field_camera_offset": "0xeb8",
+        "camera_position_offset": "0x4"
+      }
+    },
+    "actor_motion_trace_parameters": {
+      "objects": {
+        "player": "0x3bd4",
+        "cpu": "0x4f50"
+      },
+      "fields": {
+        "x_q16": "0x00",
+        "y_q16": "0x04",
+        "vx_q16": "0x14",
+        "vy_q16": "0x18",
+        "state": "0x874",
+        "next_state": "0x878"
+      }
+    },
+    "global_rng_call_trace_parameters": null,
+    "field_rng_call_trace_parameters": null,
+    "global_rng_actor_trace_parameters": null,
+    "survival_config_parameters": {
+      "root": 59688,
+      "words": 19
+    },
+    "survival_config_initial": [
+      5,
+      9,
+      2,
+      2,
+      1,
+      1,
+      1,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      6,
+      6,
+      9,
+      4,
+      47,
+      9
+    ],
+    "audio": null,
+    "audio_enabled": false,
+    "video_pixel_format": {
+      "id": 2,
+      "name": "RGB565"
+    },
+    "board_events": true,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "music_trace_parameters": null,
+    "ai_trace_parameters": {
+      "brain": 23104,
+      "words": 70,
+      "keys": 59816,
+      "actor": 20304,
+      "fields": {
+        "x": 0,
+        "y": 4,
+        "vx": 20,
+        "vy": 24,
+        "inventory": 2148,
+        "variant": 2152,
+        "state": 2164,
+        "next_state": 2168,
+        "animation_selector": 2132,
+        "animation_state": 2136,
+        "animation_phase": 2140,
+        "animation_random_step": 2144,
+        "animation_flags": 2156,
+        "placement_ready_flag": 2176,
+        "preview_anchor_x": 2292,
+        "preview_anchor_y": 2296
+      }
+    },
+    "bot_parameters": null,
+    "model_bot_summary": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "emulated_rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 1800
+  },
+  "profiles": {
+    "rival-stop": [
+      {
+        "frame": 1381,
+        "selector": 3,
+        "phase": 32768,
+        "random_step": 16384,
+        "source_sha256": "26c4301152f44144c27b6fbefbd7addb89de5019de978fc602e6faf3c6506ac8"
+      },
+      {
+        "frame": 1382,
+        "selector": 3,
+        "phase": 49152,
+        "random_step": 16384,
+        "source_sha256": "b6bb4df72b0f86addc43eb13b2f7dbe96adc2829e1f8842bb62d05aefa9a8580"
+      },
+      {
+        "frame": 1383,
+        "selector": 3,
+        "phase": 65536,
+        "random_step": 16384,
+        "source_sha256": "58d5d2d3e1dd6c13015c88de48f9487b9a231a4f60702c8a496579f51668b1e8"
+      },
+      {
+        "frame": 1384,
+        "selector": 3,
+        "phase": 81920,
+        "random_step": 16384,
+        "source_sha256": "f79de8b324324f045fadfce1f1c1d9a3bfdc7e7f93d3e43c4b6cf093f4df416f"
+      },
+      {
+        "frame": 1385,
+        "selector": 3,
+        "phase": 98304,
+        "random_step": 16384,
+        "source_sha256": "17014aa8b822176989fb48d717bc32aeb1e2eaae250faa3d70ce57bac1bfe026"
+      },
+      {
+        "frame": 1386,
+        "selector": 3,
+        "phase": 114688,
+        "random_step": 16384,
+        "source_sha256": "7099f8dcbcfc15af9e6060c138e5fbca236f177e731bd25da77fc8ee19ab8d07"
+      },
+      {
+        "frame": 1387,
+        "selector": 3,
+        "phase": 131072,
+        "random_step": 16384,
+        "source_sha256": "e89c2948812444ea3ed9c7ed5373164bd161fe1c0a1081af19432205cb5dee59"
+      },
+      {
+        "frame": 1388,
+        "selector": 3,
+        "phase": 147456,
+        "random_step": 16384,
+        "source_sha256": "b456dde320dcc988d1fdb9edb7ecc26e53ea473f30d392e53816f2d15492ee57"
+      },
+      {
+        "frame": 1389,
+        "selector": 3,
+        "phase": 163840,
+        "random_step": 16384,
+        "source_sha256": "a9ce1171bc3467732aa75f634d99b578c018cc40e227d8e02005962382dbd678"
+      },
+      {
+        "frame": 1390,
+        "selector": 3,
+        "phase": 180224,
+        "random_step": 16384,
+        "source_sha256": "e70d0a5ccfaea442d3519c0bde3ecb00cbaf6b93e6e6da7b3444b7d767f924b8"
+      },
+      {
+        "frame": 1391,
+        "selector": 3,
+        "phase": 196608,
+        "random_step": 16384,
+        "source_sha256": "ea73e88a8ef6980a32e26b43a07df25ba559186f33455268c83b228ec4f5e9f2"
+      },
+      {
+        "frame": 1392,
+        "selector": 3,
+        "phase": 212992,
+        "random_step": 16384,
+        "source_sha256": "255c680966c077e5ca7d5337effe73ac2751a88d2d9e816f1d40ad681e95dd4f"
+      },
+      {
+        "frame": 1393,
+        "selector": 3,
+        "phase": 229376,
+        "random_step": 16384,
+        "source_sha256": "29ecf3082262e0129f8e1ce333480707e547e0ca36ba6269739bd1dcc0ca7b5c"
+      },
+      {
+        "frame": 1394,
+        "selector": 3,
+        "phase": 245760,
+        "random_step": 16384,
+        "source_sha256": "1e6f38926c6a82da5af0b439ad6c113922139763e4246318edab7100edccb48f"
+      },
+      {
+        "frame": 1395,
+        "selector": 3,
+        "phase": 262144,
+        "random_step": 16384,
+        "source_sha256": "b11f5497ffdc52e11697b3aebc550e78d178e6639cd3eff947f022562eccc512"
+      },
+      {
+        "frame": 1396,
+        "selector": 3,
+        "phase": 278528,
+        "random_step": 16384,
+        "source_sha256": "531dc8ce256afcb68a7b023225c33e278d8bd44b59e1e4bddfd656df33ec195f"
+      },
+      {
+        "frame": 1397,
+        "selector": 3,
+        "phase": 294912,
+        "random_step": 16384,
+        "source_sha256": "d93cda83c1ddd30cfb0664e8cd65e018baca1c47759b7bf621fd3ffaafe5d1c4"
+      },
+      {
+        "frame": 1398,
+        "selector": 3,
+        "phase": 311296,
+        "random_step": 16384,
+        "source_sha256": "b9088d2d80d2ca312ddf87ae333f31f20a1a0ea6469d59e855008961be27d373"
+      },
+      {
+        "frame": 1399,
+        "selector": 3,
+        "phase": 327680,
+        "random_step": 16384,
+        "source_sha256": "52acb59243df7d26f4c609d44b2672034eff1501c2233bfcb039116842564922"
+      },
+      {
+        "frame": 1400,
+        "selector": 3,
+        "phase": 344064,
+        "random_step": 16384,
+        "source_sha256": "5e5e301e620671351d237265e01585932f6926bae88189bb1c6a56a3207c054e"
+      },
+      {
+        "frame": 1401,
+        "selector": 3,
+        "phase": 360448,
+        "random_step": 16384,
+        "source_sha256": "3f18d14eba4b0ff0a82a8a13b5bf2c4a0c8ad06205cef342fb629717b06f288a"
+      },
+      {
+        "frame": 1402,
+        "selector": 3,
+        "phase": 376832,
+        "random_step": 16384,
+        "source_sha256": "507633c2850f5d1144e032efaa16d476850df135471ad8f5c69c89bb2b8b434c"
+      },
+      {
+        "frame": 1403,
+        "selector": 3,
+        "phase": 393216,
+        "random_step": 16384,
+        "source_sha256": "289e0abe71419f9a3155e3e118d268610e50772e00fd6a9e4501f4273a38ef1a"
+      },
+      {
+        "frame": 1404,
+        "selector": 3,
+        "phase": 409600,
+        "random_step": 16384,
+        "source_sha256": "64ea05b0438a9986710d6546045d37da2a899f955223b786bb6f39a29fe00376"
+      },
+      {
+        "frame": 1405,
+        "selector": 3,
+        "phase": 425984,
+        "random_step": 16384,
+        "source_sha256": "1ef57a8921c18ba99fb423392ae5ed64857ca45f03fad7b703d375c2e0387999"
+      },
+      {
+        "frame": 1406,
+        "selector": 3,
+        "phase": 442368,
+        "random_step": 16384,
+        "source_sha256": "7c2210e742fb9ca77355ffec9f4c34c7d60ea1a00a3df2629b70120a6c733e75"
+      },
+      {
+        "frame": 1407,
+        "selector": 3,
+        "phase": 0,
+        "random_step": 16384,
+        "source_sha256": "6760bb4ab55ca2f3c94608703234aa92b11b805210c7319219a52fb76c6d1e28"
+      },
+      {
+        "frame": 1408,
+        "selector": 2,
+        "phase": 1702,
+        "random_step": 1702,
+        "source_sha256": "5085c5e533617af2567316f95a9c897aaca731875c894c359253496f72d0f7d3"
+      }
+    ],
+    "player-stop-jump": [
+      {
+        "frame": 1401,
+        "selector": 3,
+        "phase": 49152,
+        "random_step": 16384,
+        "source_sha256": "3f18d14eba4b0ff0a82a8a13b5bf2c4a0c8ad06205cef342fb629717b06f288a"
+      },
+      {
+        "frame": 1402,
+        "selector": 3,
+        "phase": 65536,
+        "random_step": 16384,
+        "source_sha256": "507633c2850f5d1144e032efaa16d476850df135471ad8f5c69c89bb2b8b434c"
+      },
+      {
+        "frame": 1403,
+        "selector": 3,
+        "phase": 81920,
+        "random_step": 16384,
+        "source_sha256": "289e0abe71419f9a3155e3e118d268610e50772e00fd6a9e4501f4273a38ef1a"
+      },
+      {
+        "frame": 1404,
+        "selector": 3,
+        "phase": 98304,
+        "random_step": 16384,
+        "source_sha256": "64ea05b0438a9986710d6546045d37da2a899f955223b786bb6f39a29fe00376"
+      },
+      {
+        "frame": 1405,
+        "selector": 3,
+        "phase": 114688,
+        "random_step": 16384,
+        "source_sha256": "1ef57a8921c18ba99fb423392ae5ed64857ca45f03fad7b703d375c2e0387999"
+      },
+      {
+        "frame": 1406,
+        "selector": 3,
+        "phase": 131072,
+        "random_step": 16384,
+        "source_sha256": "7c2210e742fb9ca77355ffec9f4c34c7d60ea1a00a3df2629b70120a6c733e75"
+      },
+      {
+        "frame": 1407,
+        "selector": 3,
+        "phase": 147456,
+        "random_step": 16384,
+        "source_sha256": "6760bb4ab55ca2f3c94608703234aa92b11b805210c7319219a52fb76c6d1e28"
+      },
+      {
+        "frame": 1408,
+        "selector": 3,
+        "phase": 163840,
+        "random_step": 16384,
+        "source_sha256": "5085c5e533617af2567316f95a9c897aaca731875c894c359253496f72d0f7d3"
+      },
+      {
+        "frame": 1409,
+        "selector": 3,
+        "phase": 180224,
+        "random_step": 16384,
+        "source_sha256": "9cae85608417dc7ead8ed3a831929533ed41f28a8bb5390ebb1a52890e41b911"
+      },
+      {
+        "frame": 1410,
+        "selector": 3,
+        "phase": 196608,
+        "random_step": 16384,
+        "source_sha256": "5b8df7139c42ed293b7ecccbfcf59d5e07c2d03445a566beea7619ec1d7047a6"
+      },
+      {
+        "frame": 1411,
+        "selector": 3,
+        "phase": 212992,
+        "random_step": 16384,
+        "source_sha256": "a66a98a7901b2e3c725216ad2276ea0f74e71c494374da5eb569daeecbeb8bf0"
+      },
+      {
+        "frame": 1412,
+        "selector": 5,
+        "phase": 8192,
+        "random_step": 8192,
+        "source_sha256": "d985bb9d8cfd0a653bd1d1a89d21111c0eb2b7ddf16ed1150da7b1b03004f051"
+      }
+    ]
+  }
+}

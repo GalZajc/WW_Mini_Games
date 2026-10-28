@@ -1,0 +1,257 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_01-01-06_741942",
+    "captures": [
+      "bot-tower.frame00120",
+      "bot-tower.frame00600",
+      "bot-tower.frame00840"
+    ],
+    "board_start": 65668,
+    "board_stride": 8,
+    "floor_row": 47,
+    "columns": 7,
+    "floor_tile": 608,
+    "floor_palette": 8,
+    "materials": [
+      "bronze",
+      "silver",
+      "gold"
+    ],
+    "silver_saturation": 0.25,
+    "bronze_green_ratio": 0.67,
+    "corner_size": 8,
+    "states": 5,
+    "platform_source": "scripts/OUTPUT/eggo-reference_2026-10-03_00-45-44_688916/board-before.bg0.png",
+    "platform_rectangle": [
+      0,
+      200,
+      112,
+      248
+    ]
+  },
+  "source_hashes": {
+    "bot-tower.frame00120": {
+      "ram": "e35735b3e826e65b5eb40cc8feae63308c071cefab06345956b686290ead8c01",
+      "memory3": "7eebb37c669d4595ff3fefd2a5f6324e5a52b754b370699554700ad55b909497",
+      "0x5000000": "f488921c5093003c8e7a98c46c0befb19cbdb2de670905bfe0e4cf6c8cf020d6",
+      "0x4000000": "37b94d4dea9cd37b98c6fa84449108b6ae5f5365fc9db719a7bff071fec1ecbf"
+    },
+    "bot-tower.frame00600": {
+      "ram": "bddeaf7ac9a8396797e456492ce97965c63d87e4ca30d5bb1b3f85838d0a65fc",
+      "memory3": "8fff021b5f7cdbf2de5bc064b893540eee9a5bf3cc116633a947cac4a1a68c5b",
+      "0x5000000": "498333f4a53e062a4c23109ab2fbf9357b85c144371bbe7dbe97103ca83bb2c7",
+      "0x4000000": "ff8f8d6a912cbe0c6de724a5a4f7146962d41301c06391593ebdfaf8efc02e9e"
+    },
+    "bot-tower.frame00840": {
+      "ram": "0522ed49d48c32e9ed53b4f5514b7208467224c9ae0a615e1297ae3812a120d2",
+      "memory3": "064d1b6dc79e6dae27af427a56ecb18ff50e360b2a43db9d58d834fc3dacbcfb",
+      "0x5000000": "1fe02a6be85f5c7fe998f199f7120927ad7c7ac96f3c4ad3c4142a1346f9609d",
+      "0x4000000": "75fa7c6408ea56282c3d97b111cfa2aa398290d7437d4ee1a9be18a31ce93519"
+    }
+  },
+  "piece_materials": {
+    "3": "bronze",
+    "4": "bronze",
+    "5": "bronze",
+    "6": "silver",
+    "7": "gold",
+    "8": "gold",
+    "9": "silver"
+  },
+  "exact_samples": 44,
+  "fallbacks": [
+    {
+      "requested": [
+        "bronze",
+        0,
+        4
+      ],
+      "source": [
+        "bronze",
+        0,
+        3
+      ]
+    },
+    {
+      "requested": [
+        "bronze",
+        1,
+        4
+      ],
+      "source": [
+        "bronze",
+        1,
+        3
+      ]
+    },
+    {
+      "requested": [
+        "bronze",
+        2,
+        4
+      ],
+      "source": [
+        "bronze",
+        2,
+        3
+      ]
+    },
+    {
+      "requested": [
+        "bronze",
+        3,
+        4
+      ],
+      "source": [
+        "bronze",
+        3,
+        3
+      ]
+    },
+    {
+      "requested": [
+        "silver",
+        0,
+        3
+      ],
+      "source": [
+        "silver",
+        0,
+        2
+      ]
+    },
+    {
+      "requested": [
+        "silver",
+        0,
+        4
+      ],
+      "source": [
+        "silver",
+        0,
+        2
+      ]
+    },
+    {
+      "requested": [
+        "silver",
+        1,
+        1
+      ],
+      "source": [
+        "silver",
+        1,
+        0
+      ]
+    },
+    {
+      "requested": [
+        "silver",
+        1,
+        4
+      ],
+      "source": [
+        "silver",
+        1,
+        3
+      ]
+    },
+    {
+      "requested": [
+        "silver",
+        2,
+        1
+      ],
+      "source": [
+        "silver",
+        2,
+        0
+      ]
+    },
+    {
+      "requested": [
+        "silver",
+        2,
+        4
+      ],
+      "source": [
+        "silver",
+        2,
+        3
+      ]
+    },
+    {
+      "requested": [
+        "silver",
+        3,
+        3
+      ],
+      "source": [
+        "silver",
+        3,
+        2
+      ]
+    },
+    {
+      "requested": [
+        "silver",
+        3,
+        4
+      ],
+      "source": [
+        "silver",
+        3,
+        2
+      ]
+    },
+    {
+      "requested": [
+        "gold",
+        0,
+        4
+      ],
+      "source": [
+        "gold",
+        0,
+        3
+      ]
+    },
+    {
+      "requested": [
+        "gold",
+        1,
+        4
+      ],
+      "source": [
+        "gold",
+        1,
+        3
+      ]
+    },
+    {
+      "requested": [
+        "gold",
+        2,
+        4
+      ],
+      "source": [
+        "gold",
+        2,
+        3
+      ]
+    },
+    {
+      "requested": [
+        "gold",
+        3,
+        4
+      ],
+      "source": [
+        "gold",
+        3,
+        3
+      ]
+    }
+  ],
+  "platform_sha256": "1c90568f06a2f9acdf1ddb0f909d9b4de1f75d04e9ef7b69396ff5c112e659d1"
+}

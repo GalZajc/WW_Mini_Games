@@ -1,0 +1,107 @@
+{
+  "description": "Hard Survival Yolko movement and jump capture; selected OAM sprites map pixel-exactly to the pose atlas.",
+  "source_folder": "scripts/OUTPUT/eggo-reference_2026-10-06_09-34-24_490117",
+  "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+  "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+  "input_steps": [
+    [
+      1,
+      ""
+    ],
+    [
+      12,
+      "RIGHT"
+    ],
+    [
+      20,
+      ""
+    ],
+    [
+      1,
+      "UP"
+    ],
+    [
+      40,
+      ""
+    ],
+    [
+      12,
+      "LEFT"
+    ],
+    [
+      1,
+      "B"
+    ],
+    [
+      16,
+      ""
+    ]
+  ],
+  "samples": [
+    {
+      "native_frame": 35,
+      "rom_pose": "rise",
+      "animation_phase": 8192,
+      "sprite_sha256": "5958d55d5d3aac0e5bc3552df9c72a3a6584e0ee544150caca515bd926c36bce",
+      "atlas_row": 0,
+      "atlas_frame": 0
+    },
+    {
+      "native_frame": 36,
+      "rom_pose": "rise",
+      "animation_phase": 16384,
+      "sprite_sha256": "0b8d9ee5cc20ab25e00dd514e5dcb2037817a66b092dafc68baa64dee5244919",
+      "atlas_row": 2,
+      "atlas_frame": 0
+    },
+    {
+      "native_frame": 40,
+      "rom_pose": "rise",
+      "animation_phase": 49152,
+      "sprite_sha256": "0b8d9ee5cc20ab25e00dd514e5dcb2037817a66b092dafc68baa64dee5244919",
+      "atlas_row": 2,
+      "atlas_frame": 1
+    },
+    {
+      "native_frame": 44,
+      "rom_pose": "rise",
+      "animation_phase": 81920,
+      "sprite_sha256": "6a7b8ee20adff402819d862f42f3b51627b29e795d2baa0d655aa4ff8f9377fb",
+      "atlas_row": 2,
+      "atlas_frame": 2
+    },
+    {
+      "native_frame": 48,
+      "rom_pose": "float",
+      "animation_phase": 114688,
+      "sprite_sha256": "6a7b8ee20adff402819d862f42f3b51627b29e795d2baa0d655aa4ff8f9377fb",
+      "atlas_row": 3,
+      "atlas_frame": 2
+    },
+    {
+      "native_frame": 52,
+      "rom_pose": "float",
+      "animation_phase": 16384,
+      "sprite_sha256": "0b8d9ee5cc20ab25e00dd514e5dcb2037817a66b092dafc68baa64dee5244919",
+      "atlas_row": 3,
+      "atlas_frame": 3
+    },
+    {
+      "native_frame": 60,
+      "rom_pose": "fall",
+      "animation_phase": 81920,
+      "sprite_sha256": "06e2e69f7ac1b645cc9f1b2a4b9dfe3b61eec145fcadabed1ab91353c49a7f89",
+      "atlas_row": 4,
+      "atlas_frame": 2
+    },
+    {
+      "native_frame": 68,
+      "rom_pose": "fall",
+      "animation_phase": 16384,
+      "sprite_sha256": "a1caf6ddc0274e3fa3eee23058aa1f2fe5521f775dea698c9bbac5f8ce519cd9",
+      "atlas_row": 4,
+      "atlas_frame": 0
+    }
+  ]
+}

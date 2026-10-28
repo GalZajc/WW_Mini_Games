@@ -490,6 +490,10 @@ body {
     height: 100%;
 }
 
+#game-canvas.eggo-pixel-art {
+    image-rendering: pixelated;
+}
+
 #fps-display {
     position: fixed;
     top: 6px;

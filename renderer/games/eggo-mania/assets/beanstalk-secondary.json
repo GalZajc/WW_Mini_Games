@@ -1,0 +1,73 @@
+{
+  "art": [
+    {
+      "phase": 2,
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-49-29_944920\\beanstalk-secondary-art.frame00105",
+      "object": {
+        "id": 29,
+        "x": 130,
+        "y": 213,
+        "w": 32,
+        "h": 32,
+        "tile": 686,
+        "palette": 9
+      },
+      "pixel_sha256": "bf30cd88a25822d1f44da32b3a645e5d29662db17b7230c268404d4b51bf8aac"
+    },
+    {
+      "phase": 3,
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-49-29_944920\\beanstalk-secondary-art.frame00110",
+      "object": {
+        "id": 29,
+        "x": 130,
+        "y": 218,
+        "w": 32,
+        "h": 32,
+        "tile": 686,
+        "palette": 9
+      },
+      "pixel_sha256": "dc8dd37c6b5aa6c8946811b89887433b8a4788c4345c650a16004e899ab6e140"
+    },
+    {
+      "phase": 0,
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-49-29_944920\\beanstalk-secondary-art.frame00115",
+      "object": {
+        "id": 29,
+        "x": 130,
+        "y": 223,
+        "w": 32,
+        "h": 32,
+        "tile": 686,
+        "palette": 9
+      },
+      "pixel_sha256": "1de0e588ff872685cbebfaa33ba7f543ca615ed95231889305c3fde8053768b0"
+    },
+    {
+      "phase": 1,
+      "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-49-29_944920\\beanstalk-secondary-art.frame00120",
+      "object": {
+        "id": 29,
+        "x": 130,
+        "y": 228,
+        "w": 32,
+        "h": 32,
+        "tile": 686,
+        "palette": 9
+      },
+      "pixel_sha256": "97908507a5916519abc4801c34a3c85df8455b9bab42bf398287afa91dbdb096"
+    }
+  ],
+  "vine": {
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-48-16_085387\\beanstalk-secondary-hard.frame00900",
+    "object": {
+      "id": 28,
+      "x": 146,
+      "y": 238,
+      "w": 8,
+      "h": 32,
+      "tile": 682,
+      "palette": 9
+    },
+    "pixel_sha256": "18985c7cff15cd56d2c4df0e2804bf5b7ca26942f27b8b8c3529d8dde7730670"
+  }
+}

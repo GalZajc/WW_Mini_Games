@@ -204,6 +204,34 @@
     justify-content: flex-end;
 }
 
+/* A game setting may attach a helper note below its value. Keep the note on
+   the full control width instead of letting flex squeeze it beside the input. */
+.setting-control:has(.flow-color-setting) {
+    display: block;
+}
+
+.flow-color-setting {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+    width: 100%;
+    min-width: 0;
+}
+
+.flow-color-setting .setting-number {
+    align-self: flex-end;
+}
+
+.flow-color-setting [data-flow-range-note] {
+    display: block;
+    width: 100%;
+    color: #8190a6;
+    font-size: 10px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
 .setting-row-full {
     display: block;
 }

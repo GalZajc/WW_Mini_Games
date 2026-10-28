@@ -1,0 +1,58 @@
+[
+  {
+    "phase": 0,
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_22-46-53_584720/bubble-native-profile.frame00401.sprites",
+    "object": {
+      "id": 24,
+      "x": 21,
+      "y": 55,
+      "w": 64,
+      "h": 64,
+      "tile": 766,
+      "palette": 5
+    },
+    "pixel_sha256": "c1b59a96a2383846b473c9b390a72014b4e63f39db9943b95ffec5efc246911e"
+  },
+  {
+    "phase": 1,
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_22-50-53_843548/bubble-art.frame00066.sprites",
+    "object": {
+      "id": 26,
+      "x": 27,
+      "y": 141,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "754b1427b989b4d1fb386736000770cafb08620c7f7cd71e78c187a8f27c157a"
+  },
+  {
+    "phase": 2,
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_22-46-53_584720/bubble-native-profile.frame00112.sprites",
+    "object": {
+      "id": 26,
+      "x": 46,
+      "y": 79,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "14fbeb80ee6230d12e5537b5d354a91754b63ec0e82930b4e26b96cc7cd3385a"
+  },
+  {
+    "phase": 3,
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_22-46-53_584720/bubble-native-profile.frame00399.sprites",
+    "object": {
+      "id": 24,
+      "x": 20,
+      "y": 55,
+      "w": 64,
+      "h": 64,
+      "tile": 766,
+      "palette": 5
+    },
+    "pixel_sha256": "754b1427b989b4d1fb386736000770cafb08620c7f7cd71e78c187a8f27c157a"
+  }
+]

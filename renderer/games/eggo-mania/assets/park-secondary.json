@@ -1,0 +1,114 @@
+[
+  {
+    "phase": 2,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-29-35_328878\\park-secondary-art.frame00710",
+    "object": {
+      "id": 26,
+      "x": 205,
+      "y": 237,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "6bf85823498974e1d758ea65686d7a8ad4d78d5f0873775018b504bd6fcd201e"
+  },
+  {
+    "phase": 3,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-29-35_328878\\park-secondary-art.frame00715",
+    "object": {
+      "id": 26,
+      "x": 202,
+      "y": 249,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "2b1b9a30b9e3b76266104f00ae3cba32b63beec48b9d727d374ff60e47342a25"
+  },
+  {
+    "phase": 4,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-29-35_328878\\park-secondary-art.frame00720",
+    "object": {
+      "id": 26,
+      "x": 197,
+      "y": 254,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "82187ec85f1f9fc2d948fa0808d69b6e79cc55e30325f854a65831c8c1d765b7"
+  },
+  {
+    "phase": 5,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-29-35_328878\\park-secondary-art.frame00725",
+    "object": {
+      "id": 26,
+      "x": 192,
+      "y": 3,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "2b1b9a30b9e3b76266104f00ae3cba32b63beec48b9d727d374ff60e47342a25"
+  },
+  {
+    "phase": 6,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-29-35_328878\\park-secondary-art.frame00730",
+    "object": {
+      "id": 26,
+      "x": 187,
+      "y": 1,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "6bf85823498974e1d758ea65686d7a8ad4d78d5f0873775018b504bd6fcd201e"
+  },
+  {
+    "phase": 7,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-29-35_328878\\park-secondary-art.frame00735",
+    "object": {
+      "id": 26,
+      "x": 181,
+      "y": 247,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "3088d12d7aef6a26892e4b956d350276fc6fc35c4bbc5b2de679dcf00d11162e"
+  },
+  {
+    "phase": 0,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-29-35_328878\\park-secondary-art.frame00740",
+    "object": {
+      "id": 28,
+      "x": 175,
+      "y": 234,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "4eccd59ecc6a7934caf8d9ad30f7c2b1977590f1496c0d2461fcc871cdcde751"
+  },
+  {
+    "phase": 1,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_01-29-35_328878\\park-secondary-art.frame00745",
+    "object": {
+      "id": 28,
+      "x": 169,
+      "y": 238,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "3088d12d7aef6a26892e4b956d350276fc6fc35c4bbc5b2de679dcf00d11162e"
+  }
+]

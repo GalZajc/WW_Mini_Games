@@ -1,0 +1,1595 @@
+{
+  "parameters": {
+    "flight": "scripts/OUTPUT/eggo-reference_2026-10-03_19-34-21_885506/hammer-flight",
+    "gaps_control": "scripts/OUTPUT/eggo-reference_2026-10-03_22-29-18_362290/hammer-gaps-control",
+    "solid_control": "scripts/OUTPUT/eggo-reference_2026-10-03_22-28-30_337200/hammer-board",
+    "art": "scripts/OUTPUT/eggo-reference_2026-10-03_19-31-29_660583/hammer-use.frame00060.sprites",
+    "actor_baseline": 720,
+    "projectile_baseline": 752,
+    "pixels_per_cell": 16,
+    "actor_addresses": [
+      15316,
+      20304
+    ],
+    "hit_frame": 66,
+    "tower_contact_frame": 75,
+    "first_floor_removed": 172,
+    "second_floor_removed": 286,
+    "art_object": 30,
+    "art_palette": 2
+  },
+  "sources": [
+    {
+      "kind": "flight",
+      "parameters": {
+        "output_collision_index": 0,
+        "projectile_trace_parameters": {
+          "field_roots": [
+            62468,
+            67152
+          ],
+          "slots": 7,
+          "stride": 40,
+          "active": 3968,
+          "kind": 4004,
+          "x": 3972,
+          "y": 3976,
+          "vy": 3988,
+          "flight_counter": 3996,
+          "target_y": 3992,
+          "fuse": 4000,
+          "actor_roots": [
+            13116,
+            18104
+          ],
+          "actor_state": 4364,
+          "actor_next_state": 4368
+        },
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_19-31-14_437519/hammer-native.state",
+        "steps": [
+          [
+            8,
+            "A"
+          ],
+          [
+            92,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "audio": null,
+        "board_events": true,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          1,
+          2,
+          60,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          100
+        ],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "de839a3144342e392e881cdd78cc99e1f502edb8640479e653188444274ede96",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 100
+      },
+      "trace_sha256": "6ddb0fc99664c8ac7962a12f7e7da11aaea1bdaa2090cffd5615705e58b87f7b"
+    },
+    {
+      "kind": "gaps_control",
+      "parameters": {
+        "output_collision_index": 0,
+        "projectile_trace_parameters": {
+          "field_roots": [
+            62468,
+            67152
+          ],
+          "slots": 7,
+          "stride": 40,
+          "active": 3968,
+          "kind": 4004,
+          "x": 3972,
+          "y": 3976,
+          "vy": 3988,
+          "flight_counter": 3996,
+          "target_y": 3992,
+          "fuse": 4000,
+          "actor_roots": [
+            13116,
+            18104
+          ],
+          "actor_state": 4364,
+          "actor_next_state": 4368
+        },
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_19-31-14_437519/hammer-native.state",
+        "steps": [
+          [
+            20,
+            "LEFT+UP"
+          ],
+          [
+            8,
+            "A"
+          ],
+          [
+            320,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [
+          [
+            22452,
+            -1
+          ]
+        ],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "audio": null,
+        "board_events": true,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          1,
+          20,
+          21,
+          60,
+          74,
+          75,
+          80,
+          100,
+          150,
+          250
+        ],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "de839a3144342e392e881cdd78cc99e1f502edb8640479e653188444274ede96",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 348
+      },
+      "trace_sha256": "4696739daae7e0e72ba6df52b26a8cba40bb6513e599334f8fdfbc5b37ecf4fe"
+    },
+    {
+      "kind": "solid_control",
+      "parameters": {
+        "output_collision_index": 0,
+        "projectile_trace_parameters": {
+          "field_roots": [
+            62468,
+            67152
+          ],
+          "slots": 7,
+          "stride": 40,
+          "active": 3968,
+          "kind": 4004,
+          "x": 3972,
+          "y": 3976,
+          "vy": 3988,
+          "flight_counter": 3996,
+          "target_y": 3992,
+          "fuse": 4000,
+          "actor_roots": [
+            13116,
+            18104
+          ],
+          "actor_state": 4364,
+          "actor_next_state": 4368
+        },
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_19-31-14_437519/hammer-native.state",
+        "steps": [
+          [
+            20,
+            "LEFT+UP"
+          ],
+          [
+            8,
+            "A"
+          ],
+          [
+            110,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": null,
+        "arena_initial": null,
+        "audio": null,
+        "board_events": true,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          20,
+          21,
+          22,
+          60,
+          80,
+          100,
+          120
+        ],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "de839a3144342e392e881cdd78cc99e1f502edb8640479e653188444274ede96",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 138
+      },
+      "trace_sha256": "fe9cf69905b758536bd794e13a502a9d6ea36ef9cd19e9e7a032c298b2332be9"
+    }
+  ],
+  "samples": [
+    {
+      "frame": 1,
+      "x": 4.625,
+      "y": 7.544049263000488,
+      "vy": 15.0
+    },
+    {
+      "frame": 2,
+      "x": 4.75,
+      "y": 7.794049263000488,
+      "vy": 14.53125
+    },
+    {
+      "frame": 3,
+      "x": 4.875,
+      "y": 8.036236763000488,
+      "vy": 14.0625
+    },
+    {
+      "frame": 4,
+      "x": 5.0,
+      "y": 8.270611763000488,
+      "vy": 13.59375
+    },
+    {
+      "frame": 5,
+      "x": 5.125,
+      "y": 8.497174263000488,
+      "vy": 13.125
+    },
+    {
+      "frame": 6,
+      "x": 5.25,
+      "y": 8.715924263000488,
+      "vy": 12.65625
+    },
+    {
+      "frame": 7,
+      "x": 5.375,
+      "y": 8.926861763000488,
+      "vy": 12.1875
+    },
+    {
+      "frame": 8,
+      "x": 5.5,
+      "y": 9.129986763000488,
+      "vy": 11.71875
+    },
+    {
+      "frame": 9,
+      "x": 5.625,
+      "y": 9.325299263000488,
+      "vy": 11.25
+    },
+    {
+      "frame": 10,
+      "x": 5.75,
+      "y": 9.512799263000488,
+      "vy": 10.78125
+    },
+    {
+      "frame": 11,
+      "x": 5.875,
+      "y": 9.692486763000488,
+      "vy": 10.3125
+    },
+    {
+      "frame": 12,
+      "x": 6.0,
+      "y": 9.864361763000488,
+      "vy": 9.84375
+    },
+    {
+      "frame": 13,
+      "x": 6.125,
+      "y": 10.028424263000488,
+      "vy": 9.375
+    },
+    {
+      "frame": 14,
+      "x": 6.25,
+      "y": 10.184674263000488,
+      "vy": 8.90625
+    },
+    {
+      "frame": 15,
+      "x": 6.375,
+      "y": 10.333111763000488,
+      "vy": 8.4375
+    },
+    {
+      "frame": 16,
+      "x": 6.5,
+      "y": 10.473736763000488,
+      "vy": 7.96875
+    },
+    {
+      "frame": 17,
+      "x": 6.625,
+      "y": 10.606549263000488,
+      "vy": 7.5
+    },
+    {
+      "frame": 18,
+      "x": 6.75,
+      "y": 10.731549263000488,
+      "vy": 7.03125
+    },
+    {
+      "frame": 19,
+      "x": 6.875,
+      "y": 10.848736763000488,
+      "vy": 6.5625
+    },
+    {
+      "frame": 20,
+      "x": 7.0,
+      "y": 10.958111763000488,
+      "vy": 6.09375
+    },
+    {
+      "frame": 21,
+      "x": 7.125,
+      "y": 11.059674263000488,
+      "vy": 5.625
+    },
+    {
+      "frame": 22,
+      "x": 7.25,
+      "y": 11.153424263000488,
+      "vy": 5.15625
+    },
+    {
+      "frame": 23,
+      "x": 7.375,
+      "y": 11.239361763000488,
+      "vy": 4.6875
+    },
+    {
+      "frame": 24,
+      "x": 7.5,
+      "y": 11.317486763000488,
+      "vy": 4.21875
+    },
+    {
+      "frame": 25,
+      "x": 7.625,
+      "y": 11.387799263000488,
+      "vy": 3.75
+    },
+    {
+      "frame": 26,
+      "x": 7.75,
+      "y": 11.450299263000488,
+      "vy": 3.28125
+    },
+    {
+      "frame": 27,
+      "x": 7.875,
+      "y": 11.504986763000488,
+      "vy": 2.8125
+    },
+    {
+      "frame": 28,
+      "x": 8.0,
+      "y": 11.551861763000488,
+      "vy": 2.34375
+    },
+    {
+      "frame": 29,
+      "x": 8.125,
+      "y": 11.590924263000488,
+      "vy": 1.875
+    },
+    {
+      "frame": 30,
+      "x": 8.25,
+      "y": 11.622174263000488,
+      "vy": 1.40625
+    },
+    {
+      "frame": 31,
+      "x": 8.375,
+      "y": 11.645611763000488,
+      "vy": 0.9375
+    },
+    {
+      "frame": 32,
+      "x": 8.5,
+      "y": 11.661236763000488,
+      "vy": 0.46875
+    },
+    {
+      "frame": 33,
+      "x": 8.625,
+      "y": 11.669049263000488,
+      "vy": 0.0
+    },
+    {
+      "frame": 34,
+      "x": 8.75,
+      "y": 11.669049263000488,
+      "vy": -0.46875
+    },
+    {
+      "frame": 35,
+      "x": 8.875,
+      "y": 11.661236763000488,
+      "vy": -0.9375
+    },
+    {
+      "frame": 36,
+      "x": 9.0,
+      "y": 11.645611763000488,
+      "vy": -1.40625
+    },
+    {
+      "frame": 37,
+      "x": 9.125,
+      "y": 11.622174263000488,
+      "vy": -1.875
+    },
+    {
+      "frame": 38,
+      "x": 9.25,
+      "y": 11.590924263000488,
+      "vy": -2.34375
+    },
+    {
+      "frame": 39,
+      "x": 9.375,
+      "y": 11.551861763000488,
+      "vy": -2.8125
+    },
+    {
+      "frame": 40,
+      "x": 9.5,
+      "y": 11.504986763000488,
+      "vy": -3.28125
+    },
+    {
+      "frame": 41,
+      "x": 9.625,
+      "y": 11.450299263000488,
+      "vy": -3.75
+    },
+    {
+      "frame": 42,
+      "x": 9.75,
+      "y": 11.387799263000488,
+      "vy": -4.21875
+    },
+    {
+      "frame": 43,
+      "x": 9.875,
+      "y": 11.317486763000488,
+      "vy": -4.6875
+    },
+    {
+      "frame": 44,
+      "x": 10.0,
+      "y": 11.239361763000488,
+      "vy": -5.15625
+    },
+    {
+      "frame": 45,
+      "x": 10.125,
+      "y": 11.153424263000488,
+      "vy": -5.625
+    },
+    {
+      "frame": 46,
+      "x": 10.25,
+      "y": 11.059674263000488,
+      "vy": -6.09375
+    },
+    {
+      "frame": 47,
+      "x": 10.375,
+      "y": 10.958111763000488,
+      "vy": -6.5625
+    },
+    {
+      "frame": 48,
+      "x": 10.5,
+      "y": 10.848736763000488,
+      "vy": -7.03125
+    },
+    {
+      "frame": 49,
+      "x": 10.625,
+      "y": 10.731549263000488,
+      "vy": -7.5
+    },
+    {
+      "frame": 50,
+      "x": 10.75,
+      "y": 10.606549263000488,
+      "vy": -7.96875
+    },
+    {
+      "frame": 51,
+      "x": 10.875,
+      "y": 10.473736763000488,
+      "vy": -8.4375
+    },
+    {
+      "frame": 52,
+      "x": 11.0,
+      "y": 10.333111763000488,
+      "vy": -8.90625
+    },
+    {
+      "frame": 53,
+      "x": 11.125,
+      "y": 10.184674263000488,
+      "vy": -9.375
+    },
+    {
+      "frame": 54,
+      "x": 11.25,
+      "y": 10.028424263000488,
+      "vy": -9.84375
+    },
+    {
+      "frame": 55,
+      "x": 11.375,
+      "y": 9.864361763000488,
+      "vy": -10.3125
+    },
+    {
+      "frame": 56,
+      "x": 11.5,
+      "y": 9.692486763000488,
+      "vy": -10.78125
+    },
+    {
+      "frame": 57,
+      "x": 11.625,
+      "y": 9.512799263000488,
+      "vy": -11.25
+    },
+    {
+      "frame": 58,
+      "x": 11.75,
+      "y": 9.325299263000488,
+      "vy": -11.71875
+    },
+    {
+      "frame": 59,
+      "x": 11.875,
+      "y": 9.129986763000488,
+      "vy": -12.1875
+    },
+    {
+      "frame": 60,
+      "x": 12.0,
+      "y": 8.926861763000488,
+      "vy": -12.65625
+    },
+    {
+      "frame": 61,
+      "x": 12.125,
+      "y": 8.715924263000488,
+      "vy": -13.125
+    },
+    {
+      "frame": 62,
+      "x": 12.25,
+      "y": 8.497174263000488,
+      "vy": -13.59375
+    },
+    {
+      "frame": 63,
+      "x": 12.375,
+      "y": 8.270611763000488,
+      "vy": -14.0625
+    },
+    {
+      "frame": 64,
+      "x": 12.5,
+      "y": 8.036236763000488,
+      "vy": -14.53125
+    },
+    {
+      "frame": 65,
+      "x": 12.625,
+      "y": 7.794049263000488,
+      "vy": -15.0
+    }
+  ],
+  "initial_actor": {
+    "x": 5.15625,
+    "y": 5.544049263000488
+  },
+  "target_at_hit": {
+    "x": 4.5,
+    "y": 5.80000114440918
+  },
+  "initial_target_rows": [
+    [
+      3,
+      3,
+      3,
+      4,
+      5,
+      5,
+      5
+    ],
+    [
+      10,
+      10,
+      10,
+      14,
+      11,
+      13,
+      13
+    ],
+    [
+      12,
+      16,
+      16,
+      14,
+      13,
+      13,
+      15
+    ],
+    [
+      12,
+      16,
+      0,
+      14,
+      0,
+      15,
+      15
+    ],
+    [
+      12,
+      16,
+      16,
+      0,
+      0,
+      15,
+      18
+    ],
+    [
+      17,
+      17,
+      17,
+      0,
+      0,
+      18,
+      18
+    ],
+    [
+      17,
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "gap_target_rows": [
+    [
+      3,
+      3,
+      3,
+      4,
+      5,
+      5,
+      5
+    ],
+    [
+      10,
+      10,
+      10,
+      14,
+      11,
+      13,
+      13
+    ],
+    [
+      12,
+      16,
+      16,
+      14,
+      13,
+      13,
+      15
+    ],
+    [
+      12,
+      16,
+      0,
+      14,
+      0,
+      15,
+      15
+    ],
+    [
+      12,
+      16,
+      16,
+      0,
+      0,
+      15,
+      18
+    ],
+    [
+      17,
+      17,
+      17,
+      0,
+      0,
+      18,
+      18
+    ],
+    [
+      17,
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "gap_losses": [
+    {
+      "frame": 172,
+      "loss": 5
+    },
+    {
+      "frame": 286,
+      "loss": 5
+    }
+  ],
+  "art": {
+    "object": {
+      "id": 30,
+      "x": 190,
+      "y": 26,
+      "w": 16,
+      "h": 16,
+      "tile": 698,
+      "palette": 2
+    },
+    "image_sha256": "762f415d3f1751f0e9855de99b64a168eb368c0bbb6ae61c7c34f491d498049c"
+  },
+  "limits": "Unedited flight and actor hit; tower collapse comparison removes CPU inventory diagnostically. Later mixed-floor damage and view-dependent rotation phase still need independent validation."
+}

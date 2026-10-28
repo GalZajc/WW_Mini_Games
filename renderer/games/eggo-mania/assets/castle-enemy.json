@@ -1,0 +1,72 @@
+[
+  {
+    "phase": 0,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-23-52_864288\\castle-primary-cycle.frame00032",
+    "object": {
+      "id": 26,
+      "x": 485,
+      "y": 130,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "71b5d8a2c6a3adb096d19a6a9cd406928bec2d57af230206b726366e680a2278"
+  },
+  {
+    "phase": 1,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-23-52_864288\\castle-primary-cycle.frame00037",
+    "object": {
+      "id": 26,
+      "x": 486,
+      "y": 110,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "8d8bf62e380f49bc6ff30ea9c3a5b8df3aa49c26399a72491fa8ce8e50cf8a1d"
+  },
+  {
+    "phase": 2,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-23-52_864288\\castle-primary-cycle.frame00042",
+    "object": {
+      "id": 26,
+      "x": 489,
+      "y": 92,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "a397b9ae2b23f20c022a94f8c9a8dfafb5caf9b6f9f4cde378bbf22a76ae83d9"
+  },
+  {
+    "phase": 3,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-23-52_864288\\castle-primary-cycle.frame00047",
+    "object": {
+      "id": 26,
+      "x": 492,
+      "y": 77,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "925db285ead5bacf4bc1892ce2c51fc2339bfb9c4cb89f630f38c7c4dfaf45f9"
+  },
+  {
+    "phase": 4,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-23-52_864288\\castle-primary-cycle.frame00052",
+    "object": {
+      "id": 26,
+      "x": 497,
+      "y": 62,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 5
+    },
+    "pixel_sha256": "8abc07da892154abe2780466d957c88e206f9edf472c357d6f13db410f3e3d66"
+  }
+]

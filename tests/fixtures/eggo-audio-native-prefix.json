@@ -1,0 +1,1356 @@
+{
+  "parameters": {
+    "commands": "scripts/OUTPUT/eggo-live-audio-commands_2026-10-26T21-06-30-342Z",
+    "oracle": "scripts/OUTPUT/eggo-native-sound-state_2026-10-26T20-01-22_483068Z",
+    "initialFrame": 400,
+    "end": 520,
+    "pcmSampleFrames": 65536
+  },
+  "provenance": {
+    "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+    "core": "tools/eggo-recorder/runtime/mgba_libretro.dll",
+    "recording": "tools/eggo-recorder/OUTPUT/eggo-native-play_2026-10-19_20-00-57_091398",
+    "restore_after": 300,
+    "start_after": 400,
+    "end": 109076,
+    "sound_start": 9328,
+    "sound_end": 12425,
+    "sound_events": "scripts/OUTPUT/eggo-native-event-trace_2026-10-26T10-11-39_459193Z/events.jsonl",
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "sample_rate": 32768,
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "capture_isolation": "Fresh process restored at start_after; no preceding host audio/filter/packet state."
+  },
+  "commands": [
+    {
+      "frame": 401,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 402,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 403,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 404,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 405,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 406,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 407,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 408,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 409,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 410,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 411,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 412,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 413,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 414,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 415,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 416,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 417,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 418,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 419,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 420,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 421,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 422,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 423,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 424,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 425,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 426,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 427,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 428,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 429,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 430,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 431,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 432,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 433,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 434,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 435,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 436,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 437,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 438,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 439,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [
+          17
+        ],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 440,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 441,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 442,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 443,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 444,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 445,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 446,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 447,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 448,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 449,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 450,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 451,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 452,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 453,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 454,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 455,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 456,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 457,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 458,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 459,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [
+          5
+        ],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 460,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 461,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 462,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 463,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 464,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 465,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 466,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 467,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 468,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 469,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 470,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 471,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 472,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 473,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 474,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 475,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 476,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 477,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 478,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 479,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [
+          18
+        ],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 480,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 481,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 482,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 483,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 484,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 485,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 486,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 487,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 488,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 489,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 490,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 491,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 492,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 493,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 494,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 495,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 496,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 497,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 498,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 499,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 500,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 501,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 502,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 503,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 504,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 505,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 506,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 507,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 508,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 509,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 510,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 511,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 512,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 513,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 514,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 515,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 516,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 517,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 518,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 519,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [
+          19
+        ],
+        "tempo": [],
+        "tick": true
+      }
+    },
+    {
+      "frame": 520,
+      "type": "frame",
+      "commands": {
+        "reset": false,
+        "music": [],
+        "effects": [],
+        "tempo": [],
+        "tick": true
+      }
+    }
+  ],
+  "finalSoundRamSha256": "e729fd72f391e69a8231aca3487d57a46e8569801a6b63153068263ed6b16799",
+  "pcmSha256": "b8c9e8ebae2da230af39eb2df3b74453e27fb5eaf8e4a8697d3f1406ac739148"
+}

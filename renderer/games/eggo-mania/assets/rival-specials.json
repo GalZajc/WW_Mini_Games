@@ -1,0 +1,88 @@
+{
+  "parameters": {
+    "resources": "scripts/OUTPUT/eggo-characters_2026-10-04_22-34-09_814879",
+    "sources": {
+      "factory": "scripts/OUTPUT/eggo-reference_2026-10-08_01-20-23_304106",
+      "dragon": "scripts/OUTPUT/eggo-reference_2026-10-06_10-32-56_026148",
+      "castle": "scripts/OUTPUT/eggo-reference_2026-10-06_10-33-01_627069",
+      "pirate": "scripts/OUTPUT/eggo-reference_2026-10-06_10-33-06_364737",
+      "space": "scripts/OUTPUT/eggo-reference_2026-10-06_10-33-10_891479",
+      "jungle": "scripts/OUTPUT/eggo-reference_2026-10-06_10-33-15_121146",
+      "park": "scripts/OUTPUT/eggo-reference_2026-10-06_10-33-18_849109",
+      "beanstalk": "scripts/OUTPUT/eggo-reference_2026-10-06_10-33-23_016021"
+    },
+    "actor": 20304,
+    "resource_pointer": 2104,
+    "palette_slot": 2088,
+    "size": 64,
+    "groups": {
+      "injured": [
+        5,
+        4
+      ],
+      "swim": [
+        17,
+        10
+      ]
+    },
+    "random_seed": null
+  },
+  "records": {
+    "factory": {
+      "character": "bebub",
+      "palette_slot": 1,
+      "source": "C:\\Users\\galza\\Igre\\pc\\Moje Igrce\\WW Mini Games\\scripts\\OUTPUT\\eggo-reference_2026-10-08_01-20-23_304106\\eggo-rival-selector-tables",
+      "ram_sha256": "443852d2c7c1f1140a779f6863401966667dcdf9cceb40022fe1d6b858da0641",
+      "asset_sha256": "e2dd30bc8fb86efa49b2ba0b84b2e75a2aea0ca02768213df8c81946511c1d0b"
+    },
+    "dragon": {
+      "character": "spike",
+      "palette_slot": 1,
+      "source": "C:\\Users\\galza\\Igre\\pc\\Moje Igrce\\WW Mini Games\\scripts\\OUTPUT\\eggo-reference_2026-10-06_10-32-56_026148\\dragon-rival-motion",
+      "ram_sha256": "282038dedf14009ebdd042b9817e5cc97539d45ccdfce61e0c2c01440079c9e6",
+      "asset_sha256": "95fea72ddd4838173f4a935f02416c454e12acb993b842d1eb250204b9489872"
+    },
+    "castle": {
+      "character": "coolio",
+      "palette_slot": 1,
+      "source": "C:\\Users\\galza\\Igre\\pc\\Moje Igrce\\WW Mini Games\\scripts\\OUTPUT\\eggo-reference_2026-10-06_10-33-01_627069\\castle-rival-motion",
+      "ram_sha256": "f239b183afacea492c7dee708df3b2934a6c26f674a4db38acee094f40006c74",
+      "asset_sha256": "d46c196b4db335e22f7281c538690f4c48467f5b2c7a9ab75145815788426d24"
+    },
+    "pirate": {
+      "character": "eggo",
+      "palette_slot": 1,
+      "source": "C:\\Users\\galza\\Igre\\pc\\Moje Igrce\\WW Mini Games\\scripts\\OUTPUT\\eggo-reference_2026-10-06_10-33-06_364737\\pirate-rival-motion",
+      "ram_sha256": "1b6c5d34797094faeddc3d49cbfabf16c4f53f08f4a076a898ef205554e39900",
+      "asset_sha256": "1918962532448c70523b64cc7999e17eda7460c2714c5461bfe709d0f13ebb86"
+    },
+    "space": {
+      "character": "coolio",
+      "palette_slot": 1,
+      "source": "C:\\Users\\galza\\Igre\\pc\\Moje Igrce\\WW Mini Games\\scripts\\OUTPUT\\eggo-reference_2026-10-06_10-33-10_891479\\space-rival-motion",
+      "ram_sha256": "60d4fa1e09d187817ceecebb2f0471371342ba22f7511a72635356c610c39cb5",
+      "asset_sha256": "3dbe34e792c9eb2dff61c2960cb89569a42c7d44e4e51ca9e1f023d792f0a72c"
+    },
+    "jungle": {
+      "character": "astro",
+      "palette_slot": 1,
+      "source": "C:\\Users\\galza\\Igre\\pc\\Moje Igrce\\WW Mini Games\\scripts\\OUTPUT\\eggo-reference_2026-10-06_10-33-15_121146\\jungle-rival-motion",
+      "ram_sha256": "6373870be6daa5e7ad249ddb805e8cfb0f3a09f9a7f9b4ea19c254aa4d46fd3d",
+      "asset_sha256": "80987b7fc7188273b44b5d952534a455d1f436b8719d2d15b3e2d81e9a230696"
+    },
+    "park": {
+      "character": "astro",
+      "palette_slot": 1,
+      "source": "C:\\Users\\galza\\Igre\\pc\\Moje Igrce\\WW Mini Games\\scripts\\OUTPUT\\eggo-reference_2026-10-06_10-33-18_849109\\park-rival-motion",
+      "ram_sha256": "9edf85ccdcb657b271ef2f605492c9c0d68441c5ddb95987ec00a969bd786ce6",
+      "asset_sha256": "80987b7fc7188273b44b5d952534a455d1f436b8719d2d15b3e2d81e9a230696"
+    },
+    "beanstalk": {
+      "character": "eggo",
+      "palette_slot": 1,
+      "source": "C:\\Users\\galza\\Igre\\pc\\Moje Igrce\\WW Mini Games\\scripts\\OUTPUT\\eggo-reference_2026-10-06_10-33-23_016021\\beanstalk-rival-motion",
+      "ram_sha256": "e9bb0782314f607213336fd733d9bb769560b93c883eb38769bfb2e0b3784383",
+      "asset_sha256": "1918962532448c70523b64cc7999e17eda7460c2714c5461bfe709d0f13ebb86"
+    }
+  }
+}

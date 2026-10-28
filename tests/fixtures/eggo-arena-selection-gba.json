@@ -1,0 +1,453 @@
+{
+  "parameters": {
+    "captures": [
+      "scripts/OUTPUT/eggo-reference_2026-10-03_18-19-32_176882/arena-draw0",
+      "scripts/OUTPUT/eggo-reference_2026-10-03_18-19-32_212884/arena-draw60"
+    ],
+    "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+    "rom_base": 134217728,
+    "fade_frames": 16,
+    "selection_draws": 3,
+    "native_stage_names": [
+      "beanstalk",
+      "factory",
+      "dragon",
+      "castle",
+      "pirate",
+      "space",
+      "jungle",
+      "park"
+    ],
+    "expected_stages": [
+      "factory",
+      "space"
+    ],
+    "instruction_ranges": [
+      [
+        5812,
+        5846
+      ],
+      [
+        37688,
+        37706
+      ],
+      [
+        37712,
+        37756
+      ],
+      [
+        11212,
+        11234
+      ]
+    ]
+  },
+  "samples": [
+    {
+      "seed": 1137,
+      "first_draw": 19737,
+      "third_draw": 871,
+      "stage_id": 1,
+      "stage": "factory",
+      "selection_frame": 17
+    },
+    {
+      "seed": 1197,
+      "first_draw": 24237,
+      "third_draw": 16089,
+      "stage_id": 5,
+      "stage": "space",
+      "selection_frame": 77
+    }
+  ],
+  "sources": [
+    {
+      "path": "scripts/OUTPUT/eggo-reference_2026-10-03_18-19-32_176882/arena-draw0",
+      "parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "survival-hard",
+        "steps": [
+          [
+            8,
+            "A"
+          ],
+          [
+            80,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": {
+          "stage": 12948,
+          "rng": 72364,
+          "seed": 59812
+        },
+        "arena_initial": {
+          "stage": 1,
+          "rng": 16006,
+          "seed": 0
+        },
+        "audio": null,
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "3ec90524d2ab90d9c4c8aae2eb4f66b87f98ea6acb7c8a416159409298bfa4a3",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 88
+      },
+      "trace_sha256": "0ce829f95b06ba6b7987b061b7d60d45f5b9759181bc0d0b36fa3e892550163e"
+    },
+    {
+      "path": "scripts/OUTPUT/eggo-reference_2026-10-03_18-19-32_212884/arena-draw60",
+      "parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "survival-hard",
+        "steps": [
+          [
+            60,
+            ""
+          ],
+          [
+            8,
+            "A"
+          ],
+          [
+            80,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 0,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": {
+          "stage": 12948,
+          "rng": 72364,
+          "seed": 59812
+        },
+        "arena_initial": {
+          "stage": 1,
+          "rng": 16006,
+          "seed": 0
+        },
+        "audio": null,
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "3ec90524d2ab90d9c4c8aae2eb4f66b87f98ea6acb7c8a416159409298bfa4a3",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 148
+      },
+      "trace_sha256": "fa90ac4e00ac4bf31580e9d9bbcd412a674c8ddf44b3829c184b92a534510b5a"
+    }
+  ],
+  "instructions": [
+    {
+      "address": "0x80016b4",
+      "bytes": "07f052fe",
+      "mnemonic": "bl",
+      "operands": "#0x800935c"
+    },
+    {
+      "address": "0x80016b8",
+      "bytes": "011c",
+      "mnemonic": "adds",
+      "operands": "r1, r0, #0"
+    },
+    {
+      "address": "0x80016ba",
+      "bytes": "1448",
+      "mnemonic": "ldr",
+      "operands": "r0, [pc, #0x50]"
+    },
+    {
+      "address": "0x80016bc",
+      "bytes": "e222",
+      "mnemonic": "movs",
+      "operands": "r2, #0xe2"
+    },
+    {
+      "address": "0x80016be",
+      "bytes": "5200",
+      "mnemonic": "lsls",
+      "operands": "r2, r2, #1"
+    },
+    {
+      "address": "0x80016c0",
+      "bytes": "8318",
+      "mnemonic": "adds",
+      "operands": "r3, r0, r2"
+    },
+    {
+      "address": "0x80016c2",
+      "bytes": "134a",
+      "mnemonic": "ldr",
+      "operands": "r2, [pc, #0x4c]"
+    },
+    {
+      "address": "0x80016c4",
+      "bytes": "081c",
+      "mnemonic": "adds",
+      "operands": "r0, r1, #0"
+    },
+    {
+      "address": "0x80016c6",
+      "bytes": "0029",
+      "mnemonic": "cmp",
+      "operands": "r1, #0"
+    },
+    {
+      "address": "0x80016c8",
+      "bytes": "00da",
+      "mnemonic": "bge",
+      "operands": "#0x80016cc"
+    },
+    {
+      "address": "0x80016ca",
+      "bytes": "c81d",
+      "mnemonic": "adds",
+      "operands": "r0, r1, #7"
+    },
+    {
+      "address": "0x80016cc",
+      "bytes": "c010",
+      "mnemonic": "asrs",
+      "operands": "r0, r0, #3"
+    },
+    {
+      "address": "0x80016ce",
+      "bytes": "c000",
+      "mnemonic": "lsls",
+      "operands": "r0, r0, #3"
+    },
+    {
+      "address": "0x80016d0",
+      "bytes": "081a",
+      "mnemonic": "subs",
+      "operands": "r0, r1, r0"
+    },
+    {
+      "address": "0x80016d2",
+      "bytes": "1060",
+      "mnemonic": "str",
+      "operands": "r0, [r2]"
+    },
+    {
+      "address": "0x80016d4",
+      "bytes": "1860",
+      "mnemonic": "str",
+      "operands": "r0, [r3]"
+    },
+    {
+      "address": "0x8009338",
+      "bytes": "011c",
+      "mnemonic": "adds",
+      "operands": "r1, r0, #0"
+    },
+    {
+      "address": "0x800933a",
+      "bytes": "0a14",
+      "mnemonic": "asrs",
+      "operands": "r2, r1, #0x10"
+    },
+    {
+      "address": "0x800933c",
+      "bytes": "0348",
+      "mnemonic": "ldr",
+      "operands": "r0, [pc, #0xc]"
+    },
+    {
+      "address": "0x800933e",
+      "bytes": "0840",
+      "mnemonic": "ands",
+      "operands": "r0, r1"
+    },
+    {
+      "address": "0x8009340",
+      "bytes": "8242",
+      "mnemonic": "cmp",
+      "operands": "r2, r0"
+    },
+    {
+      "address": "0x8009342",
+      "bytes": "05dc",
+      "mnemonic": "bgt",
+      "operands": "#0x8009350"
+    },
+    {
+      "address": "0x8009344",
+      "bytes": "481e",
+      "mnemonic": "subs",
+      "operands": "r0, r1, #1"
+    },
+    {
+      "address": "0x8009346",
+      "bytes": "811a",
+      "mnemonic": "subs",
+      "operands": "r1, r0, r2"
+    },
+    {
+      "address": "0x8009348",
+      "bytes": "03e0",
+      "mnemonic": "b",
+      "operands": "#0x8009352"
+    },
+    {
+      "address": "0x8009350",
+      "bytes": "891a",
+      "mnemonic": "subs",
+      "operands": "r1, r1, r2"
+    },
+    {
+      "address": "0x8009352",
+      "bytes": "0148",
+      "mnemonic": "ldr",
+      "operands": "r0, [pc, #4]"
+    },
+    {
+      "address": "0x8009354",
+      "bytes": "0840",
+      "mnemonic": "ands",
+      "operands": "r0, r1"
+    },
+    {
+      "address": "0x8009356",
+      "bytes": "7047",
+      "mnemonic": "bx",
+      "operands": "lr"
+    },
+    {
+      "address": "0x8002bcc",
+      "bytes": "0e4a",
+      "mnemonic": "ldr",
+      "operands": "r2, [pc, #0x38]"
+    },
+    {
+      "address": "0x8002bce",
+      "bytes": "1168",
+      "mnemonic": "ldr",
+      "operands": "r1, [r2]"
+    },
+    {
+      "address": "0x8002bd0",
+      "bytes": "0131",
+      "mnemonic": "adds",
+      "operands": "r1, #1"
+    },
+    {
+      "address": "0x8002bd2",
+      "bytes": "0720",
+      "mnemonic": "movs",
+      "operands": "r0, #7"
+    },
+    {
+      "address": "0x8002bd4",
+      "bytes": "0140",
+      "mnemonic": "ands",
+      "operands": "r1, r0"
+    },
+    {
+      "address": "0x8002bd6",
+      "bytes": "1160",
+      "mnemonic": "str",
+      "operands": "r1, [r2]"
+    },
+    {
+      "address": "0x8002bd8",
+      "bytes": "0c48",
+      "mnemonic": "ldr",
+      "operands": "r0, [pc, #0x30]"
+    },
+    {
+      "address": "0x8002bda",
+      "bytes": "e222",
+      "mnemonic": "movs",
+      "operands": "r2, #0xe2"
+    },
+    {
+      "address": "0x8002bdc",
+      "bytes": "5200",
+      "mnemonic": "lsls",
+      "operands": "r2, r2, #1"
+    },
+    {
+      "address": "0x8002bde",
+      "bytes": "8018",
+      "mnemonic": "adds",
+      "operands": "r0, r0, r2"
+    },
+    {
+      "address": "0x8002be0",
+      "bytes": "0160",
+      "mnemonic": "str",
+      "operands": "r1, [r0]"
+    }
+  ],
+  "limits": "Initial arena and cyclic progression only. This does not calibrate pickup distribution, AI streams or difficulty progression."
+}

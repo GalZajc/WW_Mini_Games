@@ -1,0 +1,635 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+    "next_source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00201",
+    "base": {
+      "stall": 0,
+      "period": 10,
+      "clock": 100,
+      "kind": 0,
+      "actorState": 0
+    },
+    "cases": [
+      {
+        "stall": 3
+      },
+      {},
+      {
+        "period": 1
+      },
+      {
+        "period": 0
+      },
+      {
+        "actorState": 4
+      },
+      {
+        "actorState": 6
+      },
+      {
+        "actorState": 2
+      },
+      {
+        "kind": -1
+      }
+    ],
+    "fixture": "tests/fixtures/eggo-cpu-timing-gba.json",
+    "oracle_sha256": "28295b260d1d25d128d19ba25741a369621805f5740e581583e18c3eea84a0e5"
+  },
+  "cases": [
+    {
+      "selection": {
+        "stall": 3,
+        "period": 10,
+        "clock": 100,
+        "kind": 0,
+        "actorState": 0
+      },
+      "parameters": {
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+        "next_source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00201",
+        "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+        "entry": 134243832,
+        "cpu": 33577536,
+        "board": 33621584,
+        "frame_address": 33626780,
+        "keys_address": 33614248,
+        "return": 134217728,
+        "instruction_limit": 1000000,
+        "stack": 50360320,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "ram_sha256": "3c1097f82e58d28badbb701da70207fc1f7d3a4fae803f3325560ae38ffeb0f5",
+        "iwram_sha256": "eaeaf82982b070f281f2ef9398888745d19b24f37c1c8a34d33c3b58d45e4c09",
+        "next_ram_sha256": "5ac0dab30cd71ec706e0c27b9162a9970c63cd10e219799f2f5da38cefd14f4c",
+        "frame": 1178,
+        "diagnostic_writes": [
+          {
+            "name": "stall",
+            "address": 33577796,
+            "value": 3
+          },
+          {
+            "name": "period",
+            "address": 33577792,
+            "value": 10
+          },
+          {
+            "name": "clock",
+            "address": 33577736,
+            "value": 100
+          },
+          {
+            "name": "kind",
+            "address": 33576884,
+            "value": 0
+          },
+          {
+            "name": "actorState",
+            "address": 33576900,
+            "value": 0
+          }
+        ]
+      },
+      "timing": {
+        "before": {
+          "clock": 100,
+          "counterCC": 20,
+          "counterD0": 0,
+          "period": 10,
+          "stall": 3
+        },
+        "wait": true,
+        "afterWait": {
+          "clock": 100,
+          "counterCC": 20,
+          "counterD0": 0,
+          "period": 10,
+          "stall": 2
+        }
+      },
+      "keys": 0
+    },
+    {
+      "selection": {
+        "stall": 0,
+        "period": 10,
+        "clock": 100,
+        "kind": 0,
+        "actorState": 0
+      },
+      "parameters": {
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+        "next_source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00201",
+        "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+        "entry": 134243832,
+        "cpu": 33577536,
+        "board": 33621584,
+        "frame_address": 33626780,
+        "keys_address": 33614248,
+        "return": 134217728,
+        "instruction_limit": 1000000,
+        "stack": 50360320,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "ram_sha256": "3c1097f82e58d28badbb701da70207fc1f7d3a4fae803f3325560ae38ffeb0f5",
+        "iwram_sha256": "eaeaf82982b070f281f2ef9398888745d19b24f37c1c8a34d33c3b58d45e4c09",
+        "next_ram_sha256": "5ac0dab30cd71ec706e0c27b9162a9970c63cd10e219799f2f5da38cefd14f4c",
+        "frame": 1178,
+        "diagnostic_writes": [
+          {
+            "name": "stall",
+            "address": 33577796,
+            "value": 0
+          },
+          {
+            "name": "period",
+            "address": 33577792,
+            "value": 10
+          },
+          {
+            "name": "clock",
+            "address": 33577736,
+            "value": 100
+          },
+          {
+            "name": "kind",
+            "address": 33576884,
+            "value": 0
+          },
+          {
+            "name": "actorState",
+            "address": 33576900,
+            "value": 0
+          }
+        ]
+      },
+      "timing": {
+        "before": {
+          "clock": 100,
+          "counterCC": 20,
+          "counterD0": 0,
+          "period": 10,
+          "stall": 0
+        },
+        "begin": {
+          "clock": 101,
+          "counterCC": 19,
+          "counterD0": 0,
+          "period": 10,
+          "stall": 0
+        },
+        "pieceGate": {
+          "clock": 101,
+          "counterCC": 19,
+          "counterD0": 0,
+          "period": 9,
+          "stall": 0
+        },
+        "forcedUse": false
+      },
+      "keys": 80
+    },
+    {
+      "selection": {
+        "stall": 0,
+        "period": 1,
+        "clock": 100,
+        "kind": 0,
+        "actorState": 0
+      },
+      "parameters": {
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+        "next_source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00201",
+        "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+        "entry": 134243832,
+        "cpu": 33577536,
+        "board": 33621584,
+        "frame_address": 33626780,
+        "keys_address": 33614248,
+        "return": 134217728,
+        "instruction_limit": 1000000,
+        "stack": 50360320,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "ram_sha256": "3c1097f82e58d28badbb701da70207fc1f7d3a4fae803f3325560ae38ffeb0f5",
+        "iwram_sha256": "eaeaf82982b070f281f2ef9398888745d19b24f37c1c8a34d33c3b58d45e4c09",
+        "next_ram_sha256": "5ac0dab30cd71ec706e0c27b9162a9970c63cd10e219799f2f5da38cefd14f4c",
+        "frame": 1178,
+        "diagnostic_writes": [
+          {
+            "name": "stall",
+            "address": 33577796,
+            "value": 0
+          },
+          {
+            "name": "period",
+            "address": 33577792,
+            "value": 1
+          },
+          {
+            "name": "clock",
+            "address": 33577736,
+            "value": 100
+          },
+          {
+            "name": "kind",
+            "address": 33576884,
+            "value": 0
+          },
+          {
+            "name": "actorState",
+            "address": 33576900,
+            "value": 0
+          }
+        ]
+      },
+      "timing": {
+        "before": {
+          "clock": 100,
+          "counterCC": 20,
+          "counterD0": 0,
+          "period": 1,
+          "stall": 0
+        },
+        "begin": {
+          "clock": 101,
+          "counterCC": 19,
+          "counterD0": 0,
+          "period": 1,
+          "stall": 0
+        },
+        "pieceGate": {
+          "clock": 0,
+          "counterCC": 19,
+          "counterD0": 0,
+          "period": 1280,
+          "stall": 36
+        },
+        "forcedUse": true
+      },
+      "keys": 1
+    },
+    {
+      "selection": {
+        "stall": 0,
+        "period": 0,
+        "clock": 100,
+        "kind": 0,
+        "actorState": 0
+      },
+      "parameters": {
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+        "next_source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00201",
+        "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+        "entry": 134243832,
+        "cpu": 33577536,
+        "board": 33621584,
+        "frame_address": 33626780,
+        "keys_address": 33614248,
+        "return": 134217728,
+        "instruction_limit": 1000000,
+        "stack": 50360320,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "ram_sha256": "3c1097f82e58d28badbb701da70207fc1f7d3a4fae803f3325560ae38ffeb0f5",
+        "iwram_sha256": "eaeaf82982b070f281f2ef9398888745d19b24f37c1c8a34d33c3b58d45e4c09",
+        "next_ram_sha256": "5ac0dab30cd71ec706e0c27b9162a9970c63cd10e219799f2f5da38cefd14f4c",
+        "frame": 1178,
+        "diagnostic_writes": [
+          {
+            "name": "stall",
+            "address": 33577796,
+            "value": 0
+          },
+          {
+            "name": "period",
+            "address": 33577792,
+            "value": 0
+          },
+          {
+            "name": "clock",
+            "address": 33577736,
+            "value": 100
+          },
+          {
+            "name": "kind",
+            "address": 33576884,
+            "value": 0
+          },
+          {
+            "name": "actorState",
+            "address": 33576900,
+            "value": 0
+          }
+        ]
+      },
+      "timing": {
+        "before": {
+          "clock": 100,
+          "counterCC": 20,
+          "counterD0": 0,
+          "period": 0,
+          "stall": 0
+        },
+        "begin": {
+          "clock": 101,
+          "counterCC": 19,
+          "counterD0": 0,
+          "period": 0,
+          "stall": 0
+        },
+        "pieceGate": {
+          "clock": 0,
+          "counterCC": 19,
+          "counterD0": 0,
+          "period": 1280,
+          "stall": 36
+        },
+        "forcedUse": true
+      },
+      "keys": 1
+    },
+    {
+      "selection": {
+        "stall": 0,
+        "period": 10,
+        "clock": 100,
+        "kind": 0,
+        "actorState": 4
+      },
+      "parameters": {
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+        "next_source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00201",
+        "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+        "entry": 134243832,
+        "cpu": 33577536,
+        "board": 33621584,
+        "frame_address": 33626780,
+        "keys_address": 33614248,
+        "return": 134217728,
+        "instruction_limit": 1000000,
+        "stack": 50360320,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "ram_sha256": "3c1097f82e58d28badbb701da70207fc1f7d3a4fae803f3325560ae38ffeb0f5",
+        "iwram_sha256": "eaeaf82982b070f281f2ef9398888745d19b24f37c1c8a34d33c3b58d45e4c09",
+        "next_ram_sha256": "5ac0dab30cd71ec706e0c27b9162a9970c63cd10e219799f2f5da38cefd14f4c",
+        "frame": 1178,
+        "diagnostic_writes": [
+          {
+            "name": "stall",
+            "address": 33577796,
+            "value": 0
+          },
+          {
+            "name": "period",
+            "address": 33577792,
+            "value": 10
+          },
+          {
+            "name": "clock",
+            "address": 33577736,
+            "value": 100
+          },
+          {
+            "name": "kind",
+            "address": 33576884,
+            "value": 0
+          },
+          {
+            "name": "actorState",
+            "address": 33576900,
+            "value": 4
+          }
+        ]
+      },
+      "timing": {
+        "before": {
+          "clock": 100,
+          "counterCC": 20,
+          "counterD0": 0,
+          "period": 10,
+          "stall": 0
+        },
+        "begin": {
+          "clock": 101,
+          "counterCC": 19,
+          "counterD0": 0,
+          "period": 10,
+          "stall": 0
+        }
+      },
+      "keys": 0
+    },
+    {
+      "selection": {
+        "stall": 0,
+        "period": 10,
+        "clock": 100,
+        "kind": 0,
+        "actorState": 6
+      },
+      "parameters": {
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+        "next_source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00201",
+        "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+        "entry": 134243832,
+        "cpu": 33577536,
+        "board": 33621584,
+        "frame_address": 33626780,
+        "keys_address": 33614248,
+        "return": 134217728,
+        "instruction_limit": 1000000,
+        "stack": 50360320,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "ram_sha256": "3c1097f82e58d28badbb701da70207fc1f7d3a4fae803f3325560ae38ffeb0f5",
+        "iwram_sha256": "eaeaf82982b070f281f2ef9398888745d19b24f37c1c8a34d33c3b58d45e4c09",
+        "next_ram_sha256": "5ac0dab30cd71ec706e0c27b9162a9970c63cd10e219799f2f5da38cefd14f4c",
+        "frame": 1178,
+        "diagnostic_writes": [
+          {
+            "name": "stall",
+            "address": 33577796,
+            "value": 0
+          },
+          {
+            "name": "period",
+            "address": 33577792,
+            "value": 10
+          },
+          {
+            "name": "clock",
+            "address": 33577736,
+            "value": 100
+          },
+          {
+            "name": "kind",
+            "address": 33576884,
+            "value": 0
+          },
+          {
+            "name": "actorState",
+            "address": 33576900,
+            "value": 6
+          }
+        ]
+      },
+      "timing": {
+        "before": {
+          "clock": 100,
+          "counterCC": 20,
+          "counterD0": 0,
+          "period": 10,
+          "stall": 0
+        },
+        "begin": {
+          "clock": 101,
+          "counterCC": 19,
+          "counterD0": 0,
+          "period": 10,
+          "stall": 0
+        }
+      },
+      "keys": 0
+    },
+    {
+      "selection": {
+        "stall": 0,
+        "period": 10,
+        "clock": 100,
+        "kind": 0,
+        "actorState": 2
+      },
+      "parameters": {
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+        "next_source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00201",
+        "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+        "entry": 134243832,
+        "cpu": 33577536,
+        "board": 33621584,
+        "frame_address": 33626780,
+        "keys_address": 33614248,
+        "return": 134217728,
+        "instruction_limit": 1000000,
+        "stack": 50360320,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "ram_sha256": "3c1097f82e58d28badbb701da70207fc1f7d3a4fae803f3325560ae38ffeb0f5",
+        "iwram_sha256": "eaeaf82982b070f281f2ef9398888745d19b24f37c1c8a34d33c3b58d45e4c09",
+        "next_ram_sha256": "5ac0dab30cd71ec706e0c27b9162a9970c63cd10e219799f2f5da38cefd14f4c",
+        "frame": 1178,
+        "diagnostic_writes": [
+          {
+            "name": "stall",
+            "address": 33577796,
+            "value": 0
+          },
+          {
+            "name": "period",
+            "address": 33577792,
+            "value": 10
+          },
+          {
+            "name": "clock",
+            "address": 33577736,
+            "value": 100
+          },
+          {
+            "name": "kind",
+            "address": 33576884,
+            "value": 0
+          },
+          {
+            "name": "actorState",
+            "address": 33576900,
+            "value": 2
+          }
+        ]
+      },
+      "timing": {
+        "before": {
+          "clock": 100,
+          "counterCC": 20,
+          "counterD0": 0,
+          "period": 10,
+          "stall": 0
+        },
+        "begin": {
+          "clock": 101,
+          "counterCC": 19,
+          "counterD0": 0,
+          "period": 10,
+          "stall": 0
+        }
+      },
+      "keys": 0
+    },
+    {
+      "selection": {
+        "stall": 0,
+        "period": 10,
+        "clock": 100,
+        "kind": -1,
+        "actorState": 0
+      },
+      "parameters": {
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+        "next_source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00201",
+        "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+        "entry": 134243832,
+        "cpu": 33577536,
+        "board": 33621584,
+        "frame_address": 33626780,
+        "keys_address": 33614248,
+        "return": 134217728,
+        "instruction_limit": 1000000,
+        "stack": 50360320,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "ram_sha256": "3c1097f82e58d28badbb701da70207fc1f7d3a4fae803f3325560ae38ffeb0f5",
+        "iwram_sha256": "eaeaf82982b070f281f2ef9398888745d19b24f37c1c8a34d33c3b58d45e4c09",
+        "next_ram_sha256": "5ac0dab30cd71ec706e0c27b9162a9970c63cd10e219799f2f5da38cefd14f4c",
+        "frame": 1178,
+        "diagnostic_writes": [
+          {
+            "name": "stall",
+            "address": 33577796,
+            "value": 0
+          },
+          {
+            "name": "period",
+            "address": 33577792,
+            "value": 10
+          },
+          {
+            "name": "clock",
+            "address": 33577736,
+            "value": 100
+          },
+          {
+            "name": "kind",
+            "address": 33576884,
+            "value": -1
+          },
+          {
+            "name": "actorState",
+            "address": 33576900,
+            "value": 0
+          }
+        ]
+      },
+      "timing": {
+        "before": {
+          "clock": 100,
+          "counterCC": 20,
+          "counterD0": 0,
+          "period": 10,
+          "stall": 0
+        },
+        "begin": {
+          "clock": 101,
+          "counterCC": 19,
+          "counterD0": 0,
+          "period": 10,
+          "stall": 0
+        }
+      },
+      "keys": 80
+    }
+  ],
+  "limits": "Isolated original instruction calls from a real checkpoint with all diagnostic writes logged."
+}

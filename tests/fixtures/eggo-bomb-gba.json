@@ -1,0 +1,244 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_12-34-13_873422",
+    "initial": "scripts/OUTPUT/eggo-reference_2026-10-03_12-31-35_687909/bomb-first-1.frame00729.ram",
+    "entity": 19396,
+    "type_offset": 12,
+    "position_offset": 24,
+    "bomb_type": 3,
+    "frames": [
+      30,
+      60,
+      90,
+      120,
+      150,
+      180,
+      210
+    ],
+    "identity_probe": "scripts/OUTPUT/eggo-reference_2026-10-03_12-42-07_974244",
+    "prototype_fuse_seconds": 3,
+    "frames_per_second": 60
+  },
+  "source_parameters": {
+    "item_trace_parameters": {
+      "item_palette": 2,
+      "actor_palettes": [
+        0,
+        1
+      ],
+      "held_offset": [
+        24,
+        15
+      ],
+      "held_tolerance": 3,
+      "size": 16,
+      "actor_anchor": [
+        32,
+        56
+      ],
+      "actor_world_addresses": [
+        15316,
+        20304
+      ],
+      "icon_indices": {
+        "bomb": 27,
+        "boots": 19,
+        "cloud": 14,
+        "filler": 9,
+        "hammer": 29
+      }
+    },
+    "rival_pose_parameters": null,
+    "load": "scripts/OUTPUT/eggo-reference_2026-10-03_12-31-35_687909/bomb-first-1.frame00729.state",
+    "steps": [
+      [
+        360,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [],
+    "sample_every": 30,
+    "sample_graphics": true,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "board_events": true,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "a80b99ffad4c8cfef7c638e1912a96294226f47d659d4cb898d8f40f381c8dd1",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 360
+  },
+  "identity_probe_parameters": {
+    "item_trace_parameters": {
+      "item_palette": 2,
+      "actor_palettes": [
+        0,
+        1
+      ],
+      "held_offset": [
+        24,
+        15
+      ],
+      "held_tolerance": 3,
+      "size": 16,
+      "actor_anchor": [
+        32,
+        56
+      ],
+      "actor_world_addresses": [
+        15316,
+        20304
+      ],
+      "icon_indices": {
+        "bomb": 27,
+        "boots": 19,
+        "cloud": 14,
+        "filler": 9,
+        "hammer": 29
+      }
+    },
+    "rival_pose_parameters": null,
+    "load": "scripts/OUTPUT/eggo-reference_2026-10-03_12-31-35_687909/bomb-first-1.frame00729.state",
+    "steps": [
+      [
+        2,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [
+      [
+        19420,
+        2454467
+      ]
+    ],
+    "sample_every": 1,
+    "sample_graphics": true,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "board_events": false,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "a80b99ffad4c8cfef7c638e1912a96294226f47d659d4cb898d8f40f381c8dd1",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 2
+  },
+  "samples": [
+    {
+      "frame": 30,
+      "entity_type": 3,
+      "x_pixels": 5.4233551025390625,
+      "y_pixels": 483.8389434814453,
+      "ram_sha256": "497a60d181d19b5f19e2f6b4dd4ecd6377f17c749fd80fdefbaef8e1beff22dd",
+      "picture_sha256": "2d85d423fb33d544c2d32ace50347fa3a04671916e978bb4d75e9b2caccf9838"
+    },
+    {
+      "frame": 60,
+      "entity_type": 3,
+      "x_pixels": 5.3945159912109375,
+      "y_pixels": 513.3413543701172,
+      "ram_sha256": "2aeaaa8c4de21a55faa11bf7038d26e8bac7c9b301a5da535bb2a1e02e6e68c2",
+      "picture_sha256": "2d85d423fb33d544c2d32ace50347fa3a04671916e978bb4d75e9b2caccf9838"
+    },
+    {
+      "frame": 90,
+      "entity_type": 3,
+      "x_pixels": 5.3656768798828125,
+      "y_pixels": 542.8437652587891,
+      "ram_sha256": "4aa516a613a2a65cd7b9dc54c16ee19be5842f2960228a9315001215afb22b10",
+      "picture_sha256": null
+    },
+    {
+      "frame": 120,
+      "entity_type": 3,
+      "x_pixels": 5.3368377685546875,
+      "y_pixels": 572.3461761474609,
+      "ram_sha256": "6874dae58c6b082ff63c66047217e50ecc4b8b9d446d0c4bcd23ab87ac199bc9",
+      "picture_sha256": "2d85d423fb33d544c2d32ace50347fa3a04671916e978bb4d75e9b2caccf9838"
+    },
+    {
+      "frame": 150,
+      "entity_type": 3,
+      "x_pixels": 5.3079986572265625,
+      "y_pixels": 601.8485870361328,
+      "ram_sha256": "3196486725751af89d9171af2db3a982772703d624f165dab507e923289adb72",
+      "picture_sha256": "2d85d423fb33d544c2d32ace50347fa3a04671916e978bb4d75e9b2caccf9838"
+    },
+    {
+      "frame": 180,
+      "entity_type": 3,
+      "x_pixels": 5.2791595458984375,
+      "y_pixels": 631.3509979248047,
+      "ram_sha256": "de8f04d247eade8a94baa544c99df581532d79223919f787781df822dcd62fa8",
+      "picture_sha256": "2d85d423fb33d544c2d32ace50347fa3a04671916e978bb4d75e9b2caccf9838"
+    },
+    {
+      "frame": 210,
+      "entity_type": 3,
+      "x_pixels": 5.2503204345703125,
+      "y_pixels": 660.8534088134766,
+      "ram_sha256": "bfea71cdfa9dba58b89f9143e3beae999c93b88bb2da54377a23aeb32e2cf4a4",
+      "picture_sha256": "2d85d423fb33d544c2d32ace50347fa3a04671916e978bb4d75e9b2caccf9838"
+    }
+  ],
+  "minimum_unarmed_frames": 210,
+  "observed_visible_frames": 229,
+  "limits": "Boxed falling bomb only. Does not measure fuse activation, armed duration, throw or blast."
+}

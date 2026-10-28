@@ -1,0 +1,4634 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+    "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+    "entry": 134248826,
+    "exits": [
+      134244236,
+      134249148,
+      134251126
+    ],
+    "cpu": 33577536,
+    "actor": 33574736,
+    "board": 33621584,
+    "stack": 50360320,
+    "instruction_limit": 1000,
+    "fixture": "tests/fixtures/eggo-cpu-placement-gba.json",
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "ram_sha256": "3c1097f82e58d28badbb701da70207fc1f7d3a4fae803f3325560ae38ffeb0f5",
+    "iwram_sha256": "eaeaf82982b070f281f2ef9398888745d19b24f37c1c8a34d33c3b58d45e4c09",
+    "cases": [
+      {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      }
+    ]
+  },
+  "cases": [
+    {
+      "input": {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 31,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 31,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 30,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 31
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 30,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 31
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 2
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 2
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134251126,
+      "keys": 1,
+      "afterWait": 0,
+      "afterStall": 36,
+      "afterClock": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 1
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 0,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134244236,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 1
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 31,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 31,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 30,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 31
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 30,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 31
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 2
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 2
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134251126,
+      "keys": 512,
+      "afterWait": 0,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 1
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134244236,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 1
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 31,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 45
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 31,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 45
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 30,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 31
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 45
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 30,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 31
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 45
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 2
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 45
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 2
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 45
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134251126,
+      "keys": 1,
+      "afterWait": 0,
+      "afterStall": 36,
+      "afterClock": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 1
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 45
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 1,
+        "actorRow": 45,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134244236,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 1
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 1
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 45
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 31,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 31,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 30,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 31
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 30,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 31
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 2
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 2
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134251126,
+      "keys": 1,
+      "afterWait": 0,
+      "afterStall": 36,
+      "afterClock": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 1
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 2,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134244236,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 1
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 31,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 31,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 30,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 31
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 30,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 31
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 2
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 2
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134251126,
+      "keys": 1,
+      "afterWait": 0,
+      "afterStall": 36,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 1
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 8,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134244236,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 1
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 0,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 30,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 31
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 31,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 30,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 31
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 2
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 2,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134249148,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 2
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 200,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134251126,
+      "keys": 1,
+      "afterWait": 0,
+      "afterStall": 36,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 1
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    },
+    {
+      "input": {
+        "kind": 10,
+        "targetRotation": 0,
+        "actorRow": 47,
+        "roofRow": 47,
+        "wait": 1,
+        "frame": 201,
+        "difficulty": 6,
+        "targetColumn": 3,
+        "clock": 99
+      },
+      "address": 134244236,
+      "keys": 0,
+      "afterWait": 1,
+      "afterStall": 0,
+      "afterClock": 99,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "board",
+          "address": 50360376,
+          "value": 33621584
+        },
+        {
+          "name": "clockPointer",
+          "address": 50360496,
+          "value": 33577736
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "wait",
+          "address": 33577788,
+          "value": 1
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "targetRotation",
+          "address": 33577720,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "actorRow",
+          "address": 50360416,
+          "value": 47
+        },
+        {
+          "name": "roofRow",
+          "address": 33625388,
+          "value": 47
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 99
+        }
+      ]
+    }
+  ],
+  "limits": "Original commit timer entered after readiness checks, not the whole controller."
+}

@@ -1,0 +1,360 @@
+{
+  "parameters": {
+    "height_table": 70940,
+    "bomb_position": 66440,
+    "tile_pixels": 16,
+    "profiles": [
+      [
+        "scripts/OUTPUT/eggo-reference_2026-10-03_14-00-49_792819",
+        "bomb-launch-detail",
+        3
+      ],
+      [
+        "scripts/OUTPUT/eggo-reference_2026-10-03_14-04-30_488582",
+        "bomb-target-column",
+        21
+      ],
+      [
+        "scripts/OUTPUT/eggo-reference_2026-10-03_14-08-10_973155",
+        "bomb-target-left",
+        21
+      ]
+    ]
+  },
+  "samples": [
+    {
+      "name": "bomb-launch-detail",
+      "frame": 3,
+      "origin_x_pixels": 18.0,
+      "column": 1,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "target_y_pixels": 560.0,
+      "ram_sha256": "37ef1df2d1536fcbc623e89255c6095c057fa23bac8a766c144b1e1f1519c20e",
+      "source_parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": {
+          "item_palette": 2,
+          "actor_palettes": [
+            0,
+            1
+          ],
+          "held_offset": [
+            24,
+            15
+          ],
+          "held_tolerance": 3,
+          "size": 16,
+          "actor_anchor": [
+            32,
+            56
+          ],
+          "actor_world_addresses": [
+            15316,
+            20304
+          ],
+          "capture_unknown_pictures": true,
+          "inventory_addresses": [
+            17464,
+            22452
+          ],
+          "bomb_inventory_id": 8,
+          "icon_indices": {
+            "bomb": 27,
+            "boots": 19,
+            "cloud": 14,
+            "filler": 9,
+            "hammer": 29
+          }
+        },
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_13-32-22_191046/inventory-bomb-0.frame03567.state",
+        "steps": [
+          [
+            2,
+            "RIGHT"
+          ],
+          [
+            8,
+            "A"
+          ],
+          [
+            70,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 1,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "a000d8009f333cd1449653351c9ec72885bd6e36ab31d56dea5eabe4b482efe6",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 80
+      }
+    },
+    {
+      "name": "bomb-target-column",
+      "frame": 21,
+      "origin_x_pixels": 54.0,
+      "column": 3,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "target_y_pixels": 544.0,
+      "ram_sha256": "81a1e1e6ae400a87eb8b691d74eae50363e580e370c4f441e9a54cae0f62853e",
+      "source_parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": {
+          "item_palette": 2,
+          "actor_palettes": [
+            0,
+            1
+          ],
+          "held_offset": [
+            24,
+            15
+          ],
+          "held_tolerance": 3,
+          "size": 16,
+          "actor_anchor": [
+            32,
+            56
+          ],
+          "actor_world_addresses": [
+            15316,
+            20304
+          ],
+          "capture_unknown_pictures": true,
+          "inventory_addresses": [
+            17464,
+            22452
+          ],
+          "bomb_inventory_id": 8,
+          "icon_indices": {
+            "bomb": 27,
+            "boots": 19,
+            "cloud": 14,
+            "filler": 9,
+            "hammer": 29
+          }
+        },
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_13-32-22_191046/inventory-bomb-0.frame03567.state",
+        "steps": [
+          [
+            20,
+            "RIGHT+UP"
+          ],
+          [
+            8,
+            "A"
+          ],
+          [
+            12,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 1,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "a000d8009f333cd1449653351c9ec72885bd6e36ab31d56dea5eabe4b482efe6",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 40
+      }
+    },
+    {
+      "name": "bomb-target-left",
+      "frame": 21,
+      "origin_x_pixels": 0.0,
+      "column": 0,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "target_y_pixels": 608.0,
+      "ram_sha256": "42bacf43f30d580470e48d03a0babbf26f189ccaef3782c275ecd371521492ae",
+      "source_parameters": {
+        "output_collision_index": 0,
+        "item_trace_parameters": {
+          "item_palette": 2,
+          "actor_palettes": [
+            0,
+            1
+          ],
+          "held_offset": [
+            24,
+            15
+          ],
+          "held_tolerance": 3,
+          "size": 16,
+          "actor_anchor": [
+            32,
+            56
+          ],
+          "actor_world_addresses": [
+            15316,
+            20304
+          ],
+          "capture_unknown_pictures": true,
+          "inventory_addresses": [
+            17464,
+            22452
+          ],
+          "bomb_inventory_id": 8,
+          "icon_indices": {
+            "bomb": 27,
+            "boots": 19,
+            "cloud": 14,
+            "filler": 9,
+            "hammer": 29
+          }
+        },
+        "rival_pose_parameters": null,
+        "load": "scripts/OUTPUT/eggo-reference_2026-10-03_13-32-22_191046/inventory-bomb-0.frame03567.state",
+        "steps": [
+          [
+            20,
+            "LEFT+UP"
+          ],
+          [
+            8,
+            "A"
+          ],
+          [
+            12,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 1,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "board_events": false,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [],
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "a000d8009f333cd1449653351c9ec72885bd6e36ab31d56dea5eabe4b482efe6",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 40
+      }
+    }
+  ],
+  "limits": "First-stage player throws only. Original table has a leading boundary entry; row-to-world offsets must be preserved."
+}

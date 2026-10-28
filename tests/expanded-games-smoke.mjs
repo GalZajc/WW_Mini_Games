@@ -128,7 +128,7 @@ async function screenshot(client, name) {
 
 let stdout = '';
 let stderr = '';
-const child = spawn(electronPath, ['.', `--remote-debugging-port=${debugPort}`], {
+const child = spawn(electronPath, ['--mute-audio', '.', `--remote-debugging-port=${debugPort}`], {
     cwd: root,
     windowsHide: true,
     env: {

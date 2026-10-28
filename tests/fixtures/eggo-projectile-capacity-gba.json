@@ -1,0 +1,1755 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+    "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+    "entry": 134234732,
+    "return": 134217984,
+    "stack": 50360320,
+    "slot_count": 7,
+    "slot_stride": 40,
+    "boards": [
+      33616900,
+      33621584
+    ],
+    "actors": [
+      33569748,
+      33574736
+    ],
+    "instruction_limit": 3000,
+    "seed": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "ram_sha256": "3c1097f82e58d28badbb701da70207fc1f7d3a4fae803f3325560ae38ffeb0f5",
+    "iwram_sha256": "eaeaf82982b070f281f2ef9398888745d19b24f37c1c8a34d33c3b58d45e4c09"
+  },
+  "cases": [
+    {
+      "field": 0,
+      "kind": 8,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": null,
+      "returned": 0,
+      "held_after": 8,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 8
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 8,
+      "occupied": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 0,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 8
+        },
+        {
+          "address": 33620868,
+          "value": 0
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 8,
+      "occupied": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 1,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 8
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 0
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 8,
+      "occupied": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 2,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 8
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 0
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 8,
+      "occupied": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 3,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 8
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 0
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 8,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "selected_slot": 4,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 8
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 0
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 8,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "selected_slot": 5,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 8
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 0
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 8,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "selected_slot": 6,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 8
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 9,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": null,
+      "returned": 0,
+      "held_after": 9,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 9
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 9,
+      "occupied": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 0,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 9
+        },
+        {
+          "address": 33620868,
+          "value": 0
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 9,
+      "occupied": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 1,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 9
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 0
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 9,
+      "occupied": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 2,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 9
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 0
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 9,
+      "occupied": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 3,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 9
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 0
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 9,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "selected_slot": 4,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 9
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 0
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 9,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "selected_slot": 5,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 9
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 0
+        },
+        {
+          "address": 33621108,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 0,
+      "kind": 9,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "selected_slot": 6,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33621580,
+          "value": 33569748
+        },
+        {
+          "address": 33571896,
+          "value": 9
+        },
+        {
+          "address": 33620868,
+          "value": 1
+        },
+        {
+          "address": 33620908,
+          "value": 1
+        },
+        {
+          "address": 33620948,
+          "value": 1
+        },
+        {
+          "address": 33620988,
+          "value": 1
+        },
+        {
+          "address": 33621028,
+          "value": 1
+        },
+        {
+          "address": 33621068,
+          "value": 1
+        },
+        {
+          "address": 33621108,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 8,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": null,
+      "returned": 0,
+      "held_after": 8,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 8,
+      "occupied": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 0,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "address": 33625552,
+          "value": 0
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 8,
+      "occupied": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 1,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 0
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 8,
+      "occupied": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 2,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 0
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 8,
+      "occupied": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 3,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 0
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 8,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "selected_slot": 4,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 0
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 8,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "selected_slot": 5,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 0
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 8,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "selected_slot": 6,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 9,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": null,
+      "returned": 0,
+      "held_after": 9,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 9,
+      "occupied": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 0,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "address": 33625552,
+          "value": 0
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 9,
+      "occupied": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 1,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 0
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 9,
+      "occupied": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 2,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 0
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 9,
+      "occupied": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "selected_slot": 3,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 0
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 9,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "selected_slot": 4,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 0
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 9,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "selected_slot": 5,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 0
+        },
+        {
+          "address": 33625792,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "kind": 9,
+      "occupied": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "selected_slot": 6,
+      "returned": 1,
+      "held_after": -1,
+      "diagnostic_writes": [
+        {
+          "address": 33626264,
+          "value": 33574736
+        },
+        {
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "address": 33625552,
+          "value": 1
+        },
+        {
+          "address": 33625592,
+          "value": 1
+        },
+        {
+          "address": 33625632,
+          "value": 1
+        },
+        {
+          "address": 33625672,
+          "value": 1
+        },
+        {
+          "address": 33625712,
+          "value": 1
+        },
+        {
+          "address": 33625752,
+          "value": 1
+        },
+        {
+          "address": 33625792,
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "limits": "Diagnostic allocator calls; does not establish all item-use caller effects."
+}

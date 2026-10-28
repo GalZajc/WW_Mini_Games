@@ -1,0 +1,55 @@
+{
+  "build": "scripts\\OUTPUT\\eggo-cycle-reference-build_2026-10-27T03-39-57_663129Z",
+  "bootstrap": "scripts/OUTPUT/eggo-cycle-bootstrap_2026-10-27T01-09-22-895Z/before-survival.state",
+  "bootstrapPC": 134223540,
+  "bootstrapFrame": 372,
+  "seedAddress": 33626796,
+  "characterAddress": 33555412,
+  "programData": "Extracted original non-compiled ranges, including graphics, literals and RAM-resident code.",
+  "execution": "Known ROM Thumb/ARM and fixed EWRAM IRQ code statically specialized; all remaining BIOS/RAM/ROM code uses the original platform CPU decoder.",
+  "romIncluded": false,
+  "fullCartridgeMemoryReconstructedAtRuntime": true,
+  "recordedEventsOrAudioIncluded": false,
+  "sourceRomSha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "compiledImageRanges": [
+    [
+      0,
+      139264
+    ],
+    [
+      753664,
+      770048
+    ],
+    [
+      4126172,
+      4126236
+    ]
+  ],
+  "install": true,
+  "version": "2db596533784e89a",
+  "romSize": 4194304,
+  "blocks": [
+    {
+      "offset": 139264,
+      "assetOffset": 0,
+      "length": 614400
+    },
+    {
+      "offset": 770048,
+      "assetOffset": 614400,
+      "length": 3356124
+    },
+    {
+      "offset": 4126236,
+      "assetOffset": 3970524,
+      "length": 68068
+    }
+  ],
+  "assetSha256": {
+    "before-survival.bin": "2d594f1bb922423c8451aeb2e246d9108bf78fd969781da107b750f48cd6a2f5",
+    "program-data.bin": "9b7704a45fb0d2551cfb5c15d0f99489eebc2809a9fc55f3acc33725199a3b59",
+    "program-source.zip": "54c7c192fe92f606f08eaee22f6a0d6520fda8aadcba35b887626bc23fbd07af",
+    "program.wasm": "9d022ef58127f1c5b5a6bb6cbc026cd761f147bf0ebfb8c071148310d296c759",
+    "README.txt": "aee909f68f1c2503953ccb1502caac627acc958163598754d16b7d0e3f0770a6"
+  }
+}

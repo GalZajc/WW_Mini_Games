@@ -1,0 +1,4824 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_14-19-49_228560",
+    "name": "bomb-full-flight",
+    "position": 66440,
+    "velocity": 66456,
+    "height_table": 70940,
+    "first_frame": 3,
+    "last_frame": 250,
+    "baseline_world_y": 720,
+    "baseline_row": 45,
+    "field_span_pixels": 128,
+    "size_pixels": 16,
+    "fuse_counter": 66468
+  },
+  "source_parameters": {
+    "output_collision_index": 0,
+    "item_trace_parameters": {
+      "item_palette": 2,
+      "actor_palettes": [
+        0,
+        1
+      ],
+      "held_offset": [
+        24,
+        15
+      ],
+      "held_tolerance": 3,
+      "size": 16,
+      "actor_anchor": [
+        32,
+        56
+      ],
+      "actor_world_addresses": [
+        15316,
+        20304
+      ],
+      "capture_unknown_pictures": true,
+      "inventory_addresses": [
+        17464,
+        22452
+      ],
+      "bomb_inventory_id": 8,
+      "icon_indices": {
+        "bomb": 27,
+        "boots": 19,
+        "cloud": 14,
+        "filler": 9,
+        "hammer": 29
+      }
+    },
+    "rival_pose_parameters": null,
+    "load": "scripts/OUTPUT/eggo-reference_2026-10-03_13-32-22_191046/inventory-bomb-0.frame03567.state",
+    "steps": [
+      [
+        2,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        255,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [],
+    "sample_every": 1,
+    "sample_graphics": false,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "board_events": true,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "a000d8009f333cd1449653351c9ec72885bd6e36ab31d56dea5eabe4b482efe6",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 265
+  },
+  "samples": [
+    {
+      "frame": 3,
+      "x": 18.0,
+      "y": 610.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 247,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "37ef1df2d1536fcbc623e89255c6095c057fa23bac8a766c144b1e1f1519c20e"
+    },
+    {
+      "frame": 4,
+      "x": 18.0,
+      "y": 606.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 246,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "9eaf13ac02e8f3c67cf379cbd31a586f02f2648dcc39d071d47210a8a7e0d1fc"
+    },
+    {
+      "frame": 5,
+      "x": 18.0,
+      "y": 602.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 245,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "859aac973ea8e286a6a2e50a1f2f020ea6823153430aa48953aac3d9a8edb9da"
+    },
+    {
+      "frame": 6,
+      "x": 18.0,
+      "y": 598.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 244,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "5382d499c0c92beba1b46cb5d904ae6314cf71ae6fb04c9299cc23251180b62d"
+    },
+    {
+      "frame": 7,
+      "x": 18.0,
+      "y": 594.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 243,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "438a97c6126a84b6f2cc8e0c52bb0175de5a2f648e23b29fe0eea2f81721ec9b"
+    },
+    {
+      "frame": 8,
+      "x": 18.0,
+      "y": 590.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 242,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "40ec3a2119122ca7d3524962e4cd27cde9f3c37145eda31bc57eb2bfab476098"
+    },
+    {
+      "frame": 9,
+      "x": 18.0,
+      "y": 586.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 241,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "3bf125e51ccc1fb55a8b4e100fed19e4a8bb6a8fb26822688c04ce92658b2833"
+    },
+    {
+      "frame": 10,
+      "x": 18.0,
+      "y": 582.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 240,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "21ccbe1ef1ea9fccfeba13cf8346b9355af7e05c7fd7aa0f59d2611e71d8d6af"
+    },
+    {
+      "frame": 11,
+      "x": 18.0,
+      "y": 578.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 239,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "fb6e2c78c0c539b1b823ba1d9d1b93f683dff66f2fdaa306b5e49add1907bd8e"
+    },
+    {
+      "frame": 12,
+      "x": 18.0,
+      "y": 574.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 238,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "11225c12ceb2f9ce5cbc061ab4b2ce665e5e3cc647539d52eebc0c10bb8b0449"
+    },
+    {
+      "frame": 13,
+      "x": 18.0,
+      "y": 570.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 237,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "b170257943c1d726de76124d74d13d1c45bd83e67361d3b26afad13a727e0204"
+    },
+    {
+      "frame": 14,
+      "x": 18.0,
+      "y": 566.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 236,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "3540c9d74eb857c76cd2e8fa3c86dce1e5265620819f09de5e6b563e362f38de"
+    },
+    {
+      "frame": 15,
+      "x": 18.0,
+      "y": 562.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 235,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "b618ac710e3109ecb49671eb75ae5ed4f7a39d2177f080f906605d400e8d8d9d"
+    },
+    {
+      "frame": 16,
+      "x": 18.0,
+      "y": 558.9436340332031,
+      "lift_y": 560.0,
+      "vy": -4.0,
+      "remaining_frames": 234,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "25424c9b8b8bd81cb4e1d76e6ab1f81a9f9f80c18e6225631ef8dbf7b2de2f23"
+    },
+    {
+      "frame": 17,
+      "x": 20.0,
+      "y": 554.9436340332031,
+      "lift_y": 560.0,
+      "vy": -3.875,
+      "remaining_frames": 233,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "ad95219442e296c8217dfa0ed993530bf53b9f2aa132e5eab60eb07321e59586"
+    },
+    {
+      "frame": 18,
+      "x": 22.0,
+      "y": 551.0686340332031,
+      "lift_y": 560.0,
+      "vy": -3.75,
+      "remaining_frames": 232,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "0dfceeaa4b73c91573faf7e15909ddf824712a8dde3cf48392f599e43a6ee38f"
+    },
+    {
+      "frame": 19,
+      "x": 24.0,
+      "y": 547.3186340332031,
+      "lift_y": 560.0,
+      "vy": -3.625,
+      "remaining_frames": 231,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "4a90821aee0580241a6ec7187f380aaf853e2a84e80ca0c88cb9f8670c63288e"
+    },
+    {
+      "frame": 20,
+      "x": 26.0,
+      "y": 543.6936340332031,
+      "lift_y": 560.0,
+      "vy": -3.5,
+      "remaining_frames": 230,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "2e373b13522fcd06c861e9e689940c990b90c7a853793444f6c9d4ef4bcca072"
+    },
+    {
+      "frame": 21,
+      "x": 28.0,
+      "y": 540.1936340332031,
+      "lift_y": 560.0,
+      "vy": -3.375,
+      "remaining_frames": 229,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "c64c6a4a3b3706f5ea993532db1d14baf0ae1690fde33b557282b031a93ff77b"
+    },
+    {
+      "frame": 22,
+      "x": 30.0,
+      "y": 536.8186340332031,
+      "lift_y": 560.0,
+      "vy": -3.25,
+      "remaining_frames": 228,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "b204f05d12602dcd20b4afcc2dbbe5b04f66197d91dd22f131a76b40188c30d1"
+    },
+    {
+      "frame": 23,
+      "x": 32.0,
+      "y": 533.5686340332031,
+      "lift_y": 560.0,
+      "vy": -3.125,
+      "remaining_frames": 227,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "0bc76a1d8cd57a8004581e2de1d48ef81d1b09530571df0b07242a09ca0e5636"
+    },
+    {
+      "frame": 24,
+      "x": 34.0,
+      "y": 530.4436340332031,
+      "lift_y": 560.0,
+      "vy": -3.0,
+      "remaining_frames": 226,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "7dd2bedc3a1a898270064c1ccd8c46c2b23b7a0e0a739d615e9ea3df0cb79df4"
+    },
+    {
+      "frame": 25,
+      "x": 36.0,
+      "y": 527.4436340332031,
+      "lift_y": 560.0,
+      "vy": -2.875,
+      "remaining_frames": 225,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "b4bd91169246b096ac77860503fa4c8eb42b52176c1e14138e6ed5993efe8d2e"
+    },
+    {
+      "frame": 26,
+      "x": 38.0,
+      "y": 524.5686340332031,
+      "lift_y": 560.0,
+      "vy": -2.75,
+      "remaining_frames": 224,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "355d32d5bbbec5070d1763c361d9c4f1ee4c1428a7396a49956311e3988e22b9"
+    },
+    {
+      "frame": 27,
+      "x": 40.0,
+      "y": 521.8186340332031,
+      "lift_y": 560.0,
+      "vy": -2.625,
+      "remaining_frames": 223,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "263017d00366bc71890b65d5f22f89367dd9e6fe270ea6063478cbabb35ba40c"
+    },
+    {
+      "frame": 28,
+      "x": 42.0,
+      "y": 519.1936340332031,
+      "lift_y": 560.0,
+      "vy": -2.5,
+      "remaining_frames": 222,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "5ab18619fb5a725f1ce38a2db4076e415d7025acbbd52b27fdfbb654c7e19432"
+    },
+    {
+      "frame": 29,
+      "x": 44.0,
+      "y": 516.6936340332031,
+      "lift_y": 560.0,
+      "vy": -2.375,
+      "remaining_frames": 221,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "459739445ec3111af4cfb0f82e1404c70de3fec770060d7b288543895e049ff8"
+    },
+    {
+      "frame": 30,
+      "x": 46.0,
+      "y": 514.3186340332031,
+      "lift_y": 560.0,
+      "vy": -2.25,
+      "remaining_frames": 220,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "b372644871f53458171ef213d218b768e9355fa9f5b266c3fec4d780bc8052b3"
+    },
+    {
+      "frame": 31,
+      "x": 48.0,
+      "y": 512.0686340332031,
+      "lift_y": 560.0,
+      "vy": -2.125,
+      "remaining_frames": 219,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "9006a9b8a77ddfa354e9bc2c23a91721fe4ef74f309c4557e600851f6c4d0c4b"
+    },
+    {
+      "frame": 32,
+      "x": 50.0,
+      "y": 509.9436340332031,
+      "lift_y": 560.0,
+      "vy": -2.0,
+      "remaining_frames": 218,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "9d5f9a4004c8741dc342769c6613ec3000753f158375fd5a19d420a9dbfee7b1"
+    },
+    {
+      "frame": 33,
+      "x": 52.0,
+      "y": 507.9436340332031,
+      "lift_y": 560.0,
+      "vy": -1.875,
+      "remaining_frames": 217,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "032234f830e8e76882b2ae0e58d89d09a0eebe5f8e31135e6b08d3aed0804b0b"
+    },
+    {
+      "frame": 34,
+      "x": 54.0,
+      "y": 506.0686340332031,
+      "lift_y": 560.0,
+      "vy": -1.75,
+      "remaining_frames": 216,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "bae4c41df7d0da77e22889eca529c6fd8c0fb877414f50ca0a3248085ee8c08c"
+    },
+    {
+      "frame": 35,
+      "x": 56.0,
+      "y": 504.3186340332031,
+      "lift_y": 560.0,
+      "vy": -1.625,
+      "remaining_frames": 215,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "d18218621d7f89a6362203a0ed96d173034cdffa4e2d877c89176cb9afdb79a4"
+    },
+    {
+      "frame": 36,
+      "x": 58.0,
+      "y": 502.6936340332031,
+      "lift_y": 560.0,
+      "vy": -1.5,
+      "remaining_frames": 214,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "a9d872c80881b07ac8a622f31742f492912ca1566da7bc7c692a2f9b1c9bcd66"
+    },
+    {
+      "frame": 37,
+      "x": 60.0,
+      "y": 501.1936340332031,
+      "lift_y": 560.0,
+      "vy": -1.375,
+      "remaining_frames": 213,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "7111646ec3880c336907abf86881180575f1a76d7423d53da0b2acb9bab2b3db"
+    },
+    {
+      "frame": 38,
+      "x": 62.0,
+      "y": 499.8186340332031,
+      "lift_y": 560.0,
+      "vy": -1.25,
+      "remaining_frames": 212,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "a5e91b132443cd990bcde0b1d0afe94cc892a9ff090cc259adbdf7348d7fbf33"
+    },
+    {
+      "frame": 39,
+      "x": 64.0,
+      "y": 498.5686340332031,
+      "lift_y": 560.0,
+      "vy": -1.125,
+      "remaining_frames": 211,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "41587b09bf982a2ecac214764ad69afeda792b4b06b46c35943c21954a699911"
+    },
+    {
+      "frame": 40,
+      "x": 66.0,
+      "y": 497.4436340332031,
+      "lift_y": 560.0,
+      "vy": -1.0,
+      "remaining_frames": 210,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "d1a6f4257343fdc7d7e56e680eaa203bb72178b9fd51742b86a78630f900d975"
+    },
+    {
+      "frame": 41,
+      "x": 68.0,
+      "y": 496.4436340332031,
+      "lift_y": 560.0,
+      "vy": -0.875,
+      "remaining_frames": 209,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "69c9ec94463be841af613524b59e2cbf8b78e386785f487ffea96307e0d50162"
+    },
+    {
+      "frame": 42,
+      "x": 70.0,
+      "y": 495.5686340332031,
+      "lift_y": 560.0,
+      "vy": -0.75,
+      "remaining_frames": 208,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "0730ce580ac8ab04817520a41ed7c978415aa66080f0ec92b29024aa6ae08cd6"
+    },
+    {
+      "frame": 43,
+      "x": 72.0,
+      "y": 494.8186340332031,
+      "lift_y": 560.0,
+      "vy": -0.625,
+      "remaining_frames": 207,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "5d04a194f1befaad8492517ae9116cce01e7d0640bbb6af1b5734a58af7244b3"
+    },
+    {
+      "frame": 44,
+      "x": 74.0,
+      "y": 494.1936340332031,
+      "lift_y": 560.0,
+      "vy": -0.5,
+      "remaining_frames": 206,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "eac8eb7e9ba14e104d5cd009aaf0e9ba2134c00c42c9c4f073e80f97105375d0"
+    },
+    {
+      "frame": 45,
+      "x": 76.0,
+      "y": 493.6936340332031,
+      "lift_y": 560.0,
+      "vy": -0.375,
+      "remaining_frames": 205,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "0c8a6bc56f739dbc877a291f5418d5952347464ec1d5ca8d5f3f2b862c485fcd"
+    },
+    {
+      "frame": 46,
+      "x": 78.0,
+      "y": 493.3186340332031,
+      "lift_y": 560.0,
+      "vy": -0.25,
+      "remaining_frames": 204,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "3a568f213984442862ae9a05d80ce4fbe82be630d3ffd0d82865003b80c0552e"
+    },
+    {
+      "frame": 47,
+      "x": 80.0,
+      "y": 493.0686340332031,
+      "lift_y": 560.0,
+      "vy": -0.125,
+      "remaining_frames": 203,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "7f1f042ed6c705004589d1d5b0d55c062ef2a97c34364d08b5ae33160817bf12"
+    },
+    {
+      "frame": 48,
+      "x": 82.0,
+      "y": 492.9436340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 202,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "05420199a0871442a8567fa5a6a691b830ee7294dc8e135f70fba5fafeaf976d"
+    },
+    {
+      "frame": 49,
+      "x": 84.0,
+      "y": 492.9436340332031,
+      "lift_y": 560.0,
+      "vy": 0.125,
+      "remaining_frames": 201,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "9787cc052d7e35c8760fce256ad672486245dad37c02d7a6cac78aa14e47f09d"
+    },
+    {
+      "frame": 50,
+      "x": 86.0,
+      "y": 493.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.25,
+      "remaining_frames": 200,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "b9b58a9a744458467e0b2a58b1df40927e67c458929f0457eb51ee51b443b09f"
+    },
+    {
+      "frame": 51,
+      "x": 88.0,
+      "y": 493.3186340332031,
+      "lift_y": 560.0,
+      "vy": 0.375,
+      "remaining_frames": 199,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "306fa431d1a1273777f1a5a9f836f4769788e54cdfc4120c1a0b414e85d6ce3a"
+    },
+    {
+      "frame": 52,
+      "x": 90.0,
+      "y": 493.6936340332031,
+      "lift_y": 560.0,
+      "vy": 0.5,
+      "remaining_frames": 198,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "5078ddbe8da5ffe9a6431bd5d2fdda17c70c95ab1473bfe9b148a140bae2249a"
+    },
+    {
+      "frame": 53,
+      "x": 92.0,
+      "y": 494.1936340332031,
+      "lift_y": 560.0,
+      "vy": 0.625,
+      "remaining_frames": 197,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "97d50e6f46849db5921b330b877d892fe2dbe321ae658d637328c44276238b9c"
+    },
+    {
+      "frame": 54,
+      "x": 94.0,
+      "y": 494.8186340332031,
+      "lift_y": 560.0,
+      "vy": 0.75,
+      "remaining_frames": 196,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "6de6535f9a2d849ee309390e8704c958b806657223322c7b30f8642b1d71e818"
+    },
+    {
+      "frame": 55,
+      "x": 96.0,
+      "y": 495.5686340332031,
+      "lift_y": 560.0,
+      "vy": 0.875,
+      "remaining_frames": 195,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "e7fe2784b611cb00ba2e26635d6e221c8c2d09661041686dae960d4c1a5b6cd6"
+    },
+    {
+      "frame": 56,
+      "x": 98.0,
+      "y": 496.4436340332031,
+      "lift_y": 560.0,
+      "vy": 1.0,
+      "remaining_frames": 194,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "9c55093f05ca78233d718f011c1ca9fbaac8a5c85e804153538ec91a459621ec"
+    },
+    {
+      "frame": 57,
+      "x": 100.0,
+      "y": 497.4436340332031,
+      "lift_y": 560.0,
+      "vy": 1.125,
+      "remaining_frames": 193,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "1bf83ecfc6c2db2442f4e63c4948c95f4749ac96937f73571878c48dd21a8ade"
+    },
+    {
+      "frame": 58,
+      "x": 102.0,
+      "y": 498.5686340332031,
+      "lift_y": 560.0,
+      "vy": 1.25,
+      "remaining_frames": 192,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "334da72fdb429eee8bfccf436025dae6686136c2bc490e7256446fe5451c1514"
+    },
+    {
+      "frame": 59,
+      "x": 104.0,
+      "y": 499.8186340332031,
+      "lift_y": 560.0,
+      "vy": 1.375,
+      "remaining_frames": 191,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "d6acd03c7bbbd3ac67eda918042e2b1b99810bdd6efee582c037f8d81a21bb3a"
+    },
+    {
+      "frame": 60,
+      "x": 106.0,
+      "y": 501.1936340332031,
+      "lift_y": 560.0,
+      "vy": 1.5,
+      "remaining_frames": 190,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "50806f2a2fc717a74868534938a76c17b3a3814752124c204e2a70b096c6910a"
+    },
+    {
+      "frame": 61,
+      "x": 108.0,
+      "y": 502.6936340332031,
+      "lift_y": 560.0,
+      "vy": 1.625,
+      "remaining_frames": 189,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "4c991846723aba0ccf88eea388bf23b6a6de0b21c9a12b6ba6dd0f42dbb5d547"
+    },
+    {
+      "frame": 62,
+      "x": 110.0,
+      "y": 504.3186340332031,
+      "lift_y": 560.0,
+      "vy": 1.75,
+      "remaining_frames": 188,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "7fb8d1c1f309cfa227481838abb3022aa6105bea91d6dd7af5fe88031bb39a67"
+    },
+    {
+      "frame": 63,
+      "x": 112.0,
+      "y": 506.0686340332031,
+      "lift_y": 560.0,
+      "vy": 1.875,
+      "remaining_frames": 187,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "00013527ef6b235cfeac15506ca8126a91112c9167b5a7f5fbdfd8a7e340bd05"
+    },
+    {
+      "frame": 64,
+      "x": 114.0,
+      "y": 507.9436340332031,
+      "lift_y": 560.0,
+      "vy": 2.0,
+      "remaining_frames": 186,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "b8d0056745199c307481b0762dee6f2c5e64d75d311f034378ec9f030007f7cd"
+    },
+    {
+      "frame": 65,
+      "x": 116.0,
+      "y": 509.9436340332031,
+      "lift_y": 560.0,
+      "vy": 2.125,
+      "remaining_frames": 185,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "a8278df58a5036ac2cf6d9eeac5b43909624426a87087e8b4005b6a47fb05104"
+    },
+    {
+      "frame": 66,
+      "x": 118.0,
+      "y": 512.0686340332031,
+      "lift_y": 560.0,
+      "vy": 2.25,
+      "remaining_frames": 184,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "131d56bdef5ca8fea9b0040a0042dfc5e7a63252316496e08daa13c48307e2f0"
+    },
+    {
+      "frame": 67,
+      "x": 120.0,
+      "y": 514.3186340332031,
+      "lift_y": 560.0,
+      "vy": 2.375,
+      "remaining_frames": 183,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "023069e6072ab050e998c915d4ab325b822a3f948936121f7ef5ee33ebaf3913"
+    },
+    {
+      "frame": 68,
+      "x": 122.0,
+      "y": 516.6936340332031,
+      "lift_y": 560.0,
+      "vy": 2.5,
+      "remaining_frames": 182,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "130cca1ff4295576c3e977c338c26d4579ee86003ea53660eeb18095a2c31974"
+    },
+    {
+      "frame": 69,
+      "x": 124.0,
+      "y": 519.1936340332031,
+      "lift_y": 560.0,
+      "vy": 2.625,
+      "remaining_frames": 181,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "315414d0be46b632d14b663705f2aa8150929270768e137ee19b58ce8f97daaf"
+    },
+    {
+      "frame": 70,
+      "x": 126.0,
+      "y": 521.8186340332031,
+      "lift_y": 560.0,
+      "vy": 2.75,
+      "remaining_frames": 180,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "c1ff28aef1a0848a6284444828b3aef3f09b9c880e8c1a72b5a6e059aab4f6ee"
+    },
+    {
+      "frame": 71,
+      "x": 128.0,
+      "y": 524.5686340332031,
+      "lift_y": 560.0,
+      "vy": 2.875,
+      "remaining_frames": 179,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "573a4e4c21ad6a760fafd99a86cf16bc15620c74c38c2a5a38a9675c7258563d"
+    },
+    {
+      "frame": 72,
+      "x": 130.0,
+      "y": 527.4436340332031,
+      "lift_y": 560.0,
+      "vy": 3.0,
+      "remaining_frames": 178,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "ced0f5280256f1b9377c50c38dd041988913f24e5f8e2e37ed1b5f9583761f66"
+    },
+    {
+      "frame": 73,
+      "x": 132.0,
+      "y": 530.4436340332031,
+      "lift_y": 560.0,
+      "vy": 3.125,
+      "remaining_frames": 177,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "92a1c548c8fa9e1d83bd0e16d42ef8e20a506c717124c1fb63cc30b167125713"
+    },
+    {
+      "frame": 74,
+      "x": 134.0,
+      "y": 533.5686340332031,
+      "lift_y": 560.0,
+      "vy": 3.25,
+      "remaining_frames": 176,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "444ad9063992c8a016e7627b7ca68eace1849a4fc6a9a186cf181d94fb34559e"
+    },
+    {
+      "frame": 75,
+      "x": 136.0,
+      "y": 536.8186340332031,
+      "lift_y": 560.0,
+      "vy": 3.375,
+      "remaining_frames": 175,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "ce043c11a9a82394d3d4cc250bf4930de55f9f1f0a789b675322fba25b6ff2a2"
+    },
+    {
+      "frame": 76,
+      "x": 138.0,
+      "y": 540.1936340332031,
+      "lift_y": 560.0,
+      "vy": 3.5,
+      "remaining_frames": 174,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "7ad0c11106563f5e11e70a41bede6dd2e5558e6cfb05102d2cc77ff87c209b44"
+    },
+    {
+      "frame": 77,
+      "x": 140.0,
+      "y": 543.6936340332031,
+      "lift_y": 560.0,
+      "vy": 3.625,
+      "remaining_frames": 173,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "b1a31e94c846193a93464a719aff0664373a5c770ba4bab970bb1467cc41b9ab"
+    },
+    {
+      "frame": 78,
+      "x": 142.0,
+      "y": 547.3186340332031,
+      "lift_y": 560.0,
+      "vy": -1.875,
+      "remaining_frames": 172,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "ab77b4e6b40882a9613345f1cdfc8a85a0b165ca3ff8f8aec62f056827a61a16"
+    },
+    {
+      "frame": 79,
+      "x": 142.0,
+      "y": 545.4436340332031,
+      "lift_y": 560.0,
+      "vy": -1.75,
+      "remaining_frames": 171,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "8b1ed6971eef6fb5322247ce744d391b25c3c88873dc4a54cb52ea785a612dbc"
+    },
+    {
+      "frame": 80,
+      "x": 142.0,
+      "y": 543.6936340332031,
+      "lift_y": 560.0,
+      "vy": -1.625,
+      "remaining_frames": 170,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "5113955dbf0a048408b514b7dfdd2ac9e9d57665cacdc413a6195141683569cc"
+    },
+    {
+      "frame": 81,
+      "x": 142.0,
+      "y": 542.0686340332031,
+      "lift_y": 560.0,
+      "vy": -1.5,
+      "remaining_frames": 169,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "9b9680362a0ce9c35ec28fb013e8fbd252edc87f28c2f46474ab9bb3fd50b3b5"
+    },
+    {
+      "frame": 82,
+      "x": 142.0,
+      "y": 540.5686340332031,
+      "lift_y": 560.0,
+      "vy": -1.375,
+      "remaining_frames": 168,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "3b1fb676860b2f3ebe6b93bb0cbcfcce5c9d85e5dd44094d15d7e120c6707b57"
+    },
+    {
+      "frame": 83,
+      "x": 142.0,
+      "y": 539.1936340332031,
+      "lift_y": 560.0,
+      "vy": -1.25,
+      "remaining_frames": 167,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "d819d7d2eda903ea334039c417f69d4aba38775d24495808a545dcc67eae7340"
+    },
+    {
+      "frame": 84,
+      "x": 142.0,
+      "y": 537.9436340332031,
+      "lift_y": 560.0,
+      "vy": -1.125,
+      "remaining_frames": 166,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "e2f6c82b1e7ea436b2fd270bacd15aed66ac741859e5b5ce8ad8f4f63ea8cae1"
+    },
+    {
+      "frame": 85,
+      "x": 142.0,
+      "y": 536.8186340332031,
+      "lift_y": 560.0,
+      "vy": -1.0,
+      "remaining_frames": 165,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "9ed15f66e7b4953850d6df30a5a4ae0ab75f2d8c76b25733415dc1d1243d2313"
+    },
+    {
+      "frame": 86,
+      "x": 142.0,
+      "y": 535.8186340332031,
+      "lift_y": 560.0,
+      "vy": -0.875,
+      "remaining_frames": 164,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "62799a6e381212963462021f34b0f1eeefdbe357687fcec841a9813b58c820c6"
+    },
+    {
+      "frame": 87,
+      "x": 142.0,
+      "y": 534.9436340332031,
+      "lift_y": 560.0,
+      "vy": -0.75,
+      "remaining_frames": 163,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "a54c481bf5bf5c86f344ca74c6e5f7390fc8d98bbfcc130cb6b18be2eb608196"
+    },
+    {
+      "frame": 88,
+      "x": 142.0,
+      "y": 534.1936340332031,
+      "lift_y": 560.0,
+      "vy": -0.625,
+      "remaining_frames": 162,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "1b90895f197cca2271991f4b11ec6d44ad0fd218baa390791f565147042f001a"
+    },
+    {
+      "frame": 89,
+      "x": 142.0,
+      "y": 533.5686340332031,
+      "lift_y": 560.0,
+      "vy": -0.5,
+      "remaining_frames": 161,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "4b7aa5b03bd514018a42a6d64556fefb315118bbddf27c2fcdab20c9c7fe8379"
+    },
+    {
+      "frame": 90,
+      "x": 142.0,
+      "y": 533.0686340332031,
+      "lift_y": 560.0,
+      "vy": -0.375,
+      "remaining_frames": 160,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "8a2dd49cf14c5e3aec0940c236cc82636d7e70d16df3544326f746ba3ff82ab9"
+    },
+    {
+      "frame": 91,
+      "x": 142.0,
+      "y": 532.6936340332031,
+      "lift_y": 560.0,
+      "vy": -0.25,
+      "remaining_frames": 159,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "790f6bfec85a134011e0bf3457417932adee54ba3edefecd59a8c34a2eed4ea4"
+    },
+    {
+      "frame": 92,
+      "x": 142.0,
+      "y": 532.4436340332031,
+      "lift_y": 560.0,
+      "vy": -0.125,
+      "remaining_frames": 158,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "281160cb2fc9f8038b33660965541c1f6f2b5def63645f0714804dc024ca58e8"
+    },
+    {
+      "frame": 93,
+      "x": 142.0,
+      "y": 532.3186340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 157,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "9203647718ed51d73c54c92a5717aecb1c2938e41a2026aae69c5c069a127966"
+    },
+    {
+      "frame": 94,
+      "x": 142.0,
+      "y": 532.3186340332031,
+      "lift_y": 560.0,
+      "vy": 0.125,
+      "remaining_frames": 156,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "fcc7d407d92f51cb8dc27c831aa89434c2516b82628ebc2189e8529b05fb1325"
+    },
+    {
+      "frame": 95,
+      "x": 142.0,
+      "y": 532.4436340332031,
+      "lift_y": 560.0,
+      "vy": 0.25,
+      "remaining_frames": 155,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "da784fbbd51003b0d47f7fb64a55905d6ade5669e5113b0748c6394d2f1490c2"
+    },
+    {
+      "frame": 96,
+      "x": 142.0,
+      "y": 532.6936340332031,
+      "lift_y": 560.0,
+      "vy": 0.375,
+      "remaining_frames": 154,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "613436261466f59916d59a19e2e1229c8e36d7b2ecb46f0c3f266448768e8c90"
+    },
+    {
+      "frame": 97,
+      "x": 142.0,
+      "y": 533.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.5,
+      "remaining_frames": 153,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "1a9eb163967a620398f1f673e0f305e7acaca503d234f3f2f0dbab6b4d9a361d"
+    },
+    {
+      "frame": 98,
+      "x": 142.0,
+      "y": 533.5686340332031,
+      "lift_y": 560.0,
+      "vy": 0.625,
+      "remaining_frames": 152,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "0e7129da9822f8227be8310591d4735467c655cf79af991464cf90a5cd180468"
+    },
+    {
+      "frame": 99,
+      "x": 142.0,
+      "y": 534.1936340332031,
+      "lift_y": 560.0,
+      "vy": 0.75,
+      "remaining_frames": 151,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "93cfcae3219d89024c9fa02e47b1afa77d82159f3e3ee0f31b811caaf7f28bbe"
+    },
+    {
+      "frame": 100,
+      "x": 142.0,
+      "y": 534.9436340332031,
+      "lift_y": 560.0,
+      "vy": 0.875,
+      "remaining_frames": 150,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "a7c63e92312654985c1f63e29df7c47c46b1140b9a15151a159a8e0af89ebea3"
+    },
+    {
+      "frame": 101,
+      "x": 142.0,
+      "y": 535.8186340332031,
+      "lift_y": 560.0,
+      "vy": 1.0,
+      "remaining_frames": 149,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "257efd0ba20464279b8da9e46e55548cdfb3ee1cbf2d9172a559a5be4e32e84f"
+    },
+    {
+      "frame": 102,
+      "x": 142.0,
+      "y": 536.8186340332031,
+      "lift_y": 560.0,
+      "vy": 1.125,
+      "remaining_frames": 148,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "a41cd1ea6209c842944bcf91bbd9ac9c54ff4a7a15fdec635559669b7c44a03b"
+    },
+    {
+      "frame": 103,
+      "x": 142.0,
+      "y": 537.9436340332031,
+      "lift_y": 560.0,
+      "vy": 1.25,
+      "remaining_frames": 147,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "b450a49ec6a1c1c24cfdd3e03eb36ecb37cbb42c5d18d6b2e7030a067676da2c"
+    },
+    {
+      "frame": 104,
+      "x": 142.0,
+      "y": 539.1936340332031,
+      "lift_y": 560.0,
+      "vy": 1.375,
+      "remaining_frames": 146,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "7f1289422826221a89a63a9cd3ebc6e9deffd93b664253841d39a9414fd5ce6c"
+    },
+    {
+      "frame": 105,
+      "x": 142.0,
+      "y": 540.5686340332031,
+      "lift_y": 560.0,
+      "vy": 1.5,
+      "remaining_frames": 145,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "0622b817d71f3e9ea020e030a3613a43bc77a4ff0c040a98367b358433d9d4b4"
+    },
+    {
+      "frame": 106,
+      "x": 142.0,
+      "y": 542.0686340332031,
+      "lift_y": 560.0,
+      "vy": 1.625,
+      "remaining_frames": 144,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "f06688b2c6a5076e42329c0e59a44a19bc345c27f3baf98cdf90ccf6af8925bd"
+    },
+    {
+      "frame": 107,
+      "x": 142.0,
+      "y": 543.6936340332031,
+      "lift_y": 560.0,
+      "vy": 1.75,
+      "remaining_frames": 143,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "0b8037f328c9a68851081c4709a45ec12f8fea2a65fdde91d2a86ef1f245fb53"
+    },
+    {
+      "frame": 108,
+      "x": 142.0,
+      "y": 545.4436340332031,
+      "lift_y": 560.0,
+      "vy": 1.875,
+      "remaining_frames": 142,
+      "height_table": [
+        38,
+        38,
+        35,
+        35,
+        34,
+        35,
+        35,
+        35
+      ],
+      "ram_sha256": "dfcc593485fb7d3b16e3bc01515b31f91be036607dc19c2c6e1731d3d9f9dd0c"
+    },
+    {
+      "frame": 109,
+      "x": 142.0,
+      "y": 547.3186340332031,
+      "lift_y": 560.0,
+      "vy": -1.0,
+      "remaining_frames": 141,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "b4675b50e84ebf33d59ff9573e851e06a205791e278aa0fb8a40483b33f94d82"
+    },
+    {
+      "frame": 110,
+      "x": 142.0,
+      "y": 546.3186340332031,
+      "lift_y": 560.0,
+      "vy": -0.875,
+      "remaining_frames": 140,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "b6387d50a85072d9fed813da084024eea0b0011ef467880361f1359a0159e2b9"
+    },
+    {
+      "frame": 111,
+      "x": 142.0,
+      "y": 545.4436340332031,
+      "lift_y": 560.0,
+      "vy": -0.75,
+      "remaining_frames": 139,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "0b4792f0c790cc079f7a2bca6d46f1c7ae29d4ec592483b95189e813b7699d56"
+    },
+    {
+      "frame": 112,
+      "x": 142.0,
+      "y": 544.6936340332031,
+      "lift_y": 560.0,
+      "vy": -0.625,
+      "remaining_frames": 138,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "f167db907fdaaeb14e99839ff0c8a58ee44887a1babb3407b6f965cd0699caeb"
+    },
+    {
+      "frame": 113,
+      "x": 142.0,
+      "y": 544.0686340332031,
+      "lift_y": 560.0,
+      "vy": -0.5,
+      "remaining_frames": 137,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "a3a356dc4a2cd2a4f7cc07f84204f76ed19286d8d0f2c719920703edc0ba44e7"
+    },
+    {
+      "frame": 114,
+      "x": 142.0,
+      "y": 543.5686340332031,
+      "lift_y": 560.0,
+      "vy": -0.375,
+      "remaining_frames": 136,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "f11d0e8d93717d05c16f4594b036d013131e7efea31180f66afc9c12d59d6be2"
+    },
+    {
+      "frame": 115,
+      "x": 142.0,
+      "y": 543.1936340332031,
+      "lift_y": 560.0,
+      "vy": -0.25,
+      "remaining_frames": 135,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "7d688d6d1c1a313bd1f1c0fab64cba930d7fb6e82672f13564165568cb995cb3"
+    },
+    {
+      "frame": 116,
+      "x": 142.0,
+      "y": 542.9436340332031,
+      "lift_y": 560.0,
+      "vy": -0.125,
+      "remaining_frames": 134,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "5ec2713e9e6de1d99feebd8e80e870bd89a583a9805a6266cc6e03adccaebc8c"
+    },
+    {
+      "frame": 117,
+      "x": 142.0,
+      "y": 542.8186340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 133,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "dffabb14cb977c67bbb68550164663be512c248e884fad0a2426f421743012d4"
+    },
+    {
+      "frame": 118,
+      "x": 142.0,
+      "y": 542.8186340332031,
+      "lift_y": 560.0,
+      "vy": 0.125,
+      "remaining_frames": 132,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "fd32a33b9790284e904d8d901c8f1ae8e6a316ee45b3cd6deea8eaed710e0967"
+    },
+    {
+      "frame": 119,
+      "x": 142.0,
+      "y": 542.9436340332031,
+      "lift_y": 560.0,
+      "vy": 0.25,
+      "remaining_frames": 131,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "d1209d485d2afc3c01c4438cf4f0decaeaff01a5f81f118d1a17b3e1c58e99e9"
+    },
+    {
+      "frame": 120,
+      "x": 142.0,
+      "y": 543.1936340332031,
+      "lift_y": 560.0,
+      "vy": 0.375,
+      "remaining_frames": 130,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "04e2b649dfd1a4001424400edd21cd077ef021c2f28f9aead09b6f1ad6e58022"
+    },
+    {
+      "frame": 121,
+      "x": 142.0,
+      "y": 543.5686340332031,
+      "lift_y": 560.0,
+      "vy": 0.5,
+      "remaining_frames": 129,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "3fd9cdb3f5c0257f5a9f15c0694046dec5b06f806017e7eb5536d70437e1a770"
+    },
+    {
+      "frame": 122,
+      "x": 142.0,
+      "y": 544.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.625,
+      "remaining_frames": 128,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "7fa4307f545416bc0d09aea8b99fbbf8d55fc47bed8eeff78d4d1f54b0684269"
+    },
+    {
+      "frame": 123,
+      "x": 142.0,
+      "y": 544.6936340332031,
+      "lift_y": 560.0,
+      "vy": 0.75,
+      "remaining_frames": 127,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "c9e65f2f67cab9fce3585a45105fd70b713078c70ba7a1f280dd616474bc265f"
+    },
+    {
+      "frame": 124,
+      "x": 142.0,
+      "y": 545.4436340332031,
+      "lift_y": 560.0,
+      "vy": 0.875,
+      "remaining_frames": 126,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "50b3d34ca20dc653d4d3cb03ade3cb003108278a7f3f0b9453e34dd1c78d867d"
+    },
+    {
+      "frame": 125,
+      "x": 142.0,
+      "y": 546.3186340332031,
+      "lift_y": 560.0,
+      "vy": 1.0,
+      "remaining_frames": 125,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "b32b0f4c7aeb4833a316a35eb29bd70402d0b776a503a44a9aa3ba1a2a80305b"
+    },
+    {
+      "frame": 126,
+      "x": 142.0,
+      "y": 547.3186340332031,
+      "lift_y": 560.0,
+      "vy": 1.125,
+      "remaining_frames": 124,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "482c09e13c82b74ae692f5df356c3719b00f1cd7b950a69b0373864b269190c1"
+    },
+    {
+      "frame": 127,
+      "x": 142.0,
+      "y": 548.4436340332031,
+      "lift_y": 560.0,
+      "vy": 1.25,
+      "remaining_frames": 123,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "cb4a2c9ad339f4c20b9ef690cbddc4c41234cb9df15eef76c397d90852fc3c9d"
+    },
+    {
+      "frame": 128,
+      "x": 142.0,
+      "y": 549.6936340332031,
+      "lift_y": 560.0,
+      "vy": 1.375,
+      "remaining_frames": 122,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "31cd12b1022a7f20d96f3b189860fcaf416345f639cde28979c1a70129b69dd7"
+    },
+    {
+      "frame": 129,
+      "x": 142.0,
+      "y": 551.0686340332031,
+      "lift_y": 560.0,
+      "vy": 1.5,
+      "remaining_frames": 121,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "9ef04549b5ae1763a7e27001030ed75e57fb535e7d8d63188a6e0c5104843821"
+    },
+    {
+      "frame": 130,
+      "x": 142.0,
+      "y": 552.5686340332031,
+      "lift_y": 560.0,
+      "vy": 1.625,
+      "remaining_frames": 120,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "929e7142e042c98474d11147286c5a175621c35830f9ad308aaa7094b281ce71"
+    },
+    {
+      "frame": 131,
+      "x": 142.0,
+      "y": 554.1936340332031,
+      "lift_y": 560.0,
+      "vy": 1.75,
+      "remaining_frames": 119,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "17be910940fd11694eb97c915ffc41b83fc21aa9b9968f4bd855de4d468259b6"
+    },
+    {
+      "frame": 132,
+      "x": 142.0,
+      "y": 555.9436340332031,
+      "lift_y": 560.0,
+      "vy": 1.875,
+      "remaining_frames": 118,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "7590ec112700d083e895843207ee887e534e3c955fc2519cbf061e0ffc80a181"
+    },
+    {
+      "frame": 133,
+      "x": 142.0,
+      "y": 557.8186340332031,
+      "lift_y": 560.0,
+      "vy": 2.0,
+      "remaining_frames": 117,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "22c82dd526aa68a75f95ca65a93be72ab6aac5ff61334c78d23dce096207a79e"
+    },
+    {
+      "frame": 134,
+      "x": 142.0,
+      "y": 559.8186340332031,
+      "lift_y": 560.0,
+      "vy": 2.125,
+      "remaining_frames": 116,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "db5c23ac469822311a69933af2dfa58e057b8232267e9e922ccb62e7c1e3bb25"
+    },
+    {
+      "frame": 135,
+      "x": 142.0,
+      "y": 561.9436340332031,
+      "lift_y": 560.0,
+      "vy": 2.25,
+      "remaining_frames": 115,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "503738650e31b3bc57b1399dd6bfda030f7d30bc1c933b9abdba11d6752c3097"
+    },
+    {
+      "frame": 136,
+      "x": 142.0,
+      "y": 564.1936340332031,
+      "lift_y": 560.0,
+      "vy": -1.1875,
+      "remaining_frames": 114,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "20447eb807c7c7f23c221c8d53e58b1ec67a23dc04ed8b08790ad3337b48e866"
+    },
+    {
+      "frame": 137,
+      "x": 142.0,
+      "y": 563.0061340332031,
+      "lift_y": 560.0,
+      "vy": -1.0625,
+      "remaining_frames": 113,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "8a8e1e7e8103a44b67294a0f475d759037d23ec411277207361327faab0cedf0"
+    },
+    {
+      "frame": 138,
+      "x": 142.0,
+      "y": 561.9436340332031,
+      "lift_y": 560.0,
+      "vy": -0.9375,
+      "remaining_frames": 112,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "b8e6f8ea81c6160f13caa06f319624bc3cd5896b190c360bc42d1befd53533fb"
+    },
+    {
+      "frame": 139,
+      "x": 142.0,
+      "y": 561.0061340332031,
+      "lift_y": 560.0,
+      "vy": -0.8125,
+      "remaining_frames": 111,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "38ee9f9d9ffd3fddcd548e8b79ef2ea5456509fbb482d0cd93fcf9e3662b864d"
+    },
+    {
+      "frame": 140,
+      "x": 142.0,
+      "y": 560.1936340332031,
+      "lift_y": 560.0,
+      "vy": -0.6875,
+      "remaining_frames": 110,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "30e2de3ce51eaa35ea34695f6a395b1d161c015d734cedfb9d9cb489245dfe8e"
+    },
+    {
+      "frame": 141,
+      "x": 142.0,
+      "y": 559.5061340332031,
+      "lift_y": 560.0,
+      "vy": -0.5625,
+      "remaining_frames": 109,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "4d9b6290b729c166098519302e912b0f0c17a4167c766f7c8d133ddeb960fc0c"
+    },
+    {
+      "frame": 142,
+      "x": 142.0,
+      "y": 558.9436340332031,
+      "lift_y": 560.0,
+      "vy": -0.4375,
+      "remaining_frames": 108,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "b09e705f99e00912b37f2652ba7bb28575fe0ef6d37859e3d7e7bf15773ebc0a"
+    },
+    {
+      "frame": 143,
+      "x": 142.0,
+      "y": 558.5061340332031,
+      "lift_y": 560.0,
+      "vy": -0.3125,
+      "remaining_frames": 107,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "8c1281b987498b8ed113acafe33c594c7e3987bdec4e8f1a2abec8d3885981bd"
+    },
+    {
+      "frame": 144,
+      "x": 142.0,
+      "y": 558.1936340332031,
+      "lift_y": 560.0,
+      "vy": -0.1875,
+      "remaining_frames": 106,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "1eed11dbc35994a6e8c5af9a3457d69e4270275742a95cc2efc2e739c48d3283"
+    },
+    {
+      "frame": 145,
+      "x": 142.0,
+      "y": 558.0061340332031,
+      "lift_y": 560.0,
+      "vy": -0.0625,
+      "remaining_frames": 105,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "922c07fb9d9ef5b5f029e3018dfacf293eefca3ad5b7db513a6af6e435fa1c11"
+    },
+    {
+      "frame": 146,
+      "x": 142.0,
+      "y": 557.9436340332031,
+      "lift_y": 560.0,
+      "vy": 0.0625,
+      "remaining_frames": 104,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "fb24fe0ed23cbc32c22ba92bdd893964c33bfe2f483ff3dbdee047c87c77ab3c"
+    },
+    {
+      "frame": 147,
+      "x": 142.0,
+      "y": 558.0061340332031,
+      "lift_y": 560.0,
+      "vy": 0.1875,
+      "remaining_frames": 103,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "f0300416b40b956d4623095e43dde81d7c0405c2c0424cede541f38d7d89436e"
+    },
+    {
+      "frame": 148,
+      "x": 142.0,
+      "y": 558.1936340332031,
+      "lift_y": 560.0,
+      "vy": 0.3125,
+      "remaining_frames": 102,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "83062770287e2d1182c8e2844e90c017ddfda4edaf8a228b4ae28ee52bebd8d0"
+    },
+    {
+      "frame": 149,
+      "x": 142.0,
+      "y": 558.5061340332031,
+      "lift_y": 560.0,
+      "vy": 0.4375,
+      "remaining_frames": 101,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "e79473ab7f6c1c48fb0daf472c3e94561c6534db335ff93a19e16d2a3f43dd7d"
+    },
+    {
+      "frame": 150,
+      "x": 142.0,
+      "y": 558.9436340332031,
+      "lift_y": 560.0,
+      "vy": 0.5625,
+      "remaining_frames": 100,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "515322c87f7bde6c08bd19b1f1ebb5230e43a40a0ed4f84e0d4417c23a36c3d3"
+    },
+    {
+      "frame": 151,
+      "x": 142.0,
+      "y": 559.5061340332031,
+      "lift_y": 560.0,
+      "vy": 0.6875,
+      "remaining_frames": 99,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "3f6bb1d88953e425aa4daeedac6a29d00a492cfa145c8db0ecd6c547d8b6823a"
+    },
+    {
+      "frame": 152,
+      "x": 142.0,
+      "y": 560.1936340332031,
+      "lift_y": 560.0,
+      "vy": 0.8125,
+      "remaining_frames": 98,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "78aace689a2a327cfb0572d366a9ac7e6a15b5a283fdb8241d3e9739dfee1c9a"
+    },
+    {
+      "frame": 153,
+      "x": 142.0,
+      "y": 561.0061340332031,
+      "lift_y": 560.0,
+      "vy": -0.46875,
+      "remaining_frames": 97,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "fcfbcda750eda5eb5ca6b208f386bb62b97fdf15421a92635189ccd29c629c56"
+    },
+    {
+      "frame": 154,
+      "x": 142.0,
+      "y": 560.5373840332031,
+      "lift_y": 560.0,
+      "vy": -0.34375,
+      "remaining_frames": 96,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "4bb93e9f68b05765606a75fdd75f92f48657f1646c72acbe3b16cd5a50cd5897"
+    },
+    {
+      "frame": 155,
+      "x": 142.0,
+      "y": 560.1936340332031,
+      "lift_y": 560.0,
+      "vy": -0.21875,
+      "remaining_frames": 95,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "f55061525fe248718a060f641f37979d36a048cb528cf068cd1a05af6fab5161"
+    },
+    {
+      "frame": 156,
+      "x": 142.0,
+      "y": 559.9748840332031,
+      "lift_y": 560.0,
+      "vy": -0.09375,
+      "remaining_frames": 94,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "ee5a36215b0255ceb3ff7aee30e2b78b5b4332643a48e5bee868fe3ae29e5fea"
+    },
+    {
+      "frame": 157,
+      "x": 142.0,
+      "y": 559.8811340332031,
+      "lift_y": 560.0,
+      "vy": 0.03125,
+      "remaining_frames": 93,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "1280b8df1a182ee444a0e5459a855d48f0ab8f7cc7c21f65c5b8b1396917c3bd"
+    },
+    {
+      "frame": 158,
+      "x": 142.0,
+      "y": 559.9123840332031,
+      "lift_y": 560.0,
+      "vy": 0.15625,
+      "remaining_frames": 92,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "a5123d0e35ea0d8ebd7faa3937b82e33805f826f6c5ec39d2f88f0bda2e1ba13"
+    },
+    {
+      "frame": 159,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.28125,
+      "remaining_frames": 91,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "e7fb8b2e458db9616d3f604adba9fff2634fe344e92a9bc8cfc0f4773a338346"
+    },
+    {
+      "frame": 160,
+      "x": 142.0,
+      "y": 560.3498840332031,
+      "lift_y": 560.0,
+      "vy": -0.203125,
+      "remaining_frames": 90,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "aad26d1b288f3baf9a3ad49970a0671823c56e68288d66d27606a8a786bea20e"
+    },
+    {
+      "frame": 161,
+      "x": 142.0,
+      "y": 560.1467590332031,
+      "lift_y": 560.0,
+      "vy": -0.078125,
+      "remaining_frames": 89,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "2603ea99f01af722f1ae1a771a947478779de2e2eff198aba95dd23afc51dbda"
+    },
+    {
+      "frame": 162,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 88,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "310a1139bcfbfc8365a5122d13de20100e251b248c5bda69d8b38e56ad402eba"
+    },
+    {
+      "frame": 163,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 87,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "800dcf15aab80d612196dd61ad9ccd597c807bb07d19660562e28d25a6489773"
+    },
+    {
+      "frame": 164,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 86,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "ce04bb19e6be7c970dd6c7e4f79ebe7e868fa70552f6e9b57b7ab4626463629a"
+    },
+    {
+      "frame": 165,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 85,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "4b4e697701dd21594e90156468631e44f7dc2eda75f249ba73fd2e8a95a4d2d1"
+    },
+    {
+      "frame": 166,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 84,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "60ebdc5917d94479fc232b0cb92b0b7082a3192ad0894b3f46595e40209e6496"
+    },
+    {
+      "frame": 167,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 83,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "116f159f777c26069103b2fb24ecf5b7f3d9f7caac924b4597395995fa252a7c"
+    },
+    {
+      "frame": 168,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 82,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "070fa1cbc72cc30f0dfc5a042630003fc95c80f044f178aeec2f27b801790fc1"
+    },
+    {
+      "frame": 169,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 81,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "418c2264994ef85dff553dccd60cb923c69d34fcb3a1193101a3452ffa437285"
+    },
+    {
+      "frame": 170,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 80,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "895b2f49020cef4212f4a55366e6bfddfc6d6e509b84ae02f686bccbde151daa"
+    },
+    {
+      "frame": 171,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 79,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "300a626c82605333c63e59dd1c6f172d08d6fdec24334d764ffec33c33ce4c27"
+    },
+    {
+      "frame": 172,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 78,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "c5fc784653cb315a6df60f68fb33169b82de1f6498f9f2c9c9b7e6dd27573db8"
+    },
+    {
+      "frame": 173,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 77,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "3ef9e7391ddca85b26fc6165af0c69ad161cf4e293a4187ecbfb551fc6417e5e"
+    },
+    {
+      "frame": 174,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 76,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "6e2788f80381adc1f023be926f1d80a2ece114bb23f1d47f5cfaf879c2aae976"
+    },
+    {
+      "frame": 175,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 75,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "27d27e134f74ede44c94e865ec9992850efef57fa0c36bbe1167bb74c1549126"
+    },
+    {
+      "frame": 176,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 74,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "24bdd8355879573306b9b138ea779b70fce76cc4eaae00a93ab5303c471cd3c6"
+    },
+    {
+      "frame": 177,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 73,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "abe95ee18503229b633782ebb0072d97bdc25aff027bda5766c738841068204a"
+    },
+    {
+      "frame": 178,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 72,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "2ac34d4dd7a6ee31a543a68cf228741e901221017628d2a9a8c51903f2c457e9"
+    },
+    {
+      "frame": 179,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 71,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "28b93a9f2c81e0d2517ae2059ddeec16021af2142e7b9e40add08566f51f0c4b"
+    },
+    {
+      "frame": 180,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 70,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "8585aadafdf8811b6d95966944db0675fcc208fc5e07d402ffbde0073ef3539f"
+    },
+    {
+      "frame": 181,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 69,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "31385936c3dc197b9f9ff5da298884c851da38a6c80f8bbf736dc3d395412fca"
+    },
+    {
+      "frame": 182,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 68,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "086cdfd15c1762882791e0418311abe1d9f92dd461da07cf45eb5eac70f70671"
+    },
+    {
+      "frame": 183,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 67,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "f6e95e51059179372a5337be84dbdf7725571abc59c65dab9e6a13997ebd2e9d"
+    },
+    {
+      "frame": 184,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 66,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "5145d24cdf2f2dfef10e5ddb594e9091d8b691e61b933807d525472344cf2f5f"
+    },
+    {
+      "frame": 185,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 65,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "8f4e9fd968a4798c998fd21c855c0418b173226581b16b05198bbc21a0a14497"
+    },
+    {
+      "frame": 186,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 64,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "52143487d8b79d2c7ee672383fce42ce674bf61efcb3c25f3100d29478a1996a"
+    },
+    {
+      "frame": 187,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 63,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "febd46d893fa5ce2ab5bbd3dd947e659a833b8ba291a3140247663511c38a8bf"
+    },
+    {
+      "frame": 188,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 62,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "e1e4b6d037a549ee86d2f930e89a5eccc6cef744dac9398610b276b9d232b4be"
+    },
+    {
+      "frame": 189,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 61,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "64d6b444fbc21d0e88af2c256740bd368694f03d3c837954064be7c092dc27de"
+    },
+    {
+      "frame": 190,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 60,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "78e6bc4d0e28da3c8d624f798d7b160f57005526a437d205ec5cf0c67893bb10"
+    },
+    {
+      "frame": 191,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 59,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "ca02ec722817c5162cecbbedf455a5d9b1105147615024af7c72926cea627bf6"
+    },
+    {
+      "frame": 192,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 58,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "987da462862081ba0e7dc82cf26971d944e880be26b9531291810748d55230e3"
+    },
+    {
+      "frame": 193,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 57,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "d6adca4722a552dee83f466be8efc769347e1e3b24d245e08aae82afcb57a827"
+    },
+    {
+      "frame": 194,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 56,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "4c1365f1f64b238a4414ff45c258a69a9ff7b78c595d8ceabe28c583de2d02d4"
+    },
+    {
+      "frame": 195,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 55,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "ca18dc394bd0333b278d358fdf862b71d406a17a47afedbe1ad56a0222844b1d"
+    },
+    {
+      "frame": 196,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 54,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "bd6defd69fdfb55c644e7a0dd0ed64a1bcc65ce17aa52eb1de5ad764adfba1bd"
+    },
+    {
+      "frame": 197,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 53,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "af7526afe775511103ed00e1f890dfc374092f836fa147c5401617fbc570ae05"
+    },
+    {
+      "frame": 198,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 52,
+      "height_table": [
+        38,
+        38,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "266e627b54ad6b1af2c1992c67e4447dfdc60fb93ab3a46391d4c27f0e55eee1"
+    },
+    {
+      "frame": 199,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 51,
+      "height_table": [
+        38,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "01fa484a83824aab6514e964fe8b1013c0599479191e18d925030d7c7b96a3fa"
+    },
+    {
+      "frame": 200,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 50,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "281b8de8bc791dc53acb996021ca0b73e8859e5ff4a9513f6d94fe019f2efdbc"
+    },
+    {
+      "frame": 201,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 49,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "9dd0468961eb749b0c3809bcf8ae400e72e3f5749cf80a6d3e3a5951a6f4d6af"
+    },
+    {
+      "frame": 202,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 48,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "2f89009fe0bb0f85369e726092f604091df66632610acfa98c5631f604c9ec02"
+    },
+    {
+      "frame": 203,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 47,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "7f6b3fe6b4bec42a522d54ec31b90ceb9cce3a2ee10f00f0d263ddf0aa33babf"
+    },
+    {
+      "frame": 204,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 46,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "332eb83c4725a369f5d3f899e3e87c9ecd9b1666d5349bec54563e3e492b283a"
+    },
+    {
+      "frame": 205,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 45,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "7f83de36151086ddc25e8ce4d67337e94610b4307471cc24692ae378b0e041f0"
+    },
+    {
+      "frame": 206,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 44,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "518e5881975b6390af9d5ab5b7314983f1aa9a46c90e4582d1713770a8062814"
+    },
+    {
+      "frame": 207,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 43,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "80850cf2339f90bf5438cfafc98888ee54eff0b1e411251b7f3f502765af723a"
+    },
+    {
+      "frame": 208,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 42,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "07f5682eb7ffc7bfb3215c34b68c910fe14359a556838ff3d366b0caf8668002"
+    },
+    {
+      "frame": 209,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 41,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "a5471f26590ace764011104a59d50361692d26a6838415da0c446624321d567a"
+    },
+    {
+      "frame": 210,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 40,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "29a015c893673e754fe3120a471dc70a37eb68b584c278adc6c4fe7f5f6ecb08"
+    },
+    {
+      "frame": 211,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 39,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "ae1701027ed7e20388949817bab082451421e9dc31974aa08c722e64c1e60c10"
+    },
+    {
+      "frame": 212,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 38,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "f98332506aafe5884d7e91c84cbb094302b660ddaa8a02668482ec4fbe92c184"
+    },
+    {
+      "frame": 213,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 37,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "6e1a383e5dc1a7a9ca94a5766819185a206d4807abadb3d7cfb4858d3568585a"
+    },
+    {
+      "frame": 214,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 36,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "52569cc3d4b34faa79707d13f9a38a4679bf2011d8b90eb0cc3d666d3b60b552"
+    },
+    {
+      "frame": 215,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 35,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "c8798137e665b53996fff419e155d4f61b506929be941def60da0b4150d06685"
+    },
+    {
+      "frame": 216,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 34,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "073e5ce6ef44f9a713bfbbfc08bf2b95fa559cd2e0ed0ec005e0c3976d1271ca"
+    },
+    {
+      "frame": 217,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 33,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "fdd8ff484ebabd6c5134eea138e490172491c2421ca764cd5d4c7dfba6f26246"
+    },
+    {
+      "frame": 218,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 32,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "7e13d11d07104e92214c1a3d3021073424c6e8e75f29559c0c03c4136d942600"
+    },
+    {
+      "frame": 219,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 31,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "c58d59283d83b78b44e6d043703753497640ceff66763ea5b7d7a3c0f538f2ce"
+    },
+    {
+      "frame": 220,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 30,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "21b103e74a86657307ec383298e278eca410568252f0d006953e7f5974d29056"
+    },
+    {
+      "frame": 221,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 29,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "d3bd1009f6e802012a20cdcc37b2c5df627dc2ffe545c4fc9b6b3d0b52d55da8"
+    },
+    {
+      "frame": 222,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 28,
+      "height_table": [
+        37,
+        35,
+        36,
+        36,
+        35,
+        36,
+        37,
+        36
+      ],
+      "ram_sha256": "1c60d74f76dc27829f2695dbcc5435fc9be868640b202255969b6ed8c0fe8a36"
+    },
+    {
+      "frame": 223,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.0,
+      "remaining_frames": 27,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "054c139e84a0a7f385f41302d8455c5a7e31857a1af9449d972d4d2f5659cb63"
+    },
+    {
+      "frame": 224,
+      "x": 142.0,
+      "y": 560.0686340332031,
+      "lift_y": 560.0,
+      "vy": 0.125,
+      "remaining_frames": 26,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "b595b12c082fdfa4e666e70e245b2c70cc0ff31d43c2862999bde82aa2d78be1"
+    },
+    {
+      "frame": 225,
+      "x": 142.0,
+      "y": 560.1936340332031,
+      "lift_y": 560.0,
+      "vy": 0.25,
+      "remaining_frames": 25,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "df95a48ec5b14e5c7331406229d54506f96ba19e2655ac5ef3f0f5916748dafc"
+    },
+    {
+      "frame": 226,
+      "x": 142.0,
+      "y": 560.4436340332031,
+      "lift_y": 560.0,
+      "vy": 0.375,
+      "remaining_frames": 24,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "8bd76d2555989c83f4f9774bdd8163b7daff0df82e6451680951033d758a1523"
+    },
+    {
+      "frame": 227,
+      "x": 142.0,
+      "y": 560.8186340332031,
+      "lift_y": 560.0,
+      "vy": 0.5,
+      "remaining_frames": 23,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "43e76caefbfbeeddad68d32df2c557d26e2fdbaa7c30b1e7f6cd6c0be535adfa"
+    },
+    {
+      "frame": 228,
+      "x": 142.0,
+      "y": 561.3186340332031,
+      "lift_y": 560.0,
+      "vy": 0.625,
+      "remaining_frames": 22,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "bc59987bb5ad576745b929f945462f6b218e85ea654221ec30ede09f712a5852"
+    },
+    {
+      "frame": 229,
+      "x": 142.0,
+      "y": 561.9436340332031,
+      "lift_y": 560.0,
+      "vy": 0.75,
+      "remaining_frames": 21,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "201a9fbbd12040291936c4cccc898566eb933d1e3af79d0efd66d34e71ba8732"
+    },
+    {
+      "frame": 230,
+      "x": 142.0,
+      "y": 562.6936340332031,
+      "lift_y": 560.0,
+      "vy": 0.875,
+      "remaining_frames": 20,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "947e6dee5af77bd2bf449b9032c9410b2ff1dc1332a04fb2baab31726b458cbc"
+    },
+    {
+      "frame": 231,
+      "x": 142.0,
+      "y": 563.5686340332031,
+      "lift_y": 560.0,
+      "vy": 1.0,
+      "remaining_frames": 19,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "703c9a8e8107b8e145233d96c9c7cf979a27078c63671db3dd269853383b1927"
+    },
+    {
+      "frame": 232,
+      "x": 142.0,
+      "y": 564.5686340332031,
+      "lift_y": 560.0,
+      "vy": 1.125,
+      "remaining_frames": 18,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "fd2539bf3b1054504b161ac81033e07468b68f1257b4da31ef2d610d66cfd9a8"
+    },
+    {
+      "frame": 233,
+      "x": 142.0,
+      "y": 565.6936340332031,
+      "lift_y": 560.0,
+      "vy": 1.25,
+      "remaining_frames": 17,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "8414132fac3d75a6deda08a13b20d5ea48cddc827994e8f12b104c84a707b590"
+    },
+    {
+      "frame": 234,
+      "x": 142.0,
+      "y": 566.9436340332031,
+      "lift_y": 560.0,
+      "vy": 1.375,
+      "remaining_frames": 16,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "020dc4b5be659f42a3053156bce6ce2d9973e35c24cecaec830d1b0f11deb983"
+    },
+    {
+      "frame": 235,
+      "x": 142.0,
+      "y": 568.3186340332031,
+      "lift_y": 560.0,
+      "vy": 1.5,
+      "remaining_frames": 15,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "b547e964ae9424d9c0c3b702fc4989feafc828e001658cc8eda3f5569adf3e31"
+    },
+    {
+      "frame": 236,
+      "x": 142.0,
+      "y": 569.8186340332031,
+      "lift_y": 560.0,
+      "vy": 1.625,
+      "remaining_frames": 14,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "13892f4f665cd2badff7af3982bfe75446f01f9edf3d4ef90b6d5840c280f14f"
+    },
+    {
+      "frame": 237,
+      "x": 142.0,
+      "y": 571.4436340332031,
+      "lift_y": 560.0,
+      "vy": 1.75,
+      "remaining_frames": 13,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "0963a7f4edd2d127ee89f45958d56dde74c1dcb771c95418d1e33882d9817781"
+    },
+    {
+      "frame": 238,
+      "x": 142.0,
+      "y": 573.1936340332031,
+      "lift_y": 560.0,
+      "vy": 1.875,
+      "remaining_frames": 12,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "20d6fde9b705b3877a808a4e116c55871ae6a52000af85f522fd0c453d28ed36"
+    },
+    {
+      "frame": 239,
+      "x": 142.0,
+      "y": 575.0686340332031,
+      "lift_y": 560.0,
+      "vy": 2.0,
+      "remaining_frames": 11,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "f3ed0cd04d4e7ee56da0c2d1de5573e3c98fad03558d29e89b03b9c71aecd6a1"
+    },
+    {
+      "frame": 240,
+      "x": 142.0,
+      "y": 577.0686340332031,
+      "lift_y": 560.0,
+      "vy": 2.125,
+      "remaining_frames": 10,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "d3845a78e8c0574a1f96a8e81bdf9c70523e7439b55666ab3c89e2ee011d7161"
+    },
+    {
+      "frame": 241,
+      "x": 142.0,
+      "y": 579.1936340332031,
+      "lift_y": 560.0,
+      "vy": -1.125,
+      "remaining_frames": 9,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "cd19a8182dc022cd7ecb609d32970277c49ed971864b3494aa24c4f9fa572068"
+    },
+    {
+      "frame": 242,
+      "x": 142.0,
+      "y": 578.0686340332031,
+      "lift_y": 560.0,
+      "vy": -1.0,
+      "remaining_frames": 8,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "6aa07b3fec5093dc37475a1196f3e289347eb1220e7a9af7c9caa21a14075e12"
+    },
+    {
+      "frame": 243,
+      "x": 142.0,
+      "y": 577.0686340332031,
+      "lift_y": 560.0,
+      "vy": -0.875,
+      "remaining_frames": 7,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "4575cc4650a82f5815fbb6788f4b48b68a5d2689b12969922479e8ce27479ffd"
+    },
+    {
+      "frame": 244,
+      "x": 142.0,
+      "y": 576.1936340332031,
+      "lift_y": 560.0,
+      "vy": -0.75,
+      "remaining_frames": 6,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "9db840e87f5571847b074e1aaf48ad783a1b9ec137eab44ed8e7fe1ed2c5277d"
+    },
+    {
+      "frame": 245,
+      "x": 142.0,
+      "y": 575.4436340332031,
+      "lift_y": 560.0,
+      "vy": -0.625,
+      "remaining_frames": 5,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "e5cf00f2f547ccf3ba93915215885f7fcba73877f73483a509077929cc6f9e27"
+    },
+    {
+      "frame": 246,
+      "x": 142.0,
+      "y": 574.8186340332031,
+      "lift_y": 560.0,
+      "vy": -0.5,
+      "remaining_frames": 4,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "72b194986780db9682b90b6393e6bdfa6c7ff32b3c2880563119a31414924d62"
+    },
+    {
+      "frame": 247,
+      "x": 142.0,
+      "y": 574.3186340332031,
+      "lift_y": 560.0,
+      "vy": -0.375,
+      "remaining_frames": 3,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "66ad68e8220b20e3db0f1e1e448c30a8dcd3c30bf11b160d89a74b1c26106f95"
+    },
+    {
+      "frame": 248,
+      "x": 142.0,
+      "y": 573.9436340332031,
+      "lift_y": 560.0,
+      "vy": -0.25,
+      "remaining_frames": 2,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "84bc1f240097f83a94c26025c339ef8f6ed04678fe66dbbd7eb5fdc2aa383fb9"
+    },
+    {
+      "frame": 249,
+      "x": 142.0,
+      "y": 573.6936340332031,
+      "lift_y": 560.0,
+      "vy": -0.125,
+      "remaining_frames": 1,
+      "height_table": [
+        37,
+        36,
+        37,
+        37,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "a30d839ed234d6667d9b2dc685a74f0ebaa98ae6753b6462fc1ffa0a25c877d0"
+    },
+    {
+      "frame": 250,
+      "x": 142.0,
+      "y": 573.6936340332031,
+      "lift_y": 560.0,
+      "vy": -0.125,
+      "remaining_frames": 0,
+      "height_table": [
+        42,
+        38,
+        42,
+        40,
+        36,
+        37,
+        37,
+        37
+      ],
+      "ram_sha256": "30da8b0503289a096b2f8f65d7a63e1593ba2802d03cb10c2fc4a0154f62d742"
+    }
+  ],
+  "limits": "One natural player throw with changing floor heights; alternate launch columns, catches and blast damage still require verification."
+}

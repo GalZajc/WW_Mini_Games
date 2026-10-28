@@ -1,0 +1,457 @@
+{
+  "parameters": {
+    "source_run": "scripts/OUTPUT/eggo-reference_2026-10-07_13-02-24_227876",
+    "source_name": "eggo-replay-full-graphics",
+    "reference_capture_frames_by_phase": [
+      1,
+      2,
+      6,
+      10,
+      14,
+      18,
+      22,
+      26,
+      30,
+      34,
+      38,
+      42,
+      46,
+      50,
+      54
+    ],
+    "frames": 15,
+    "field_width": 112,
+    "sprite_size": [
+      64,
+      32
+    ],
+    "palette_bank": 4,
+    "oam_x_positions": [
+      -8,
+      56
+    ],
+    "waterline_to_oam_top_pixels": 16,
+    "native_frame_period": 60,
+    "native_ticks_per_art_frame": 4,
+    "runtime_phase_formula": "floor(((nativeFrame + 39) modulo 60) / 4)",
+    "runtime_phase_audit": "scripts/OUTPUT/eggo-water-surface-animation_2026-10-08_06-54-42",
+    "color_conversion": "RGB555 channel values expanded with value*255//31; palette index zero transparent",
+    "random_seed": null,
+    "source_capture_metadata_sha256": "bb1563956616d343183a614cf52d44b7777bac9ebf30f85d91da40dec46a257b",
+    "source_random_seed": "encoded in the initial emulator state"
+  },
+  "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+  "source_initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+  "atlas_size": [
+    112,
+    480
+  ],
+  "atlas_sha256": "f4a1ccaf834c55803359737703449502922c809825a5c3b022358f79643e1cb4",
+  "unique_composite_frames": 15,
+  "native_oam_surface_y_range": [
+    136,
+    171
+  ],
+  "source_parameters": {
+    "podium_trace_parameters": null,
+    "collapse_trace_parameters": null,
+    "pickup_trace_parameters": null,
+    "pickup_initial": null,
+    "output_collision_index": 0,
+    "enemy_trace_parameters": null,
+    "projectile_trace_parameters": null,
+    "item_trace_parameters": null,
+    "rival_pose_parameters": null,
+    "load": "tests/artifacts/eggo-reference/hard-idle.state",
+    "steps": [
+      [
+        8,
+        "LEFT+UP"
+      ],
+      [
+        11,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        3,
+        "RIGHT+UP"
+      ],
+      [
+        5,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        1,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        14,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        8,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        6,
+        "RIGHT+UP"
+      ],
+      [
+        3,
+        "RIGHT"
+      ],
+      [
+        19,
+        "LEFT"
+      ],
+      [
+        8,
+        "LEFT+UP"
+      ],
+      [
+        5,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        9,
+        ""
+      ],
+      [
+        7,
+        "UP"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        8,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        5,
+        "LEFT+UP"
+      ],
+      [
+        7,
+        ""
+      ],
+      [
+        7,
+        "RIGHT"
+      ],
+      [
+        7,
+        ""
+      ],
+      [
+        1,
+        "RIGHT"
+      ],
+      [
+        4,
+        "RIGHT+UP"
+      ],
+      [
+        4,
+        "LEFT+UP"
+      ],
+      [
+        11,
+        "LEFT"
+      ],
+      [
+        11,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        8,
+        "RIGHT"
+      ],
+      [
+        14,
+        ""
+      ],
+      [
+        8,
+        "UP"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        1,
+        "RIGHT"
+      ],
+      [
+        9,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        6,
+        "RIGHT"
+      ],
+      [
+        2,
+        "LEFT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        2,
+        "LEFT+UP"
+      ],
+      [
+        22,
+        "LEFT"
+      ],
+      [
+        6,
+        "LEFT+UP"
+      ],
+      [
+        2,
+        "RIGHT+UP"
+      ],
+      [
+        15,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        8,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        8,
+        ""
+      ],
+      [
+        5,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        8,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ],
+      [
+        7,
+        "LEFT+UP"
+      ],
+      [
+        1,
+        "UP"
+      ],
+      [
+        22,
+        ""
+      ],
+      [
+        7,
+        "UP"
+      ],
+      [
+        1,
+        "RIGHT+UP"
+      ],
+      [
+        22,
+        "RIGHT"
+      ]
+    ],
+    "steps_file": "tests/OUTPUT/eggo-input-replay_2026-10-07_03-16-26_086460/steps.json",
+    "writes": [],
+    "sample_every": 1,
+    "sample_graphics": true,
+    "oam_trace": false,
+    "until_result": false,
+    "terminal_game_state": null,
+    "game_state_address": null,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\nameščeni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "arena_trace_parameters": null,
+    "field_rng_trace_parameters": null,
+    "arena_initial": null,
+    "camera_trace_parameters": {
+      "objects": {
+        "player": "0x3910",
+        "cpu": "0x4c8c",
+        "camera_position": "0x4",
+        "camera_scale": "0x2c",
+        "camera_y": "0x70"
+      },
+      "follow_state": {
+        "player_field_root": "0x0200f404",
+        "field_stride": "0x124c",
+        "actor_pointer_offset": "0x1248",
+        "actor_y_offset": "0x6",
+        "actor_gate_offsets": [
+          "0x854",
+          "0x874"
+        ],
+        "field_camera_offset": "0xeb8",
+        "camera_position_offset": "0x4"
+      }
+    },
+    "actor_motion_trace_parameters": null,
+    "global_rng_call_trace_parameters": null,
+    "field_rng_call_trace_parameters": null,
+    "global_rng_actor_trace_parameters": null,
+    "survival_config_parameters": null,
+    "survival_config_initial": null,
+    "audio": null,
+    "board_events": true,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "music_trace_parameters": null,
+    "ai_trace_parameters": null,
+    "bot_parameters": null,
+    "model_bot_summary": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "emulated_rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 600
+  },
+  "frame_pixel_hashes": [
+    "4409c3768b155cc06eea10463a6f2d3364453d1a1595d77c02a0252d015a0494",
+    "f7fbb77f9d5e910f36c69ffd44cb6643fa6342858142ffcd360667fa71df18b7",
+    "619de1d11729d40a031ccaab058fd3b7d25dcea9f3bffc17d32e8b3b691b4e3f",
+    "34406ae1fc645da507dcf440ef59b5e2dcdb64c98ce1c1289394053008a1916c",
+    "8da49f39178c1caae2c522b7db57e99dc988bd0a2d3582da510378058b8bc845",
+    "3b33dc795bc24a71d15260b0f3e3a3e0ea7453795c7ed3afaf1de36c3c87220b",
+    "3f425c260eeda86eaf1c6873f86162d40684e7b22afe5690c6e6a5768715cc4f",
+    "fb9f3f2894053c4c287ac51a7d9e030b86721115d89987a5fe88ae9ee1c70cf0",
+    "079ac783b59111d2d3a85a7a904db6c2a0bace96846ca2ae0f5320518825f311",
+    "cc61ca1beaf9f3a93afd0a896623a1929afca3973398f318a71ad12930e8ab3f",
+    "95ffecef74014ba66e12afc1d4dfa6799ed142c9c26ab414f6ab43b5e027d9f8",
+    "ba64707676f2f369ff2ed2377fb59d1c5ad01f93efff5f2699c3186bd203de94",
+    "6fd7c476c6b7bfff6072e9a636c7c148c097d47eb3476b00154fa674573b6e7e",
+    "61388873c7c92ae99e8c3b5679504f2b440ee84c93217d6dc8b70ffeca9bb553",
+    "e115b77720d2d0fcd461c18ecf9ec591f2928bc0d5454338ae6bad245850024a"
+  ]
+}

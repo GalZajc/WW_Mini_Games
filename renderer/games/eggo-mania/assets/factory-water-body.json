@@ -1,0 +1,264 @@
+{
+  "parameters": {
+    "source_run": "scripts/OUTPUT/eggo-reference_2026-10-08_09-02-18_647810",
+    "source_name": "water-body-cycle",
+    "reference_capture_frames_by_phase": [
+      1,
+      2,
+      6,
+      10,
+      14,
+      18,
+      22,
+      26,
+      30,
+      34,
+      38,
+      42,
+      46,
+      50,
+      54
+    ],
+    "frames": 15,
+    "bg_layer": 1,
+    "field_width": 112,
+    "bg1_horizontal_scroll": 8,
+    "waterline_source_y": 80,
+    "blend_eva": 12,
+    "blend_evb": 4,
+    "native_frame_period": 60,
+    "native_ticks_per_art_frame": 4,
+    "runtime_phase_formula": "floor(((nativeFrame + 39) modulo 60) / 4)",
+    "phase_reference": {
+      "source_run": "scripts/OUTPUT/eggo-reference_2026-10-03_01-01-06_741942",
+      "source_name": "bot-tower",
+      "frame": 840,
+      "native_frame": 1403
+    },
+    "color_conversion": "RGB555 channels expanded with value*255//31; BG palette index zero transparent",
+    "random_seed": null
+  },
+  "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+  "source_initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+  "asset_size": [
+    112,
+    3840
+  ],
+  "asset_sha256": "84bb8cee00d06de1059dd268b64d6af8712487272181bbd5fd7176f84b748a41",
+  "unique_decoded_frames": 15,
+  "bg1_vertical_scroll_range": [
+    456,
+    456
+  ],
+  "phase_measurement": {
+    "source_run": "scripts/OUTPUT/eggo-reference_2026-10-03_01-01-06_741942",
+    "source_name": "bot-tower",
+    "frame": 840,
+    "native_frame": 1403,
+    "reference_crop_sha256": "e78a32845149858a94f6bec158f00be1d69b28bd4640c3ff7d30af003638cc16",
+    "reference_input_sha256": {
+      ".memory3": "064d1b6dc79e6dae27af427a56ecb18ff50e360b2a43db9d58d834fc3dacbcfb",
+      ".0x5000000": "1fe02a6be85f5c7fe998f199f7120927ad7c7ac96f3c4ad3c4142a1346f9609d",
+      ".0x4000000": "75fa7c6408ea56282c3d97b111cfa2aa398290d7437d4ee1a9be18a31ce93519"
+    },
+    "bg1_horizontal_scroll": 8,
+    "blend_control": "0x1d42",
+    "blend_alpha": "0x040c",
+    "best_atlas_frame": 0,
+    "predicted_atlas_frame": 0,
+    "phase_formula": "floor(((nativeFrame + 39) modulo 60) / 4)",
+    "best_mean_absolute_rgb_error": 0.0,
+    "candidates": [
+      {
+        "atlas_frame": 0,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19315,
+        "alpha_mismatch_pixels": 0
+      },
+      {
+        "atlas_frame": 1,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19297,
+        "alpha_mismatch_pixels": 61
+      },
+      {
+        "atlas_frame": 2,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19290,
+        "alpha_mismatch_pixels": 116
+      },
+      {
+        "atlas_frame": 3,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19289,
+        "alpha_mismatch_pixels": 160
+      },
+      {
+        "atlas_frame": 4,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19289,
+        "alpha_mismatch_pixels": 153
+      },
+      {
+        "atlas_frame": 5,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19285,
+        "alpha_mismatch_pixels": 127
+      },
+      {
+        "atlas_frame": 6,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19282,
+        "alpha_mismatch_pixels": 103
+      },
+      {
+        "atlas_frame": 7,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19273,
+        "alpha_mismatch_pixels": 98
+      },
+      {
+        "atlas_frame": 8,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19270,
+        "alpha_mismatch_pixels": 113
+      },
+      {
+        "atlas_frame": 9,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19264,
+        "alpha_mismatch_pixels": 136
+      },
+      {
+        "atlas_frame": 10,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19256,
+        "alpha_mismatch_pixels": 171
+      },
+      {
+        "atlas_frame": 11,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19258,
+        "alpha_mismatch_pixels": 182
+      },
+      {
+        "atlas_frame": 12,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19255,
+        "alpha_mismatch_pixels": 167
+      },
+      {
+        "atlas_frame": 13,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19268,
+        "alpha_mismatch_pixels": 121
+      },
+      {
+        "atlas_frame": 14,
+        "mean_absolute_rgb_error": 0.0,
+        "comparable_pixels": 19283,
+        "alpha_mismatch_pixels": 62
+      }
+    ]
+  },
+  "source_parameters": {
+    "podium_trace_parameters": null,
+    "collapse_trace_parameters": null,
+    "pickup_trace_parameters": null,
+    "pickup_initial": null,
+    "output_collision_index": 0,
+    "enemy_trace_parameters": null,
+    "projectile_trace_parameters": null,
+    "item_trace_parameters": null,
+    "rival_pose_parameters": null,
+    "load": "hard-idle",
+    "steps": [
+      [
+        60,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [],
+    "sample_every": 1,
+    "sample_graphics": true,
+    "sample_graphics_at_video": true,
+    "oam_trace": false,
+    "until_result": false,
+    "terminal_game_state": null,
+    "game_state_address": null,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "arena_trace_parameters": null,
+    "field_rng_trace_parameters": null,
+    "arena_initial": null,
+    "camera_trace_parameters": null,
+    "actor_motion_trace_parameters": null,
+    "global_rng_call_trace_parameters": null,
+    "field_rng_call_trace_parameters": null,
+    "global_rng_actor_trace_parameters": null,
+    "survival_config_parameters": null,
+    "survival_config_initial": null,
+    "audio": null,
+    "audio_enabled": false,
+    "video_pixel_format": {
+      "id": 2,
+      "name": "RGB565"
+    },
+    "board_events": false,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "music_trace_parameters": null,
+    "ai_trace_parameters": null,
+    "bot_parameters": null,
+    "model_bot_summary": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "emulated_rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "20d2a4231a3e0f75a3d22fe21a56caffcb0a930d72eedf1c948156000b37cbf2",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 60
+  },
+  "frame_pixel_hashes": [
+    "747a37c59ff093a8242f8827de39bb5edca75ca5f747c97bab455ad6b355559e",
+    "8c7b129d325eab4936e70e8ed638a3faac0b45415c1610c1be34eda9136b8029",
+    "85fa08d197e0e0cd435f85898ec799ddde8c290b762357297ceef12115d5e977",
+    "91a0d63fd0c34942726de6121127d4c339016eda8a6febb7952e982e2f1a0b3f",
+    "2989a27d7f1b2f72dabc73052bf2fe24fcdc1b45bbde097d6366664ba977f7ef",
+    "2c164d8e6db203f6adb0222896741bbfaac1910b4be5a48763f8ac0e6438a9ee",
+    "a63cbc02aae357b06e10f87575c5d50f71bbf06e4a7852689a721ef5c644f23d",
+    "0f1e4b48aec7eaed6e9d476c1f5fbd6032c3a1ac0fa7ae6ac226c44eb9cd0c61",
+    "80213d962fb95e5de44839d53835c0c51237a3c58504f79286b8b6ba900a0d60",
+    "dc9fee808d0031c84a4e6fba91bf2251dd6867ac0a65d680952e84347bfc7e93",
+    "d949723292136c0ce67d3ee69da0269990dce88f4cb8b6a3a23ea43520fb95d8",
+    "e8e44986201ada6856e49ec3d9121a05161edf3c022d6c4fdcc4ce91d5da67f8",
+    "75529eae5054c1eb27a4c278a036d8f0bc91570af54e6a766105dde9db17886a",
+    "9afd2a47e773856ed0d1e3d719601d7dc37512c075028233abc54e69ba8db319",
+    "31dc171acb8f3cc22733eb07bcf92af54d086d2410b3bc59fa2b9587dddb2f09"
+  ]
+}

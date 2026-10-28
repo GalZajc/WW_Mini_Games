@@ -1,0 +1,15 @@
+{
+  "source": "scripts/OUTPUT/eggo-reference_2026-10-07_05-25-02_007845/screen-replay-io.frame00000.memory3 and screen-replay-io.frame00000.0x4000000",
+  "capture_index": 0,
+  "native_frame": 563,
+  "method": "Read each occupied CPU cell's BG2 screen-map descriptor quad from the initial VRAM and match the quad to the ROM-decoded placed-factory tile maps. The six singleton owners all use kind 2, rotation 1; owner 3 is kind 5, rotation 0.",
+  "piece_templates": {
+    "3": { "kind": 5, "rotation": 0 },
+    "15": { "kind": 2, "rotation": 1 },
+    "17": { "kind": 2, "rotation": 1 },
+    "18": { "kind": 2, "rotation": 1 },
+    "19": { "kind": 2, "rotation": 1 },
+    "20": { "kind": 2, "rotation": 1 },
+    "21": { "kind": 2, "rotation": 1 }
+  }
+}

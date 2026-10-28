@@ -1,0 +1,765 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_14-00-49_792819",
+    "name": "bomb-launch-detail",
+    "position": 66440,
+    "velocity": 66456,
+    "first_frame": 3,
+    "last_unobstructed_frame": 77,
+    "pixels_per_cell": 16,
+    "collision_frames": [
+      78,
+      79,
+      80
+    ],
+    "destination_height_table": 70940,
+    "baseline_world_y": 720,
+    "native_baseline_row": 45
+  },
+  "source_parameters": {
+    "output_collision_index": 0,
+    "item_trace_parameters": {
+      "item_palette": 2,
+      "actor_palettes": [
+        0,
+        1
+      ],
+      "held_offset": [
+        24,
+        15
+      ],
+      "held_tolerance": 3,
+      "size": 16,
+      "actor_anchor": [
+        32,
+        56
+      ],
+      "actor_world_addresses": [
+        15316,
+        20304
+      ],
+      "capture_unknown_pictures": true,
+      "inventory_addresses": [
+        17464,
+        22452
+      ],
+      "bomb_inventory_id": 8,
+      "icon_indices": {
+        "bomb": 27,
+        "boots": 19,
+        "cloud": 14,
+        "filler": 9,
+        "hammer": 29
+      }
+    },
+    "rival_pose_parameters": null,
+    "load": "scripts/OUTPUT/eggo-reference_2026-10-03_13-32-22_191046/inventory-bomb-0.frame03567.state",
+    "steps": [
+      [
+        2,
+        "RIGHT"
+      ],
+      [
+        8,
+        "A"
+      ],
+      [
+        70,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [],
+    "sample_every": 1,
+    "sample_graphics": false,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "board_events": false,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "a000d8009f333cd1449653351c9ec72885bd6e36ab31d56dea5eabe4b482efe6",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 80
+  },
+  "samples": [
+    {
+      "frame": 3,
+      "x": 18.0,
+      "y": 610.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "37ef1df2d1536fcbc623e89255c6095c057fa23bac8a766c144b1e1f1519c20e"
+    },
+    {
+      "frame": 4,
+      "x": 18.0,
+      "y": 606.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "9eaf13ac02e8f3c67cf379cbd31a586f02f2648dcc39d071d47210a8a7e0d1fc"
+    },
+    {
+      "frame": 5,
+      "x": 18.0,
+      "y": 602.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "859aac973ea8e286a6a2e50a1f2f020ea6823153430aa48953aac3d9a8edb9da"
+    },
+    {
+      "frame": 6,
+      "x": 18.0,
+      "y": 598.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "5382d499c0c92beba1b46cb5d904ae6314cf71ae6fb04c9299cc23251180b62d"
+    },
+    {
+      "frame": 7,
+      "x": 18.0,
+      "y": 594.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "438a97c6126a84b6f2cc8e0c52bb0175de5a2f648e23b29fe0eea2f81721ec9b"
+    },
+    {
+      "frame": 8,
+      "x": 18.0,
+      "y": 590.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "40ec3a2119122ca7d3524962e4cd27cde9f3c37145eda31bc57eb2bfab476098"
+    },
+    {
+      "frame": 9,
+      "x": 18.0,
+      "y": 586.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "3bf125e51ccc1fb55a8b4e100fed19e4a8bb6a8fb26822688c04ce92658b2833"
+    },
+    {
+      "frame": 10,
+      "x": 18.0,
+      "y": 582.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "21ccbe1ef1ea9fccfeba13cf8346b9355af7e05c7fd7aa0f59d2611e71d8d6af"
+    },
+    {
+      "frame": 11,
+      "x": 18.0,
+      "y": 578.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "fb6e2c78c0c539b1b823ba1d9d1b93f683dff66f2fdaa306b5e49add1907bd8e"
+    },
+    {
+      "frame": 12,
+      "x": 18.0,
+      "y": 574.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "11225c12ceb2f9ce5cbc061ab4b2ce665e5e3cc647539d52eebc0c10bb8b0449"
+    },
+    {
+      "frame": 13,
+      "x": 18.0,
+      "y": 570.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "b170257943c1d726de76124d74d13d1c45bd83e67361d3b26afad13a727e0204"
+    },
+    {
+      "frame": 14,
+      "x": 18.0,
+      "y": 566.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "3540c9d74eb857c76cd2e8fa3c86dce1e5265620819f09de5e6b563e362f38de"
+    },
+    {
+      "frame": 15,
+      "x": 18.0,
+      "y": 562.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "b618ac710e3109ecb49671eb75ae5ed4f7a39d2177f080f906605d400e8d8d9d"
+    },
+    {
+      "frame": 16,
+      "x": 18.0,
+      "y": 558.9436340332031,
+      "target_y": 560.0,
+      "vy": -4.0,
+      "ram_sha256": "25424c9b8b8bd81cb4e1d76e6ab1f81a9f9f80c18e6225631ef8dbf7b2de2f23"
+    },
+    {
+      "frame": 17,
+      "x": 20.0,
+      "y": 554.9436340332031,
+      "target_y": 560.0,
+      "vy": -3.875,
+      "ram_sha256": "ad95219442e296c8217dfa0ed993530bf53b9f2aa132e5eab60eb07321e59586"
+    },
+    {
+      "frame": 18,
+      "x": 22.0,
+      "y": 551.0686340332031,
+      "target_y": 560.0,
+      "vy": -3.75,
+      "ram_sha256": "0dfceeaa4b73c91573faf7e15909ddf824712a8dde3cf48392f599e43a6ee38f"
+    },
+    {
+      "frame": 19,
+      "x": 24.0,
+      "y": 547.3186340332031,
+      "target_y": 560.0,
+      "vy": -3.625,
+      "ram_sha256": "4a90821aee0580241a6ec7187f380aaf853e2a84e80ca0c88cb9f8670c63288e"
+    },
+    {
+      "frame": 20,
+      "x": 26.0,
+      "y": 543.6936340332031,
+      "target_y": 560.0,
+      "vy": -3.5,
+      "ram_sha256": "2e373b13522fcd06c861e9e689940c990b90c7a853793444f6c9d4ef4bcca072"
+    },
+    {
+      "frame": 21,
+      "x": 28.0,
+      "y": 540.1936340332031,
+      "target_y": 560.0,
+      "vy": -3.375,
+      "ram_sha256": "c64c6a4a3b3706f5ea993532db1d14baf0ae1690fde33b557282b031a93ff77b"
+    },
+    {
+      "frame": 22,
+      "x": 30.0,
+      "y": 536.8186340332031,
+      "target_y": 560.0,
+      "vy": -3.25,
+      "ram_sha256": "b204f05d12602dcd20b4afcc2dbbe5b04f66197d91dd22f131a76b40188c30d1"
+    },
+    {
+      "frame": 23,
+      "x": 32.0,
+      "y": 533.5686340332031,
+      "target_y": 560.0,
+      "vy": -3.125,
+      "ram_sha256": "0bc76a1d8cd57a8004581e2de1d48ef81d1b09530571df0b07242a09ca0e5636"
+    },
+    {
+      "frame": 24,
+      "x": 34.0,
+      "y": 530.4436340332031,
+      "target_y": 560.0,
+      "vy": -3.0,
+      "ram_sha256": "7dd2bedc3a1a898270064c1ccd8c46c2b23b7a0e0a739d615e9ea3df0cb79df4"
+    },
+    {
+      "frame": 25,
+      "x": 36.0,
+      "y": 527.4436340332031,
+      "target_y": 560.0,
+      "vy": -2.875,
+      "ram_sha256": "b4bd91169246b096ac77860503fa4c8eb42b52176c1e14138e6ed5993efe8d2e"
+    },
+    {
+      "frame": 26,
+      "x": 38.0,
+      "y": 524.5686340332031,
+      "target_y": 560.0,
+      "vy": -2.75,
+      "ram_sha256": "355d32d5bbbec5070d1763c361d9c4f1ee4c1428a7396a49956311e3988e22b9"
+    },
+    {
+      "frame": 27,
+      "x": 40.0,
+      "y": 521.8186340332031,
+      "target_y": 560.0,
+      "vy": -2.625,
+      "ram_sha256": "263017d00366bc71890b65d5f22f89367dd9e6fe270ea6063478cbabb35ba40c"
+    },
+    {
+      "frame": 28,
+      "x": 42.0,
+      "y": 519.1936340332031,
+      "target_y": 560.0,
+      "vy": -2.5,
+      "ram_sha256": "5ab18619fb5a725f1ce38a2db4076e415d7025acbbd52b27fdfbb654c7e19432"
+    },
+    {
+      "frame": 29,
+      "x": 44.0,
+      "y": 516.6936340332031,
+      "target_y": 560.0,
+      "vy": -2.375,
+      "ram_sha256": "459739445ec3111af4cfb0f82e1404c70de3fec770060d7b288543895e049ff8"
+    },
+    {
+      "frame": 30,
+      "x": 46.0,
+      "y": 514.3186340332031,
+      "target_y": 560.0,
+      "vy": -2.25,
+      "ram_sha256": "b372644871f53458171ef213d218b768e9355fa9f5b266c3fec4d780bc8052b3"
+    },
+    {
+      "frame": 31,
+      "x": 48.0,
+      "y": 512.0686340332031,
+      "target_y": 560.0,
+      "vy": -2.125,
+      "ram_sha256": "9006a9b8a77ddfa354e9bc2c23a91721fe4ef74f309c4557e600851f6c4d0c4b"
+    },
+    {
+      "frame": 32,
+      "x": 50.0,
+      "y": 509.9436340332031,
+      "target_y": 560.0,
+      "vy": -2.0,
+      "ram_sha256": "9d5f9a4004c8741dc342769c6613ec3000753f158375fd5a19d420a9dbfee7b1"
+    },
+    {
+      "frame": 33,
+      "x": 52.0,
+      "y": 507.9436340332031,
+      "target_y": 560.0,
+      "vy": -1.875,
+      "ram_sha256": "032234f830e8e76882b2ae0e58d89d09a0eebe5f8e31135e6b08d3aed0804b0b"
+    },
+    {
+      "frame": 34,
+      "x": 54.0,
+      "y": 506.0686340332031,
+      "target_y": 560.0,
+      "vy": -1.75,
+      "ram_sha256": "bae4c41df7d0da77e22889eca529c6fd8c0fb877414f50ca0a3248085ee8c08c"
+    },
+    {
+      "frame": 35,
+      "x": 56.0,
+      "y": 504.3186340332031,
+      "target_y": 560.0,
+      "vy": -1.625,
+      "ram_sha256": "d18218621d7f89a6362203a0ed96d173034cdffa4e2d877c89176cb9afdb79a4"
+    },
+    {
+      "frame": 36,
+      "x": 58.0,
+      "y": 502.6936340332031,
+      "target_y": 560.0,
+      "vy": -1.5,
+      "ram_sha256": "a9d872c80881b07ac8a622f31742f492912ca1566da7bc7c692a2f9b1c9bcd66"
+    },
+    {
+      "frame": 37,
+      "x": 60.0,
+      "y": 501.1936340332031,
+      "target_y": 560.0,
+      "vy": -1.375,
+      "ram_sha256": "7111646ec3880c336907abf86881180575f1a76d7423d53da0b2acb9bab2b3db"
+    },
+    {
+      "frame": 38,
+      "x": 62.0,
+      "y": 499.8186340332031,
+      "target_y": 560.0,
+      "vy": -1.25,
+      "ram_sha256": "a5e91b132443cd990bcde0b1d0afe94cc892a9ff090cc259adbdf7348d7fbf33"
+    },
+    {
+      "frame": 39,
+      "x": 64.0,
+      "y": 498.5686340332031,
+      "target_y": 560.0,
+      "vy": -1.125,
+      "ram_sha256": "41587b09bf982a2ecac214764ad69afeda792b4b06b46c35943c21954a699911"
+    },
+    {
+      "frame": 40,
+      "x": 66.0,
+      "y": 497.4436340332031,
+      "target_y": 560.0,
+      "vy": -1.0,
+      "ram_sha256": "d1a6f4257343fdc7d7e56e680eaa203bb72178b9fd51742b86a78630f900d975"
+    },
+    {
+      "frame": 41,
+      "x": 68.0,
+      "y": 496.4436340332031,
+      "target_y": 560.0,
+      "vy": -0.875,
+      "ram_sha256": "69c9ec94463be841af613524b59e2cbf8b78e386785f487ffea96307e0d50162"
+    },
+    {
+      "frame": 42,
+      "x": 70.0,
+      "y": 495.5686340332031,
+      "target_y": 560.0,
+      "vy": -0.75,
+      "ram_sha256": "0730ce580ac8ab04817520a41ed7c978415aa66080f0ec92b29024aa6ae08cd6"
+    },
+    {
+      "frame": 43,
+      "x": 72.0,
+      "y": 494.8186340332031,
+      "target_y": 560.0,
+      "vy": -0.625,
+      "ram_sha256": "5d04a194f1befaad8492517ae9116cce01e7d0640bbb6af1b5734a58af7244b3"
+    },
+    {
+      "frame": 44,
+      "x": 74.0,
+      "y": 494.1936340332031,
+      "target_y": 560.0,
+      "vy": -0.5,
+      "ram_sha256": "eac8eb7e9ba14e104d5cd009aaf0e9ba2134c00c42c9c4f073e80f97105375d0"
+    },
+    {
+      "frame": 45,
+      "x": 76.0,
+      "y": 493.6936340332031,
+      "target_y": 560.0,
+      "vy": -0.375,
+      "ram_sha256": "0c8a6bc56f739dbc877a291f5418d5952347464ec1d5ca8d5f3f2b862c485fcd"
+    },
+    {
+      "frame": 46,
+      "x": 78.0,
+      "y": 493.3186340332031,
+      "target_y": 560.0,
+      "vy": -0.25,
+      "ram_sha256": "3a568f213984442862ae9a05d80ce4fbe82be630d3ffd0d82865003b80c0552e"
+    },
+    {
+      "frame": 47,
+      "x": 80.0,
+      "y": 493.0686340332031,
+      "target_y": 560.0,
+      "vy": -0.125,
+      "ram_sha256": "7f1f042ed6c705004589d1d5b0d55c062ef2a97c34364d08b5ae33160817bf12"
+    },
+    {
+      "frame": 48,
+      "x": 82.0,
+      "y": 492.9436340332031,
+      "target_y": 560.0,
+      "vy": 0.0,
+      "ram_sha256": "05420199a0871442a8567fa5a6a691b830ee7294dc8e135f70fba5fafeaf976d"
+    },
+    {
+      "frame": 49,
+      "x": 84.0,
+      "y": 492.9436340332031,
+      "target_y": 560.0,
+      "vy": 0.125,
+      "ram_sha256": "9787cc052d7e35c8760fce256ad672486245dad37c02d7a6cac78aa14e47f09d"
+    },
+    {
+      "frame": 50,
+      "x": 86.0,
+      "y": 493.0686340332031,
+      "target_y": 560.0,
+      "vy": 0.25,
+      "ram_sha256": "b9b58a9a744458467e0b2a58b1df40927e67c458929f0457eb51ee51b443b09f"
+    },
+    {
+      "frame": 51,
+      "x": 88.0,
+      "y": 493.3186340332031,
+      "target_y": 560.0,
+      "vy": 0.375,
+      "ram_sha256": "306fa431d1a1273777f1a5a9f836f4769788e54cdfc4120c1a0b414e85d6ce3a"
+    },
+    {
+      "frame": 52,
+      "x": 90.0,
+      "y": 493.6936340332031,
+      "target_y": 560.0,
+      "vy": 0.5,
+      "ram_sha256": "5078ddbe8da5ffe9a6431bd5d2fdda17c70c95ab1473bfe9b148a140bae2249a"
+    },
+    {
+      "frame": 53,
+      "x": 92.0,
+      "y": 494.1936340332031,
+      "target_y": 560.0,
+      "vy": 0.625,
+      "ram_sha256": "97d50e6f46849db5921b330b877d892fe2dbe321ae658d637328c44276238b9c"
+    },
+    {
+      "frame": 54,
+      "x": 94.0,
+      "y": 494.8186340332031,
+      "target_y": 560.0,
+      "vy": 0.75,
+      "ram_sha256": "6de6535f9a2d849ee309390e8704c958b806657223322c7b30f8642b1d71e818"
+    },
+    {
+      "frame": 55,
+      "x": 96.0,
+      "y": 495.5686340332031,
+      "target_y": 560.0,
+      "vy": 0.875,
+      "ram_sha256": "e7fe2784b611cb00ba2e26635d6e221c8c2d09661041686dae960d4c1a5b6cd6"
+    },
+    {
+      "frame": 56,
+      "x": 98.0,
+      "y": 496.4436340332031,
+      "target_y": 560.0,
+      "vy": 1.0,
+      "ram_sha256": "9c55093f05ca78233d718f011c1ca9fbaac8a5c85e804153538ec91a459621ec"
+    },
+    {
+      "frame": 57,
+      "x": 100.0,
+      "y": 497.4436340332031,
+      "target_y": 560.0,
+      "vy": 1.125,
+      "ram_sha256": "1bf83ecfc6c2db2442f4e63c4948c95f4749ac96937f73571878c48dd21a8ade"
+    },
+    {
+      "frame": 58,
+      "x": 102.0,
+      "y": 498.5686340332031,
+      "target_y": 560.0,
+      "vy": 1.25,
+      "ram_sha256": "334da72fdb429eee8bfccf436025dae6686136c2bc490e7256446fe5451c1514"
+    },
+    {
+      "frame": 59,
+      "x": 104.0,
+      "y": 499.8186340332031,
+      "target_y": 560.0,
+      "vy": 1.375,
+      "ram_sha256": "d6acd03c7bbbd3ac67eda918042e2b1b99810bdd6efee582c037f8d81a21bb3a"
+    },
+    {
+      "frame": 60,
+      "x": 106.0,
+      "y": 501.1936340332031,
+      "target_y": 560.0,
+      "vy": 1.5,
+      "ram_sha256": "50806f2a2fc717a74868534938a76c17b3a3814752124c204e2a70b096c6910a"
+    },
+    {
+      "frame": 61,
+      "x": 108.0,
+      "y": 502.6936340332031,
+      "target_y": 560.0,
+      "vy": 1.625,
+      "ram_sha256": "4c991846723aba0ccf88eea388bf23b6a6de0b21c9a12b6ba6dd0f42dbb5d547"
+    },
+    {
+      "frame": 62,
+      "x": 110.0,
+      "y": 504.3186340332031,
+      "target_y": 560.0,
+      "vy": 1.75,
+      "ram_sha256": "7fb8d1c1f309cfa227481838abb3022aa6105bea91d6dd7af5fe88031bb39a67"
+    },
+    {
+      "frame": 63,
+      "x": 112.0,
+      "y": 506.0686340332031,
+      "target_y": 560.0,
+      "vy": 1.875,
+      "ram_sha256": "00013527ef6b235cfeac15506ca8126a91112c9167b5a7f5fbdfd8a7e340bd05"
+    },
+    {
+      "frame": 64,
+      "x": 114.0,
+      "y": 507.9436340332031,
+      "target_y": 560.0,
+      "vy": 2.0,
+      "ram_sha256": "b8d0056745199c307481b0762dee6f2c5e64d75d311f034378ec9f030007f7cd"
+    },
+    {
+      "frame": 65,
+      "x": 116.0,
+      "y": 509.9436340332031,
+      "target_y": 560.0,
+      "vy": 2.125,
+      "ram_sha256": "a8278df58a5036ac2cf6d9eeac5b43909624426a87087e8b4005b6a47fb05104"
+    },
+    {
+      "frame": 66,
+      "x": 118.0,
+      "y": 512.0686340332031,
+      "target_y": 560.0,
+      "vy": 2.25,
+      "ram_sha256": "131d56bdef5ca8fea9b0040a0042dfc5e7a63252316496e08daa13c48307e2f0"
+    },
+    {
+      "frame": 67,
+      "x": 120.0,
+      "y": 514.3186340332031,
+      "target_y": 560.0,
+      "vy": 2.375,
+      "ram_sha256": "023069e6072ab050e998c915d4ab325b822a3f948936121f7ef5ee33ebaf3913"
+    },
+    {
+      "frame": 68,
+      "x": 122.0,
+      "y": 516.6936340332031,
+      "target_y": 560.0,
+      "vy": 2.5,
+      "ram_sha256": "130cca1ff4295576c3e977c338c26d4579ee86003ea53660eeb18095a2c31974"
+    },
+    {
+      "frame": 69,
+      "x": 124.0,
+      "y": 519.1936340332031,
+      "target_y": 560.0,
+      "vy": 2.625,
+      "ram_sha256": "315414d0be46b632d14b663705f2aa8150929270768e137ee19b58ce8f97daaf"
+    },
+    {
+      "frame": 70,
+      "x": 126.0,
+      "y": 521.8186340332031,
+      "target_y": 560.0,
+      "vy": 2.75,
+      "ram_sha256": "c1ff28aef1a0848a6284444828b3aef3f09b9c880e8c1a72b5a6e059aab4f6ee"
+    },
+    {
+      "frame": 71,
+      "x": 128.0,
+      "y": 524.5686340332031,
+      "target_y": 560.0,
+      "vy": 2.875,
+      "ram_sha256": "573a4e4c21ad6a760fafd99a86cf16bc15620c74c38c2a5a38a9675c7258563d"
+    },
+    {
+      "frame": 72,
+      "x": 130.0,
+      "y": 527.4436340332031,
+      "target_y": 560.0,
+      "vy": 3.0,
+      "ram_sha256": "ced0f5280256f1b9377c50c38dd041988913f24e5f8e2e37ed1b5f9583761f66"
+    },
+    {
+      "frame": 73,
+      "x": 132.0,
+      "y": 530.4436340332031,
+      "target_y": 560.0,
+      "vy": 3.125,
+      "ram_sha256": "92a1c548c8fa9e1d83bd0e16d42ef8e20a506c717124c1fb63cc30b167125713"
+    },
+    {
+      "frame": 74,
+      "x": 134.0,
+      "y": 533.5686340332031,
+      "target_y": 560.0,
+      "vy": 3.25,
+      "ram_sha256": "444ad9063992c8a016e7627b7ca68eace1849a4fc6a9a186cf181d94fb34559e"
+    },
+    {
+      "frame": 75,
+      "x": 136.0,
+      "y": 536.8186340332031,
+      "target_y": 560.0,
+      "vy": 3.375,
+      "ram_sha256": "ce043c11a9a82394d3d4cc250bf4930de55f9f1f0a789b675322fba25b6ff2a2"
+    },
+    {
+      "frame": 76,
+      "x": 138.0,
+      "y": 540.1936340332031,
+      "target_y": 560.0,
+      "vy": 3.5,
+      "ram_sha256": "7ad0c11106563f5e11e70a41bede6dd2e5558e6cfb05102d2cc77ff87c209b44"
+    },
+    {
+      "frame": 77,
+      "x": 140.0,
+      "y": 543.6936340332031,
+      "target_y": 560.0,
+      "vy": 3.625,
+      "ram_sha256": "b1a31e94c846193a93464a719aff0664373a5c770ba4bab970bb1467cc41b9ab"
+    }
+  ],
+  "limits": "Pre-collision flight and first bounce only; later collision/catching/targeting rules need broader captures.",
+  "collision_samples": [
+    {
+      "frame": 78,
+      "x": 142.0,
+      "y": 547.3186340332031,
+      "vy": -1.875,
+      "surface_heights": [
+        7,
+        10,
+        10,
+        11,
+        10,
+        10,
+        10
+      ],
+      "ram_sha256": "ab77b4e6b40882a9613345f1cdfc8a85a0b165ca3ff8f8aec62f056827a61a16"
+    },
+    {
+      "frame": 79,
+      "x": 142.0,
+      "y": 545.4436340332031,
+      "vy": -1.75,
+      "surface_heights": [
+        7,
+        10,
+        10,
+        11,
+        10,
+        10,
+        10
+      ],
+      "ram_sha256": "8b1ed6971eef6fb5322247ce744d391b25c3c88873dc4a54cb52ea785a612dbc"
+    },
+    {
+      "frame": 80,
+      "x": 142.0,
+      "y": 543.6936340332031,
+      "vy": -1.625,
+      "surface_heights": [
+        7,
+        10,
+        10,
+        11,
+        10,
+        10,
+        10
+      ],
+      "ram_sha256": "5113955dbf0a048408b514b7dfdd2ac9e9d57665cacdc413a6195141683569cc"
+    }
+  ]
+}

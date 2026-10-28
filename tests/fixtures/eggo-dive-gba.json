@@ -1,0 +1,553 @@
+{
+  "parameters": {
+    "profiles": [
+      {
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-36-06_737656/dive-single",
+        "held_frames": 1
+      },
+      {
+        "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-40-41_511959/dive-held",
+        "held_frames": 20
+      }
+    ],
+    "frames": 20,
+    "actor": 15316,
+    "board": 62468,
+    "cell_offset": 3200,
+    "drop_counter_offset": 3772,
+    "rows": 47,
+    "columns": 7,
+    "stride": 8,
+    "fixed_scale": 65536,
+    "tile_pixels": 16,
+    "fixture": "tests/fixtures/eggo-dive-gba.json"
+  },
+  "profiles": [
+    {
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-36-06_737656/dive-single",
+      "held_frames": 1,
+      "source_parameters": {
+        "collapse_trace_parameters": null,
+        "pickup_trace_parameters": null,
+        "pickup_initial": null,
+        "output_collision_index": 0,
+        "enemy_trace_parameters": null,
+        "projectile_trace_parameters": null,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "hard-place60",
+        "steps": [
+          [
+            1,
+            "L"
+          ],
+          [
+            39,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 1,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": {
+          "stage": 12948,
+          "rng": 72364,
+          "rng_game": 72368,
+          "rng_secondary": 72372,
+          "seed": 59812
+        },
+        "arena_initial": {
+          "stage": 1,
+          "rng": 52922,
+          "rng_game": 32353,
+          "rng_secondary": 19607,
+          "seed": 0
+        },
+        "survival_config_parameters": {
+          "root": 59688,
+          "words": 19
+        },
+        "survival_config_initial": [
+          5,
+          9,
+          2,
+          2,
+          1,
+          1,
+          1,
+          5,
+          5,
+          5,
+          5,
+          6,
+          6,
+          6,
+          6,
+          9,
+          4,
+          47,
+          9
+        ],
+        "audio": null,
+        "board_events": true,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          15,
+          20,
+          30,
+          40
+        ],
+        "music_trace_parameters": null,
+        "ai_trace_parameters": null,
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "1aaf0ab6ef97e03191e6410253a75d08fe56ea2700df0075bde4d9bb3ab7496a",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 40
+      },
+      "source_ram_sha256": "0a8c682b2aafad106b42e230674def88b9f3f6612fe7363cf232cac3280c7706",
+      "initial_y": 688.4980773925781,
+      "initial_x": 3.5,
+      "rows": [
+        [
+          0,
+          0,
+          0,
+          3,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "samples": [
+        {
+          "frame": 1,
+          "world_y": 688.4980773925781,
+          "velocity": 1.0,
+          "drop_ticks": 9
+        },
+        {
+          "frame": 2,
+          "world_y": 689.4980773925781,
+          "velocity": 1.1999969482421875,
+          "drop_ticks": 8
+        },
+        {
+          "frame": 3,
+          "world_y": 690.6980743408203,
+          "velocity": 1.399993896484375,
+          "drop_ticks": 7
+        },
+        {
+          "frame": 4,
+          "world_y": 692.0980682373047,
+          "velocity": 1.5999908447265625,
+          "drop_ticks": 6
+        },
+        {
+          "frame": 5,
+          "world_y": 693.6980590820312,
+          "velocity": 1.79998779296875,
+          "drop_ticks": 5
+        },
+        {
+          "frame": 6,
+          "world_y": 695.498046875,
+          "velocity": 1.9999847412109375,
+          "drop_ticks": 4
+        },
+        {
+          "frame": 7,
+          "world_y": 697.4980316162109,
+          "velocity": 2.199981689453125,
+          "drop_ticks": 3
+        },
+        {
+          "frame": 8,
+          "world_y": 699.6980133056641,
+          "velocity": 2.3999786376953125,
+          "drop_ticks": 2
+        },
+        {
+          "frame": 9,
+          "world_y": 702.0979919433594,
+          "velocity": 2.5999755859375,
+          "drop_ticks": 1
+        },
+        {
+          "frame": 10,
+          "world_y": 704.6979675292969,
+          "velocity": 2.7999725341796875,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 11,
+          "world_y": 707.4979400634766,
+          "velocity": 2.999969482421875,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 12,
+          "world_y": 710.4979095458984,
+          "velocity": 3.1999664306640625,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 13,
+          "world_y": 713.6978759765625,
+          "velocity": 3.39996337890625,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 14,
+          "world_y": 717.0978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 15,
+          "world_y": 720.5978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 16,
+          "world_y": 724.0978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 17,
+          "world_y": 727.5978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 18,
+          "world_y": 731.0978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 19,
+          "world_y": 734.5978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 20,
+          "world_y": 738.0978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        }
+      ]
+    },
+    {
+      "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-40-41_511959/dive-held",
+      "held_frames": 20,
+      "source_parameters": {
+        "collapse_trace_parameters": null,
+        "pickup_trace_parameters": null,
+        "pickup_initial": null,
+        "output_collision_index": 0,
+        "enemy_trace_parameters": null,
+        "projectile_trace_parameters": null,
+        "item_trace_parameters": null,
+        "rival_pose_parameters": null,
+        "load": "hard-place60",
+        "steps": [
+          [
+            20,
+            "L"
+          ],
+          [
+            20,
+            ""
+          ]
+        ],
+        "steps_file": null,
+        "writes": [],
+        "sample_every": 1,
+        "sample_graphics": false,
+        "oam_trace": false,
+        "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+        "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+        "arena_trace_parameters": {
+          "stage": 12948,
+          "rng": 72364,
+          "rng_game": 72368,
+          "rng_secondary": 72372,
+          "seed": 59812
+        },
+        "arena_initial": {
+          "stage": 1,
+          "rng": 52922,
+          "rng_game": 32353,
+          "rng_secondary": 19607,
+          "seed": 0
+        },
+        "survival_config_parameters": {
+          "root": 59688,
+          "words": 19
+        },
+        "survival_config_initial": [
+          5,
+          9,
+          2,
+          2,
+          1,
+          1,
+          1,
+          5,
+          5,
+          5,
+          5,
+          6,
+          6,
+          6,
+          6,
+          9,
+          4,
+          47,
+          9
+        ],
+        "audio": null,
+        "board_events": true,
+        "board_parameters": {
+          "start": 65668,
+          "field_stride": 4684,
+          "rows": 47,
+          "stride": 8,
+          "columns": 7,
+          "fields": 2
+        },
+        "snapshot_frames": [
+          1,
+          10,
+          20,
+          40
+        ],
+        "music_trace_parameters": null,
+        "ai_trace_parameters": null,
+        "bot_parameters": null,
+        "bot_observed_shapes": null,
+        "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+        "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+        "initial_state_sha256": "1aaf0ab6ef97e03191e6410253a75d08fe56ea2700df0075bde4d9bb3ab7496a",
+        "random_seed": "encoded in the initial emulator state",
+        "core_options": {
+          "mgba_solar_sensor_level": "0",
+          "mgba_allow_opposing_directions": "no",
+          "mgba_gb_model": "Autodetect",
+          "mgba_use_bios": "ON",
+          "mgba_skip_bios": "OFF",
+          "mgba_sgb_borders": "ON",
+          "mgba_idle_optimization": "Remove Known",
+          "mgba_frameskip": "disabled",
+          "mgba_frameskip_threshold": "33",
+          "mgba_frameskip_interval": "0",
+          "mgba_color_correction": "OFF",
+          "mgba_interframe_blending": "OFF",
+          "mgba_force_gbp": "OFF",
+          "mgba_gb_colors": "Grayscale"
+        },
+        "frames": 40
+      },
+      "source_ram_sha256": "0a8c682b2aafad106b42e230674def88b9f3f6612fe7363cf232cac3280c7706",
+      "initial_y": 688.4980773925781,
+      "initial_x": 3.5,
+      "rows": [
+        [
+          0,
+          0,
+          0,
+          3,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "samples": [
+        {
+          "frame": 1,
+          "world_y": 688.4980773925781,
+          "velocity": 1.0,
+          "drop_ticks": 9
+        },
+        {
+          "frame": 2,
+          "world_y": 689.4980773925781,
+          "velocity": 1.1999969482421875,
+          "drop_ticks": 8
+        },
+        {
+          "frame": 3,
+          "world_y": 690.6980743408203,
+          "velocity": 1.399993896484375,
+          "drop_ticks": 7
+        },
+        {
+          "frame": 4,
+          "world_y": 692.0980682373047,
+          "velocity": 1.5999908447265625,
+          "drop_ticks": 6
+        },
+        {
+          "frame": 5,
+          "world_y": 693.6980590820312,
+          "velocity": 1.79998779296875,
+          "drop_ticks": 5
+        },
+        {
+          "frame": 6,
+          "world_y": 695.498046875,
+          "velocity": 1.9999847412109375,
+          "drop_ticks": 4
+        },
+        {
+          "frame": 7,
+          "world_y": 697.4980316162109,
+          "velocity": 2.199981689453125,
+          "drop_ticks": 3
+        },
+        {
+          "frame": 8,
+          "world_y": 699.6980133056641,
+          "velocity": 2.3999786376953125,
+          "drop_ticks": 2
+        },
+        {
+          "frame": 9,
+          "world_y": 702.0979919433594,
+          "velocity": 2.5999755859375,
+          "drop_ticks": 1
+        },
+        {
+          "frame": 10,
+          "world_y": 704.6979675292969,
+          "velocity": 2.7999725341796875,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 11,
+          "world_y": 707.4979400634766,
+          "velocity": 2.999969482421875,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 12,
+          "world_y": 710.4979095458984,
+          "velocity": 3.1999664306640625,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 13,
+          "world_y": 713.6978759765625,
+          "velocity": 3.39996337890625,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 14,
+          "world_y": 717.0978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 15,
+          "world_y": 720.5978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 16,
+          "world_y": 724.0978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 17,
+          "world_y": 727.5978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 18,
+          "world_y": 731.0978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 19,
+          "world_y": 734.5978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        },
+        {
+          "frame": 20,
+          "world_y": 738.0978393554688,
+          "velocity": 3.5,
+          "drop_ticks": 0
+        }
+      ]
+    }
+  ],
+  "limits": "Two roof drop-through captures, first twenty frames before water entry. Water recovery has its separate native fixture."
+}

@@ -5,6 +5,8 @@ node_modules/
 backups/
 *.zip
 *.tar.gz
+!renderer/games/eggo-mania/assets/native-audio/audio-hardware-source.zip
+!renderer/games/eggo-mania/assets/native-program/program-source.zip
 
 # Local user play records and transient data
 data/records.json
@@ -15,6 +17,9 @@ data/mobile_controller_state.json
 # Test outputs and visual artifacts
 **/tests/artifacts/
 tests/artifacts/
+scripts/OUTPUT/
+tests/OUTPUT/
+scripts/__pycache__/
 .tempmediaStorage/
 
 # Logs and environment
@@ -27,3 +32,25 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Local reference-analysis dependencies
+scripts/.tools/
+
+# Original-ROM user recordings and local Python bytecode
+tools/eggo-recorder/OUTPUT/
+tools/eggo-recorder/__pycache__/
+tools/eggo-recorder/last-error.txt
+
+# Local reverse-engineering scratch work and machine-specific shortcuts
+/scratch*
+/scripts/scratch/
+/crop*.png
+/diff*.png
+/native_f*
+/orig*.png
+/true-orig*.png
+*.lnk
+**/OUTPUT/
+
+# The hosted Site has its own independently published Git repository
+/sites/

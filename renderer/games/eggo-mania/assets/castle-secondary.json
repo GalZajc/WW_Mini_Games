@@ -1,0 +1,58 @@
+[
+  {
+    "phase": 1,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-30-00_135681\\castle-secondary-hard.frame00750",
+    "object": {
+      "id": 26,
+      "x": 172,
+      "y": 249,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "3c322fec72c1ee83c3222d0ce6584a5c808591dc5c2fc55a8f546585f2ea5458"
+  },
+  {
+    "phase": 2,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-30-00_135681\\castle-secondary-hard.frame00758",
+    "object": {
+      "id": 28,
+      "x": 156,
+      "y": 243,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "40e551a588226317e61f475503e65be329c0188188067b87ef259d5e668d0c24"
+  },
+  {
+    "phase": 3,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-30-00_135681\\castle-secondary-hard.frame00766",
+    "object": {
+      "id": 28,
+      "x": 140,
+      "y": 3,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "3c322fec72c1ee83c3222d0ce6584a5c808591dc5c2fc55a8f546585f2ea5458"
+  },
+  {
+    "phase": 0,
+    "source": "scripts\\OUTPUT\\eggo-reference_2026-10-04_00-30-00_135681\\castle-secondary-hard.frame00774",
+    "object": {
+      "id": 26,
+      "x": 125,
+      "y": 42,
+      "w": 64,
+      "h": 64,
+      "tile": 702,
+      "palette": 9
+    },
+    "pixel_sha256": "f2234f09ac303f0b28ec3092c3ae9bad28801e4072061f6209d9fe917aed5c0c"
+  }
+]

@@ -1,0 +1,6652 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+    "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+    "steering_entry": 134249924,
+    "steering_end": 134250224,
+    "direction_entry": 134251004,
+    "direction_end": 134251126,
+    "cpu": 33577536,
+    "actor": 33574736,
+    "stack": 50360320,
+    "instruction_limit": 1000,
+    "fixed_scale": 65536,
+    "sentinel": 3639672832,
+    "fixture": "tests/fixtures/eggo-cpu-steering-gba.json",
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "ram_sha256": "3c1097f82e58d28badbb701da70207fc1f7d3a4fae803f3325560ae38ffeb0f5",
+    "iwram_sha256": "eaeaf82982b070f281f2ef9398888745d19b24f37c1c8a34d33c3b58d45e4c09",
+    "steering_cases": [
+      {
+        "name": "column-0--12.125",
+        "x": -794624,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-0--12",
+        "x": -786432,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-0--11.875",
+        "x": -778240,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-0--8",
+        "x": -524288,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-0--4.125",
+        "x": -270336,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-0--4",
+        "x": -262144,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-0--3.875",
+        "x": -253952,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-1--12.125",
+        "x": 253952,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-1--12",
+        "x": 262144,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-1--11.875",
+        "x": 270336,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-1--8",
+        "x": 524288,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-1--4.125",
+        "x": 778240,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-1--4",
+        "x": 786432,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-1--3.875",
+        "x": 794624,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-2--12.125",
+        "x": 1302528,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-2--12",
+        "x": 1310720,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-2--11.875",
+        "x": 1318912,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-2--8",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-2--4.125",
+        "x": 1826816,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-2--4",
+        "x": 1835008,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-2--3.875",
+        "x": 1843200,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-3--12.125",
+        "x": 2351104,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-3--12",
+        "x": 2359296,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-3--11.875",
+        "x": 2367488,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-3--8",
+        "x": 2621440,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-3--4.125",
+        "x": 2875392,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-3--4",
+        "x": 2883584,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-3--3.875",
+        "x": 2891776,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-4--12.125",
+        "x": 3399680,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-4--12",
+        "x": 3407872,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-4--11.875",
+        "x": 3416064,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-4--8",
+        "x": 3670016,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-4--4.125",
+        "x": 3923968,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-4--4",
+        "x": 3932160,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-4--3.875",
+        "x": 3940352,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-5--12.125",
+        "x": 4448256,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-5--12",
+        "x": 4456448,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-5--11.875",
+        "x": 4464640,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-5--8",
+        "x": 4718592,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-5--4.125",
+        "x": 4972544,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-5--4",
+        "x": 4980736,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-5--3.875",
+        "x": 4988928,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-6--12.125",
+        "x": 5496832,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-6--12",
+        "x": 5505024,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-6--11.875",
+        "x": 5513216,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-6--8",
+        "x": 5767168,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-6--4.125",
+        "x": 6021120,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-6--4",
+        "x": 6029312,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "column-6--3.875",
+        "x": 6037504,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      {
+        "name": "pickup--2.125-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1433600,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup--2.125--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1433600,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup--2.125-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1433600,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup--2-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1441792,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup--2--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1441792,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup--2-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1441792,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup--1.875-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1449984,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup--1.875--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1449984,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup--1.875-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1449984,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup-0-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1572864,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup-0--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1572864,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup-0-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1572864,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup-1.875-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1695744,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup-1.875--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1695744,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup-1.875-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1695744,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup-2-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1703936,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup-2--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1703936,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup-2-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1703936,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup-2.125-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1712128,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup-2.125--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1712128,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "pickup-2.125-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1712128,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      {
+        "name": "idle-29.875",
+        "x": 1957888,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      {
+        "name": "idle-30",
+        "x": 1966080,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      {
+        "name": "idle-30.125",
+        "x": 1974272,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      {
+        "name": "idle-32",
+        "x": 2097152,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      {
+        "name": "idle-33.875",
+        "x": 2220032,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      {
+        "name": "idle-34",
+        "x": 2228224,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      {
+        "name": "idle-34.125",
+        "x": 2236416,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      }
+    ],
+    "direction_cases": [
+      {
+        "keys": 16,
+        "counterCC": 0,
+        "counterD0": 0,
+        "previousKeys": 0
+      },
+      {
+        "keys": 32,
+        "counterCC": 0,
+        "counterD0": 0,
+        "previousKeys": 0
+      },
+      {
+        "keys": 16,
+        "counterCC": 0,
+        "counterD0": 1,
+        "previousKeys": 32
+      },
+      {
+        "keys": 32,
+        "counterCC": 1,
+        "counterD0": 0,
+        "previousKeys": 16
+      },
+      {
+        "keys": 16,
+        "counterCC": 7,
+        "counterD0": 0,
+        "previousKeys": 16
+      },
+      {
+        "keys": 32,
+        "counterCC": 0,
+        "counterD0": 7,
+        "previousKeys": 32
+      },
+      {
+        "keys": 0,
+        "counterCC": 0,
+        "counterD0": 0,
+        "previousKeys": 16
+      },
+      {
+        "keys": 64,
+        "counterCC": 4,
+        "counterD0": 7,
+        "previousKeys": 32
+      },
+      {
+        "keys": 48,
+        "counterCC": 0,
+        "counterD0": 0,
+        "previousKeys": 0
+      }
+    ]
+  },
+  "steering": [
+    {
+      "input": {
+        "name": "column-0--12.125",
+        "x": -794624,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": -794624
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 0
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 0
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 0
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-0--12",
+        "x": -786432,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": -786432
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 0
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 0
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 0
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-0--11.875",
+        "x": -778240,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": -778240
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 0
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 0
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 0
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-0--8",
+        "x": -524288,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": -524288
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 0
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 0
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 0
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-0--4.125",
+        "x": -270336,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": -270336
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 0
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 0
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 0
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-0--4",
+        "x": -262144,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": -262144
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 0
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 0
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 0
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-0--3.875",
+        "x": -253952,
+        "vy": 0,
+        "actorColumn": 0,
+        "targetColumn": 0,
+        "waypointColumn": 0,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": -253952
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 0
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 0
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 0
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-1--12.125",
+        "x": 253952,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 253952
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 1
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 1
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 1
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-1--12",
+        "x": 262144,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 262144
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 1
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 1
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 1
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-1--11.875",
+        "x": 270336,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 270336
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 1
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 1
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 1
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-1--8",
+        "x": 524288,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 524288
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 1
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 1
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 1
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-1--4.125",
+        "x": 778240,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 778240
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 1
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 1
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 1
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-1--4",
+        "x": 786432,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 786432
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 1
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 1
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 1
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-1--3.875",
+        "x": 794624,
+        "vy": 0,
+        "actorColumn": 1,
+        "targetColumn": 1,
+        "waypointColumn": 1,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 794624
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 1
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 1
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 1
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-2--12.125",
+        "x": 1302528,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1302528
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 2
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 2
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-2--12",
+        "x": 1310720,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1310720
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 2
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 2
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-2--11.875",
+        "x": 1318912,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1318912
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 2
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 2
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-2--8",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 2
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 2
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-2--4.125",
+        "x": 1826816,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1826816
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 2
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 2
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-2--4",
+        "x": 1835008,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1835008
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 2
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 2
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-2--3.875",
+        "x": 1843200,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 2,
+        "waypointColumn": 2,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1843200
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 2
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 2
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-3--12.125",
+        "x": 2351104,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 2351104
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-3--12",
+        "x": 2359296,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 2359296
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-3--11.875",
+        "x": 2367488,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 2367488
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-3--8",
+        "x": 2621440,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 2621440
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-3--4.125",
+        "x": 2875392,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 2875392
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-3--4",
+        "x": 2883584,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 2883584
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-3--3.875",
+        "x": 2891776,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 2891776
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-4--12.125",
+        "x": 3399680,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 3399680
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 4
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 4
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 4
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-4--12",
+        "x": 3407872,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 3407872
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 4
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 4
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 4
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-4--11.875",
+        "x": 3416064,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 3416064
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 4
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 4
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 4
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-4--8",
+        "x": 3670016,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 3670016
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 4
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 4
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 4
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-4--4.125",
+        "x": 3923968,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 3923968
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 4
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 4
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 4
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-4--4",
+        "x": 3932160,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 3932160
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 4
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 4
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 4
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-4--3.875",
+        "x": 3940352,
+        "vy": 0,
+        "actorColumn": 4,
+        "targetColumn": 4,
+        "waypointColumn": 4,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 3940352
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 4
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 4
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 4
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-5--12.125",
+        "x": 4448256,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 4448256
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 5
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 5
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 5
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-5--12",
+        "x": 4456448,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 4456448
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 5
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 5
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 5
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-5--11.875",
+        "x": 4464640,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 4464640
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 5
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 5
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 5
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-5--8",
+        "x": 4718592,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 4718592
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 5
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 5
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 5
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-5--4.125",
+        "x": 4972544,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 4972544
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 5
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 5
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 5
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-5--4",
+        "x": 4980736,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 4980736
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 5
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 5
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 5
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-5--3.875",
+        "x": 4988928,
+        "vy": 0,
+        "actorColumn": 5,
+        "targetColumn": 5,
+        "waypointColumn": 5,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 4988928
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 5
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 5
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 5
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-6--12.125",
+        "x": 5496832,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 5496832
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 6
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 6
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 6
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-6--12",
+        "x": 5505024,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 5505024
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 6
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 6
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 6
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-6--11.875",
+        "x": 5513216,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 80,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 5513216
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 6
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 6
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 6
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-6--8",
+        "x": 5767168,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 5767168
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 6
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 6
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 6
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-6--4.125",
+        "x": 6021120,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 6021120
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 6
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 6
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 6
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-6--4",
+        "x": 6029312,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 6029312
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 6
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 6
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 6
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "column-6--3.875",
+        "x": 6037504,
+        "vy": 0,
+        "actorColumn": 6,
+        "targetColumn": 6,
+        "waypointColumn": 6,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 64
+      },
+      "keys": 96,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 6037504
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 6
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 6
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 6
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup--2.125-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1433600,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 32,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1433600
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup--2.125--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1433600,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": -65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1433600
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup--2.125-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1433600,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1433600
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup--2-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1441792,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1441792
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup--2--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1441792,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": -65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1441792
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup--2-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1441792,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1441792
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup--1.875-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1449984,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1449984
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup--1.875--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1449984,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": -65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1449984
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup--1.875-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1449984,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1449984
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup-0-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1572864,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1572864
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup-0--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1572864,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": -65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1572864
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup-0-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1572864,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1572864
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup-1.875-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1695744,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1695744
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup-1.875--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1695744,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": -65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1695744
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup-1.875-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1695744,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1695744
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup-2-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1703936,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1703936
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup-2--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1703936,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": -65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1703936
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup-2-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1703936,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1703936
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup-2.125-0",
+        "x": 1572864,
+        "vy": 0,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1712128,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1712128
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup-2.125--65536",
+        "x": 1572864,
+        "vy": -65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1712128,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": -65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1712128
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "pickup-2.125-65536",
+        "x": 1572864,
+        "vy": 65536,
+        "actorColumn": 2,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 1712128,
+        "idleTarget": 2621440,
+        "kind": 0,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1572864
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 65536
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 2
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 1712128
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "idle-29.875",
+        "x": 1957888,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1957888
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": -1
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "idle-30",
+        "x": 1966080,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1966080
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": -1
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "idle-30.125",
+        "x": 1974272,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 1974272
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": -1
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "idle-32",
+        "x": 2097152,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 2097152
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": -1
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "idle-33.875",
+        "x": 2220032,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 2220032
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": -1
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "idle-34",
+        "x": 2228224,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 2228224
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": -1
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    },
+    {
+      "input": {
+        "name": "idle-34.125",
+        "x": 2236416,
+        "vy": 0,
+        "actorColumn": 3,
+        "targetColumn": 3,
+        "waypointColumn": 3,
+        "pickupTarget": 3639672832,
+        "idleTarget": 2621440,
+        "kind": -1,
+        "keys": 0
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "x",
+          "address": 33574736,
+          "value": 2236416
+        },
+        {
+          "name": "vy",
+          "address": 33574760,
+          "value": 0
+        },
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": -1
+        },
+        {
+          "name": "targetColumn",
+          "address": 33577536,
+          "value": 3
+        },
+        {
+          "name": "waypointColumn",
+          "address": 33577540,
+          "value": 3
+        },
+        {
+          "name": "idleTarget",
+          "address": 33577780,
+          "value": 2621440
+        },
+        {
+          "name": "actorColumn",
+          "address": 50360412,
+          "value": 3
+        },
+        {
+          "name": "pickupTarget",
+          "address": 50360356,
+          "value": 3639672832
+        }
+      ]
+    }
+  ],
+  "direction": [
+    {
+      "input": {
+        "keys": 16,
+        "counterCC": 0,
+        "counterD0": 0,
+        "previousKeys": 0
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 16
+        },
+        {
+          "name": "counterCC",
+          "address": 33577740,
+          "value": 0
+        },
+        {
+          "name": "counterD0",
+          "address": 33577744,
+          "value": 0
+        },
+        {
+          "name": "previousKeys",
+          "address": 33577768,
+          "value": 0
+        },
+        {
+          "name": "ccPointer",
+          "address": 50360500,
+          "value": 33577740
+        },
+        {
+          "name": "d0Pointer",
+          "address": 50360504,
+          "value": 33577744
+        },
+        {
+          "name": "previousPointer",
+          "address": 50360516,
+          "value": 33577768
+        }
+      ],
+      "counterCC": 20,
+      "counterD0": 0,
+      "previousKeys": 16
+    },
+    {
+      "input": {
+        "keys": 32,
+        "counterCC": 0,
+        "counterD0": 0,
+        "previousKeys": 0
+      },
+      "keys": 32,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 32
+        },
+        {
+          "name": "counterCC",
+          "address": 33577740,
+          "value": 0
+        },
+        {
+          "name": "counterD0",
+          "address": 33577744,
+          "value": 0
+        },
+        {
+          "name": "previousKeys",
+          "address": 33577768,
+          "value": 0
+        },
+        {
+          "name": "ccPointer",
+          "address": 50360500,
+          "value": 33577740
+        },
+        {
+          "name": "d0Pointer",
+          "address": 50360504,
+          "value": 33577744
+        },
+        {
+          "name": "previousPointer",
+          "address": 50360516,
+          "value": 33577768
+        }
+      ],
+      "counterCC": 0,
+      "counterD0": 20,
+      "previousKeys": 32
+    },
+    {
+      "input": {
+        "keys": 16,
+        "counterCC": 0,
+        "counterD0": 1,
+        "previousKeys": 32
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 16
+        },
+        {
+          "name": "counterCC",
+          "address": 33577740,
+          "value": 0
+        },
+        {
+          "name": "counterD0",
+          "address": 33577744,
+          "value": 1
+        },
+        {
+          "name": "previousKeys",
+          "address": 33577768,
+          "value": 32
+        },
+        {
+          "name": "ccPointer",
+          "address": 50360500,
+          "value": 33577740
+        },
+        {
+          "name": "d0Pointer",
+          "address": 50360504,
+          "value": 33577744
+        },
+        {
+          "name": "previousPointer",
+          "address": 50360516,
+          "value": 33577768
+        }
+      ],
+      "counterCC": 0,
+      "counterD0": 1,
+      "previousKeys": 0
+    },
+    {
+      "input": {
+        "keys": 32,
+        "counterCC": 1,
+        "counterD0": 0,
+        "previousKeys": 16
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 32
+        },
+        {
+          "name": "counterCC",
+          "address": 33577740,
+          "value": 1
+        },
+        {
+          "name": "counterD0",
+          "address": 33577744,
+          "value": 0
+        },
+        {
+          "name": "previousKeys",
+          "address": 33577768,
+          "value": 16
+        },
+        {
+          "name": "ccPointer",
+          "address": 50360500,
+          "value": 33577740
+        },
+        {
+          "name": "d0Pointer",
+          "address": 50360504,
+          "value": 33577744
+        },
+        {
+          "name": "previousPointer",
+          "address": 50360516,
+          "value": 33577768
+        }
+      ],
+      "counterCC": 1,
+      "counterD0": 0,
+      "previousKeys": 0
+    },
+    {
+      "input": {
+        "keys": 16,
+        "counterCC": 7,
+        "counterD0": 0,
+        "previousKeys": 16
+      },
+      "keys": 16,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 16
+        },
+        {
+          "name": "counterCC",
+          "address": 33577740,
+          "value": 7
+        },
+        {
+          "name": "counterD0",
+          "address": 33577744,
+          "value": 0
+        },
+        {
+          "name": "previousKeys",
+          "address": 33577768,
+          "value": 16
+        },
+        {
+          "name": "ccPointer",
+          "address": 50360500,
+          "value": 33577740
+        },
+        {
+          "name": "d0Pointer",
+          "address": 50360504,
+          "value": 33577744
+        },
+        {
+          "name": "previousPointer",
+          "address": 50360516,
+          "value": 33577768
+        }
+      ],
+      "counterCC": 20,
+      "counterD0": 0,
+      "previousKeys": 16
+    },
+    {
+      "input": {
+        "keys": 32,
+        "counterCC": 0,
+        "counterD0": 7,
+        "previousKeys": 32
+      },
+      "keys": 32,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 32
+        },
+        {
+          "name": "counterCC",
+          "address": 33577740,
+          "value": 0
+        },
+        {
+          "name": "counterD0",
+          "address": 33577744,
+          "value": 7
+        },
+        {
+          "name": "previousKeys",
+          "address": 33577768,
+          "value": 32
+        },
+        {
+          "name": "ccPointer",
+          "address": 50360500,
+          "value": 33577740
+        },
+        {
+          "name": "d0Pointer",
+          "address": 50360504,
+          "value": 33577744
+        },
+        {
+          "name": "previousPointer",
+          "address": 50360516,
+          "value": 33577768
+        }
+      ],
+      "counterCC": 0,
+      "counterD0": 20,
+      "previousKeys": 32
+    },
+    {
+      "input": {
+        "keys": 0,
+        "counterCC": 0,
+        "counterD0": 0,
+        "previousKeys": 16
+      },
+      "keys": 0,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 0
+        },
+        {
+          "name": "counterCC",
+          "address": 33577740,
+          "value": 0
+        },
+        {
+          "name": "counterD0",
+          "address": 33577744,
+          "value": 0
+        },
+        {
+          "name": "previousKeys",
+          "address": 33577768,
+          "value": 16
+        },
+        {
+          "name": "ccPointer",
+          "address": 50360500,
+          "value": 33577740
+        },
+        {
+          "name": "d0Pointer",
+          "address": 50360504,
+          "value": 33577744
+        },
+        {
+          "name": "previousPointer",
+          "address": 50360516,
+          "value": 33577768
+        }
+      ],
+      "counterCC": 15,
+      "counterD0": 15,
+      "previousKeys": 0
+    },
+    {
+      "input": {
+        "keys": 64,
+        "counterCC": 4,
+        "counterD0": 7,
+        "previousKeys": 32
+      },
+      "keys": 64,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 64
+        },
+        {
+          "name": "counterCC",
+          "address": 33577740,
+          "value": 4
+        },
+        {
+          "name": "counterD0",
+          "address": 33577744,
+          "value": 7
+        },
+        {
+          "name": "previousKeys",
+          "address": 33577768,
+          "value": 32
+        },
+        {
+          "name": "ccPointer",
+          "address": 50360500,
+          "value": 33577740
+        },
+        {
+          "name": "d0Pointer",
+          "address": 50360504,
+          "value": 33577744
+        },
+        {
+          "name": "previousPointer",
+          "address": 50360516,
+          "value": 33577768
+        }
+      ],
+      "counterCC": 15,
+      "counterD0": 15,
+      "previousKeys": 64
+    },
+    {
+      "input": {
+        "keys": 48,
+        "counterCC": 0,
+        "counterD0": 0,
+        "previousKeys": 0
+      },
+      "keys": 48,
+      "diagnostic_writes": [
+        {
+          "name": "actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "keys",
+          "address": 50360380,
+          "value": 48
+        },
+        {
+          "name": "counterCC",
+          "address": 33577740,
+          "value": 0
+        },
+        {
+          "name": "counterD0",
+          "address": 33577744,
+          "value": 0
+        },
+        {
+          "name": "previousKeys",
+          "address": 33577768,
+          "value": 0
+        },
+        {
+          "name": "ccPointer",
+          "address": 50360500,
+          "value": 33577740
+        },
+        {
+          "name": "d0Pointer",
+          "address": 50360504,
+          "value": 33577744
+        },
+        {
+          "name": "previousPointer",
+          "address": 50360516,
+          "value": 33577768
+        }
+      ],
+      "counterCC": 0,
+      "counterD0": 20,
+      "previousKeys": 48
+    }
+  ],
+  "limits": "Original steering and direction instruction segments, with explicit diagnostic inputs; not full controller parity."
+}

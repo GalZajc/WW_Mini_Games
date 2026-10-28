@@ -1,0 +1,1 @@
+export {CYCLE_MUSIC,createCycleMusic} from '../../renderer/games/eggo-mania/native-program-music.js';

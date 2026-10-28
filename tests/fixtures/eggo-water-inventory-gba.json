@@ -1,0 +1,134 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_13-41-42_291613",
+    "name": "dive-inventory",
+    "inventory": 17464,
+    "world_y": 15320,
+    "baseline_world_y": 720.0440673828125,
+    "tile_pixels": 16,
+    "water_height_cells": -2,
+    "entry_offset_cells": 0.25
+  },
+  "source_parameters": {
+    "item_trace_parameters": {
+      "item_palette": 2,
+      "actor_palettes": [
+        0,
+        1
+      ],
+      "held_offset": [
+        24,
+        15
+      ],
+      "held_tolerance": 3,
+      "size": 16,
+      "actor_anchor": [
+        32,
+        56
+      ],
+      "actor_world_addresses": [
+        15316,
+        20304
+      ],
+      "capture_unknown_pictures": true,
+      "inventory_addresses": [
+        17464,
+        22452
+      ],
+      "bomb_inventory_id": 8,
+      "icon_indices": {
+        "bomb": 27,
+        "boots": 19,
+        "cloud": 14,
+        "filler": 9,
+        "hammer": 29
+      }
+    },
+    "rival_pose_parameters": null,
+    "load": "scripts/OUTPUT/eggo-reference_2026-10-03_02-54-44_146165/hard-origin.state",
+    "steps": [
+      [
+        2,
+        "L"
+      ],
+      [
+        88,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [],
+    "sample_every": 2,
+    "sample_graphics": true,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "board_events": false,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "6fefcbbbdd7d43e491f6a8d4e32520d7f82b49ac5c6d25060882137ff79115cd",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 90
+  },
+  "samples": [
+    {
+      "frame": 10,
+      "world_y": 736.2439575195312,
+      "height_cells": -1.0124931335449219,
+      "inventory_id": 6,
+      "ram_sha256": "3cb86959dfc40f18b2d9bb7aea61f8bab44acf05574f8aa3cb50c0a169a9f1ce"
+    },
+    {
+      "frame": 12,
+      "world_y": 742.0438995361328,
+      "height_cells": -1.3749895095825195,
+      "inventory_id": 6,
+      "ram_sha256": "950671a15126a1ecfeb0608f289eaf1cce96e85f50f054626594961f99945900"
+    },
+    {
+      "frame": 14,
+      "world_y": 748.6438293457031,
+      "height_cells": -1.787485122680664,
+      "inventory_id": -1,
+      "ram_sha256": "f308735e4c81911c6c4f96bb98b8c44ef44caf7240b25f596ccba4d7116bc6dd"
+    },
+    {
+      "frame": 16,
+      "world_y": 757.7551574707031,
+      "height_cells": -2.356943130493164,
+      "inventory_id": -1,
+      "ram_sha256": "f9cf1d08913b6fc687582fcd514522ecf4108abaad3be8e32a2d686193b75be5"
+    }
+  ],
+  "carried_through_frame": 13,
+  "lost_on_frame": 14,
+  "inventory_trace_sha256": "49837a7d474adb8f6b6efbb130abc138ff84939ed3e50639deece16b7d54a23c",
+  "limits": "Normal carried piece; does not measure bomb fuse, discarded-object motion or underwater pickup eligibility."
+}

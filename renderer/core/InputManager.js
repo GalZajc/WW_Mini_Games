@@ -44,6 +44,7 @@ export class InputManager {
         this._gpButtonsJustUp   = new Map();
         this._gpAxes            = new Map(); // idx → Float32Array
         this._gpPrev            = new Map(); // idx → Set<buttonIndex> (prev frame)
+        this._gamepadSamples    = []; // Same poll consumed by gameplay and timing diagnostics.
 
         // ── Action bindings ─────────────────────────
         // { actionName: [ { type, code }, … ] }
@@ -164,6 +165,7 @@ export class InputManager {
 
     _pollGamepads() {
         const gamepads = navigator.getGamepads();
+        this._gamepadSamples = gamepads;
         for (const gp of gamepads) {
             if (!gp) continue;
             const idx  = gp.index;
@@ -186,6 +188,14 @@ export class InputManager {
             this._gpButtonsJustUp.set(idx, justUp);
             this._gpAxes.set(idx, Array.from(gp.axes));
             this._gpPrev.set(idx, down);
+
+            if (this._listening && justDown.size) {
+                const code = justDown.values().next().value;
+                const callback = this._listenCallback;
+                this._listening = false;
+                this._listenCallback = null;
+                callback?.({ type: 'gamepad', code });
+            }
         }
     }
 
@@ -284,6 +294,12 @@ export class InputManager {
     getAxis(gpIndex, axis) {
         const a = this._gpAxes.get(gpIndex);
         return a ? (a[axis] || 0) : 0;
+    }
+
+    /** Returns an axis from the first currently connected gamepad. */
+    getFirstGamepadAxis(axis) {
+        const gamepad = navigator.getGamepads().find(g => g && g.connected);
+        return gamepad ? this.getAxis(gamepad.index, axis) : 0;
     }
 
     /** Returns true if at least one gamepad is connected. */

@@ -1,0 +1,887 @@
+{
+  "parameters": {
+    "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+    "palette_source": "scripts/OUTPUT/eggo-reference_2026-10-04_02-09-36_941624/jungle-native-drop-long.frame00400.0x5000000",
+    "graphic_offset": 2182916,
+    "types": 13,
+    "orientations": 4,
+    "picture_bytes": 128,
+    "palette": 2,
+    "size": 16
+  },
+  "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+  "palette_sha256": "b26729830b7d4799fd49c1e79d8ad2ac430cd843fd51d53f9622d0b774375906",
+  "entries": [
+    {
+      "kind": 0,
+      "variant": 0,
+      "offset": 2182916,
+      "pixel_sha256": "b33de6ac8a39339e89941b31cb65f2aa9fcabd6ba51915c60cbe552dc1910971",
+      "old_icon": 10,
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "geometry_from_variant": 3
+    },
+    {
+      "kind": 1,
+      "variant": 0,
+      "offset": 2183044,
+      "pixel_sha256": "f8f174b8d565e692a861a252229287633b444ccaa3dd4cdd567577bdd10c4eae",
+      "old_icon": 17,
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "geometry_from_variant": 2
+    },
+    {
+      "kind": 2,
+      "variant": 0,
+      "offset": 2183172,
+      "pixel_sha256": "7ca8effb419d2afb6d4e5599f4f6eb4b8387c3dfbfba793aa79899c976725f74",
+      "old_icon": 13,
+      "cells": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 3,
+      "variant": 0,
+      "offset": 2183300,
+      "pixel_sha256": "60c15c87087864499981cb13889addb93d86550db0878f33776d69b52e3472ac",
+      "old_icon": 18,
+      "cells": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 4,
+      "variant": 0,
+      "offset": 2183428,
+      "pixel_sha256": "964354e72ddc3471c7652a01090c2c5496595747dee70b3ccc3268bb17002891",
+      "old_icon": 20,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "kind": 5,
+      "variant": 0,
+      "offset": 2183556,
+      "pixel_sha256": "8e5a3c010445af1af0317d3e8ab34490f5983877b52ff8aeb0680f1d832876f0",
+      "old_icon": 15,
+      "cells": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 6,
+      "variant": 0,
+      "offset": 2183684,
+      "pixel_sha256": "4a0c7a7361dfb084d6ce74f0681b4f41ee59dea9557380520f3e1a3403472753",
+      "old_icon": 26,
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "geometry_from_variant": 1
+    },
+    {
+      "kind": 7,
+      "variant": 0,
+      "offset": 2183812,
+      "pixel_sha256": "9fa00bf0d8cd3a58b5a6303875315e38db6a10254519d5ba041398fe24e6ecba",
+      "old_icon": 11,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "kind": 8,
+      "variant": 0,
+      "offset": 2183940,
+      "pixel_sha256": "d1fc1a6d9e70ed674f31f1a682000c2bd0c01dcafe7f2d62219d35046b587ba1",
+      "old_icon": null
+    },
+    {
+      "kind": 9,
+      "variant": 0,
+      "offset": 2184068,
+      "pixel_sha256": "4c323fc36de7390cde6e450b29053543fb4bc9c55982c67eea281a39eaed61c6",
+      "old_icon": 19
+    },
+    {
+      "kind": 10,
+      "variant": 0,
+      "offset": 2184196,
+      "pixel_sha256": "eb05d44b6c45930a076fbffa1fa7841f4bd434770e24fd70af084c2c66ce3499",
+      "old_icon": 9
+    },
+    {
+      "kind": 11,
+      "variant": 0,
+      "offset": 2184324,
+      "pixel_sha256": "143592db3748601690de63c44690ed52f6ccbc7db500fc1760e5617b69c362db",
+      "old_icon": null
+    },
+    {
+      "kind": 12,
+      "variant": 0,
+      "offset": 2184452,
+      "pixel_sha256": "96c2908a9befd6a684d410fcb48c27f0b3c94af9e2101d8753ce73e7362229e0",
+      "old_icon": 14
+    },
+    {
+      "kind": 0,
+      "variant": 1,
+      "offset": 2184580,
+      "pixel_sha256": "540a7781ef45a9b083c3a7f0916c138e70fae729763a61c91e0164e4ae7ccf05",
+      "old_icon": 12,
+      "cells": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "geometry_from_variant": 0
+    },
+    {
+      "kind": 1,
+      "variant": 1,
+      "offset": 2184708,
+      "pixel_sha256": "2b9981bde6d99dde7445efbd6949920d599937675633e74d48ef93429be13fcc",
+      "old_icon": null,
+      "cells": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "geometry_from_variant": 0
+    },
+    {
+      "kind": 2,
+      "variant": 1,
+      "offset": 2184836,
+      "pixel_sha256": "7ca8effb419d2afb6d4e5599f4f6eb4b8387c3dfbfba793aa79899c976725f74",
+      "old_icon": 13,
+      "cells": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 3,
+      "variant": 1,
+      "offset": 2184964,
+      "pixel_sha256": "ed70e1c6d7402ead9781ec14d547d4d4534b9350d0a46cfbe6d8f30beba5dde6",
+      "old_icon": null,
+      "cells": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "geometry_from_variant": 0
+    },
+    {
+      "kind": 4,
+      "variant": 1,
+      "offset": 2185092,
+      "pixel_sha256": "e2c3251336313ea8279724888ade5854d348e6c10662b2ad730e2a00c751c925",
+      "old_icon": 21,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 5,
+      "variant": 1,
+      "offset": 2185220,
+      "pixel_sha256": "2c2c95cc70145f09afcc4e7bf6df479816718a66ff1292b060a358cd6ab3a4f5",
+      "old_icon": 25,
+      "cells": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "geometry_from_variant": 0
+    },
+    {
+      "kind": 6,
+      "variant": 1,
+      "offset": 2185348,
+      "pixel_sha256": "a7d1e7fb9c33fdf4db3c8780d5b80dce326039e47f402ff1cd76d1e320bd85b4",
+      "old_icon": 2,
+      "cells": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 7,
+      "variant": 1,
+      "offset": 2185476,
+      "pixel_sha256": "4eae0b2c85589a33df5984d44a3f7748a4d5e0b3ed41805939a42ad27d40b694",
+      "old_icon": 7,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "kind": 8,
+      "variant": 1,
+      "offset": 2185604,
+      "pixel_sha256": "2d85d423fb33d544c2d32ace50347fa3a04671916e978bb4d75e9b2caccf9838",
+      "old_icon": 27
+    },
+    {
+      "kind": 9,
+      "variant": 1,
+      "offset": 2185732,
+      "pixel_sha256": "4c323fc36de7390cde6e450b29053543fb4bc9c55982c67eea281a39eaed61c6",
+      "old_icon": 19
+    },
+    {
+      "kind": 10,
+      "variant": 1,
+      "offset": 2185860,
+      "pixel_sha256": "eb05d44b6c45930a076fbffa1fa7841f4bd434770e24fd70af084c2c66ce3499",
+      "old_icon": 9
+    },
+    {
+      "kind": 11,
+      "variant": 1,
+      "offset": 2185988,
+      "pixel_sha256": "143592db3748601690de63c44690ed52f6ccbc7db500fc1760e5617b69c362db",
+      "old_icon": null
+    },
+    {
+      "kind": 12,
+      "variant": 1,
+      "offset": 2186116,
+      "pixel_sha256": "96c2908a9befd6a684d410fcb48c27f0b3c94af9e2101d8753ce73e7362229e0",
+      "old_icon": 14
+    },
+    {
+      "kind": 0,
+      "variant": 2,
+      "offset": 2186244,
+      "pixel_sha256": "19929df6ea15fb45c85a8dae1d96e4b2f18b4be843d1cde0273c93495fc2c86a",
+      "old_icon": null,
+      "cells": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "geometry_from_variant": 0
+    },
+    {
+      "kind": 1,
+      "variant": 2,
+      "offset": 2186372,
+      "pixel_sha256": "69287309dc9cb79812c3903afae46a1aa2f2e6a463d3926435bcfdf3bd7dbbea",
+      "old_icon": 4,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "kind": 2,
+      "variant": 2,
+      "offset": 2186500,
+      "pixel_sha256": "7b2aa1971a662d71336e98b64b120601f9b90df9653f2ad1e49baab0b9f0524a",
+      "old_icon": null,
+      "cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "geometry_from_variant": 0
+    },
+    {
+      "kind": 3,
+      "variant": 2,
+      "offset": 2186628,
+      "pixel_sha256": "f5d2fb5528b2ab34229c1abd23d47f4ee260bf06cf03673c0b800213c55d8300",
+      "old_icon": 16,
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 4,
+      "variant": 2,
+      "offset": 2186756,
+      "pixel_sha256": "964354e72ddc3471c7652a01090c2c5496595747dee70b3ccc3268bb17002891",
+      "old_icon": 20,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "kind": 5,
+      "variant": 2,
+      "offset": 2186884,
+      "pixel_sha256": "575c6abb46b0aeb4158351ab4c93648ccea03fb164cab3b8354402ee697c90dc",
+      "old_icon": null,
+      "cells": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "geometry_from_variant": 0
+    },
+    {
+      "kind": 6,
+      "variant": 2,
+      "offset": 2187012,
+      "pixel_sha256": "3882d8163cf19564a3c5c3582dcf745deff576fb39178d992834bbca618e20e9",
+      "old_icon": 0,
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 7,
+      "variant": 2,
+      "offset": 2187140,
+      "pixel_sha256": "468869bd90a45b2ea959dbbdb4e4ad4cddfd6e1361a0094561ad2bb4fe7b0c14",
+      "old_icon": 5,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "kind": 8,
+      "variant": 2,
+      "offset": 2187268,
+      "pixel_sha256": "2d85d423fb33d544c2d32ace50347fa3a04671916e978bb4d75e9b2caccf9838",
+      "old_icon": 27
+    },
+    {
+      "kind": 9,
+      "variant": 2,
+      "offset": 2187396,
+      "pixel_sha256": "4c323fc36de7390cde6e450b29053543fb4bc9c55982c67eea281a39eaed61c6",
+      "old_icon": 19
+    },
+    {
+      "kind": 10,
+      "variant": 2,
+      "offset": 2187524,
+      "pixel_sha256": "eb05d44b6c45930a076fbffa1fa7841f4bd434770e24fd70af084c2c66ce3499",
+      "old_icon": 9
+    },
+    {
+      "kind": 11,
+      "variant": 2,
+      "offset": 2187652,
+      "pixel_sha256": "143592db3748601690de63c44690ed52f6ccbc7db500fc1760e5617b69c362db",
+      "old_icon": null
+    },
+    {
+      "kind": 12,
+      "variant": 2,
+      "offset": 2187780,
+      "pixel_sha256": "96c2908a9befd6a684d410fcb48c27f0b3c94af9e2101d8753ce73e7362229e0",
+      "old_icon": 14
+    },
+    {
+      "kind": 0,
+      "variant": 3,
+      "offset": 2187908,
+      "pixel_sha256": "965ff7afd41405c3ec3d9fd097728ce3527cfb8bfeceb174a82e06a53e6d41bd",
+      "old_icon": 8,
+      "cells": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "kind": 1,
+      "variant": 3,
+      "offset": 2188036,
+      "pixel_sha256": "b008a892b61991f0833f34a89fa625495c713b084b0339f130601f5435533a23",
+      "old_icon": 6,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 2,
+      "variant": 3,
+      "offset": 2188164,
+      "pixel_sha256": "7ca8effb419d2afb6d4e5599f4f6eb4b8387c3dfbfba793aa79899c976725f74",
+      "old_icon": 13,
+      "cells": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 3,
+      "variant": 3,
+      "offset": 2188292,
+      "pixel_sha256": "9de242b38d76ab4dfe2cf43496bf485620cae2f9b0d8576f28c31ccbb4fc6799",
+      "old_icon": 3,
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 4,
+      "variant": 3,
+      "offset": 2188420,
+      "pixel_sha256": "fb88dd1eef152126f60842e4137ba6dfa7d74bae66f9158c993a8f1c2607fe2e",
+      "old_icon": 23,
+      "cells": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "geometry_from_variant": 0
+    },
+    {
+      "kind": 5,
+      "variant": 3,
+      "offset": 2188548,
+      "pixel_sha256": "17883a15ea09f241c4c57c840675b8e4ea13f7f304be608526c88aaacfd7c03c",
+      "old_icon": 1,
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 6,
+      "variant": 3,
+      "offset": 2188676,
+      "pixel_sha256": "0382e92ce29e080ad7cb27ef04f9f61ea78178370f17189519095392a639d7a9",
+      "old_icon": 24,
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": 7,
+      "variant": 3,
+      "offset": 2188804,
+      "pixel_sha256": "433d650c2903ed1701078f4ababbdff7fb3ed3efa5ddbf85b64e17002c0fbbd8",
+      "old_icon": 22,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "kind": 8,
+      "variant": 3,
+      "offset": 2188932,
+      "pixel_sha256": "2d85d423fb33d544c2d32ace50347fa3a04671916e978bb4d75e9b2caccf9838",
+      "old_icon": 27
+    },
+    {
+      "kind": 9,
+      "variant": 3,
+      "offset": 2189060,
+      "pixel_sha256": "4c323fc36de7390cde6e450b29053543fb4bc9c55982c67eea281a39eaed61c6",
+      "old_icon": 19
+    },
+    {
+      "kind": 10,
+      "variant": 3,
+      "offset": 2189188,
+      "pixel_sha256": "79fa09a4974b7be7bbbf4fca92049de48f859235b2e547a110e00bc1b209ceae",
+      "old_icon": null
+    },
+    {
+      "kind": 11,
+      "variant": 3,
+      "offset": 2189316,
+      "pixel_sha256": "143592db3748601690de63c44690ed52f6ccbc7db500fc1760e5617b69c362db",
+      "old_icon": null
+    },
+    {
+      "kind": 12,
+      "variant": 3,
+      "offset": 2189444,
+      "pixel_sha256": "96c2908a9befd6a684d410fcb48c27f0b3c94af9e2101d8753ce73e7362229e0",
+      "old_icon": 14
+    }
+  ]
+}

@@ -1,0 +1,3754 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-04_12-06-30_205010/native-cpu-building.frame00200",
+    "rom": "C:/Users/galza/Igre/nintendo/gba/Eggo Mania (E) (M6).gba",
+    "entry": 134245764,
+    "cpu": 33577536,
+    "actor": 33574736,
+    "stack": 50360320,
+    "frame_address": 33626780,
+    "instruction_limit": 1000,
+    "difficulty": 6,
+    "mode": 5,
+    "clock": 123,
+    "kinds": [
+      0,
+      2,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "periods": [
+      0,
+      1,
+      2,
+      1280
+    ],
+    "frames": [
+      200,
+      201
+    ],
+    "fixture": "tests/fixtures/eggo-cpu-inventory-gba.json",
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "ram_sha256": "3c1097f82e58d28badbb701da70207fc1f7d3a4fae803f3325560ae38ffeb0f5",
+    "iwram_sha256": "eaeaf82982b070f281f2ef9398888745d19b24f37c1c8a34d33c3b58d45e4c09"
+  },
+  "cases": [
+    {
+      "kind": 0,
+      "period": 0,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 0,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 0,
+      "period": 0,
+      "frame": 201,
+      "action": "use",
+      "after": {
+        "clock": 0,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 0,
+      "period": 1,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 0,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 0,
+      "period": 1,
+      "frame": 201,
+      "action": "use",
+      "after": {
+        "clock": 0,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 0,
+      "period": 2,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 0,
+      "period": 2,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 0,
+      "period": 1280,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 0,
+      "period": 1280,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 0
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 2,
+      "period": 0,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 0,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 2,
+      "period": 0,
+      "frame": 201,
+      "action": "use",
+      "after": {
+        "clock": 0,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 2,
+      "period": 1,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 0,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 2,
+      "period": 1,
+      "frame": 201,
+      "action": "use",
+      "after": {
+        "clock": 0,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 2,
+      "period": 2,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 2,
+      "period": 2,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 2,
+      "period": 1280,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 2,
+      "period": 1280,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 2
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 7,
+      "period": 0,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 0,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 7
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 7,
+      "period": 0,
+      "frame": 201,
+      "action": "use",
+      "after": {
+        "clock": 0,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 7
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 7,
+      "period": 1,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 0,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 7
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 7,
+      "period": 1,
+      "frame": 201,
+      "action": "use",
+      "after": {
+        "clock": 0,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 7
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 7,
+      "period": 2,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 7
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 7,
+      "period": 2,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 7
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 7,
+      "period": 1280,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 7
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 7,
+      "period": 1280,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 7
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 8,
+      "period": 0,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 0,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 8,
+      "period": 0,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 0,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 8,
+      "period": 1,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 0,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 8,
+      "period": 1,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 0,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 8,
+      "period": 2,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 8,
+      "period": 2,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 8,
+      "period": 1280,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 8,
+      "period": 1280,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 8
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 9,
+      "period": 0,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 9,
+      "period": 0,
+      "frame": 201,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 9,
+      "period": 1,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 9,
+      "period": 1,
+      "frame": 201,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 9,
+      "period": 2,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 9,
+      "period": 2,
+      "frame": 201,
+      "action": "defer",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 9,
+      "period": 1280,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 9,
+      "period": 1280,
+      "frame": 201,
+      "action": "defer",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 9
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 10,
+      "period": 0,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 0,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 10,
+      "period": 0,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 0,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 10,
+      "period": 1,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 0,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 10,
+      "period": 1,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 0,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 10,
+      "period": 2,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 10,
+      "period": 2,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 10,
+      "period": 1280,
+      "frame": 200,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 10,
+      "period": 1280,
+      "frame": 201,
+      "action": "plan",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 10
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 11,
+      "period": 0,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 11
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 11,
+      "period": 0,
+      "frame": 201,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 11
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 11,
+      "period": 1,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 11
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 11,
+      "period": 1,
+      "frame": 201,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 11
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 11,
+      "period": 2,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 11
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 11,
+      "period": 2,
+      "frame": 201,
+      "action": "defer",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 11
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 11,
+      "period": 1280,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 11
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 11,
+      "period": 1280,
+      "frame": 201,
+      "action": "defer",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 11
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 12,
+      "period": 0,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 12
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 12,
+      "period": 0,
+      "frame": 201,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 12
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 0
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 12,
+      "period": 1,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 12
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 12,
+      "period": 1,
+      "frame": 201,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1280,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 12
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 12,
+      "period": 2,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 12
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 12,
+      "period": 2,
+      "frame": 201,
+      "action": "defer",
+      "after": {
+        "clock": 123,
+        "period": 1,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 12
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 2
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 12,
+      "period": 1280,
+      "frame": 200,
+      "action": "use",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 36
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 12
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 200
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    },
+    {
+      "kind": 12,
+      "period": 1280,
+      "frame": 201,
+      "action": "defer",
+      "after": {
+        "clock": 123,
+        "period": 1279,
+        "stall": 0
+      },
+      "diagnostic_writes": [
+        {
+          "name": "kind",
+          "address": 33576884,
+          "value": 12
+        },
+        {
+          "name": "period",
+          "address": 33577792,
+          "value": 1280
+        },
+        {
+          "name": "clock",
+          "address": 33577736,
+          "value": 123
+        },
+        {
+          "name": "stall",
+          "address": 33577796,
+          "value": 0
+        },
+        {
+          "name": "difficulty",
+          "address": 33577776,
+          "value": 6
+        },
+        {
+          "name": "mode",
+          "address": 33626276,
+          "value": 5
+        },
+        {
+          "name": "frame",
+          "address": 33626780,
+          "value": 201
+        },
+        {
+          "name": "stack_actor",
+          "address": 50360432,
+          "value": 33574736
+        },
+        {
+          "name": "stack_clock",
+          "address": 50360496,
+          "value": 33577736
+        }
+      ]
+    }
+  ],
+  "limits": "Original inventory instruction segment, not complete tool navigation or match replay."
+}

@@ -1,0 +1,73 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_01-01-06_741942/bot-tower.frame00840.png",
+    "rectangle": [
+      112,
+      0,
+      128,
+      1
+    ],
+    "height": 160,
+    "comparisons": [
+      "dragon-assets",
+      "castle-assets",
+      "pirate-assets",
+      "round5",
+      "round6",
+      "round7",
+      "round8"
+    ],
+    "seed": null
+  },
+  "source_sha256": "b5b68397467942867df6f41da7e84ee1f48058d65ccc137c22b3ec599c90d026",
+  "script_sha256": "af5e6c02296926e13725b9ba5d1e067180ebc4530286993d839834c8e5d3dc7b",
+  "comparisons": [
+    {
+      "source": "tests\\artifacts\\eggo-reference\\dragon-assets.png",
+      "sha256": "2657acc7a5f2765e27d209ab78613703eea38b58e153a0d277c58457f2eaeb38",
+      "equal": true
+    },
+    {
+      "source": "tests\\artifacts\\eggo-reference\\castle-assets.png",
+      "sha256": "4ccad3785d2aedaa234a1f168cc8847788e0b6940eec0d011517f3d98cdef23c",
+      "equal": true
+    },
+    {
+      "source": "tests\\artifacts\\eggo-reference\\pirate-assets.png",
+      "sha256": "1a6c47c2da8b2523efc9189506b45c03a40a4f9af3edb1df6c3f52031105c660",
+      "equal": true
+    },
+    {
+      "source": "tests\\artifacts\\eggo-reference\\round5.png",
+      "sha256": "dd670b5ee3b28c19a5c30a170ec1677a5dae5c4e72c79c7a92318cd4f42ba71d",
+      "equal": true
+    },
+    {
+      "source": "tests\\artifacts\\eggo-reference\\round6.png",
+      "sha256": "0aa5bbd0aeb77b2c2f487fdfd8d6c1cb7000330e7daf9cd6862ea280ab9027b5",
+      "equal": true
+    },
+    {
+      "source": "tests\\artifacts\\eggo-reference\\round7.png",
+      "sha256": "198566cd6ef6e86ed6879c519c8d29f52843df6268af7f5fe67acc679fc49963",
+      "equal": true
+    },
+    {
+      "source": "tests\\artifacts\\eggo-reference\\round8.png",
+      "sha256": "b6ea75d76281f1ef8362ebcdc73944e53bb823c3a766fe2c03bbb6f9e824efd6",
+      "equal": true
+    }
+  ],
+  "limits": "Fixed rails only; portrait positions and foreground overlap are separate.",
+  "render_check": {
+    "source": "tests\\OUTPUT\\eggo-mania-visual_2026-10-04T19-33-13-678Z\\reference.native.png",
+    "sha256": "0e14dfe0e8bd1ba0f55ba01f666a15cf3f9f965d191cfe4fb1b2cba88bc0c9be",
+    "rectangle": [
+      112,
+      0,
+      128,
+      96
+    ],
+    "different_pixels": 0
+  }
+}

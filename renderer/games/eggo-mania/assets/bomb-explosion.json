@@ -1,0 +1,2218 @@
+{
+  "parameters": {
+    "source": "scripts/OUTPUT/eggo-reference_2026-10-03_13-22-05_526756",
+    "name": "bomb-explosion-art",
+    "frames": 40,
+    "size": 128,
+    "origin": [
+      64,
+      96
+    ],
+    "object_palette": 2,
+    "minimum_object": 21,
+    "maximum_opaque_pixels": 180,
+    "note": "Inventory ID set to bomb with zero fuse. Visual extraction only; no fuse or blast calibration."
+  },
+  "source_parameters": {
+    "item_trace_parameters": null,
+    "rival_pose_parameters": null,
+    "load": "scripts/OUTPUT/eggo-reference_2026-10-03_13-03-20_823216/human-bomb-special.frame00002.state",
+    "steps": [
+      [
+        40,
+        ""
+      ]
+    ],
+    "steps_file": null,
+    "writes": [
+      [
+        17464,
+        8
+      ]
+    ],
+    "sample_every": 1,
+    "sample_graphics": true,
+    "oam_trace": false,
+    "rom": "C:\\Users\\galza\\Igre\\nintendo\\gba\\Eggo Mania (E) (M6).gba",
+    "core": "C:\\Users\\galza\\Documents\\name\u0161\u010deni programi\\EMULATORJI\\RetroArch-Win64\\cores\\mgba_libretro.dll",
+    "board_events": false,
+    "board_parameters": {
+      "start": 65668,
+      "field_stride": 4684,
+      "rows": 47,
+      "stride": 8,
+      "columns": 7,
+      "fields": 2
+    },
+    "snapshot_frames": [],
+    "bot_parameters": null,
+    "bot_observed_shapes": null,
+    "rom_sha256": "6d2b36ace32d62c9e89dde5dfc236768b25ff4db66095673724affd2946a3514",
+    "core_sha256": "fe5f607e11f6f5d729825ca22d5e5b6df23aa94b8747bb1260f6bb0de5466c68",
+    "initial_state_sha256": "1dd9230227a95f4571e548f9bc4d341441131d2594c779c22e0f4840a6fde1f6",
+    "random_seed": "encoded in the initial emulator state",
+    "core_options": {
+      "mgba_solar_sensor_level": "0",
+      "mgba_allow_opposing_directions": "no",
+      "mgba_gb_model": "Autodetect",
+      "mgba_use_bios": "ON",
+      "mgba_skip_bios": "OFF",
+      "mgba_sgb_borders": "ON",
+      "mgba_idle_optimization": "Remove Known",
+      "mgba_frameskip": "disabled",
+      "mgba_frameskip_threshold": "33",
+      "mgba_frameskip_interval": "0",
+      "mgba_color_correction": "OFF",
+      "mgba_interframe_blending": "OFF",
+      "mgba_force_gbp": "OFF",
+      "mgba_gb_colors": "Grayscale"
+    },
+    "frames": 40
+  },
+  "frames": [
+    {
+      "frame": 1,
+      "objects": [],
+      "graphics_sha256": "fc9abb04ce8c8ec55c671d99a91fef194abb3ffb412a09d24bf9c9e1d381084e"
+    },
+    {
+      "frame": 2,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 56,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "b6c037b4b9b5f65e99b8723cc2fe37744ce959fe18ebff46dede82be073c7ea0"
+    },
+    {
+      "frame": 3,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 56,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "21abd851c91ac6dd5aa1a499fc3bdd9b14540b69ab439f42b13df489ee57ce4a"
+    },
+    {
+      "frame": 4,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 56,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "eef490a550681928460010dd80b279e059677ccfec00978133a7ed0eb022d87e"
+    },
+    {
+      "frame": 5,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 56,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 56,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "2e728e5e7909a514edbc0ba1e3c3dec5f19d560431d387dab985704f588afa66"
+    },
+    {
+      "frame": 6,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 122,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "17d41da4fa744a5f807e7794fca633dc62201c83b8b016e49b847b2b3de01331"
+    },
+    {
+      "frame": 7,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 122,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "fd1bebffb5baa3badd18d2344d1abea0fa32cc7066ce9c6c5fb785e6a4ad8741"
+    },
+    {
+      "frame": 8,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 122,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "138f3647830b83bbfe205848a6079320d49f4e8217cecf4ac86be7ab4f0417bd"
+    },
+    {
+      "frame": 9,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 122,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "fef1b9ffeb9204005d637a1d48f3a50698e848142c866ee9e4e50454ac136489"
+    },
+    {
+      "frame": 10,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 122,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 122,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "c3bbc71321af153ea899f28be8dd2fc6eddcda58ce35e58f3dfb055e4f7b8694"
+    },
+    {
+      "frame": 11,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 94,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "5c7928e0bf25d42a788fb3fa5ae17f232f44ed596d9c0bc5c30a9aae37e39559"
+    },
+    {
+      "frame": 12,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 94,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "8c2c8ae6a5414b3b0592ac08ce9fbdd825d2955d01e0780bfb63bc7f819485b5"
+    },
+    {
+      "frame": 13,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 94,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "a0e7e0f36d4228604c8d2585d768d9bdb4a81f3a2efae2ca62eec23cc212b78b"
+    },
+    {
+      "frame": 14,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 94,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "87d6814c844ce156cddc635b94c7ff6c3fe676afa9157e7f3b8c7bbfd056bebc"
+    },
+    {
+      "frame": 15,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 94,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 94,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "538592a21e8e8ac0886a5bc0930ce9abc4fc9fd407ac14cbf177d0adbfb769c2"
+    },
+    {
+      "frame": 16,
+      "objects": [
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16464,
+            10965
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            96,
+            16448,
+            10969
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            64,
+            16448,
+            10973
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            80,
+            16432,
+            10977
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            48,
+            16432,
+            10981
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            96,
+            16416,
+            10985
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            64,
+            16416,
+            10989
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            80,
+            16400,
+            10993
+          ],
+          "opaque": 52,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "d49790fefbc9837367e8785cc32e15ee31b815157dfdcfde28b551c7e448b79a"
+    },
+    {
+      "frame": 17,
+      "objects": [
+        {
+          "object": 35,
+          "attributes": [
+            80,
+            16464,
+            10966
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            96,
+            16448,
+            10970
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            64,
+            16448,
+            10974
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            80,
+            16432,
+            10978
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            48,
+            16432,
+            10982
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            96,
+            16416,
+            10986
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            64,
+            16416,
+            10990
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 28,
+          "attributes": [
+            80,
+            16400,
+            10994
+          ],
+          "opaque": 52,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "51d58483614f9ef688f016dbb38881fffc838e81c962e9e964d729ed2439bb74"
+    },
+    {
+      "frame": 18,
+      "objects": [
+        {
+          "object": 35,
+          "attributes": [
+            80,
+            16464,
+            10966
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            96,
+            16448,
+            10970
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            64,
+            16448,
+            10974
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            80,
+            16432,
+            10978
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            48,
+            16432,
+            10982
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            96,
+            16416,
+            10986
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 29,
+          "attributes": [
+            64,
+            16416,
+            10990
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 28,
+          "attributes": [
+            80,
+            16400,
+            10994
+          ],
+          "opaque": 52,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "2803a28eea25fb87a03882b6e91d45276c421021dfbe2a2823d878bf9de9d6d9"
+    },
+    {
+      "frame": 19,
+      "objects": [
+        {
+          "object": 37,
+          "attributes": [
+            80,
+            16464,
+            10950
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 36,
+          "attributes": [
+            96,
+            16448,
+            10954
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            64,
+            16448,
+            10958
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            80,
+            16432,
+            10962
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            48,
+            16432,
+            10966
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            96,
+            16416,
+            10970
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            64,
+            16416,
+            10974
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 30,
+          "attributes": [
+            80,
+            16400,
+            10978
+          ],
+          "opaque": 52,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "d7d1305109065c02979594d5525ae97c2b0f0cb81f9710d264f0c56b0ad97a85"
+    },
+    {
+      "frame": 20,
+      "objects": [
+        {
+          "object": 38,
+          "attributes": [
+            80,
+            16464,
+            10949
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 37,
+          "attributes": [
+            96,
+            16448,
+            10953
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 36,
+          "attributes": [
+            64,
+            16448,
+            10957
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            80,
+            16432,
+            10961
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            48,
+            16432,
+            10965
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            96,
+            16416,
+            10969
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            64,
+            16416,
+            10973
+          ],
+          "opaque": 52,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            80,
+            16400,
+            10977
+          ],
+          "opaque": 52,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "987b4ad021a5c64288ff8bd0dfaf3161a8b8b569e1559d56678a60ea3c98d231"
+    },
+    {
+      "frame": 21,
+      "objects": [
+        {
+          "object": 38,
+          "attributes": [
+            80,
+            16464,
+            10949
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 37,
+          "attributes": [
+            96,
+            16448,
+            10953
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 36,
+          "attributes": [
+            64,
+            16448,
+            10957
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            80,
+            16432,
+            10961
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            48,
+            16432,
+            10965
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            96,
+            16416,
+            10969
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            64,
+            16416,
+            10973
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            80,
+            16400,
+            10977
+          ],
+          "opaque": 12,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "16027e7d0c75490568edfcda06829fb97e52013d703c915a6535862e3302ba0d"
+    },
+    {
+      "frame": 22,
+      "objects": [
+        {
+          "object": 38,
+          "attributes": [
+            80,
+            16464,
+            10949
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 37,
+          "attributes": [
+            96,
+            16448,
+            10953
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 36,
+          "attributes": [
+            64,
+            16448,
+            10957
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            80,
+            16432,
+            10961
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            48,
+            16432,
+            10965
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            96,
+            16416,
+            10969
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            64,
+            16416,
+            10973
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 31,
+          "attributes": [
+            80,
+            16400,
+            10977
+          ],
+          "opaque": 12,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "5a5c1a6af553f3d21aee7ff9814fa2f18e052b0da6822803e2e94213e619a4f3"
+    },
+    {
+      "frame": 23,
+      "objects": [
+        {
+          "object": 39,
+          "attributes": [
+            80,
+            16464,
+            10945
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 38,
+          "attributes": [
+            96,
+            16448,
+            10949
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 37,
+          "attributes": [
+            64,
+            16448,
+            10953
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16432,
+            10957
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            48,
+            16432,
+            10961
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            96,
+            16416,
+            10965
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            64,
+            16416,
+            10969
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            80,
+            16400,
+            10973
+          ],
+          "opaque": 12,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "fae8c79bc7ac7eac3fbe4e3726605a7eebc5f7660460478d25ccc326c9cbd1d1"
+    },
+    {
+      "frame": 24,
+      "objects": [
+        {
+          "object": 39,
+          "attributes": [
+            80,
+            16464,
+            10945
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 38,
+          "attributes": [
+            96,
+            16448,
+            10949
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 37,
+          "attributes": [
+            64,
+            16448,
+            10953
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16432,
+            10957
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            48,
+            16432,
+            10961
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            96,
+            16416,
+            10965
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            64,
+            16416,
+            10969
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            80,
+            16400,
+            10973
+          ],
+          "opaque": 12,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "fc2b840c410768be3cff8922a661413b1703e5cce7fa3492a4ceb3efdb4da14c"
+    },
+    {
+      "frame": 25,
+      "objects": [
+        {
+          "object": 39,
+          "attributes": [
+            80,
+            16464,
+            10945
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 38,
+          "attributes": [
+            96,
+            16448,
+            10949
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 37,
+          "attributes": [
+            64,
+            16448,
+            10953
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 36,
+          "attributes": [
+            80,
+            16432,
+            10957
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 35,
+          "attributes": [
+            48,
+            16432,
+            10961
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 34,
+          "attributes": [
+            96,
+            16416,
+            10965
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 33,
+          "attributes": [
+            64,
+            16416,
+            10969
+          ],
+          "opaque": 12,
+          "matrix": null
+        },
+        {
+          "object": 32,
+          "attributes": [
+            80,
+            16400,
+            10973
+          ],
+          "opaque": 12,
+          "matrix": null
+        }
+      ],
+      "graphics_sha256": "1dc9ac9c9f647f043ed01756e222a92e987aba1d5ef4317f5d21a96d13a0ef95"
+    },
+    {
+      "frame": 26,
+      "objects": [],
+      "graphics_sha256": "f4ee227a00e18c8c7bd4ca7e506a80d58296806ec0b8866cd9d2394c042cf569"
+    },
+    {
+      "frame": 27,
+      "objects": [],
+      "graphics_sha256": "d97160ade1cb3a3f628022074c07ec3a2b003fd30f3e1559fad43b2971520a8b"
+    },
+    {
+      "frame": 28,
+      "objects": [],
+      "graphics_sha256": "03db688e96cf2fb47eaa712ab6b7b3583653dd89daa660acdea1b8cecf508d6e"
+    },
+    {
+      "frame": 29,
+      "objects": [],
+      "graphics_sha256": "def7dee51d31d27a939a4c6351b078f9ad8ea3664022df463f0119b0937e7bb3"
+    },
+    {
+      "frame": 30,
+      "objects": [],
+      "graphics_sha256": "a8bc4f56c27a3c7268f54057dcc70a1408d731e3462e56c06e44eec1cbe48664"
+    },
+    {
+      "frame": 31,
+      "objects": [],
+      "graphics_sha256": "2276f34e0fcab27bb4d32cebd7419f98bbf5f1ac821b7ca49d697e5e45a067c0"
+    },
+    {
+      "frame": 32,
+      "objects": [],
+      "graphics_sha256": "05e20d9367eb93c9fff1e74403e7bcb9526532fba14c61460bf03073ac6a51ab"
+    },
+    {
+      "frame": 33,
+      "objects": [],
+      "graphics_sha256": "710045dec2bf0fde259377bf4602d9ec610822c041ff7674b18ddfeb5a1bc2a4"
+    },
+    {
+      "frame": 34,
+      "objects": [],
+      "graphics_sha256": "0cf1b72332bd4d9e601b70479ac7d3c84b06d5f2e8a1fd100a0786da78ed045c"
+    },
+    {
+      "frame": 35,
+      "objects": [],
+      "graphics_sha256": "3b22609c9929b13514435b0a5d41015a92b7e23a9812a05773e4b8cbf7172c86"
+    },
+    {
+      "frame": 36,
+      "objects": [],
+      "graphics_sha256": "90ebde9907dc4a9fa0f92ef6719ec22ddd785192d187b2c260308cb226ec9707"
+    },
+    {
+      "frame": 37,
+      "objects": [],
+      "graphics_sha256": "9ce624f6108347b2fc8ba647475bd5db205e9cb6c7abf3c9a64d0da1c0ff0ad0"
+    },
+    {
+      "frame": 38,
+      "objects": [],
+      "graphics_sha256": "0cfe971381d1bb43c4dcd11a763527242b27d4ed89fb5f69f7353bbe6ed195c2"
+    },
+    {
+      "frame": 39,
+      "objects": [],
+      "graphics_sha256": "d9294d24f36dd4060afa6f2cffdf6de25264a55ac6c22611cfd59571ea14300c"
+    },
+    {
+      "frame": 40,
+      "objects": [],
+      "graphics_sha256": "ade3de09172d39829e261d7ad8890ed66dfdb7f793e0de4442e76a504b22fbc2"
+    }
+  ]
+}
