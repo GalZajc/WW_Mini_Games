@@ -5,7 +5,11 @@ import path from 'node:path';
 import WebSocket from 'ws';
 const root=process.cwd(),args=Object.fromEntries(process.argv.slice(2).map(a=>a.replace(/^--/,'').split(/=(.*)/s))),P={url:args.url??'https://eggo-mania-survival-ww.lightraven257.chatgpt.site',port:9397,seed:7,frames:190,muted:true,autoplayPolicy:'document-user-activation-required'};
 const out=path.join(root,'scripts/OUTPUT','eggo-browser-sound_'+new Date().toISOString().replace(/[:.]/g,'-'));await mkdir(out,{recursive:true});await writeFile(path.join(out,'parameters.json'),JSON.stringify(P,null,2));
-const child=spawn(path.join(root,'node_modules/electron/dist/electron.exe'),['--mute-audio','--autoplay-policy='+P.autoplayPolicy,'--remote-debugging-port='+P.port,'--user-data-dir='+path.join(out,'browser-profile'),'scripts/eggo-browser-audio-host.cjs'],{cwd:root,windowsHide:true,stdio:'ignore'});
+const browserArgs=['--mute-audio','--autoplay-policy='+P.autoplayPolicy,'--remote-debugging-port='+P.port,'--user-data-dir='+path.join(out,'browser-profile')];
+P.browser=args.browser??'electron';
+const executable=P.browser==='brave'?path.join(process.env.LOCALAPPDATA,'BraveSoftware/Brave-Browser/Application/brave.exe'):path.join(root,'node_modules/electron/dist/electron.exe');
+const child=spawn(executable,P.browser==='brave'?[...browserArgs,'--headless=new','--no-first-run','--no-default-browser-check','about:blank']:[...browserArgs,'scripts/eggo-browser-audio-host.cjs'],{cwd:root,windowsHide:true,stdio:'ignore'});
+await writeFile(path.join(out,'parameters.json'),JSON.stringify(P,null,2));
 const sleep=ms=>new Promise(r=>setTimeout(r,ms)),errors=[];let socket,id=0;const pending=new Map();
 try{
  let page;for(let i=0;i<150&&!page;i++){try{page=(await(await fetch('http://127.0.0.1:'+P.port+'/json')).json()).find(p=>p.type==='page');}catch{}if(!page)await sleep(100);}if(!page)throw Error('Hidden test browser unavailable');
