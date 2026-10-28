@@ -45,7 +45,13 @@ export async function createCycleAudioEngine({program,rom,initialState,sampleRat
    e.eggo_cycle_write32(CYCLE_AUDIO.seedAddress,seed&0xffff);
    e.eggo_cycle_write32(CYCLE_AUDIO.characterAddress,character);
    for(let frame=0;frame<CYCLE_AUDIO.maxReadyFrames;frame++)
-    if(e.eggo_cycle_seek_ready_frame(0,CYCLE_AUDIO.readyBudget))return frame+1;
+    if(e.eggo_cycle_seek_ready_frame(0,CYCLE_AUDIO.readyBudget)){
+     // The model/common replay starts after the READY frame's first driver
+     // pass. Fresh construction reaches its request one frame earlier;
+     // finish that neutral initialization pass before consuming live input.
+     e.eggo_cycle_step(0);
+     return frame+2;
+    }
    throw Error('Native Survival initialization did not reach READY');
   },
   step(mask){
@@ -55,7 +61,17 @@ export async function createCycleAudioEngine({program,rom,initialState,sampleRat
    const full=new Int16Array(e.memory.buffer,e.eggo_cycle_pcm_buffer(),n*2).slice();
    const m=new Int16Array(e.memory.buffer,e.eggo_stem_output(),n*2),stems=new Float32Array(n*4);
    for(let i=0;i<n*2;i++){stems[i]=m[i]/32768;stems[n*2+i]=(full[i]-m[i])/32768;}
-   this.frames++;return {full,stems};
+   let commands=null;
+   if(e.eggo_stem_command_count){
+    commands={reset:false,music:[],effects:[],tempo:[]};
+    const count=e.eggo_stem_command_count(),words=new Int32Array(e.memory.buffer,e.eggo_stem_commands(),count*2);
+    for(let i=0;i<count;i++){
+     const kind=words[i*2],value=words[i*2+1];
+     if(kind===0)commands.reset=true;
+     else commands[['','music','effects','tempo'][kind]].push(value);
+    }
+   }
+   this.frames++;return {full,stems,commands};
   },
  };
 }

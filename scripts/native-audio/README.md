@@ -1,5 +1,15 @@
 # Native sound reconstruction: October27, integrated
 
+October28: read the NEW root status first. The live Worker now gates the
+independent original-program PCM on its actual event trace agreeing with the
+visible game's reset/song/effect/tempo requests. Fresh initialization is moved
+one neutral frame to the model's boundary. If event streams diverge, audio
+continues from the continuously advanced model-driven native sequencer, before
+an unrelated original-program cue can reach the speakers. The original
+recording passes over its full length with this gate enabled:
+`eggo-program-player_2026-10-28T01-58-03-040Z`:108676frames,59621888stereo
+samples,0PCM differences,0event divergences and0scheduling gaps.
+
 The NEW top section of `../../EGGO_REPLAY_STATUS.md` supersedes all historical
 checkpoints below. NativeProgramAudioPlayer/worker is active for original-rule
 Survival. The COMPLETE production Worker replay matches59621888stereo samples

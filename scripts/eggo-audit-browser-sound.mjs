@@ -22,7 +22,7 @@ try{
  const state=()=>evaluate(`({context:eggo.audio._ctx.state,activation:navigator.userActivation.hasBeenActive,phase:eggo.game.phase,error:eggo.game.nativeSound.error??null,paused:eggo.game.nativeSound.paused,sources:eggo.game.nativeSound.sources.size,prompt:!!document.querySelector('#enable-sound:not([hidden])')})`);
  const initial=await state();
  // Controller actions enter through the game loop, without browser activation.
- P.menuFirst=args['menu-first']==='true';
+ P.menuFirst=args['menu-first']==='true';P.actualMenuSeed=await evaluate('eggo.game.seed');
  await writeFile(path.join(out,'parameters.json'),JSON.stringify(P,null,2));
  if(!P.menuFirst)await evaluate(`{const g=eggo.game;g.seed=${P.seed};g.resetSurvival();}`);
  for(let i=0;i<600;i++){const s=await evaluate('({preparing:eggo.game.nativeSound.preparing,error:eggo.game.nativeSound.error})');if(s.error)throw Error(s.error);if(!s.preparing)break;if(i===599)throw Error('Audio preparation timed out');await sleep(50);}
@@ -40,12 +40,12 @@ try{
   await evaluate('eggo.input.update();eggo.game.update(1/60);eggo.input.postUpdate();');
   await call('Input.dispatchKeyEvent',{type:'keyUp',key:'Enter',code:'Enter',windowsVirtualKeyCode:13,nativeVirtualKeyCode:13});
   for(let i=0;i<600;i++){const s=await evaluate('({preparing:eggo.game.nativeSound.preparing,error:eggo.game.nativeSound.error})');if(s.error)throw Error(s.error);if(!s.preparing)break;if(i===599)throw Error('Gameplay audio preparation timed out');await sleep(50);}
-  gameplay=await evaluate(`(async()=>{soundAudit.max=0;for(let i=0;i<190;i++){eggo.input.update();eggo.game.update(1/60);eggo.input.postUpdate();while(eggo.game.nativeSound.pendingFrames)await new Promise(r=>setTimeout(r,1));await new Promise(r=>setTimeout(r,17));const b=new Float32Array(2048);soundAudit.analyser.getFloatTimeDomainData(b);for(const v of b)soundAudit.max=Math.max(soundAudit.max,Math.abs(v));}return {phase:eggo.game.phase,original:eggo.game.nativeSound.original,peakPCM:soundAudit.max};})()`);
+  gameplay=await evaluate(`(async()=>{soundAudit.max=0;for(let i=0;i<190;i++){eggo.input.update();eggo.game.update(1/60);eggo.input.postUpdate();while(eggo.game.nativeSound.pendingFrames)await new Promise(r=>setTimeout(r,1));await new Promise(r=>setTimeout(r,17));const b=new Float32Array(2048);soundAudit.analyser.getFloatTimeDomainData(b);for(const v of b)soundAudit.max=Math.max(soundAudit.max,Math.abs(v));}return {phase:eggo.game.phase,original:eggo.game.nativeSound.original,divergence:eggo.game.nativeSound.divergence??null,error:eggo.game.nativeSound.error??null,peakPCM:soundAudit.max};})()`);
   console.log(JSON.stringify({menuPeakPCM:samples,afterClick,gameplay}));
   await writeFile(path.join(out,'transition.json'),JSON.stringify({menuPeakPCM:samples,afterClick,gameplay},null,2));
   // The native introduction length depends on the initial arena. Countdown
   // is already a valid game round with its own audible intro/READY sequence.
-  if(!['countdown','playing'].includes(gameplay.phase)||!gameplay.original||!gameplay.peakPCM)throw Error('Menu-to-gameplay audio transition failed');
+  if(!['countdown','playing'].includes(gameplay.phase)||(!gameplay.original&&!gameplay.divergence)||gameplay.error||!gameplay.peakPCM)throw Error('Menu-to-gameplay audio transition failed');
  }
  const report={initial,controllerOnly,afterClick,peakPCM:samples,gameplay,errors};await writeFile(path.join(out,'report.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({out,...report}));
  if(afterClick.context!=='running'||samples===0||errors.length)process.exitCode=1;

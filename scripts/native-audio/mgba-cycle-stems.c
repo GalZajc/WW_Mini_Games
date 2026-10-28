@@ -8,7 +8,7 @@
 #include <mgba/core/blip_buf.h>
 
 enum { RING_START=0x264c, RING_END=0x2f0c, IRAM_SIZE=0x8000,
-       HOST_PACKET=512, OUTPUT_CAPACITY=4096, CPU_HZ=16777216 };
+       HOST_PACKET=512, OUTPUT_CAPACITY=4096, CPU_HZ=16777216, COMMAND_CAPACITY=128 };
 static struct GBA* board;
 static struct GBAAudio fifoAudio;
 static blip_t *musicLeft,*musicRight;
@@ -18,6 +18,9 @@ static int16_t musicPCM[OUTPUT_CAPACITY*2];
 static unsigned musicCount,mixerCalls;
 static int musicClock,lastLeft,lastRight;
 static bool inMixer;
+static uint32_t soundCommands[COMMAND_CAPACITY*2],soundCommandCount;
+void* eggo_stem_commands(void) { return soundCommands; }
+unsigned eggo_stem_command_count(void) { return soundCommandCount; }
 __attribute__((import_module("eggo"),import_name("prepare_music")))
 extern void prepareMusic(void);
 
@@ -53,7 +56,7 @@ void eggo_stem_init(struct GBA* gba,double rate) {
  blip_clear(musicLeft);blip_clear(musicRight);
  musicClock=gba->audio.clock;lastLeft=lastRight=0;
 }
-void eggo_stem_begin_frame(void) { musicCount=0; }
+void eggo_stem_begin_frame(void) { musicCount=0;soundCommandCount=0; }
 void eggo_stem_post_audio(void) {
  if(!board)return;
  if(musicCount+HOST_PACKET>OUTPUT_CAPACITY||blip_samples_avail(musicLeft)<HOST_PACKET)__builtin_trap();
@@ -62,7 +65,17 @@ void eggo_stem_post_audio(void) {
  musicCount+=HOST_PACKET;
 }
 void eggo_stem_cpu_point(struct ARMCore* cpu,uint32_t site) {
- (void)cpu;if(!board)return;
+ if(!board)return;
+ // Observe actual requests without modifying instruction/event timing.
+ // Driver-internal calls (e.g. init's song0) are not new game requests.
+ uint32_t caller=(uint32_t)cpu->gprs[14]&~1u;
+ if(caller<0x0801f000||caller>=0x08022000){
+  int kind=site==0x0802070c?0:site==0x0802053c?1:site==0x08020898?2:site==0x0801f2cc?3:-1;
+  if(kind>=0){
+   if(soundCommandCount>=COMMAND_CAPACITY)__builtin_trap();
+   soundCommands[soundCommandCount*2]=kind;soundCommands[soundCommandCount*2+1]=(uint32_t)cpu->gprs[0];soundCommandCount++;
+  }
+ }
  if(site==0x0802070c){inMixer=false;memset(pcmEffects,0,sizeof(pcmEffects));memset(psgEffects,0,sizeof(psgEffects));}
  if(site==0x0801f480){prepareMusic();inMixer=true;mixerCalls++;}
 }

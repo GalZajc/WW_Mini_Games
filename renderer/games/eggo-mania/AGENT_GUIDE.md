@@ -1,5 +1,13 @@
 # Eggo Mania Survival/Hard: current implementation guide
 
+October28 live-audio correction: read the NEW root status first. A timing
+context can simulate a different game state from the visible model even if
+its original-input recording proof is exact. Native event tracing now gates
+PCM on matching reset/song/effect/tempo requests; divergence switches to the
+continuously advanced model-driven sequencer. Fresh initialization also ends
+one neutral frame later to match the visible game's intro boundary. Do not
+remove that gate based only on an input-tape/PCM proof.
+
 ## October27: complete recorded Survival and integrated audio
 
 Read the NEW project-root `EGGO_REPLAY_STATUS.md` section FIRST. The old

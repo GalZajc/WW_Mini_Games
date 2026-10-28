@@ -29,6 +29,7 @@ export class NativeAudioPlayer extends NativeAudioCommands {
     this.pendingFrames--;this.computeMs=data.computeMs;
     if(data.sessionId!==undefined&&data.sessionId!==this.sessionId)return;
     if(data.original!==undefined)this.original=data.original;
+    if(data.divergence)this.divergence=data.divergence;
     if(this.paused)this.held.push({pcm:data.pcm});
     else if(this.ctx.state==='suspended'){this.lockedPCM.push(data.pcm);if(this.lockedPCM.length>NATIVE_PLAYBACK.lockedFrames)this.lockedPCM.shift();}
     else{this.flushUnlocked();this.schedulePCM(data.pcm);}

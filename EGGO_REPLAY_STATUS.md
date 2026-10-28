@@ -1,4 +1,33 @@
-# CURRENT: October27, exact original-rule Survival audio ACTIVE
+# CURRENT: October28, live audio alignment audit
+
+The original-program timing context previously ran an independent game from
+raw inputs. A recording PCM proof alone did not establish alignment with the
+visible reconstructed game for arbitrary live input. The fresh initializer
+was also one frame behind the model: intro cue17 at native40 vs model39.
+Fresh prepareSurvival now finishes that neutral initialization pass; explicit
+diagnostic initial states are unchanged.
+
+The compiled program now traces actual external reset/song/effect/tempo calls
+without changing emulated timing. The Worker compares those requests to the
+visible game's requests BEFORE choosing each output packet. If they diverge,
+it continues the already-running model-driven native sequencer instead of
+playing sounds from another game state. No song restart, input tape or fitted
+events are used. This does not claim that all unrecorded gameplay is perfectly
+decompiled: it prevents that independent simulation from emitting unrelated
+sounds when the two game states differ.
+
+Fresh seed7/Eggo probe: intro requests aligned; first later mismatch is extra
+native effect28 at frame623. Enforcement proof then runs601 guarded frames:
+`scripts/OUTPUT/eggo-audio-alignment_2026-10-28T01-58-13-262Z`.
+Full recorded player replay PASSED:
+`scripts/OUTPUT/eggo-program-player_2026-10-28T01-58-03-040Z`.
+Verified108676 frames,59621888stereo samples,0differences,0gaps and NO event
+divergence on the original recording. PCM SHA256 remains
+9524921101d85e671a098f5feb5bee6a5a3918e15ad895dffd4cc753a2b7fdf0.
+All217352 source nodes keep an exact continuous sample clock.22 targeted
+tests pass. Do not repeat this full run without a new causal code change.
+
+## Earlier exact original-rule Survival integration
 
 October28 menu fix: character selection now starts native sequencer song1
 (ROM08000d74/08001b12), emits navigation effect10 and advances at fixed ticks.

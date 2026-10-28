@@ -47,7 +47,7 @@ with (out/'instructions.csv').open('w',encoding='utf-8',newline='')as f:
    fn=f'eggo_aot_page_{page:06x}';pages.append((page,fn));code=['#include <mgba/internal/arm/arm.h>',declarations,'#ifdef EGGO_STEMS\nvoid eggo_stem_cpu_point(struct ARMCore*,uint32_t);\n#endif',f'void {fn}(struct ARMCore* cpu,uint32_t site){{switch(site){{']
    for offset in range(page,min(page+P['pageBytes'],end),2):
     op=int.from_bytes(rom[offset:offset+2],'little');handler=names[op>>6];address=0x08000000+offset
-    hook=f'\n#ifdef EGGO_STEMS\n eggo_stem_cpu_point(cpu,0x{address:08x});\n#endif\n'if address in (0x0801f480,0x0802070c)else''
+    hook=f'\n#ifdef EGGO_STEMS\n eggo_stem_cpu_point(cpu,0x{address:08x});\n#endif\n'if address in (0x0801f480,0x0802070c,0x0802053c,0x08020898,0x0801f2cc)else''
     code.append(f'case 0x{address:08x}: {hook}eggo_aot_{handler}(cpu,0x{op:04x});return;');writer.writerow([f'{address:08x}',f'{op:04x}',handler])
    code.append('default:__builtin_trap();}}\n');name=f'page-{page:06x}.c';sources.append(name);(out/name).write_text('\n'.join(code),encoding='utf-8')
 dispatch=['#include <mgba/internal/arm/arm.h>','#include <mgba/internal/arm/isa-inlines.h>',

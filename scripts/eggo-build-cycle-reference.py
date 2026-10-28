@@ -28,7 +28,7 @@ for line in (ROOT/P['nativeManifest']).read_text(encoding='utf-8').splitlines():
 paths.extend([source/'src/util/memory.c',ROOT/'scripts/native-audio/mgba-cycle-reference.c'])
 if args.stems:
  P['stems']=True
- P['exports']+=['eggo_stem_iwram','eggo_stem_io','eggo_stem_prepared_ring','eggo_stem_music_ring','eggo_stem_pcm_owners','eggo_stem_output','eggo_stem_mixer_calls']
+ P['exports']+=['eggo_stem_iwram','eggo_stem_io','eggo_stem_prepared_ring','eggo_stem_music_ring','eggo_stem_pcm_owners','eggo_stem_output','eggo_stem_mixer_calls','eggo_stem_commands','eggo_stem_command_count']
  # Make private, reproducible instrumented copies. Never alter the installed
  # native reference core or its instruction/event timing.
  for i,src in enumerate(paths):

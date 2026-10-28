@@ -1,5 +1,5 @@
 {
-  "build": "scripts\\OUTPUT\\eggo-cycle-reference-build_2026-10-27T03-39-57_663129Z",
+  "build": "scripts\\OUTPUT\\eggo-cycle-reference-build_2026-10-28T01-51-21_424209Z",
   "bootstrap": "scripts/OUTPUT/eggo-cycle-bootstrap_2026-10-27T01-09-22-895Z/before-survival.state",
   "bootstrapPC": 134223540,
   "bootstrapFrame": 372,
@@ -26,7 +26,7 @@
     ]
   ],
   "install": true,
-  "version": "2db596533784e89a",
+  "version": "978eee78b3ab13be",
   "romSize": 4194304,
   "blocks": [
     {
@@ -48,8 +48,8 @@
   "assetSha256": {
     "before-survival.bin": "2d594f1bb922423c8451aeb2e246d9108bf78fd969781da107b750f48cd6a2f5",
     "program-data.bin": "9b7704a45fb0d2551cfb5c15d0f99489eebc2809a9fc55f3acc33725199a3b59",
-    "program-source.zip": "54c7c192fe92f606f08eaee22f6a0d6520fda8aadcba35b887626bc23fbd07af",
-    "program.wasm": "9d022ef58127f1c5b5a6bb6cbc026cd761f147bf0ebfb8c071148310d296c759",
+    "program-source.zip": "e6a5619a5c6d6f54cb36a25bd165ed7a22097aa3da3d0d4ff1583fa6385ee39f",
+    "program.wasm": "552e77c600db24359b2dba12aee7d1cdb2f4c63c7bda174080b7eac8b16e2075",
     "README.txt": "aee909f68f1c2503953ccb1502caac627acc958163598754d16b7d0e3f0770a6"
   }
 }
