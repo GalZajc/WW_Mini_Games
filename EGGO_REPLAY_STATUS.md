@@ -1,5 +1,12 @@
 # CURRENT: October27, exact original-rule Survival audio ACTIVE
 
+October28 menu fix: character selection now starts native sequencer song1
+(ROM08000d74/08001b12), emits navigation effect10 and advances at fixed ticks.
+Previously this screen never advanced sound, so enabling browser audio still
+produced silence until a round started. Gameplay still starts a fresh original
+session. Brave menu-first proof: eggo-browser-sound_2026-10-28T00-41-35-127Z
+(menu peak0.491, next-round peak0.556);22 existing audio/network tests pass.
+
 FINAL COMPLETION AUDIT PASSED (October27):
 `scripts/eggo-verify-program-player.mjs` exercises the CURRENT published
 player AND Worker for every packet, including all AudioBuffer channel copies,

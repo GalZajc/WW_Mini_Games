@@ -10,7 +10,7 @@ import {BaseGame} from '../../core/BaseGame.js';
 import {InputManager} from '../../core/InputManager.js';
 import {DEFAULTS,RULES,COLORS,Tower,settings,randomFrom,plan,survivalStage,startingStageFromSeed,nativeSurvivalRoundStart,reachableTowerColumn,nativeRandomStep,advanceNativeRandom} from './model.js';
 import {CHARACTER_ART} from './assets/characters.js';
-import {openCharacterMenu,updateCharacterMenu} from './character-menu.js';
+import {openCharacterMenu,updateCharacterMenu,advanceCharacterMenuAudio} from './character-menu.js';
 import {nativeHazards} from './native-hazards.js';
 import {NATIVE_INTRO,NATIVE_RESCUE,nativeRescueBoat} from './native-rescue.js';
 import {createNativeAmbient,advanceNativeAmbient} from './native-ambient.js';
@@ -248,7 +248,7 @@ export default class EggoMania extends BaseGame {
  // Real RAF timestamps are quantized: sample the nearest fixed tick rather
  // than alternating repeated frames with two-step jumps around a tick edge.
  // Explicit offline update(step) calls retain their exact frame schedule.
- update(dt,frameDt){this.performanceMonitor?.begin(dt,frameDt);if(this.nativeSound?.preparing)return;if(frameDt!==undefined)dt*=NATIVE_CLOCK.nativeFPS/NATIVE_CLOCK.gameFPS;this.presentationSlack=frameDt===undefined?0:RULES.step*RULES.presentationTickPhase;if(this.phase==='character-select'){updateCharacterMenu(this,dt);return;}if(this.input.isActionJustDown('restart')){this.resetSurvival();return;}if(this.phase==='countdown'&&this.roundLoadTicks>0){
+ update(dt,frameDt){this.performanceMonitor?.begin(dt,frameDt);if(this.nativeSound?.preparing)return;if(frameDt!==undefined)dt*=NATIVE_CLOCK.nativeFPS/NATIVE_CLOCK.gameFPS;this.presentationSlack=frameDt===undefined?0:RULES.step*RULES.presentationTickPhase;if(this.phase==='character-select'){updateCharacterMenu(this,dt);if(this.phase==='character-select')advanceCharacterMenuAudio(this,dt);return;}if(this.input.isActionJustDown('restart')){this.resetSurvival();return;}if(this.phase==='countdown'&&this.roundLoadTicks>0){
   // VBlank 3140 ORs keys into 0200008c while the main loop loads assets.
   // The first following actor input consumes even keys released during loading.
   const control=this.readPlayerControl(),queued=this.nativeLoadingControl??={float:false,fast:false};
